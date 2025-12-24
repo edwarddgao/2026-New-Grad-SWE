@@ -47,7 +47,7 @@ def generate_readme():
 
     readme = f"""# New Grad SWE Jobs - NYC & California
 
-> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions) and [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)
+> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), and [LinkedIn](https://linkedin.com/jobs)
 
 **Last updated:** {now}
 
@@ -98,6 +98,7 @@ This list aggregates new grad software engineering positions in NYC and Californ
 
 - **[SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions)** - Curated new grad job database
 - **[Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)** - AI-powered job aggregator
+- **[LinkedIn](https://linkedin.com/jobs)** - Professional job board (via JobSpy)
 
 ### Usage
 
