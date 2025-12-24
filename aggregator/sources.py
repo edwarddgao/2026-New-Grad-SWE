@@ -169,12 +169,23 @@ class BuiltInSource:
             print("  [BuiltIn] BeautifulSoup not installed. Run: pip install beautifulsoup4")
             self.available = False
 
-    def fetch(self, cities: List[str] = None, max_pages: int = 10) -> List[Job]:
+    def fetch(self, cities: List[str] = None, max_pages: int = 10, cached_jobs: Dict[str, dict] = None) -> List[Job]:
+        """
+        Fetch jobs from Built In.
+
+        Args:
+            cities: List of city codes to scrape (nyc, sf, la)
+            max_pages: Maximum pages to scrape per city
+            cached_jobs: Dictionary of url -> job_dict for preserving original posted dates
+        """
         if not self.available:
             return []
 
         if cities is None:
             cities = ["nyc"]
+
+        if cached_jobs is None:
+            cached_jobs = {}
 
         jobs = []
         headers = {
@@ -238,11 +249,20 @@ class BuiltInSource:
                             else:
                                 company = company_link.get_text(strip=True)
 
-                        # Get posting date - look for text with "Ago" or "Yesterday"
-                        date_posted = self._extract_date(card)
-
                         # Get location
                         location = self._extract_location(card, city)
+
+                        # Build full URL for cache lookup
+                        full_url = f"{self.BASE_URL}{job_url}"
+
+                        # Use cached posted date if available, otherwise calculate from relative time
+                        # This ensures the posted date stays stable across scrapes
+                        cached_job = cached_jobs.get(full_url)
+                        if cached_job and cached_job.get('date_posted'):
+                            date_posted = cached_job['date_posted']
+                        else:
+                            # Only calculate date for NEW jobs we haven't seen before
+                            date_posted = self._extract_date(card)
 
                         job = Job(
                             id=f"builtin_{job_id}",
@@ -250,7 +270,7 @@ class BuiltInSource:
                             company=company,
                             company_slug=self._slugify(company),
                             location=location,
-                            url=f"{self.BASE_URL}{job_url}",
+                            url=full_url,
                             source=f"builtin_{city}",
                             date_posted=date_posted,
                             experience_level="entry_level"
@@ -457,9 +477,19 @@ class JobSpySource:
             print("  [JobSpy] Not installed. Run: pip install python-jobspy")
 
     def fetch(self, site: str = "indeed", search_term: str = "software engineer new grad",
-              location: str = "United States", results: int = 50, hours_old: int = 72) -> List[Job]:
+              location: str = "United States", results: int = 50, hours_old: int = 72,
+              cached_jobs: Dict[str, dict] = None) -> List[Job]:
+        """
+        Fetch jobs from Indeed/LinkedIn/Glassdoor via JobSpy.
+
+        Args:
+            cached_jobs: Dictionary of url -> job_dict for preserving original posted dates
+        """
         if not self.available:
             return []
+
+        if cached_jobs is None:
+            cached_jobs = {}
 
         jobs = []
         try:
@@ -476,18 +506,25 @@ class JobSpySource:
             results_df = self.scrape_jobs(**kwargs)
 
             for _, row in results_df.iterrows():
-                # Parse date, default to today for LinkedIn (since we filter to recent anyway)
-                parsed_date = self._parse_date(row.get("date_posted"))
-                if not parsed_date and site == "linkedin":
-                    parsed_date = datetime.now().strftime("%Y-%m-%d")
+                job_url = row.get("job_url", "")
+
+                # Use cached posted date if available, otherwise parse from source
+                # This ensures the posted date stays stable across scrapes
+                cached_job = cached_jobs.get(job_url)
+                if cached_job and cached_job.get('date_posted'):
+                    parsed_date = cached_job['date_posted']
+                else:
+                    # Parse actual posted date from source - do NOT default to today
+                    # if no date is available to avoid confusing scrape date with posted date
+                    parsed_date = self._parse_date(row.get("date_posted"))
 
                 job = Job(
-                    id=f"{site}_{row.get('id', hash(row.get('job_url', '')) % 10**8)}",
+                    id=f"{site}_{row.get('id', hash(job_url) % 10**8)}",
                     title=row.get("title", ""),
                     company=row.get("company", ""),
                     company_slug=self._slugify(row.get("company", "")),
                     location=row.get("location", ""),
-                    url=row.get("job_url", ""),
+                    url=job_url,
                     source=site,
                     date_posted=parsed_date,
                     salary_min=self._parse_salary(row.get("min_amount")),
@@ -742,52 +779,67 @@ class JobAggregator:
         all_jobs.extend(self.sources["jobright"].fetch())
 
         # Built In (optional)
+        # Pass cached jobs to preserve original posted dates across scrapes
         if include_builtin and self.sources["builtin"].available:
-            all_jobs.extend(self.sources["builtin"].fetch(cities=builtin_cities or ["nyc"]))
+            all_jobs.extend(self.sources["builtin"].fetch(
+                cities=builtin_cities or ["nyc"],
+                cached_jobs=self._job_cache
+            ))
 
         # HN Who's Hiring (optional)
         if include_hn and self.sources["hn"].available:
             all_jobs.extend(self.sources["hn"].fetch(max_jobs=hn_limit))
 
         # LinkedIn (optional, uses JobSpy scraping)
+        # Pass cached jobs to preserve original posted dates across scrapes
         if include_linkedin and self.sources["jobspy"].available:
             # Search "new grad" - NYC and CA
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="linkedin", location="New York, NY", results=linkedin_limit // 4
+                site="linkedin", location="New York, NY", results=linkedin_limit // 4,
+                cached_jobs=self._job_cache
             ))
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="linkedin", location="California", results=linkedin_limit // 4
+                site="linkedin", location="California", results=linkedin_limit // 4,
+                cached_jobs=self._job_cache
             ))
             # Search "entry level" - NYC and CA
             all_jobs.extend(self.sources["jobspy"].fetch(
                 site="linkedin", search_term="software engineer entry level",
-                location="New York, NY", results=linkedin_limit // 4
+                location="New York, NY", results=linkedin_limit // 4,
+                cached_jobs=self._job_cache
             ))
             all_jobs.extend(self.sources["jobspy"].fetch(
                 site="linkedin", search_term="software engineer entry level",
-                location="California", results=linkedin_limit // 4
+                location="California", results=linkedin_limit // 4,
+                cached_jobs=self._job_cache
             ))
 
         # Indeed (optional, uses JobSpy scraping)
+        # Pass cached jobs to preserve original posted dates across scrapes
         if include_indeed and self.sources["jobspy"].available:
             # Search NYC
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="indeed", location="New York, NY", results=indeed_limit // 2
+                site="indeed", location="New York, NY", results=indeed_limit // 2,
+                cached_jobs=self._job_cache
             ))
             # Search California
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="indeed", location="California", results=indeed_limit // 2
+                site="indeed", location="California", results=indeed_limit // 2,
+                cached_jobs=self._job_cache
             ))
 
         # Glassdoor (optional, uses JobSpy scraping)
+        # Pass cached jobs to preserve original posted dates across scrapes
         if include_glassdoor and self.sources["jobspy"].available:
             # Search NYC
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="glassdoor", location="New York, NY", results=glassdoor_limit // 2
+                site="glassdoor", location="New York, NY", results=glassdoor_limit // 2,
+                cached_jobs=self._job_cache
             ))
             # Search California
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="glassdoor", location="California", results=glassdoor_limit // 2
+                site="glassdoor", location="California", results=glassdoor_limit // 2,
+                cached_jobs=self._job_cache
             ))
 
         # Cache newly scraped jobs before deduplication
