@@ -380,14 +380,15 @@ class JobAggregator:
                 seen_urls.add(job.url)
                 unique_jobs.append(job)
 
-        # Deduplicate by company + title (keep first occurrence)
-        seen_company_title = set()
+        # Deduplicate by company + title + location (keep first occurrence)
+        seen_keys = set()
         deduped_jobs = []
         for job in unique_jobs:
             title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
-            key = (job.company.lower(), title_norm)
-            if key not in seen_company_title:
-                seen_company_title.add(key)
+            loc_norm = job.location.lower().strip()
+            key = (job.company.lower(), title_norm, loc_norm)
+            if key not in seen_keys:
+                seen_keys.add(key)
                 deduped_jobs.append(job)
 
         self.jobs = deduped_jobs
