@@ -12,6 +12,8 @@ from dataclasses import dataclass, asdict
 from datetime import datetime, timedelta
 import time
 
+from .filters import filter_jobs
+
 # Suppress SSL warnings for YC API
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -748,69 +750,8 @@ class JobAggregator:
                 else:
                     wrapper_dupes += 1
 
-        # Filter non-curated sources to only keep new grad/entry level roles
-        # Simplify and Jobright are already curated, others need filtering
-        curated_sources = {"simplify_new_grad", "simplify_internship", "jobright"}
-        new_grad_keywords = [
-            'new grad', 'new college grad', 'entry level', 'entry-level',
-            'junior', 'associate', 'early career', 'university', 'graduate',
-            'level 1', 'level i', 'engineer 1', 'engineer i', 'swe 1', 'swe i',
-            'developer 1', 'developer i', '2025', '2026', 'rotational',
-            'early in career', 'recent grad', 'college grad'
-        ]
-        senior_keywords = [
-            'senior', 'staff', 'principal', 'lead', 'manager', 'director',
-            'architect', 'vp ', 'vice president', 'head of', 'chief',
-            'sr ', 'sr.', ' iii', ' iv', ' 3', ' 4', ' 5',
-            'founding', 'distinguished', 'fellow'
-        ]
-        # SWE-related keywords (must match at least one)
-        swe_keywords = [
-            'software', 'swe', 'developer', 'frontend', 'backend', 'fullstack',
-            'full-stack', 'full stack', 'web dev', 'mobile dev', 'ios dev',
-            'android dev', 'data engineer', 'ml engineer', 'machine learning',
-            'platform engineer', 'devops', 'site reliability', 'sre',
-            'cloud engineer', 'infrastructure engineer', 'systems engineer',
-            'application engineer', 'api engineer', 'integration engineer'
-        ]
-        # Non-SWE engineering keywords to exclude
-        non_swe_keywords = [
-            'structural engineer', 'civil engineer', 'mechanical engineer',
-            'electrical engineer', 'chemical engineer', 'hardware engineer',
-            'manufacturing engineer', 'process engineer', 'quality engineer',
-            'test engineer', 'validation engineer', 'field engineer',
-            'sales engineer', 'solutions engineer', 'support engineer',
-            'network engineer', 'rf engineer', 'audio engineer'
-        ]
-
-        filtered_jobs = []
-        filtered_count = 0
-        for job in deduped_jobs:
-            if job.source in curated_sources:
-                # Keep all curated jobs
-                filtered_jobs.append(job)
-            else:
-                # For non-curated sources, filter to new grad/entry level SWE roles
-                title_lower = job.title.lower()
-
-                # Reject if has senior keywords
-                if any(kw in title_lower for kw in senior_keywords):
-                    filtered_count += 1
-                    continue
-
-                # Reject if explicitly non-SWE engineering
-                if any(kw in title_lower for kw in non_swe_keywords):
-                    filtered_count += 1
-                    continue
-
-                # Must have SWE-related keyword OR be generic "engineer" with new grad keyword
-                has_swe = any(kw in title_lower for kw in swe_keywords)
-                has_new_grad = any(kw in title_lower for kw in new_grad_keywords)
-
-                if has_swe or (has_new_grad and 'engineer' in title_lower):
-                    filtered_jobs.append(job)
-                else:
-                    filtered_count += 1
+        # Filter non-curated sources to only keep new grad/entry level SWE roles
+        filtered_jobs, filtered_count = filter_jobs(deduped_jobs)
 
         self.jobs = filtered_jobs
         if wrapper_dupes > 0:

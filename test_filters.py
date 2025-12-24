@@ -5,68 +5,22 @@ Test the job filtering logic and show what gets filtered out
 
 import unittest
 from aggregator.sources import JobAggregator, Job
+from aggregator.filters import (
+    is_new_grad_swe,
+    CURATED_SOURCES,
+    SENIOR_KEYWORDS,
+    SWE_KEYWORDS,
+    NON_SWE_KEYWORDS,
+    NEW_GRAD_KEYWORDS
+)
 
 
 class TestJobFiltering(unittest.TestCase):
     """Test the filtering logic for non-curated sources"""
 
-    def setUp(self):
-        """Set up test fixtures"""
-        self.agg = JobAggregator()
-
-        # Define the filtering keywords (same as in sources.py)
-        self.senior_keywords = [
-            'senior', 'staff', 'principal', 'lead', 'manager', 'director',
-            'architect', 'vp ', 'vice president', 'head of', 'chief',
-            'sr ', 'sr.', ' iii', ' iv', ' 3', ' 4', ' 5',
-            'founding', 'distinguished', 'fellow'
-        ]
-        self.swe_keywords = [
-            'software', 'swe', 'developer', 'frontend', 'backend', 'fullstack',
-            'full-stack', 'full stack', 'web dev', 'mobile dev', 'ios dev',
-            'android dev', 'data engineer', 'ml engineer', 'machine learning',
-            'platform engineer', 'devops', 'site reliability', 'sre',
-            'cloud engineer', 'infrastructure engineer', 'systems engineer',
-            'application engineer', 'api engineer', 'integration engineer'
-        ]
-        self.non_swe_keywords = [
-            'structural engineer', 'civil engineer', 'mechanical engineer',
-            'electrical engineer', 'chemical engineer', 'hardware engineer',
-            'manufacturing engineer', 'process engineer', 'quality engineer',
-            'test engineer', 'validation engineer', 'field engineer',
-            'sales engineer', 'solutions engineer', 'support engineer',
-            'network engineer', 'rf engineer', 'audio engineer'
-        ]
-        self.new_grad_keywords = [
-            'new grad', 'new college grad', 'entry level', 'entry-level',
-            'junior', 'associate', 'early career', 'university', 'graduate',
-            'level 1', 'level i', 'engineer 1', 'engineer i', 'swe 1', 'swe i',
-            'developer 1', 'developer i', '2025', '2026', 'rotational',
-            'early in career', 'recent grad', 'college grad'
-        ]
-
     def _should_keep(self, title: str, source: str = "linkedin") -> bool:
         """Check if a job should be kept based on filtering logic"""
-        curated_sources = {"simplify_new_grad", "simplify_internship", "jobright"}
-
-        if source in curated_sources:
-            return True
-
-        title_lower = title.lower()
-
-        # Reject if has senior keywords
-        if any(kw in title_lower for kw in self.senior_keywords):
-            return False
-
-        # Reject if explicitly non-SWE engineering
-        if any(kw in title_lower for kw in self.non_swe_keywords):
-            return False
-
-        # Must have SWE-related keyword OR be generic "engineer" with new grad keyword
-        has_swe = any(kw in title_lower for kw in self.swe_keywords)
-        has_new_grad = any(kw in title_lower for kw in self.new_grad_keywords)
-
-        return has_swe or (has_new_grad and 'engineer' in title_lower)
+        return is_new_grad_swe(title, source)
 
     # ===== Tests for KEEPING jobs =====
 
@@ -219,42 +173,6 @@ def show_filtered_jobs():
         include_hn=True, hn_limit=100
     )
 
-    # Now manually check what would be filtered
-    curated_sources = {"simplify_new_grad", "simplify_internship", "jobright"}
-    senior_keywords = [
-        'senior', 'staff', 'principal', 'lead', 'manager', 'director',
-        'architect', 'vp ', 'vice president', 'head of', 'chief',
-        'sr ', 'sr.', ' iii', ' iv', ' 3', ' 4', ' 5',
-        'founding', 'distinguished', 'fellow'
-    ]
-    swe_keywords = [
-        'software', 'swe', 'developer', 'frontend', 'backend', 'fullstack',
-        'full-stack', 'full stack', 'web dev', 'mobile dev', 'ios dev',
-        'android dev', 'data engineer', 'ml engineer', 'machine learning',
-        'platform engineer', 'devops', 'site reliability', 'sre',
-        'cloud engineer', 'infrastructure engineer', 'systems engineer',
-        'application engineer', 'api engineer', 'integration engineer'
-    ]
-    non_swe_keywords = [
-        'structural engineer', 'civil engineer', 'mechanical engineer',
-        'electrical engineer', 'chemical engineer', 'hardware engineer',
-        'manufacturing engineer', 'process engineer', 'quality engineer',
-        'test engineer', 'validation engineer', 'field engineer',
-        'sales engineer', 'solutions engineer', 'support engineer',
-        'network engineer', 'rf engineer', 'audio engineer'
-    ]
-    new_grad_keywords = [
-        'new grad', 'new college grad', 'entry level', 'entry-level',
-        'junior', 'associate', 'early career', 'university', 'graduate',
-        'level 1', 'level i', 'engineer 1', 'engineer i', 'swe 1', 'swe i',
-        'developer 1', 'developer i', '2025', '2026', 'rotational',
-        'early in career', 'recent grad', 'college grad'
-    ]
-
-    # Collect jobs before location filter (from all sources)
-    # We need to re-fetch without filtering to see what would be filtered
-    agg2 = JobAggregator()
-
     print("\n" + "-" * 60)
     print("JOBS THAT WOULD BE FILTERED OUT (by reason):")
     print("-" * 60)
@@ -265,25 +183,25 @@ def show_filtered_jobs():
     kept = []
 
     for job in agg.jobs:
-        if job.source in curated_sources:
+        if job.source in CURATED_SOURCES:
             kept.append(job)
             continue
 
         title_lower = job.title.lower()
 
         # Check senior
-        if any(kw in title_lower for kw in senior_keywords):
+        if any(kw in title_lower for kw in SENIOR_KEYWORDS):
             filtered_senior.append(job)
             continue
 
         # Check non-SWE
-        if any(kw in title_lower for kw in non_swe_keywords):
+        if any(kw in title_lower for kw in NON_SWE_KEYWORDS):
             filtered_non_swe.append(job)
             continue
 
         # Check SWE keywords
-        has_swe = any(kw in title_lower for kw in swe_keywords)
-        has_new_grad = any(kw in title_lower for kw in new_grad_keywords)
+        has_swe = any(kw in title_lower for kw in SWE_KEYWORDS)
+        has_new_grad = any(kw in title_lower for kw in NEW_GRAD_KEYWORDS)
 
         if has_swe or (has_new_grad and 'engineer' in title_lower):
             kept.append(job)
@@ -313,7 +231,7 @@ def show_filtered_jobs():
 
     # Show sample of kept non-curated jobs
     print(f"\n📋 Sample of KEPT jobs from non-curated sources:")
-    non_curated_kept = [j for j in kept if j.source not in curated_sources]
+    non_curated_kept = [j for j in kept if j.source not in CURATED_SOURCES]
     for job in non_curated_kept[:15]:
         print(f"   [{job.source}] {job.company}: {job.title}")
 
