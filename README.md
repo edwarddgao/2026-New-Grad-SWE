@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), and [LinkedIn](https://linkedin.com/jobs)
 
-**Last updated:** 2025-12-24 04:43
+**Last updated:** 2025-12-24 04:48
 
-**Total:** 802 jobs from 297 companies
+**Total:** 797 jobs from 297 companies
 
 ---
 
@@ -60,7 +60,6 @@
 | **Scotiabank** | [Associate, US Software Equity Research, San Francisco](https://jobright.ai/jobs/info/690f432cd046ab6061d04485?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 3d |
 | **Silvus Technologies** | [Applications Engineer I](https://jobright.ai/jobs/info/68c8d936983e6768bc552130?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 3d |
 | **General Motors** | [Software Engineer - Early Career](https://jobright.ai/jobs/info/6936f79eaabec14a727c326c?utm_campaign=Software%20Engineering&utm_source=1103) | Mountain View, CA | Jobright | 3d |
-| **Qualcomm** | [Product Software Engineer](https://jobright.ai/jobs/info/690e5857d046ab6061cfc73d?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | Jobright | 3d |
 | **Oracle** | [Advanced Degree Software Engineer - Fusion](https://jobright.ai/jobs/info/6921828e3f782d2f1afd29dc?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA | Jobright | 3d |
 | **Arup** | [Graduate Digital Delivery Engineer (Available 2026)](https://jobright.ai/jobs/info/6906ff8e63502c0aded840c5?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 3d |
 | **Adobe** | [2026 University Graduate - Software Engineer](https://jobright.ai/jobs/info/68d623e54736ff202fdcf9a0?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 3d |
@@ -80,9 +79,7 @@
 | **Qualcomm** | [Display Software Engineer](https://jobright.ai/jobs/info/690d79fe221b890c2780710d?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | Jobright | 4d |
 | **Hudson River Trading** | [Software Engineer (C++ or Python) – 2026 Grads](https://jobright.ai/jobs/info/690cded54a1b456627b1b2ea?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 4d |
 | **Welocalize** | [Hungarian Localization QA Tester / Proofreader in Cupertino, CA](https://jobright.ai/jobs/info/690cd96ad046ab6061ceff06?utm_campaign=Software%20Engineering&utm_source=1103) | Cupertino, CA | Jobright | 4d |
-| **Applied Intuition** | [Software Engineer - New Grad](https://jobright.ai/jobs/info/68d20c948c62e63bc7fd2a7d?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | Jobright | 4d |
 | **Affirm** | [Software Engineer, Early Career](https://jobright.ai/jobs/info/692a4475fa28370be2696beb?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 4d |
-| **Affirm** | [Software Engineer, Early Career](https://jobright.ai/jobs/info/692a44e566796e3028f8eab3?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 4d |
 | **Applied Materials** | [Global Technical Product Marketing - New College Grad-PhD](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2026-NCG---Global-Technical-Product-Marketing---PhD--Santa-Clara--CA-_R2520001) | Santa Clara, CA | Simplify | 5d |
 | **Qualcomm** | [GPU Kernel Development Engineer - Multiple Levels Available - Graphics Software Engineering](https://qualcomm.eightfold.ai/careers/job/446715939731) | San Diego, CA | Simplify | 5d |
 | **WME Group** | [Analyst – Analytics](https://wmeimg.wd1.myworkdayjobs.com/endeavor/job/CA-Beverly-Hills---9601-Wilshire/Analyst--Analytics_JR27759-1) | Culver City, CA | Simplify | 5d |
@@ -105,7 +102,6 @@
 | **Intuit** | [Software Engineer – PEGA (Full-Stack Growth Path)](https://jobright.ai/jobs/info/694586dcd1953b5d11be85fe?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 5d |
 | **IMC Trading** | [Python Developer](https://jobright.ai/jobs/info/68f64e039a63986de757d048?utm_campaign=Software%20Engineering&utm_source=1103) | New York, United States | Jobright | 5d |
 | **Whatnot** | [Software Engineer, 2026 New Grad](https://jobright.ai/jobs/info/6929a9fe4c474121999c9ff6?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 5d |
-| **Intuit** | [Softare Engineer 1](https://jobright.ai/jobs/info/69457ddb63141d18845509e8?utm_campaign=Software%20Engineering&utm_source=1103) | Mountain View, CA | Jobright | 5d |
 | **Oklo Inc** | [Junior Software Engineer](https://jobright.ai/jobs/info/69456ee763141d188454ed75?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA or Remote | Jobright | 5d |
 | **Motorola Solutions** | [Embedded Software Engineer (Web Interface Developer)](https://jobright.ai/jobs/info/694568c9d1953b5d11be5711?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 5d |
 | **Whatnot** | [Software Engineer, 2026 New Grad](https://jobright.ai/jobs/info/6929a54b4c474121999c9f85?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 5d |
@@ -174,7 +170,6 @@
 | **CalPERS** | [Software Engineer](https://jobright.ai/jobs/info/69431a9c50bbaf765054f246?utm_campaign=Software%20Engineering&utm_source=1103) | Sacramento, CA | Jobright | 1w |
 | **Coalition, Inc.** | [FRONT END DEVELOPER](https://jobright.ai/jobs/info/69434d16dd382f5f56694cbf?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 1w |
 | **Capital One** | [Software Engineer](https://jobright.ai/jobs/info/6943109250bbaf765054e85d?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1w |
-| **LinkedIn** | [Software Engineer - Frontend](https://jobright.ai/jobs/info/69430f4894730b739876136e?utm_campaign=Software%20Engineering&utm_source=1103) | Mountain View, CA | Jobright | 1w |
 | **Sony Interactive Entertainment** | [Open World Game Test Analyst](https://jobright.ai/jobs/info/69430ed194730b73987612fb?utm_campaign=Software%20Engineering&utm_source=1103) | United States, San Diego, CA | Jobright | 1w |
 | **Security Mutual Life Insurance Company of New York** | [Associate Software Developer - 1118](https://jobright.ai/jobs/info/6943407c50bbaf765055216f?utm_campaign=Software%20Engineering&utm_source=1103) | Binghamton, NY, US | Jobright | 1w |
 | **TikTok** | [Backend Software Engineer, Supply Chain and Logistics - USDS](https://jobright.ai/jobs/info/694326b594730b739876286f?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 1w |

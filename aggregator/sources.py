@@ -372,7 +372,7 @@ class JobAggregator:
                 site="indeed", location="California", results=indeed_limit // 2
             ))
 
-        # Deduplicate by URL only (same application page = same job)
+        # Deduplicate by URL
         seen_urls = set()
         unique_jobs = []
         for job in all_jobs:
@@ -380,9 +380,36 @@ class JobAggregator:
                 seen_urls.add(job.url)
                 unique_jobs.append(job)
 
-        self.jobs = unique_jobs
-        print(f"\n=== Total unique jobs: {len(unique_jobs)} ===")
-        return unique_jobs
+        # Remove Jobright/LinkedIn duplicates when Simplify has the direct link
+        # Simplify links to actual application pages, Jobright/LinkedIn are wrappers
+        simplify_keys = set()
+        for job in unique_jobs:
+            if job.source.startswith("simplify"):
+                title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
+                loc_norm = job.location.lower().strip()
+                simplify_keys.add((job.company.lower(), title_norm, loc_norm))
+
+        deduped_jobs = []
+        wrapper_dupes = 0
+        for job in unique_jobs:
+            # Keep all Simplify jobs
+            if job.source.startswith("simplify"):
+                deduped_jobs.append(job)
+            else:
+                # For Jobright/LinkedIn, only keep if Simplify doesn't have it
+                title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
+                loc_norm = job.location.lower().strip()
+                key = (job.company.lower(), title_norm, loc_norm)
+                if key not in simplify_keys:
+                    deduped_jobs.append(job)
+                else:
+                    wrapper_dupes += 1
+
+        self.jobs = deduped_jobs
+        if wrapper_dupes > 0:
+            print(f"  [Deduped] Removed {wrapper_dupes} wrapper duplicates (Simplify has direct link)")
+        print(f"\n=== Total unique jobs: {len(deduped_jobs)} ===")
+        return deduped_jobs
 
     def enrich(self) -> List[Job]:
         """Enrich jobs with levels.fyi data"""
