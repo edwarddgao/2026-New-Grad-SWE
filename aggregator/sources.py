@@ -748,11 +748,54 @@ class JobAggregator:
                 else:
                     wrapper_dupes += 1
 
-        self.jobs = deduped_jobs
+        # Filter non-curated sources to only keep new grad/entry level roles
+        # Simplify and Jobright are already curated, others need filtering
+        curated_sources = {"simplify_new_grad", "simplify_internship", "jobright"}
+        new_grad_keywords = [
+            'new grad', 'new college grad', 'entry level', 'entry-level',
+            'junior', 'associate', 'early career', 'university', 'graduate',
+            'level 1', 'level i', 'engineer 1', 'engineer i', 'swe 1', 'swe i',
+            'developer 1', 'developer i', '2025', '2026', 'rotational',
+            'early in career', 'recent grad', 'college grad'
+        ]
+        senior_keywords = [
+            'senior', 'staff', 'principal', 'lead', 'manager', 'director',
+            'architect', 'vp ', 'vice president', 'head of', 'chief',
+            'sr ', 'sr.', 'iii', 'iv', ' 3', ' 4', ' 5',
+            'founding', 'distinguished', 'fellow'
+        ]
+
+        filtered_jobs = []
+        filtered_count = 0
+        for job in deduped_jobs:
+            if job.source in curated_sources:
+                # Keep all curated jobs
+                filtered_jobs.append(job)
+            else:
+                # For non-curated sources, filter to new grad/entry level
+                title_lower = job.title.lower()
+
+                # Reject if has senior keywords
+                if any(kw in title_lower for kw in senior_keywords):
+                    filtered_count += 1
+                    continue
+
+                # Accept if has new grad keywords OR no level specified (generic "Software Engineer")
+                has_new_grad = any(kw in title_lower for kw in new_grad_keywords)
+                is_generic = not any(kw in title_lower for kw in senior_keywords)
+
+                if has_new_grad or is_generic:
+                    filtered_jobs.append(job)
+                else:
+                    filtered_count += 1
+
+        self.jobs = filtered_jobs
         if wrapper_dupes > 0:
             print(f"  [Deduped] Removed {wrapper_dupes} wrapper duplicates (Simplify has direct link)")
-        print(f"\n=== Total unique jobs: {len(deduped_jobs)} ===")
-        return deduped_jobs
+        if filtered_count > 0:
+            print(f"  [Filtered] Removed {filtered_count} senior/staff roles from non-curated sources")
+        print(f"\n=== Total unique jobs: {len(filtered_jobs)} ===")
+        return filtered_jobs
 
     def enrich(self) -> List[Job]:
         """Enrich jobs with levels.fyi data"""
