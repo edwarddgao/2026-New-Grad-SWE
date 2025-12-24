@@ -163,6 +163,16 @@ class TestJobFiltering(unittest.TestCase):
         """Should filter: Software Engineer - PhD"""
         self.assertFalse(self._should_keep("Software Engineer - PhD"))
 
+    def test_filter_phd_from_curated_source(self):
+        """Should filter: PhD jobs even from curated sources (Simplify/Jobright)"""
+        self.assertFalse(self._should_keep("Research Scientist - PhD", source="simplify_new_grad"))
+        self.assertFalse(self._should_keep("ML Engineer PhD Graduate", source="jobright"))
+
+    def test_filter_phd_graduate(self):
+        """Should filter: PhD Graduate positions"""
+        self.assertFalse(self._should_keep("Quantitative Researcher – PhD Graduate"))
+        self.assertFalse(self._should_keep("Research Engineer - PhD Graduate - US"))
+
 
 def show_filtered_jobs():
     """Show what jobs would be filtered out from each source"""
