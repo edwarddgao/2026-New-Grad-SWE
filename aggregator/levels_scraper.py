@@ -2,11 +2,14 @@
 Levels.fyi scraper for new grad salary data
 """
 
-import re
 import json
+import os
+import re
+import sys
+import time
+
 import requests
-from typing import Optional, Tuple
-from functools import lru_cache
+from typing import List, Optional, Tuple
 
 
 class LevelsScraper:
@@ -490,17 +493,16 @@ class LevelsScraper:
         self._load_cache()
 
     def _load_cache(self):
-        """Load salary cache from file"""
-        import os
+        """Load salary cache from file."""
         if os.path.exists(self.CACHE_FILE):
             try:
                 with open(self.CACHE_FILE, 'r') as f:
                     data = json.load(f)
                     self._salary_cache = {k: tuple(v) for k, v in data.get('found', {}).items()}
                     self._not_found_cache = set(data.get('not_found', []))
-                    print(f"  [Cache] Loaded {len(self._salary_cache)} cached salaries, {len(self._not_found_cache)} not-found", file=__import__('sys').stderr)
-            except Exception as e:
-                print(f"  [Cache] Error loading cache: {e}", file=__import__('sys').stderr)
+                    print(f"  [Cache] Loaded {len(self._salary_cache)} cached salaries, {len(self._not_found_cache)} not-found", file=sys.stderr)
+            except (json.JSONDecodeError, IOError, KeyError) as e:
+                print(f"  [Cache] Error loading cache: {e}", file=sys.stderr)
 
     def _save_cache(self):
         """Save salary cache to file"""
@@ -511,8 +513,8 @@ class LevelsScraper:
             }
             with open(self.CACHE_FILE, 'w') as f:
                 json.dump(data, f)
-        except Exception as e:
-            print(f"  [Cache] Error saving cache: {e}", file=__import__('sys').stderr)
+        except (IOError, OSError) as e:
+            print(f"  [Cache] Error saving cache: {e}", file=sys.stderr)
 
     # Common suffixes to strip from company names
     COMPANY_SUFFIXES = [
@@ -607,9 +609,7 @@ class LevelsScraper:
         return result
 
     def _fetch_salary(self, company_slug: str) -> Tuple[Optional[int], Optional[int]]:
-        """Fetch salary from levels.fyi with rate limiting and retry logic"""
-        import time
-
+        """Fetch salary from levels.fyi with rate limiting and retry logic."""
         url = self.BASE_URL.format(company=company_slug)
         max_retries = 3
 
@@ -722,14 +722,17 @@ class LevelsScraper:
 
         return (None, None)
 
-    def enrich_jobs(self, jobs: list) -> int:
+    def enrich_jobs(self, jobs: List) -> int:
         """
         Enrich jobs with salary data from levels.fyi.
         Only enriches jobs that don't already have salary data.
 
-        Returns count of enriched jobs.
+        Args:
+            jobs: List of Job objects to enrich with salary data.
+
+        Returns:
+            Count of enriched jobs.
         """
-        import sys
         enriched = 0
         total = len(jobs)
 

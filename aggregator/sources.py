@@ -14,6 +14,7 @@ import time
 
 from .filters import filter_jobs
 from .levels_scraper import get_scraper
+from .utils import slugify
 
 # Suppress SSL warnings for YC API
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -65,7 +66,7 @@ class SimplifySource:
                             id=f"simplify_{item.get('id', '')}",
                             title=item.get("title", ""),
                             company=item.get("company_name", ""),
-                            company_slug=self._slugify(item.get("company_name", "")),
+                            company_slug=slugify(item.get("company_name", "")),
                             location=", ".join(item.get("locations", [])),
                             url=item.get("url", ""),
                             source=f"simplify_{source['type']}",
@@ -79,14 +80,12 @@ class SimplifySource:
                 print(f"  [Simplify] {source['name']}: Error - {e}")
         return jobs
 
-    def _slugify(self, name: str) -> str:
-        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
-
-    def _format_date(self, timestamp) -> Optional[str]:
+    def _format_date(self, timestamp: int) -> Optional[str]:
+        """Convert Unix timestamp to YYYY-MM-DD date string."""
         if timestamp:
             try:
                 return datetime.fromtimestamp(timestamp).strftime("%Y-%m-%d")
-            except:
+            except (ValueError, OSError, OverflowError):
                 pass
         return None
 
@@ -121,7 +120,7 @@ class JobrightSource:
                         id=f"jobright_{hash(job_url) % 10**8}",
                         title=title.strip(),
                         company=company.strip(),
-                        company_slug=self._slugify(company),
+                        company_slug=slugify(company),
                         location=location.strip(),
                         url=job_url,
                         source="jobright",
@@ -135,16 +134,13 @@ class JobrightSource:
             print(f"  [Jobright] Error: {e}")
         return jobs
 
-    def _slugify(self, name: str) -> str:
-        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
-
     def _parse_date(self, date_str: str) -> Optional[str]:
-        # Format: "Dec 23"
+        """Parse date from format 'Dec 23' to YYYY-MM-DD."""
         try:
             current_year = datetime.now().year
             dt = datetime.strptime(f"{date_str} {current_year}", "%b %d %Y")
             return dt.strftime("%Y-%m-%d")
-        except:
+        except ValueError:
             return None
 
 
@@ -268,7 +264,7 @@ class BuiltInSource:
                             id=f"builtin_{job_id}",
                             title=title,
                             company=company,
-                            company_slug=self._slugify(company),
+                            company_slug=slugify(company),
                             location=location,
                             url=full_url,
                             source=f"builtin_{city}",
@@ -333,9 +329,6 @@ class BuiltInSource:
 
         # Fallback to default city
         return city_map.get(default_city, "US")
-
-    def _slugify(self, name: str) -> str:
-        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
 
 
 class HNHiringSource:
@@ -447,7 +440,7 @@ class HNHiringSource:
             id=f"hn_{comment['id']}",
             title=title,
             company=company,
-            company_slug=self._slugify(company),
+            company_slug=slugify(company),
             location=location,
             url=url,
             source="hn_hiring",
@@ -459,9 +452,6 @@ class HNHiringSource:
     def _strip_html(self, text: str) -> str:
         """Remove HTML tags from text"""
         return re.sub(r'<[^>]+>', '', text).strip()
-
-    def _slugify(self, name: str) -> str:
-        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
 
 
 class JobSpySource:
@@ -522,7 +512,7 @@ class JobSpySource:
                     id=f"{site}_{row.get('id', hash(job_url) % 10**8)}",
                     title=row.get("title", ""),
                     company=row.get("company", ""),
-                    company_slug=self._slugify(row.get("company", "")),
+                    company_slug=slugify(row.get("company", "")),
                     location=row.get("location", ""),
                     url=job_url,
                     source=site,
@@ -539,19 +529,17 @@ class JobSpySource:
             print(f"  [{site.capitalize()}] Error: {e}")
         return jobs
 
-    def _slugify(self, name: str) -> str:
-        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
-
     def _parse_salary(self, val) -> Optional[int]:
+        """Parse salary value, handling NaN and various formats."""
         if val and not str(val).lower() == 'nan':
             try:
                 return int(float(val))
-            except:
+            except (ValueError, TypeError):
                 pass
         return None
 
     def _parse_date(self, val) -> Optional[str]:
-        """Parse date from JobSpy, handling NaT and various formats"""
+        """Parse date from JobSpy, handling NaT and various formats."""
         if val is None:
             return None
         # Convert to string and check for invalid values
@@ -568,7 +556,7 @@ class JobSpySource:
             if pd.notna(val):
                 dt = pd.to_datetime(val)
                 return dt.strftime("%Y-%m-%d")
-        except:
+        except (ValueError, TypeError):
             pass
         return None
 
@@ -662,22 +650,19 @@ class YCombinatorSource:
 
         return jobs
 
-    def _slugify(self, name: str) -> str:
-        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
-
 
 class LevelsFyiEnricher:
     """Enrich job data with levels.fyi salary information"""
 
     def __init__(self, companies_file: str = None):
-        self.companies = set()
+        self.companies: set = set()
         if companies_file:
             try:
                 with open(companies_file, 'r') as f:
                     self.companies = set(line.strip().lower() for line in f if line.strip())
                 print(f"  [Levels.fyi] Loaded {len(self.companies)} companies")
-            except:
-                pass
+            except (IOError, OSError) as e:
+                print(f"  [Levels.fyi] Error loading companies file: {e}")
 
     def has_salary_data(self, company_slug: str) -> bool:
         """Check if company exists on levels.fyi"""
