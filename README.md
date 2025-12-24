@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), [Built In](https://builtin.com/jobs) (NYC, SF, LA), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-24 14:22
+**Last updated:** 2025-12-24 14:36
 
 **Total:** 711 jobs from 293 companies
 
@@ -52,12 +52,12 @@
 | **2020 Companies** | [Android Sales Expert](https://2020companies.wd1.myworkdayjobs.com/external_careers/job/Oakland-CA/Android-Sales-Expert_REQ_096760) | SF, Oakland, CA |  |  | Simplify | 2d |
 | **Multiply Mortgage** | [Software Engineer](https://jobright.ai/jobs/info/694a06b27d506e3808f52a1a?utm_campaign=Software%20Engineering&utm_source=1103) | California, United States |  |  | Jobright | 2d |
 | **Fluidstack** | [Strategy & Operations Software Generalist](https://jobright.ai/jobs/info/694907efd1953b5d11c211ff?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  |  | Jobright | 2d |
-| **Two Sigma** | [Software Engineer, Modeling Engineering](https://jobright.ai/jobs/info/690e5b98221b890c2780d204?utm_campaign=Software%20Engineering&utm_source=1103) | New York, United States |  | $301k-351k | Jobright | 3d |
+| **Two Sigma** | [Software Engineer, Modeling Engineering](https://jobright.ai/jobs/info/690e5b98221b890c2780d204?utm_campaign=Software%20Engineering&utm_source=1103) | New York, United States |  | [$301k-351k](https://www.levels.fyi/companies/two-sigma/salaries) | Jobright | 3d |
 | **SpaceX** | [Full Stack Software Engineer, Security (Starlink)](https://jobright.ai/jobs/info/690e515e44146d3b6ec52dfa?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA |  | [$178k-200k](https://www.levels.fyi/companies/spacex/salaries) | Jobright | 3d |
 | **Adobe** | [2026 University Graduate - Software Engineer](https://jobright.ai/jobs/info/68d623e54736ff202fdcf9a0?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA |  | [$150k-200k](https://www.levels.fyi/companies/adobe/salaries) | Jobright | 3d |
 | **Oracle** | [Advanced Degree Software Engineer - Fusion](https://jobright.ai/jobs/info/6921828e3f782d2f1afd29dc?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA |  | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | Jobright | 3d |
 | **Oracle** | [Advanced Degree Software Engineer - Fusion](https://jobright.ai/jobs/info/68f31be176a51a4307bcb23d?utm_campaign=Software%20Engineering&utm_source=1103) | Redwood City, CA |  | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | Jobright | 3d |
-| **Scotiabank** | [Associate, US Software Equity Research, San Francisco](https://jobright.ai/jobs/info/690f432cd046ab6061d04485?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | $58.0k-73.0k | Jobright | 3d |
+| **Scotiabank** | [Associate, US Software Equity Research, San Francisco](https://jobright.ai/jobs/info/690f432cd046ab6061d04485?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | [$58.0k-73.0k](https://www.levels.fyi/companies/scotiabank/salaries) | Jobright | 3d |
 | **Vast.ai** | [C++ Software Engineer — Systems](https://jobright.ai/jobs/info/6848e942132739e8bcbe8e16?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  |  | Jobright | 3d |
 | **Silvus Technologies** | [Embedded Software Engineer (Web Interface Developer)](https://jobright.ai/jobs/info/68ccfcf25954791a1d702478?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA |  |  | Jobright | 3d |
 | **Glean** | [Software Engineer, University Grad](https://jobright.ai/jobs/info/68cfc4f9dbd9fb154edeacd5?utm_campaign=Software%20Engineering&utm_source=1103) | Palo Alto, CA |  |  | Jobright | 3d |
@@ -104,6 +104,8 @@
 | **Oklo Inc** | [Junior Software Engineer](https://jobright.ai/jobs/info/69456ee763141d188454ed75?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA or Remote | ✓ |  | Jobright | 5d |
 | **monday.com** | [Salesforce Implementer](https://jobright.ai/jobs/info/690bbec9221b890c277f7a22?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  |  | Jobright | 5d |
 | **Figma** | [Early Career, Software Engineer (2026)](https://jobright.ai/jobs/info/68d1f5aaa54edb3bf3e18229?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | [$451.0k-512.0k](https://www.levels.fyi/companies/figma/salaries) | Jobright | 6d |
+| **Neuralink** | [Software Engineer, BCI Applications](https://jobright.ai/jobs/info/68cba33b9e3a822f5d249936?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, CA |  | $169k-229k | Jobright | 6d |
+| **Neuralink** | [Embedded Software Engineer, Implant Embedded Systems](https://jobright.ai/jobs/info/68ce374e1ad6b16f028a30f0?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, CA |  | $169k-229k | Jobright | 6d |
 | **Stripe** | [Software Engineer, New Grad](https://jobright.ai/jobs/info/68ccf71177add66568abccf2?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | [$207k-220k](https://www.levels.fyi/companies/stripe/salaries) | Jobright | 6d |
 | **Palantir Technologies** | [Backend Software Engineer - Infrastructure](https://jobright.ai/jobs/info/68ce6698fb49c96ca6ea003d?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | [$189k-213k](https://www.levels.fyi/companies/palantir/salaries) | Jobright | 6d |
 | **Twitch** | [Software Engineer](https://jobright.ai/jobs/info/6944b77d94730b739877fb4a?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | [$175k-212k](https://www.levels.fyi/companies/twitch/salaries) | Jobright | 6d |
@@ -126,8 +128,6 @@
 | **Salient** | [Forward Deployed Software Engineer](https://jobright.ai/jobs/info/691d30477481340785ed4a42?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  |  | Jobright | 6d |
 | **Major League Baseball (MLB)** | [Software Engineer, Media Services](https://jobright.ai/jobs/info/69446ccb50bbaf76505669a6?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  |  | Jobright | 6d |
 | **City of San José** | [Development Services Systems Applications Programmer](https://jobright.ai/jobs/info/6933c041764507023d1b8ed5?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA |  |  | Jobright | 6d |
-| **Neuralink** | [Software Engineer, BCI Applications](https://jobright.ai/jobs/info/68cba33b9e3a822f5d249936?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, CA |  |  | Jobright | 6d |
-| **Neuralink** | [Embedded Software Engineer, Implant Embedded Systems](https://jobright.ai/jobs/info/68ce374e1ad6b16f028a30f0?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, CA |  |  | Jobright | 6d |
 | **Merkle** | [QA Analyst](https://jobright.ai/jobs/info/6943f05c94730b73987714d7?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  |  | Jobright | 6d |
 | **Garner Health, LLC** | [Associate Software Engineer](https://jobright.ai/jobs/info/6943bbdb94730b739876e126?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  |  | Jobright | 6d |
 | **Waymo** | [Software Engineer, Fleet Response (Backend)](https://jobright.ai/jobs/info/6943c3aa50bbaf765055ba27?utm_campaign=Software%20Engineering&utm_source=1103) | Mountain View, CA |  | [$224k-237k](https://www.levels.fyi/companies/waymo/salaries) | Jobright | 1w |
@@ -137,7 +137,7 @@
 | **NVIDIA** | [Research Scientist New College Grad - ML Systems](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161) | Seattle, WA, Austin, TX, Santa Clara,... |  | [$135k-178k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 1w |
 | **Cadence Design Systems** | [Software Engineer 1](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Software-Engineer-I_R52446-1) | San Jose, CA |  | [$100k-177k](https://www.levels.fyi/companies/cadence-design-systems/salaries) | Simplify | 1w |
 | **Cadence** | [Software Engineer I](https://jobright.ai/jobs/info/694791e463141d18845735f1?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA |  | [$100k-177k](https://www.levels.fyi/companies/cadence-design-systems/salaries) | Jobright | 1w |
-| **Palo Alto Networks** | [Early Career - Software Engineer (Bachelor's Only)](https://jobright.ai/jobs/info/69434baa50bbaf7650553071?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA |  | $160k-170k | Jobright | 1w |
+| **Palo Alto Networks** | [Early Career - Software Engineer (Bachelor's Only)](https://jobright.ai/jobs/info/69434baa50bbaf7650553071?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA |  | [$160k-170k](https://www.levels.fyi/companies/palo-alto-networks/salaries) | Jobright | 1w |
 | **Oracle** | [Advanced Degree Software Engineer - Database Technologies](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/320582) | San Carlos, CA, Nashua, NH |  | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | Simplify | 1w |
 | **JP Morgan Chase** | [Quantitative Research - Data Analytics - Analyst](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210678649) | NYC |  | [$95k-115k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 1w |
 | **JP Morgan Chase** | [Digital Markets CRM Product Engagement - Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691644) | NYC |  | [$95k-115k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 1w |
