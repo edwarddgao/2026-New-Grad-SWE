@@ -347,6 +347,11 @@ class JobSpySource:
             results_df = self.scrape_jobs(**kwargs)
 
             for _, row in results_df.iterrows():
+                # Parse date, default to today for LinkedIn (since we filter to recent anyway)
+                parsed_date = self._parse_date(row.get("date_posted"))
+                if not parsed_date and site == "linkedin":
+                    parsed_date = datetime.now().strftime("%Y-%m-%d")
+
                 job = Job(
                     id=f"{site}_{row.get('id', hash(row.get('job_url', '')) % 10**8)}",
                     title=row.get("title", ""),
@@ -355,7 +360,7 @@ class JobSpySource:
                     location=row.get("location", ""),
                     url=row.get("job_url", ""),
                     source=site,
-                    date_posted=str(row.get("date_posted", ""))[:10] if row.get("date_posted") else None,
+                    date_posted=parsed_date,
                     salary_min=self._parse_salary(row.get("min_amount")),
                     salary_max=self._parse_salary(row.get("max_amount")),
                     remote=row.get("is_remote", False),
@@ -377,6 +382,28 @@ class JobSpySource:
                 return int(float(val))
             except:
                 pass
+        return None
+
+    def _parse_date(self, val) -> Optional[str]:
+        """Parse date from JobSpy, handling NaT and various formats"""
+        if val is None:
+            return None
+        # Convert to string and check for invalid values
+        val_str = str(val).strip()
+        if not val_str or val_str.lower() in ('nat', 'nan', 'none', ''):
+            return None
+        # Try to extract YYYY-MM-DD format
+        try:
+            # If it's already in ISO format, take first 10 chars
+            if len(val_str) >= 10 and val_str[4] == '-' and val_str[7] == '-':
+                return val_str[:10]
+            # Try parsing as datetime
+            import pandas as pd
+            if pd.notna(val):
+                dt = pd.to_datetime(val)
+                return dt.strftime("%Y-%m-%d")
+        except:
+            pass
         return None
 
 

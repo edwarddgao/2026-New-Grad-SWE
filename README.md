@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), and [Built In NYC](https://builtin.com/jobs/new-york)
 
-**Last updated:** 2025-12-24 05:06
+**Last updated:** 2025-12-24 05:14
 
 **Total:** 849 jobs from 338 companies
 
@@ -12,20 +12,20 @@
 
 | Company | Role | Location | Source | Posted |
 |---------|------|----------|--------|--------|
-| **Everline Tech** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4346103148) | San Jose, CA | LinkedIn |  |
-| **Waymo** | [Applied Research Scientist, Perception LLM/VLM (PhD, New Grad)](https://www.linkedin.com/jobs/view/4328755067) | San Francisco, CA | LinkedIn |  |
-| **Waymo** | [Applied Research Scientist, Perception LLM/VLM (PhD, New Grad)](https://www.linkedin.com/jobs/view/4328705253) | Mountain View, CA | LinkedIn |  |
-| **PwC** | [Advisory National CT&I - AI Engineer - Director](https://www.linkedin.com/jobs/view/4328928673) | New York, NY | LinkedIn |  |
-| **Remi** | [Software Engineer I/II | SF](https://www.linkedin.com/jobs/view/4346016420) | San Francisco, CA | LinkedIn |  |
-| **Lensa** | [2026 Entry Level Software Engineer](https://www.linkedin.com/jobs/view/4346070573) | San Diego, CA | LinkedIn |  |
-| **WSP in the U.S.** | [Early Career Civil Engineer](https://www.linkedin.com/jobs/view/4328975928) | San Francisco, CA | LinkedIn |  |
-| **WSP in the U.S.** | [Early Career Civil Engineer](https://www.linkedin.com/jobs/view/4329163084) | Los Angeles, CA | LinkedIn |  |
-| **WSP in the U.S.** | [Early Career Civil Engineer](https://www.linkedin.com/jobs/view/4329133224) | San Jose, CA | LinkedIn |  |
 | **Cox** | [Software Engineer 1](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineer-I_R202570999-1) | NYC | Simplify | 0d |
 | **Waymo** | [Applied Research Scientist - Perception](https://careers.withwaymo.com/jobs?gh_jid=7467839) | SF, Mountain View, CA | Simplify | 0d |
 | **ByteDance** | [Research Scientist Graduate - 3D/4D Generation - 2026 Start](https://jobs.bytedance.com/en/position/7585034854077778181/detail) | San Jose, CA | Simplify | 0d |
 | **CACI International Inc** | [University of Oklahoma: Full-Time Opportunities](https://builtin.com/job/university-oklahoma-full-time-opportunities/7817749) | New York, NY | Built In NYC | 0d |
 | **Sidara** | [Structural Engineering, Entry-Level (Buildings)](https://builtin.com/job/structural-engineering-entry-level-buildings/7282083) | New York, NY | Built In NYC | 0d |
+| **Everline Tech** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4346103148) | San Jose, CA | LinkedIn | 0d |
+| **Waymo** | [Applied Research Scientist, Perception LLM/VLM (PhD, New Grad)](https://www.linkedin.com/jobs/view/4328755067) | San Francisco, CA | LinkedIn | 0d |
+| **Waymo** | [Applied Research Scientist, Perception LLM/VLM (PhD, New Grad)](https://www.linkedin.com/jobs/view/4328705253) | Mountain View, CA | LinkedIn | 0d |
+| **PwC** | [Advisory National CT&I - AI Engineer - Director](https://www.linkedin.com/jobs/view/4328928673) | New York, NY | LinkedIn | 0d |
+| **Remi** | [Software Engineer I/II | SF](https://www.linkedin.com/jobs/view/4346016420) | San Francisco, CA | LinkedIn | 0d |
+| **Lensa** | [2026 Entry Level Software Engineer](https://www.linkedin.com/jobs/view/4346070573) | San Diego, CA | LinkedIn | 0d |
+| **WSP in the U.S.** | [Early Career Civil Engineer](https://www.linkedin.com/jobs/view/4328975928) | San Francisco, CA | LinkedIn | 0d |
+| **WSP in the U.S.** | [Early Career Civil Engineer](https://www.linkedin.com/jobs/view/4329163084) | Los Angeles, CA | LinkedIn | 0d |
+| **WSP in the U.S.** | [Early Career Civil Engineer](https://www.linkedin.com/jobs/view/4329133224) | San Jose, CA | LinkedIn | 0d |
 | **NVIDIA** | [Firmware Engineer – New College Grad 2026 - Memory Subsystem](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Firmware-Engineer--Memory-Subsystem---New-College-Grad-2026_JR2010096) | Santa Clara, CA | Simplify | 1d |
 | **Cisive** | [Software Developer](https://cisive.wd108.myworkdayjobs.com/Cisive/job/Remote---Maryland/Software-Developer_JR100173) | New Mexico, Washington, Kansas, Penns... | Simplify | 1d |
 | **Google** | [Physical Design Engineer – University Graduate - 3D Technology - PhD](https://www.google.com/about/careers/applications/jobs/results/106741356235236038) | Sunnyvale, CA | Simplify | 1d |
