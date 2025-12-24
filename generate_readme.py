@@ -42,17 +42,19 @@ def get_age(date_str: str) -> str:
     except:
         return ""
 
-def generate_readme():
+def generate_readme(skip_enrichment: bool = False):
     # Fetch and filter jobs
     agg = JobAggregator()
-    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_glassdoor=True, glassdoor_limit=50, include_hn=True, hn_limit=100)
+    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_glassdoor=True, glassdoor_limit=50, include_hn=True, hn_limit=100, skip_enrichment=skip_enrichment)
     agg.filter_location(["nyc", "california"])
 
-    # Sort jobs by recency (most recent first)
+    # Sort jobs by date (newest first), then by compensation (highest first)
     def sort_key(job):
-        if not job.date_posted:
-            return "0000-00-00"  # Jobs without dates go to end
-        return job.date_posted
+        # Primary: date (newer dates should come first, use empty string if no date)
+        date = job.date_posted or ""
+        # Secondary: compensation (use max salary if available, else min salary, else 0)
+        comp = job.salary_max or job.salary_min or 0
+        return (date, comp)
 
     sorted_jobs = sorted(agg.jobs, key=sort_key, reverse=True)
 
@@ -153,4 +155,6 @@ Found a job not listed? Open an issue or PR!
     print(f"Generated README.md with {len(agg.jobs)} jobs from {len(unique_companies)} companies")
 
 if __name__ == "__main__":
-    generate_readme()
+    import sys
+    skip = "--skip-enrichment" in sys.argv or "-s" in sys.argv
+    generate_readme(skip_enrichment=skip)

@@ -31,7 +31,7 @@ class LevelsScraper:
         "amazon.com": "amazon",
         "aws": "amazon",
         "amazon web services": "amazon",
-        "twitch": "amazon",
+        "twitch": "twitch",
         "ring": "amazon",
         "microsoft corporation": "microsoft",
         "github": "microsoft",
@@ -67,6 +67,27 @@ class LevelsScraper:
         "sofi": "sofi",
         "chime": "chime",
         "affirm": "affirm",
+        "citigroup": "citi",
+        "citibank": "citi",
+        "citi group": "citi",
+        "interactive brokers": "interactive-brokers",
+        "ibkr": "interactive-brokers",
+        "pnc bank": "pnc",
+        "pnc financial": "pnc",
+        "susquehanna international group": "susquehanna-international-group",
+        "sig": "susquehanna-international-group",
+        "susquehanna": "susquehanna-international-group",
+        "imc trading": "imc",
+        "jump trading": "jump-trading",
+        "drw holdings": "drw",
+        "drw trading": "drw",
+        "chicago trading company": "chicago-trading-company",
+        "akuna capital": "akuna-capital",
+        "hudson river trading": "hudson-river-trading",
+        "hrt": "hudson-river-trading",
+        "optiver": "optiver",
+        "flow traders": "flow-traders",
+        "virtu financial": "virtu-financial",
 
         # Tech companies
         "apple inc": "apple",
@@ -80,10 +101,14 @@ class LevelsScraper:
         "oracle corporation": "oracle",
         "ibm": "ibm",
         "cisco systems": "cisco",
+        "cisco": "cisco",
         "vmware": "vmware",
         "dell technologies": "dell",
         "hp inc": "hp",
         "hewlett packard": "hp",
+        "hewlett-packard": "hp",
+        "hpe": "hpe",
+        "hewlett packard enterprise": "hpe",
         "servicenow": "servicenow",
         "workday": "workday",
         "splunk": "splunk",
@@ -102,6 +127,28 @@ class LevelsScraper:
         "databricks": "databricks",
         "confluent": "confluent",
         "hashicorp": "hashicorp",
+        "intuit": "intuit",
+        "adobe": "adobe",
+        "adobe inc": "adobe",
+        "autodesk": "autodesk",
+        "synopsys": "synopsys",
+        "cadence": "cadence-design-systems",
+        "cadence design systems": "cadence-design-systems",
+        "applied materials": "applied-materials",
+        "lam research": "lam-research",
+        "kla": "kla",
+        "kla corporation": "kla",
+        "microchip technology": "microchip-technology",
+        "microchip": "microchip-technology",
+        "marvell": "marvell",
+        "marvell technology": "marvell",
+        "analog devices": "analog-devices",
+        "texas instruments": "texas-instruments",
+        "ti": "texas-instruments",
+        "micron": "micron",
+        "micron technology": "micron",
+        "western digital": "western-digital",
+        "seagate": "seagate",
 
         # Consumer tech
         "uber technologies": "uber",
@@ -146,7 +193,6 @@ class LevelsScraper:
         "paramount": "paramount",
         "sony": "sony",
         "electronic arts": "ea",
-        "ea": "ea",
         "activision": "activision-blizzard",
         "blizzard": "activision-blizzard",
         "riot games": "riot-games",
@@ -168,6 +214,8 @@ class LevelsScraper:
         "adyen": "adyen",
         "klarna": "klarna",
         "afterpay": "afterpay",
+        "bill.com": "billcom",
+        "bill": "billcom",
 
         # Cloud/Enterprise
         "dropbox": "dropbox",
@@ -184,6 +232,8 @@ class LevelsScraper:
         "miro": "miro",
         "airtable": "airtable",
         "webflow": "webflow",
+        "pega": "pegasystems",
+        "pegasystems": "pegasystems",
 
         # AI/ML
         "openai": "openai",
@@ -212,6 +262,49 @@ class LevelsScraper:
         "bmw": "bmw",
         "mercedes": "mercedes-benz",
 
+        # Defense/Aerospace/Government contractors
+        "boeing": "boeing",
+        "the boeing company": "boeing",
+        "lockheed martin": "lockheed-martin",
+        "lockheed": "lockheed-martin",
+        "northrop grumman": "northrop-grumman",
+        "northrop": "northrop-grumman",
+        "raytheon": "raytheon",
+        "rtx": "raytheon",
+        "raytheon technologies": "raytheon",
+        "bae systems": "bae-systems",
+        "bae": "bae-systems",
+        "general dynamics": "general-dynamics-mission-systems",
+        "general dynamics mission systems": "general-dynamics-mission-systems",
+        "gdms": "general-dynamics-mission-systems",
+        "general dynamics information technology": "general-dynamics-mission-systems",
+        "gdit": "general-dynamics-mission-systems",
+        "maxar": "maxar-technologies",
+        "maxar technologies": "maxar-technologies",
+        "l3harris": "l3harris",
+        "l3harris technologies": "l3harris",
+        "l3 harris": "l3harris",
+        "leidos": "leidos",
+        "saic": "saic",
+        "booz allen hamilton": "booz-allen-hamilton",
+        "booz allen": "booz-allen-hamilton",
+        "caci": "caci-international",
+        "caci international": "caci-international",
+        "accenture federal services": "accenture",
+        "accenture": "accenture",
+        "deloitte": "deloitte",
+        "kpmg": "kpmg",
+        "ey": "ey",
+        "ernst young": "ey",
+        "ernst & young": "ey",
+        "pwc": "pwc",
+        "pricewaterhousecoopers": "pwc",
+        "mckinsey": "mckinsey",
+        "bcg": "bcg",
+        "boston consulting group": "bcg",
+        "bain": "bain",
+        "bain & company": "bain",
+
         # Other tech
         "palantir": "palantir",
         "palantir technologies": "palantir",
@@ -232,6 +325,34 @@ class LevelsScraper:
         "thomson reuters": "thomson-reuters",
         "factset": "factset",
         "morningstar": "morningstar",
+        "ge healthcare": "ge-healthcare",
+        "ge": "ge-healthcare",
+        "general electric": "ge-healthcare",
+
+        # Enterprise Storage/Infrastructure
+        "nutanix": "nutanix",
+        "pure storage": "pure-storage",
+        "purestorage": "pure-storage",
+        "netapp": "netapp",
+        "net app": "netapp",
+        "rubrik": "rubrik",
+        "cohesity": "cohesity",
+        "commvault": "commvault",
+        "dell emc": "dell",
+        "emc": "dell",
+
+        # More tech
+        "thales": "thales",
+        "thales group": "thales",
+        "ciena": "ciena",
+        "juniper networks": "juniper-networks",
+        "juniper": "juniper-networks",
+        "arista networks": "arista-networks",
+        "arista": "arista-networks",
+        "f5 networks": "f5-networks",
+        "f5": "f5-networks",
+        "citrix": "citrix",
+        "vmware": "vmware",
     }
 
     # Entry level mappings for different companies
@@ -292,29 +413,105 @@ class LevelsScraper:
         "x": "l3",
     }
 
+    CACHE_FILE = ".levels_salary_cache.json"
+
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
         })
-        # Cache for companies not found on levels.fyi
+        # Cache for companies not found on levels.fyi (confirmed 404s)
         self._not_found_cache = set()
+        # Cache for successful salary lookups
+        self._salary_cache = {}
+        # Load cache from file
+        self._load_cache()
+
+    def _load_cache(self):
+        """Load salary cache from file"""
+        import os
+        if os.path.exists(self.CACHE_FILE):
+            try:
+                with open(self.CACHE_FILE, 'r') as f:
+                    data = json.load(f)
+                    self._salary_cache = {k: tuple(v) for k, v in data.get('found', {}).items()}
+                    self._not_found_cache = set(data.get('not_found', []))
+                    print(f"  [Cache] Loaded {len(self._salary_cache)} cached salaries, {len(self._not_found_cache)} not-found", file=__import__('sys').stderr)
+            except Exception as e:
+                print(f"  [Cache] Error loading cache: {e}", file=__import__('sys').stderr)
+
+    def _save_cache(self):
+        """Save salary cache to file"""
+        try:
+            data = {
+                'found': {k: list(v) for k, v in self._salary_cache.items()},
+                'not_found': list(self._not_found_cache)
+            }
+            with open(self.CACHE_FILE, 'w') as f:
+                json.dump(data, f)
+        except Exception as e:
+            print(f"  [Cache] Error saving cache: {e}", file=__import__('sys').stderr)
+
+    # Common suffixes to strip from company names
+    COMPANY_SUFFIXES = [
+        ' inc', ' inc.', ' incorporated', ' corp', ' corp.', ' corporation',
+        ' llc', ' llc.', ' ltd', ' ltd.', ' limited', ' co', ' co.',
+        ' company', ' companies', ' technologies', ' technology', ' tech',
+        ' solutions', ' software', ' systems', ' services', ' group',
+        ' holdings', ' international', ' global', ' worldwide',
+        ', inc', ', inc.', ', llc', ', corp', ', ltd',
+    ]
+
+    # Common prefixes to strip
+    COMPANY_PREFIXES = ['the ']
 
     def _normalize_company(self, name: str) -> str:
         """Normalize company name to levels.fyi slug using aliases"""
         name_lower = name.lower().strip()
 
-        # Check exact match in aliases
+        # Check exact match in aliases first
         if name_lower in self.COMPANY_ALIASES:
             return self.COMPANY_ALIASES[name_lower]
 
-        # Check if any alias is contained in the name
+        # Strip common suffixes and prefixes, then check again
+        name_stripped = name_lower
+        for prefix in self.COMPANY_PREFIXES:
+            if name_stripped.startswith(prefix):
+                name_stripped = name_stripped[len(prefix):]
+        for suffix in self.COMPANY_SUFFIXES:
+            if name_stripped.endswith(suffix):
+                name_stripped = name_stripped[:-len(suffix)]
+        name_stripped = name_stripped.strip()
+
+        # Check stripped name in aliases
+        if name_stripped in self.COMPANY_ALIASES:
+            return self.COMPANY_ALIASES[name_stripped]
+
+        # Check if stripped name slugified matches an alias
+        name_slug = re.sub(r'[^a-z0-9]+', '-', name_stripped).strip('-')
+        if name_slug in self.COMPANY_ALIASES:
+            return self.COMPANY_ALIASES[name_slug]
+
+        # Check if full name contains a known alias (for multi-word matches)
+        # Only match if the alias is a significant part of the name (>50% length or >3 words match)
+        best_match = None
+        best_match_len = 0
         for alias, slug in self.COMPANY_ALIASES.items():
-            if alias in name_lower or name_lower in alias:
-                return slug
+            # Skip very short aliases to avoid false positives
+            if len(alias) < 4:
+                continue
+            # Check if alias is contained as a word boundary match
+            if alias in name_lower:
+                # Prefer longer matches
+                if len(alias) > best_match_len:
+                    best_match = slug
+                    best_match_len = len(alias)
+
+        if best_match and best_match_len >= len(name_stripped) * 0.5:
+            return best_match
 
         # Fallback to basic slugify
-        return re.sub(r'[^a-z0-9]+', '-', name_lower).strip('-')
+        return name_slug
 
     def _slugify(self, name: str) -> str:
         """Convert company name to URL slug (legacy, use _normalize_company)"""
@@ -329,84 +526,115 @@ class LevelsScraper:
         """
         company_slug = self._normalize_company(company)
 
-        # Check not-found cache first
+        # Check not-found cache first (only for confirmed 404s)
         if company_slug in self._not_found_cache:
             return (None, None)
 
-        # Check salary cache
-        result = self._get_salary_cached(company_slug)
-        if result == (None, None):
-            self._not_found_cache.add(company_slug)
+        # Check positive salary cache
+        if company_slug in self._salary_cache:
+            return self._salary_cache[company_slug]
+
+        # Fetch from levels.fyi with rate limiting
+        result = self._fetch_salary(company_slug)
+
+        # Cache the result appropriately
+        if result != (None, None):
+            self._salary_cache[company_slug] = result
+
         return result
 
-    @lru_cache(maxsize=500)
-    def _get_salary_cached(self, company_slug: str) -> Tuple[Optional[int], Optional[int]]:
-        """Cached salary lookup by normalized slug"""
-        try:
-            url = self.BASE_URL.format(company=company_slug)
-            resp = self.session.get(url, timeout=10)
+    def _fetch_salary(self, company_slug: str) -> Tuple[Optional[int], Optional[int]]:
+        """Fetch salary from levels.fyi with rate limiting and retry logic"""
+        import time
 
-            if resp.status_code != 200:
+        url = self.BASE_URL.format(company=company_slug)
+        max_retries = 3
+
+        for attempt in range(max_retries):
+            try:
+                # Rate limiting - small delay between requests
+                time.sleep(0.05)
+
+                resp = self.session.get(url, timeout=10)
+
+                # Handle rate limiting - skip this company and move on
+                # (the cache will allow us to retry on next run)
+                if resp.status_code in (429, 405, 503):
+                    return (None, None)
+
+                # Company not found - add to not_found_cache
+                if resp.status_code == 404:
+                    self._not_found_cache.add(company_slug)
+                    return (None, None)
+
+                if resp.status_code != 200:
+                    return (None, None)
+
+                # Extract __NEXT_DATA__ JSON
+                match = re.search(
+                    r'<script id="__NEXT_DATA__" type="application/json">(.+?)</script>',
+                    resp.text
+                )
+                if not match:
+                    self._not_found_cache.add(company_slug)
+                    return (None, None)
+
+                data = json.loads(match.group(1))
+                page_props = data.get('props', {}).get('pageProps', {})
+                averages = page_props.get('averages', [])
+
+                if not averages:
+                    self._not_found_cache.add(company_slug)
+                    return (None, None)
+
+                # Find entry level data
+                entry_level = self.ENTRY_LEVELS.get(company_slug)
+                entry_data = None
+
+                for avg in averages:
+                    level = avg.get('level', '').lower()
+                    # Check if this is entry level
+                    if entry_level and level == entry_level:
+                        entry_data = avg
+                        break
+                    # Fallback: look for common entry level indicators
+                    if not entry_data and any(x in level for x in ['l3', 'e3', 'sde1', 'new-grad', 'entry', 'junior', '1', 'i']):
+                        entry_data = avg
+
+                if not entry_data:
+                    # Use first level as fallback (usually entry)
+                    entry_data = averages[0] if averages else None
+
+                if not entry_data:
+                    return (None, None)
+
+                # Get salary from samples
+                samples = entry_data.get('samples', [])
+
+                if samples:
+                    # Get min/max from samples
+                    comps = [s.get('totalCompensation') for s in samples if s.get('totalCompensation')]
+                    if comps:
+                        # Return 25th and 75th percentile for range
+                        comps.sort()
+                        n = len(comps)
+                        return (comps[n // 4], comps[3 * n // 4])
+
+                # Fallback to averages
+                total = entry_data.get('total') or entry_data.get('rawValues', {}).get('total')
+                if total:
+                    # Return ±15% range around average
+                    return (int(total * 0.85), int(total * 1.15))
+
                 return (None, None)
 
-            # Extract __NEXT_DATA__ JSON
-            match = re.search(
-                r'<script id="__NEXT_DATA__" type="application/json">(.+?)</script>',
-                resp.text
-            )
-            if not match:
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)
+                    continue
                 return (None, None)
 
-            data = json.loads(match.group(1))
-            page_props = data.get('props', {}).get('pageProps', {})
-            averages = page_props.get('averages', [])
-
-            if not averages:
-                return (None, None)
-
-            # Find entry level data
-            entry_level = self.ENTRY_LEVELS.get(company_slug)
-            entry_data = None
-
-            for avg in averages:
-                level = avg.get('level', '').lower()
-                # Check if this is entry level
-                if entry_level and level == entry_level:
-                    entry_data = avg
-                    break
-                # Fallback: look for common entry level indicators
-                if not entry_data and any(x in level for x in ['l3', 'e3', 'sde1', 'new-grad', 'entry', 'junior', '1', 'i']):
-                    entry_data = avg
-
-            if not entry_data:
-                # Use first level as fallback (usually entry)
-                entry_data = averages[0] if averages else None
-
-            if not entry_data:
-                return (None, None)
-
-            # Get salary from samples
-            samples = entry_data.get('samples', [])
-
-            if samples:
-                # Get min/max from samples
-                comps = [s.get('totalCompensation') for s in samples if s.get('totalCompensation')]
-                if comps:
-                    # Return 25th and 75th percentile for range
-                    comps.sort()
-                    n = len(comps)
-                    return (comps[n // 4], comps[3 * n // 4])
-
-            # Fallback to averages
-            total = entry_data.get('total') or entry_data.get('rawValues', {}).get('total')
-            if total:
-                # Return ±15% range around average
-                return (int(total * 0.85), int(total * 1.15))
-
-            return (None, None)
-
-        except Exception as e:
-            return (None, None)
+        return (None, None)
 
     def enrich_jobs(self, jobs: list) -> int:
         """
@@ -415,12 +643,35 @@ class LevelsScraper:
 
         Returns count of enriched jobs.
         """
+        import sys
         enriched = 0
+        total = len(jobs)
 
-        for job in jobs:
+        # Track unique companies to avoid redundant lookups
+        seen_companies = set()
+
+        for i, job in enumerate(jobs):
+            # Progress output every 500 jobs
+            if i > 0 and i % 500 == 0:
+                print(f"    Enriching... {i}/{total} jobs ({enriched} enriched)", file=sys.stderr)
+                sys.stderr.flush()
+
             # Skip if already has salary
             if job.salary_min or job.salary_max:
                 continue
+
+            # Skip if we've already looked up this company
+            company_key = job.company.lower().strip()
+            if company_key in seen_companies:
+                # Get cached result
+                salary_min, salary_max = self.get_salary(job.company, job.title, job.location)
+                if salary_min and salary_max:
+                    job.salary_min = salary_min
+                    job.salary_max = salary_max
+                    enriched += 1
+                continue
+
+            seen_companies.add(company_key)
 
             # Try to get salary
             salary_min, salary_max = self.get_salary(
@@ -433,6 +684,9 @@ class LevelsScraper:
                 job.salary_min = salary_min
                 job.salary_max = salary_max
                 enriched += 1
+
+        # Save cache to file for future runs
+        self._save_cache()
 
         return enriched
 
