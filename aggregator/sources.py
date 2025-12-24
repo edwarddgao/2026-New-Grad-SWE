@@ -380,9 +380,20 @@ class JobAggregator:
                 seen_urls.add(job.url)
                 unique_jobs.append(job)
 
-        self.jobs = unique_jobs
-        print(f"\n=== Total unique jobs: {len(unique_jobs)} ===")
-        return unique_jobs
+        # Deduplicate by company + title (keep first occurrence)
+        seen_company_title = set()
+        deduped_jobs = []
+        for job in unique_jobs:
+            title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
+            key = (job.company.lower(), title_norm)
+            if key not in seen_company_title:
+                seen_company_title.add(key)
+                deduped_jobs.append(job)
+
+        self.jobs = deduped_jobs
+        print(f"  [Deduped] Removed {len(unique_jobs) - len(deduped_jobs)} duplicates")
+        print(f"\n=== Total unique jobs: {len(deduped_jobs)} ===")
+        return deduped_jobs
 
     def enrich(self) -> List[Job]:
         """Enrich jobs with levels.fyi data"""

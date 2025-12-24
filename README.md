@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), and [LinkedIn](https://linkedin.com/jobs)
 
-**Last updated:** 2025-12-24 04:22
+**Last updated:** 2025-12-24 04:26
 
-**Total:** 802 jobs from 297 companies
+**Total:** 691 jobs from 289 companies
 
 ---
 
@@ -14,12 +14,10 @@
 |---------|------|----------|--------|--------|
 | **Everline Tech** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4346103148) | San Jose, CA | LinkedIn |  |
 | **Waymo** | [Applied Research Scientist, Perception LLM/VLM (PhD, New Grad)](https://www.linkedin.com/jobs/view/4328755067) | San Francisco, CA | LinkedIn |  |
-| **Waymo** | [Applied Research Scientist, Perception LLM/VLM (PhD, New Grad)](https://www.linkedin.com/jobs/view/4328705253) | Mountain View, CA | LinkedIn |  |
 | **Cox** | [Software Engineer 1](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineer-I_R202570999-1) | NYC | Simplify | 0d |
 | **Waymo** | [Applied Research Scientist - Perception](https://careers.withwaymo.com/jobs?gh_jid=7467839) | SF, Mountain View, CA | Simplify | 0d |
 | **ByteDance** | [Research Scientist Graduate - 3D/4D Generation - 2026 Start](https://jobs.bytedance.com/en/position/7585034854077778181/detail) | San Jose, CA | Simplify | 0d |
 | **NVIDIA** | [Firmware Engineer – New College Grad 2026 - Memory Subsystem](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Firmware-Engineer--Memory-Subsystem---New-College-Grad-2026_JR2010096) | Santa Clara, CA | Simplify | 1d |
-| **Cisive** | [Software Developer](https://cisive.wd108.myworkdayjobs.com/Cisive/job/Remote---Maryland/Software-Developer_JR100173) | New Mexico, Washington, Kansas, Penns... | Simplify | 1d |
 | **Google** | [Physical Design Engineer – University Graduate - 3D Technology - PhD](https://www.google.com/about/careers/applications/jobs/results/106741356235236038) | Sunnyvale, CA | Simplify | 1d |
 | **Microchip Technology** | [Engineer 1 - Digital Design](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/NY---Hauppauge/Engineer-I---Digital-Design_R2503-25) | Long Island, New York | Simplify | 1d |
 | **Arup** | [Graduate Software Developer (Available 2026)](https://jobright.ai/jobs/info/694b455d1224705e90026f48?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1d |
@@ -34,24 +32,18 @@
 | **Plaid** | [Software Engineer](https://jobright.ai/jobs/info/68cd3b16b2a74e1837ed4337?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 1d |
 | **Assort Health** | [Agent Software Engineer](https://jobright.ai/jobs/info/692e54ad4c474121999d876f?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 1d |
 | **Persistent Systems, LLC** | [Software Engineer](https://jobright.ai/jobs/info/69202ce809cc522e87748843?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1d |
-| **NVIDIA** | [Firmware Engineer, Memory Subsystem - New College Grad 2026](https://www.linkedin.com/jobs/view/4328825095) | Santa Clara, CA | LinkedIn | 1d |
-| **Mechanize** | [Junior Software Engineer](https://jobs.ashbyhq.com/mechanize/b50c89dc-001c-4fb6-a4fc-a9f52f35b490) | San Francisco, CA, Remote in USA | Simplify | 2d |
 | **Oklo** | [Junior Software Engineer](https://job-boards.greenhouse.io/oklo/jobs/5739861004) | Santa Clara, CA, Remote in USA | Simplify | 2d |
 | **Astranis** | [Software Developer, Network Software Associate](https://job-boards.greenhouse.io/astranis/jobs/4621916006) | San Francisco, CA | Simplify | 2d |
 | **Radian** | [Data Scientist I - Hybrid](https://compass.wd501.myworkdayjobs.com/en-US/radian_external_career_site/job/New-York-NY/Data-Scientist-I---Hybrid_R20250160) | New York, NY | Simplify | 2d |
 | **BlackRock** | [Associate – Application Engineer](https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/New-York-NY/Associate--Application-Engineer_R258341-1) | NYC | Simplify | 2d |
 | **Microchip Technology** | [Engineer 1 - Analog Product - Test](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-I---Analog-Product--Test-_R2803-25) | San Jose, CA | Simplify | 2d |
-| **2020 Companies** | [Android Sales Expert](https://2020companies.wd1.myworkdayjobs.com/external_careers/job/Oakland-CA/Android-Sales-Expert_REQ_096760) | SF, Oakland, CA | Simplify | 2d |
 | **The Walt Disney Company** | [Associate Data Scientist](https://disney.wd5.myworkdayjobs.com/disneycareer/job/New-York-NY-USA/Associate-Data-Scientist_10138200) | NYC | Simplify | 2d |
 | **DiDi** | [Software Engineer – Motion & Behavioral Planning (post end 12/15)](https://jobright.ai/jobs/info/694a2616c6f0e2546cef2e33?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 2d |
 | **PagerDuty** | [Software Engineer I - Product Development](https://jobright.ai/jobs/info/694a0b6a7d506e3808f535f8?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 2d |
 | **Multiply Mortgage** | [Software Engineer](https://jobright.ai/jobs/info/694a06b27d506e3808f52a1a?utm_campaign=Software%20Engineering&utm_source=1103) | California, United States | Jobright | 2d |
 | **NVIDIA** | [Firmware Engineer, Memory Subsystem - New College Grad 2026](https://jobright.ai/jobs/info/694a06767d506e3808f5297c?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA | Jobright | 2d |
-| **PagerDuty** | [Software Engineer I - Product Development](https://jobright.ai/jobs/info/694a092f7d506e3808f530ec?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco | Jobright | 2d |
-| **BlackRock** | [Associate, Application Engineer](https://jobright.ai/jobs/info/694a1d7e63141d188459cdb5?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 2d |
 | **Fluidstack** | [Strategy & Operations Software Generalist](https://jobright.ai/jobs/info/694907efd1953b5d11c211ff?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 2d |
 | **Bloom Energy** | [RMCC Software Engineering Intern](https://www.linkedin.com/jobs/view/4316529935) | San Jose, CA | LinkedIn | 2d |
-| **Relativity Space** | [Embedded Software Engineer I](https://jobright.ai/jobs/info/6948b4bf63141d1884585747?utm_campaign=Software%20Engineering&utm_source=1103) | Long Beach, California | Jobright | 3d |
 | **Vast.ai** | [C++ Software Engineer — Systems](https://jobright.ai/jobs/info/6848e942132739e8bcbe8e16?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 3d |
 | **SpaceX** | [Full Stack Software Engineer, Security (Starlink)](https://jobright.ai/jobs/info/690e515e44146d3b6ec52dfa?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | Jobright | 3d |
 | **Two Sigma** | [Software Engineer, Modeling Engineering](https://jobright.ai/jobs/info/690e5b98221b890c2780d204?utm_campaign=Software%20Engineering&utm_source=1103) | New York, United States | Jobright | 3d |
@@ -59,18 +51,9 @@
 | **Glean** | [Software Engineer, University Grad](https://jobright.ai/jobs/info/68cfc4f9dbd9fb154edeacd5?utm_campaign=Software%20Engineering&utm_source=1103) | Palo Alto, CA | Jobright | 3d |
 | **Scotiabank** | [Associate, US Software Equity Research, San Francisco](https://jobright.ai/jobs/info/690f432cd046ab6061d04485?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 3d |
 | **Silvus Technologies** | [Applications Engineer I](https://jobright.ai/jobs/info/68c8d936983e6768bc552130?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 3d |
-| **General Motors** | [Software Engineer - Early Career](https://jobright.ai/jobs/info/6936f79eaabec14a727c326c?utm_campaign=Software%20Engineering&utm_source=1103) | Mountain View, CA | Jobright | 3d |
-| **Qualcomm** | [Product Software Engineer](https://jobright.ai/jobs/info/690e5857d046ab6061cfc73d?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | Jobright | 3d |
-| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://jobright.ai/jobs/info/6921828e3f782d2f1afd29dc?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA | Jobright | 3d |
 | **Arup** | [Graduate Digital Delivery Engineer (Available 2026)](https://jobright.ai/jobs/info/6906ff8e63502c0aded840c5?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 3d |
-| **Adobe** | [2026 University Graduate - Software Engineer](https://jobright.ai/jobs/info/68d623e54736ff202fdcf9a0?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 3d |
-| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://jobright.ai/jobs/info/68f31be176a51a4307bcb23d?utm_campaign=Software%20Engineering&utm_source=1103) | Redwood City, CA | Jobright | 3d |
-| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://www.linkedin.com/jobs/view/4313829483) | Redwood City, CA | LinkedIn | 3d |
-| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://www.linkedin.com/jobs/view/4313836419) | Santa Clara, CA | LinkedIn | 3d |
 | **Plus** | [Senior Machine Learning Engineer, Simulation](https://www.linkedin.com/jobs/view/4091526578) | Santa Clara, CA | LinkedIn | 3d |
-| **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/san-diego/software-engineer-1/27595/89710140080) | San Diego, CA | Simplify | 4d |
 | **Capitolis** | [Algo Engineer](https://jobright.ai/jobs/info/691ceb7bff7024498416bd32?utm_campaign=Software%20Engineering&utm_source=1103) | New York, New York, United States | Jobright | 4d |
-| **SpaceX** | [Full Stack Software Engineer, Security (Starlink)](https://jobright.ai/jobs/info/690e4849d046ab6061cfbe20?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | Jobright | 4d |
 | **MedWatchers** | [Software Engineer](https://jobright.ai/jobs/info/6947068fd1953b5d11c021db?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | Jobright | 4d |
 | **Nutanix** | [QA Engineer: Licensing](https://jobright.ai/jobs/info/69481aecd1953b5d11c130d0?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 4d |
 | **Deutsche Bank** | [Deutsche Bank Graduate Programme - Technology, Data and Innovation (TDI) – New York 2026](https://jobright.ai/jobs/info/690e097944146d3b6ec50ebf?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 4d |
@@ -80,9 +63,6 @@
 | **Qualcomm** | [Display Software Engineer](https://jobright.ai/jobs/info/690d79fe221b890c2780710d?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | Jobright | 4d |
 | **Hudson River Trading** | [Software Engineer (C++ or Python) – 2026 Grads](https://jobright.ai/jobs/info/690cded54a1b456627b1b2ea?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 4d |
 | **Welocalize** | [Hungarian Localization QA Tester / Proofreader in Cupertino, CA](https://jobright.ai/jobs/info/690cd96ad046ab6061ceff06?utm_campaign=Software%20Engineering&utm_source=1103) | Cupertino, CA | Jobright | 4d |
-| **Applied Intuition** | [Software Engineer - New Grad](https://jobright.ai/jobs/info/68d20c948c62e63bc7fd2a7d?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | Jobright | 4d |
-| **Affirm** | [Software Engineer, Early Career](https://jobright.ai/jobs/info/692a4475fa28370be2696beb?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 4d |
-| **Affirm** | [Software Engineer, Early Career](https://jobright.ai/jobs/info/692a44e566796e3028f8eab3?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 4d |
 | **Applied Materials** | [Global Technical Product Marketing - New College Grad-PhD](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2026-NCG---Global-Technical-Product-Marketing---PhD--Santa-Clara--CA-_R2520001) | Santa Clara, CA | Simplify | 5d |
 | **Qualcomm** | [GPU Kernel Development Engineer - Multiple Levels Available - Graphics Software Engineering](https://qualcomm.eightfold.ai/careers/job/446715939731) | San Diego, CA | Simplify | 5d |
 | **WME Group** | [Analyst – Analytics](https://wmeimg.wd1.myworkdayjobs.com/endeavor/job/CA-Beverly-Hills---9601-Wilshire/Analyst--Analytics_JR27759-1) | Culver City, CA | Simplify | 5d |
@@ -100,53 +80,34 @@
 | **California Department of Social Services** | [INFORMATION TECHNOLOGY SPECIALIST I](https://jobright.ai/jobs/info/6945c4f4951654073537e2cf?utm_campaign=Software%20Engineering&utm_source=1103) | Sacramento, CA | Jobright | 5d |
 | **Planbase** | [Founding Product Engineer](https://jobright.ai/jobs/info/6945b2be63141d18845540a8?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA, US | Jobright | 5d |
 | **Oklo Inc** | [Junior Software Engineer](https://jobright.ai/jobs/info/694591fc63141d1884551da5?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA | Jobright | 5d |
-| **Intuit** | [Software Engineer 1](https://jobright.ai/jobs/info/69458b4c951654073537a4b4?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 5d |
 | **Metropolitan Transportation Authority** | [Application Developer 1-5 - PeopleSoft (TCU)](https://jobright.ai/jobs/info/691cf2e0bcdbf3560c9eb977?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 5d |
 | **Intuit** | [Software Engineer – PEGA (Full-Stack Growth Path)](https://jobright.ai/jobs/info/694586dcd1953b5d11be85fe?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 5d |
 | **IMC Trading** | [Python Developer](https://jobright.ai/jobs/info/68f64e039a63986de757d048?utm_campaign=Software%20Engineering&utm_source=1103) | New York, United States | Jobright | 5d |
-| **Whatnot** | [Software Engineer, 2026 New Grad](https://jobright.ai/jobs/info/6929a9fe4c474121999c9ff6?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 5d |
-| **Intuit** | [Softare Engineer 1](https://jobright.ai/jobs/info/69457ddb63141d18845509e8?utm_campaign=Software%20Engineering&utm_source=1103) | Mountain View, CA | Jobright | 5d |
-| **Oklo Inc** | [Junior Software Engineer](https://jobright.ai/jobs/info/69456ee763141d188454ed75?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA or Remote | Jobright | 5d |
 | **Motorola Solutions** | [Embedded Software Engineer (Web Interface Developer)](https://jobright.ai/jobs/info/694568c9d1953b5d11be5711?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 5d |
-| **Whatnot** | [Software Engineer, 2026 New Grad](https://jobright.ai/jobs/info/6929a54b4c474121999c9f85?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 5d |
 | **Notion** | [Software Engineer, Fullstack, Early Career](https://jobright.ai/jobs/info/690b8137221b890c277f5557?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 5d |
 | **Motorola Solutions** | [Embedded Software Engineer Web Interface Developer](https://jobright.ai/jobs/info/694550aad1953b5d11be44f2?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 5d |
-| **Notion** | [Software Engineer, Fullstack, Early Career](https://jobright.ai/jobs/info/690b7649221b890c277f50ea?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 5d |
 | **monday.com** | [Salesforce Implementer](https://jobright.ai/jobs/info/690bbec9221b890c277f7a22?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 5d |
-| **Motorola Solutions** | [Embedded Software Engineer (Web Interface Developer)](https://jobright.ai/jobs/info/6945410dd1953b5d11be32b6?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 5d |
 | **Applied Intuition** | [Software Engineer - Mission Sim](https://jobright.ai/jobs/info/68ce32fb1ad6b16f028a2e55?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | Jobright | 5d |
 | **TikTok** | [Software Engineer Graduate (Ads Creator) - 2026 Start (BS/MS)](https://jobright.ai/jobs/info/68d4a7718c62e63bc7feb4ba?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 5d |
-| **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/new-york/software-engineer-1/27595/89635832192) | NYC | Simplify | 6d |
 | **Google** | [Product Manager 1 - Google Cloud](https://www.google.com/about/careers/applications/jobs/results/109636922254467782) | NYC | Simplify | 6d |
-| **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/new-york/software-engineer-1/27595/89635832160) | NYC | Simplify | 6d |
-| **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/mountain-view/software-engineer-1/27595/89635839264) | Mountain View, CA | Simplify | 6d |
-| **Adobe** | [University Graduate - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R160648) | San Jose, CA | Simplify | 6d |
 | **Uber** | [Graduate Software Engineer 1 - Mobile](https://www.uber.com/global/en/careers/list/152559/) | Seattle, WA, SF, NYC, Sunnyvale, CA | Simplify | 6d |
 | **Uber** | [Graduate Software Engineer 1](https://www.uber.com/global/en/careers/list/152427/) | Seattle, WA, SF, NYC, Sunnyvale, CA | Simplify | 6d |
-| **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/mountain-view/software-engineer-1/27595/89660152512) | Mountain View, CA | Simplify | 6d |
-| **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/new-york/software-engineer-1/27595/89660152448) | NYC | Simplify | 6d |
 | **Microchip Technology Inc.** | [Engineer I-Verification](https://jobright.ai/jobs/info/6947914c63141d1884573269?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 6d |
 | **Cantina Labs** | [Media Software Engineer, Speech (All Levels)](https://jobright.ai/jobs/info/692524bdd47de4798eccd587?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | Jobright | 6d |
 | **Caltech** | [Data to Discovery Visualization Software UX Design & Development Engineer](https://jobright.ai/jobs/info/6944c7ad94730b7398780845?utm_campaign=Software%20Engineering&utm_source=1103) | Pasadena, CA | Jobright | 6d |
 | **Elsewhere Entertainment** | [Rotational Engineer, Central Technology](https://jobright.ai/jobs/info/6944b8a350bbaf765056d00f?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 6d |
-| **Twitch** | [Software Engineer](https://jobright.ai/jobs/info/6944b77d94730b739877fb4a?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 6d |
-| **Twitch** | [Software Engineer](https://jobright.ai/jobs/info/6944aa50a7227b3ece6656d2?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 6d |
 | **Broccoli AI** | [Junior Software Engineer](https://jobright.ai/jobs/info/6944d588a7227b3ece6679f7?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco | Jobright | 6d |
-| **General Motors** | [Quality Assurance Engineer](https://jobright.ai/jobs/info/694485d494730b739877c097?utm_campaign=Software%20Engineering&utm_source=1103) | Buffalo, New York, United States of A... | Jobright | 6d |
 | **Brown & Brown** | [Application Developer/Analyst](https://jobright.ai/jobs/info/69447ae050bbaf7650568ba5?utm_campaign=Software%20Engineering&utm_source=1103) | Orange, CA, USA | Jobright | 6d |
 | **Salient** | [Forward Deployed Software Engineer](https://jobright.ai/jobs/info/691d30477481340785ed4a42?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 6d |
 | **TikTok** | [Backend Software Engineer, Global E-Commerce Supply Chain & Logistics - USDS](https://jobright.ai/jobs/info/694472d494730b739877a202?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 6d |
 | **TikTok** | [Junior Solutions Engineer - SMB, Ads](https://jobright.ai/jobs/info/69447156dd382f5f566a9740?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 6d |
 | **Major League Baseball (MLB)** | [Software Engineer, Media Services](https://jobright.ai/jobs/info/69446ccb50bbaf76505669a6?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 6d |
 | **City of San José** | [Development Services Systems Applications Programmer](https://jobright.ai/jobs/info/6933c041764507023d1b8ed5?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 6d |
-| **Capital One** | [Software Engineer](https://jobright.ai/jobs/info/69444e3950bbaf7650564ce8?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 6d |
-| **Intuit** | [Software Engineer 1](https://jobright.ai/jobs/info/6944339650bbaf765056263d?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 6d |
 | **Figma** | [Early Career, Software Engineer (2026)](https://jobright.ai/jobs/info/68d1f5aaa54edb3bf3e18229?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 6d |
 | **BlackRock** | [Associate, Index Fixed Income Algo Engineer](https://jobright.ai/jobs/info/69424ae050bbaf7650544664?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 6d |
 | **Neuralink** | [Software Engineer, BCI Applications](https://jobright.ai/jobs/info/68cba33b9e3a822f5d249936?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, CA | Jobright | 6d |
 | **Palantir Technologies** | [Backend Software Engineer - Infrastructure](https://jobright.ai/jobs/info/68ce6698fb49c96ca6ea003d?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 6d |
 | **Neuralink** | [Embedded Software Engineer, Implant Embedded Systems](https://jobright.ai/jobs/info/68ce374e1ad6b16f028a30f0?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, CA | Jobright | 6d |
-| **Stripe** | [Software Engineer, New Grad](https://jobright.ai/jobs/info/68ccf71177add66568abccf2?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 6d |
 | **Merkle** | [QA Analyst](https://jobright.ai/jobs/info/6943f05c94730b73987714d7?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 6d |
 | **Apple** | [Junior UI Compositing Engineer](https://jobright.ai/jobs/info/6943c66cdd382f5f5669db2d?utm_campaign=Software%20Engineering&utm_source=1103) | Cupertino, California, United States | Jobright | 6d |
 | **Garner Health, LLC** | [Associate Software Engineer](https://jobright.ai/jobs/info/6943bbdb94730b739876e126?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 6d |
@@ -166,29 +127,21 @@
 | **Astranis Space Technologies** | [Software Developer, Network Software Associate (Spring 2026)](https://jobright.ai/jobs/info/69437b0894730b7398769960?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 1w |
 | **Tower Mobility** | [Junior Software Developer](https://jobright.ai/jobs/info/69448ce8dd382f5f566ab57a?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 1w |
 | **LaunchDarkly** | [Backend Engineer, Metrics](https://jobright.ai/jobs/info/694349dbdd382f5f566949e6?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco Bay Area | Jobright | 1w |
-| **Astranis Space Technologies** | [Software Developer, Network Software Associate (Spring 2026)](https://jobright.ai/jobs/info/6943416f50bbaf7650552352?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco | Jobright | 1w |
-| **LaunchDarkly** | [Backend Engineer, Metrics](https://jobright.ai/jobs/info/69433e6794730b7398764924?utm_campaign=Software%20Engineering&utm_source=1103) | Hybrid - San Francisco Bay Area | Jobright | 1w |
 | **Palo Alto Networks** | [Early Career - Software Engineer (Bachelor's Only)](https://jobright.ai/jobs/info/69434baa50bbaf7650553071?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Clara, CA | Jobright | 1w |
 | **Sony Interactive Entertainment** | [Open World Game Test Analyst](https://jobright.ai/jobs/info/694342de94730b739876523b?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | Jobright | 1w |
 | **Wing** | [Web Software Engineer](https://jobright.ai/jobs/info/694340ec94730b7398764e51?utm_campaign=Software%20Engineering&utm_source=1103) | Palo Alto, CA | Jobright | 1w |
 | **CalPERS** | [Software Engineer](https://jobright.ai/jobs/info/69431a9c50bbaf765054f246?utm_campaign=Software%20Engineering&utm_source=1103) | Sacramento, CA | Jobright | 1w |
 | **Coalition, Inc.** | [FRONT END DEVELOPER](https://jobright.ai/jobs/info/69434d16dd382f5f56694cbf?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA | Jobright | 1w |
-| **Capital One** | [Software Engineer](https://jobright.ai/jobs/info/6943109250bbaf765054e85d?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1w |
-| **LinkedIn** | [Software Engineer - Frontend](https://jobright.ai/jobs/info/69430f4894730b739876136e?utm_campaign=Software%20Engineering&utm_source=1103) | Mountain View, CA | Jobright | 1w |
-| **Sony Interactive Entertainment** | [Open World Game Test Analyst](https://jobright.ai/jobs/info/69430ed194730b73987612fb?utm_campaign=Software%20Engineering&utm_source=1103) | United States, San Diego, CA | Jobright | 1w |
 | **Security Mutual Life Insurance Company of New York** | [Associate Software Developer - 1118](https://jobright.ai/jobs/info/6943407c50bbaf765055216f?utm_campaign=Software%20Engineering&utm_source=1103) | Binghamton, NY, US | Jobright | 1w |
 | **TikTok** | [Backend Software Engineer, Supply Chain and Logistics - USDS](https://jobright.ai/jobs/info/694326b594730b739876286f?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | Jobright | 1w |
 | **MLabs** | [Junior Software Engineer (Graduate)](https://jobright.ai/jobs/info/694425cddd382f5f566a39cf?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1w |
 | **Illumina** | [Firmware Test Engineer 1](https://jobright.ai/jobs/info/6932ba7ef131d96e4845dd8d?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | Jobright | 1w |
 | **GTS** | [Quantitative Trader](https://jobright.ai/jobs/info/6677e86f8edbb3fe78f33106?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1w |
 | **dentsu** | [Manager, Media Tech & Ad Ops](https://jobright.ai/jobs/info/69261f02f0beb07232622430?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1w |
-| **Figma** | [Early Career, Software Engineer (2026)](https://jobright.ai/jobs/info/68d1ed62a54edb3bf3e1796e?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1w |
-| **Plaid** | [Software Engineer](https://jobright.ai/jobs/info/68cbf16a128dc347fd91c700?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1w |
 | **Voxel** | [Software Engineer - Applications (L3/L4)](https://jobright.ai/jobs/info/69262c3fd47de4798ecd53e6?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 1w |
 | **NVIDIA** | [Datacenter Resiliency Architect – New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Datacenter-Resiliency-Architect---New-College-Grad-2025_JR1997786) | Santa Clara, CA | Simplify | 1w |
 | **Intuit** | [Softare Engineer 1](https://jobs.intuit.com/job/mountain-view/softare-engineer-1/27595/89568852704) | Mountain View, CA | Simplify | 1w |
 | **NVIDIA** | [DGX Cloud Performance Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/DGX-Cloud-Performance-Engineer---New-Grad-2026_JR2009610) | Santa Clara, CA, Remote in TX, Remote... | Simplify | 1w |
-| **Encore Capital Group** | [Associate Software Engineer](https://encore.wd1.myworkdayjobs.com/confidential/job/CA---San-Diego/Software-Engineer_HR-19575-2) | San Diego, CA | Simplify | 1w |
 | **Warner Bros.** | [Associate Software Engineer](https://warnerbros.wd5.myworkdayjobs.com/global/job/NY-New-York-30-Hudson-Yards/Associate-Software-Engineer_R000101226) | Burbank, CA, NYC, Atlanta, GA | Simplify | 1w |
 | **Boson Ai** | [Data Annotation - QC and Crawling - Thai](https://jobs.lever.co/bosonai/fab6b3b2-f6d2-4c06-a0ae-2d747a16cf02/apply) | Santa Clara, CA | Simplify | 1w |
 | **Arch Capital Group** | [Data Quality Analyst - Statistical Reporting](https://archgroup.wd1.myworkdayjobs.com/careers/job/Jersey-City-NJ-United-States-of-America/Data-Quality-Analyst--Statistical-Reporting_R25_1219) | Morristown, NJ, Philadelphia, PA, NYC | Simplify | 1w |
@@ -207,15 +160,11 @@
 | **Applied Materials** | [Product Line Management - New College Grad-Master's - Santa Clara','CA](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Product-Line-Management--New-College-Grad--Master-s--Santa-Clara--CA-_R2519412) | Santa Clara, CA | Simplify | 1w |
 | **NVIDIA** | [Research Scientist – PhD New College Grad 2026 - Autonomous Vehicles](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Autonomous-Vehicles---New-College-Grad-2026_JR2008395) | Santa Clara, CA | Simplify | 1w |
 | **Adobe** | [MBA University Graduate - Product Marketing Manager](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-MBA-University-Graduate---Product-Marketing-Manager_R158926) | SF, San Jose, CA | Simplify | 1w |
-| **Adobe** | [Software Development Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/Software-Development-Engineer_R160351-1) | San Jose, CA, Lehi, UT | Simplify | 1w |
 | **Applied Materials** | [Data Science Engineer - New College Grad-Master's/PhD](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Data-Science-Engineer--New-College-Grad--Master-s-PhD--Santa-Clara--CA-_R2519402) | Santa Clara, CA | Simplify | 1w |
 | **NVIDIA** | [GPU and SoC Modelling Architect – New College Grad](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-and-SoC-Modelling-Architect---New-College-Grad-2026_JR2009934) | Santa Clara, CA | Simplify | 1w |
-| **Sensor Tower** | [Product Analyst - Digital Advertising](https://jobs.lever.co/sensortower/60624cbe-4c13-4133-bf14-5e6624ed54b9/apply) | NYC | Simplify | 1w |
 | **Nasdaq** | [ETP Product Analyst](https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site/job/USA---New-York-City---New-York/ETP-Product-Analyst_R0024268-1) | NYC | Simplify | 1w |
-| **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/mountain-view/software-engineer-1/27595/89447203920) | Mountain View, CA | Simplify | 1w |
 | **Tinder** | [Data Scientist 2 - Growth](https://jobs.lever.co/matchgroup/aff4cec0-abaf-44bc-adfc-e99e740f5c3a/apply) | Palo Alto, CA, SF, LA, Dallas, TX | Simplify | 1w |
 | **University of Southern California** | [WordPress Website Administrator & Designer](https://usc.wd5.myworkdayjobs.com/ExternalUSCCareers/job/San-Diego-CA/WordPress-Website-Administrator---Designer_REQ20168294) | San Diego, CA | Simplify | 1w |
-| **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/new-york/software-engineer-1/27595/89411491904) | NYC | Simplify | 1w |
 | **Qualcomm** | [Stability Engineer - Customer Engineering - Software Applications Engineering](https://qualcomm.eightfold.ai/careers/job/446715856406) | San Diego, CA | Simplify | 1w |
 | **Adobe** | [Applied Scientist](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Research-Scientist---Engineer_R157087) | San Jose, CA | Simplify | 1w |
 | **Consolidated Edison** | [Associate IT BSD OMS Team](https://ejcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1033/job/4886) | NYC | Simplify | 1w |
@@ -225,7 +174,6 @@
 | **Cadence Design Systems** | [Application Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Application-Engineer_R52105) | San Jose, CA | Simplify | 2w |
 | **Axos Bank** | [Junior Business & Technology Analyst](https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Jr-Business---Technology-Analyst---Data-Scientist---Machine-Learning-Engineer_JR3704) | San Diego, CA | Simplify | 2w |
 | **Twitch** | [Software Engineer I, Frontend](https://job-boards.greenhouse.io/twitch/jobs/8329910002) | Irvine, CA | Simplify | 2w |
-| **Twitch** | [Software Engineer I, Frontend](https://job-boards.greenhouse.io/twitch/jobs/8328684002) | San Francisco, CA | Simplify | 2w |
 | **Baselayer** | [Junior Backend Engineer](https://job-boards.greenhouse.io/baselayer/jobs/5023884008) | San Francisco, CA | Simplify | 2w |
 | **General Motors** | [Applied Scientist - AI & Robotics (PhD) - Early Career](https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Mountain-View-California-United-States-of-America/Applied-Scientist---AI---Robotics--PhD----Early-Career_JR-202523975) | Mountain View, CA | Simplify | 2w |
 | **Morgan Stanley** | [Market Risk Analytics Associate, Stress Testing and AI Integration](https://ms.wd5.myworkdayjobs.com/en-US/external/job/New-York-New-York-United-States-of-America/Market-Risk-Analytics-Associate--Stress-Testing-and-AI-Integration_PT-JR025318) | New York, NY | Simplify | 2w |
@@ -246,7 +194,6 @@
 | **iHeartMedia** | [Audio Video Engineer - NYC](https://iheartmedia.wd5.myworkdayjobs.com/External_iHM/job/New-York-NY-55th-St/Audio-Video-Engineer---NYC_Req36490-4) | NYC | Simplify | 2w |
 | **MatX** | [Software Engineer - Simulators](https://job-boards.greenhouse.io/matx/jobs/4102858008) | Mountain View, CA | Simplify | 2w |
 | **Oracle** | [Undergrad Software Engineer - C/C++ - Oracle Cloud Infrastructure](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/318307) | Santa Clara, CA, Burlington, MA | Simplify | 2w |
-| **AlphaSights** | [Graduate – Associate Product Manager](https://www.alphasights.com/careers/open-roles?gh_jid=7441197) | NYC | Simplify | 2w |
 | **Obsidian Security** | [AI Product Manager](https://job-boards.greenhouse.io/obsidiansecurity/jobs/5019969008) | Palo Alto, CA | Simplify | 2w |
 | **Datadog** | [Enablement Operations Data Analyst - NYC](https://careers.datadoghq.com/detail/7378476/?gh_jid=7378476) | NYC | Simplify | 2w |
 | **pony.ai** | [Software Engineer - Perception Infrastructure](https://apply.workable.com/pony-dot-ai/j/A776E97605/apply) | Fremont, CA | Simplify | 2w |
@@ -257,7 +204,6 @@
 | **Qualcomm** | [Sensors Software Engineer - Software Engineering](https://qualcomm.eightfold.ai/careers/job/446715712169) | Santa Clara, CA | Simplify | 3w |
 | **Cadent** | [Data Analytics - Junior Associate](https://careers-cadent.icims.com/jobs/1271/job?mobile=true&needsRedirect=false) | NYC | Simplify | 3w |
 | **Becton Dickinson** | [Field Service Engineer](https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-MD---Sparks---39-Loveton-Circle/Field-Service-Engineer_R-532752) | California, LA, Sparks, MD, Glendale, CA | Simplify | 3w |
-| **Microsoft** | [Software Engineer](https://apply.careers.microsoft.com/careers/job/1970393556631205) | Mountain View, CA, Redmond, WA | Simplify | 3w |
 | **Empire State Realty Trust** | [Investment Analyst](https://jobs.lever.co/esrtreit/ac3dc3e6-c4a2-49e6-a20c-e0a39ad89149/apply) | Remote in USA, NYC | Simplify | 3w |
 | **Lawrence Berkeley National Laboratory** | [Postdoc AI-Enhanced Soft X-ray Spectroscopy for Microelectronics](https://lbl.taleo.net/careersection/5/jobdetail.ftl?job=105624) | Berkeley, CA | Simplify | 3w |
 | **Capital One** | [Senior Associate - Product Manager - Business Cards & Payments](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate--Product-Manager---Business-Cards---Payments_R231093-1) | McLean, VA, Richmond, VA, NYC | Simplify | 3w |
@@ -274,7 +220,6 @@
 | **True Anomaly** | [Quality Assurance Software Engineer 1](https://job-boards.greenhouse.io/trueanomalyinc/jobs/4992321007) | Long Beach, CA, Denver, CO | Simplify | 3w |
 | **Affirm** | [Software Engineer – Early Career](https://job-boards.greenhouse.io/affirm/jobs/7485072003) | NYC | Simplify | 3w |
 | **Morgan Stanley** | [Java Developer - Associate](https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Java-Developer---Associate_PT-JR024825) | NYC | Simplify | 3w |
-| **Circle** | [New Grad Software Engineer - Backend 2026](https://circle.wd1.myworkdayjobs.com/Circle/job/San-Francisco---remote-first-in-US/New-Grad-Software-Engineer--Backend-2024_JR100011-1) | Salt Lake City, UT, Boston, MA, Seatt... | Simplify | 3w |
 | **True Anomaly** | [Software Engineer 1 - Elixir](https://job-boards.greenhouse.io/trueanomalyinc/jobs/4971623007) | Long Beach, CA, Denver, CO | Simplify | 3w |
 | **Reevo** | [Builder – New Grad - AI Engineer](https://jobs.ashbyhq.com/reevo/2a1f4f7f-86d3-41f4-bda1-3867ff82eb0d/application) | SF, Santa Clara, CA | Simplify | 3w |
 | **Oracle** | [Undergraduate Hardware Engineer - Oracle Cloud Infrastructure - Oci](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/317568) | Santa Clara, CA | Simplify | 3w |
@@ -285,7 +230,6 @@
 | **TikTok** | [（General Hire）Machine Learning Engineer Graduate - E-Commerce - 2026 Start','Phd](https://lifeattiktok.com/search/7516666201355962632) | San Jose, CA | Simplify | 4w |
 | **McAfee** | [AI Training Data Acquisition Analyst](https://mcafee.wd1.myworkdayjobs.com/external/job/United-States/AI-Training-Data-Acquisition-Analyst_JR0032205) | Frisco, TX, San Jose, CA | Simplify | 4w |
 | **True Anomaly** | [Front End Software Engineer 1](https://job-boards.greenhouse.io/trueanomalyinc/jobs/4992058007) | Long Beach, CA, Colorado Springs, CO,... | Simplify | 4w |
-| **EliseAI** | [Software Engineer](https://jobs.ashbyhq.com/EliseAI/1ffbd278-a5fe-443c-984f-521d61a97353/application) | NYC | Simplify | 4w |
 | **Uare.ai** | [Software Engineer – Early Career](https://job-boards.greenhouse.io/uareai/jobs/4036519009) | Mountain View, CA | Simplify | 4w |
 | **Datadog** | [Data Analyst - GTM Strategy & Operations](https://careers.datadoghq.com/detail/7374529/?gh_jid=7374529) | NYC | Simplify | 4w |
 | **S&P Global ** | [Product Specialist - Indices & ETFs](https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/New-York-NY/Product-Specialist---Indices---ETF-s_321476-1) | NYC | Simplify | 4w |
@@ -295,8 +239,6 @@
 | **ASML** | [Software Engineer](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Software-Engineer_J-00330610) | San Diego, CA | Simplify | 1mo |
 | **Via** | [Data Science Associate](https://job-boards.greenhouse.io/via/jobs/8304049002) | NYC | Simplify | 1mo |
 | **American Express** | [Data Engineer 1 - Infra Data & Analytics](https://aexp.eightfold.ai/careers/job/38902972) | NYC | Simplify | 1mo |
-| **Apple** | [SoC DFT Engineer](https://jobs.apple.com/en-us/details/200622794) | Cupertino, CA | Simplify | 1mo |
-| **Apple** | [SoC Physical Design Engineer - Place and Route](https://jobs.apple.com/en-us/details/200609955) | Sunnyvale, CA | Simplify | 1mo |
 | **Apple** | [Systems Software Engineer](https://jobs.apple.com/en-us/details/200617621) | San Diego, CA | Simplify | 1mo |
 | **Cisco** | [Hardware Engineer 1 - Full time - United States](https://careers.cisco.com/global/en/job/2000108) | Austin, TX, San Jose, CA, Carlsbad, C... | Simplify | 1mo |
 | **Cisco** | [Software Engineer Security & Automation 1](https://careers.cisco.com/global/en/job/2000123) | San Jose, CA | Simplify | 1mo |
@@ -313,17 +255,12 @@
 | **Apple** | [SoC Firmware Engineer](https://jobs.apple.com/en-us/details/200585802) | Cupertino, CA | Simplify | 1mo |
 | **Apple** | [ASIC Design Engineer - Cache Controller](https://jobs.apple.com/en-us/details/200624401) | Santa Clara, CA | Simplify | 1mo |
 | **Apple** | [Physical Design Engineer - Machine Learning](https://jobs.apple.com/en-us/details/200608195) | Sunnyvale, CA | Simplify | 1mo |
-| **Apple** | [Design Verification Engineer](https://jobs.apple.com/en-us/details/200619218) | Cupertino, CA | Simplify | 1mo |
 | **Apple** | [SoC Physical Design Engineer - STA/Timing](https://jobs.apple.com/en-us/details/200608528) | Sunnyvale, CA | Simplify | 1mo |
-| **Apple** | [Design Verification Engineer](https://jobs.apple.com/en-us/details/200619242) | San Diego, CA | Simplify | 1mo |
 | **Apple** | [Software Engineer - Core OS Telemetry](https://jobs.apple.com/en-us/details/200623424) | San Diego, CA | Simplify | 1mo |
 | **Apple** | [Silicon Prototyping Engineer](https://jobs.apple.com/en-us/details/200624624) | Cupertino, CA | Simplify | 1mo |
 | **Apple** | [SoC Integration Engineer](https://jobs.apple.com/en-us/details/200626487) | Cupertino, CA | Simplify | 1mo |
-| **Apple** | [GPU Design Engineer - Memory Hierarchy](https://jobs.apple.com/en-us/details/200629696) | Santa Clara, CA | Simplify | 1mo |
-| **Apple** | [Mixed-Signal IP Firmware Engineer](https://jobs.apple.com/en-us/details/200629448) | San Diego, CA | Simplify | 1mo |
 | **Apple** | [Software Triage Engineer - Siri Attention and Invocation](https://jobs.apple.com/en-us/details/200630271) | Cupertino, CA | Simplify | 1mo |
 | **Apple** | [Integration Engineer](https://jobs.apple.com/en-us/details/200629915) | Santa Clara, CA | Simplify | 1mo |
-| **Apple** | [SoC Physical Design Engineer - Place and Route](https://jobs.apple.com/en-us/details/200628796) | Sunnyvale, CA | Simplify | 1mo |
 | **TikTok** | [Product Manager Graduate - Tiktok Product-Search Growth - 2026 Start](https://lifeattiktok.com/search/7574148661151156485) | San Jose, CA | Simplify | 1mo |
 | **Cisco** | [Software Engineer Data/AI/Intelligent Systems I (Full Time)](https://careers.cisco.com/global/en/job/2000073/Software-Engineer-Data-AI-Intelligent-Systems-I-Full-Time-%E2%80%93-United-States) | Austin, TX, San Jose, CA, Alpharetta,... | Simplify | 1mo |
 | **AppLovin** | [Backend Engineer, New Grad](https://job-boards.greenhouse.io/applovin/jobs/4451556006) | Palo Alto, CA | Simplify | 1mo |
@@ -370,7 +307,6 @@
 | **Super Micro Computer** | [Engineering Technician](https://jobs.supermicro.com/job/San-Jose-Engineering-Technician-Cali/1340417400/?ats=successfactors) | San Jose, CA | Simplify | 1mo |
 | **Informa Group** | [Data Analyst](https://jobs.smartrecruiters.com/InformaGroupPlc/744000091688257) | NYC | Simplify | 1mo |
 | **TikTok** | [Data Engineer Graduate - Data Platform - Global Live](https://lifeattiktok.com/search/7535156928172902674) | San Jose, CA | Simplify | 1mo |
-| **JP Morgan Chase** | [Machine Learning Scientist - Natural Language Processing - Machine Learning Center of Excellence](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210682815) | NYC | Simplify | 1mo |
 | **Magnite** | [Engineer 1 - Automation and Custom Applications](https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/New-York---New-York/Engineer-I--Automation-and-Custom-Applications_R-01139) | NYC | Simplify | 1mo |
 | **Financial Technology Partners** | [Special Executions Group Analyst / Data Analytics Analyst](https://job-boards.greenhouse.io/financialtechnologypartners/jobs/8228048002) | SF, NYC | Simplify | 1mo |
 | **Hewlett Packard (HP)** | [AI Lab – Junior Machine Learning Engineer - AI Lab - GenAI Modelling](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Sant-Cugat-del-Valles-Barcelona-Spain/AI-Lab---Junior-Machine-Learning-Engineer_3151000-2) | Palo Alto, CA, Sant Cugat del Vallès,... | Simplify | 1mo |
@@ -404,10 +340,8 @@
 | **ByteDance** | [Graduate Machine Learning Engineer - Conversational AI](https://jobs.bytedance.com/en/position/7536339085679954183/detail) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [3D Vision Algorithm Engineer Graduate - Hand Tracking - Phd](https://jobs.bytedance.com/en/position/7560969352582334781/detail) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [Research Scientist in Generative AI for Science - Bytedance Seed - 2026 Start](https://jobs.bytedance.com/en/position/7515484126905174280/detail) | San Jose, CA | Simplify | 1mo |
-| **ByteDance** | [Machine Learning Engineer Graduate - E-Commerce Risk Control - Phd](https://jobs.bytedance.com/en/position/7515574615440361736/detail) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [Research Scientist Graduate - 3D Avatar](https://jobs.bytedance.com/en/position/7551586669491095826/detail) | San Jose, CA | Simplify | 1mo |
 | **TikTok** | [Machine Learning Engineer - CV/NLP/Multimodal LLM - Tiktok Trust and Safety](https://lifeattiktok.com/search/7517108164819454216) | San Jose, CA | Simplify | 1mo |
-| **ByteDance** | [Software Engineer in ML Systems Graduate - Aml - Machine Learning Systems](https://jobs.bytedance.com/en/position/7265752342699837757/detail) | San Jose, CA | Simplify | 1mo |
 | **TikTok** | [Machine Learning Engineer Graduate - 2026 Start and BS/MS](https://lifeattiktok.com/search/7534982208201984274) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [Graduate Software Engineer - Multiple Teams](https://jobs.bytedance.com/en/position/7516656742554454280/detail) | San Jose, CA | Simplify | 1mo |
 | **TikTok** | [Software Engineer Graduate - Ads Infrastructure](https://lifeattiktok.com/search/7541512820980418824) | San Jose, CA | Simplify | 1mo |
@@ -423,12 +357,10 @@
 | **ByteDance** | [Machine Learning Engineer Graduate - E-Commerce Risk Control - BS/MS](https://jobs.bytedance.com/en/position/7538932631158212872/detail) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [Research Scientist Graduate - Foundation Model-Multimodal - 2026 Start（PhD）](https://jobs.bytedance.com/en/position/7472872797213395218/detail) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [Graduate Research Scientist - Multiple Teams](https://jobs.bytedance.com/en/position/7540109673547581703/detail) | San Jose, CA | Simplify | 1mo |
-| **ByteDance** | [AI LLM Network Software Development Engineer Graduate - High Speed Network - 2026 Start PhD](https://jobs.bytedance.com/en/position/7509262740803930376/detail) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [Research Scientist Graduate - Foundation Model-Music - 2026 Start(PhD)](https://jobs.bytedance.com/en/position/7397591474168645897/detail) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [Backend Software Engineer Graduate - Capcut - 2026 Start](https://jobs.bytedance.com/en/position/7527678842316998919/detail) | San Jose, CA | Simplify | 1mo |
 | **Adobe** | [University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Research-Scientist-Engineer_R160689) | San Jose, CA | Simplify | 1mo |
 | **Tower Research Capital** | [Quantitative Trader](https://www.tower-research.com/open-positions/?gh_jid=7062327) | Chicago, IL, NYC | Simplify | 1mo |
-| **ByteDance** | [Backend Software Engineer Graduate](https://jobs.bytedance.com/en/position/7532640535036741906/detail) | San Jose, CA | Simplify | 1mo |
 | **TikTok** | [Software Engineer Graduate - Search Ads Technology](https://lifeattiktok.com/search/7533517945307089159) | San Jose, CA | Simplify | 1mo |
 | **The Voleon Group** | [Associate Member of Trading Staff](https://jobs.lever.co/voleon/ce0bda1f-3d5a-44ac-8ab3-8578d49d344c/apply) | Berkeley, CA | Simplify | 1mo |
 | **Wing** | [Web Software Engineer - Commerce Engineering](https://wing.com/careers/8183010002?gh_jid=8183010002) | Palo Alto, CA | Simplify | 1mo |
@@ -438,7 +370,6 @@
 | **Trillium** | [Data Scientist](https://www.trlm.com/apply/4923778007?gh_jid=4923778007) | NYC | Simplify | 1mo |
 | **Lawrence Berkeley National Laboratory** | [Chamberlain Fellow - Physics Division](https://lbl.taleo.net/careersection/5/jobdetail.ftl?job=105086) | Batavia, IL, Rutland, ND, Berkeley, C... | Simplify | 1mo |
 | **Sei Labs** | [Research Scientist](https://jobs.lever.co/SeiLabs/a3964396-f6a5-42fd-801f-5610da10915a/apply) | NYC | Simplify | 1mo |
-| **Adobe** | [University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Research-Scientist-Engineer_R160690) | San Jose, CA | Simplify | 1mo |
 | **TikTok** | [Fullstack Software Engineer Graduate - Ads Interface and Platform - BS/MS](https://lifeattiktok.com/search/7551203671384656146) | San Jose, CA | Simplify | 1mo |
 | **Cantina** | [Full Stack Engineer](https://jobs.ashbyhq.com/spearbit/8eea0e23-befe-44da-b942-29e6fe748dbc/application) | NYC | Simplify | 1mo |
 | **TikTok** | [Graduate Engineer - Algorithm Engineering](https://lifeattiktok.com/search/7530770310150392072) | San Jose, CA | Simplify | 1mo |
@@ -446,7 +377,6 @@
 | **TikTok** | [Software Engineer Graduate - Ads Infrastructure-MLDP - BS/MS](https://lifeattiktok.com/search/7541516408564992264) | San Jose, CA | Simplify | 1mo |
 | **The Voleon Group** | [Software Engineer - University Hire 2026](https://jobs.lever.co/voleon/7c185ae4-3fdd-4613-8152-3ede45d2b7c0/apply) | Berkeley, CA | Simplify | 1mo |
 | **ByteDance** | [Research Scientist Graduate - Video Quality Analysis&Coding Strategy - 2026 Start](https://jobs.bytedance.com/en/position/7538946858355476743/detail) | San Jose, CA | Simplify | 1mo |
-| **ByteDance** | [Research Scientist Graduate - Video Quality Analysis&Coding Strategy - 2026 Start](https://jobs.bytedance.com/en/position/7538948353711950098/detail) | San Diego, CA | Simplify | 1mo |
 | **TikTok** | [Software Engineer Graduate - Media Engine](https://lifeattiktok.com/search/7538320612860446994) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [Research Scientist - Reinforcement Learning](https://jobs.bytedance.com/en/position/7533306565148281095/detail) | San Jose, CA | Simplify | 1mo |
 | **TikTok** | [Software Engineer Graduate - Data Arch - E-commerce](https://lifeattiktok.com/search/7535238327160637703) | San Jose, CA | Simplify | 1mo |
@@ -468,7 +398,6 @@
 | **Essen Health Care** | [Healthcare Analyst](https://careers-essenmed.icims.com/jobs/2039/job?mobile=true&needsRedirect=false) | Bronx, NY | Simplify | 1mo |
 | **TikTok** | [Product Manager - Data Platform - User Privacy & Transparency](https://lifeattiktok.com/search/7511411957259061511) | San Jose, CA | Simplify | 1mo |
 | **Uncountable** | [Data Structuring Specialist](https://jobs.lever.co/uncountable/9a594e54-c3d3-4c5e-95f7-16b66ab442a3/apply) | SF, NYC | Simplify | 1mo |
-| **ByteDance** | [Software Engineer Graduate - AI Platform - 2026 Start](https://jobs.bytedance.com/en/position/7540029640091650312/detail) | San Jose, CA | Simplify | 1mo |
 | **ByteDance** | [Software Engineer Graduate - Applied Machine Learning - Enterprise](https://jobs.bytedance.com/en/position/7532538236133902599/detail) | San Jose, CA | Simplify | 1mo |
 | **TikTok** | [Product Manager Graduate - Tiktok-Product-Content Ecosystem - 2026 Start](https://lifeattiktok.com/search/7532815853353863432) | San Jose, CA | Simplify | 1mo |
 | **TikTok** | [Data Scientist Graduate - TikTok Product Data Science - BS/MS](https://lifeattiktok.com/search/7533023909790501138) | San Jose, CA | Simplify | 1mo |
@@ -484,8 +413,6 @@
 | **Chubb** | [Technology Associate](https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/26148) | Philadelphia, PA, NYC | Simplify | 1mo |
 | **NVIDIA** | [Compiler Optimization Engineer – New College Grad - LLVM and Mlir](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Optimization-Engineer--LLVM-and-MLIR---New-College-Grad-2025_JR2006770) | Redmond, WA, Santa Clara, CA, United ... | Simplify | 1mo |
 | **Oracle** | [Advanced Degree Software Engineer - Oracle Health and Analytics](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/311345) | Seattle, WA, San Carlos, CA, Pleasant... | Simplify | 1mo |
-| **Promise** | [Software Engineer – Forward Deployed AI (New Grad)](https://jobs.ashbyhq.com/Promise/f0a30718-faf0-4a34-8759-0d6335fa365a) | Oakland, CA | Simplify | 2mo |
-| **Oracle** | [Undergrad Software Engineer - Oracle Cloud Infrastructure (OCI)](https://careers.oracle.com/en/sites/jobsearch/job/312200) | Santa Clara, CA | Simplify | 2mo |
 | **Citadel Securities** | [Quantitative Research Engineer](https://www.citadelsecurities.com/careers/details/quantitative-research-engineer-phd-graduate-us/) | Miami, FL, New York, NY | Simplify | 2mo |
 | **Logitech** | [Junior Software QA Engineer](https://logitech.wd5.myworkdayjobs.com/en-US/logitech/job/San-Jose-California---USA/Junior-Software-QA-Engineer_144324) | San Jose, CA | Simplify | 2mo |
 | **Adobe** | [Software Development Engineer](https://careers.adobe.com/us/en/job/ADOBUSR158465EXTERNALENUS/Software-Development-Engineer) | San Jose, CA | Simplify | 2mo |
@@ -504,10 +431,8 @@
 | **Uncountable** | [Product Manager – New Grad](https://jobs.lever.co/uncountable/0cccea19-b6b7-445b-8895-36b9fc0e502e/apply) | SF, NYC | Simplify | 2mo |
 | **Glide** | [Junior Full Stack Engineer - Frontend and Backend - TypeScript, React, Node.js, Next.js](https://jobs.ashbyhq.com/glide/5ece3064-6884-43c2-923c-066d6187b25d/application) | NYC | Simplify | 2mo |
 | **Applecart** | [Research Specialist](https://www.applecart.co/careers?gh_jid=7498160003) | NYC | Simplify | 2mo |
-| **Uncountable** | [Software Engineer for Chemistry Applications](https://jobs.lever.co/uncountable/6f51161f-fe9b-4ddc-8006-7b13b4cf415a/apply) | SF, NYC | Simplify | 2mo |
 | **Uncountable** | [Scientific Data Engineer](https://jobs.lever.co/uncountable/f634a632-c93e-4110-8cbf-7fb54b8fe244/apply) | SF, NYC | Simplify | 2mo |
 | **Trillium** | [Equity Trader](https://www.trlm.com/apply/4837090007?gh_jid=4837090007) | Miami, FL, Chicago, IL, NYC | Simplify | 2mo |
-| **Trillium** | [Equity Trader](https://www.trlm.com/apply/4788931007?gh_jid=4788931007) | Miami, FL, Chicago, IL, NYC | Simplify | 2mo |
 | **Microchip Technology** | [Engineer 1 - Verification](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-I-Verification_R1750-25) | San Jose, CA | Simplify | 2mo |
 | **Hewlett Packard (HP)** | [Software Development](https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Software-Development-Graduate_3152963) | Spring, TX, Palo Alto, CA, Boise, ID,... | Simplify | 2mo |
 | **Fireworks AI** | [Software Engineer – Early Career - Cloud Infrastructure](https://job-boards.greenhouse.io/fireworksai/jobs/4036755009) | San Carlos, CA, NYC | Simplify | 2mo |
@@ -536,7 +461,6 @@
 | **Yuzu Health** | [Pricing Engineer](https://yuzu.health/careers/c379c43c-8942-41df-ab40-3c5ee7fe4080) | New York City | Simplify | 2mo |
 | **Yuzu Health** | [Design Engineer](https://yuzu.health/careers/2bfc1773-e826-4a87-9b5f-7f79e1507ae6) | New York City | Simplify | 2mo |
 | **Yuzu Health** | [Fullstack Software Engineer](https://yuzu.health/careers/875a76b8-fb1b-4fc0-9478-0127635ae322) | New York City | Simplify | 2mo |
-| **Peraton** | [Software Engineering, Associate](https://careers-peraton.icims.com/jobs/160168/software-engineering%2c-associate/job) | Santa Clara, CA | Simplify | 2mo |
 | **TikTok** | [General Hire – Machine Learning Engineer Graduate - TikTok Recommendation](https://lifeattiktok.com/search/7518139910798215442) | San Jose, CA | Simplify | 2mo |
 | **TikTok** | [General Hire – Research Scientist Graduate](https://lifeattiktok.com/search/7516697804673190151) | San Jose, CA | Simplify | 2mo |
 | **General Motors** | [Software Engineer – Early Career](https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/Software-Engineer---Early-Career_JR-202518329) | Milford Charter Twp, MI, Austin, TX, ... | Simplify | 2mo |
@@ -550,21 +474,15 @@
 | **TD** | [Analyst Rotational Program – Software Engineering](https://td.wd3.myworkdayjobs.com/en-US/td_bank_careers/job/New-York-New-York/XMLNAME-2026-Full-Time-Analyst-Rotational-Program---Software-Engineering_R_1446300) | New York, NY | Simplify | 3mo |
 | **Muon** | [Software Engineer](https://job-boards.greenhouse.io/muonspace/jobs/4911755007) | San Jose, CA | Simplify | 3mo |
 | **CoStar Group** | [Associate Software Engineer](https://costar.wd1.myworkdayjobs.com/confidential/job/US-CA-San-Diego/Associate-Software-Engineer---San-Diego--CA_R37014-1) | San Diego, CA | Simplify | 3mo |
-| **Applied Intuition** | [Software Engineer – New Grad](https://boards.greenhouse.io/appliedintuition/jobs/4592025005) | Sunnyvale, CA | Simplify | 3mo |
 | **Susquehanna International Group (SIG)** | [Quantitative Researcher - Master's: 2026](https://careers-sig.icims.com/jobs/9438/job?mobile=true&needsRedirect=false) | NYC | Simplify | 3mo |
 | **TikTok** | [Machine Learning Engineer Graduate - Brand Ads](https://lifeattiktok.com/search/7535396503751772423) | San Jose, CA | Simplify | 3mo |
-| **Adobe** | [2026 University Graduate - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R160134) | Seattle, WA, SF, San Jose, CA | Simplify | 3mo |
 | **WeRide** | [New Grads 2026 - General Software Engineer](https://jobs.lever.co/weride/94562b95-f574-4a60-bfbf-0cafb5c8ea3d/apply) | San Jose, CA | Simplify | 3mo |
 | **WeRide** | [New Grads 2026 - Software Engineer - Algorithm](https://jobs.lever.co/weride/1dc0209a-f90b-4f1c-a614-75f5b7883e6d/apply) | San Jose, CA | Simplify | 3mo |
 | **WeRide** | [New Grads 2026 - Software Engineer - Computer Vision](https://jobs.lever.co/weride/d87ddf51-0def-436f-a178-135481b88f96/apply) | San Jose, CA | Simplify | 3mo |
 | **TikTok** | [Backend Software Engineer - Supply Chain and Logistics - Usds](https://lifeattiktok.com/search/7335549463710239003) | San Jose, CA | Simplify | 3mo |
 | **Point72** | [Quantitative Portfolio Analyst](https://job-boards.greenhouse.io/point72/jobs/8169967002) | New York, NY | Simplify | 3mo |
-| **Duolingo** | [AI Research Engineer](https://careers.duolingo.com/jobs/8169815002) | New York, NY | Simplify | 3mo |
-| **Jerry** | [Software Engineer I](https://jobs.ashbyhq.com/jerry.ai/7fce20dc-30a9-4dff-890d-eb041efe2a91) | Palo Alto, CA | Simplify | 3mo |
-| **SpaceX** | [Software Engineer - Direct To Cell](https://boards.greenhouse.io/spacex/jobs/8170041002) | Sunnyvale, CA | Simplify | 3mo |
 | **Macy's** | [Executive Development Program - Product Development](https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/80522) | NYC | Simplify | 3mo |
 | **CoStar** | [Associate Software Engineer](https://costar.wd1.myworkdayjobs.com/costar_campus/job/US-CA-San-Diego/Associate-Software-Engineer---San-Diego--CA_R37014) | San Diego, CA | Simplify | 3mo |
-| **CoStar** | [Associate Software Engineer](https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/US-CA-San-Diego/Associate-Software-Engineer---San-Diego--CA_R37014) | San Diego, CA | Simplify | 3mo |
 | **BNY** | [BNY Analyst Program-Engineering - Data Science](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70345) | Pittsburgh, PA, Lake Mary, FL, NYC | Simplify | 3mo |
 | **BNY** | [BNY Analyst Program-Engineering - Developer](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70342) | Pittsburgh, PA, Lake Mary, FL, NYC | Simplify | 3mo |
 | **AI Fund** | [Founder in Residence - Embedfi - SMB Hardware Leasing](https://jobs.lever.co/AIFund/e5ef49f6-2014-45d7-a5fb-2d534e6af556/apply) | California, Remote in USA | Simplify | 3mo |
@@ -575,7 +493,6 @@
 | **TikTok** | [Product Manager Graduate - PhD](https://lifeattiktok.com/search/7546336514033764626) | San Jose, CA | Simplify | 3mo |
 | **Susquehanna International Group (SIG)** | [Quantitative Systematic Trader - PhD: 2026](https://careers-sig.icims.com/jobs/9440/job?mobile=true&needsRedirect=false) | NYC | Simplify | 3mo |
 | **NVIDIA** | [Developer Technology Engineer, AI](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Technology-Engineer--AI---New-College-Graduate-2025_JR2003035) | Santa Clara, CA, Austin, TX, Durham, ... | Simplify | 3mo |
-| **Jerry** | [Software Engineer I](https://jobs.ashbyhq.com/jerry.ai/37194866-4a9c-4215-8eac-a99c6e8ea74a) | Palo Alto, CA | Simplify | 3mo |
 | **Aprio** | [Assurance Associate - Blockchain, Digital Assets, Specialty Lending and AI](https://jobs.lever.co/Aprio/e52783da-4116-4f88-9bfb-0cc6ce4a6993/) | San Francisco, CA | Simplify | 3mo |
 | **Decagon** | [Software Engineer - New Grad](https://jobs.ashbyhq.com/decagon/2a435dd5-1212-42bb-ae5a-d7432902acd2) | San Francisco, New York | Simplify | 3mo |
 | **Point72** | [Cubist Quant Academy - Researchers](https://boards.greenhouse.io/point72/jobs/7045943002) | NYC | Simplify | 3mo |
@@ -586,7 +503,6 @@
 | **WhatNot** | [Software Engineer – 2026 New Grad](https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application) | SF, LA, NYC | Simplify | 3mo |
 | **Brellium** | [Software Engineer](https://jobs.ashbyhq.com/brellium/8209ac68-d966-4d5f-a925-3b277f8583c3/application) | NYC | Simplify | 3mo |
 | **Ivo** | [Software Engineer](https://jobs.lever.co/ivo/1629cbb2-c07c-4214-a1e2-b4e96c9cc66c) | San Francisco, CA | Simplify | 3mo |
-| **Jerry** | [Software Engineer I](https://jobs.ashbyhq.com/jerry.ai/88345c93-ae5e-416b-af29-69d8ea6fde78) | San Francisco, CA, Palo Alto, CA | Simplify | 3mo |
 | **Glean** | [Software Engineer – University Grad](https://job-boards.greenhouse.io/gleanwork/jobs/4592324005) | Palo Alto, CA, SF | Simplify | 3mo |
 | **Stripe** | [PhD Machine Learning Engineer – New Grad](https://stripe.com/jobs/search?gh_jid=7216668) | Seattle, WA, SF, NYC | Simplify | 3mo |
 | **Databricks** | [Software Engineer](https://www.databricks.com/company/careers/university-recruiting/software-engineer---new-grad-2026-start-6865698002) | Bellevue, Washington, Mountain View, ... | Simplify | 3mo |
@@ -618,7 +534,6 @@
 | **Celonis** | [Associate Value Engineer (Management Consulting for AI Implementation)](https://job-boards.greenhouse.io/celonis/jobs/6691703003) | New York, NY | Simplify | 4mo |
 | **Celonis** | [Associate Value Engineer (Industrial Engineering & AI Applications)](https://job-boards.greenhouse.io/celonis/jobs/6691702003) | New York, NY | Simplify | 4mo |
 | **Google** | [Software Engineer – Early Career - PhD - Infrastructure](https://www.google.com/about/careers/applications/jobs/results/88714689822761670) | Madison, WI, Seattle, WA, Austin, TX,... | Simplify | 4mo |
-| **Deutsche Bank** | [Deutsche Bank Graduate Programme - Technology - Data and Innovation](https://db.recsolu.com/external/requisitions/LD3LwWUUPNRzI7iPwz-PAg) | NYC | Simplify | 4mo |
 | **TikTok** | [Data Scientist Graduate - Tiktok UG-Mid Platform - 2026 Start (to be filtered)](https://lifeattiktok.com/search/7542359937256982791) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Machine Learning Engineer Graduate - Tiktok Recommendation-Live - 2026 Start](https://lifeattiktok.com/search/7542584919815325960) | San Jose, CA | Simplify | 4mo |
 | **NVIDIA** | [AI System Engineer](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-System-Engineer---New-College-Grad-2025_JR2001318) | Santa Clara, CA, Redmond, WA | Simplify | 4mo |
@@ -640,26 +555,20 @@
 | **Citadel Securities** | [Quantitative Researcher – PhD Graduate](https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-us/) | Miami, FL, New York, NY | Simplify | 4mo |
 | **NVIDIA** | [Deep Learning Software Engineer, FlashInfer](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Software-Engineer--FlashInfer---New-College-Grad-2025_JR2002086) | Santa Clara, CA | Simplify | 4mo |
 | **Whatnot** | [Software Engineer, Notifications Platform](https://jobs.ashbyhq.com/whatnot/8ca77652-1248-41f4-9af1-07fc84d7f9f8) | San Francisco, CA, Los Angeles, CA, N... | Simplify | 4mo |
-| **Jerry** | [Software Engineer I](https://jobs.ashbyhq.com/jerry.ai/5ce23dea-de2e-4c6d-9556-3c5314d721f7) | San Francisco, CA | Simplify | 4mo |
 | **Blizzard** | [Graphics Engineering Intern](https://careers.blizzard.com/global/en/job/BLENGLOBALR025871EXTERNALENGLOBAL/Graphics-Engineering-Intern) | Irvine, CA | Simplify | 4mo |
 | **Nominal** | [Software Engineer](https://jobs.lever.co/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215) | New York, NY, Los Angeles, CA, Austin... | Simplify | 4mo |
-| **ByteDance** | [Software Engineer Graduate - Cloud Native Infrastructure - 2026 Start','BS/MS](https://jobs.bytedance.com/en/position/7540437542564301063/detail) | San Jose, CA | Simplify | 4mo |
 | **Chime** | [Product Security Engineer](https://job-boards.greenhouse.io/chime/jobs/8101747002) | San Francisco, CA | Simplify | 4mo |
 | **TikTok** | [Software Engineer Graduate (Foundation Platform)](https://lifeattiktok.com/search/7538325343598741767) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Software Engineer Graduate (Media Platform)](https://lifeattiktok.com/search/7538318336657606930) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Software Engineer Graduate (Commerce Ads)](https://lifeattiktok.com/search/7538213896365689096) | San Jose, CA | Simplify | 4mo |
 | **ByteDance** | [Software Engineer Graduate (Edge Platform)](https://joinbytedance.com/search/7538120693880834322) | San Jose, CA | Simplify | 4mo |
 | **ByteDance** | [Network Engineer Graduate (Physical Network Infra)](https://joinbytedance.com/search/7538106304578963730) | San Jose, CA | Simplify | 4mo |
-| **ByteDance** | [Cloud Network Engineer Graduate(Physical Network Infra)](https://joinbytedance.com/search/7538114876280817927) | San Jose, CA | Simplify | 4mo |
-| **Palantir** | [Software Engineer – New Grad - Infrastructure](https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d/apply) | Palo Alto, CA | Simplify | 4mo |
-| **ByteDance** | [Graduate Software Engineer - Cloud Native Infrastructure](https://jobs.bytedance.com/en/position/7538951609075271943/detail) | San Jose, CA | Simplify | 4mo |
 | **ByteDance** | [Software Engineer Graduate - AI Platform - 2026 Start](https://jobs.bytedance.com/en/position/7540345448911309074/detail) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Product Manager Ads Privacy & Targeting - Measurement Signal and Privacy Product](https://lifeattiktok.com/search/7538896279595338002) | San Jose, CA | Simplify | 4mo |
 | **Disney** | [Associate Data Analyst](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Burbank-CA-USA/Associate-Data-Analyst_10128347) | Burbank, CA | Simplify | 4mo |
 | **TikTok** | [Graduate Engineer - Machine Learning Engineer - Local Services Search](https://lifeattiktok.com/search/7534641468595489032) | San Jose, CA | Simplify | 4mo |
 | **ByteDance** | [Machine Learning Graduate - Ecommerce Recommendation - BS/MS](https://jobs.bytedance.com/en/position/7536346859938892040/detail) | San Jose, CA | Simplify | 4mo |
 | **Artech Information System** | [Network Engineer 1](https://jobs.smartrecruiters.com/ArtechInformationSystemLLC/743999650885073) | Sunnyvale, CA | Simplify | 4mo |
-| **ByteDance** | [Graduate Machine Learning Engineer - E-Commerce Supply Chain & Logistics](https://jobs.bytedance.com/en/position/7538937140706101522/detail) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [AI Product Manager Graduate - Creative and Brand Innovation - 2026 Start](https://lifeattiktok.com/search/7537485209698191623) | San Jose, CA | Simplify | 4mo |
 | **ByteDance** | [Software Engineer Graduate (Applied Machine Learning - MLDev) - 2026 Start (BS/MS)](https://joinbytedance.com/search/7535233571066349842) | San Jose, CA | Simplify | 4mo |
 | **ByteDance** | [Software Engineer Graduate (Applied Machine Learning - Enterprise) - 2026 Start (BS/MS)](https://joinbytedance.com/search/7532538236133902599) | San Jose, CA | Simplify | 4mo |
@@ -678,10 +587,6 @@
 | **Jump Trading** | [Campus ML Engineer (Full-Time)](https://www.jumptrading.com/careers/7141620/?gh_jid=7141620) | Chicago, IL, New York, NY | Simplify | 4mo |
 | **Jump Trading** | [Campus Quantitative Researcher (Full-Time)](https://www.jumptrading.com/careers/7125354/?gh_jid=7125354) | Chicago, IL, New York, NY | Simplify | 4mo |
 | **Jump Trading** | [Campus Quantitative Trader (Full-Time)](https://www.jumptrading.com/careers/7140611/?gh_jid=7140611) | Chicago, IL, New York, NY | Simplify | 4mo |
-| **BRM** | [Entry Level Software Engineer](https://jobs.ashbyhq.com/brm.ai/05cad7f7-2194-480d-8e70-7338cfd2a189) | San Francisco, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/113484514) | San Francisco, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/743999651709482) | San Diego, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/743999655204204) | New York, NY | Simplify | 4mo |
 | **AG Technologies** | [Training and Placement for OPT on Java Full Stack/ Web Logic and Sales Force - Java Full Stack - Web Logic and Sales Force](https://jobs.smartrecruiters.com/AGTechnologies1/109565143) | NYC | Simplify | 4mo |
 | **Hyve Solutions** | [Thermal Engineering Technician](https://synnex.wd5.myworkdayjobs.com/hyvecareers/job/Fremont-CA/Thermal-Engineering-Technician_R24594) | Fremont, CA | Simplify | 4mo |
 | **Figure** | [Helix Data Creator](https://job-boards.greenhouse.io/figureai/jobs/4585080006) | San Jose, CA | Simplify | 4mo |
@@ -689,7 +594,6 @@
 | **Applied Intuition** | [Embedded Software Engineer](https://job-boards.greenhouse.io/appliedintuition/jobs/4592027005?gh_jid=4592027005) | Mountain View, CA | Simplify | 4mo |
 | **Applied Intuition** | [Research Scientist](https://job-boards.greenhouse.io/appliedintuition/jobs/4489211005?gh_jid=4489211005) | Mountain View, CA | Simplify | 4mo |
 | **Applied Intuition** | [Software Engineer](https://job-boards.greenhouse.io/appliedintuition/jobs/4592025005?gh_jid=4592025005) | Mountain View, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/743999655719751) | San Francisco, CA | Simplify | 4mo |
 | **Avance Consulting** | [Technology Analyst - Cocoa](https://jobs.smartrecruiters.com/AvanceConsultingServices2/84052389) | Sunnyvale, CA | Simplify | 4mo |
 | **AG Technologies** | [Training and Placement for OPT on Java Full Stack/ Web Logic and Sales Force](https://jobs.smartrecruiters.com/AGTechnologies1/101942086) | Santa Clara, CA | Simplify | 4mo |
 | **Solar Turbines** | [Entry Level Controls & Software Test Engineer](https://cat.wd5.myworkdayjobs.com/en-US/solarturbines/job/San-Diego-California/Entry-Level-Controls---Software-Test-Engineer_R0000318546) | San Diego, CA | Simplify | 4mo |
@@ -698,15 +602,8 @@
 | **Uber** | [Graduate 2025 Software Engineer I, US](https://university-uber.icims.com/jobs/147250/job) | San Francisco, CA | Simplify | 4mo |
 | **Applied Intuition** | [Research Scientist - New Grad](https://job-boards.greenhouse.io/appliedintuition/jobs/4489211005) | Mountain View, CA | Simplify | 4mo |
 | **Applied Intuition** | [Software Engineer - New Grad](https://job-boards.greenhouse.io/appliedintuition/jobs/4592025005) | Mountain View, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/743999655794970) | San Jose, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/743999652483007) | San Diego, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/743999651146019) | San Diego, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/116232946) | San Francisco, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/743999659380716) | San Francisco, CA | Simplify | 4mo |
-| **AG Technologies** | [Hiring Entry Level Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/743999655720227) | New York, NY | Simplify | 4mo |
 | **360 IT Professionals** | [Frontend Developer - Angular](https://jobs.smartrecruiters.com/360ITProfessionals1/743999651681448) | NYC | Simplify | 4mo |
 | **ByteDance** | [Software Engineer Graduate - Developer Infra - BS/MS](https://jobs.bytedance.com/en/position/7536272435440716040/detail) | San Jose, CA | Simplify | 4mo |
-| **360 IT Professionals** | [Entry Level Business/Data Analyst](https://jobs.smartrecruiters.com/360ITProfessionals1/83405990) | Fremont, CA | Simplify | 4mo |
 | **AG Technologies** | [Hiring Software Engineer](https://jobs.smartrecruiters.com/AGTechnologies1/743999658570182) | NYC | Simplify | 4mo |
 | **Celonis** | [Associate Value Engineer (AI-Driven Data Science & Analytics) - Orbit Program](https://job-boards.greenhouse.io/celonis/jobs/6616403003) | New York, NY | Simplify | 4mo |
 | **Celonis** | [Associate Value Engineer (AI-Driven Data Science & Analytics)](https://job-boards.greenhouse.io/celonis/jobs/6616403003?gh_jid=6616403003) | New York, NY | Simplify | 4mo |
@@ -731,7 +628,6 @@
 | **TikTok** | [Research Scientist Graduate-CV/NLP/Multimodal LLM - Trust and Safety - San Jose](https://lifeattiktok.com/search/7530772847212644616) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Graduate Research Scientist - Monetization GenAI](https://lifeattiktok.com/search/7530775582141892882) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Engineer Graduate - Machine Learning Engineer Graduate-Data-Search-Tiktok - 2026 Start alternating BS/MS](https://lifeattiktok.com/search/7533371534829095175) | San Jose, CA | Simplify | 4mo |
-| **TikTok** | [Graduate Machine Learning Scientist - Global E-commerce Content Recommendation](https://lifeattiktok.com/search/7521988381021669640) | San Jose, CA | Simplify | 4mo |
 | **Hudson River Trading** | [Algorithm Developer - Quant Researcher](https://www.hudsonrivertrading.com/careers/job/?gh_jid=7051048) | NYC | Simplify | 4mo |
 | **Hudson River Trading** | [Algorithm Developer - Quant Researcher - 2026 Phds](https://www.hudsonrivertrading.com/careers/job/?gh_jid=7133986) | NYC | Simplify | 4mo |
 | **Reddit** | [Software Engineer - New Grad](https://app.ripplematch.com/v2/public/job/340fb9c1) | Chicago, IL, San Francisco, CA, Los A... | Simplify | 4mo |
@@ -744,7 +640,6 @@
 | **TikTok** | [Machine Learning Engineer Graduate - Ads Targeting](https://lifeattiktok.com/search/7532662241029802248) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Machine Learning Engineer Graduate Local Services - PhD](https://lifeattiktok.com/search/7532182374135040263) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Research Scientist Graduate - Compute Platform - Database Acceleration](https://lifeattiktok.com/search/7533284791178414343) | San Jose, CA | Simplify | 4mo |
-| **TikTok** | [Engineer Graduate: - Machine Learning Engineer - Local Services Search](https://lifeattiktok.com/search/7515280811014523144) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [General Hire – Machine Learning Engineer Graduate - 2026 Start","BS/MS](https://lifeattiktok.com/search/7533384972704778514) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Data Engineer Graduate - Multiple Teams](https://lifeattiktok.com/search/7532013244916435207) | San Jose, CA | Simplify | 4mo |
 | **TikTok** | [Graduate Algorithm Engineer](https://lifeattiktok.com/search/7528964116267256072) | San Jose, CA | Simplify | 4mo |
@@ -779,7 +674,6 @@
 | **Creatify Lab ** | [AI Research Engineer](https://jobs.ashbyhq.com/creatify/2ebe3f70-171c-4b4e-b1aa-220133dcb202/application) | Mountain View, CA | Simplify | 5mo |
 | **Five Rings Capital** | [Campus Full Time - Quantitative Trader](https://job-boards.greenhouse.io/fiveringsllc/jobs/4808867008) | NYC | Simplify | 5mo |
 | **mthree** | [Junior Software Engineer](https://job-boards.greenhouse.io/mthreerecruitingportal/jobs/4406180006) | Salt Lake, UT, Houston, TX, Dalla, TX... | Simplify | 5mo |
-| **ByteDance** | [Graduate Machine Learning Engineer - E-Commerce Governance - PhD](https://jobs.bytedance.com/en/position/7527426391449864466/detail) | San Jose, CA | Simplify | 5mo |
 | **ByteDance** | [Graduate Machine Learning Engineer - E-Commerce Governance-CV/NLP/Multimodal/LLM](https://jobs.bytedance.com/en/position/7515571512419338514/detail) | San Jose, CA | Simplify | 5mo |
 | **Citadel Securities** | [Quantitative Trader – University Graduate](https://www.citadelsecurities.com/careers/details/quantitative-trader-university-graduate-us/) | Miami, FL, New York, NY | Simplify | 5mo |
 | **Citadel Securities** | [Quantitative Research Analyst – University Graduate](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-university-graduate-us/) | Miami, FL, New York, NY | Simplify | 5mo |
@@ -788,12 +682,10 @@
 | **Citadel** | [Quantitative Research Analyst – University Graduate - US](https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-us/) | Miami, FL, NYC | Simplify | 5mo |
 | **Citadel** | [Quantitative Research Engineer – PhD Graduate - US](https://www.citadel.com/careers/details/quantitative-research-engineer-phd-graduate-us/) | Miami, FL, NYC | Simplify | 5mo |
 | **Citadel** | [Quantitative Researcher – PhD Graduate](https://www.citadel.com/careers/details/quantitative-researcher-phd-graduate-us/) | Miami, FL, NYC | Simplify | 5mo |
-| **Jane Street** | [Quantitative Trader](https://job-boards.greenhouse.io/janestreet/jobs/8070482002) | NYC | Simplify | 5mo |
 | **Jane Street** | [Linux Engineer](https://job-boards.greenhouse.io/janestreet/jobs/8061059002) | NYC | Simplify | 5mo |
 | **Ranger** | [Forward-Deployed Test Engineer](https://jobs.lever.co/ranger/38ef5184-0c8a-4980-836f-95e23e83ae7d) | San Francisco, CA | Simplify | 5mo |
 | **Palantir** | [Software Engineer – New Grad - Production Infrastructure](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply) | New York, NY | Simplify | 5mo |
 | **Palantir** | [Software Engineer – New Grad - Defense](https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278/apply) | New York, NY | Simplify | 5mo |
-| **Palantir** | [Software Engineer – New Grad - Defense](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3/apply) | Palo Alto, CA | Simplify | 5mo |
 | **Palantir** | [Software Engineer – New Grad](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92/apply) | New York, NY | Simplify | 5mo |
 | **Palantir** | [Software Engineer – New Grad - Infrastructure](https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4/apply) | New York, NY | Simplify | 5mo |
 | **Candid Health** | [Forward Deployed Software Engineer New Grad](https://jobs.ashbyhq.com/candidhealth/8d1922f8-e89d-433e-a21f-b724eabc003b/application) | San Francisco, CA, New York, NY, Denv... | Simplify | 5mo |
@@ -802,11 +694,8 @@
 | **Meta** | [Software Engineer - Product](https://www.metacareers.com/jobs/9818241978303850) | NYC | Simplify | 6mo |
 | **Citadel Securities** | [Quantitative Research Analyst](https://www.citadel.com/careers/details/quantitative-research-analyst-2025-university-graduate-us/) | Chicago, IL, Miami, FL, New York, NY | Simplify | 6mo |
 | **Reevo** | [Builder – New Grad - Software Engineer](https://jobs.ashbyhq.com/reevo/2ea4d267-cd80-4481-9965-216ecd469e7e/application) | Santa Clara, CA | Simplify | 6mo |
-| **ByteDance** | [Software Engineer Graduate - Applied Machine Learning - Orchestration](https://jobs.bytedance.com/en/position/7516656741909793042/detail) | San Jose, CA | Simplify | 6mo |
 | **ByteDance** | [Software Engineer Graduate - Applied Machine Learning - Training](https://jobs.bytedance.com/en/position/7516656742424430856/detail) | San Jose, CA | Simplify | 6mo |
 | **ByteDance** | [Software Engineer Graduate - Applied Machine Learning - Mldev](https://jobs.bytedance.com/en/position/7516657604077914386/detail) | San Jose, CA | Simplify | 6mo |
-| **ByteDance** | [Software Engineer Graduate - Applied Machine Learning - Enterprise](https://jobs.bytedance.com/en/position/7516654594874476808/detail) | San Jose, CA | Simplify | 6mo |
-| **ByteDance** | [Machine Learning Engineer Graduate - E-Commerce Recommendation/Search Alliance - 2026 Start','Phd](https://jobs.bytedance.com/en/position/7515557741370411282/detail) | San Jose, CA | Simplify | 6mo |
 | **N1** | [New Grad Software Engineer (Full Stack)](https://jobs.ashbyhq.com/n1/73724fe2-9a93-4a60-b349-4fd3d2efa94a) | New York, NY | Simplify | 6mo |
 | **N1** | [New Grad Software Engineer (Backend Rust)](https://jobs.ashbyhq.com/n1/a3e25c84-0846-454a-b2fc-a356c2a713bd) | New York, NY | Simplify | 6mo |
 | **N1** | [Software Engineer (Backend Rust)](https://jobs.ashbyhq.com/n1/99a78724-a7eb-4801-9e75-cf4465950567) | New York, NY | Simplify | 6mo |
