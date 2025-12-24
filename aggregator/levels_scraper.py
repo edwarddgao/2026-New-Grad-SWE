@@ -12,7 +12,7 @@ from functools import lru_cache
 class LevelsScraper:
     """Scrape salary data from levels.fyi"""
 
-    BASE_URL = "https://www.levels.fyi/companies/{company}/salaries/software-engineer"
+    BASE_URL = "https://www.levels.fyi/companies/{company}/salaries"
 
     # Company name aliases (job listing name -> levels.fyi slug)
     COMPANY_ALIASES = {
@@ -583,7 +583,12 @@ class LevelsScraper:
                 page_props = data.get('props', {}).get('pageProps', {})
                 averages = page_props.get('averages', [])
 
+                # If no averages, try company-wide median as fallback
                 if not averages:
+                    median = page_props.get('medianAcrossAllJobFamilies')
+                    if median and median > 10000:
+                        # Return ±15% range around company-wide median
+                        return (int(median * 0.85), int(median * 1.15))
                     self._not_found_cache.add(company_slug)
                     return (None, None)
 

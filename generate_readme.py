@@ -3,9 +3,26 @@
 Generate README.md with job listings table (like Simplify/Jobright)
 """
 
+import json
+import os
 from aggregator.sources import JobAggregator
+from aggregator.levels_scraper import get_scraper
 from datetime import datetime, timedelta
 from collections import defaultdict
+
+
+def load_levels_cache():
+    """Load the levels.fyi cache to know which companies are valid"""
+    cache_file = ".levels_salary_cache.json"
+    valid_companies = set()
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'r') as f:
+                data = json.load(f)
+                valid_companies = set(data.get('found', {}).keys())
+        except:
+            pass
+    return valid_companies
 
 def format_salary(salary_min: int, salary_max: int) -> str:
     """Format salary range as compact string (e.g., '$120k-150k')"""
@@ -43,10 +60,15 @@ def get_age(date_str: str) -> str:
         return ""
 
 def generate_readme(skip_enrichment: bool = False):
+    scraper = get_scraper()
+
     # Fetch and filter jobs
     agg = JobAggregator()
     agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_glassdoor=True, glassdoor_limit=50, include_hn=True, hn_limit=100, skip_enrichment=skip_enrichment)
     agg.filter_location(["nyc", "california"])
+
+    # Load valid companies AFTER enrichment so newly discovered companies are included
+    valid_levels_companies = load_levels_cache()
 
     # Sort jobs by date (newest first), then by compensation (highest first)
     def sort_key(job):
@@ -76,8 +98,8 @@ def generate_readme(skip_enrichment: bool = False):
 
 ## Job Listings
 
-| Company | Role | Location | Remote | Comp | Source | Posted |
-|---------|------|----------|--------|------|--------|--------|
+| Company | Role | Location | Comp | Source | Posted |
+|---------|------|----------|------|--------|--------|
 """
 
     # Add job rows sorted by recency
@@ -115,28 +137,22 @@ def generate_readme(skip_enrichment: bool = False):
         # Age
         age = get_age(job.date_posted)
 
-        # Compensation (linked to Levels.fyi)
-        company_slug = job.company_slug or job.company.lower().replace(" ", "-").replace(",", "").replace(".", "")
+        # Compensation (linked to Levels.fyi only if company exists there)
+        company_slug = scraper._normalize_company(job.company)
         levels_url = f"https://www.levels.fyi/companies/{company_slug}/salaries"
         comp_text = format_salary(job.salary_min, job.salary_max)
-        if comp_text:
+        is_valid_levels_company = company_slug in valid_levels_companies
+
+        if comp_text and is_valid_levels_company:
             comp = f"[{comp_text}]({levels_url})"
-        else:
+        elif comp_text:
+            comp = comp_text
+        elif is_valid_levels_company:
             comp = f"[Levels.fyi]({levels_url})"
-
-        # Remote status
-        if job.remote:
-            remote_col = "✓"
-        elif job.remote is False:
-            remote_col = ""
         else:
-            # Check location for remote indicators
-            if "remote" in job.location.lower():
-                remote_col = "✓"
-            else:
-                remote_col = ""
+            comp = ""
 
-        readme += f"| {company_col} | {title_col} | {loc} | {remote_col} | {comp} | {source} | {age} |\n"
+        readme += f"| {company_col} | {title_col} | {loc} | {comp} | {source} | {age} |\n"
 
     readme += """
 ---
