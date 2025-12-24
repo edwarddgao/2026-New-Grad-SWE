@@ -761,7 +761,7 @@ class JobAggregator:
         senior_keywords = [
             'senior', 'staff', 'principal', 'lead', 'manager', 'director',
             'architect', 'vp ', 'vice president', 'head of', 'chief',
-            'sr ', 'sr.', 'iii', 'iv', ' 3', ' 4', ' 5',
+            'sr ', 'sr.', ' iii', ' iv', ' 3', ' 4', ' 5',
             'founding', 'distinguished', 'fellow'
         ]
         # SWE-related keywords (must match at least one)
