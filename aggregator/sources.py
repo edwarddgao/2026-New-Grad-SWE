@@ -42,11 +42,6 @@ class SimplifySource:
 
     SOURCES = [
         {
-            "name": "Summer2026-Internships",
-            "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json",
-            "type": "internship"
-        },
-        {
             "name": "New-Grad-Positions",
             "url": "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json",
             "type": "new_grad"
@@ -357,14 +352,24 @@ class JobAggregator:
 
         # LinkedIn (optional, uses JobSpy scraping)
         if include_linkedin and self.sources["jobspy"].available:
+            # Search NYC
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="linkedin", results=linkedin_limit
+                site="linkedin", location="New York, NY", results=linkedin_limit // 2
+            ))
+            # Search California
+            all_jobs.extend(self.sources["jobspy"].fetch(
+                site="linkedin", location="California", results=linkedin_limit // 2
             ))
 
         # Indeed (optional, uses JobSpy scraping)
         if include_indeed and self.sources["jobspy"].available:
+            # Search NYC
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="indeed", results=indeed_limit
+                site="indeed", location="New York, NY", results=indeed_limit // 2
+            ))
+            # Search California
+            all_jobs.extend(self.sources["jobspy"].fetch(
+                site="indeed", location="California", results=indeed_limit // 2
             ))
 
         # Deduplicate by URL
@@ -402,6 +407,52 @@ class JobAggregator:
         print(f"  [Filtered] {len(filtered)} new grad positions")
         return filtered
 
+    def filter_location(self, regions: List[str] = None) -> List[Job]:
+        """Filter jobs by location (NYC, California, etc.)"""
+        if regions is None:
+            regions = ["nyc", "california"]
+
+        # Location patterns for each region
+        location_patterns = {
+            "nyc": [
+                "new york", "nyc", "brooklyn, ny", "manhattan", "queens, ny",
+                "bronx, ny", "staten island", ", ny,"
+            ],
+            "california": [
+                "california", ", ca,", ", ca ", "san francisco", "los angeles",
+                "san diego", "san jose", "oakland, ca", "palo alto",
+                "mountain view", "sunnyvale", "cupertino", "menlo park",
+                "redwood city", "santa clara", "irvine, ca", "pasadena, ca",
+                "berkeley, ca", "fremont, ca", "sacramento", "santa monica",
+                "venice, ca", "culver city", "burbank, ca", "glendale, ca"
+            ],
+            "remote": ["remote"]
+        }
+
+        # Build list of patterns to match
+        patterns = []
+        for region in regions:
+            region_lower = region.lower()
+            if region_lower in location_patterns:
+                patterns.extend(location_patterns[region_lower])
+            else:
+                patterns.append(region_lower)
+
+        # Exclusion patterns (to avoid Canada, etc.)
+        exclude_patterns = ["canada", "ontario", "quebec", "british columbia", "alberta"]
+
+        filtered = []
+        for job in self.jobs:
+            loc_lower = job.location.lower()
+            # Must match a pattern AND not match any exclusion
+            if any(pattern in loc_lower for pattern in patterns):
+                if not any(excl in loc_lower for excl in exclude_patterns):
+                    filtered.append(job)
+
+        self.jobs = filtered
+        print(f"  [Location] {len(filtered)} jobs in {', '.join(regions)}")
+        return filtered
+
     def to_json(self, filepath: str):
         """Export jobs to JSON"""
         with open(filepath, 'w') as f:
@@ -432,8 +483,11 @@ if __name__ == "__main__":
     # Test the aggregator
     agg = JobAggregator(levels_companies_file="/home/user/Hidden-Gems/data/levels_companies.txt")
 
-    # Fetch from free sources (skip Indeed for now)
-    jobs = agg.fetch_all(include_indeed=False)
+    # Fetch from free sources + LinkedIn (NYC/CA searches)
+    jobs = agg.fetch_all(include_linkedin=True, linkedin_limit=100)
+
+    # Filter to NYC and California only
+    agg.filter_location(["nyc", "california"])
 
     # Enrich with levels.fyi data
     agg.enrich()
