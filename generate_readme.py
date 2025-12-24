@@ -98,8 +98,8 @@ def generate_readme(skip_enrichment: bool = False):
 
 ## Job Listings
 
-| Company | Role | Location | Remote | Comp | Source | Posted |
-|---------|------|----------|--------|------|--------|--------|
+| Company | Role | Location | Comp | Source | Posted |
+|---------|------|----------|------|--------|--------|
 """
 
     # Add job rows sorted by recency
@@ -152,19 +152,7 @@ def generate_readme(skip_enrichment: bool = False):
         else:
             comp = ""
 
-        # Remote status
-        if job.remote:
-            remote_col = "✓"
-        elif job.remote is False:
-            remote_col = ""
-        else:
-            # Check location for remote indicators
-            if "remote" in job.location.lower():
-                remote_col = "✓"
-            else:
-                remote_col = ""
-
-        readme += f"| {company_col} | {title_col} | {loc} | {remote_col} | {comp} | {source} | {age} |\n"
+        readme += f"| {company_col} | {title_col} | {loc} | {comp} | {source} | {age} |\n"
 
     readme += """
 ---
