@@ -764,6 +764,24 @@ class JobAggregator:
             'sr ', 'sr.', 'iii', 'iv', ' 3', ' 4', ' 5',
             'founding', 'distinguished', 'fellow'
         ]
+        # SWE-related keywords (must match at least one)
+        swe_keywords = [
+            'software', 'swe', 'developer', 'frontend', 'backend', 'fullstack',
+            'full-stack', 'full stack', 'web dev', 'mobile dev', 'ios dev',
+            'android dev', 'data engineer', 'ml engineer', 'machine learning',
+            'platform engineer', 'devops', 'site reliability', 'sre',
+            'cloud engineer', 'infrastructure engineer', 'systems engineer',
+            'application engineer', 'api engineer', 'integration engineer'
+        ]
+        # Non-SWE engineering keywords to exclude
+        non_swe_keywords = [
+            'structural engineer', 'civil engineer', 'mechanical engineer',
+            'electrical engineer', 'chemical engineer', 'hardware engineer',
+            'manufacturing engineer', 'process engineer', 'quality engineer',
+            'test engineer', 'validation engineer', 'field engineer',
+            'sales engineer', 'solutions engineer', 'support engineer',
+            'network engineer', 'rf engineer', 'audio engineer'
+        ]
 
         filtered_jobs = []
         filtered_count = 0
@@ -772,7 +790,7 @@ class JobAggregator:
                 # Keep all curated jobs
                 filtered_jobs.append(job)
             else:
-                # For non-curated sources, filter to new grad/entry level
+                # For non-curated sources, filter to new grad/entry level SWE roles
                 title_lower = job.title.lower()
 
                 # Reject if has senior keywords
@@ -780,11 +798,16 @@ class JobAggregator:
                     filtered_count += 1
                     continue
 
-                # Accept if has new grad keywords OR no level specified (generic "Software Engineer")
-                has_new_grad = any(kw in title_lower for kw in new_grad_keywords)
-                is_generic = not any(kw in title_lower for kw in senior_keywords)
+                # Reject if explicitly non-SWE engineering
+                if any(kw in title_lower for kw in non_swe_keywords):
+                    filtered_count += 1
+                    continue
 
-                if has_new_grad or is_generic:
+                # Must have SWE-related keyword OR be generic "engineer" with new grad keyword
+                has_swe = any(kw in title_lower for kw in swe_keywords)
+                has_new_grad = any(kw in title_lower for kw in new_grad_keywords)
+
+                if has_swe or (has_new_grad and 'engineer' in title_lower):
                     filtered_jobs.append(job)
                 else:
                     filtered_count += 1
