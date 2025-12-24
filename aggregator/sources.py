@@ -331,13 +331,14 @@ class JobAggregator:
             "simplify": SimplifySource(),
             "jobright": JobrightSource(),
             "indeed": IndeedSource(),
-            "yc": YCombinatorSource(),
+            # YC source disabled - major YC companies already in Simplify,
+            # and new batch companies aren't hiring new grads yet
+            # "yc": YCombinatorSource(),
         }
         self.enricher = LevelsFyiEnricher(levels_companies_file)
         self.jobs: List[Job] = []
 
-    def fetch_all(self, include_indeed: bool = False, indeed_limit: int = 50,
-                  include_yc: bool = False, yc_max_team_size: int = 50) -> List[Job]:
+    def fetch_all(self, include_indeed: bool = False, indeed_limit: int = 50) -> List[Job]:
         """Fetch jobs from all sources"""
         print("\n=== Fetching jobs from all sources ===\n")
 
@@ -352,10 +353,6 @@ class JobAggregator:
         # Indeed (optional, uses scraping)
         if include_indeed and self.sources["indeed"].available:
             all_jobs.extend(self.sources["indeed"].fetch(results=indeed_limit))
-
-        # YC Work at a Startup (optional)
-        if include_yc:
-            all_jobs.extend(self.sources["yc"].fetch(max_team_size=yc_max_team_size))
 
         # Deduplicate by URL
         seen_urls = set()
