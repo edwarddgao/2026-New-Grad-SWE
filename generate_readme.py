@@ -7,8 +7,7 @@ import json
 import os
 from aggregator.sources import JobAggregator
 from aggregator.levels_scraper import get_scraper
-from datetime import datetime, timedelta
-from collections import defaultdict
+from datetime import datetime
 
 
 def load_levels_cache():
@@ -20,7 +19,7 @@ def load_levels_cache():
             with open(cache_file, 'r') as f:
                 data = json.load(f)
                 valid_companies = set(data.get('found', {}).keys())
-        except:
+        except (json.JSONDecodeError, IOError, KeyError):
             pass
     return valid_companies
 
@@ -56,7 +55,7 @@ def get_age(date_str: str) -> str:
             return f"{days // 7}w"
         else:
             return f"{days // 30}mo"
-    except:
+    except ValueError:
         return ""
 
 def generate_readme(skip_enrichment: bool = False):
