@@ -7,6 +7,17 @@ from aggregator.sources import JobAggregator
 from datetime import datetime, timedelta
 from collections import defaultdict
 
+def format_salary(salary_min: int, salary_max: int) -> str:
+    """Format salary range as compact string (e.g., '$120k-150k')"""
+    if not salary_min and not salary_max:
+        return ""
+    if salary_min and salary_max:
+        return f"${salary_min // 1000}k-{salary_max // 1000}k"
+    elif salary_min:
+        return f"${salary_min // 1000}k+"
+    else:
+        return f"${salary_max // 1000}k"
+
 def get_age(date_str: str) -> str:
     """Convert date to age string (e.g., '0d', '1w', '1mo')"""
     if not date_str:
@@ -57,8 +68,8 @@ def generate_readme():
 
 ## Job Listings
 
-| Company | Role | Location | Source | Posted |
-|---------|------|----------|--------|--------|
+| Company | Role | Location | Comp | Source | Posted |
+|---------|------|----------|------|--------|--------|
 """
 
     # Add job rows sorted by recency
@@ -96,7 +107,10 @@ def generate_readme():
         # Age
         age = get_age(job.date_posted)
 
-        readme += f"| {company_col} | {title_col} | {loc} | {source} | {age} |\n"
+        # Compensation
+        comp = format_salary(job.salary_min, job.salary_max)
+
+        readme += f"| {company_col} | {title_col} | {loc} | {comp} | {source} | {age} |\n"
 
     readme += """
 ---
