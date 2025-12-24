@@ -28,7 +28,7 @@ def get_age(date_str: str) -> str:
 def generate_readme():
     # Fetch and filter jobs
     agg = JobAggregator()
-    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc"])
+    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc"], include_indeed=True, indeed_limit=50, include_hn=True, hn_limit=100)
     agg.filter_location(["nyc", "california"])
 
     # Sort jobs by recency (most recent first)
@@ -47,7 +47,7 @@ def generate_readme():
 
     readme = f"""# New Grad SWE Jobs - NYC & California
 
-> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), and [Built In NYC](https://builtin.com/jobs/new-york)
+> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Built In NYC](https://builtin.com/jobs/new-york), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
 **Last updated:** {now}
 
@@ -83,7 +83,8 @@ def generate_readme():
             "indeed": "Indeed",
             "builtin_nyc": "Built In NYC",
             "builtin_sf": "Built In SF",
-            "builtin_la": "Built In LA"
+            "builtin_la": "Built In LA",
+            "hn_hiring": "HN Hiring"
         }
         source = source_map.get(job.source, job.source)
 
@@ -102,7 +103,9 @@ This list aggregates new grad software engineering positions in NYC and Californ
 - **[SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions)** - Curated new grad job database
 - **[Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)** - AI-powered job aggregator
 - **[LinkedIn](https://linkedin.com/jobs)** - Professional job board (via JobSpy)
+- **[Indeed](https://indeed.com)** - Job search engine (via JobSpy)
 - **[Built In NYC](https://builtin.com/jobs/new-york)** - Local tech job board
+- **[HN Who's Hiring](https://news.ycombinator.com)** - Monthly Hacker News hiring thread
 
 ### Usage
 

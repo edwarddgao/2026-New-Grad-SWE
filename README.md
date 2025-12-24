@@ -1,10 +1,10 @@
 # New Grad SWE Jobs - NYC & California
 
-> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), and [Built In NYC](https://builtin.com/jobs/new-york)
+> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Built In NYC](https://builtin.com/jobs/new-york), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-24 05:14
+**Last updated:** 2025-12-24 05:25
 
-**Total:** 849 jobs from 338 companies
+**Total:** 895 jobs from 363 companies
 
 ---
 
@@ -46,6 +46,17 @@
 | **CACI International Inc** | [Colorado School of Mines: Full-Time Opportunities](https://builtin.com/job/colorado-school-mines-full-time-opportunities/7817434) | New York, NY | Built In NYC | 1d |
 | **NVIDIA** | [Firmware Engineer, Memory Subsystem - New College Grad 2026](https://www.linkedin.com/jobs/view/4328825095) | Santa Clara, CA | LinkedIn | 1d |
 | **Quanta Manufacturing Fremont** | [Test Engineer](https://www.linkedin.com/jobs/view/4328764602) | Fremont, CA | LinkedIn | 1d |
+| **Dewberry** | [Staff Engineer - Electrical Engineer](https://www.indeed.com/viewjob?jk=d329ddd696721e2f) | New York, NY, US | Indeed | 1d |
+| **Arup** | [Graduate Software Developer (Available 2026)](https://www.indeed.com/viewjob?jk=e5bc5e3ab1f826a2) | New York, NY, US | Indeed | 1d |
+| **New York City Department of Health and Mental Hygiene** | [Desktop Support Engineer](https://www.indeed.com/viewjob?jk=357e3a6322aef78e) | New York, NY, US | Indeed | 1d |
+| **THE GUND COMPANY** | [Manufacturing Process Engineer](https://www.indeed.com/viewjob?jk=79a254c355793791) | Walnut, CA, US | Indeed | 1d |
+| **Tesla** | [Internship, Electronic Design Engineer, Radio Frequency (Summer 2026)](https://www.indeed.com/viewjob?jk=bd1750a0e968bcf1) | Palo Alto, CA, US | Indeed | 1d |
+| **Google** | [Physical Design Engineer, 3D Technology, PhD, University Graduate](https://www.indeed.com/viewjob?jk=710d54ebdbe5ce6b) | Sunnyvale, CA, US | Indeed | 1d |
+| **Google** | [Physical Design Engineer, University Graduate, PhD](https://www.indeed.com/viewjob?jk=c869f405dc5d444e) | Sunnyvale, CA, US | Indeed | 1d |
+| **Voyager Technologies, Inc.** | [Software Engineer – Manufacturing Integration (ACE)](https://www.indeed.com/viewjob?jk=cabff376fd86ec57) | Los Angeles, CA, US | Indeed | 1d |
+| **Voyager Technologies, Inc.** | [AI Software Engineer – Agents (ACE)](https://www.indeed.com/viewjob?jk=125e207aa81e609d) | Los Angeles, CA, US | Indeed | 1d |
+| **L3Harris** | [Lead, Software/Security Validation Engineer (Crypto1](https://www.indeed.com/viewjob?jk=5005b277315753e6) | Carlsbad, CA, US | Indeed | 1d |
+| **NVIDIA** | [Firmware Engineer, Memory Subsystem - New College Grad 2026](https://www.indeed.com/viewjob?jk=d899e3b7cfcc2c66) | Santa Clara, CA, US | Indeed | 1d |
 | **Mechanize** | [Junior Software Engineer](https://jobs.ashbyhq.com/mechanize/b50c89dc-001c-4fb6-a4fc-a9f52f35b490) | San Francisco, CA, Remote in USA | Simplify | 2d |
 | **Oklo** | [Junior Software Engineer](https://job-boards.greenhouse.io/oklo/jobs/5739861004) | Santa Clara, CA, Remote in USA | Simplify | 2d |
 | **Astranis** | [Software Developer, Network Software Associate](https://job-boards.greenhouse.io/astranis/jobs/4621916006) | San Francisco, CA | Simplify | 2d |
@@ -65,6 +76,20 @@
 | **RedTech Recruitment** | [Product Specialist - Graduate Considered](https://www.linkedin.com/jobs/view/4328811265) | Manhattan, NY | LinkedIn | 2d |
 | **PwC** | [Software Engineer Technical Lead - Manager](https://www.linkedin.com/jobs/view/4321752917) | New York, NY | LinkedIn | 2d |
 | **iRhythm Technologies, Inc.** | [System Engineer I](https://www.linkedin.com/jobs/view/4313376959) | San Francisco, CA | LinkedIn | 2d |
+| **Stantec** | [Bridge Engineer](https://www.indeed.com/viewjob?jk=201014816515a262) | New York, NY, US | Indeed | 2d |
+| **Qualcomm** | [Senior Software Engineer - Hypervisor](https://www.indeed.com/viewjob?jk=89a99cd9ecb40146) | San Diego, CA, US | Indeed | 2d |
+| **Stanford Health Care** | [Summer 2026 Internship - Technology and Digital Solutions -Technical Architecture, Security & Analytics Platform Internships (Undergraduate), Hybrid](https://www.indeed.com/viewjob?jk=92fbdbf1081824b9) | Palo Alto, CA, US | Indeed | 2d |
+| **Stanford Health Care** | [Summer 2026 Internship - Technology & Digital Solutions – Digital Innovation & Software Development Internships (Graduate), Hybrid](https://www.indeed.com/viewjob?jk=43d931fe12337de2) | Palo Alto, CA, US | Indeed | 2d |
+| **Verkada** | [Senior Firmware Engineer](https://www.indeed.com/viewjob?jk=2db024214ccb9ebe) | San Mateo, CA, US | Indeed | 2d |
+| **AVEVA** | [Digital Security Graduate - US](https://www.indeed.com/viewjob?jk=fb7e08f4b7fa1d51) | Lake Forest, CA, US | Indeed | 2d |
+| **DEGENKOLB ENGINEERS** | [Entry-Level Structural Engineer | Designer](https://www.indeed.com/viewjob?jk=a8dea50dfc087e8d) | Los Angeles, CA, US | Indeed | 2d |
+| **DEGENKOLB ENGINEERS** | [Entry-Level Structural Engineer | Designer](https://www.indeed.com/viewjob?jk=9f5b348d59a57380) | Sacramento, CA, US | Indeed | 2d |
+| **DEGENKOLB ENGINEERS** | [Entry-Level Structural Engineer | Designer](https://www.indeed.com/viewjob?jk=9b9efc38b61b9994) | Orange, CA, US | Indeed | 2d |
+| **DEGENKOLB ENGINEERS** | [Entry-Level Structural Engineer | Designer](https://www.indeed.com/viewjob?jk=42b177948d23d990) | Oakland, CA, US | Indeed | 2d |
+| **DEGENKOLB ENGINEERS** | [Entry-Level Structural Engineer | Designer](https://www.indeed.com/viewjob?jk=d9867afe30ffd744) | San Francisco, CA, US | Indeed | 2d |
+| **DEGENKOLB ENGINEERS** | [Entry-Level Structural Engineer | Designer](https://www.indeed.com/viewjob?jk=64ac8fe15abcb072) | San Diego, CA, US | Indeed | 2d |
+| **Motorola Solutions** | [Associate Research Development Test Engineer](https://www.indeed.com/viewjob?jk=e9c7e8198baf45a5) | Los Angeles, CA, US | Indeed | 2d |
+| **OutSystems** | [Software Engineer](https://www.indeed.com/viewjob?jk=a4c19c17ad483d21) | San Francisco Bay Area, CA, US | Indeed | 2d |
 | **Relativity Space** | [Embedded Software Engineer I](https://jobright.ai/jobs/info/6948b4bf63141d1884585747?utm_campaign=Software%20Engineering&utm_source=1103) | Long Beach, California | Jobright | 3d |
 | **Vast.ai** | [C++ Software Engineer — Systems](https://jobright.ai/jobs/info/6848e942132739e8bcbe8e16?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 3d |
 | **SpaceX** | [Full Stack Software Engineer, Security (Starlink)](https://jobright.ai/jobs/info/690e515e44146d3b6ec52dfa?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | Jobright | 3d |
@@ -617,6 +642,9 @@
 | **AI Fund** | [Founder in Residence - Embedfi - SMB Hardware Leasing](https://jobs.lever.co/AIFund/e5ef49f6-2014-45d7-a5fb-2d534e6af556/apply) | California, Remote in USA | Simplify | 3mo |
 | **Duolingo** | [AI Research Engineer – New PhD Graduate](https://careers.duolingo.com/jobs/8169815002?gh_jid=8169815002) | NYC | Simplify | 3mo |
 | **Geosyntec Consultants** | [Early-Career Subsurface Modeler](https://careers-geosyntec.icims.com/jobs/4105/job?mobile=true&needsRedirect=false) | Newport Beach, CA, Ventura, CA, Santa... | Simplify | 3mo |
+| **Amazon.com** | [Software Engineer, Prime Video](https://www.indeed.com/viewjob?jk=06b2f97fa8af4a24) | New York, NY, US | Indeed | 3mo |
+| **Amazon.com** | [Software Engineer, Prime Video](https://www.indeed.com/viewjob?jk=8d8c441ef78a7543) | San Francisco, CA, US | Indeed | 3mo |
+| **Amazon.com** | [Software Engineer, Prime Video](https://www.indeed.com/viewjob?jk=01a0bc574842b62f) | Culver City, CA, US | Indeed | 3mo |
 | **Jane Street** | [Cybersecurity Analyst](https://www.janestreet.com/join-jane-street/position/8053215002/) | New York, NY | Simplify | 3mo |
 | **EliseAI** | [Software Engineer](https://jobs.ashbyhq.com/eliseai/1ffbd278-a5fe-443c-984f-521d61a97353) | New York, NY | Simplify | 3mo |
 | **TikTok** | [Product Manager Graduate - PhD](https://lifeattiktok.com/search/7546336514033764626) | San Jose, CA | Simplify | 3mo |
@@ -861,6 +889,24 @@
 | **Nuro** | [Software Engineer – Autonomy-New Grad](https://nuro.ai/careersitem?gh_jid=6932596) | Mountain View, CA | Simplify | 6mo |
 | **Cadence Design Systems** | [Software Engineer I](https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/Software-Engineer-II_R48302) | San Jose, CA | Simplify | 6mo |
 | **ByteDance** | [RDMA Network Software Development Engineer - High Speed Network](https://jobs.bytedance.com/en/position/7509263561258027272/detail) | San Jose, CA | Simplify | 7mo |
+| **Amazon.com** | [Software Development Engineer, Live Sports - Prime Video](https://www.indeed.com/viewjob?jk=e64f70cf3074da69) | New York, NY, US | Indeed | 9mo |
+| **Amazon.com** | [Software Development Engineer, Live Sports - Prime Video](https://www.indeed.com/viewjob?jk=dcfb17a8db05a9a6) | Culver City, CA, US | Indeed | 9mo |
+| **Amazon.com** | [Senior Principal Engineer, Last Mile Delivery & Technology](https://www.indeed.com/viewjob?jk=888093195afaee36) | New York, NY, US | Indeed | 10mo |
+| **Amazon.com** | [Senior Principal Engineer, Last Mile Delivery & Technology](https://www.indeed.com/viewjob?jk=a7bb16e6bbcae9b9) | Santa Clara, CA, US | Indeed | 10mo |
+| **Fluidstack** | [Forward Deployed Engineer, SWE, SRE, Infrastructure, Networking](https://jobs.ashbyhq.com/fluidstack/fb45b5dc-614e-40dd-ac5d-b1a43014ee46) | London/SF/NYC or remote | HN Hiring | 11mo |
+| **Bitnomial** | [Senior Frontend Engineer](https://bitnomial.com/jobs/) | Chicago, IL, San Francisco Bay Area, ... | HN Hiring | 11mo |
+| **PermitFlow (YC W22)** | [Staff, Fullstack & Frontend Software Engineers](https://permitflow.com) | New York, NY | HN Hiring | 11mo |
+| **Sourcetable** | [Staff-level Engineers](https://sourcetable.com) | San Francisco | HN Hiring | 11mo |
+| **Primitive Instruments** | [https://primitive.tech](https://primitive.tech) | NYC or Remote | HN Hiring | 11mo |
+| **Dropt** | [Founding Frontend Engineer (Vue)](https://www.dropt.io/) | NYC (hybrid) / REMOTE (UTC-8 - UTC+1) | HN Hiring | 11mo |
+| **Imbue** | [Machine Learning Engineer](https://imbue.com/careers) | Remote or San Francisco | HN Hiring | 11mo |
+| **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) | HN Hiring | 11mo |
+| **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC | HN Hiring | 11mo |
+| **SafetyKit** | [AI Product Engineer](https://safetykit.com) | San Francisco, CA | HN Hiring | 11mo |
+| **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco | HN Hiring | 11mo |
+| **Graphite** | [Senior Software Engineer](https://graphite.dev) | NYC (Soho) | HN Hiring | 11mo |
+| **Layer Health** | [https://www.layerhealth.com/](https://www.layerhealth.com/) | BOSTON or NYC (Hybrid) | HN Hiring | 11mo |
+| **Converge (YC S23)** | [Founding Full-Stack Engineer](https://www.ycombinator.com/companies/converge/jobs/GQWZ40Z-founding-engineer-2-at-1m-arr) | NYC ONSITE | HN Hiring | 11mo |
 
 ---
 
@@ -871,7 +917,9 @@ This list aggregates new grad software engineering positions in NYC and Californ
 - **[SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions)** - Curated new grad job database
 - **[Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)** - AI-powered job aggregator
 - **[LinkedIn](https://linkedin.com/jobs)** - Professional job board (via JobSpy)
+- **[Indeed](https://indeed.com)** - Job search engine (via JobSpy)
 - **[Built In NYC](https://builtin.com/jobs/new-york)** - Local tech job board
+- **[HN Who's Hiring](https://news.ycombinator.com)** - Monthly Hacker News hiring thread
 
 ### Usage
 

@@ -315,6 +315,132 @@ class BuiltInSource:
         return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
 
 
+class HNHiringSource:
+    """Pull jobs from Hacker News 'Who is hiring?' threads"""
+
+    HN_API = "https://hacker-news.firebaseio.com/v0"
+
+    # Monthly thread IDs (updated manually or auto-discovered)
+    THREAD_IDS = {
+        "2025-01": 42575537,  # January 2025
+    }
+
+    def __init__(self):
+        self.available = True
+
+    def fetch(self, max_jobs: int = 100) -> List[Job]:
+        """Fetch jobs from the most recent Who is Hiring thread"""
+        jobs = []
+
+        # Get the most recent thread
+        thread_id = self._get_latest_thread_id()
+        if not thread_id:
+            print("  [HN] Could not find Who is Hiring thread")
+            return []
+
+        try:
+            # Fetch thread to get comment IDs
+            resp = requests.get(f"{self.HN_API}/item/{thread_id}.json", timeout=30)
+            if resp.status_code != 200:
+                return []
+
+            thread = resp.json()
+            kids = thread.get("kids", [])[:max_jobs]  # Limit to first N comments
+
+            # Fetch each job posting comment
+            for kid_id in kids:
+                try:
+                    comment_resp = requests.get(f"{self.HN_API}/item/{kid_id}.json", timeout=10)
+                    if comment_resp.status_code != 200:
+                        continue
+
+                    comment = comment_resp.json()
+                    if not comment or comment.get("deleted") or not comment.get("text"):
+                        continue
+
+                    # Parse the job posting
+                    job = self._parse_job(comment)
+                    if job:
+                        jobs.append(job)
+
+                except Exception:
+                    continue
+
+            print(f"  [HN] Who is Hiring: {len(jobs)} jobs")
+
+        except Exception as e:
+            print(f"  [HN] Error: {e}")
+
+        return jobs
+
+    def _get_latest_thread_id(self) -> Optional[int]:
+        """Get the most recent Who is Hiring thread ID"""
+        # Use known thread ID for current month
+        current = datetime.now().strftime("%Y-%m")
+        if current in self.THREAD_IDS:
+            return self.THREAD_IDS[current]
+
+        # Fallback to most recent known
+        if self.THREAD_IDS:
+            return list(self.THREAD_IDS.values())[-1]
+
+        return None
+
+    def _parse_job(self, comment: dict) -> Optional[Job]:
+        """Parse a job posting from HN comment format"""
+        text = comment.get("text", "")
+        if not text:
+            return None
+
+        # Unescape HTML entities
+        import html
+        text = html.unescape(text)
+
+        # Format is typically: Company | Role | Location | REMOTE/ONSITE | URL
+        # First line usually has the structured info
+        first_line = text.split("<p>")[0].strip()
+
+        # Split by pipe
+        parts = [p.strip() for p in first_line.split("|")]
+        if len(parts) < 2:
+            return None
+
+        company = self._strip_html(parts[0]) if parts else "Unknown"
+        title = self._strip_html(parts[1]) if len(parts) > 1 else "Software Engineer"
+        location = self._strip_html(parts[2]) if len(parts) > 2 else "Remote"
+
+        # Extract URL from text
+        url_match = re.search(r'href="([^"]+)"', text)
+        url = url_match.group(1) if url_match else f"https://news.ycombinator.com/item?id={comment['id']}"
+
+        # Check for remote
+        remote = "remote" in text.lower()
+
+        # Get date from timestamp
+        timestamp = comment.get("time")
+        date_posted = datetime.fromtimestamp(timestamp).strftime("%Y-%m-%d") if timestamp else None
+
+        return Job(
+            id=f"hn_{comment['id']}",
+            title=title,
+            company=company,
+            company_slug=self._slugify(company),
+            location=location,
+            url=url,
+            source="hn_hiring",
+            date_posted=date_posted,
+            remote=remote,
+            experience_level=None
+        )
+
+    def _strip_html(self, text: str) -> str:
+        """Remove HTML tags from text"""
+        return re.sub(r'<[^>]+>', '', text).strip()
+
+    def _slugify(self, name: str) -> str:
+        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+
+
 class JobSpySource:
     """Pull jobs from Indeed/LinkedIn via JobSpy"""
 
@@ -530,6 +656,7 @@ class JobAggregator:
             "simplify": SimplifySource(),
             "jobright": JobrightSource(),
             "builtin": BuiltInSource(),  # Built In NYC/SF/LA
+            "hn": HNHiringSource(),  # HN Who's Hiring
             "jobspy": JobSpySource(),  # For Indeed/LinkedIn
         }
         self.enricher = LevelsFyiEnricher(levels_companies_file)
@@ -537,7 +664,8 @@ class JobAggregator:
 
     def fetch_all(self, include_linkedin: bool = False, linkedin_limit: int = 50,
                   include_indeed: bool = False, indeed_limit: int = 50,
-                  include_builtin: bool = False, builtin_cities: List[str] = None) -> List[Job]:
+                  include_builtin: bool = False, builtin_cities: List[str] = None,
+                  include_hn: bool = False, hn_limit: int = 100) -> List[Job]:
         """Fetch jobs from all sources"""
         print("\n=== Fetching jobs from all sources ===\n")
 
@@ -552,6 +680,10 @@ class JobAggregator:
         # Built In (optional)
         if include_builtin and self.sources["builtin"].available:
             all_jobs.extend(self.sources["builtin"].fetch(cities=builtin_cities or ["nyc"]))
+
+        # HN Who's Hiring (optional)
+        if include_hn and self.sources["hn"].available:
+            all_jobs.extend(self.sources["hn"].fetch(max_jobs=hn_limit))
 
         # LinkedIn (optional, uses JobSpy scraping)
         if include_linkedin and self.sources["jobspy"].available:
