@@ -731,12 +731,27 @@ class JobAggregator:
                 site="glassdoor", location="California", results=glassdoor_limit // 2
             ))
 
-        # Deduplicate by URL
+        # Deduplicate by URL (normalize URLs first to catch duplicates with query params)
+        def normalize_url_for_dedup(url: str) -> str:
+            """Normalize URL by removing query parameters, fragments, and standardizing hosts."""
+            if not url:
+                return ""
+            # Remove query string and fragment
+            url = url.split('?')[0].split('#')[0]
+            # Remove trailing slashes
+            url = url.rstrip('/')
+            # Lowercase for consistency
+            url = url.lower()
+            # Normalize greenhouse.io URL variations
+            url = url.replace('job-boards.greenhouse.io', 'boards.greenhouse.io')
+            return url
+
         seen_urls = set()
         unique_jobs = []
         for job in all_jobs:
-            if job.url not in seen_urls:
-                seen_urls.add(job.url)
+            normalized_url = normalize_url_for_dedup(job.url)
+            if normalized_url not in seen_urls:
+                seen_urls.add(normalized_url)
                 unique_jobs.append(job)
 
         # Deduplicate by (company, title) - keep best source

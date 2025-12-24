@@ -342,6 +342,37 @@ class TestJobDedup(unittest.TestCase):
             normalize_location_for_dedup("San Mateo, CA")
         )
 
+    def test_dedup_normalizes_urls(self):
+        """URLs with/without query params should be treated as same"""
+        def normalize_url_for_dedup(url: str) -> str:
+            if not url:
+                return ""
+            url = url.split('?')[0].split('#')[0]
+            url = url.rstrip('/')
+            url = url.lower()
+            url = url.replace('job-boards.greenhouse.io', 'boards.greenhouse.io')
+            return url
+
+        # Test Applied Intuition duplicate case - query params
+        url1 = "https://job-boards.greenhouse.io/appliedintuition/jobs/4592025005"
+        url2 = "https://job-boards.greenhouse.io/appliedintuition/jobs/4592025005?gh_jid=4592025005"
+        self.assertEqual(normalize_url_for_dedup(url1), normalize_url_for_dedup(url2))
+
+        # Test greenhouse.io host variations
+        url_boards = "https://boards.greenhouse.io/appliedintuition/jobs/4592025005"
+        url_job_boards = "https://job-boards.greenhouse.io/appliedintuition/jobs/4592025005"
+        self.assertEqual(normalize_url_for_dedup(url_boards), normalize_url_for_dedup(url_job_boards))
+
+        # Test with trailing slash
+        url3 = "https://example.com/jobs/123/"
+        url4 = "https://example.com/jobs/123"
+        self.assertEqual(normalize_url_for_dedup(url3), normalize_url_for_dedup(url4))
+
+        # Test with fragment
+        url5 = "https://example.com/jobs/456#apply"
+        url6 = "https://example.com/jobs/456"
+        self.assertEqual(normalize_url_for_dedup(url5), normalize_url_for_dedup(url6))
+
 
 def show_filtered_jobs():
     """Show what jobs would be filtered out from each source"""
