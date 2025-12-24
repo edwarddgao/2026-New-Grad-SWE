@@ -48,13 +48,13 @@ def generate_readme(skip_enrichment: bool = False):
     agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_glassdoor=True, glassdoor_limit=50, include_hn=True, hn_limit=100, skip_enrichment=skip_enrichment)
     agg.filter_location(["nyc", "california"])
 
-    # Sort jobs by compensation (highest first), then by date (newest first)
+    # Sort jobs by date (newest first), then by compensation (highest first)
     def sort_key(job):
-        # Primary: compensation (use max salary if available, else min salary, else 0)
-        comp = job.salary_max or job.salary_min or 0
-        # Secondary: date (newer dates should come first, use empty string if no date)
+        # Primary: date (newer dates should come first, use empty string if no date)
         date = job.date_posted or ""
-        return (comp, date)
+        # Secondary: compensation (use max salary if available, else min salary, else 0)
+        comp = job.salary_max or job.salary_min or 0
+        return (date, comp)
 
     sorted_jobs = sorted(agg.jobs, key=sort_key, reverse=True)
 
