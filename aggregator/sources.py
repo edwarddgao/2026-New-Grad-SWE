@@ -274,9 +274,11 @@ class YCombinatorSource:
                     continue
 
                 # Create a job entry for each company (pointing to their jobs page)
+                # Note: This links to the company page, not a specific job listing
+                # The company may have multiple roles at different levels
                 job = Job(
                     id=f"yc_{company.get('id', '')}",
-                    title=f"Software Engineer at {company.get('name', 'YC Startup')}",
+                    title=f"Open Roles at {company.get('name', 'YC Startup')} (YC {batch})",
                     company=company.get("name", ""),
                     company_slug=company.get("slug", ""),
                     location=", ".join(company.get("locations", ["Remote"])),
@@ -284,7 +286,7 @@ class YCombinatorSource:
                     source="yc_workatastartup",
                     description=company.get("oneLiner", ""),
                     remote="Remote" in company.get("regions", []),
-                    experience_level="new_grad"
+                    experience_level=None  # Mixed levels - check individual listings
                 )
                 jobs.append(job)
 
