@@ -13,6 +13,7 @@ from datetime import datetime, timedelta
 import time
 
 from .filters import filter_jobs
+from .levels_scraper import get_scraper
 
 # Suppress SSL warnings for YC API
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -770,6 +771,13 @@ class JobAggregator:
             print(f"  [Deduped] Removed {wrapper_dupes} wrapper duplicates (Simplify has direct link)")
         if filtered_count > 0:
             print(f"  [Filtered] Removed {filtered_count} senior/staff roles from non-curated sources")
+
+        # Enrich with levels.fyi salary data
+        scraper = get_scraper()
+        enriched = scraper.enrich_jobs(self.jobs)
+        if enriched > 0:
+            print(f"  [Salary] Enriched {enriched} jobs with levels.fyi data")
+
         print(f"\n=== Total unique jobs: {len(filtered_jobs)} ===")
         return filtered_jobs
 

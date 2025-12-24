@@ -9,6 +9,12 @@ from collections import defaultdict
 
 def format_salary(salary_min: int, salary_max: int) -> str:
     """Format salary range as compact string (e.g., '$120k-150k')"""
+    # Filter out zero/invalid salaries
+    if not salary_min or salary_min < 10000:
+        salary_min = None
+    if not salary_max or salary_max < 10000:
+        salary_max = None
+
     if not salary_min and not salary_max:
         return ""
     if salary_min and salary_max:
