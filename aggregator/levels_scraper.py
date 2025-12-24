@@ -557,11 +557,9 @@ class LevelsScraper:
 
                 resp = self.session.get(url, timeout=10)
 
-                # Handle rate limiting
+                # Handle rate limiting - skip this company and move on
+                # (the cache will allow us to retry on next run)
                 if resp.status_code in (429, 405, 503):
-                    if attempt < max_retries - 1:
-                        time.sleep(2 ** attempt)  # Exponential backoff
-                        continue
                     return (None, None)
 
                 # Company not found - add to not_found_cache
