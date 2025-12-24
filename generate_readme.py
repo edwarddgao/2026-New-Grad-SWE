@@ -60,14 +60,15 @@ def get_age(date_str: str) -> str:
         return ""
 
 def generate_readme(skip_enrichment: bool = False):
-    # Load valid companies from levels.fyi cache
-    valid_levels_companies = load_levels_cache()
     scraper = get_scraper()
 
     # Fetch and filter jobs
     agg = JobAggregator()
     agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_glassdoor=True, glassdoor_limit=50, include_hn=True, hn_limit=100, skip_enrichment=skip_enrichment)
     agg.filter_location(["nyc", "california"])
+
+    # Load valid companies AFTER enrichment so newly discovered companies are included
+    valid_levels_companies = load_levels_cache()
 
     # Sort jobs by date (newest first), then by compensation (highest first)
     def sort_key(job):
