@@ -380,19 +380,25 @@ class JobAggregator:
                 seen_urls.add(job.url)
                 unique_jobs.append(job)
 
-        # Deduplicate by company + title + location (keep first occurrence)
-        seen_keys = set()
+        # Deduplicate ACROSS sources only (same company+title+location from different sources)
+        # Keep the first occurrence (Simplify > Jobright > LinkedIn)
+        seen_keys = {}  # key -> source
         deduped_jobs = []
+        cross_source_dupes = 0
         for job in unique_jobs:
             title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
             loc_norm = job.location.lower().strip()
             key = (job.company.lower(), title_norm, loc_norm)
-            if key not in seen_keys:
-                seen_keys.add(key)
-                deduped_jobs.append(job)
+            if key in seen_keys:
+                # Only remove if from a DIFFERENT source
+                if seen_keys[key] != job.source:
+                    cross_source_dupes += 1
+                    continue  # Skip this duplicate from another source
+            seen_keys[key] = job.source
+            deduped_jobs.append(job)
 
         self.jobs = deduped_jobs
-        print(f"  [Deduped] Removed {len(unique_jobs) - len(deduped_jobs)} duplicates")
+        print(f"  [Deduped] Removed {cross_source_dupes} cross-source duplicates")
         print(f"\n=== Total unique jobs: {len(deduped_jobs)} ===")
         return deduped_jobs
 
