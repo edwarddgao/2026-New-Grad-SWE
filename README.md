@@ -1,10 +1,10 @@
 # New Grad SWE Jobs - NYC & California
 
-> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), and [LinkedIn](https://linkedin.com/jobs)
+> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), and [Built In NYC](https://builtin.com/jobs/new-york)
 
-**Last updated:** 2025-12-24 04:51
+**Last updated:** 2025-12-24 04:57
 
-**Total:** 812 jobs from 304 companies
+**Total:** 824 jobs from 305 companies
 
 ---
 
@@ -824,6 +824,18 @@
 | **Nuro** | [Software Engineer – Autonomy-New Grad](https://nuro.ai/careersitem?gh_jid=6932596) | Mountain View, CA | Simplify | 6mo |
 | **Cadence Design Systems** | [Software Engineer I](https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/Software-Engineer-II_R48302) | San Jose, CA | Simplify | 6mo |
 | **ByteDance** | [RDMA Network Software Development Engineer - High Speed Network](https://jobs.bytedance.com/en/position/7509263561258027272/detail) | San Jose, CA | Simplify | 7mo |
+| **** | [Future Opportunities: Engineering](https://builtin.com/job/future-opportunities-engineering/3545475) | Remote, New York, NY | Built In NYC |  |
+| **** | [Software Engineer](https://builtin.com/job/software-engineer/8019048) | Remote, New York, NY | Built In NYC |  |
+| **** | [University of Oklahoma: Full-Time Opportunities](https://builtin.com/job/university-oklahoma-full-time-opportunities/7817749) | Remote, New York, NY | Built In NYC |  |
+| **** | [Morgan State University: Full-Time Opportunities](https://builtin.com/job/morgan-state-university-full-time-opportunities/7818379) | Remote, New York, NY | Built In NYC |  |
+| **** | [Colorado School of Mines: Full-Time Opportunities](https://builtin.com/job/colorado-school-mines-full-time-opportunities/7817434) | Remote, New York, NY | Built In NYC |  |
+| **** | [Structural Engineering, Entry-Level (Buildings)](https://builtin.com/job/structural-engineering-entry-level-buildings/7282083) | Remote, New York, NY | Built In NYC |  |
+| **** | [Growth Engineer](https://builtin.com/job/growth-engineer/7523218) | Remote, New York, NY | Built In NYC |  |
+| **** | [Staff Data Engineer](https://builtin.com/job/staff-data-engineer/7298255) | Remote, New York, NY | Built In NYC |  |
+| **** | [Future Engineering Opportunities](https://builtin.com/job/future-engineering-opportunities/6656567) | Remote, New York, NY | Built In NYC |  |
+| **** | [Software Engineer, Ruby on Rails](https://builtin.com/job/software-engineer-ruby-rails/7771893) | Remote, New York, NY | Built In NYC |  |
+| **** | [Work-Study Apprenticeship, Software Engineer](https://builtin.com/job/work-study-apprenticeship-software-engineer/8002067) | Remote, New York, NY | Built In NYC |  |
+| **** | [Software Engineer I, Backend (New Grad - 2025)](https://builtin.com/job/software-engineer-i-backend-new-grad/7750748) | Remote, New York, NY | Built In NYC |  |
 
 ---
 
@@ -834,6 +846,7 @@ This list aggregates new grad software engineering positions in NYC and Californ
 - **[SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions)** - Curated new grad job database
 - **[Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)** - AI-powered job aggregator
 - **[LinkedIn](https://linkedin.com/jobs)** - Professional job board (via JobSpy)
+- **[Built In NYC](https://builtin.com/jobs/new-york)** - Local tech job board
 
 ### Usage
 

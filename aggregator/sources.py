@@ -145,6 +145,133 @@ class JobrightSource:
             return None
 
 
+class BuiltInSource:
+    """Pull jobs from Built In (NYC, SF, etc.)"""
+
+    BASE_URL = "https://builtin.com"
+
+    # City-specific paths
+    CITIES = {
+        "nyc": "/jobs/new-york/dev-engineering/entry-level",
+        "sf": "/jobs/san-francisco/dev-engineering/entry-level",
+        "la": "/jobs/los-angeles/dev-engineering/entry-level",
+    }
+
+    def __init__(self):
+        self.available = True
+        try:
+            from bs4 import BeautifulSoup
+            self.BeautifulSoup = BeautifulSoup
+        except ImportError:
+            print("  [BuiltIn] BeautifulSoup not installed. Run: pip install beautifulsoup4")
+            self.available = False
+
+    def fetch(self, cities: List[str] = None) -> List[Job]:
+        if not self.available:
+            return []
+
+        if cities is None:
+            cities = ["nyc"]
+
+        jobs = []
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+        }
+
+        for city in cities:
+            if city not in self.CITIES:
+                continue
+
+            try:
+                url = f"{self.BASE_URL}{self.CITIES[city]}"
+                resp = requests.get(url, headers=headers, timeout=60)
+
+                if resp.status_code == 200:
+                    soup = self.BeautifulSoup(resp.text, 'html.parser')
+
+                    # Find job cards - they contain links to /job/ paths
+                    job_links = soup.find_all('a', href=re.compile(r'^/job/'))
+
+                    seen_urls = set()
+                    for link in job_links:
+                        job_url = link.get('href', '')
+                        if not job_url or job_url in seen_urls:
+                            continue
+                        seen_urls.add(job_url)
+
+                        # Extract job ID from URL
+                        job_id_match = re.search(r'/job/[^/]+/(\d+)', job_url)
+                        if not job_id_match:
+                            continue
+
+                        job_id = job_id_match.group(1)
+
+                        # Get title from link text or title attribute
+                        title = link.get_text(strip=True) or link.get('title', '')
+                        if not title or len(title) < 3:
+                            continue
+
+                        # Skip navigation/generic links
+                        if title.lower() in ['apply', 'view job', 'learn more', 'see all']:
+                            continue
+
+                        # Try to find company name - look in parent elements
+                        company = self._find_company(link)
+
+                        # Try to find location
+                        location = self._find_location(link, city)
+
+                        job = Job(
+                            id=f"builtin_{job_id}",
+                            title=title,
+                            company=company,
+                            company_slug=self._slugify(company),
+                            location=location,
+                            url=f"{self.BASE_URL}{job_url}",
+                            source=f"builtin_{city}",
+                            experience_level="entry_level"
+                        )
+                        jobs.append(job)
+
+                    print(f"  [BuiltIn] {city.upper()}: {len(seen_urls)} jobs")
+
+            except Exception as e:
+                print(f"  [BuiltIn] {city.upper()} Error: {e}")
+
+        return jobs
+
+    def _find_company(self, link_element) -> str:
+        """Try to find company name near the job link"""
+        # Look for company in parent containers
+        parent = link_element.parent
+        for _ in range(5):  # Search up to 5 levels
+            if parent is None:
+                break
+            # Look for company links or text
+            company_link = parent.find('a', href=re.compile(r'^/company/'))
+            if company_link:
+                return company_link.get_text(strip=True)
+            parent = parent.parent
+        return "Unknown"
+
+    def _find_location(self, link_element, default_city: str) -> str:
+        """Try to find location near the job link"""
+        city_map = {"nyc": "New York, NY", "sf": "San Francisco, CA", "la": "Los Angeles, CA"}
+        # Look in nearby text for location indicators
+        parent = link_element.parent
+        for _ in range(5):
+            if parent is None:
+                break
+            text = parent.get_text()
+            if "remote" in text.lower():
+                return f"Remote, {city_map.get(default_city, 'US')}"
+            parent = parent.parent
+        return city_map.get(default_city, "US")
+
+    def _slugify(self, name: str) -> str:
+        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+
+
 class JobSpySource:
     """Pull jobs from Indeed/LinkedIn via JobSpy"""
 
@@ -332,13 +459,15 @@ class JobAggregator:
         self.sources = {
             "simplify": SimplifySource(),
             "jobright": JobrightSource(),
+            "builtin": BuiltInSource(),  # Built In NYC/SF/LA
             "jobspy": JobSpySource(),  # For Indeed/LinkedIn
         }
         self.enricher = LevelsFyiEnricher(levels_companies_file)
         self.jobs: List[Job] = []
 
     def fetch_all(self, include_linkedin: bool = False, linkedin_limit: int = 50,
-                  include_indeed: bool = False, indeed_limit: int = 50) -> List[Job]:
+                  include_indeed: bool = False, indeed_limit: int = 50,
+                  include_builtin: bool = False, builtin_cities: List[str] = None) -> List[Job]:
         """Fetch jobs from all sources"""
         print("\n=== Fetching jobs from all sources ===\n")
 
@@ -349,6 +478,10 @@ class JobAggregator:
 
         # Jobright (always)
         all_jobs.extend(self.sources["jobright"].fetch())
+
+        # Built In (optional)
+        if include_builtin and self.sources["builtin"].available:
+            all_jobs.extend(self.sources["builtin"].fetch(cities=builtin_cities or ["nyc"]))
 
         # LinkedIn (optional, uses JobSpy scraping)
         if include_linkedin and self.sources["jobspy"].available:
