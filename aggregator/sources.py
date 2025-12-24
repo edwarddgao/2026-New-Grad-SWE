@@ -748,11 +748,12 @@ class JobAggregator:
                 return 1
             return 2
 
-        # Group by (company, title) and keep best
+        # Group by (company, title, location) and keep best
         job_groups = {}
         for job in unique_jobs:
             title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
-            key = (job.company.lower().strip(), title_norm)
+            loc_norm = job.location.lower().strip() if job.location else ""
+            key = (job.company.lower().strip(), title_norm, loc_norm)
             if key not in job_groups:
                 job_groups[key] = job
             else:
@@ -773,7 +774,7 @@ class JobAggregator:
 
         self.jobs = filtered_jobs
         if dedup_count > 0:
-            print(f"  [Deduped] Removed {dedup_count} duplicate jobs (same company+title)")
+            print(f"  [Deduped] Removed {dedup_count} duplicate jobs (same company+title+location)")
         if filtered_count > 0:
             print(f"  [Filtered] Removed {filtered_count} senior/staff roles from non-curated sources")
 
