@@ -654,6 +654,11 @@ class LevelsFyiEnricher:
 class JobAggregator:
     """Main aggregator that pulls from all sources"""
 
+    # Sources that need caching (ephemeral scraped data)
+    SCRAPED_SOURCES = {"linkedin", "indeed", "glassdoor", "builtin_nyc", "builtin_sf", "builtin_la", "hn_hiring"}
+    CACHE_FILE = ".scraped_jobs_cache.json"
+    CACHE_EXPIRY_DAYS = 30  # Remove jobs older than this
+
     def __init__(self, levels_companies_file: str = None):
         self.sources = {
             "simplify": SimplifySource(),
@@ -664,6 +669,60 @@ class JobAggregator:
         }
         self.enricher = LevelsFyiEnricher(levels_companies_file)
         self.jobs: List[Job] = []
+        self._job_cache: Dict[str, dict] = {}  # url -> job dict
+        self._load_job_cache()
+
+    def _load_job_cache(self):
+        """Load cached scraped jobs from file"""
+        import os
+        if os.path.exists(self.CACHE_FILE):
+            try:
+                with open(self.CACHE_FILE, 'r') as f:
+                    data = json.load(f)
+                    self._job_cache = data.get('jobs', {})
+                    print(f"  [JobCache] Loaded {len(self._job_cache)} cached jobs")
+            except Exception as e:
+                print(f"  [JobCache] Error loading cache: {e}")
+                self._job_cache = {}
+
+    def _save_job_cache(self):
+        """Save scraped jobs to cache file"""
+        try:
+            # Remove expired jobs
+            cutoff = (datetime.now() - timedelta(days=self.CACHE_EXPIRY_DAYS)).strftime("%Y-%m-%d")
+            valid_jobs = {}
+            expired_count = 0
+            for url, job_dict in self._job_cache.items():
+                # Keep jobs that have no date or are newer than cutoff
+                job_date = job_dict.get('date_posted')
+                if not job_date or job_date >= cutoff:
+                    valid_jobs[url] = job_dict
+                else:
+                    expired_count += 1
+
+            with open(self.CACHE_FILE, 'w') as f:
+                json.dump({'jobs': valid_jobs, 'updated': datetime.now().isoformat()}, f, indent=2)
+            if expired_count > 0:
+                print(f"  [JobCache] Removed {expired_count} expired jobs (>{self.CACHE_EXPIRY_DAYS} days old)")
+            print(f"  [JobCache] Saved {len(valid_jobs)} jobs to cache")
+        except Exception as e:
+            print(f"  [JobCache] Error saving cache: {e}")
+
+    def _cache_jobs(self, jobs: List[Job]):
+        """Add scraped jobs to cache"""
+        for job in jobs:
+            if job.source in self.SCRAPED_SOURCES:
+                self._job_cache[job.url] = job.to_dict()
+
+    def _get_cached_jobs(self) -> List[Job]:
+        """Get all cached jobs as Job objects"""
+        jobs = []
+        for job_dict in self._job_cache.values():
+            try:
+                jobs.append(Job(**job_dict))
+            except Exception:
+                pass  # Skip invalid cached entries
+        return jobs
 
     def fetch_all(self, include_linkedin: bool = False, linkedin_limit: int = 50,
                   include_indeed: bool = False, indeed_limit: int = 50,
@@ -730,6 +789,18 @@ class JobAggregator:
             all_jobs.extend(self.sources["jobspy"].fetch(
                 site="glassdoor", location="California", results=glassdoor_limit // 2
             ))
+
+        # Cache newly scraped jobs before deduplication
+        scraped_jobs = [j for j in all_jobs if j.source in self.SCRAPED_SOURCES]
+        if scraped_jobs:
+            self._cache_jobs(scraped_jobs)
+            print(f"  [JobCache] Cached {len(scraped_jobs)} freshly scraped jobs")
+
+        # Add previously cached jobs (will be deduped below)
+        cached_jobs = self._get_cached_jobs()
+        if cached_jobs:
+            all_jobs.extend(cached_jobs)
+            print(f"  [JobCache] Added {len(cached_jobs)} jobs from cache")
 
         # Deduplicate by URL (normalize URLs first to catch duplicates with query params)
         def normalize_url_for_dedup(url: str) -> str:
@@ -849,6 +920,9 @@ class JobAggregator:
                 print(f"  [Salary] Enriched {enriched} jobs with levels.fyi data")
         else:
             print(f"  [Salary] Enrichment skipped")
+
+        # Save job cache for persistence between runs
+        self._save_job_cache()
 
         print(f"\n=== Total unique jobs: {len(filtered_jobs)} ===")
         return filtered_jobs
