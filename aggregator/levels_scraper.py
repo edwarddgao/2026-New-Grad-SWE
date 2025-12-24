@@ -413,6 +413,8 @@ class LevelsScraper:
         "x": "l3",
     }
 
+    CACHE_FILE = ".levels_salary_cache.json"
+
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
@@ -422,6 +424,33 @@ class LevelsScraper:
         self._not_found_cache = set()
         # Cache for successful salary lookups
         self._salary_cache = {}
+        # Load cache from file
+        self._load_cache()
+
+    def _load_cache(self):
+        """Load salary cache from file"""
+        import os
+        if os.path.exists(self.CACHE_FILE):
+            try:
+                with open(self.CACHE_FILE, 'r') as f:
+                    data = json.load(f)
+                    self._salary_cache = {k: tuple(v) for k, v in data.get('found', {}).items()}
+                    self._not_found_cache = set(data.get('not_found', []))
+                    print(f"  [Cache] Loaded {len(self._salary_cache)} cached salaries, {len(self._not_found_cache)} not-found", file=__import__('sys').stderr)
+            except Exception as e:
+                print(f"  [Cache] Error loading cache: {e}", file=__import__('sys').stderr)
+
+    def _save_cache(self):
+        """Save salary cache to file"""
+        try:
+            data = {
+                'found': {k: list(v) for k, v in self._salary_cache.items()},
+                'not_found': list(self._not_found_cache)
+            }
+            with open(self.CACHE_FILE, 'w') as f:
+                json.dump(data, f)
+        except Exception as e:
+            print(f"  [Cache] Error saving cache: {e}", file=__import__('sys').stderr)
 
     # Common suffixes to strip from company names
     COMPANY_SUFFIXES = [
@@ -657,6 +686,9 @@ class LevelsScraper:
                 job.salary_min = salary_min
                 job.salary_max = salary_max
                 enriched += 1
+
+        # Save cache to file for future runs
+        self._save_cache()
 
         return enriched
 

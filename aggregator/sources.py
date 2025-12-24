@@ -669,7 +669,8 @@ class JobAggregator:
                   include_indeed: bool = False, indeed_limit: int = 50,
                   include_glassdoor: bool = False, glassdoor_limit: int = 50,
                   include_builtin: bool = False, builtin_cities: List[str] = None,
-                  include_hn: bool = False, hn_limit: int = 100) -> List[Job]:
+                  include_hn: bool = False, hn_limit: int = 100,
+                  skip_enrichment: bool = False) -> List[Job]:
         """Fetch jobs from all sources"""
         print("\n=== Fetching jobs from all sources ===\n")
 
@@ -773,10 +774,13 @@ class JobAggregator:
             print(f"  [Filtered] Removed {filtered_count} senior/staff roles from non-curated sources")
 
         # Enrich with levels.fyi salary data
-        scraper = get_scraper()
-        enriched = scraper.enrich_jobs(self.jobs)
-        if enriched > 0:
-            print(f"  [Salary] Enriched {enriched} jobs with levels.fyi data")
+        if not skip_enrichment:
+            scraper = get_scraper()
+            enriched = scraper.enrich_jobs(self.jobs)
+            if enriched > 0:
+                print(f"  [Salary] Enriched {enriched} jobs with levels.fyi data")
+        else:
+            print(f"  [Salary] Enrichment skipped")
 
         print(f"\n=== Total unique jobs: {len(filtered_jobs)} ===")
         return filtered_jobs

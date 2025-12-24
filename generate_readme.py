@@ -42,10 +42,10 @@ def get_age(date_str: str) -> str:
     except:
         return ""
 
-def generate_readme():
+def generate_readme(skip_enrichment: bool = False):
     # Fetch and filter jobs
     agg = JobAggregator()
-    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_glassdoor=True, glassdoor_limit=50, include_hn=True, hn_limit=100)
+    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_glassdoor=True, glassdoor_limit=50, include_hn=True, hn_limit=100, skip_enrichment=skip_enrichment)
     agg.filter_location(["nyc", "california"])
 
     # Sort jobs by compensation (highest first), jobs without comp go to end
@@ -153,4 +153,6 @@ Found a job not listed? Open an issue or PR!
     print(f"Generated README.md with {len(agg.jobs)} jobs from {len(unique_companies)} companies")
 
 if __name__ == "__main__":
-    generate_readme()
+    import sys
+    skip = "--skip-enrichment" in sys.argv or "-s" in sys.argv
+    generate_readme(skip_enrichment=skip)
