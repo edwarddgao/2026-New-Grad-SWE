@@ -666,6 +666,7 @@ class JobAggregator:
 
     def fetch_all(self, include_linkedin: bool = False, linkedin_limit: int = 50,
                   include_indeed: bool = False, indeed_limit: int = 50,
+                  include_glassdoor: bool = False, glassdoor_limit: int = 50,
                   include_builtin: bool = False, builtin_cities: List[str] = None,
                   include_hn: bool = False, hn_limit: int = 100) -> List[Job]:
         """Fetch jobs from all sources"""
@@ -715,6 +716,17 @@ class JobAggregator:
             # Search California
             all_jobs.extend(self.sources["jobspy"].fetch(
                 site="indeed", location="California", results=indeed_limit // 2
+            ))
+
+        # Glassdoor (optional, uses JobSpy scraping)
+        if include_glassdoor and self.sources["jobspy"].available:
+            # Search NYC
+            all_jobs.extend(self.sources["jobspy"].fetch(
+                site="glassdoor", location="New York, NY", results=glassdoor_limit // 2
+            ))
+            # Search California
+            all_jobs.extend(self.sources["jobspy"].fetch(
+                site="glassdoor", location="California", results=glassdoor_limit // 2
             ))
 
         # Deduplicate by URL

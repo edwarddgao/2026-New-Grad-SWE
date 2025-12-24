@@ -28,7 +28,7 @@ def get_age(date_str: str) -> str:
 def generate_readme():
     # Fetch and filter jobs
     agg = JobAggregator()
-    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_hn=True, hn_limit=100)
+    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=True, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_glassdoor=True, glassdoor_limit=50, include_hn=True, hn_limit=100)
     agg.filter_location(["nyc", "california"])
 
     # Sort jobs by recency (most recent first)
@@ -47,7 +47,7 @@ def generate_readme():
 
     readme = f"""# New Grad SWE Jobs - NYC & California
 
-> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Built In](https://builtin.com/jobs) (NYC, SF, LA), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
+> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), [Built In](https://builtin.com/jobs) (NYC, SF, LA), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
 **Last updated:** {now}
 
@@ -85,6 +85,7 @@ def generate_readme():
             "jobright": "Jobright",
             "linkedin": "LinkedIn",
             "indeed": "Indeed",
+            "glassdoor": "Glassdoor",
             "builtin_nyc": "Built In NYC",
             "builtin_sf": "Built In SF",
             "builtin_la": "Built In LA",
@@ -108,6 +109,7 @@ This list aggregates new grad software engineering positions in NYC and Californ
 - **[Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)** - AI-powered job aggregator
 - **[LinkedIn](https://linkedin.com/jobs)** - Professional job board (via JobSpy)
 - **[Indeed](https://indeed.com)** - Job search engine (via JobSpy)
+- **[Glassdoor](https://glassdoor.com)** - Job board with salary data (via JobSpy)
 - **[Built In](https://builtin.com/jobs)** - Local tech job boards (NYC, SF, LA)
 - **[HN Who's Hiring](https://news.ycombinator.com)** - Monthly Hacker News hiring thread
 
