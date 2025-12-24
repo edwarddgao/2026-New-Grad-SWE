@@ -76,8 +76,8 @@ def generate_readme(skip_enrichment: bool = False):
 
 ## Job Listings
 
-| Company | Role | Location | Remote | Comp | Salary Info | Source | Posted |
-|---------|------|----------|--------|------|-------------|--------|--------|
+| Company | Role | Location | Remote | Comp | Source | Posted |
+|---------|------|----------|--------|------|--------|--------|
 """
 
     # Add job rows sorted by recency
@@ -115,8 +115,14 @@ def generate_readme(skip_enrichment: bool = False):
         # Age
         age = get_age(job.date_posted)
 
-        # Compensation
-        comp = format_salary(job.salary_min, job.salary_max)
+        # Compensation (linked to Levels.fyi)
+        company_slug = job.company_slug or job.company.lower().replace(" ", "-").replace(",", "").replace(".", "")
+        levels_url = f"https://www.levels.fyi/companies/{company_slug}/salaries"
+        comp_text = format_salary(job.salary_min, job.salary_max)
+        if comp_text:
+            comp = f"[{comp_text}]({levels_url})"
+        else:
+            comp = f"[Levels.fyi]({levels_url})"
 
         # Remote status
         if job.remote:
@@ -130,12 +136,7 @@ def generate_readme(skip_enrichment: bool = False):
             else:
                 remote_col = ""
 
-        # Levels.fyi salary link
-        company_slug = job.company_slug or job.company.lower().replace(" ", "-").replace(",", "").replace(".", "")
-        levels_url = f"https://www.levels.fyi/companies/{company_slug}/salaries"
-        salary_info = f"[Levels.fyi]({levels_url})"
-
-        readme += f"| {company_col} | {title_col} | {loc} | {remote_col} | {comp} | {salary_info} | {source} | {age} |\n"
+        readme += f"| {company_col} | {title_col} | {loc} | {remote_col} | {comp} | {source} | {age} |\n"
 
     readme += """
 ---
