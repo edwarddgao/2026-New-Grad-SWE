@@ -166,7 +166,7 @@ class BuiltInSource:
             print("  [BuiltIn] BeautifulSoup not installed. Run: pip install beautifulsoup4")
             self.available = False
 
-    def fetch(self, cities: List[str] = None) -> List[Job]:
+    def fetch(self, cities: List[str] = None, max_pages: int = 10) -> List[Job]:
         if not self.available:
             return []
 
@@ -182,17 +182,27 @@ class BuiltInSource:
             if city not in self.CITIES:
                 continue
 
-            try:
-                url = f"{self.BASE_URL}{self.CITIES[city]}"
-                resp = requests.get(url, headers=headers, timeout=60)
+            seen_urls = set()
+            city_jobs = 0
 
-                if resp.status_code == 200:
+            # Fetch multiple pages
+            for page in range(1, max_pages + 1):
+                try:
+                    url = f"{self.BASE_URL}{self.CITIES[city]}"
+                    if page > 1:
+                        url += f"?page={page}"
+
+                    resp = requests.get(url, headers=headers, timeout=60)
+
+                    if resp.status_code != 200:
+                        break
+
                     soup = self.BeautifulSoup(resp.text, 'html.parser')
 
                     # Find job cards - they contain links to /job/ paths
                     job_links = soup.find_all('a', href=re.compile(r'^/job/'))
 
-                    seen_urls = set()
+                    page_jobs = 0
                     for link in job_links:
                         job_url = link.get('href', '')
                         if not job_url or job_url in seen_urls:
@@ -232,11 +242,18 @@ class BuiltInSource:
                             experience_level="entry_level"
                         )
                         jobs.append(job)
+                        page_jobs += 1
+                        city_jobs += 1
 
-                    print(f"  [BuiltIn] {city.upper()}: {len(seen_urls)} jobs")
+                    # Stop if no new jobs found on this page
+                    if page_jobs == 0:
+                        break
 
-            except Exception as e:
-                print(f"  [BuiltIn] {city.upper()} Error: {e}")
+                except Exception as e:
+                    print(f"  [BuiltIn] {city.upper()} page {page} Error: {e}")
+                    break
+
+            print(f"  [BuiltIn] {city.upper()}: {city_jobs} jobs")
 
         return jobs
 

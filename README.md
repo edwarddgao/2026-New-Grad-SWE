@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), and [Built In NYC](https://builtin.com/jobs/new-york)
 
-**Last updated:** 2025-12-24 04:57
+**Last updated:** 2025-12-24 05:00
 
-**Total:** 824 jobs from 305 companies
+**Total:** 848 jobs from 305 companies
 
 ---
 
@@ -77,7 +77,6 @@
 | **Oracle** | [Advanced Degree Software Engineer - Fusion](https://www.linkedin.com/jobs/view/4313829483) | Redwood City, CA | LinkedIn | 3d |
 | **Oracle** | [Advanced Degree Software Engineer - Fusion](https://www.linkedin.com/jobs/view/4313836419) | Santa Clara, CA | LinkedIn | 3d |
 | **Plus** | [Senior Machine Learning Engineer, Simulation](https://www.linkedin.com/jobs/view/4091526578) | Santa Clara, CA | LinkedIn | 3d |
-| **PwC** | [Cloud Deployment Engineer- Senior Associate](https://www.linkedin.com/jobs/view/4321158840) | San Francisco, CA | LinkedIn | 3d |
 | **PwC** | [Cloud Deployment Engineer- Senior Associate](https://www.linkedin.com/jobs/view/4321198770) | San Diego, CA | LinkedIn | 3d |
 | **PwC** | [Cloud Deployment Engineer- Senior Associate](https://www.linkedin.com/jobs/view/4321108978) | Irvine, CA | LinkedIn | 3d |
 | **PwC** | [Cloud Deployment Engineer- Senior Associate](https://www.linkedin.com/jobs/view/4321258755) | Sacramento, CA | LinkedIn | 3d |
@@ -836,6 +835,31 @@
 | **** | [Software Engineer, Ruby on Rails](https://builtin.com/job/software-engineer-ruby-rails/7771893) | Remote, New York, NY | Built In NYC |  |
 | **** | [Work-Study Apprenticeship, Software Engineer](https://builtin.com/job/work-study-apprenticeship-software-engineer/8002067) | Remote, New York, NY | Built In NYC |  |
 | **** | [Software Engineer I, Backend (New Grad - 2025)](https://builtin.com/job/software-engineer-i-backend-new-grad/7750748) | Remote, New York, NY | Built In NYC |  |
+| **** | [Senior Software Engineer, Snapshot](https://builtin.com/job/snapshot-analyst-engineer/7457719) | Remote, New York, NY | Built In NYC |  |
+| **** | [Lead Software Engineer - BaaS](https://builtin.com/job/lead-software-engineer-baas/6923338) | Remote, New York, NY | Built In NYC |  |
+| **** | [Open Application](https://builtin.com/job/open-application/7222807) | Remote, New York, NY | Built In NYC |  |
+| **** | [Future Opportunities with Engineering & Technology](https://builtin.com/job/future-opportunities-engineering-technology/2364801) | Remote, New York, NY | Built In NYC |  |
+| **** | [Future Opportunities: Software Development](https://builtin.com/job/future-opportunities-software-development/7207816) | Remote, New York, NY | Built In NYC |  |
+| **** | [Expression of Interest - General](https://builtin.com/job/expression-interest-general/3621979) | Remote, New York, NY | Built In NYC |  |
+| **** | [Coders - AI Training (Freelance, Remote)](https://builtin.com/job/coders-ai-training-freelance-remote/3521034) | Remote, New York, NY | Built In NYC |  |
+| **** | [DoD Skillbridge Fellowship- Software Engineer](https://builtin.com/job/dod-skillbridge-fellowship/3753476) | Remote, New York, NY | Built In NYC |  |
+| **** | [Software Engineer - Ascendancy](https://builtin.com/job/software-engineer-ascendancy/7656492) | Remote, New York, NY | Built In NYC |  |
+| **** | [Frontend Engineer](https://builtin.com/job/frontend-engineer/7894090) | Remote, New York, NY | Built In NYC |  |
+| **** | [AI Product Engineer, New Grad](https://builtin.com/job/ai-product-engineer-new-grad/3675426) | Remote, New York, NY | Built In NYC |  |
+| **** | [Don't see the right role for you? Apply here!](https://builtin.com/job/dont-see-right-role-you-apply-here/2324567) | Remote, New York, NY | Built In NYC |  |
+| **** | [Software Engineer](https://builtin.com/job/software-engineer-frontend/2165089) | Remote, New York, NY | Built In NYC |  |
+| **** | [Software Engineer Intern](https://builtin.com/job/software-engineer/7183227) | Remote, New York, NY | Built In NYC |  |
+| **** | [New Grad Software Engineer (Backend Rust)](https://builtin.com/job/new-grad-software-engineer-backend-rust/6379221) | Remote, New York, NY | Built In NYC |  |
+| **** | [Founding Engineer](https://builtin.com/job/founding-engineer/7142195) | Remote, New York, NY | Built In NYC |  |
+| **** | [React/UI Developer](https://builtin.com/job/react-ui-developer/7635880) | Remote, New York, NY | Built In NYC |  |
+| **** | [BIM Specialist](https://builtin.com/job/bim-specialist/7861399) | Remote, New York, NY | Built In NYC |  |
+| **** | [Wildcard](https://builtin.com/job/wildcard/6191791) | Remote, New York, NY | Built In NYC |  |
+| **** | [Conversational AI Quality Reviewer](https://builtin.com/job/conversational-ai-quality-reviewer/7365081) | Remote, New York, NY | Built In NYC |  |
+| **** | [Keep me in mind!](https://builtin.com/job/keep-me-mind/4480270) | Remote, New York, NY | Built In NYC |  |
+| **** | [SAP ABAP Consultant-Remote (USA)](https://builtin.com/job/sap-abap-consultant-remote-usa/7362371) | Remote, New York, NY | Built In NYC |  |
+| **** | [Full Stack Engineer](https://builtin.com/job/full-stack-engineer/4453899) | Remote, New York, NY | Built In NYC |  |
+| **** | [Don’t see what you’re looking for?](https://builtin.com/job/don-t-see-what-you-re-looking/6194603) | Remote, New York, NY | Built In NYC |  |
+| **** | [Associate Engineer ,Digital Insights](https://builtin.com/job/associate-engineer-digital-insights/6195743) | Remote, New York, NY | Built In NYC |  |
 
 ---
 
