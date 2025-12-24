@@ -6,10 +6,14 @@ Pulls job listings from multiple free sources
 import json
 import re
 import requests
+import urllib3
 from typing import List, Dict, Optional
 from dataclasses import dataclass, asdict
 from datetime import datetime
 import time
+
+# Suppress SSL warnings for YC API
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 @dataclass
 class Job:
@@ -208,6 +212,93 @@ class IndeedSource:
         return None
 
 
+class YCombinatorSource:
+    """Pull YC company data and jobs from Work at a Startup"""
+
+    COMPANIES_API = "https://api.ycombinator.com/v0.1/companies"
+    JOBS_BASE_URL = "https://www.workatastartup.com/companies"
+
+    def fetch(self, min_team_size: int = 2, max_team_size: int = 100,
+              recent_batches_only: bool = True) -> List[Job]:
+        """
+        Fetch YC companies and generate job search URLs.
+        Note: Actual jobs require visiting workatastartup.com (JS-rendered).
+        This provides company data and direct links to their job pages.
+        """
+        jobs = []
+        try:
+            # Fetch all pages of companies
+            all_companies = []
+            page = 1
+            max_pages = 50  # Limit to avoid too many requests
+
+            while page <= max_pages:
+                resp = requests.get(
+                    f"{self.COMPANIES_API}?page={page}",
+                    timeout=60,
+                    verify=False  # YC API has cert issues sometimes
+                )
+                if resp.status_code != 200:
+                    break
+
+                data = resp.json()
+                companies = data.get("companies", [])
+                if not companies:
+                    break
+
+                all_companies.extend(companies)
+                page += 1
+
+                # Rate limit
+                time.sleep(0.1)
+
+            print(f"  [YC] Fetched {len(all_companies)} companies from API ({page-1} pages)")
+
+            # Recent batches (last ~3 years) - more likely to be hiring
+            recent_batches = {
+                'W26', 'S25', 'W25', 'S24', 'W24', 'S23', 'W23', 'S22', 'W22'
+            }
+
+            # Filter for active, hiring companies
+            for company in all_companies:
+                if company.get("status") != "Active":
+                    continue
+
+                # Filter by recent batches if requested
+                batch = company.get("batch", "")
+                if recent_batches_only and batch not in recent_batches:
+                    continue
+
+                team_size = company.get("teamSize") or 0
+                if team_size < min_team_size or team_size > max_team_size:
+                    continue
+
+                # Create a job entry for each company (pointing to their jobs page)
+                job = Job(
+                    id=f"yc_{company.get('id', '')}",
+                    title=f"Software Engineer at {company.get('name', 'YC Startup')}",
+                    company=company.get("name", ""),
+                    company_slug=company.get("slug", ""),
+                    location=", ".join(company.get("locations", ["Remote"])),
+                    url=f"{self.JOBS_BASE_URL}/{company.get('slug', '')}",
+                    source="yc_workatastartup",
+                    description=company.get("oneLiner", ""),
+                    remote="Remote" in company.get("regions", []),
+                    experience_level="new_grad"
+                )
+                jobs.append(job)
+
+            print(f"  [YC] {len(jobs)} active startups (team size {min_team_size}-{max_team_size})")
+
+        except Exception as e:
+            print(f"  [YC] Error: {e}")
+
+        return jobs
+
+    def _slugify(self, name: str) -> str:
+        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+
+
 class LevelsFyiEnricher:
     """Enrich job data with levels.fyi salary information"""
 
@@ -238,11 +329,13 @@ class JobAggregator:
             "simplify": SimplifySource(),
             "jobright": JobrightSource(),
             "indeed": IndeedSource(),
+            "yc": YCombinatorSource(),
         }
         self.enricher = LevelsFyiEnricher(levels_companies_file)
         self.jobs: List[Job] = []
 
-    def fetch_all(self, include_indeed: bool = False, indeed_limit: int = 50) -> List[Job]:
+    def fetch_all(self, include_indeed: bool = False, indeed_limit: int = 50,
+                  include_yc: bool = False, yc_max_team_size: int = 50) -> List[Job]:
         """Fetch jobs from all sources"""
         print("\n=== Fetching jobs from all sources ===\n")
 
@@ -257,6 +350,10 @@ class JobAggregator:
         # Indeed (optional, uses scraping)
         if include_indeed and self.sources["indeed"].available:
             all_jobs.extend(self.sources["indeed"].fetch(results=indeed_limit))
+
+        # YC Work at a Startup (optional)
+        if include_yc:
+            all_jobs.extend(self.sources["yc"].fetch(max_team_size=yc_max_team_size))
 
         # Deduplicate by URL
         seen_urls = set()
