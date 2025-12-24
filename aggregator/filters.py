@@ -54,11 +54,15 @@ def is_new_grad_swe(title: str, source: str) -> bool:
     Returns:
         True if job should be kept, False if it should be filtered out
     """
-    # Keep all jobs from curated sources
+    title_lower = title.lower()
+
+    # Always filter out PhD positions regardless of source
+    if 'phd' in title_lower:
+        return False
+
+    # Keep all jobs from curated sources (after PhD filter)
     if source in CURATED_SOURCES:
         return True
-
-    title_lower = title.lower()
 
     # Reject if has senior keywords
     if any(kw in title_lower for kw in SENIOR_KEYWORDS):

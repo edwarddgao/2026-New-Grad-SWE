@@ -739,37 +739,42 @@ class JobAggregator:
                 seen_urls.add(job.url)
                 unique_jobs.append(job)
 
-        # Remove Jobright/LinkedIn duplicates when Simplify has the direct link
-        # Simplify links to actual application pages, Jobright/LinkedIn are wrappers
-        simplify_keys = set()
-        for job in unique_jobs:
-            if job.source.startswith("simplify"):
-                title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
-                loc_norm = job.location.lower().strip()
-                simplify_keys.add((job.company.lower(), title_norm, loc_norm))
+        # Deduplicate by (company, title) - keep best source
+        # Priority: simplify > jobright > others
+        def source_priority(source):
+            if source.startswith("simplify"):
+                return 0
+            if source == "jobright":
+                return 1
+            return 2
 
-        deduped_jobs = []
-        wrapper_dupes = 0
+        # Group by (company, title, location) and keep best
+        job_groups = {}
         for job in unique_jobs:
-            # Keep all Simplify jobs
-            if job.source.startswith("simplify"):
-                deduped_jobs.append(job)
+            title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
+            loc_norm = job.location.lower().strip() if job.location else ""
+            key = (job.company.lower().strip(), title_norm, loc_norm)
+            if key not in job_groups:
+                job_groups[key] = job
             else:
-                # For Jobright/LinkedIn, only keep if Simplify doesn't have it
-                title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
-                loc_norm = job.location.lower().strip()
-                key = (job.company.lower(), title_norm, loc_norm)
-                if key not in simplify_keys:
-                    deduped_jobs.append(job)
-                else:
-                    wrapper_dupes += 1
+                # Keep the one with better source priority
+                existing = job_groups[key]
+                if source_priority(job.source) < source_priority(existing.source):
+                    job_groups[key] = job
+                # If same priority, prefer one with salary data
+                elif source_priority(job.source) == source_priority(existing.source):
+                    if (job.salary_min or job.salary_max) and not (existing.salary_min or existing.salary_max):
+                        job_groups[key] = job
+
+        deduped_jobs = list(job_groups.values())
+        dedup_count = len(unique_jobs) - len(deduped_jobs)
 
         # Filter non-curated sources to only keep new grad/entry level SWE roles
         filtered_jobs, filtered_count = filter_jobs(deduped_jobs)
 
         self.jobs = filtered_jobs
-        if wrapper_dupes > 0:
-            print(f"  [Deduped] Removed {wrapper_dupes} wrapper duplicates (Simplify has direct link)")
+        if dedup_count > 0:
+            print(f"  [Deduped] Removed {dedup_count} duplicate jobs (same company+title+location)")
         if filtered_count > 0:
             print(f"  [Filtered] Removed {filtered_count} senior/staff roles from non-curated sources")
 
