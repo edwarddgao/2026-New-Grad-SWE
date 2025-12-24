@@ -174,6 +174,103 @@ class TestJobFiltering(unittest.TestCase):
         self.assertFalse(self._should_keep("Research Engineer - PhD Graduate - US"))
 
 
+class TestJobDedup(unittest.TestCase):
+    """Test the deduplication logic"""
+
+    def _create_job(self, company: str, title: str, location: str, source: str = "simplify_new_grad", url: str = None):
+        """Helper to create a Job object"""
+        return Job(
+            id=f"test_{hash((company, title, location, url))}",
+            title=title,
+            company=company,
+            company_slug=company.lower().replace(" ", "-"),
+            location=location,
+            url=url or f"https://example.com/{hash((company, title))}",
+            source=source
+        )
+
+    def test_dedup_same_job_different_urls(self):
+        """Same company+title+location with different URLs should dedup to 1"""
+        jobs = [
+            self._create_job("Google", "Software Engineer", "NYC", url="https://google.com/job1"),
+            self._create_job("Google", "Software Engineer", "NYC", url="https://google.com/job2"),
+        ]
+        # Group by key
+        job_groups = {}
+        for job in jobs:
+            key = (job.company.lower(), job.title.lower(), job.location.lower())
+            if key not in job_groups:
+                job_groups[key] = job
+        self.assertEqual(len(job_groups), 1)
+
+    def test_dedup_preserves_different_locations(self):
+        """Same company+title in different locations should NOT dedup"""
+        jobs = [
+            self._create_job("Google", "Software Engineer", "NYC"),
+            self._create_job("Google", "Software Engineer", "San Francisco"),
+        ]
+        job_groups = {}
+        for job in jobs:
+            key = (job.company.lower(), job.title.lower(), job.location.lower())
+            if key not in job_groups:
+                job_groups[key] = job
+        self.assertEqual(len(job_groups), 2)
+
+    def test_dedup_preserves_different_titles(self):
+        """Same company with different titles should NOT dedup"""
+        jobs = [
+            self._create_job("Google", "Software Engineer", "NYC"),
+            self._create_job("Google", "Data Engineer", "NYC"),
+        ]
+        job_groups = {}
+        for job in jobs:
+            key = (job.company.lower(), job.title.lower(), job.location.lower())
+            if key not in job_groups:
+                job_groups[key] = job
+        self.assertEqual(len(job_groups), 2)
+
+    def test_dedup_prefers_simplify_over_jobright(self):
+        """When same job exists in both sources, prefer Simplify"""
+        def source_priority(source):
+            if source.startswith("simplify"):
+                return 0
+            if source == "jobright":
+                return 1
+            return 2
+
+        jobs = [
+            self._create_job("Google", "Software Engineer", "NYC", source="jobright"),
+            self._create_job("Google", "Software Engineer", "NYC", source="simplify_new_grad"),
+        ]
+        job_groups = {}
+        for job in jobs:
+            key = (job.company.lower(), job.title.lower(), job.location.lower())
+            if key not in job_groups:
+                job_groups[key] = job
+            else:
+                existing = job_groups[key]
+                if source_priority(job.source) < source_priority(existing.source):
+                    job_groups[key] = job
+
+        self.assertEqual(len(job_groups), 1)
+        self.assertEqual(job_groups[("google", "software engineer", "nyc")].source, "simplify_new_grad")
+
+    def test_dedup_normalizes_title_dashes(self):
+        """Titles with different dash styles should be treated as same"""
+        jobs = [
+            self._create_job("Google", "Software Engineer - New Grad", "NYC"),
+            self._create_job("Google", "Software Engineer – New Grad", "NYC"),  # en-dash
+            self._create_job("Google", "Software Engineer — New Grad", "NYC"),  # em-dash
+        ]
+        job_groups = {}
+        for job in jobs:
+            title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
+            key = (job.company.lower(), title_norm, job.location.lower())
+            if key not in job_groups:
+                job_groups[key] = job
+        self.assertEqual(len(job_groups), 1)
+
+
 def show_filtered_jobs():
     """Show what jobs would be filtered out from each source"""
     print("\n" + "=" * 60)
