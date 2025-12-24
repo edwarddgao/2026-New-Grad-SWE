@@ -8,18 +8,18 @@ Based on cross-referencing SimplifyJobs, levels.fyi, and jobright-ai:
 
 | Source Combination | Companies | Coverage |
 |--------------------|-----------|----------|
-| **Simplify only** | 146 | 57% |
-| **+ levels.fyi gap** | +48 | +23% → 80% total |
-| **+ other sources (jobright-ai)** | +50 | +20% → 100% |
+| **Simplify only** | 151 | 62% |
+| **+ levels.fyi gap** | +48 | +20% → 82% total |
+| **+ other sources (jobright-ai)** | +45 | +18% → 100% |
 
 ### Coverage Breakdown
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | Companies with active new grad SWE jobs | 244 | 100% |
-| On Simplify | 146 | **57%** |
-| On levels.fyi but NOT Simplify | 48 | **23%** |
-| On NEITHER (found by jobright-ai) | 50 | **20%** |
+| On Simplify (including aliases like RTX=Raytheon) | 151 | **62%** |
+| On levels.fyi but NOT Simplify | 48 | **20%** |
+| On NEITHER (found by jobright-ai) | 45 | **18%** |
 
 ## Notable Companies Missing from Simplify
 
@@ -34,18 +34,22 @@ These companies have active new grad SWE postings but are NOT in Simplify's data
 - **DiDi** - Ride-sharing (China's Uber)
 
 ### Defense/Government Contractors
-- **Raytheon** - Major defense contractor
 - **Noblis** - Government tech consulting
 - **Jacobs** - Engineering services
 - **Nightwing** - Defense/intelligence
 - **HII** - Huntington Ingalls Industries
-- **CACI** - Government IT
 
 ### Financial Services
 - **Scotiabank** - Major Canadian bank
-- **DTCC** - Financial market infrastructure
 - **Milliman** - Actuarial consulting
 - **Nassau Financial Group**
+
+> **Note:** Some companies initially listed as "missing" are actually in Simplify under different names:
+> - Raytheon → listed as "RTX"
+> - DTCC → listed as "dtcc"
+> - SS&C Technologies → listed as "ss-c"
+> - CACI → listed as "caci"
+> - Oklo Inc → listed as "oklo"
 
 ### Other Notable Companies
 - **Teradyne** - Semiconductor testing
@@ -58,7 +62,7 @@ These companies have active new grad SWE postings but are NOT in Simplify's data
 
 ## Full List of Companies NOT on Simplify
 
-98 companies with new grad SWE postings not covered by Simplify:
+93 companies with new grad SWE postings not covered by Simplify (after verification):
 
 1. 1Sphere AI
 2. 360insights
@@ -68,96 +72,91 @@ These companies have active new grad SWE postings but are NOT in Simplify's data
 6. Bisnow
 7. Broccoli AI
 8. Brown University Health
-9. CACI bv
-10. CCL Label
-11. CNH
-12. CONTAX Inc.
-13. CP Marine LLC
-14. CalPERS
-15. California Department of Social Services
-16. Caltech
-17. Carisk Partners
-18. Crew
-19. Dawn Foods Global
-20. Delta Controls
-21. DiDi
-22. Dynamic Connections
-23. Elsewhere Entertainment
-24. FPS GOLD
-25. FWI (FedWriters, Inc.)
-26. Fieldwire by Hilti
-27. Fluidstack
-28. Gesa Credit Union
-29. HII
-30. Hygiena
-31. Insurity
-32. Isuzu Technical Center of America
-33. J Street
-34. Jacobs
-35. K&L Gates
-36. KEENFINITY Group
-37. Ketryx
-38. Kiewit
-39. LaunchDarkly
-40. Lighthouse Avionics
-41. MP: Wired for HR
-42. Mayo Clinic
-43. MedWatchers
-44. Mediacom Communications
-45. Merkle
-46. Milliman
-47. Mission Technologies (HII)
-48. Molex
-49. Morton Buildings
-50. Motivo
-51. Multiply Mortgage
-52. Nassau Community College
-53. Nassau Financial Group
-54. Naughty Dog
-55. NetherRealm Studios (WB Games)
-56. Nexxis Solutions
-57. Nightwing
-58. Noblis
-59. Nongshim America
-60. OPS Consulting
-61. Ohio Department of Job and Family Services
-62. Oklo Inc
-63. P3S Corporation
-64. PFM
-65. Plaid
-66. Planbase
-67. Point C
-68. PreSales Collective
-69. QA Wolf
-70. QSC
-71. RISE Network
-72. RKL LLP
-73. Raytheon
-74. SETWorks
-75. SS&C Technologies
-76. Salient
-77. Scalence L.L.C.
-78. Scotiabank
-79. Specialisterne USA
-80. Tennis Channel
-81. Teradyne
-82. The DTCC
-83. Tomorrow
-84. Tower Mobility
-85. Trissential
-86. Trusted Concepts
-87. UST
-88. Unity
-89. Vast.ai
-90. Verily
-91. Vertafore
-92. Vinson & Elkins
-93. Voxel
-94. Washington Nationals
-95. dentsu
-96. enGen
-97. iFIT
-98. monday.com
+9. CCL Label
+10. CNH
+11. CONTAX Inc.
+12. CP Marine LLC
+13. CalPERS
+14. California Department of Social Services
+15. Caltech
+16. Carisk Partners
+17. Crew
+18. Dawn Foods Global
+19. Delta Controls
+20. DiDi
+21. Dynamic Connections
+22. Elsewhere Entertainment
+23. FPS GOLD
+24. FWI (FedWriters, Inc.)
+25. Fieldwire by Hilti
+26. Fluidstack
+27. Gesa Credit Union
+28. HII
+29. Hygiena
+30. Insurity
+31. Isuzu Technical Center of America
+32. J Street
+33. Jacobs
+34. K&L Gates
+35. KEENFINITY Group
+36. Ketryx
+37. Kiewit
+38. LaunchDarkly
+39. Lighthouse Avionics
+40. MP: Wired for HR
+41. Mayo Clinic
+42. MedWatchers
+43. Mediacom Communications
+44. Merkle
+45. Milliman
+46. Mission Technologies (HII)
+47. Molex
+48. Morton Buildings
+49. Motivo
+50. Multiply Mortgage
+51. Nassau Community College
+52. Nassau Financial Group
+53. Naughty Dog
+54. NetherRealm Studios (WB Games)
+55. Nexxis Solutions
+56. Nightwing
+57. Noblis
+58. Nongshim America
+59. OPS Consulting
+60. Ohio Department of Job and Family Services
+61. P3S Corporation
+62. PFM
+63. Plaid
+64. Planbase
+65. Point C
+66. PreSales Collective
+67. QA Wolf
+68. QSC
+69. RISE Network
+70. RKL LLP
+71. SETWorks
+72. Salient
+73. Scalence L.L.C.
+74. Scotiabank
+75. Specialisterne USA
+76. Tennis Channel
+77. Teradyne
+78. Tomorrow
+79. Tower Mobility
+80. Trissential
+81. Trusted Concepts
+82. UST
+83. Unity
+84. Vast.ai
+85. Verily
+86. Vertafore
+87. Vinson & Elkins
+88. Voxel
+89. Washington Nationals
+90. dentsu
+91. enGen
+92. iFIT
+93. monday.com
 
 ## The Remaining 20%: Companies on NEITHER Platform
 
@@ -239,20 +238,22 @@ Jobright-ai uses:
 
 **Is Simplify comprehensive enough?**
 
-**No.** Using Simplify alone means missing **43%** of opportunities. The coverage gap breaks down as:
+**No.** Using Simplify alone means missing **38%** of opportunities. The coverage gap breaks down as:
 
 | Gap Source | What You're Missing |
 |------------|---------------------|
-| **levels.fyi gap (23%)** | Plaid, Unity, monday.com, Verily, LaunchDarkly, Raytheon, DTCC |
-| **Neither platform (20%)** | Government jobs, gaming studios, healthcare, startups, regional companies |
+| **levels.fyi gap (20%)** | Plaid, Unity, monday.com, Verily, LaunchDarkly |
+| **Neither platform (18%)** | Government jobs, gaming studios, healthcare, startups, regional companies |
+
+> **Verified:** Some companies (Raytheon, DTCC, SS&C, CACI, Oklo) were initially thought missing but are in Simplify under different slugs (RTX, dtcc, ss-c, caci, oklo).
 
 ### Recommendations
 
-1. **Tier 1: Essential Sources (covers 80%)**
-   - [SimplifyJobs GitHub](https://github.com/SimplifyJobs/New-Grad-Positions) - 57% coverage
-   - [levels.fyi/jobs](https://www.levels.fyi/jobs) - adds 23%
+1. **Tier 1: Essential Sources (covers 82%)**
+   - [SimplifyJobs GitHub](https://github.com/SimplifyJobs/New-Grad-Positions) - 62% coverage
+   - [levels.fyi/jobs](https://www.levels.fyi/jobs) - adds 20%
 
-2. **Tier 2: Complete Coverage (adds remaining 20%)**
+2. **Tier 2: Complete Coverage (adds remaining 18%)**
    - [jobright-ai repos](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad) - direct scraping
    - [Indeed](https://indeed.com) - broad coverage
    - Company career pages directly
@@ -262,7 +263,7 @@ Jobright-ai uses:
    - Deduplicates by URL, enriches with salary data links
 
 4. **Scraping levels.fyi for career pages**
-   - Worth it for the 23% gap (48 companies with quality jobs like Plaid, Unity)
+   - Worth it for the 20% gap (48 companies with quality jobs like Plaid, Unity)
    - 34,316 companies on levels.fyi not on Simplify
    - Focus on companies with salary data (indicates they're actively hiring)
 
