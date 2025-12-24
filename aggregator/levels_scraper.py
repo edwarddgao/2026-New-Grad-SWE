@@ -524,7 +524,7 @@ class LevelsScraper:
         for attempt in range(max_retries):
             try:
                 # Rate limiting - small delay between requests
-                time.sleep(0.1)
+                time.sleep(0.05)
 
                 resp = self.session.get(url, timeout=10)
 
@@ -616,12 +616,35 @@ class LevelsScraper:
 
         Returns count of enriched jobs.
         """
+        import sys
         enriched = 0
+        total = len(jobs)
 
-        for job in jobs:
+        # Track unique companies to avoid redundant lookups
+        seen_companies = set()
+
+        for i, job in enumerate(jobs):
+            # Progress output every 500 jobs
+            if i > 0 and i % 500 == 0:
+                print(f"    Enriching... {i}/{total} jobs ({enriched} enriched)", file=sys.stderr)
+                sys.stderr.flush()
+
             # Skip if already has salary
             if job.salary_min or job.salary_max:
                 continue
+
+            # Skip if we've already looked up this company
+            company_key = job.company.lower().strip()
+            if company_key in seen_companies:
+                # Get cached result
+                salary_min, salary_max = self.get_salary(job.company, job.title, job.location)
+                if salary_min and salary_max:
+                    job.salary_min = salary_min
+                    job.salary_max = salary_max
+                    enriched += 1
+                continue
+
+            seen_companies.add(company_key)
 
             # Try to get salary
             salary_min, salary_max = self.get_salary(
