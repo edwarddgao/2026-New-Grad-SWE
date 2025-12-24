@@ -731,12 +731,27 @@ class JobAggregator:
                 site="glassdoor", location="California", results=glassdoor_limit // 2
             ))
 
-        # Deduplicate by URL
+        # Deduplicate by URL (normalize URLs first to catch duplicates with query params)
+        def normalize_url_for_dedup(url: str) -> str:
+            """Normalize URL by removing query parameters, fragments, and standardizing hosts."""
+            if not url:
+                return ""
+            # Remove query string and fragment
+            url = url.split('?')[0].split('#')[0]
+            # Remove trailing slashes
+            url = url.rstrip('/')
+            # Lowercase for consistency
+            url = url.lower()
+            # Normalize greenhouse.io URL variations
+            url = url.replace('job-boards.greenhouse.io', 'boards.greenhouse.io')
+            return url
+
         seen_urls = set()
         unique_jobs = []
         for job in all_jobs:
-            if job.url not in seen_urls:
-                seen_urls.add(job.url)
+            normalized_url = normalize_url_for_dedup(job.url)
+            if normalized_url not in seen_urls:
+                seen_urls.add(normalized_url)
                 unique_jobs.append(job)
 
         # Deduplicate by (company, title) - keep best source
@@ -748,11 +763,59 @@ class JobAggregator:
                 return 1
             return 2
 
-        # Group by (company, title, location) and keep best
+        # Group by (company, normalized_title, normalized_location) and keep best
+        def normalize_title_for_dedup(title: str) -> str:
+            """Normalize title by extracting core words, ignoring order and year markers."""
+            title = title.lower()
+            # Remove common year/grad markers that vary between sources
+            markers = [
+                'new college grad 2026', 'new college grad 2025',
+                'new grad 2026', 'new grad 2025', '2026 start', '2025 start',
+                '2026 grads', '2025 grads', '(bs/ms)', 'bs/ms',
+            ]
+            for marker in markers:
+                title = title.replace(marker, '')
+            # Replace all punctuation with spaces
+            title = re.sub(r'[–—\-,;:\(\)\[\]\/]', ' ', title)
+            # Extract alphanumeric words
+            words = re.findall(r'[a-z0-9]+', title)
+            # Sort words to create canonical form (order-independent comparison)
+            return ' '.join(sorted(set(words)))
+
+        def normalize_location_for_dedup(location: str) -> str:
+            """Normalize location to handle variations like 'San Francisco' vs 'San Francisco, CA'."""
+            if not location:
+                return ""
+            loc = location.lower().strip()
+            # Remove common suffixes that vary
+            loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
+            # Extract just city and state abbreviation if present
+            # Match pattern like "City, ST" or just "City"
+            match = re.match(r'^([^,]+)(?:,\s*([a-z]{2}))?', loc)
+            if match:
+                city = match.group(1).strip()
+                state = match.group(2) or ''
+                # Known CA cities - add state if missing
+                ca_cities = ['san francisco', 'san jose', 'los angeles', 'santa clara',
+                            'mountain view', 'palo alto', 'sunnyvale', 'san diego',
+                            'fremont', 'oakland', 'san mateo', 'cupertino', 'redwood city',
+                            'burbank', 'culver city', 'south san francisco', 'irvine']
+                ny_cities = ['new york', 'nyc', 'brooklyn', 'long island']
+                # Normalize 'nyc' to 'new york' first
+                if city == 'nyc':
+                    city = 'new york'
+                    state = 'ny'
+                elif city in ca_cities and not state:
+                    state = 'ca'
+                elif city in ny_cities and not state:
+                    state = 'ny'
+                return f"{city}, {state}" if state else city
+            return loc
+
         job_groups = {}
         for job in unique_jobs:
-            title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
-            loc_norm = job.location.lower().strip() if job.location else ""
+            title_norm = normalize_title_for_dedup(job.title)
+            loc_norm = normalize_location_for_dedup(job.location)
             key = (job.company.lower().strip(), title_norm, loc_norm)
             if key not in job_groups:
                 job_groups[key] = job

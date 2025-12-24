@@ -270,6 +270,109 @@ class TestJobDedup(unittest.TestCase):
                 job_groups[key] = job
         self.assertEqual(len(job_groups), 1)
 
+    def test_dedup_normalizes_title_word_order(self):
+        """Titles with same words in different order should be treated as same"""
+        import re
+        def normalize_title_for_dedup(title: str) -> str:
+            title = title.lower()
+            markers = [
+                'new college grad 2026', 'new college grad 2025',
+                'new grad 2026', 'new grad 2025', '2026 start', '2025 start',
+                '2026 grads', '2025 grads', '(bs/ms)', 'bs/ms',
+            ]
+            for marker in markers:
+                title = title.replace(marker, '')
+            title = re.sub(r'[–—\-,;:\(\)\[\]\/]', ' ', title)
+            words = re.findall(r'[a-z0-9]+', title)
+            return ' '.join(sorted(set(words)))
+
+        # Test the NVIDIA duplicate case
+        title1 = "Firmware Engineer – New College Grad 2026 - Memory Subsystem"
+        title2 = "Firmware Engineer, Memory Subsystem - New College Grad 2026"
+        self.assertEqual(normalize_title_for_dedup(title1), normalize_title_for_dedup(title2))
+
+        # Test other variations
+        title3 = "Software Engineer - Backend - New Grad 2026"
+        title4 = "Backend Software Engineer - New Grad 2026"
+        self.assertEqual(normalize_title_for_dedup(title3), normalize_title_for_dedup(title4))
+
+    def test_dedup_normalizes_location_state(self):
+        """Locations with/without state abbreviation should be treated as same"""
+        import re
+        def normalize_location_for_dedup(location: str) -> str:
+            if not location:
+                return ""
+            loc = location.lower().strip()
+            loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
+            match = re.match(r'^([^,]+)(?:,\s*([a-z]{2}))?', loc)
+            if match:
+                city = match.group(1).strip()
+                state = match.group(2) or ''
+                ca_cities = ['san francisco', 'san jose', 'los angeles', 'santa clara',
+                            'mountain view', 'palo alto', 'sunnyvale', 'san diego',
+                            'fremont', 'oakland', 'san mateo', 'cupertino', 'redwood city',
+                            'burbank', 'culver city', 'south san francisco', 'irvine']
+                ny_cities = ['new york', 'nyc', 'brooklyn', 'long island']
+                # Normalize 'nyc' to 'new york' first
+                if city == 'nyc':
+                    city = 'new york'
+                    state = 'ny'
+                elif city in ca_cities and not state:
+                    state = 'ca'
+                elif city in ny_cities and not state:
+                    state = 'ny'
+                return f"{city}, {state}" if state else city
+            return loc
+
+        # Test PagerDuty duplicate case
+        self.assertEqual(
+            normalize_location_for_dedup("San Francisco, CA"),
+            normalize_location_for_dedup("San Francisco")
+        )
+
+        # Test NYC variations
+        self.assertEqual(
+            normalize_location_for_dedup("NYC"),
+            normalize_location_for_dedup("New York, NY")
+        )
+
+        # Test with country suffix
+        self.assertEqual(
+            normalize_location_for_dedup("San Mateo, CA, United States"),
+            normalize_location_for_dedup("San Mateo, CA")
+        )
+
+    def test_dedup_normalizes_urls(self):
+        """URLs with/without query params should be treated as same"""
+        def normalize_url_for_dedup(url: str) -> str:
+            if not url:
+                return ""
+            url = url.split('?')[0].split('#')[0]
+            url = url.rstrip('/')
+            url = url.lower()
+            url = url.replace('job-boards.greenhouse.io', 'boards.greenhouse.io')
+            return url
+
+        # Test Applied Intuition duplicate case - query params
+        url1 = "https://job-boards.greenhouse.io/appliedintuition/jobs/4592025005"
+        url2 = "https://job-boards.greenhouse.io/appliedintuition/jobs/4592025005?gh_jid=4592025005"
+        self.assertEqual(normalize_url_for_dedup(url1), normalize_url_for_dedup(url2))
+
+        # Test greenhouse.io host variations
+        url_boards = "https://boards.greenhouse.io/appliedintuition/jobs/4592025005"
+        url_job_boards = "https://job-boards.greenhouse.io/appliedintuition/jobs/4592025005"
+        self.assertEqual(normalize_url_for_dedup(url_boards), normalize_url_for_dedup(url_job_boards))
+
+        # Test with trailing slash
+        url3 = "https://example.com/jobs/123/"
+        url4 = "https://example.com/jobs/123"
+        self.assertEqual(normalize_url_for_dedup(url3), normalize_url_for_dedup(url4))
+
+        # Test with fragment
+        url5 = "https://example.com/jobs/456#apply"
+        url6 = "https://example.com/jobs/456"
+        self.assertEqual(normalize_url_for_dedup(url5), normalize_url_for_dedup(url6))
+
 
 def show_filtered_jobs():
     """Show what jobs would be filtered out from each source"""
