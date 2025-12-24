@@ -372,7 +372,7 @@ class JobAggregator:
                 site="indeed", location="California", results=indeed_limit // 2
             ))
 
-        # Deduplicate by URL
+        # Deduplicate by URL only (same application page = same job)
         seen_urls = set()
         unique_jobs = []
         for job in all_jobs:
@@ -380,27 +380,9 @@ class JobAggregator:
                 seen_urls.add(job.url)
                 unique_jobs.append(job)
 
-        # Deduplicate ACROSS sources only (same company+title+location from different sources)
-        # Keep the first occurrence (Simplify > Jobright > LinkedIn)
-        seen_keys = {}  # key -> source
-        deduped_jobs = []
-        cross_source_dupes = 0
-        for job in unique_jobs:
-            title_norm = job.title.lower().replace('–', '-').replace('—', '-').strip()
-            loc_norm = job.location.lower().strip()
-            key = (job.company.lower(), title_norm, loc_norm)
-            if key in seen_keys:
-                # Only remove if from a DIFFERENT source
-                if seen_keys[key] != job.source:
-                    cross_source_dupes += 1
-                    continue  # Skip this duplicate from another source
-            seen_keys[key] = job.source
-            deduped_jobs.append(job)
-
-        self.jobs = deduped_jobs
-        print(f"  [Deduped] Removed {cross_source_dupes} cross-source duplicates")
-        print(f"\n=== Total unique jobs: {len(deduped_jobs)} ===")
-        return deduped_jobs
+        self.jobs = unique_jobs
+        print(f"\n=== Total unique jobs: {len(unique_jobs)} ===")
+        return unique_jobs
 
     def enrich(self) -> List[Job]:
         """Enrich jobs with levels.fyi data"""
