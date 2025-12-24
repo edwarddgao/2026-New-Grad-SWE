@@ -146,6 +146,8 @@ def generate_readme(skip_enrichment: bool = False):
             comp = f"[{comp_text}]({levels_url})"
         elif comp_text:
             comp = comp_text
+        elif is_valid_levels_company:
+            comp = f"[Levels.fyi]({levels_url})"
         else:
             comp = ""
 
