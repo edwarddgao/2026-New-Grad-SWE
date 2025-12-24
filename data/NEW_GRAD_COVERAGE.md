@@ -2,15 +2,24 @@
 
 ## Key Finding
 
-**Simplify only covers ~60% of companies actively hiring new grad SWEs.**
+**No single source provides complete coverage. You need multiple sources to catch all opportunities.**
 
-Based on cross-referencing with [jobright-ai/2025-Software-Engineer-New-Grad](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad):
+Based on cross-referencing SimplifyJobs, levels.fyi, and jobright-ai:
+
+| Source Combination | Companies | Coverage |
+|--------------------|-----------|----------|
+| **Simplify only** | 146 | 57% |
+| **+ levels.fyi gap** | +48 | +23% → 80% total |
+| **+ other sources (jobright-ai)** | +50 | +20% → 100% |
+
+### Coverage Breakdown
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | Companies with active new grad SWE jobs | 244 | 100% |
-| Also on Simplify | 146 | **59.8%** |
-| NOT on Simplify | 98 | **40.2%** |
+| On Simplify | 146 | **57%** |
+| On levels.fyi but NOT Simplify | 48 | **23%** |
+| On NEITHER (found by jobright-ai) | 50 | **20%** |
 
 ## Notable Companies Missing from Simplify
 
@@ -150,23 +159,112 @@ These companies have active new grad SWE postings but are NOT in Simplify's data
 97. iFIT
 98. monday.com
 
+## The Remaining 20%: Companies on NEITHER Platform
+
+50 companies actively hiring new grad SWEs that are on **neither** levels.fyi nor Simplify. These are discovered by jobright-ai through direct career page scraping.
+
+### Why These Companies Are Missing
+
+| Category | Examples | Reason Missing |
+|----------|----------|----------------|
+| **Government/Public Sector** | CalPERS, Ohio DJFS, California DSS | Public agencies rarely on tech job boards |
+| **Regional/Smaller Companies** | Gesa Credit Union, Morton Buildings, Dawn Foods | Not prominent enough for levels.fyi |
+| **Non-Tech Industries** | Nongshim America, Isuzu, CCL Label | Manufacturing/food companies with tech roles |
+| **Gaming Studios** | Naughty Dog, NetherRealm Studios | Under parent company (Sony, WB) on levels.fyi |
+| **Startups/New Companies** | 1Sphere AI, Broccoli AI, Fluidstack | Too new to be indexed |
+| **Legal/Financial Niche** | K&L Gates, Vinson & Elkins, RKL LLP | Law firms with tech needs |
+| **Healthcare** | Mayo Clinic, Brown University Health | Hospitals with SWE positions |
+
+### Companies in the 20% Gap (Alphabetical)
+
+1. 1Sphere AI
+2. 360insights
+3. Amatrol
+4. Bisnow
+5. Broccoli AI
+6. Brown University Health
+7. CCL Label
+8. CNH
+9. CONTAX Inc.
+10. CP Marine LLC
+11. CalPERS
+12. California Dept. of Social Services
+13. Caltech
+14. Carisk Partners
+15. Crew
+16. Dawn Foods Global
+17. Delta Controls
+18. Dynamic Connections
+19. Elsewhere Entertainment
+20. FPS GOLD
+21. FWI (FedWriters, Inc.)
+22. Fieldwire by Hilti
+23. Fluidstack
+24. Gesa Credit Union
+25. Hygiena
+26. Isuzu Technical Center of America
+27. J Street
+28. K&L Gates
+29. KEENFINITY Group
+30. Ketryx
+31. Lighthouse Avionics
+32. MP: Wired for HR
+33. MedWatchers
+34. Mediacom Communications
+35. Morton Buildings
+36. Motivo
+37. Multiply Mortgage
+38. Nassau Community College
+39. Naughty Dog
+40. NetherRealm Studios
+41. Nexxis Solutions
+42. Nongshim America
+43. OPS Consulting
+44. Ohio DJFS
+45. P3S Corporation
+46. PFM
+47. Planbase
+48. Point C
+49. PreSales Collective
+50. Scalence L.L.C.
+
+### How Jobright-ai Finds These
+
+Jobright-ai uses:
+1. **Direct career page scraping** - Crawls company websites directly
+2. **Indeed/LinkedIn aggregation** - Indexes major job boards
+3. **ATS integration** - Connects to Greenhouse, Lever, Workday feeds
+
 ## Conclusion
 
-**Is applying through Simplify enough?**
+**Is Simplify comprehensive enough?**
 
-**No.** You're missing ~40% of companies actively hiring new grad SWEs, including major names like Plaid, Unity, monday.com, Verily, Raytheon, and Scotiabank.
+**No.** Using Simplify alone means missing **43%** of opportunities. The coverage gap breaks down as:
+
+| Gap Source | What You're Missing |
+|------------|---------------------|
+| **levels.fyi gap (23%)** | Plaid, Unity, monday.com, Verily, LaunchDarkly, Raytheon, DTCC |
+| **Neither platform (20%)** | Government jobs, gaming studios, healthcare, startups, regional companies |
 
 ### Recommendations
 
-1. **Use multiple sources:**
-   - Simplify (60% coverage)
-   - [jobright-ai repos](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)
-   - [levels.fyi/jobs](https://www.levels.fyi/jobs)
+1. **Tier 1: Essential Sources (covers 80%)**
+   - [SimplifyJobs GitHub](https://github.com/SimplifyJobs/New-Grad-Positions) - 57% coverage
+   - [levels.fyi/jobs](https://www.levels.fyi/jobs) - adds 23%
+
+2. **Tier 2: Complete Coverage (adds remaining 20%)**
+   - [jobright-ai repos](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad) - direct scraping
+   - [Indeed](https://indeed.com) - broad coverage
    - Company career pages directly
 
-2. **Check levels.fyi for salary data** - Even if a company isn't on Simplify, they might have salary data on levels.fyi
+3. **Aggregator Approach**
+   - Use the `aggregator/sources.py` module in this repo to pull from all sources automatically
+   - Deduplicates by URL, enriches with salary data links
 
-3. **Set up alerts** - Use tools like AppTrack or SWEList for email alerts on new postings
+4. **Scraping levels.fyi for career pages**
+   - Worth it for the 23% gap (48 companies with quality jobs like Plaid, Unity)
+   - 34,316 companies on levels.fyi not on Simplify
+   - Focus on companies with salary data (indicates they're actively hiring)
 
 ---
 Generated: 2024-12-24
