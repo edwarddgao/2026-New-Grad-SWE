@@ -150,8 +150,8 @@ class JobrightSource:
             return None
 
 
-class IndeedSource:
-    """Pull jobs from Indeed via JobSpy (if available)"""
+class JobSpySource:
+    """Pull jobs from Indeed/LinkedIn via JobSpy"""
 
     def __init__(self):
         self.available = False
@@ -160,44 +160,47 @@ class IndeedSource:
             self.scrape_jobs = scrape_jobs
             self.available = True
         except ImportError:
-            print("  [Indeed] JobSpy not installed. Run: pip install python-jobspy")
+            print("  [JobSpy] Not installed. Run: pip install python-jobspy")
 
-    def fetch(self, search_term: str = "software engineer new grad",
-              location: str = "USA", results: int = 50) -> List[Job]:
+    def fetch(self, site: str = "indeed", search_term: str = "software engineer new grad",
+              location: str = "United States", results: int = 50, hours_old: int = 72) -> List[Job]:
         if not self.available:
             return []
 
         jobs = []
         try:
-            results_df = self.scrape_jobs(
-                site_name=["indeed"],
-                search_term=search_term,
-                location=location,
-                results_wanted=results,
-                hours_old=72,  # Last 3 days
-                country_indeed="USA"
-            )
+            kwargs = {
+                "site_name": [site],
+                "search_term": search_term,
+                "location": location,
+                "results_wanted": results,
+                "hours_old": hours_old,
+            }
+            if site == "indeed":
+                kwargs["country_indeed"] = "USA"
+
+            results_df = self.scrape_jobs(**kwargs)
 
             for _, row in results_df.iterrows():
                 job = Job(
-                    id=f"indeed_{row.get('id', hash(row.get('job_url', '')) % 10**8)}",
+                    id=f"{site}_{row.get('id', hash(row.get('job_url', '')) % 10**8)}",
                     title=row.get("title", ""),
                     company=row.get("company", ""),
                     company_slug=self._slugify(row.get("company", "")),
                     location=row.get("location", ""),
                     url=row.get("job_url", ""),
-                    source="indeed",
+                    source=site,
                     date_posted=str(row.get("date_posted", ""))[:10] if row.get("date_posted") else None,
                     salary_min=self._parse_salary(row.get("min_amount")),
                     salary_max=self._parse_salary(row.get("max_amount")),
                     remote=row.get("is_remote", False),
                     description=row.get("description", "")[:500] if row.get("description") else None,
-                    experience_level="new_grad"
+                    experience_level=None  # Mixed levels in search results
                 )
                 jobs.append(job)
-            print(f"  [Indeed] Scraped: {len(jobs)} jobs")
+            print(f"  [{site.capitalize()}] Scraped: {len(jobs)} jobs")
         except Exception as e:
-            print(f"  [Indeed] Error: {e}")
+            print(f"  [{site.capitalize()}] Error: {e}")
         return jobs
 
     def _slugify(self, name: str) -> str:
@@ -210,6 +213,10 @@ class IndeedSource:
             except:
                 pass
         return None
+
+
+# Backwards compatibility alias
+IndeedSource = JobSpySource
 
 
 class YCombinatorSource:
@@ -330,15 +337,13 @@ class JobAggregator:
         self.sources = {
             "simplify": SimplifySource(),
             "jobright": JobrightSource(),
-            "indeed": IndeedSource(),
-            # YC source disabled - major YC companies already in Simplify,
-            # and new batch companies aren't hiring new grads yet
-            # "yc": YCombinatorSource(),
+            "jobspy": JobSpySource(),  # For Indeed/LinkedIn
         }
         self.enricher = LevelsFyiEnricher(levels_companies_file)
         self.jobs: List[Job] = []
 
-    def fetch_all(self, include_indeed: bool = False, indeed_limit: int = 50) -> List[Job]:
+    def fetch_all(self, include_linkedin: bool = False, linkedin_limit: int = 50,
+                  include_indeed: bool = False, indeed_limit: int = 50) -> List[Job]:
         """Fetch jobs from all sources"""
         print("\n=== Fetching jobs from all sources ===\n")
 
@@ -350,9 +355,17 @@ class JobAggregator:
         # Jobright (always)
         all_jobs.extend(self.sources["jobright"].fetch())
 
-        # Indeed (optional, uses scraping)
-        if include_indeed and self.sources["indeed"].available:
-            all_jobs.extend(self.sources["indeed"].fetch(results=indeed_limit))
+        # LinkedIn (optional, uses JobSpy scraping)
+        if include_linkedin and self.sources["jobspy"].available:
+            all_jobs.extend(self.sources["jobspy"].fetch(
+                site="linkedin", results=linkedin_limit
+            ))
+
+        # Indeed (optional, uses JobSpy scraping)
+        if include_indeed and self.sources["jobspy"].available:
+            all_jobs.extend(self.sources["jobspy"].fetch(
+                site="indeed", results=indeed_limit
+            ))
 
         # Deduplicate by URL
         seen_urls = set()
