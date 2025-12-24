@@ -616,14 +616,15 @@ class LevelsScraper:
         for attempt in range(max_retries):
             try:
                 # Rate limiting - delay between requests to avoid 429s
-                time.sleep(0.3)
+                # Using 0.15s base delay for faster processing while respecting limits
+                time.sleep(0.15)
 
                 resp = self.session.get(url, timeout=10)
 
                 # Handle rate limiting with exponential backoff
                 if resp.status_code in (429, 503):
                     if attempt < max_retries - 1:
-                        wait_time = (2 ** attempt) * 0.5  # 0.5s, 1s, 2s
+                        wait_time = (2 ** attempt) * 1.0  # 1s, 2s, 4s backoff
                         time.sleep(wait_time)
                         continue
                     return (None, None)
