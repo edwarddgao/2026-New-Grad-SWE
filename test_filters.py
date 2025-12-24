@@ -155,6 +155,14 @@ class TestJobFiltering(unittest.TestCase):
         """Should filter: Product Manager (no SWE keyword)"""
         self.assertFalse(self._should_keep("Product Manager"))
 
+    def test_filter_phd_software_engineer(self):
+        """Should filter: PhD Software Engineer"""
+        self.assertFalse(self._should_keep("PhD Software Engineer"))
+
+    def test_filter_software_engineer_phd(self):
+        """Should filter: Software Engineer - PhD"""
+        self.assertFalse(self._should_keep("Software Engineer - PhD"))
+
 
 def show_filtered_jobs():
     """Show what jobs would be filtered out from each source"""
