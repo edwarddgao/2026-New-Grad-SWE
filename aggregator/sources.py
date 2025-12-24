@@ -9,7 +9,7 @@ import requests
 import urllib3
 from typing import List, Dict, Optional
 from dataclasses import dataclass, asdict
-from datetime import datetime
+from datetime import datetime, timedelta
 import time
 
 # Suppress SSL warnings for YC API
@@ -182,7 +182,7 @@ class BuiltInSource:
             if city not in self.CITIES:
                 continue
 
-            seen_urls = set()
+            seen_ids = set()
             city_jobs = 0
 
             # Fetch multiple pages
@@ -199,37 +199,47 @@ class BuiltInSource:
 
                     soup = self.BeautifulSoup(resp.text, 'html.parser')
 
-                    # Find job cards - they contain links to /job/ paths
-                    job_links = soup.find_all('a', href=re.compile(r'^/job/'))
+                    # Find job cards by data-id attribute
+                    job_cards = soup.find_all('div', {'data-id': 'job-card'})
 
                     page_jobs = 0
-                    for link in job_links:
-                        job_url = link.get('href', '')
-                        if not job_url or job_url in seen_urls:
-                            continue
-                        seen_urls.add(job_url)
-
-                        # Extract job ID from URL
-                        job_id_match = re.search(r'/job/[^/]+/(\d+)', job_url)
+                    for card in job_cards:
+                        # Get job ID from card id attribute (e.g., "job-card-8019048")
+                        card_id = card.get('id', '')
+                        job_id_match = re.search(r'job-card-(\d+)', card_id)
                         if not job_id_match:
                             continue
 
                         job_id = job_id_match.group(1)
+                        if job_id in seen_ids:
+                            continue
+                        seen_ids.add(job_id)
 
-                        # Get title from link text or title attribute
-                        title = link.get_text(strip=True) or link.get('title', '')
-                        if not title or len(title) < 3:
+                        # Get job title from data-id="job-card-title"
+                        title_link = card.find('a', {'data-id': 'job-card-title'})
+                        if not title_link:
                             continue
 
-                        # Skip navigation/generic links
-                        if title.lower() in ['apply', 'view job', 'learn more', 'see all']:
+                        title = title_link.get_text(strip=True)
+                        job_url = title_link.get('href', '')
+                        if not title or not job_url:
                             continue
 
-                        # Try to find company name - look in parent elements
-                        company = self._find_company(link)
+                        # Get company from data-id="company-title"
+                        company_link = card.find('a', {'data-id': 'company-title'})
+                        company = "Unknown"
+                        if company_link:
+                            company_span = company_link.find('span')
+                            if company_span:
+                                company = company_span.get_text(strip=True)
+                            else:
+                                company = company_link.get_text(strip=True)
 
-                        # Try to find location
-                        location = self._find_location(link, city)
+                        # Get posting date - look for text with "Ago" or "Yesterday"
+                        date_posted = self._extract_date(card)
+
+                        # Get location
+                        location = self._extract_location(card, city)
 
                         job = Job(
                             id=f"builtin_{job_id}",
@@ -239,6 +249,7 @@ class BuiltInSource:
                             location=location,
                             url=f"{self.BASE_URL}{job_url}",
                             source=f"builtin_{city}",
+                            date_posted=date_posted,
                             experience_level="entry_level"
                         )
                         jobs.append(job)
@@ -257,32 +268,47 @@ class BuiltInSource:
 
         return jobs
 
-    def _find_company(self, link_element) -> str:
-        """Try to find company name near the job link"""
-        # Look for company in parent containers
-        parent = link_element.parent
-        for _ in range(5):  # Search up to 5 levels
-            if parent is None:
-                break
-            # Look for company links or text
-            company_link = parent.find('a', href=re.compile(r'^/company/'))
-            if company_link:
-                return company_link.get_text(strip=True)
-            parent = parent.parent
-        return "Unknown"
+    def _extract_date(self, card) -> Optional[str]:
+        """Extract posting date from job card"""
+        # Look for text containing "Ago" or "Yesterday"
+        text = card.get_text()
+        today = datetime.now()
 
-    def _find_location(self, link_element, default_city: str) -> str:
-        """Try to find location near the job link"""
+        # Match patterns like "7 Days Ago", "Reposted 3 Days Ago", "Yesterday", "29 Minutes Ago"
+        if "yesterday" in text.lower():
+            return (today - timedelta(days=1)).strftime("%Y-%m-%d")
+
+        days_match = re.search(r'(\d+)\s*days?\s*ago', text, re.IGNORECASE)
+        if days_match:
+            days = int(days_match.group(1))
+            return (today - timedelta(days=days)).strftime("%Y-%m-%d")
+
+        # Hours or minutes ago = today
+        if re.search(r'\d+\s*(hours?|minutes?)\s*ago', text, re.IGNORECASE):
+            return today.strftime("%Y-%m-%d")
+
+        return None
+
+    def _extract_location(self, card, default_city: str) -> str:
+        """Extract location from job card"""
         city_map = {"nyc": "New York, NY", "sf": "San Francisco, CA", "la": "Los Angeles, CA"}
-        # Look in nearby text for location indicators
-        parent = link_element.parent
-        for _ in range(5):
-            if parent is None:
-                break
-            text = parent.get_text()
-            if "remote" in text.lower():
-                return f"Remote, {city_map.get(default_city, 'US')}"
-            parent = parent.parent
+
+        # Look for location text after fa-location-dot icon
+        loc_icon = card.find('i', class_=re.compile(r'fa-location-dot'))
+        if loc_icon:
+            # Get text from next sibling or parent
+            parent = loc_icon.parent
+            if parent:
+                next_span = parent.find_next_sibling('span') or parent.find('span')
+                if next_span:
+                    loc_text = next_span.get_text(strip=True)
+                    if loc_text:
+                        # Check if remote
+                        if "remote" in card.get_text().lower():
+                            return f"Remote, {loc_text}"
+                        return loc_text
+
+        # Fallback to default city
         return city_map.get(default_city, "US")
 
     def _slugify(self, name: str) -> str:
