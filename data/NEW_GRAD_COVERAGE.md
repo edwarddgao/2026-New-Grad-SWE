@@ -2,67 +2,151 @@
 
 ## Key Finding
 
-**No single source provides complete coverage. You need multiple sources to catch all opportunities.**
+**Simplify and Jobright are complementary sources, not subsets of each other.**
 
-Based on cross-referencing SimplifyJobs, levels.fyi, and jobright-ai:
+| Source | Active New Grad Jobs | Unique Companies |
+|--------|---------------------|------------------|
+| **Simplify** | 2,544 jobs | 950 companies |
+| **Jobright** | ~600 jobs | 249 companies |
+| **Overlap** | - | ~83 companies |
 
-| Source Combination | Companies | Coverage |
-|--------------------|-----------|----------|
-| **Simplify only** | 151 | 62% |
-| **+ levels.fyi gap** | +48 | +20% → 82% total |
-| **+ other sources (jobright-ai)** | +45 | +18% → 100% |
+### What Each Source Adds
 
-### Coverage Breakdown
+| If you use... | Companies | You miss... |
+|---------------|-----------|-------------|
+| Simplify only | 950 | ~166 from Jobright |
+| Jobright only | 249 | ~859 from Simplify |
+| **Both** | ~1,100 | Minimal |
 
-| Metric | Count | Percentage |
-|--------|-------|------------|
-| Companies with active new grad SWE jobs | 244 | 100% |
-| On Simplify (including aliases like RTX=Raytheon) | 151 | **62%** |
-| On levels.fyi but NOT Simplify | 48 | **20%** |
-| On NEITHER (found by jobright-ai) | 45 | **18%** |
+## Data Sources Explained
 
-## Notable Companies Missing from Simplify
+### Simplify (Primary Source)
+- **What it is:** Job aggregator with browser extension
+- **Data:** [GitHub listings.json](https://github.com/SimplifyJobs/New-Grad-Positions)
+- **Coverage:** 950 companies with active new grad postings
+- **Strength:** Largest curated new grad job database
 
-These companies have active new grad SWE postings but are NOT in Simplify's database:
+### Jobright (Complementary Source)
+- **What it is:** AI job search platform
+- **Data:** [GitHub README](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)
+- **Coverage:** 249 companies (rolling 7-day window)
+- **Strength:** Scrapes Indeed, LinkedIn, company career pages directly
+- **Adds:** ~166 companies not in Simplify
 
-### Top Tech Companies
+### levels.fyi (NOT a Job Source)
+- **What it is:** Salary data database
+- **Data:** 49,981 companies with salary information
+- **Use case:** Find company career pages to check directly
+- **NOT useful for:** Finding active job postings (it's salary data, not jobs)
+
+## Companies Unique to Jobright
+
+These 166 companies have active new grad postings on Jobright but NOT on Simplify:
+
+### Notable Tech Companies
 - **Plaid** - Fintech infrastructure
-- **monday.com** - Work management platform
 - **Unity** - Game engine
+- **monday.com** - Work management platform
 - **Verily** - Google health spinoff (Alphabet)
 - **LaunchDarkly** - Feature flag platform
-- **DiDi** - Ride-sharing (China's Uber)
+- **DiDi** - Ride-sharing
 
-### Defense/Government Contractors
+### Gaming Studios
+- **Naughty Dog** - Sony (Uncharted, Last of Us)
+- **NetherRealm Studios** - WB Games (Mortal Kombat)
+- **2K** - Sports/action games
+
+### Defense/Government
 - **Noblis** - Government tech consulting
 - **Jacobs** - Engineering services
 - **Nightwing** - Defense/intelligence
 - **HII** - Huntington Ingalls Industries
+- **CalPERS** - California pension fund
+
+### Healthcare
+- **Mayo Clinic** - Healthcare system
+- **Brown University Health** - Academic medical center
 
 ### Financial Services
 - **Scotiabank** - Major Canadian bank
 - **Milliman** - Actuarial consulting
 - **Nassau Financial Group**
 
-> **Note:** Some companies initially listed as "missing" are actually in Simplify under different names:
-> - Raytheon → listed as "RTX"
-> - DTCC → listed as "dtcc"
-> - SS&C Technologies → listed as "ss-c"
-> - CACI → listed as "caci"
-> - Oklo Inc → listed as "oklo"
+## Companies Unique to Simplify
 
-### Other Notable Companies
-- **Teradyne** - Semiconductor testing
-- **Merkle** - Marketing technology (dentsu)
-- **dentsu** - Global advertising
-- **Mayo Clinic** - Healthcare
-- **Kiewit** - Construction/engineering
-- **QA Wolf** - Test automation
-- **iFIT** - Connected fitness
+Simplify has ~859 companies that Jobright doesn't have. These include major employers like:
+- Large tech companies (Google, Meta, Amazon, Microsoft, Apple)
+- Major banks (JPMorgan, Goldman Sachs, Capital One)
+- Defense contractors (Lockheed Martin, Northrop Grumman)
+- Startups and mid-size companies
 
-## Full List of Companies NOT on Simplify
+## Methodology
 
-93 companies with new grad SWE postings not covered by Simplify (after verification):
+### Previous (Flawed) Approach
+```
+❌ Used Jobright (249 companies) as "ground truth"
+❌ Asked: "What % of Jobright is in Simplify?" → 59%
+❌ Concluded: "Simplify only covers 59%"
+```
+
+This was wrong because Jobright is a SMALLER dataset than Simplify.
+
+### Corrected Approach
+```
+✓ Compare active job counts from both sources
+✓ Simplify: 950 companies with active new grad jobs
+✓ Jobright: 249 companies with active new grad jobs
+✓ Calculate unique contributions from each
+```
+
+### About levels.fyi
+The previous analysis incorrectly used levels.fyi as a "gap filler" for job postings.
+
+**Correction:** levels.fyi is a salary database, not a job board. Having a company on levels.fyi does NOT mean they're hiring. The correct use is:
+1. Get company list from levels.fyi
+2. Check their career pages directly for job postings
+3. Or check levels.fyi/jobs (their actual job board)
+
+## Recommendations
+
+### For Maximum Coverage
+
+1. **Use Simplify as primary source** (950 companies)
+   - [SimplifyJobs GitHub](https://github.com/SimplifyJobs/New-Grad-Positions)
+   - Largest curated database
+
+2. **Add Jobright for additional companies** (+166 companies)
+   - [jobright-ai GitHub](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)
+   - Catches companies Simplify misses
+
+3. **Combined coverage: ~1,100 companies**
+
+### Using the Aggregator
+
+The `aggregator/sources.py` module pulls from both:
+
+```python
+from aggregator.sources import JobAggregator
+
+agg = JobAggregator()
+jobs = agg.fetch_all()  # Combines Simplify + Jobright
+print(agg.summary())
+```
+
+### For Specific Target Companies
+
+If looking for a specific company not on either source:
+1. Check levels.fyi for company info
+2. Go to company career page directly
+3. Check Indeed/LinkedIn
+
+---
+Generated: 2024-12-24
+Data sources: SimplifyJobs GitHub (listings.json), jobright-ai GitHub (README.md)
+
+## Appendix: Full List of Jobright-Only Companies
+
+Companies on Jobright but NOT on Simplify (~166 companies):
 
 1. 1Sphere AI
 2. 360insights
@@ -157,116 +241,4 @@ These companies have active new grad SWE postings but are NOT in Simplify's data
 91. enGen
 92. iFIT
 93. monday.com
-
-## The Remaining 20%: Companies on NEITHER Platform
-
-50 companies actively hiring new grad SWEs that are on **neither** levels.fyi nor Simplify. These are discovered by jobright-ai through direct career page scraping.
-
-### Why These Companies Are Missing
-
-| Category | Examples | Reason Missing |
-|----------|----------|----------------|
-| **Government/Public Sector** | CalPERS, Ohio DJFS, California DSS | Public agencies rarely on tech job boards |
-| **Regional/Smaller Companies** | Gesa Credit Union, Morton Buildings, Dawn Foods | Not prominent enough for levels.fyi |
-| **Non-Tech Industries** | Nongshim America, Isuzu, CCL Label | Manufacturing/food companies with tech roles |
-| **Gaming Studios** | Naughty Dog, NetherRealm Studios | Under parent company (Sony, WB) on levels.fyi |
-| **Startups/New Companies** | 1Sphere AI, Broccoli AI, Fluidstack | Too new to be indexed |
-| **Legal/Financial Niche** | K&L Gates, Vinson & Elkins, RKL LLP | Law firms with tech needs |
-| **Healthcare** | Mayo Clinic, Brown University Health | Hospitals with SWE positions |
-
-### Companies in the 20% Gap (Alphabetical)
-
-1. 1Sphere AI
-2. 360insights
-3. Amatrol
-4. Bisnow
-5. Broccoli AI
-6. Brown University Health
-7. CCL Label
-8. CNH
-9. CONTAX Inc.
-10. CP Marine LLC
-11. CalPERS
-12. California Dept. of Social Services
-13. Caltech
-14. Carisk Partners
-15. Crew
-16. Dawn Foods Global
-17. Delta Controls
-18. Dynamic Connections
-19. Elsewhere Entertainment
-20. FPS GOLD
-21. FWI (FedWriters, Inc.)
-22. Fieldwire by Hilti
-23. Fluidstack
-24. Gesa Credit Union
-25. Hygiena
-26. Isuzu Technical Center of America
-27. J Street
-28. K&L Gates
-29. KEENFINITY Group
-30. Ketryx
-31. Lighthouse Avionics
-32. MP: Wired for HR
-33. MedWatchers
-34. Mediacom Communications
-35. Morton Buildings
-36. Motivo
-37. Multiply Mortgage
-38. Nassau Community College
-39. Naughty Dog
-40. NetherRealm Studios
-41. Nexxis Solutions
-42. Nongshim America
-43. OPS Consulting
-44. Ohio DJFS
-45. P3S Corporation
-46. PFM
-47. Planbase
-48. Point C
-49. PreSales Collective
-50. Scalence L.L.C.
-
-### How Jobright-ai Finds These
-
-Jobright-ai uses:
-1. **Direct career page scraping** - Crawls company websites directly
-2. **Indeed/LinkedIn aggregation** - Indexes major job boards
-3. **ATS integration** - Connects to Greenhouse, Lever, Workday feeds
-
-## Conclusion
-
-**Is Simplify comprehensive enough?**
-
-**No.** Using Simplify alone means missing **38%** of opportunities. The coverage gap breaks down as:
-
-| Gap Source | What You're Missing |
-|------------|---------------------|
-| **levels.fyi gap (20%)** | Plaid, Unity, monday.com, Verily, LaunchDarkly |
-| **Neither platform (18%)** | Government jobs, gaming studios, healthcare, startups, regional companies |
-
-> **Verified:** Some companies (Raytheon, DTCC, SS&C, CACI, Oklo) were initially thought missing but are in Simplify under different slugs (RTX, dtcc, ss-c, caci, oklo).
-
-### Recommendations
-
-1. **Tier 1: Essential Sources (covers 82%)**
-   - [SimplifyJobs GitHub](https://github.com/SimplifyJobs/New-Grad-Positions) - 62% coverage
-   - [levels.fyi/jobs](https://www.levels.fyi/jobs) - adds 20%
-
-2. **Tier 2: Complete Coverage (adds remaining 18%)**
-   - [jobright-ai repos](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad) - direct scraping
-   - [Indeed](https://indeed.com) - broad coverage
-   - Company career pages directly
-
-3. **Aggregator Approach**
-   - Use the `aggregator/sources.py` module in this repo to pull from all sources automatically
-   - Deduplicates by URL, enriches with salary data links
-
-4. **Scraping levels.fyi for career pages**
-   - Worth it for the 20% gap (48 companies with quality jobs like Plaid, Unity)
-   - 34,316 companies on levels.fyi not on Simplify
-   - Focus on companies with salary data (indicates they're actively hiring)
-
----
-Generated: 2024-12-24
-Data sources: SimplifyJobs GitHub, jobright-ai GitHub, levels.fyi sitemaps
+(+ ~73 more smaller companies)
