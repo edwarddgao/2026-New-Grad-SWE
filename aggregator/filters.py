@@ -19,7 +19,7 @@ SENIOR_KEYWORDS = [
     'senior', 'staff', 'principal', 'lead', 'manager', 'director',
     'architect', 'vp ', 'vice president', 'head of', 'chief',
     'sr ', 'sr.', ' iii', ' iv', ' 3', ' 4', ' 5',
-    'founding', 'distinguished', 'fellow'
+    'founding', 'distinguished', 'fellow', 'phd'
 ]
 
 # SWE-related keywords (must match at least one for non-curated sources)

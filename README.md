@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Built In NYC](https://builtin.com/jobs/new-york), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-24 06:07
+**Last updated:** 2025-12-24 06:11
 
-**Total:** 825 jobs from 320 companies
+**Total:** 827 jobs from 320 companies
 
 ---
 
@@ -38,8 +38,8 @@
 | **Assort Health** | [Agent Software Engineer](https://jobright.ai/jobs/info/692e54ad4c474121999d876f?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 1d |
 | **Persistent Systems, LLC** | [Software Engineer](https://jobright.ai/jobs/info/69202ce809cc522e87748843?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1d |
 | **NVIDIA** | [Firmware Engineer, Memory Subsystem - New College Grad 2026](https://www.linkedin.com/jobs/view/4328825095) | Santa Clara, CA | LinkedIn | 1d |
+| **Arup** | [Graduate Software Developer (Available 2026)](https://www.indeed.com/viewjob?jk=e5bc5e3ab1f826a2) | New York, NY, US | Indeed | 1d |
 | **Tesla** | [Internship, Electronic Design Engineer, Radio Frequency (Summer 2026)](https://www.indeed.com/viewjob?jk=bd1750a0e968bcf1) | Palo Alto, CA, US | Indeed | 1d |
-| **Google** | [Physical Design Engineer, University Graduate, PhD](https://www.indeed.com/viewjob?jk=c869f405dc5d444e) | Sunnyvale, CA, US | Indeed | 1d |
 | **Voyager Technologies, Inc.** | [Software Engineer – Manufacturing Integration (ACE)](https://www.indeed.com/viewjob?jk=cabff376fd86ec57) | Los Angeles, CA, US | Indeed | 1d |
 | **Voyager Technologies, Inc.** | [AI Software Engineer – Agents (ACE)](https://www.indeed.com/viewjob?jk=125e207aa81e609d) | Los Angeles, CA, US | Indeed | 1d |
 | **NVIDIA** | [Firmware Engineer, Memory Subsystem - New College Grad 2026](https://www.indeed.com/viewjob?jk=d899e3b7cfcc2c66) | Santa Clara, CA, US | Indeed | 1d |
@@ -585,6 +585,7 @@
 | **AI Fund** | [Founder in Residence - Embedfi - SMB Hardware Leasing](https://jobs.lever.co/AIFund/e5ef49f6-2014-45d7-a5fb-2d534e6af556/apply) | California, Remote in USA | Simplify | 3mo |
 | **Duolingo** | [AI Research Engineer – New PhD Graduate](https://careers.duolingo.com/jobs/8169815002?gh_jid=8169815002) | NYC | Simplify | 3mo |
 | **Geosyntec Consultants** | [Early-Career Subsurface Modeler](https://careers-geosyntec.icims.com/jobs/4105/job?mobile=true&needsRedirect=false) | Newport Beach, CA, Ventura, CA, Santa... | Simplify | 3mo |
+| **Amazon.com** | [Software Engineer, Prime Video](https://www.indeed.com/viewjob?jk=06b2f97fa8af4a24) | New York, NY, US | Indeed | 3mo |
 | **Amazon.com** | [Software Engineer, Prime Video](https://www.indeed.com/viewjob?jk=8d8c441ef78a7543) | San Francisco, CA, US | Indeed | 3mo |
 | **Amazon.com** | [Software Engineer, Prime Video](https://www.indeed.com/viewjob?jk=01a0bc574842b62f) | Culver City, CA, US | Indeed | 3mo |
 | **Jane Street** | [Cybersecurity Analyst](https://www.janestreet.com/join-jane-street/position/8053215002/) | New York, NY | Simplify | 3mo |
@@ -831,6 +832,7 @@
 | **Nuro** | [Software Engineer – Autonomy-New Grad](https://nuro.ai/careersitem?gh_jid=6932596) | Mountain View, CA | Simplify | 6mo |
 | **Cadence Design Systems** | [Software Engineer I](https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/Software-Engineer-II_R48302) | San Jose, CA | Simplify | 6mo |
 | **ByteDance** | [RDMA Network Software Development Engineer - High Speed Network](https://jobs.bytedance.com/en/position/7509263561258027272/detail) | San Jose, CA | Simplify | 7mo |
+| **Amazon.com** | [Software Development Engineer, Live Sports - Prime Video](https://www.indeed.com/viewjob?jk=e64f70cf3074da69) | New York, NY, US | Indeed | 9mo |
 | **Amazon.com** | [Software Development Engineer, Live Sports - Prime Video](https://www.indeed.com/viewjob?jk=dcfb17a8db05a9a6) | Culver City, CA, US | Indeed | 9mo |
 | **Fluidstack** | [Forward Deployed Engineer, SWE, SRE, Infrastructure, Networking](https://jobs.ashbyhq.com/fluidstack/fb45b5dc-614e-40dd-ac5d-b1a43014ee46) | London/SF/NYC or remote | HN Hiring | 11mo |
 | **Imbue** | [Machine Learning Engineer](https://imbue.com/careers) | Remote or San Francisco | HN Hiring | 11mo |
