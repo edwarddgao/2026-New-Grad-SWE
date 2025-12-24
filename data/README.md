@@ -5,10 +5,10 @@
 | Metric | Count |
 |--------|-------|
 | **Levels.fyi companies** | 49,981 |
-| **Simplify.jobs companies** | 1,486 |
-| **Companies on BOTH** | 851 |
-| **Companies ONLY on levels.fyi** | 49,130 |
-| **Companies ONLY on simplify.jobs** | 635 |
+| **Simplify.jobs companies** | 3,247 |
+| **Companies on BOTH** | 1,736 |
+| **Companies ONLY on levels.fyi** | 48,245 |
+| **Companies ONLY on simplify.jobs** | 1,511 |
 
 ## Data Sources
 
@@ -17,29 +17,34 @@
 - **Coverage**: Complete company database (~50,000 companies)
 
 ### Simplify.jobs
-- **Source**: GitHub job listing repositories
-  - [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships)
-  - [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions)
-- **Coverage**: Companies with active job postings in these repos (~1,500 companies)
-- **Note**: Simplify.jobs claims to have 20,000+ companies on their platform, but their website blocks direct access. The data here is limited to companies appearing in their public GitHub job listing repos.
+- **Source**: GitHub job listing repositories (including structured JSON data files)
+  - [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) - `listings.json` (2,039 companies)
+  - [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) - `listings.json` (1,872 companies)
+  - README markdown files with company links
+- **Coverage**: 3,247 unique companies with job postings in these repos
+- **Note**: Simplify.jobs claims 20,000+ companies on their platform, but their website blocks direct access (503 errors, TLS failures). The data here is from their public GitHub repositories.
 
 ## Files
 
 | File | Description |
 |------|-------------|
 | `levels_companies.txt` | All 49,981 companies from levels.fyi |
-| `simplify_companies.txt` | All 1,486 companies from Simplify GitHub repos |
-| `only_on_levels.txt` | 49,130 companies on levels.fyi but NOT in Simplify repos |
-| `only_on_simplify.txt` | 635 companies in Simplify repos but NOT on levels.fyi |
-| `on_both.txt` | 851 companies appearing on both platforms |
+| `simplify_companies.txt` | All 3,247 companies from Simplify GitHub repos |
+| `simplify_all_companies.txt` | Same as above (combined from all sources) |
+| `simplify_company_names.txt` | Company slugs with original names |
+| `only_on_levels.txt` | 48,245 companies on levels.fyi but NOT on Simplify |
+| `only_on_simplify.txt` | 1,511 companies on Simplify but NOT on levels.fyi |
+| `on_both.txt` | 1,736 companies appearing on both platforms |
+| `summer2026_listings.json` | Raw data from Summer2026-Internships repo |
+| `newgrad_listings.json` | Raw data from New-Grad-Positions repo |
 
 ## Notes
 
 1. **Company names are normalized**: lowercase, URL-slug format (e.g., "google", "meta", "amazon")
 
-2. **Simplify data is incomplete**: We could only access company data from Simplify's public GitHub repositories, not their full platform (which is protected behind a web application that blocks automated access).
+2. **Simplify data is incomplete**: We could only access company data from Simplify's public GitHub repositories, not their full platform (which blocks automated access with 503 errors).
 
-3. **The real "hidden gems"**: The 49,130 companies on levels.fyi but not in Simplify's GitHub repos represent potential opportunities that job seekers might miss if they only use Simplify's curated job lists.
+3. **The real "hidden gems"**: The 48,245 companies on levels.fyi but not in Simplify's repos represent potential opportunities that job seekers might miss if they only use Simplify's curated job lists.
 
 ## How to use
 
