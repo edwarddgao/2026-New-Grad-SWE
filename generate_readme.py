@@ -63,14 +63,18 @@ def generate_readme():
 
     # Add job rows sorted by recency
     for job in sorted_jobs:
+        # Escape pipe characters to prevent breaking markdown table
+        company = job.company.replace("|", "\\|")
+        title = job.title.replace("|", "\\|")
+        loc = job.location.replace("|", "\\|")
+
         # Format company
-        company_col = f"**{job.company}**"
+        company_col = f"**{company}**"
 
         # Format title as link
-        title_col = f"[{job.title}]({job.url})"
+        title_col = f"[{title}]({job.url})"
 
         # Truncate location if too long
-        loc = job.location
         if len(loc) > 40:
             loc = loc[:37] + "..."
 
