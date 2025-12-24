@@ -14,6 +14,226 @@ class LevelsScraper:
 
     BASE_URL = "https://www.levels.fyi/companies/{company}/salaries/software-engineer"
 
+    # Company name aliases (job listing name -> levels.fyi slug)
+    COMPANY_ALIASES = {
+        # Big tech variants
+        "tiktok": "bytedance",
+        "tik tok": "bytedance",
+        "bytedance": "bytedance",
+        "facebook": "meta",
+        "instagram": "meta",
+        "whatsapp": "meta",
+        "oculus": "meta",
+        "google llc": "google",
+        "alphabet": "google",
+        "youtube": "google",
+        "deepmind": "google",
+        "amazon.com": "amazon",
+        "aws": "amazon",
+        "amazon web services": "amazon",
+        "twitch": "amazon",
+        "ring": "amazon",
+        "microsoft corporation": "microsoft",
+        "github": "microsoft",
+        "linkedin": "microsoft",
+        "azure": "microsoft",
+
+        # Finance
+        "citadel securities": "citadel",
+        "citadel llc": "citadel",
+        "two sigma investments": "two-sigma",
+        "two sigma securities": "two-sigma",
+        "jane street capital": "jane-street",
+        "goldman sachs group": "goldman-sachs",
+        "goldman sachs & co": "goldman-sachs",
+        "morgan stanley": "morgan-stanley",
+        "jp morgan": "jpmorgan-chase",
+        "jpmorgan": "jpmorgan-chase",
+        "jpmorgan chase": "jpmorgan-chase",
+        "capital one": "capital-one",
+        "capital one financial": "capital-one",
+        "bank of america": "bank-of-america",
+        "bofa": "bank-of-america",
+        "wells fargo": "wells-fargo",
+        "american express": "american-express",
+        "amex": "american-express",
+        "visa inc": "visa",
+        "mastercard": "mastercard",
+        "blackrock": "blackrock",
+        "fidelity": "fidelity-investments",
+        "fidelity investments": "fidelity-investments",
+        "charles schwab": "charles-schwab",
+        "robinhood markets": "robinhood",
+        "sofi": "sofi",
+        "chime": "chime",
+        "affirm": "affirm",
+
+        # Tech companies
+        "apple inc": "apple",
+        "nvidia corporation": "nvidia",
+        "intel corporation": "intel",
+        "amd": "amd",
+        "qualcomm": "qualcomm",
+        "broadcom": "broadcom",
+        "salesforce": "salesforce",
+        "salesforce.com": "salesforce",
+        "oracle corporation": "oracle",
+        "ibm": "ibm",
+        "cisco systems": "cisco",
+        "vmware": "vmware",
+        "dell technologies": "dell",
+        "hp inc": "hp",
+        "hewlett packard": "hp",
+        "servicenow": "servicenow",
+        "workday": "workday",
+        "splunk": "splunk",
+        "atlassian": "atlassian",
+        "zendesk": "zendesk",
+        "hubspot": "hubspot",
+        "twilio": "twilio",
+        "okta": "okta",
+        "crowdstrike": "crowdstrike",
+        "palo alto networks": "palo-alto-networks",
+        "zscaler": "zscaler",
+        "fortinet": "fortinet",
+        "mongodb": "mongodb",
+        "elastic": "elastic",
+        "snowflake": "snowflake",
+        "databricks": "databricks",
+        "confluent": "confluent",
+        "hashicorp": "hashicorp",
+
+        # Consumer tech
+        "uber technologies": "uber",
+        "lyft inc": "lyft",
+        "doordash": "doordash",
+        "instacart": "instacart",
+        "airbnb": "airbnb",
+        "booking.com": "booking",
+        "booking holdings": "booking",
+        "expedia": "expedia",
+        "tripadvisor": "tripadvisor",
+        "zillow": "zillow",
+        "zillow group": "zillow",
+        "redfin": "redfin",
+        "opendoor": "opendoor",
+        "compass real estate": "compass",
+        "yelp": "yelp",
+        "grubhub": "grubhub",
+        "postmates": "uber",
+        "etsy": "etsy",
+        "ebay": "ebay",
+        "wayfair": "wayfair",
+        "shopify": "shopify",
+        "squarespace": "squarespace",
+        "wix": "wix",
+
+        # Social/Entertainment
+        "snap inc": "snap",
+        "snapchat": "snap",
+        "twitter": "x",
+        "x corp": "x",
+        "pinterest": "pinterest",
+        "reddit": "reddit",
+        "discord": "discord",
+        "spotify": "spotify",
+        "netflix": "netflix",
+        "roku": "roku",
+        "hulu": "disney",
+        "disney": "disney",
+        "walt disney": "disney",
+        "warner bros": "warner-bros-discovery",
+        "paramount": "paramount",
+        "sony": "sony",
+        "electronic arts": "ea",
+        "ea": "ea",
+        "activision": "activision-blizzard",
+        "blizzard": "activision-blizzard",
+        "riot games": "riot-games",
+        "epic games": "epic-games",
+        "roblox": "roblox",
+        "unity": "unity",
+
+        # Payments/Fintech
+        "stripe": "stripe",
+        "square": "block",
+        "block inc": "block",
+        "paypal": "paypal",
+        "venmo": "paypal",
+        "brex": "brex",
+        "ramp": "ramp",
+        "plaid": "plaid",
+        "marqeta": "marqeta",
+        "checkout.com": "checkout",
+        "adyen": "adyen",
+        "klarna": "klarna",
+        "afterpay": "afterpay",
+
+        # Cloud/Enterprise
+        "dropbox": "dropbox",
+        "box": "box",
+        "docusign": "docusign",
+        "zoom": "zoom",
+        "zoom video": "zoom",
+        "slack": "salesforce",
+        "asana": "asana",
+        "monday.com": "monday",
+        "notion": "notion",
+        "figma": "figma",
+        "canva": "canva",
+        "miro": "miro",
+        "airtable": "airtable",
+        "webflow": "webflow",
+
+        # AI/ML
+        "openai": "openai",
+        "anthropic": "anthropic",
+        "cohere": "cohere",
+        "scale ai": "scale-ai",
+        "hugging face": "hugging-face",
+        "stability ai": "stability-ai",
+
+        # Auto/Space
+        "tesla": "tesla",
+        "tesla motors": "tesla",
+        "spacex": "spacex",
+        "waymo": "waymo",
+        "cruise": "cruise",
+        "aurora": "aurora",
+        "nuro": "nuro",
+        "rivian": "rivian",
+        "lucid motors": "lucid-motors",
+        "gm": "general-motors",
+        "general motors": "general-motors",
+        "ford": "ford",
+        "ford motor": "ford",
+        "toyota": "toyota",
+        "honda": "honda",
+        "bmw": "bmw",
+        "mercedes": "mercedes-benz",
+
+        # Other tech
+        "palantir": "palantir",
+        "palantir technologies": "palantir",
+        "datadog": "datadog",
+        "new relic": "new-relic",
+        "sumo logic": "sumo-logic",
+        "dynatrace": "dynatrace",
+        "grafana": "grafana-labs",
+        "cloudflare": "cloudflare",
+        "fastly": "fastly",
+        "akamai": "akamai",
+        "veeva": "veeva-systems",
+        "veeva systems": "veeva-systems",
+        "epic systems": "epic-systems",
+        "cerner": "cerner",
+        "bloomberg": "bloomberg",
+        "bloomberg lp": "bloomberg",
+        "thomson reuters": "thomson-reuters",
+        "factset": "factset",
+        "morningstar": "morningstar",
+    }
+
     # Entry level mappings for different companies
     ENTRY_LEVELS = {
         "google": "l3",
@@ -55,16 +275,21 @@ class LevelsScraper:
         "cisco": "i-7",
         "intel": "grade-3",
         "bloomberg": "l3",
-        "capital one": "associate",
-        "goldman sachs": "analyst",
+        "capital-one": "associate",
+        "goldman-sachs": "analyst",
         "citadel": "l3",
-        "two sigma": "l3",
-        "jane street": "junior-trader",
+        "two-sigma": "l3",
+        "jane-street": "junior-trader",
         "openai": "l3",
         "anthropic": "l3",
         "spacex": "l1",
         "tesla": "l2",
         "waymo": "l3",
+        "bytedance": "e3",
+        "jpmorgan-chase": "analyst",
+        "morgan-stanley": "analyst",
+        "bank-of-america": "analyst",
+        "x": "l3",
     }
 
     def __init__(self):
@@ -72,12 +297,29 @@ class LevelsScraper:
         self.session.headers.update({
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
         })
+        # Cache for companies not found on levels.fyi
+        self._not_found_cache = set()
+
+    def _normalize_company(self, name: str) -> str:
+        """Normalize company name to levels.fyi slug using aliases"""
+        name_lower = name.lower().strip()
+
+        # Check exact match in aliases
+        if name_lower in self.COMPANY_ALIASES:
+            return self.COMPANY_ALIASES[name_lower]
+
+        # Check if any alias is contained in the name
+        for alias, slug in self.COMPANY_ALIASES.items():
+            if alias in name_lower or name_lower in alias:
+                return slug
+
+        # Fallback to basic slugify
+        return re.sub(r'[^a-z0-9]+', '-', name_lower).strip('-')
 
     def _slugify(self, name: str) -> str:
-        """Convert company name to URL slug"""
-        return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+        """Convert company name to URL slug (legacy, use _normalize_company)"""
+        return self._normalize_company(name)
 
-    @lru_cache(maxsize=500)
     def get_salary(self, company: str, title: str = "software engineer",
                    location: str = None) -> Tuple[Optional[int], Optional[int]]:
         """
@@ -85,8 +327,21 @@ class LevelsScraper:
 
         Returns (min_salary, max_salary) or (None, None) if not found.
         """
-        company_slug = self._slugify(company)
+        company_slug = self._normalize_company(company)
 
+        # Check not-found cache first
+        if company_slug in self._not_found_cache:
+            return (None, None)
+
+        # Check salary cache
+        result = self._get_salary_cached(company_slug)
+        if result == (None, None):
+            self._not_found_cache.add(company_slug)
+        return result
+
+    @lru_cache(maxsize=500)
+    def _get_salary_cached(self, company_slug: str) -> Tuple[Optional[int], Optional[int]]:
+        """Cached salary lookup by normalized slug"""
         try:
             url = self.BASE_URL.format(company=company_slug)
             resp = self.session.get(url, timeout=10)
@@ -130,15 +385,8 @@ class LevelsScraper:
             if not entry_data:
                 return (None, None)
 
-            # Get salary from samples filtered by location if specified
+            # Get salary from samples
             samples = entry_data.get('samples', [])
-
-            if location and samples:
-                # Filter by location
-                location_lower = location.lower()
-                filtered = [s for s in samples if location_lower in s.get('location', '').lower()]
-                if filtered:
-                    samples = filtered
 
             if samples:
                 # Get min/max from samples
