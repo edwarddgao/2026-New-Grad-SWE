@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), and [LinkedIn](https://linkedin.com/jobs)
 
-**Last updated:** 2025-12-24 04:48
+**Last updated:** 2025-12-24 04:51
 
-**Total:** 797 jobs from 297 companies
+**Total:** 812 jobs from 304 companies
 
 ---
 
@@ -15,6 +15,12 @@
 | **Everline Tech** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4346103148) | San Jose, CA | LinkedIn |  |
 | **Waymo** | [Applied Research Scientist, Perception LLM/VLM (PhD, New Grad)](https://www.linkedin.com/jobs/view/4328755067) | San Francisco, CA | LinkedIn |  |
 | **Waymo** | [Applied Research Scientist, Perception LLM/VLM (PhD, New Grad)](https://www.linkedin.com/jobs/view/4328705253) | Mountain View, CA | LinkedIn |  |
+| **PwC** | [Advisory National CT&I - AI Engineer - Director](https://www.linkedin.com/jobs/view/4328928673) | New York, NY | LinkedIn |  |
+| **Remi** | [Software Engineer I/II | SF](https://www.linkedin.com/jobs/view/4346016420) | San Francisco, CA | LinkedIn |  |
+| **Lensa** | [2026 Entry Level Software Engineer](https://www.linkedin.com/jobs/view/4346070573) | San Diego, CA | LinkedIn |  |
+| **WSP in the U.S.** | [Early Career Civil Engineer](https://www.linkedin.com/jobs/view/4328975928) | San Francisco, CA | LinkedIn |  |
+| **WSP in the U.S.** | [Early Career Civil Engineer](https://www.linkedin.com/jobs/view/4329163084) | Los Angeles, CA | LinkedIn |  |
+| **WSP in the U.S.** | [Early Career Civil Engineer](https://www.linkedin.com/jobs/view/4329133224) | San Jose, CA | LinkedIn |  |
 | **Cox** | [Software Engineer 1](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineer-I_R202570999-1) | NYC | Simplify | 0d |
 | **Waymo** | [Applied Research Scientist - Perception](https://careers.withwaymo.com/jobs?gh_jid=7467839) | SF, Mountain View, CA | Simplify | 0d |
 | **ByteDance** | [Research Scientist Graduate - 3D/4D Generation - 2026 Start](https://jobs.bytedance.com/en/position/7585034854077778181/detail) | San Jose, CA | Simplify | 0d |
@@ -35,6 +41,7 @@
 | **Assort Health** | [Agent Software Engineer](https://jobright.ai/jobs/info/692e54ad4c474121999d876f?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 1d |
 | **Persistent Systems, LLC** | [Software Engineer](https://jobright.ai/jobs/info/69202ce809cc522e87748843?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 1d |
 | **NVIDIA** | [Firmware Engineer, Memory Subsystem - New College Grad 2026](https://www.linkedin.com/jobs/view/4328825095) | Santa Clara, CA | LinkedIn | 1d |
+| **Quanta Manufacturing Fremont** | [Test Engineer](https://www.linkedin.com/jobs/view/4328764602) | Fremont, CA | LinkedIn | 1d |
 | **Mechanize** | [Junior Software Engineer](https://jobs.ashbyhq.com/mechanize/b50c89dc-001c-4fb6-a4fc-a9f52f35b490) | San Francisco, CA, Remote in USA | Simplify | 2d |
 | **Oklo** | [Junior Software Engineer](https://job-boards.greenhouse.io/oklo/jobs/5739861004) | Santa Clara, CA, Remote in USA | Simplify | 2d |
 | **Astranis** | [Software Developer, Network Software Associate](https://job-boards.greenhouse.io/astranis/jobs/4621916006) | San Francisco, CA | Simplify | 2d |
@@ -51,6 +58,9 @@
 | **BlackRock** | [Associate, Application Engineer](https://jobright.ai/jobs/info/694a1d7e63141d188459cdb5?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 2d |
 | **Fluidstack** | [Strategy & Operations Software Generalist](https://jobright.ai/jobs/info/694907efd1953b5d11c211ff?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | Jobright | 2d |
 | **Bloom Energy** | [RMCC Software Engineering Intern](https://www.linkedin.com/jobs/view/4316529935) | San Jose, CA | LinkedIn | 2d |
+| **RedTech Recruitment** | [Product Specialist - Graduate Considered](https://www.linkedin.com/jobs/view/4328811265) | Manhattan, NY | LinkedIn | 2d |
+| **PwC** | [Software Engineer Technical Lead - Manager](https://www.linkedin.com/jobs/view/4321752917) | New York, NY | LinkedIn | 2d |
+| **iRhythm Technologies, Inc.** | [System Engineer I](https://www.linkedin.com/jobs/view/4313376959) | San Francisco, CA | LinkedIn | 2d |
 | **Relativity Space** | [Embedded Software Engineer I](https://jobright.ai/jobs/info/6948b4bf63141d1884585747?utm_campaign=Software%20Engineering&utm_source=1103) | Long Beach, California | Jobright | 3d |
 | **Vast.ai** | [C++ Software Engineer — Systems](https://jobright.ai/jobs/info/6848e942132739e8bcbe8e16?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | Jobright | 3d |
 | **SpaceX** | [Full Stack Software Engineer, Security (Starlink)](https://jobright.ai/jobs/info/690e515e44146d3b6ec52dfa?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | Jobright | 3d |
@@ -67,6 +77,11 @@
 | **Oracle** | [Advanced Degree Software Engineer - Fusion](https://www.linkedin.com/jobs/view/4313829483) | Redwood City, CA | LinkedIn | 3d |
 | **Oracle** | [Advanced Degree Software Engineer - Fusion](https://www.linkedin.com/jobs/view/4313836419) | Santa Clara, CA | LinkedIn | 3d |
 | **Plus** | [Senior Machine Learning Engineer, Simulation](https://www.linkedin.com/jobs/view/4091526578) | Santa Clara, CA | LinkedIn | 3d |
+| **PwC** | [Cloud Deployment Engineer- Senior Associate](https://www.linkedin.com/jobs/view/4321158840) | San Francisco, CA | LinkedIn | 3d |
+| **PwC** | [Cloud Deployment Engineer- Senior Associate](https://www.linkedin.com/jobs/view/4321198770) | San Diego, CA | LinkedIn | 3d |
+| **PwC** | [Cloud Deployment Engineer- Senior Associate](https://www.linkedin.com/jobs/view/4321108978) | Irvine, CA | LinkedIn | 3d |
+| **PwC** | [Cloud Deployment Engineer- Senior Associate](https://www.linkedin.com/jobs/view/4321258755) | Sacramento, CA | LinkedIn | 3d |
+| **PwC** | [Cloud Deployment Engineer- Senior Associate](https://www.linkedin.com/jobs/view/4321198772) | Los Angeles, CA | LinkedIn | 3d |
 | **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/san-diego/software-engineer-1/27595/89710140080) | San Diego, CA | Simplify | 4d |
 | **Capitolis** | [Algo Engineer](https://jobright.ai/jobs/info/691ceb7bff7024498416bd32?utm_campaign=Software%20Engineering&utm_source=1103) | New York, New York, United States | Jobright | 4d |
 | **SpaceX** | [Full Stack Software Engineer, Security (Starlink)](https://jobright.ai/jobs/info/690e4849d046ab6061cfbe20?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | Jobright | 4d |

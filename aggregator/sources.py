@@ -352,13 +352,21 @@ class JobAggregator:
 
         # LinkedIn (optional, uses JobSpy scraping)
         if include_linkedin and self.sources["jobspy"].available:
-            # Search NYC
+            # Search "new grad" - NYC and CA
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="linkedin", location="New York, NY", results=linkedin_limit // 2
+                site="linkedin", location="New York, NY", results=linkedin_limit // 4
             ))
-            # Search California
             all_jobs.extend(self.sources["jobspy"].fetch(
-                site="linkedin", location="California", results=linkedin_limit // 2
+                site="linkedin", location="California", results=linkedin_limit // 4
+            ))
+            # Search "entry level" - NYC and CA
+            all_jobs.extend(self.sources["jobspy"].fetch(
+                site="linkedin", search_term="software engineer entry level",
+                location="New York, NY", results=linkedin_limit // 4
+            ))
+            all_jobs.extend(self.sources["jobspy"].fetch(
+                site="linkedin", search_term="software engineer entry level",
+                location="California", results=linkedin_limit // 4
             ))
 
         # Indeed (optional, uses JobSpy scraping)
