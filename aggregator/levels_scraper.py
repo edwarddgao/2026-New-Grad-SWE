@@ -12,7 +12,11 @@ from functools import lru_cache
 class LevelsScraper:
     """Scrape salary data from levels.fyi"""
 
-    BASE_URL = "https://www.levels.fyi/companies/{company}/salaries"
+    # Use the software-engineer specific URL for better level breakdown
+    BASE_URL = "https://www.levels.fyi/companies/{company}/salaries/software-engineer"
+
+    # Maximum years of experience to consider as "new grad"
+    MAX_NEW_GRAD_YOE = 2
 
     # Company name aliases (job listing name -> levels.fyi slug)
     COMPANY_ALIASES = {
@@ -355,8 +359,13 @@ class LevelsScraper:
         "vmware": "vmware",
     }
 
+    # Minimum sample size required for salary data to be considered reliable
+    MIN_SAMPLES_FOR_RELIABLE_DATA = 3
+
     # Entry level mappings for different companies
+    # These map company slugs to the exact level name used on levels.fyi
     ENTRY_LEVELS = {
+        # Big Tech (FAANG+)
         "google": "l3",
         "meta": "e3",
         "facebook": "e3",
@@ -365,52 +374,105 @@ class LevelsScraper:
         "microsoft": "59",
         "netflix": "l3",
         "nvidia": "new-grad",
+
+        # Enterprise / Cloud
         "salesforce": "amts",
         "adobe": "e3",
+        "oracle": "ic1",
+        "cisco": "i-7",
+        "intel": "grade-3",
+        "ibm": "entry-level",
+        "vmware": "e1",
+        "servicenow": "associate",
+        "workday": "associate",
+        "intuit": "swe1",
+
+        # Ride-sharing / Delivery
         "uber": "e3",
         "lyft": "l3",
-        "airbnb": "l3",
-        "stripe": "l1",
         "doordash": "e3",
-        "coinbase": "l3",
-        "robinhood": "l3",
-        "databricks": "l3",
-        "snowflake": "entry-level",
-        "palantir": "software-engineer",
-        "datadog": "new-grad",
-        "dropbox": "e3",
+        "instacart": "l3",
+
+        # Consumer Tech
+        "airbnb": "l3",
         "pinterest": "l3",
         "snap": "l3",
-        "linkedin": "l3",
         "reddit": "e3",
         "discord": "l3",
-        "figma": "l3",
-        "notion": "e3",
+        "roblox": "new-grad",
+        "spotify": "l3",
+        "twitter": "l3",
+        "x": "l3",
+
+        # Fintech
+        "stripe": "l1",
+        "coinbase": "l3",
+        "robinhood": "l3",
         "plaid": "l3",
         "ramp": "l1",
         "square": "l3",
         "block": "l3",
         "paypal": "e3",
-        "intuit": "swe1",
-        "oracle": "ic1",
-        "cisco": "i-7",
-        "intel": "grade-3",
+        "brex": "l3",
+        "chime": "l3",
+        "affirm": "l3",
+
+        # Data / Analytics
+        "databricks": "l3",
+        "snowflake": "entry-level",
+        "datadog": "new-grad",
+        "palantir": "software-engineer",
+        "splunk": "associate",
+
+        # Productivity / Design
+        "dropbox": "e3",
+        "figma": "l3",
+        "notion": "e3",
+        "asana": "l3",
+        "slack": "e3",
+
+        # Finance / Trading
         "bloomberg": "l3",
         "capital-one": "associate",
         "goldman-sachs": "analyst",
-        "citadel": "l3",
-        "two-sigma": "l3",
-        "jane-street": "junior-trader",
-        "openai": "l3",
-        "anthropic": "l3",
-        "spacex": "l1",
-        "tesla": "l2",
-        "waymo": "l3",
-        "bytedance": "e3",
         "jpmorgan-chase": "analyst",
         "morgan-stanley": "analyst",
         "bank-of-america": "analyst",
-        "x": "l3",
+        "citadel": "l3",
+        "two-sigma": "l3",
+        "jane-street": "junior-trader",
+
+        # AI / ML
+        "openai": "l3",
+        "anthropic": "l3",
+        "scale-ai": "l3",
+
+        # Autonomous / Space
+        "spacex": "l1",
+        "tesla": "l2",
+        "waymo": "l3",
+        "cruise": "l3",
+        "aurora": "l3",
+
+        # Social
+        "bytedance": "e3",
+        "linkedin": "l3",
+
+        # Gaming / Entertainment
+        "twitch": "sde1",
+        "disney": "associate",
+        "warner-bros-discovery": "associate",
+
+        # Other Tech
+        "cloudflare": "associate",
+        "pagerduty": "associate",
+        "atlassian": "graduate",
+        "hubspot": "associate",
+        "zendesk": "associate",
+        "okta": "associate",
+        "crowdstrike": "associate",
+        "elastic": "associate",
+        "mongodb": "associate",
     }
 
     CACHE_FILE = ".levels_salary_cache.json"
@@ -517,6 +579,7 @@ class LevelsScraper:
         """Convert company name to URL slug (legacy, use _normalize_company)"""
         return self._normalize_company(name)
 
+
     def get_salary(self, company: str, title: str = "software engineer",
                    location: str = None) -> Tuple[Optional[int], Optional[int]]:
         """
@@ -552,8 +615,8 @@ class LevelsScraper:
 
         for attempt in range(max_retries):
             try:
-                # Rate limiting - small delay between requests
-                time.sleep(0.05)
+                # Rate limiting - delay between requests to avoid 429s
+                time.sleep(0.3)
 
                 resp = self.session.get(url, timeout=10)
 
@@ -588,57 +651,68 @@ class LevelsScraper:
 
                 data = json.loads(match.group(1))
                 page_props = data.get('props', {}).get('pageProps', {})
-                averages = page_props.get('averages', [])
 
-                # If no averages, try company-wide median as fallback
+                # Get levels info to find entry level (order: 0 = entry)
+                levels_info = page_props.get('levels', {})
+                levels_list = levels_info.get('levels', [])
+
+                # Find entry level title slugs (order 0 is entry level)
+                entry_level_slugs = set()
+                for level in levels_list:
+                    if level.get('order') == 0:
+                        entry_level_slugs.update(slug.lower() for slug in level.get('titleSlugs', []))
+
+                # Also check our manual ENTRY_LEVELS mapping
+                manual_entry = self.ENTRY_LEVELS.get(company_slug)
+                if manual_entry:
+                    entry_level_slugs.add(manual_entry.lower())
+
+                # Get all samples from averages
+                averages = page_props.get('averages', [])
                 if not averages:
-                    median = page_props.get('medianAcrossAllJobFamilies')
-                    if median and median > 10000:
-                        # Return ±15% range around company-wide median
-                        return (int(median * 0.85), int(median * 1.15))
                     self._not_found_cache.add(company_slug)
                     return (None, None)
 
-                # Find entry level data
-                entry_level = self.ENTRY_LEVELS.get(company_slug)
-                entry_data = None
+                # Collect new grad compensation from entry-level samples only
+                new_grad_comps = []
 
                 for avg in averages:
                     level = avg.get('level', '').lower()
-                    # Check if this is entry level
-                    if entry_level and level == entry_level:
-                        entry_data = avg
-                        break
-                    # Fallback: look for common entry level indicators
-                    if not entry_data and any(x in level for x in ['l3', 'e3', 'sde1', 'new-grad', 'entry', 'junior', '1', 'i']):
-                        entry_data = avg
+                    samples = avg.get('samples', [])
 
-                if not entry_data:
-                    # Use first level as fallback (usually entry)
-                    entry_data = averages[0] if averages else None
+                    # Check if this level is entry level (exact match only)
+                    is_entry_level = (
+                        level in entry_level_slugs or
+                        level in ('new-grad', 'entry-level', 'junior', 'associate')
+                    )
 
-                if not entry_data:
+                    # Only process entry-level samples
+                    if not is_entry_level:
+                        continue
+
+                    for sample in samples:
+                        yoe = sample.get('yearsOfExperience')
+                        tc = sample.get('totalCompensation')
+
+                        if tc is None:
+                            continue
+
+                        # Additional filter: only include samples with low YoE for entry level
+                        if yoe is None or yoe <= self.MAX_NEW_GRAD_YOE:
+                            new_grad_comps.append(tc)
+
+                # Require minimum samples for reliable data
+                if len(new_grad_comps) < self.MIN_SAMPLES_FOR_RELIABLE_DATA:
+                    self._not_found_cache.add(company_slug)
                     return (None, None)
 
-                # Get salary from samples
-                samples = entry_data.get('samples', [])
+                # Calculate 25th and 75th percentile
+                new_grad_comps.sort()
+                n = len(new_grad_comps)
+                salary_min = new_grad_comps[n // 4]
+                salary_max = new_grad_comps[3 * n // 4]
 
-                if samples:
-                    # Get min/max from samples
-                    comps = [s.get('totalCompensation') for s in samples if s.get('totalCompensation')]
-                    if comps:
-                        # Return 25th and 75th percentile for range
-                        comps.sort()
-                        n = len(comps)
-                        return (comps[n // 4], comps[3 * n // 4])
-
-                # Fallback to averages
-                total = entry_data.get('total') or entry_data.get('rawValues', {}).get('total')
-                if total:
-                    # Return ±15% range around average
-                    return (int(total * 0.85), int(total * 1.15))
-
-                return (None, None)
+                return (salary_min, salary_max)
 
             except Exception as e:
                 if attempt < max_retries - 1:
