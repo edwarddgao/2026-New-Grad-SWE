@@ -903,23 +903,26 @@ class JobAggregator:
         deduped_jobs = list(job_groups.values())
         dedup_count = len(unique_jobs) - len(deduped_jobs)
 
-        # Filter non-curated sources to only keep new grad/entry level SWE roles
-        filtered_jobs, filtered_count = filter_jobs(deduped_jobs)
-
-        self.jobs = filtered_jobs
         if dedup_count > 0:
             print(f"  [Deduped] Removed {dedup_count} duplicate jobs (same company+title+location)")
-        if filtered_count > 0:
-            print(f"  [Filtered] Removed {filtered_count} senior/staff roles from non-curated sources")
 
-        # Enrich with levels.fyi salary data
+        # Enrich with levels.fyi salary data BEFORE filtering
+        # This ensures salary cache is populated for all companies, even those
+        # whose jobs get filtered out (e.g., PhD-only listings like Waymo)
         if not skip_enrichment:
             scraper = get_scraper()
-            enriched = scraper.enrich_jobs(self.jobs)
+            enriched = scraper.enrich_jobs(deduped_jobs)
             if enriched > 0:
                 print(f"  [Salary] Enriched {enriched} jobs with levels.fyi data")
         else:
             print(f"  [Salary] Enrichment skipped")
+
+        # Filter non-curated sources to only keep new grad/entry level SWE roles
+        filtered_jobs, filtered_count = filter_jobs(deduped_jobs)
+
+        self.jobs = filtered_jobs
+        if filtered_count > 0:
+            print(f"  [Filtered] Removed {filtered_count} senior/staff roles from non-curated sources")
 
         # Save job cache for persistence between runs
         self._save_job_cache()
