@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *'  # Run every hour
   workflow_dispatch:  # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -25,7 +28,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .levels_salary_cache.json
-          key: salary-cache-${{ github.run_id }}
+          key: salary-cache-v1
           restore-keys: |
             salary-cache-
 
