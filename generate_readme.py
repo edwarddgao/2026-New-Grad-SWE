@@ -31,13 +31,16 @@ def generate_readme():
     agg.fetch_all(include_linkedin=True, linkedin_limit=100)
     agg.filter_location(["nyc", "california"])
 
-    # Group jobs by company
-    by_company = defaultdict(list)
-    for job in agg.jobs:
-        by_company[job.company].append(job)
+    # Sort jobs by recency (most recent first)
+    def sort_key(job):
+        if not job.date_posted:
+            return "0000-00-00"  # Jobs without dates go to end
+        return job.date_posted
 
-    # Sort companies alphabetically
-    sorted_companies = sorted(by_company.keys(), key=str.lower)
+    sorted_jobs = sorted(agg.jobs, key=sort_key, reverse=True)
+
+    # Count unique companies
+    unique_companies = set(job.company for job in agg.jobs)
 
     # Generate README content
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -48,7 +51,7 @@ def generate_readme():
 
 **Last updated:** {now}
 
-**Total:** {len(agg.jobs)} jobs from {len(by_company)} companies
+**Total:** {len(agg.jobs)} jobs from {len(unique_companies)} companies
 
 ---
 
@@ -58,35 +61,33 @@ def generate_readme():
 |---------|------|----------|--------|--------|
 """
 
-    # Add job rows
-    for company in sorted_companies:
-        jobs = by_company[company]
-        for i, job in enumerate(jobs):
-            # First job shows company name, subsequent jobs use arrow
-            company_col = f"**{company}**" if i == 0 else "↳"
+    # Add job rows sorted by recency
+    for job in sorted_jobs:
+        # Format company
+        company_col = f"**{job.company}**"
 
-            # Format title as link
-            title_col = f"[{job.title}]({job.url})"
+        # Format title as link
+        title_col = f"[{job.title}]({job.url})"
 
-            # Truncate location if too long
-            loc = job.location
-            if len(loc) > 40:
-                loc = loc[:37] + "..."
+        # Truncate location if too long
+        loc = job.location
+        if len(loc) > 40:
+            loc = loc[:37] + "..."
 
-            # Source badge
-            source_map = {
-                "simplify_new_grad": "Simplify",
-                "simplify_internship": "Simplify",
-                "jobright": "Jobright",
-                "linkedin": "LinkedIn",
-                "indeed": "Indeed"
-            }
-            source = source_map.get(job.source, job.source)
+        # Source badge
+        source_map = {
+            "simplify_new_grad": "Simplify",
+            "simplify_internship": "Simplify",
+            "jobright": "Jobright",
+            "linkedin": "LinkedIn",
+            "indeed": "Indeed"
+        }
+        source = source_map.get(job.source, job.source)
 
-            # Age
-            age = get_age(job.date_posted)
+        # Age
+        age = get_age(job.date_posted)
 
-            readme += f"| {company_col} | {title_col} | {loc} | {source} | {age} |\n"
+        readme += f"| {company_col} | {title_col} | {loc} | {source} | {age} |\n"
 
     readme += """
 ---
@@ -115,7 +116,7 @@ Found a job not listed? Open an issue or PR!
     with open("README.md", "w") as f:
         f.write(readme)
 
-    print(f"Generated README.md with {len(agg.jobs)} jobs from {len(by_company)} companies")
+    print(f"Generated README.md with {len(agg.jobs)} jobs from {len(unique_companies)} companies")
 
 if __name__ == "__main__":
     generate_readme()
