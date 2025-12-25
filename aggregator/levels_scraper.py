@@ -646,11 +646,9 @@ class LevelsScraper:
         """
         company_slug = self._normalize_company(company)
 
-        # Check not-found cache (skip "insufficient" - we now use any data)
+        # Check not-found cache
         if company_slug in self._not_found_cache:
-            reason = self._not_found_cache[company_slug].get("reason", "")
-            if reason != "insufficient":
-                return (None, None)
+            return (None, None)
 
         # Check positive salary cache
         if company_slug in self._salary_cache:
