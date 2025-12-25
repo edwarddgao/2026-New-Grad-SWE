@@ -530,32 +530,21 @@ class LevelsScraper:
                     else:
                         # New format: {company: {"date": "...", "reason": "..."}}
                         expired_count = 0
-                        migrated_count = 0
-                        cleared_insufficient = 0
                         for company, info in not_found_data.items():
                             if not isinstance(info, dict):
                                 continue
                             date_str = info.get("date", "")
                             reason = info.get("reason", "no_swe_data")
-                            # Clear "insufficient" entries - we now use any data
-                            if reason == "insufficient":
-                                cleared_insufficient += 1
-                                continue
-                            # Migrate old reason names
+                            # Normalize old reason names
                             if reason == "no_data":
                                 reason = "no_swe_data"
                                 info["reason"] = reason
-                                migrated_count += 1
                             expiry_days = self.EXPIRY_DAYS.get(reason, 7)
                             cutoff = (today - timedelta(days=expiry_days)).strftime("%Y-%m-%d")
                             if date_str >= cutoff:
                                 self._not_found_cache[company] = info
                             else:
                                 expired_count += 1
-                        if cleared_insufficient > 0:
-                            print(f"  [Cache] Cleared {cleared_insufficient} 'insufficient' entries (will re-fetch)", file=sys.stderr)
-                        if migrated_count > 0:
-                            print(f"  [Cache] Migrated {migrated_count} old reason names", file=sys.stderr)
                         if expired_count > 0:
                             print(f"  [Cache] Expired {expired_count} not-found entries", file=sys.stderr)
 
@@ -657,9 +646,11 @@ class LevelsScraper:
         """
         company_slug = self._normalize_company(company)
 
-        # Check not-found cache first (only for confirmed 404s)
+        # Check not-found cache (skip "insufficient" - we now use any data)
         if company_slug in self._not_found_cache:
-            return (None, None)
+            reason = self._not_found_cache[company_slug].get("reason", "")
+            if reason != "insufficient":
+                return (None, None)
 
         # Check positive salary cache
         if company_slug in self._salary_cache:
