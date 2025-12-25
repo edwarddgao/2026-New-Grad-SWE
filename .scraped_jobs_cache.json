@@ -152,7 +152,7 @@
       "location": "San Francisco, CA",
       "url": "https://www.linkedin.com/jobs/view/4341246120",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-24",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -527,7 +527,23 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4297642437": {
+      "id": "linkedin_li-4297642437",
+      "title": "Software Engineer - New Grad",
+      "company": "Scale AI",
+      "company_slug": "scale-ai",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/4297642437",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-25T11:17:36.368228"
+  "updated": "2025-12-25T12:39:49.732656"
 }
