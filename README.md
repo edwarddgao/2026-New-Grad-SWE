@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-25 15:20
+**Last updated:** 2025-12-25 16:24
 
 **Total:** 652 jobs from 291 companies
 
@@ -12,6 +12,8 @@
 
 | Company | Role | Location | Comp | Source | Posted |
 |---------|------|----------|------|--------|--------|
+| **Scale AI** | [Software Engineer - New Grad](https://jobright.ai/jobs/info/68cf5685846f0b04af681243?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco Bay Area | [$167k-265k](https://www.levels.fyi/companies/scale-ai/salaries) | Jobright | 0d |
+| **Applied Intuition** | [Software Engineer - Customer Portal](https://jobright.ai/jobs/info/68cda0a6b2a74e1837eda140?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | [$152k-225k](https://www.levels.fyi/companies/applied-intuition/salaries) | Jobright | 0d |
 | **GumGum** | [Software Engineer I](https://jobright.ai/jobs/info/693162314c474121999ed9d2?utm_campaign=Software%20Engineering&utm_source=1103) | Santa Monica, CA |  | Jobright | 0d |
 | **Waymo** | [Applied Research Scientist - Perception](https://careers.withwaymo.com/jobs?gh_jid=7467839) | SF, Mountain View, CA | [$224k-237k](https://www.levels.fyi/companies/waymo/salaries) | Simplify | 1d |
 | **ByteDance** | [Research Scientist Graduate - 3D/4D Generation - 2026 Start](https://jobs.bytedance.com/en/position/7585034854077778181/detail) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 1d |
@@ -106,14 +108,12 @@
 | **Google** | [Product Manager 1 - Google Cloud](https://www.google.com/about/careers/applications/jobs/results/109636922254467782) | NYC | [$165k-214k](https://www.levels.fyi/companies/google/salaries) | Simplify | 1w |
 | **Uber** | [Graduate Software Engineer 1 - Mobile](https://www.uber.com/global/en/careers/list/152559/) | Seattle, WA, SF, NYC, Sunnyvale, CA | [$180k-200k](https://www.levels.fyi/companies/uber/salaries) | Simplify | 1w |
 | **Uber** | [Graduate Software Engineer 1](https://www.uber.com/global/en/careers/list/152427/) | Seattle, WA, SF, NYC, Sunnyvale, CA | [$180k-200k](https://www.levels.fyi/companies/uber/salaries) | Simplify | 1w |
-| **General Motors** | [Quality Assurance Engineer](https://jobright.ai/jobs/info/694485d494730b739877c097?utm_campaign=Software%20Engineering&utm_source=1103) | Buffalo, New York, United States of A... | [$91k-106k](https://www.levels.fyi/companies/general-motors/salaries) | Jobright | 1w |
 | **Microchip Technology Inc.** | [Engineer I-Verification](https://jobright.ai/jobs/info/6947914c63141d1884573269?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Jobright | 1w |
 | **Rivian and Volkswagen Group Technologies** | [Embedded Software Engineer](https://jobright.ai/jobs/info/694cf28e29655e4dd6570a67?utm_campaign=Software%20Engineering&utm_source=1103) | Palo Alto, CA |  | Jobright | 1w |
 | **Cantina Labs** | [Media Software Engineer, Speech (All Levels)](https://jobright.ai/jobs/info/692524bdd47de4798eccd587?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA |  | Jobright | 1w |
 | **Caltech** | [Data to Discovery Visualization Software UX Design & Development Engineer](https://jobright.ai/jobs/info/6944c7ad94730b7398780845?utm_campaign=Software%20Engineering&utm_source=1103) | Pasadena, CA |  | Jobright | 1w |
 | **Elsewhere Entertainment** | [Rotational Engineer, Central Technology](https://jobright.ai/jobs/info/6944b8a350bbaf765056d00f?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA |  | Jobright | 1w |
 | **Broccoli AI** | [Junior Software Engineer](https://jobright.ai/jobs/info/6944d588a7227b3ece6679f7?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco |  | Jobright | 1w |
-| **Brown & Brown** | [Application Developer/Analyst](https://jobright.ai/jobs/info/69447ae050bbaf7650568ba5?utm_campaign=Software%20Engineering&utm_source=1103) | Orange, CA, USA |  | Jobright | 1w |
 | **Google** | [Product Manager 1 - Search](https://www.google.com/about/careers/applications/jobs/results/122360883127952070) | NYC, Mountain View, CA | [$165k-214k](https://www.levels.fyi/companies/google/salaries) | Simplify | 1w |
 | **Amazon** | [Agentic AI Teacher - AGI Data Services](https://amazon.jobs/en/jobs/3110653/agentic-ai-teacher-agi-data-services) | Boston, MA, Bellevue, WA, Sunnyvale, CA | [$173k-190k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 1w |
 | **NVIDIA** | [Research Scientist New College Grad - ML Systems](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161) | Seattle, WA, Austin, TX, Santa Clara,... | [$160k-178k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 1w |
