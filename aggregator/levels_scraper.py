@@ -480,7 +480,12 @@ class LevelsScraper:
     }
 
     CACHE_FILE = ".levels_salary_cache.json"
-    NOT_FOUND_EXPIRY_DAYS = 7  # Re-check not_found companies after 7 days
+    # Different expiry times for different failure reasons
+    EXPIRY_DAYS = {
+        "404": 30,           # Company page doesn't exist - wait longer
+        "no_data": 7,        # No averages/samples - might get data soon
+        "insufficient": 7,   # Not enough entry-level samples - might get more
+    }
 
     def __init__(self):
         self.session = requests.Session()
@@ -497,52 +502,68 @@ class LevelsScraper:
             "Sec-Fetch-Site": "none",
             "Sec-Fetch-User": "?1",
         })
-        # Cache for companies not found on levels.fyi (with timestamps for expiry)
-        self._not_found_cache = {}  # {company_slug: "YYYY-MM-DD"}
+        # Cache for companies not found on levels.fyi (with timestamps and reasons)
+        # Format: {company_slug: {"date": "YYYY-MM-DD", "reason": "404|no_data|insufficient"}}
+        self._not_found_cache = {}
         # Cache for successful salary lookups
         self._salary_cache = {}
         # Load cache from file
         self._load_cache()
 
     def _load_cache(self):
-        """Load salary cache from file, expiring old not_found entries."""
+        """Load salary cache from file, expiring old not_found entries based on reason."""
         if os.path.exists(self.CACHE_FILE):
             try:
                 with open(self.CACHE_FILE, 'r') as f:
                     data = json.load(f)
                     self._salary_cache = {k: tuple(v) for k, v in data.get('found', {}).items()}
 
-                    # Handle both old format (list) and new format (dict with dates)
-                    not_found_data = data.get('not_found', [])
-                    today = datetime.now().strftime("%Y-%m-%d")
+                    # Handle old formats and new format with reasons
+                    not_found_data = data.get('not_found', {})
+                    today = datetime.now()
 
                     if isinstance(not_found_data, list):
-                        # Old format: convert to new format, treat as expired (will be re-fetched)
+                        # Very old format (list): treat as expired
+                        print(f"  [Cache] Migrating {len(not_found_data)} not-found entries (will re-fetch)", file=sys.stderr)
                         self._not_found_cache = {}
-                        expired_count = len(not_found_data)
-                        print(f"  [Cache] Migrating {expired_count} not-found entries (will re-fetch)", file=sys.stderr)
+                    elif not_found_data and isinstance(next(iter(not_found_data.values())), str):
+                        # Old format (dict with date strings): migrate, treat as expired
+                        print(f"  [Cache] Migrating {len(not_found_data)} not-found entries (will re-fetch)", file=sys.stderr)
+                        self._not_found_cache = {}
                     else:
-                        # New format: filter out expired entries
-                        cutoff = (datetime.now() - timedelta(days=self.NOT_FOUND_EXPIRY_DAYS)).strftime("%Y-%m-%d")
+                        # New format: {company: {"date": "...", "reason": "..."}}
                         expired_count = 0
-                        for company, date_added in not_found_data.items():
-                            if date_added >= cutoff:
-                                self._not_found_cache[company] = date_added
+                        for company, info in not_found_data.items():
+                            if not isinstance(info, dict):
+                                continue
+                            date_str = info.get("date", "")
+                            reason = info.get("reason", "no_data")
+                            expiry_days = self.EXPIRY_DAYS.get(reason, 7)
+                            cutoff = (today - timedelta(days=expiry_days)).strftime("%Y-%m-%d")
+                            if date_str >= cutoff:
+                                self._not_found_cache[company] = info
                             else:
                                 expired_count += 1
                         if expired_count > 0:
-                            print(f"  [Cache] Expired {expired_count} not-found entries (older than {self.NOT_FOUND_EXPIRY_DAYS} days)", file=sys.stderr)
+                            print(f"  [Cache] Expired {expired_count} not-found entries", file=sys.stderr)
 
                     print(f"  [Cache] Loaded {len(self._salary_cache)} cached salaries, {len(self._not_found_cache)} not-found", file=sys.stderr)
             except (json.JSONDecodeError, IOError, KeyError) as e:
                 print(f"  [Cache] Error loading cache: {e}", file=sys.stderr)
+
+    def _add_not_found(self, company_slug: str, reason: str):
+        """Add a company to the not_found cache with reason."""
+        self._not_found_cache[company_slug] = {
+            "date": datetime.now().strftime("%Y-%m-%d"),
+            "reason": reason
+        }
 
     def _save_cache(self):
         """Save salary cache to file"""
         try:
             data = {
                 'found': {k: list(v) for k, v in self._salary_cache.items()},
-                'not_found': self._not_found_cache  # Now a dict with dates
+                'not_found': self._not_found_cache
             }
             with open(self.CACHE_FILE, 'w') as f:
                 json.dump(data, f)
@@ -669,9 +690,9 @@ class LevelsScraper:
                     print(f"    [Levels] {company_slug}: 405 Method Not Allowed", file=sys.stderr)
                     return (None, None)
 
-                # Company not found - add to not_found_cache with today's date
+                # Company not found - cache for 30 days
                 if resp.status_code == 404:
-                    self._not_found_cache[company_slug] = datetime.now().strftime("%Y-%m-%d")
+                    self._add_not_found(company_slug, "404")
                     return (None, None)
 
                 if resp.status_code != 200:
@@ -684,7 +705,7 @@ class LevelsScraper:
                     resp.text
                 )
                 if not match:
-                    self._not_found_cache[company_slug] = datetime.now().strftime("%Y-%m-%d")
+                    self._add_not_found(company_slug, "no_data")
                     return (None, None)
 
                 data = json.loads(match.group(1))
@@ -708,7 +729,7 @@ class LevelsScraper:
                 # Get all samples from averages
                 averages = page_props.get('averages', [])
                 if not averages:
-                    self._not_found_cache[company_slug] = datetime.now().strftime("%Y-%m-%d")
+                    self._add_not_found(company_slug, "no_data")
                     return (None, None)
 
                 # Collect new grad compensation from entry-level samples only
@@ -741,7 +762,7 @@ class LevelsScraper:
 
                 # Require minimum samples for reliable data
                 if len(new_grad_comps) < self.MIN_SAMPLES_FOR_RELIABLE_DATA:
-                    self._not_found_cache[company_slug] = datetime.now().strftime("%Y-%m-%d")
+                    self._add_not_found(company_slug, "insufficient")
                     return (None, None)
 
                 # Calculate 25th and 75th percentile
