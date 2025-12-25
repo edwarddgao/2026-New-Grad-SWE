@@ -363,9 +363,6 @@ class LevelsScraper:
         "vmware": "vmware",
     }
 
-    # Minimum sample size required for salary data to be considered reliable
-    MIN_SAMPLES_FOR_RELIABLE_DATA = 3
-
     # Entry level mappings for different companies
     # These map company slugs to the exact level name used on levels.fyi
     ENTRY_LEVELS = {
@@ -483,8 +480,8 @@ class LevelsScraper:
     # Different expiry times for different failure reasons
     EXPIRY_DAYS = {
         "404": 30,           # Company page doesn't exist - wait longer
-        "no_data": 7,        # No averages/samples - might get data soon
-        "insufficient": 7,   # Not enough entry-level samples - might get more
+        "no_swe_data": 14,   # Company exists but no SWE salary data
+        "no_entry_level": 7, # Has SWE data but no entry-level samples
     }
 
     def __init__(self):
@@ -532,18 +529,31 @@ class LevelsScraper:
                         self._not_found_cache = {}
                     else:
                         # New format: {company: {"date": "...", "reason": "..."}}
+                        # Migrate old reason names
+                        reason_migration = {
+                            "no_data": "no_swe_data",
+                            "insufficient": "no_entry_level",  # Now we use any data
+                        }
                         expired_count = 0
+                        migrated_count = 0
                         for company, info in not_found_data.items():
                             if not isinstance(info, dict):
                                 continue
                             date_str = info.get("date", "")
-                            reason = info.get("reason", "no_data")
+                            reason = info.get("reason", "no_swe_data")
+                            # Migrate old reasons
+                            if reason in reason_migration:
+                                reason = reason_migration[reason]
+                                info["reason"] = reason
+                                migrated_count += 1
                             expiry_days = self.EXPIRY_DAYS.get(reason, 7)
                             cutoff = (today - timedelta(days=expiry_days)).strftime("%Y-%m-%d")
                             if date_str >= cutoff:
                                 self._not_found_cache[company] = info
                             else:
                                 expired_count += 1
+                        if migrated_count > 0:
+                            print(f"  [Cache] Migrated {migrated_count} old reason names", file=sys.stderr)
                         if expired_count > 0:
                             print(f"  [Cache] Expired {expired_count} not-found entries", file=sys.stderr)
 
@@ -700,11 +710,17 @@ class LevelsScraper:
                     resp.text
                 )
                 if not match:
-                    self._add_not_found(company_slug, "no_data")
+                    self._add_not_found(company_slug, "no_swe_data")
                     return (None, None)
 
                 data = json.loads(match.group(1))
                 page_props = data.get('props', {}).get('pageProps', {})
+
+                # Get all samples from averages
+                averages = page_props.get('averages', [])
+                if not averages:
+                    self._add_not_found(company_slug, "no_swe_data")
+                    return (None, None)
 
                 # Get levels info to find entry level (order: 0 = entry)
                 levels_info = page_props.get('levels', {})
@@ -720,12 +736,6 @@ class LevelsScraper:
                 manual_entry = self.ENTRY_LEVELS.get(company_slug)
                 if manual_entry:
                     entry_level_slugs.add(manual_entry.lower())
-
-                # Get all samples from averages
-                averages = page_props.get('averages', [])
-                if not averages:
-                    self._add_not_found(company_slug, "no_data")
-                    return (None, None)
 
                 # Collect new grad compensation from entry-level samples only
                 new_grad_comps = []
@@ -755,18 +765,21 @@ class LevelsScraper:
                         if yoe is None or yoe <= self.MAX_NEW_GRAD_YOE:
                             new_grad_comps.append(tc)
 
-                # Require minimum samples for reliable data
-                if len(new_grad_comps) < self.MIN_SAMPLES_FOR_RELIABLE_DATA:
-                    self._add_not_found(company_slug, "insufficient")
+                # No entry-level samples found
+                if not new_grad_comps:
+                    self._add_not_found(company_slug, "no_entry_level")
                     return (None, None)
 
-                # Calculate 25th and 75th percentile
+                # Calculate salary range
                 new_grad_comps.sort()
                 n = len(new_grad_comps)
-                salary_min = new_grad_comps[n // 4]
-                salary_max = new_grad_comps[3 * n // 4]
-
-                return (salary_min, salary_max)
+                if n == 1:
+                    return (new_grad_comps[0], new_grad_comps[0])
+                elif n == 2:
+                    return (new_grad_comps[0], new_grad_comps[1])
+                else:
+                    # 25th and 75th percentile
+                    return (new_grad_comps[n // 4], new_grad_comps[3 * n // 4])
 
             except Exception as e:
                 if attempt < max_retries - 1:
