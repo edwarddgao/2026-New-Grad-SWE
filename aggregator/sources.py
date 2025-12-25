@@ -731,10 +731,12 @@ class JobAggregator:
             print(f"  [JobCache] Error saving cache: {e}")
 
     def _cache_jobs(self, jobs: List[Job]):
-        """Add scraped jobs to cache"""
+        """Add scraped jobs to cache (only jobs that pass the filter)"""
+        from .filters import is_new_grad_swe
         for job in jobs:
             if job.source in self.SCRAPED_SOURCES:
-                self._job_cache[job.url] = job.to_dict()
+                if is_new_grad_swe(job.title, job.source):
+                    self._job_cache[job.url] = job.to_dict()
 
     def _get_cached_jobs(self) -> List[Job]:
         """Get all cached jobs as Job objects"""
@@ -1007,23 +1009,23 @@ class JobAggregator:
         if dedup_count > 0:
             print(f"  [Deduped] Removed {dedup_count} duplicate jobs (same company+title+location)")
 
-        # Enrich with levels.fyi salary data BEFORE filtering
-        # This ensures salary cache is populated for all companies, even those
-        # whose jobs get filtered out (e.g., PhD-only listings like Waymo)
+        # Filter non-curated sources to only keep new grad/entry level SWE roles
+        # This runs BEFORE enrichment to avoid wasting levels.fyi lookups on
+        # non-SWE companies (e.g., civil engineering firms like Stantec)
+        filtered_jobs, filtered_count = filter_jobs(deduped_jobs)
+        if filtered_count > 0:
+            print(f"  [Filtered] Removed {filtered_count} non-SWE/senior roles from non-curated sources")
+
+        # Enrich with levels.fyi salary data
         if not skip_enrichment:
             scraper = get_scraper()
-            enriched = scraper.enrich_jobs(deduped_jobs)
+            enriched = scraper.enrich_jobs(filtered_jobs)
             if enriched > 0:
                 print(f"  [Salary] Enriched {enriched} jobs with levels.fyi data")
         else:
             print(f"  [Salary] Enrichment skipped")
 
-        # Filter non-curated sources to only keep new grad/entry level SWE roles
-        filtered_jobs, filtered_count = filter_jobs(deduped_jobs)
-
         self.jobs = filtered_jobs
-        if filtered_count > 0:
-            print(f"  [Filtered] Removed {filtered_count} senior/staff roles from non-curated sources")
 
         # Save job cache for persistence between runs
         self._save_job_cache()

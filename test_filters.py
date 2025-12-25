@@ -173,6 +173,87 @@ class TestJobFiltering(unittest.TestCase):
         self.assertFalse(self._should_keep("Quantitative Researcher – PhD Graduate"))
         self.assertFalse(self._should_keep("Research Engineer - PhD Graduate - US"))
 
+    # ===== Tests for specific real-world cases =====
+
+    def test_filter_bridge_engineer(self):
+        """Should filter: Bridge Engineer (civil engineering, not SWE)"""
+        self.assertFalse(self._should_keep("Bridge Engineer"))
+
+    def test_filter_structural_engineering_intern(self):
+        """Should filter: Structural Engineering Intern"""
+        self.assertFalse(self._should_keep("Structural Engineering Intern - Summer 2026"))
+
+    def test_filter_npd_engineer(self):
+        """Should filter: NPD Engineer (product development, not SWE)"""
+        self.assertFalse(self._should_keep("NPD Engineer"))
+
+    def test_filter_rmcc_software_engineering_intern(self):
+        """Should keep: RMCC Software Engineering Intern (has 'software')"""
+        self.assertTrue(self._should_keep("RMCC Software Engineering Intern"))
+
+
+class TestJobCaching(unittest.TestCase):
+    """Test that job caching respects filtering"""
+
+    def _create_job(self, company: str, title: str, source: str = "linkedin"):
+        """Helper to create a Job object"""
+        return Job(
+            id=f"test_{hash((company, title))}",
+            title=title,
+            company=company,
+            company_slug=company.lower().replace(" ", "-"),
+            location="New York, NY",
+            url=f"https://example.com/{hash((company, title))}",
+            source=source
+        )
+
+    def test_cache_only_swe_jobs(self):
+        """Job cache should only contain jobs that pass the filter"""
+        from aggregator.sources import JobAggregator
+
+        agg = JobAggregator()
+        agg._job_cache = {}  # Clear cache
+
+        jobs = [
+            self._create_job("Stantec", "Bridge Engineer", "indeed"),
+            self._create_job("WSP", "Structural Engineering Intern", "indeed"),
+            self._create_job("Google", "Software Engineer", "linkedin"),
+            self._create_job("Meta", "Frontend Developer", "linkedin"),
+        ]
+
+        agg._cache_jobs(jobs)
+
+        # Only SWE jobs should be cached
+        self.assertEqual(len(agg._job_cache), 2)
+        cached_companies = {j['company'] for j in agg._job_cache.values()}
+        self.assertIn("Google", cached_companies)
+        self.assertIn("Meta", cached_companies)
+        self.assertNotIn("Stantec", cached_companies)
+        self.assertNotIn("WSP", cached_companies)
+
+    def test_cache_excludes_non_swe_from_scraped_sources(self):
+        """Non-SWE jobs from scraped sources should not be cached"""
+        from aggregator.sources import JobAggregator
+
+        agg = JobAggregator()
+        agg._job_cache = {}
+
+        # These are real cases that were incorrectly cached
+        jobs = [
+            self._create_job("Howmet Aerospace", "NPD Engineer", "linkedin"),
+            self._create_job("Stantec", "Bridge Engineer", "indeed"),
+            self._create_job("Arup", "Graduate Software Developer", "indeed"),  # Should be cached
+        ]
+
+        agg._cache_jobs(jobs)
+
+        # Only the SWE job should be cached
+        self.assertEqual(len(agg._job_cache), 1)
+        cached_titles = {j['title'] for j in agg._job_cache.values()}
+        self.assertIn("Graduate Software Developer", cached_titles)
+        self.assertNotIn("NPD Engineer", cached_titles)
+        self.assertNotIn("Bridge Engineer", cached_titles)
+
 
 class TestJobDedup(unittest.TestCase):
     """Test the deduplication logic"""
