@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), [Built In](https://builtin.com/jobs) (NYC, SF, LA), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-25 01:44
+**Last updated:** 2025-12-25 01:33
 
-**Total:** 701 jobs from 333 companies
+**Total:** 712 jobs from 337 companies
 
 ---
 
@@ -27,18 +27,16 @@
 | **Twist Bioscience** | [Software Development Engineer](https://jobright.ai/jobs/info/692f880cef4b48533d146873?utm_campaign=Software%20Engineering&utm_source=1103) | South San Francisco, CA |  | Jobright | 1d |
 | **ExecutivePlacements.com** | [Junior Software Engineer (Graduate)](https://www.linkedin.com/jobs/view/4346163734) | New York, NY |  | LinkedIn | 1d |
 | **MeshyAI** | [Software Engineer - New Grad](https://www.linkedin.com/jobs/view/4316475202) | California, United States |  | LinkedIn | 1d |
-| **Cliffton Verge** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4346193693) | San Jose, CA |  | LinkedIn | 1d |
-| **Mechronix** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4329026985) | San Jose, CA |  | LinkedIn | 1d |
 | **RippleMatch** | [M.C. Dean - Engineer 1 (Clearable) - New College Grad, application via RippleMatch](https://www.linkedin.com/jobs/view/4346088556) | San Jose, CA |  | LinkedIn | 1d |
 | **NXP Semiconductors** | [RF System Development Engineer, Entry Level](https://www.linkedin.com/jobs/view/4341034584) | San Jose, CA |  | LinkedIn | 1d |
-| **Twitch** | [Software Engineer I](https://jobright.ai/jobs/info/692e53194c474121999d8651?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | [$194k-274k](https://www.levels.fyi/companies/twitch/salaries) | Jobright | 2d |
-| **Plaid** | [Software Engineer](https://jobright.ai/jobs/info/68cd3b16b2a74e1837ed4337?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | [$231k-255k](https://www.levels.fyi/companies/plaid/salaries) | Jobright | 2d |
+| **Cliffton Verge** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4346193693) | San Jose, CA |  | LinkedIn | 1d |
+| **Mechronix** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4329026985) | San Jose, CA |  | LinkedIn | 1d |
 | **Roblox** | [Software Engineer, Reliability](https://jobright.ai/jobs/info/68e6ecfeae2b894b1d71fb4e?utm_campaign=Software%20Engineering&utm_source=1103) | San Mateo, CA, United States | [$213k-225k](https://www.levels.fyi/companies/roblox/salaries) | Jobright | 2d |
 | **NVIDIA** | [Firmware Engineer – New College Grad 2026 - Memory Subsystem](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Firmware-Engineer--Memory-Subsystem---New-College-Grad-2026_JR2010096) | Santa Clara, CA | [$160k-178k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2d |
 | **Qualcomm** | [Video Software Engineer](https://jobright.ai/jobs/info/692e0c4aef4b48533d13c04e?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Jobright | 2d |
 | **Relativity Space** | [GNC Simulation Engineer I](https://builtin.com/job/gnc-simulation-engineer-i/7574332) | Los Angeles, CA | [$120k-124k](https://www.levels.fyi/companies/relativity-space/salaries) | Built In LA | 2d |
+| **Microchip Technology** | [Engineer 1 - Digital Design](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/NY---Hauppauge/Engineer-I---Digital-Design_R2503-25) | Long Island, New York | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 2d |
 | **Genuine Parts Company** | [Motion Ai- Application Engineer](https://builtin.com/job/motion-ai-application-engineer/7261073) | Los Angeles, CA |  | Built In LA | 2d |
-| **Microchip Technology** | [Engineer 1 - Digital Design](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/NY---Hauppauge/Engineer-I---Digital-Design_R2503-25) | Long Island, New York |  | Simplify | 2d |
 | **Cast & Crew** | [Associate Full Stack Software Engineer (.net/React)](https://jobright.ai/jobs/info/694b75701a572a617dddceca?utm_campaign=Software%20Engineering&utm_source=1103) | Burbank, CA |  | Jobright | 2d |
 | **Arup** | [Graduate Software Developer (Available 2026)](https://jobright.ai/jobs/info/694b72df5d731211346ff89c?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | Jobright | 2d |
 | **MatX** | [Software Engineer - Compiler](https://jobright.ai/jobs/info/69317f444c474121999f1495?utm_campaign=Software%20Engineering&utm_source=1103) | Mountain View, CA |  | Jobright | 2d |
@@ -46,19 +44,22 @@
 | **Nowadays (YC S23)** | [Founding Operator](https://jobright.ai/jobs/info/694b67c55d731211346ff376?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA, US |  | Jobright | 2d |
 | **Alamar Biosciences, Inc.** | [Part Time Software Engineer](https://jobright.ai/jobs/info/694b1dc51224705e9002414b?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, California |  | Jobright | 2d |
 | **CalPERS** | [Web & Application Development Specialist](https://jobright.ai/jobs/info/694afbb11224705e90021265?utm_campaign=Software%20Engineering&utm_source=1103) | Sacramento, CA |  | Jobright | 2d |
+| **Fortrea** | [AWS Cloud Engineer](https://jobright.ai/jobs/info/694c0a131a572a617dde4e85?utm_campaign=Software%20Engineering&utm_source=1103) | USA - Remote - New York |  | Jobright | 2d |
+| **Twitch** | [Software Engineer I](https://jobright.ai/jobs/info/692e53194c474121999d8651?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 2d |
 | **1Sphere AI** | [Founding Engineer – College Dropout Track](https://jobright.ai/jobs/info/692e4c014c474121999d8275?utm_campaign=Software%20Engineering&utm_source=1103) | Oakland, CA |  | Jobright | 2d |
 | **DiDi** | [Software Engineer – Motion & Behavioral Planning](https://jobright.ai/jobs/info/694a2616c6f0e2546cef2e33?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA |  | Jobright | 2d |
 | **STR** | [Software Engineer - Emulation Tooling and Modeling](https://jobright.ai/jobs/info/692e00f44c474121999d528a?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA |  | Jobright | 2d |
+| **Plaid** | [Software Engineer](https://jobright.ai/jobs/info/68cd3b16b2a74e1837ed4337?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 2d |
 | **Assort Health** | [Agent Software Engineer](https://jobright.ai/jobs/info/692e54ad4c474121999d876f?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 2d |
 | **Persistent Systems, LLC** | [Software Engineer](https://jobright.ai/jobs/info/69202ce809cc522e87748843?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | Jobright | 2d |
 | **Voyager Technologies** | [Software Engineer – Manufacturing Integration (ACE)](https://builtin.com/job/software-engineer-manufacturing-integration-ace/8058094) | Los Angeles, CA |  | Built In LA | 2d |
 | **Remi** | [Software Engineer I/II \| SF](https://www.linkedin.com/jobs/view/4346016420) | San Francisco, CA |  | LinkedIn | 2d |
 | **The Walt Disney Company** | [Associate Data Scientist](https://disney.wd5.myworkdayjobs.com/disneycareer/job/New-York-NY-USA/Associate-Data-Scientist_10138200) | NYC | [$131.0k-150k](https://www.levels.fyi/companies/disney/salaries) | Simplify | 3d |
 | **BlackRock** | [Associate – Application Engineer](https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/New-York-NY/Associate--Application-Engineer_R258341-1) | NYC | [$117k-143k](https://www.levels.fyi/companies/blackrock/salaries) | Simplify | 3d |
+| **Microchip Technology** | [Engineer 1 - Analog Product - Test](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-I---Analog-Product--Test-_R2803-25) | San Jose, CA | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 3d |
 | **Oklo** | [Junior Software Engineer](https://job-boards.greenhouse.io/oklo/jobs/5739861004) | Santa Clara, CA, Remote in USA |  | Simplify | 3d |
 | **Astranis** | [Software Developer, Network Software Associate](https://job-boards.greenhouse.io/astranis/jobs/4621916006) | San Francisco, CA |  | Simplify | 3d |
 | **Radian** | [Data Scientist I - Hybrid](https://compass.wd501.myworkdayjobs.com/en-US/radian_external_career_site/job/New-York-NY/Data-Scientist-I---Hybrid_R20250160) | New York, NY |  | Simplify | 3d |
-| **Microchip Technology** | [Engineer 1 - Analog Product - Test](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-I---Analog-Product--Test-_R2803-25) | San Jose, CA |  | Simplify | 3d |
 | **2020 Companies** | [Android Sales Expert](https://2020companies.wd1.myworkdayjobs.com/external_careers/job/Oakland-CA/Android-Sales-Expert_REQ_096760) | SF, Oakland, CA |  | Simplify | 3d |
 | **PagerDuty** | [Software Engineer I - Product Development](https://jobright.ai/jobs/info/694a0b6a7d506e3808f535f8?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 3d |
 | **Multiply Mortgage** | [Software Engineer](https://jobright.ai/jobs/info/694a06b27d506e3808f52a1a?utm_campaign=Software%20Engineering&utm_source=1103) | California, United States |  | Jobright | 3d |
@@ -77,14 +78,13 @@
 | **Applied Intuition** | [Software Engineer - New Grad](https://jobright.ai/jobs/info/68d20c948c62e63bc7fd2a7d?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | [$152k-225k](https://www.levels.fyi/companies/applied-intuition/salaries) | Jobright | 5d |
 | **Intuit** | [Software Engineer 1](https://jobs.intuit.com/job/san-diego/software-engineer-1/27595/89710140080) | San Diego, CA | [$154k-161k](https://www.levels.fyi/companies/intuit/salaries) | Simplify | 5d |
 | **Qualcomm** | [Display Software Engineer](https://jobright.ai/jobs/info/690d79fe221b890c2780710d?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Jobright | 5d |
+| **Deutsche Bank** | [Deutsche Bank Graduate Programme - Technology, Data and Innovation (TDI) – New York 2026](https://jobright.ai/jobs/info/690e097944146d3b6ec50ebf?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | [$70.0k-85.0k](https://www.levels.fyi/companies/deutsche-bank/salaries) | Jobright | 5d |
 | **Capitolis** | [Algo Engineer](https://jobright.ai/jobs/info/691ceb7bff7024498416bd32?utm_campaign=Software%20Engineering&utm_source=1103) | New York, New York, United States |  | Jobright | 5d |
 | **MedWatchers** | [Software Engineer](https://jobright.ai/jobs/info/6947068fd1953b5d11c021db?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA |  | Jobright | 5d |
 | **Nutanix** | [QA Engineer: Licensing](https://jobright.ai/jobs/info/69481aecd1953b5d11c130d0?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA |  | Jobright | 5d |
-| **Deutsche Bank** | [Deutsche Bank Graduate Programme - Technology, Data and Innovation (TDI) – New York 2026](https://jobright.ai/jobs/info/690e097944146d3b6ec50ebf?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | Jobright | 5d |
 | **SS&C Technologies** | [Software Engineer](https://jobright.ai/jobs/info/6933ddcd764507023d1ba4d0?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | Jobright | 5d |
 | **Alchemy** | [Product Engineer](https://jobright.ai/jobs/info/68cd1a5ce23def7af55b55b2?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco Bay Area |  | Jobright | 5d |
 | **Welocalize** | [Hungarian Localization QA Tester / Proofreader in Cupertino, CA](https://jobright.ai/jobs/info/690cd96ad046ab6061ceff06?utm_campaign=Software%20Engineering&utm_source=1103) | Cupertino, CA |  | Jobright | 5d |
-| **Twitch** | [Software Engineer, Creator Monetization](https://jobright.ai/jobs/info/6945f8757d506e3808f13937?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | [$194k-274k](https://www.levels.fyi/companies/twitch/salaries) | Jobright | 6d |
 | **Notion** | [Software Engineer, Fullstack, Early Career](https://jobright.ai/jobs/info/690b8137221b890c277f5557?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | [$212.0k-247k](https://www.levels.fyi/companies/notion/salaries) | Jobright | 6d |
 | **Notion** | [Software Engineer, Fullstack, Early Career](https://jobright.ai/jobs/info/690b7649221b890c277f50ea?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | [$212.0k-247k](https://www.levels.fyi/companies/notion/salaries) | Jobright | 6d |
 | **Applied Intuition** | [Software Engineer - Mission Sim](https://jobright.ai/jobs/info/68ce32fb1ad6b16f028a2e55?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | [$152k-225k](https://www.levels.fyi/companies/applied-intuition/salaries) | Jobright | 6d |
@@ -101,6 +101,7 @@
 | **MedImpact** | [Software Engineer 1](https://medimpact.wd5.myworkdayjobs.com/medimpact/job/Remote/Software-Engineer-II_JR102189) | San Diego, CA |  | Simplify | 6d |
 | **AppLovin** | [Data Scientist - Analytics](https://boards.greenhouse.io/applovin/jobs/4624972006) | Palo Alto, CA |  | Simplify | 6d |
 | **Open Asset** | [Support Engineer - Entry-Level](https://axomic.bamboohr.com/careers/162/) | NYC |  | Simplify | 6d |
+| **Twitch** | [Software Engineer, Creator Monetization](https://jobright.ai/jobs/info/6945f8757d506e3808f13937?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 6d |
 | **Molex** | [Full Stack Developer - Optical Solutions](https://jobright.ai/jobs/info/6945e5cb7d506e3808f12b6c?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, CA |  | Jobright | 6d |
 | **California Department of Social Services** | [INFORMATION TECHNOLOGY SPECIALIST I](https://jobright.ai/jobs/info/6945c4f4951654073537e2cf?utm_campaign=Software%20Engineering&utm_source=1103) | Sacramento, CA |  | Jobright | 6d |
 | **Planbase** | [Founding Product Engineer](https://jobright.ai/jobs/info/6945b2be63141d18845540a8?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA, US |  | Jobright | 6d |
@@ -109,7 +110,6 @@
 | **Motorola Solutions** | [Embedded Software Engineer (Web Interface Developer)](https://jobright.ai/jobs/info/694568c9d1953b5d11be5711?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA |  | Jobright | 6d |
 | **monday.com** | [Salesforce Implementer](https://jobright.ai/jobs/info/690bbec9221b890c277f7a22?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | Jobright | 6d |
 | **WorkWhile** | [Software Engineer, Backend](https://builtin.com/job/software-engineer-backend/8041732) | San Francisco, CA |  | Built In SF | 6d |
-| **Twitch** | [Software Engineer](https://jobright.ai/jobs/info/6944b77d94730b739877fb4a?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | [$194k-274k](https://www.levels.fyi/companies/twitch/salaries) | Jobright | 1w |
 | **Figma** | [Early Career, Software Engineer (2026)](https://jobright.ai/jobs/info/68d1f5aaa54edb3bf3e18229?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | [$189k-255k](https://www.levels.fyi/companies/figma/salaries) | Jobright | 1w |
 | **Palantir Technologies** | [Backend Software Engineer - Infrastructure](https://jobright.ai/jobs/info/68ce6698fb49c96ca6ea003d?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | [$190k-211k](https://www.levels.fyi/companies/palantir/salaries) | Jobright | 1w |
 | **Uber** | [Graduate Software Engineer 1 - Mobile](https://www.uber.com/global/en/careers/list/152559/) | Seattle, WA, SF, NYC, Sunnyvale, CA | [$180k-200k](https://www.levels.fyi/companies/uber/salaries) | Simplify | 1w |
@@ -117,9 +117,11 @@
 | **TikTok** | [Backend Software Engineer, Global E-Commerce Supply Chain & Logistics - USDS](https://jobright.ai/jobs/info/694472d494730b739877a202?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | Jobright | 1w |
 | **TikTok** | [Junior Solutions Engineer - SMB, Ads](https://jobright.ai/jobs/info/69447156dd382f5f566a9740?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | Jobright | 1w |
 | **Google** | [Product Manager 1 - Google Cloud](https://www.google.com/about/careers/applications/jobs/results/109636922254467782) | NYC | [$145k-185k](https://www.levels.fyi/companies/google/salaries) | Simplify | 1w |
+| **Apple** | [Junior UI Compositing Engineer](https://jobright.ai/jobs/info/6943c66cdd382f5f5669db2d?utm_campaign=Software%20Engineering&utm_source=1103) | Cupertino, California, United States | [$157k-176k](https://www.levels.fyi/companies/apple/salaries) | Jobright | 1w |
 | **Capital One** | [Software Engineer](https://jobright.ai/jobs/info/69444e3950bbaf7650564ce8?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | [$130k-137k](https://www.levels.fyi/companies/capital-one/salaries) | Jobright | 1w |
 | **General Motors** | [Quality Assurance Engineer](https://jobright.ai/jobs/info/694485d494730b739877c097?utm_campaign=Software%20Engineering&utm_source=1103) | Buffalo, New York, United States of A... | [$91k-106k](https://www.levels.fyi/companies/general-motors/salaries) | Jobright | 1w |
-| **Microchip Technology Inc.** | [Engineer I-Verification](https://jobright.ai/jobs/info/6947914c63141d1884573269?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA |  | Jobright | 1w |
+| **Microchip Technology Inc.** | [Engineer I-Verification](https://jobright.ai/jobs/info/6947914c63141d1884573269?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Jobright | 1w |
+| **Twitch** | [Software Engineer](https://jobright.ai/jobs/info/6944b77d94730b739877fb4a?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 1w |
 | **Cantina Labs** | [Media Software Engineer, Speech (All Levels)](https://jobright.ai/jobs/info/692524bdd47de4798eccd587?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA |  | Jobright | 1w |
 | **Caltech** | [Data to Discovery Visualization Software UX Design & Development Engineer](https://jobright.ai/jobs/info/6944c7ad94730b7398780845?utm_campaign=Software%20Engineering&utm_source=1103) | Pasadena, CA |  | Jobright | 1w |
 | **Elsewhere Entertainment** | [Rotational Engineer, Central Technology](https://jobright.ai/jobs/info/6944b8a350bbaf765056d00f?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA |  | Jobright | 1w |
@@ -131,6 +133,7 @@
 | **Neuralink** | [Software Engineer, BCI Applications](https://jobright.ai/jobs/info/68cba33b9e3a822f5d249936?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, CA |  | Jobright | 1w |
 | **Neuralink** | [Embedded Software Engineer, Implant Embedded Systems](https://jobright.ai/jobs/info/68ce374e1ad6b16f028a30f0?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, CA |  | Jobright | 1w |
 | **Merkle** | [QA Analyst](https://jobright.ai/jobs/info/6943f05c94730b73987714d7?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | Jobright | 1w |
+| **Garner Health, LLC** | [Associate Software Engineer](https://jobright.ai/jobs/info/6943bbdb94730b739876e126?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | Jobright | 1w |
 | **Amazon** | [Agentic AI Teacher - AGI Data Services](https://amazon.jobs/en/jobs/3110653/agentic-ai-teacher-agi-data-services) | Boston, MA, Bellevue, WA, Sunnyvale, CA | [$173k-190k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 1w |
 | **Google** | [Product Manager 1 - Search](https://www.google.com/about/careers/applications/jobs/results/122360883127952070) | NYC, Mountain View, CA | [$145k-185k](https://www.levels.fyi/companies/google/salaries) | Simplify | 1w |
 | **NVIDIA** | [Research Scientist New College Grad - ML Systems](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161) | Seattle, WA, Austin, TX, Santa Clara,... | [$160k-178k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 1w |
@@ -141,7 +144,7 @@
 | **JP Morgan Chase** | [Digital Markets CRM Product Engagement - Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691644) | NYC | [$95k-130k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 1w |
 | **DTCC** | [Software Engineer](https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/212337) | NYC |  | Simplify | 1w |
 | **Mercury Insurance** | [Mercury Ignite: Data Engineering Graduate Development Program](https://careers-mercuryinsurance.icims.com/jobs/5989/job?mobile=true&needsRedirect=false) | California |  | Simplify | 1w |
-| **Affirm** | [Software Engineer](https://builtin.com/job/software-engineer/8019048) | Los Angeles, CA |  | Built In LA | 1w |
+| **Affirm** | [Software Engineer](https://builtin.com/job/software-engineer/8019048) | New York, NY |  | Built In NYC | 1w |
 | **Mudflap** | [Software Engineer, Ruby on Rails](https://builtin.com/job/software-engineer-ruby-rails/7771893) | New York, NY |  | Built In NYC | 1w |
 | **LaunchDarkly** | [Backend Engineer, Metrics](https://builtin.com/job/backend-engineer-metrics/8019979) | San Francisco, CA |  | Built In SF | 1w |
 | **Intology** | [Software Engineer](https://builtin.com/job/software-engineer/7769452) | San Francisco, CA |  | Built In SF | 1w |
@@ -169,7 +172,7 @@
 | **Flex** | [Software Engineer I, Backend (New Grad - 2025)](https://builtin.com/job/software-engineer-i-backend-new-grad/7750748) | New York, NY |  | Built In NYC | 1w |
 | **Wonderschool** | [Early Career Software Engineer – Applied AI](https://builtin.com/job/early-career-software-engineer-applied-ai/4029862) | San Francisco, CA |  | Built In SF | 1w |
 | **Adobe** | [MBA University Graduate - Product Marketing Manager](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-MBA-University-Graduate---Product-Marketing-Manager_R158926) | SF, San Jose, CA | [$181k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 1w |
-| **Applied Materials** | [Product Line Management - New College Grad-Master's - Santa Clara','CA](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Product-Line-Management--New-College-Grad--Master-s--Santa-Clara--CA-_R2519412) | Santa Clara, CA |  | Simplify | 1w |
+| **Applied Materials** | [Product Line Management - New College Grad-Master's - Santa Clara','CA](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Product-Line-Management--New-College-Grad--Master-s--Santa-Clara--CA-_R2519412) | Santa Clara, CA | [$103k-145k](https://www.levels.fyi/companies/applied-materials/salaries) | Simplify | 1w |
 | **UBS** | [QIS Quantitative Analyst](https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5155&PageType=JobDetails&jobid=334026) | NYC |  | Simplify | 1w |
 | **Candid Health** | [Software Engineer (New Grad)](https://builtin.com/job/software-engineer-new-grad/7469488) | San Francisco, CA |  | Built In SF | 1w |
 | **Campfire** | [Full Stack Engineer](https://builtin.com/job/full-stack-engineer/7242755) | San Francisco, CA |  | Built In SF | 1w |
@@ -184,16 +187,16 @@
 | **University of Southern California** | [WordPress Website Administrator & Designer](https://usc.wd5.myworkdayjobs.com/ExternalUSCCareers/job/San-Diego-CA/WordPress-Website-Administrator---Designer_REQ20168294) | San Diego, CA |  | Simplify | 2w |
 | **Consolidated Edison** | [Associate IT BSD OMS Team](https://ejcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1033/job/4886) | NYC |  | Simplify | 2w |
 | **Air Apps** | [Backend Engineer](https://builtin.com/job/backend-engineer/7000995) | San Francisco, CA |  | Built In SF | 2w |
-| **Twitch** | [Software Engineer I, Frontend](https://job-boards.greenhouse.io/twitch/jobs/8329910002) | Irvine, CA | [$194k-274k](https://www.levels.fyi/companies/twitch/salaries) | Simplify | 2w |
-| **Twitch** | [Software Engineer I, Frontend](https://job-boards.greenhouse.io/twitch/jobs/8328684002) | San Francisco, CA | [$194k-274k](https://www.levels.fyi/companies/twitch/salaries) | Simplify | 2w |
 | **NVIDIA** | [ASIC Clocks Design Engineer – New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Clocks-Design-Engineer---New-College-Grad-2025_JR2004939) | Austin, TX, Santa Clara, CA, United S... | [$160k-178k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2w |
 | **Cadence Design Systems** | [Application Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Application-Engineer_R52105) | San Jose, CA | [$100k-177k](https://www.levels.fyi/companies/cadence-design-systems/salaries) | Simplify | 2w |
+| **Applied Materials** | [Supplier Engineering - New College Grad-Bachelor's - Santa Clara, CA](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Supplier-Engineering--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2519061) | Santa Clara, CA | [$103k-145k](https://www.levels.fyi/companies/applied-materials/salaries) | Simplify | 2w |
 | **Morgan Stanley** | [Market Risk Analytics Associate, Stress Testing and AI Integration](https://ms.wd5.myworkdayjobs.com/en-US/external/job/New-York-New-York-United-States-of-America/Market-Risk-Analytics-Associate--Stress-Testing-and-AI-Integration_PT-JR025318) | New York, NY | [$15.0k-25.0k](https://www.levels.fyi/companies/morgan-stanley/salaries) | Simplify | 2w |
 | **10a Labs** | [Data Assistant](https://job-boards.greenhouse.io/10alabs/jobs/4075498009) | NYC |  | Simplify | 2w |
 | **Axos Bank** | [Junior Business & Technology Analyst](https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Jr-Business---Technology-Analyst---Data-Scientist---Machine-Learning-Engineer_JR3704) | San Diego, CA |  | Simplify | 2w |
+| **Twitch** | [Software Engineer I, Frontend](https://job-boards.greenhouse.io/twitch/jobs/8329910002) | Irvine, CA |  | Simplify | 2w |
+| **Twitch** | [Software Engineer I, Frontend](https://job-boards.greenhouse.io/twitch/jobs/8328684002) | San Francisco, CA |  | Simplify | 2w |
 | **Baselayer** | [Junior Backend Engineer](https://job-boards.greenhouse.io/baselayer/jobs/5023884008) | San Francisco, CA |  | Simplify | 2w |
 | **Encore Capital Group** | [Associate Software Engineer](https://encore.wd1.myworkdayjobs.com/externalnew/job/CA---San-Diego/Software-Engineer_HR-19575) | San Diego, CA |  | Simplify | 2w |
-| **Applied Materials** | [Supplier Engineering - New College Grad-Bachelor's - Santa Clara, CA](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Supplier-Engineering--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2519061) | Santa Clara, CA |  | Simplify | 2w |
 | **Cystems Logic Inc** | [Oracle EBS Technical Developer- Los Angeles, CA](https://builtin.com/job/oracle-ebs-technical-developer-los-angeles-ca/7942777) | Los Angeles, CA |  | Built In LA | 2w |
 | **NVIDIA** | [Research Scientist, Embodied and Agentic AI](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Embodied-and-Agentic-AI---New-College-Grad-2026_JR2009464) | Santa Clara, CA | [$160k-178k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2w |
 | **CHA Consulting** | [AI Developer](https://jobs-challp.icims.com/jobs/7422/job?mobile=true&needsRedirect=false) | Boston, MA, Indianapolis, IN, Miami, ... |  | Simplify | 2w |
@@ -203,37 +206,37 @@
 | **Corning** | [Measurement Technician](https://corningjobs.corning.com/job/Wilmington-Measurement-Technician-NC-28405/1304713600/?ats=successfactors) | Elmira, NY, Wilmington, NC |  | Simplify | 2w |
 | **eBay** | [Applied Researcher 2 - Search Ranking](https://ebay.wd5.myworkdayjobs.com/apply/job/San-Francisco/Applied-Researcher-1---Search-Ranking_R0066187) | SF, San Jose, CA |  | Simplify | 2w |
 | **True Anomaly** | [Software Engineer 2 - Elixir](https://job-boards.greenhouse.io/trueanomalyinc/jobs/5000513007) | Long Beach, CA, Denver, CO |  | Simplify | 2w |
-| **9th Way Insignia** | [Future Opportunities: Software Development](https://builtin.com/job/future-opportunities-software-development/7207816) | Los Angeles, CA |  | Built In LA | 2w |
+| **9th Way Insignia** | [Future Opportunities: Software Development](https://builtin.com/job/future-opportunities-software-development/7207816) | New York, NY |  | Built In NYC | 2w |
 | **Intelliswift** | [Software Engineer (Backend)](https://builtin.com/job/software-engineer-backend/7692562) | San Francisco, CA |  | Built In SF | 2w |
 | **HUMAN** | [Product Marketing Manager - Application Protection](https://jobs.ashbyhq.com/HUMAN/8394c678-2aee-4efd-b316-a950786a3b7e/application) | NYC |  | Simplify | 2w |
 | **Skio** | [Software Engineer](https://builtin.com/job/software-engineer/2476877) | San Francisco, CA |  | Built In SF | 2w |
 | **Profound** | [SWE - New Grad](https://builtin.com/job/swe-new-grad-ny/7667986) | San Francisco, CA |  | Built In SF | 2w |
 | **Oracle** | [Undergrad Product Engineer - Oracle Cloud Infrastructure - Oci](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/318361) | Santa Clara, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | Simplify | 2w |
+| **Applied Materials** | [Product Line Management Data Science](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Product-Line-Management-Data-Science--New-College-Grad--Bachelor-s-Master-s--Santa-Clara--CA-_R2519079-1) | Santa Clara, CA | [$103k-145k](https://www.levels.fyi/companies/applied-materials/salaries) | Simplify | 2w |
 | **JP Morgan Chase** | [Global Equities - Digital Products - Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691740) | NYC | [$95k-130k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 2w |
-| **Applied Materials** | [Product Line Management Data Science](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Product-Line-Management-Data-Science--New-College-Grad--Bachelor-s-Master-s--Santa-Clara--CA-_R2519079-1) | Santa Clara, CA |  | Simplify | 2w |
 | **iHeartMedia** | [Audio Video Engineer - NYC](https://iheartmedia.wd5.myworkdayjobs.com/External_iHM/job/New-York-NY-55th-St/Audio-Video-Engineer---NYC_Req36490-4) | NYC |  | Simplify | 2w |
 | **MatX** | [Software Engineer - Simulators](https://job-boards.greenhouse.io/matx/jobs/4102858008) | Mountain View, CA |  | Simplify | 2w |
-| **Infinity Constellation** | [Software Engineer - Ascendancy](https://builtin.com/job/software-engineer-ascendancy/7656492) | Los Angeles, CA |  | Built In LA | 2w |
+| **Infinity Constellation** | [Software Engineer - Ascendancy](https://builtin.com/job/software-engineer-ascendancy/7656492) | New York, NY |  | Built In NYC | 2w |
 | **Oracle** | [Undergrad Software Engineer - C/C++ - Oracle Cloud Infrastructure](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/318307) | Santa Clara, CA, Burlington, MA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | Simplify | 2w |
 | **Obsidian Security** | [AI Product Manager](https://job-boards.greenhouse.io/obsidiansecurity/jobs/5019969008) | Palo Alto, CA |  | Simplify | 2w |
 | **Datadog** | [Enablement Operations Data Analyst - NYC](https://careers.datadoghq.com/detail/7378476/?gh_jid=7378476) | NYC |  | Simplify | 2w |
-| **VitVio** | [Frontend Engineer](https://builtin.com/job/frontend-engineer/7894090) | Los Angeles, CA |  | Built In LA | 2w |
-| **Arize AI** | [AI Product Engineer, New Grad](https://builtin.com/job/ai-product-engineer-new-grad/3675426) | Los Angeles, CA |  | Built In LA | 2w |
-| **Regrello** | [Software Engineer](https://builtin.com/job/software-engineer-frontend/2165089) | Los Angeles, CA |  | Built In LA | 2w |
+| **VitVio** | [Frontend Engineer](https://builtin.com/job/frontend-engineer/7894090) | New York, NY |  | Built In NYC | 2w |
+| **Arize AI** | [AI Product Engineer, New Grad](https://builtin.com/job/ai-product-engineer-new-grad/3675426) | New York, NY |  | Built In NYC | 2w |
+| **Regrello** | [Software Engineer](https://builtin.com/job/software-engineer-frontend/2165089) | New York, NY |  | Built In NYC | 2w |
 | **Sift Stack** | [Software Engineer – New College Graduate](https://builtin.com/job/software-engineer-new-college-graduate/7178120) | Los Angeles, CA |  | Built In LA | 2w |
 | **Adobe** | [Research Scientist](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Research-Scientist_R163076) | San Jose, CA | [$181k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 3w |
 | **Goldman Sachs** | [2026 – Americas - New York City Area - Engineering](https://higher.gs.com/roles/150845?type=students) | NYC | [$99k-120k](https://www.levels.fyi/companies/goldman-sachs/salaries) | Simplify | 3w |
 | **pony.ai** | [Software Engineer - Perception Infrastructure](https://apply.workable.com/pony-dot-ai/j/A776E97605/apply) | Fremont, CA |  | Simplify | 3w |
 | **Lever** | [Data Analyst](https://jobs.lever.co/leverdemo-8/62a71e00-69ef-4145-bae4-3e8b02778a69/apply) | San Diego, CA |  | Simplify | 3w |
-| **SingleStore** | [Software Engineer Intern](https://builtin.com/job/software-engineer/7183227) | Los Angeles, CA |  | Built In LA | 3w |
+| **SingleStore** | [Software Engineer Intern](https://builtin.com/job/software-engineer/7183227) | New York, NY |  | Built In NYC | 3w |
 | **Microsoft** | [Software Engineer](https://apply.careers.microsoft.com/careers/job/1970393556631205) | Mountain View, CA, Redmond, WA | [$160k-177k](https://www.levels.fyi/companies/microsoft/salaries) | Simplify | 3w |
 | **Qualcomm** | [Sensors Software Engineer - Software Engineering](https://qualcomm.eightfold.ai/careers/job/446715712169) | Santa Clara, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Simplify | 3w |
 | **SageSure** | [Associate Data Analyst](https://www.sagesure.com/careers/current-job-openings/?gh_jid=4620339006) | NYC |  | Simplify | 3w |
 | **Cadent** | [Data Analytics - Junior Associate](https://careers-cadent.icims.com/jobs/1271/job?mobile=true&needsRedirect=false) | NYC |  | Simplify | 3w |
 | **Becton Dickinson** | [Field Service Engineer](https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-MD---Sparks---39-Loveton-Circle/Field-Service-Engineer_R-532752) | California, LA, Sparks, MD, Glendale, CA |  | Simplify | 3w |
 | **Empire State Realty Trust** | [Investment Analyst](https://jobs.lever.co/esrtreit/ac3dc3e6-c4a2-49e6-a20c-e0a39ad89149/apply) | Remote in USA, NYC |  | Simplify | 3w |
-| **N1 (layern.com)** | [New Grad Software Engineer (Backend Rust)](https://builtin.com/job/new-grad-software-engineer-backend-rust/6379221) | Los Angeles, CA |  | Built In LA | 3w |
-| **Cloud Security Services** | [React/UI Developer](https://builtin.com/job/react-ui-developer/7635880) | Los Angeles, CA |  | Built In LA | 3w |
+| **N1 (layern.com)** | [New Grad Software Engineer (Backend Rust)](https://builtin.com/job/new-grad-software-engineer-backend-rust/6379221) | New York, NY |  | Built In NYC | 3w |
+| **Cloud Security Services** | [React/UI Developer](https://builtin.com/job/react-ui-developer/7635880) | New York, NY |  | Built In NYC | 3w |
 | **Astranis Space Technologies** | [Software Engineer - Backend (Platform)](https://builtin.com/job/software-engineer-backend-platform/7874413) | San Francisco, CA |  | Built In SF | 3w |
 | **Automat** | [Full Stack Software Engineer](https://builtin.com/job/full-stack-software-engineer/7146436) | San Francisco, CA |  | Built In SF | 3w |
 | **hud** | [Systems Engineer, Infrastructure](https://builtin.com/job/systems-engineer-infrastructure/7155328) | San Francisco, CA |  | Built In SF | 3w |
@@ -254,11 +257,12 @@
 | **Morgan Stanley** | [Java Developer - Associate](https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Java-Developer---Associate_PT-JR024825) | NYC | [$15.0k-25.0k](https://www.levels.fyi/companies/morgan-stanley/salaries) | Simplify | 3w |
 | **True Anomaly** | [Quality Assurance Software Engineer 1](https://job-boards.greenhouse.io/trueanomalyinc/jobs/4992321007) | Long Beach, CA, Denver, CO |  | Simplify | 3w |
 | **Affirm** | [Software Engineer – Early Career](https://job-boards.greenhouse.io/affirm/jobs/7485072003) | NYC |  | Simplify | 3w |
-| **Deepnote** | [Full Stack Engineer](https://builtin.com/job/full-stack-engineer/4453899) | Los Angeles, CA |  | Built In LA | 3w |
-| **Nagarro** | [Associate Engineer ,Digital Insights](https://builtin.com/job/associate-engineer-digital-insights/6195743) | Los Angeles, CA |  | Built In LA | 3w |
-| **Pylon (usepylon.com)** | [Software Engineer (AI Agents)](https://builtin.com/job/software-engineer-ai-agents/7124344) | San Francisco, CA |  | Built In SF | 3w |
+| **Whatnot** | [Software Engineer, 2026 New Grad](https://builtin.com/job/2026-software-engineer-new-grad/6891728) | San Francisco, CA | [$160k-198k](https://www.levels.fyi/companies/whatnot/salaries) | Built In SF | 3w |
+| **Deepnote** | [Full Stack Engineer](https://builtin.com/job/full-stack-engineer/4453899) | New York, NY |  | Built In NYC | 3w |
+| **Nagarro** | [Associate Engineer ,Digital Insights](https://builtin.com/job/associate-engineer-digital-insights/6195743) | New York, NY |  | Built In NYC | 3w |
 | **Gumloop** | [Full Stack Software Engineer](https://builtin.com/job/full-stack-software-engineer/6705329) | San Francisco, CA |  | Built In SF | 3w |
 | **Cohere AI** | [Software Engineer, Internal Infrastructure (North America)](https://builtin.com/job/software-engineer-internal-infrastructure-north-america/7338069) | San Francisco, CA |  | Built In SF | 3w |
+| **Pylon (usepylon.com)** | [Software Engineer (AI Agents)](https://builtin.com/job/software-engineer-ai-agents/7124344) | San Francisco, CA |  | Built In SF | 3w |
 | **True Anomaly** | [Software Engineer 1 - Elixir](https://job-boards.greenhouse.io/trueanomalyinc/jobs/4971623007) | Long Beach, CA, Denver, CO |  | Simplify | 3w |
 | **Oracle** | [Undergraduate Hardware Engineer - Oracle Cloud Infrastructure - Oci](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/317568) | Santa Clara, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | Simplify | 4w |
 | **Reevo** | [Builder – New Grad - AI Engineer](https://jobs.ashbyhq.com/reevo/2a1f4f7f-86d3-41f4-bda1-3867ff82eb0d/application) | SF, Santa Clara, CA |  | Simplify | 4w |
@@ -460,8 +464,8 @@
 | **Applecart** | [Research Specialist](https://www.applecart.co/careers?gh_jid=7498160003) | NYC |  | Simplify | 2mo |
 | **Uncountable** | [Software Engineer for Chemistry Applications](https://jobs.lever.co/uncountable/6f51161f-fe9b-4ddc-8006-7b13b4cf415a/apply) | SF, NYC |  | Simplify | 2mo |
 | **Uncountable** | [Scientific Data Engineer](https://jobs.lever.co/uncountable/f634a632-c93e-4110-8cbf-7fb54b8fe244/apply) | SF, NYC |  | Simplify | 2mo |
+| **Microchip Technology** | [Engineer 1 - Verification](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-I-Verification_R1750-25) | San Jose, CA | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 2mo |
 | **Trillium** | [Equity Trader](https://www.trlm.com/apply/4837090007?gh_jid=4837090007) | Miami, FL, Chicago, IL, NYC |  | Simplify | 2mo |
-| **Microchip Technology** | [Engineer 1 - Verification](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-I-Verification_R1750-25) | San Jose, CA |  | Simplify | 2mo |
 | **Hewlett Packard (HP)** | [Software Development](https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Software-Development-Graduate_3152963) | Spring, TX, Palo Alto, CA, Boise, ID,... |  | Simplify | 2mo |
 | **Fireworks AI** | [Software Engineer – Early Career - Cloud Infrastructure](https://job-boards.greenhouse.io/fireworksai/jobs/4036755009) | San Carlos, CA, NYC |  | Simplify | 2mo |
 | **NVIDIA** | [Software Engineer – New College Grad 2025 - CAD Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CAD-Automation---New-College-Grad-2025_JR2005867) | Santa Clara, CA | [$160k-178k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2mo |
@@ -493,9 +497,9 @@
 | **Notion** | [Software Engineer, Fullstack](https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b) | San Francisco, CA, New York, NY | [$212.0k-247k](https://www.levels.fyi/companies/notion/salaries) | Simplify | 3mo |
 | **Adobe** | [University Graduate Software Engineer - Software Engineering](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Software-Engineer_R158638) | SF, San Jose, CA | [$181k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 3mo |
 | **Keysight Technologies** | [Manufacturing Technician Coordinator](https://jobs.keysight.com/jobs/49326?lang=en-us&icims=1) | Santa Clara, CA | [$106k-118k](https://www.levels.fyi/companies/keysight/salaries) | Simplify | 3mo |
+| **OpenAI** | [Software Engineer - Android](https://jobs.ashbyhq.com/openai/b83a4808-66ef-4014-b4eb-a7833c39f4c6/application) | Seattle, WA, SF, NYC | [$237k-320k](https://www.levels.fyi/companies/openai/salaries) | Simplify | 3mo |
 | **Figma** | [Software Engineer](https://job-boards.greenhouse.io/figma/jobs/5616603004) | San Francisco, CA, New York, NY | [$189k-255k](https://www.levels.fyi/companies/figma/salaries) | Simplify | 3mo |
 | **JPMorganChase** | [Quantitative Research - Data Analytics - Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210666344) | New York, NY | [$95k-130k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 3mo |
-| **OpenAI** | [Software Engineer - Android](https://jobs.ashbyhq.com/openai/b83a4808-66ef-4014-b4eb-a7833c39f4c6/application) | Seattle, WA, SF, NYC |  | Simplify | 3mo |
 | **TikTok** | [Machine Learning Engineer Graduate - Brand Ads](https://lifeattiktok.com/search/7535396503751772423) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3mo |
 | **TD** | [Analyst Rotational Program – Software Engineering](https://td.wd3.myworkdayjobs.com/en-US/td_bank_careers/job/New-York-New-York/XMLNAME-2026-Full-Time-Analyst-Rotational-Program---Software-Engineering_R_1446300) | New York, NY |  | Simplify | 3mo |
 | **Muon** | [Software Engineer](https://job-boards.greenhouse.io/muonspace/jobs/4911755007) | San Jose, CA |  | Simplify | 3mo |
@@ -550,10 +554,10 @@
 | **Adobe** | [2026 University Graduate - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R158682) | Seattle, WA, SF, Austin, TX, San Jose... | [$181k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 4mo |
 | **TikTok** | [Data Scientist Graduate - Tiktok UG-Mid Platform - 2026 Start (to be filtered)](https://lifeattiktok.com/search/7542359937256982791) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 4mo |
 | **TikTok** | [Machine Learning Engineer Graduate - Tiktok Recommendation-Live - 2026 Start](https://lifeattiktok.com/search/7542584919815325960) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 4mo |
+| **Deutsche Bank** | [Deutsche Bank Graduate Programme - Technology - Data and Innovation](https://db.recsolu.com/external/requisitions/LD3LwWUUPNRzI7iPwz-PAg) | NYC | [$70.0k-85.0k](https://www.levels.fyi/companies/deutsche-bank/salaries) | Simplify | 4mo |
 | **Celonis** | [Associate Value Engineer (AI for Supply Chain)](https://job-boards.greenhouse.io/celonis/jobs/6690522003) | New York, NY |  | Simplify | 4mo |
 | **Celonis** | [Associate Value Engineer (Management Consulting for AI Implementation)](https://job-boards.greenhouse.io/celonis/jobs/6691703003) | New York, NY |  | Simplify | 4mo |
 | **Celonis** | [Associate Value Engineer (Industrial Engineering & AI Applications)](https://job-boards.greenhouse.io/celonis/jobs/6691702003) | New York, NY |  | Simplify | 4mo |
-| **Deutsche Bank** | [Deutsche Bank Graduate Programme - Technology - Data and Innovation](https://db.recsolu.com/external/requisitions/LD3LwWUUPNRzI7iPwz-PAg) | NYC |  | Simplify | 4mo |
 | **Adobe** | [2026 University Graduate - Software Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Software-Engineer_R158684) | Seattle, WA, SF, Austin, TX, San Jose... | [$181k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 4mo |
 | **NVIDIA** | [AI System Engineer](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-System-Engineer---New-College-Grad-2025_JR2001318) | Santa Clara, CA, Redmond, WA | [$160k-178k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 4mo |
 | **TikTok** | [Product Manager Graduate - Tiktok-Product-Social and Creation - BS/MS](https://lifeattiktok.com/search/7532812450681489682) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 4mo |
@@ -713,6 +717,13 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 11mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 11mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 11mo |
+| **ElevenLabs** | [Full-Stack Engineer](https://builtin.com/job/full-stack-engineer-back-end-leaning-core/4454299) | New York, NY |  | Built In NYC |  |
+| **ElevenLabs** | [Full-Stack Growth Engineer](https://builtin.com/job/full-stack-growth-engineer/4454296) | New York, NY |  | Built In NYC |  |
+| **ElevenLabs** | [Full-Stack Engineer (Back-End Leaning)](https://builtin.com/job/engineer-back-end/4454288) | New York, NY |  | Built In NYC |  |
+| **Nagarro** | [Associate Engineer, Tech support](https://builtin.com/job/associate-engineer-tech-support/6197607) | New York, NY |  | Built In NYC |  |
+| **Pylon (usepylon.com)** | [Software Engineer (AI Infra)](https://builtin.com/job/software-engineer-ai-infra/7124351) | San Francisco, CA |  | Built In SF |  |
+| **ElevenLabs** | [Full-Stack Engineer (Front-End Leaning)](https://builtin.com/job/full-stack-engineer-front-end-leaning/4454292) | Los Angeles, CA |  | Built In LA |  |
+| **Emonics LLC** | [Software Engineer, Entry Level (New Grad)](https://www.linkedin.com/jobs/view/4329236100) | Los Angeles, CA |  | LinkedIn |  |
 
 ---
 

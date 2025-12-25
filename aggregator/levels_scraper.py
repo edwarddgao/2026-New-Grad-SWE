@@ -529,21 +529,21 @@ class LevelsScraper:
                         self._not_found_cache = {}
                     else:
                         # New format: {company: {"date": "...", "reason": "..."}}
-                        # Migrate old reason names
-                        reason_migration = {
-                            "no_data": "no_swe_data",
-                            "insufficient": "no_entry_level",  # Now we use any data
-                        }
                         expired_count = 0
                         migrated_count = 0
+                        cleared_insufficient = 0
                         for company, info in not_found_data.items():
                             if not isinstance(info, dict):
                                 continue
                             date_str = info.get("date", "")
                             reason = info.get("reason", "no_swe_data")
-                            # Migrate old reasons
-                            if reason in reason_migration:
-                                reason = reason_migration[reason]
+                            # Clear "insufficient" entries - we now use any data
+                            if reason == "insufficient":
+                                cleared_insufficient += 1
+                                continue
+                            # Migrate old reason names
+                            if reason == "no_data":
+                                reason = "no_swe_data"
                                 info["reason"] = reason
                                 migrated_count += 1
                             expiry_days = self.EXPIRY_DAYS.get(reason, 7)
@@ -552,6 +552,8 @@ class LevelsScraper:
                                 self._not_found_cache[company] = info
                             else:
                                 expired_count += 1
+                        if cleared_insufficient > 0:
+                            print(f"  [Cache] Cleared {cleared_insufficient} 'insufficient' entries (will re-fetch)", file=sys.stderr)
                         if migrated_count > 0:
                             print(f"  [Cache] Migrated {migrated_count} old reason names", file=sys.stderr)
                         if expired_count > 0:
