@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-25 22:19
+**Last updated:** 2025-12-25 23:19
 
 **Total:** 647 jobs from 287 companies
 
@@ -32,6 +32,7 @@
 | **Summit Tech Partners** | [Application Developer](https://jobright.ai/jobs/info/694bfd52d64ebf28d821aab9?utm_campaign=Software%20Engineering&utm_source=1103) | NYC Metro Area |  | Jobright | 1d |
 | **Twist Bioscience** | [Software Development Engineer](https://jobright.ai/jobs/info/692f880cef4b48533d146873?utm_campaign=Software%20Engineering&utm_source=1103) | South San Francisco, CA |  | Jobright | 1d |
 | **MeshyAI** | [Software Engineer - New Grad](https://www.linkedin.com/jobs/view/4316475202) | California, United States |  | LinkedIn | 1d |
+| **Emonics LLC** | [Software Engineer, Entry Level (New Grad)](https://www.linkedin.com/jobs/view/4329236100) | Los Angeles, CA |  | LinkedIn | 1d |
 | **RippleMatch** | [M.C. Dean - Engineer 1 (Clearable) - New College Grad, application via RippleMatch](https://www.linkedin.com/jobs/view/4346088556) | San Jose, CA |  | LinkedIn | 1d |
 | **Twitch** | [Software Engineer I](https://jobright.ai/jobs/info/692e53194c474121999d8651?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | [$194k-274k](https://www.levels.fyi/companies/twitch/salaries) | Jobright | 2d |
 | **Plaid** | [Software Engineer](https://jobright.ai/jobs/info/68cd3b16b2a74e1837ed4337?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | [$231k-255k](https://www.levels.fyi/companies/plaid/salaries) | Jobright | 2d |
@@ -654,11 +655,10 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 11mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 11mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 11mo |
-| **Emonics LLC** | [Software Engineer, Entry Level (New Grad)](https://www.linkedin.com/jobs/view/4329236100) | Los Angeles, CA |  | LinkedIn |  |
-| **MechNova** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4350631992) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Systems Engineer](https://www.linkedin.com/jobs/view/4346303865) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://www.linkedin.com/jobs/view/4346225083) | San Diego, CA |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Junior Software Engineer (Graduate)](https://www.linkedin.com/jobs/view/4346163734) | New York, NY |  | LinkedIn |  |
+| **MechNova** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4350631992) | San Jose, CA |  | LinkedIn |  |
 
 ---
 
