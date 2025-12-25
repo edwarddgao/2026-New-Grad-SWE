@@ -515,38 +515,23 @@ class LevelsScraper:
                     data = json.load(f)
                     self._salary_cache = {k: tuple(v) for k, v in data.get('found', {}).items()}
 
-                    # Handle old formats and new format with reasons
+                    # Load not_found entries, expiring old ones
                     not_found_data = data.get('not_found', {})
                     today = datetime.now()
-
-                    if isinstance(not_found_data, list):
-                        # Very old format (list): treat as expired
-                        print(f"  [Cache] Migrating {len(not_found_data)} not-found entries (will re-fetch)", file=sys.stderr)
-                        self._not_found_cache = {}
-                    elif not_found_data and isinstance(next(iter(not_found_data.values())), str):
-                        # Old format (dict with date strings): migrate, treat as expired
-                        print(f"  [Cache] Migrating {len(not_found_data)} not-found entries (will re-fetch)", file=sys.stderr)
-                        self._not_found_cache = {}
-                    else:
-                        # New format: {company: {"date": "...", "reason": "..."}}
-                        expired_count = 0
-                        for company, info in not_found_data.items():
-                            if not isinstance(info, dict):
-                                continue
-                            date_str = info.get("date", "")
-                            reason = info.get("reason", "no_swe_data")
-                            # Normalize old reason names
-                            if reason == "no_data":
-                                reason = "no_swe_data"
-                                info["reason"] = reason
-                            expiry_days = self.EXPIRY_DAYS.get(reason, 7)
-                            cutoff = (today - timedelta(days=expiry_days)).strftime("%Y-%m-%d")
-                            if date_str >= cutoff:
-                                self._not_found_cache[company] = info
-                            else:
-                                expired_count += 1
-                        if expired_count > 0:
-                            print(f"  [Cache] Expired {expired_count} not-found entries", file=sys.stderr)
+                    expired_count = 0
+                    for company, info in not_found_data.items():
+                        if not isinstance(info, dict):
+                            continue
+                        date_str = info.get("date", "")
+                        reason = info.get("reason", "no_swe_data")
+                        expiry_days = self.EXPIRY_DAYS.get(reason, 7)
+                        cutoff = (today - timedelta(days=expiry_days)).strftime("%Y-%m-%d")
+                        if date_str >= cutoff:
+                            self._not_found_cache[company] = info
+                        else:
+                            expired_count += 1
+                    if expired_count > 0:
+                        print(f"  [Cache] Expired {expired_count} not-found entries", file=sys.stderr)
 
                     print(f"  [Cache] Loaded {len(self._salary_cache)} cached salaries, {len(self._not_found_cache)} not-found", file=sys.stderr)
             except (json.JSONDecodeError, IOError, KeyError) as e:
