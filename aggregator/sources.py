@@ -890,52 +890,116 @@ class JobAggregator:
             # Sort words to create canonical form (order-independent comparison)
             return ' '.join(sorted(set(words)))
 
-        def normalize_location_for_dedup(location: str) -> str:
-            """Normalize location to handle variations like 'San Francisco' vs 'San Francisco, CA'."""
-            if not location:
+        def normalize_single_location(loc: str) -> str:
+            """Normalize a single location like 'SF' -> 'san francisco, ca'."""
+            loc = loc.lower().strip()
+            if not loc:
                 return ""
-            loc = location.lower().strip()
-            # Remove common suffixes that vary
+            # Remove common suffixes
             loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
-            # Extract just city and state abbreviation if present
-            # Match pattern like "City, ST" or just "City"
+
+            # Known abbreviations and aliases
+            location_aliases = {
+                'sf': 'san francisco, ca',
+                'nyc': 'new york, ny',
+                'la': 'los angeles, ca',
+            }
+            if loc in location_aliases:
+                return location_aliases[loc]
+
+            # Extract city and state
             match = re.match(r'^([^,]+)(?:,\s*([a-z]{2}))?', loc)
             if match:
                 city = match.group(1).strip()
                 state = match.group(2) or ''
-                # Known CA cities - add state if missing
+                # Known CA cities
                 ca_cities = ['san francisco', 'san jose', 'los angeles', 'santa clara',
                             'mountain view', 'palo alto', 'sunnyvale', 'san diego',
                             'fremont', 'oakland', 'san mateo', 'cupertino', 'redwood city',
                             'burbank', 'culver city', 'south san francisco', 'irvine']
-                ny_cities = ['new york', 'nyc', 'brooklyn', 'long island']
-                # Normalize 'nyc' to 'new york' first
-                if city == 'nyc':
-                    city = 'new york'
-                    state = 'ny'
-                elif city in ca_cities and not state:
+                ny_cities = ['new york', 'brooklyn', 'long island']
+                if city in ca_cities and not state:
                     state = 'ca'
                 elif city in ny_cities and not state:
                     state = 'ny'
                 return f"{city}, {state}" if state else city
             return loc
 
-        job_groups = {}
+        def parse_locations(location: str) -> set:
+            """Parse location string into set of normalized locations.
+            Handles multi-location formats like 'SF, NYC' or 'San Francisco, NYC'."""
+            if not location:
+                return set()
+
+            loc = location.lower().strip()
+            loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
+
+            # Known multi-location patterns: split by comma but be smart about it
+            # "SF, NYC" -> ['SF', 'NYC']
+            # "San Francisco, CA" -> ['San Francisco, CA'] (not split)
+            # "New York, NY" -> ['New York, NY'] (not split)
+
+            # Check if this looks like a multi-location string
+            # Multi-location: comma followed by a known city/abbreviation (not a state code)
+            known_locations = {'sf', 'nyc', 'la', 'new york', 'san francisco', 'los angeles',
+                              'mountain view', 'palo alto', 'san jose', 'seattle'}
+
+            parts = [p.strip() for p in loc.split(',')]
+            locations = set()
+
+            i = 0
+            while i < len(parts):
+                part = parts[i]
+                # Check if next part is a 2-letter state code
+                if i + 1 < len(parts) and re.match(r'^[a-z]{2}$', parts[i + 1]):
+                    # This is "City, ST" format
+                    locations.add(normalize_single_location(f"{part}, {parts[i + 1]}"))
+                    i += 2
+                elif part in known_locations or len(part) <= 3:
+                    # This is an abbreviation or known city name alone
+                    locations.add(normalize_single_location(part))
+                    i += 1
+                else:
+                    # Unknown format, treat as single location
+                    locations.add(normalize_single_location(part))
+                    i += 1
+
+            return locations
+
+        # Group by (company, title) first, then merge jobs with overlapping locations
+        company_title_groups = {}
         for job in unique_jobs:
             title_norm = normalize_title_for_dedup(job.title)
-            loc_norm = normalize_location_for_dedup(job.location)
-            key = (job.company.lower().strip(), title_norm, loc_norm)
-            if key not in job_groups:
-                job_groups[key] = job
-            else:
-                # Keep the one with better source priority
-                existing = job_groups[key]
-                if source_priority(job.source) < source_priority(existing.source):
-                    job_groups[key] = job
-                # If same priority, prefer one with salary data
-                elif source_priority(job.source) == source_priority(existing.source):
-                    if (job.salary_min or job.salary_max) and not (existing.salary_min or existing.salary_max):
-                        job_groups[key] = job
+            key = (job.company.lower().strip(), title_norm)
+            if key not in company_title_groups:
+                company_title_groups[key] = []
+            company_title_groups[key].append(job)
+
+        # For each group, deduplicate based on location overlap
+        job_groups = {}
+        for (company, title), jobs in company_title_groups.items():
+            # Sort by source priority (best first) so we keep best source
+            jobs_sorted = sorted(jobs, key=lambda j: source_priority(j.source))
+
+            kept_jobs = []
+            for job in jobs_sorted:
+                job_locs = parse_locations(job.location)
+
+                # Check if this job's locations overlap with any kept job
+                is_duplicate = False
+                for kept in kept_jobs:
+                    kept_locs = parse_locations(kept.location)
+                    if job_locs & kept_locs:  # If locations overlap
+                        is_duplicate = True
+                        break
+
+                if not is_duplicate:
+                    kept_jobs.append(job)
+
+            for job in kept_jobs:
+                loc_key = ','.join(sorted(parse_locations(job.location)))
+                full_key = (company, title, loc_key)
+                job_groups[full_key] = job
 
         deduped_jobs = list(job_groups.values())
         dedup_count = len(unique_jobs) - len(deduped_jobs)

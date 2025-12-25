@@ -373,6 +373,148 @@ class TestJobDedup(unittest.TestCase):
         url6 = "https://example.com/jobs/456"
         self.assertEqual(normalize_url_for_dedup(url5), normalize_url_for_dedup(url6))
 
+    def test_multi_location_parsing(self):
+        """Multi-location strings like 'SF, NYC' should parse into multiple locations"""
+        import re
+
+        def normalize_single_location(loc: str) -> str:
+            loc = loc.lower().strip()
+            if not loc:
+                return ""
+            loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
+            location_aliases = {
+                'sf': 'san francisco, ca',
+                'nyc': 'new york, ny',
+                'la': 'los angeles, ca',
+            }
+            if loc in location_aliases:
+                return location_aliases[loc]
+            match = re.match(r'^([^,]+)(?:,\s*([a-z]{2}))?', loc)
+            if match:
+                city = match.group(1).strip()
+                state = match.group(2) or ''
+                ca_cities = ['san francisco', 'san jose', 'los angeles', 'santa clara',
+                            'mountain view', 'palo alto', 'sunnyvale', 'san diego',
+                            'fremont', 'oakland', 'san mateo', 'cupertino', 'redwood city',
+                            'burbank', 'culver city', 'south san francisco', 'irvine']
+                ny_cities = ['new york', 'brooklyn', 'long island']
+                if city in ca_cities and not state:
+                    state = 'ca'
+                elif city in ny_cities and not state:
+                    state = 'ny'
+                return f"{city}, {state}" if state else city
+            return loc
+
+        def parse_locations(location: str) -> set:
+            if not location:
+                return set()
+            loc = location.lower().strip()
+            loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
+            known_locations = {'sf', 'nyc', 'la', 'new york', 'san francisco', 'los angeles',
+                              'mountain view', 'palo alto', 'san jose', 'seattle'}
+            parts = [p.strip() for p in loc.split(',')]
+            locations = set()
+            i = 0
+            while i < len(parts):
+                part = parts[i]
+                if i + 1 < len(parts) and re.match(r'^[a-z]{2}$', parts[i + 1]):
+                    locations.add(normalize_single_location(f"{part}, {parts[i + 1]}"))
+                    i += 2
+                elif part in known_locations or len(part) <= 3:
+                    locations.add(normalize_single_location(part))
+                    i += 1
+                else:
+                    locations.add(normalize_single_location(part))
+                    i += 1
+            return locations
+
+        # Test multi-location parsing (Valon case)
+        sf_nyc = parse_locations("SF, NYC")
+        self.assertEqual(sf_nyc, {'san francisco, ca', 'new york, ny'})
+
+        # Test single location parsing still works
+        sf_only = parse_locations("San Francisco, CA")
+        self.assertEqual(sf_only, {'san francisco, ca'})
+
+        nyc_only = parse_locations("New York, NY")
+        self.assertEqual(nyc_only, {'new york, ny'})
+
+        # Test abbreviation normalization
+        self.assertEqual(parse_locations("SF"), {'san francisco, ca'})
+        self.assertEqual(parse_locations("NYC"), {'new york, ny'})
+        self.assertEqual(parse_locations("LA"), {'los angeles, ca'})
+
+    def test_multi_location_overlap_detection(self):
+        """Jobs with overlapping locations should be detected as duplicates"""
+        import re
+
+        def normalize_single_location(loc: str) -> str:
+            loc = loc.lower().strip()
+            if not loc:
+                return ""
+            loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
+            location_aliases = {
+                'sf': 'san francisco, ca',
+                'nyc': 'new york, ny',
+                'la': 'los angeles, ca',
+            }
+            if loc in location_aliases:
+                return location_aliases[loc]
+            match = re.match(r'^([^,]+)(?:,\s*([a-z]{2}))?', loc)
+            if match:
+                city = match.group(1).strip()
+                state = match.group(2) or ''
+                ca_cities = ['san francisco', 'san jose', 'los angeles', 'santa clara',
+                            'mountain view', 'palo alto', 'sunnyvale', 'san diego',
+                            'fremont', 'oakland', 'san mateo', 'cupertino', 'redwood city',
+                            'burbank', 'culver city', 'south san francisco', 'irvine']
+                ny_cities = ['new york', 'brooklyn', 'long island']
+                if city in ca_cities and not state:
+                    state = 'ca'
+                elif city in ny_cities and not state:
+                    state = 'ny'
+                return f"{city}, {state}" if state else city
+            return loc
+
+        def parse_locations(location: str) -> set:
+            if not location:
+                return set()
+            loc = location.lower().strip()
+            loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
+            known_locations = {'sf', 'nyc', 'la', 'new york', 'san francisco', 'los angeles',
+                              'mountain view', 'palo alto', 'san jose', 'seattle'}
+            parts = [p.strip() for p in loc.split(',')]
+            locations = set()
+            i = 0
+            while i < len(parts):
+                part = parts[i]
+                if i + 1 < len(parts) and re.match(r'^[a-z]{2}$', parts[i + 1]):
+                    locations.add(normalize_single_location(f"{part}, {parts[i + 1]}"))
+                    i += 2
+                elif part in known_locations or len(part) <= 3:
+                    locations.add(normalize_single_location(part))
+                    i += 1
+                else:
+                    locations.add(normalize_single_location(part))
+                    i += 1
+            return locations
+
+        # The Valon case: "SF, NYC" should overlap with both "San Francisco, CA" and "New York, NY"
+        sf_nyc = parse_locations("SF, NYC")
+        sf = parse_locations("San Francisco, CA")
+        nyc = parse_locations("New York, NY")
+
+        # Check overlaps exist
+        self.assertTrue(len(sf_nyc & sf) > 0, "SF,NYC should overlap with SF")
+        self.assertTrue(len(sf_nyc & nyc) > 0, "SF,NYC should overlap with NYC")
+
+        # Different cities should NOT overlap
+        self.assertEqual(sf & nyc, set(), "SF and NYC should not overlap")
+
+        # Same city different formats should overlap
+        self.assertTrue(len(parse_locations("SF") & parse_locations("San Francisco, CA")) > 0)
+        self.assertTrue(len(parse_locations("NYC") & parse_locations("New York, NY")) > 0)
+
 
 def show_filtered_jobs():
     """Show what jobs would be filtered out from each source"""
