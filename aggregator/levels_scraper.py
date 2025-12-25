@@ -669,25 +669,20 @@ class LevelsScraper:
 
         for attempt in range(max_retries):
             try:
-                # Rate limiting - delay between requests to avoid 429s
-                # Using 0.15s base delay for faster processing while respecting limits
-                time.sleep(0.15)
+                # Rate limiting - 0.5s base delay to avoid 405/429 errors
+                time.sleep(0.5)
 
                 resp = self.session.get(url, timeout=10)
 
                 # Handle rate limiting with exponential backoff
-                if resp.status_code in (429, 503):
+                # Note: levels.fyi returns 405 when rate limited (not just 429)
+                if resp.status_code in (405, 429, 503):
                     if attempt < max_retries - 1:
-                        wait_time = (2 ** attempt) * 1.0  # 1s, 2s, 4s backoff
+                        wait_time = (2 ** attempt) * 2.0  # 2s, 4s, 8s backoff
                         print(f"    [Levels] {company_slug}: {resp.status_code}, retry {attempt+1}", file=sys.stderr)
                         time.sleep(wait_time)
                         continue
                     print(f"    [Levels] {company_slug}: {resp.status_code} after {max_retries} retries", file=sys.stderr)
-                    return (None, None)
-
-                # 405 Method Not Allowed - don't retry
-                if resp.status_code == 405:
-                    print(f"    [Levels] {company_slug}: 405 Method Not Allowed", file=sys.stderr)
                     return (None, None)
 
                 # Company not found - cache for 30 days
