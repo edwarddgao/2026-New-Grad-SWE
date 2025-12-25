@@ -7,6 +7,7 @@ import os
 import re
 import sys
 import time
+from datetime import datetime, timedelta
 
 import requests
 from typing import List, Optional, Tuple
@@ -362,9 +363,6 @@ class LevelsScraper:
         "vmware": "vmware",
     }
 
-    # Minimum sample size required for salary data to be considered reliable
-    MIN_SAMPLES_FOR_RELIABLE_DATA = 3
-
     # Entry level mappings for different companies
     # These map company slugs to the exact level name used on levels.fyi
     ENTRY_LEVELS = {
@@ -479,6 +477,12 @@ class LevelsScraper:
     }
 
     CACHE_FILE = ".levels_salary_cache.json"
+    # Different expiry times for different failure reasons
+    EXPIRY_DAYS = {
+        "404": 30,           # Company page doesn't exist - wait longer
+        "no_swe_data": 14,   # Company exists but no SWE salary data
+        "no_entry_level": 7, # Has SWE data but no entry-level samples
+    }
 
     def __init__(self):
         self.session = requests.Session()
@@ -495,31 +499,57 @@ class LevelsScraper:
             "Sec-Fetch-Site": "none",
             "Sec-Fetch-User": "?1",
         })
-        # Cache for companies not found on levels.fyi (confirmed 404s)
-        self._not_found_cache = set()
+        # Cache for companies not found on levels.fyi (with timestamps and reasons)
+        # Format: {company_slug: {"date": "YYYY-MM-DD", "reason": "404|no_data|insufficient"}}
+        self._not_found_cache = {}
         # Cache for successful salary lookups
         self._salary_cache = {}
         # Load cache from file
         self._load_cache()
 
     def _load_cache(self):
-        """Load salary cache from file."""
+        """Load salary cache from file, expiring old not_found entries based on reason."""
         if os.path.exists(self.CACHE_FILE):
             try:
                 with open(self.CACHE_FILE, 'r') as f:
                     data = json.load(f)
                     self._salary_cache = {k: tuple(v) for k, v in data.get('found', {}).items()}
-                    self._not_found_cache = set(data.get('not_found', []))
+
+                    # Load not_found entries, expiring old ones
+                    not_found_data = data.get('not_found', {})
+                    today = datetime.now()
+                    expired_count = 0
+                    for company, info in not_found_data.items():
+                        if not isinstance(info, dict):
+                            continue
+                        date_str = info.get("date", "")
+                        reason = info.get("reason", "no_swe_data")
+                        expiry_days = self.EXPIRY_DAYS.get(reason, 7)
+                        cutoff = (today - timedelta(days=expiry_days)).strftime("%Y-%m-%d")
+                        if date_str >= cutoff:
+                            self._not_found_cache[company] = info
+                        else:
+                            expired_count += 1
+                    if expired_count > 0:
+                        print(f"  [Cache] Expired {expired_count} not-found entries", file=sys.stderr)
+
                     print(f"  [Cache] Loaded {len(self._salary_cache)} cached salaries, {len(self._not_found_cache)} not-found", file=sys.stderr)
             except (json.JSONDecodeError, IOError, KeyError) as e:
                 print(f"  [Cache] Error loading cache: {e}", file=sys.stderr)
+
+    def _add_not_found(self, company_slug: str, reason: str):
+        """Add a company to the not_found cache with reason."""
+        self._not_found_cache[company_slug] = {
+            "date": datetime.now().strftime("%Y-%m-%d"),
+            "reason": reason
+        }
 
     def _save_cache(self):
         """Save salary cache to file"""
         try:
             data = {
                 'found': {k: list(v) for k, v in self._salary_cache.items()},
-                'not_found': list(self._not_found_cache)
+                'not_found': self._not_found_cache
             }
             with open(self.CACHE_FILE, 'w') as f:
                 json.dump(data, f)
@@ -601,7 +631,7 @@ class LevelsScraper:
         """
         company_slug = self._normalize_company(company)
 
-        # Check not-found cache first (only for confirmed 404s)
+        # Check not-found cache
         if company_slug in self._not_found_cache:
             return (None, None)
 
@@ -625,30 +655,25 @@ class LevelsScraper:
 
         for attempt in range(max_retries):
             try:
-                # Rate limiting - delay between requests to avoid 429s
-                # Using 0.15s base delay for faster processing while respecting limits
-                time.sleep(0.15)
+                # Rate limiting - 0.5s base delay to avoid 405/429 errors
+                time.sleep(0.5)
 
                 resp = self.session.get(url, timeout=10)
 
                 # Handle rate limiting with exponential backoff
-                if resp.status_code in (429, 503):
+                # Note: levels.fyi returns 405 when rate limited (not just 429)
+                if resp.status_code in (405, 429, 503):
                     if attempt < max_retries - 1:
-                        wait_time = (2 ** attempt) * 1.0  # 1s, 2s, 4s backoff
+                        wait_time = (2 ** attempt) * 2.0  # 2s, 4s, 8s backoff
                         print(f"    [Levels] {company_slug}: {resp.status_code}, retry {attempt+1}", file=sys.stderr)
                         time.sleep(wait_time)
                         continue
                     print(f"    [Levels] {company_slug}: {resp.status_code} after {max_retries} retries", file=sys.stderr)
                     return (None, None)
 
-                # 405 Method Not Allowed - don't retry
-                if resp.status_code == 405:
-                    print(f"    [Levels] {company_slug}: 405 Method Not Allowed", file=sys.stderr)
-                    return (None, None)
-
-                # Company not found - add to not_found_cache
+                # Company not found - cache for 30 days
                 if resp.status_code == 404:
-                    self._not_found_cache.add(company_slug)
+                    self._add_not_found(company_slug, "404")
                     return (None, None)
 
                 if resp.status_code != 200:
@@ -661,11 +686,17 @@ class LevelsScraper:
                     resp.text
                 )
                 if not match:
-                    self._not_found_cache.add(company_slug)
+                    self._add_not_found(company_slug, "no_swe_data")
                     return (None, None)
 
                 data = json.loads(match.group(1))
                 page_props = data.get('props', {}).get('pageProps', {})
+
+                # Get all samples from averages
+                averages = page_props.get('averages', [])
+                if not averages:
+                    self._add_not_found(company_slug, "no_swe_data")
+                    return (None, None)
 
                 # Get levels info to find entry level (order: 0 = entry)
                 levels_info = page_props.get('levels', {})
@@ -681,12 +712,6 @@ class LevelsScraper:
                 manual_entry = self.ENTRY_LEVELS.get(company_slug)
                 if manual_entry:
                     entry_level_slugs.add(manual_entry.lower())
-
-                # Get all samples from averages
-                averages = page_props.get('averages', [])
-                if not averages:
-                    self._not_found_cache.add(company_slug)
-                    return (None, None)
 
                 # Collect new grad compensation from entry-level samples only
                 new_grad_comps = []
@@ -716,18 +741,21 @@ class LevelsScraper:
                         if yoe is None or yoe <= self.MAX_NEW_GRAD_YOE:
                             new_grad_comps.append(tc)
 
-                # Require minimum samples for reliable data
-                if len(new_grad_comps) < self.MIN_SAMPLES_FOR_RELIABLE_DATA:
-                    self._not_found_cache.add(company_slug)
+                # No entry-level samples found
+                if not new_grad_comps:
+                    self._add_not_found(company_slug, "no_entry_level")
                     return (None, None)
 
-                # Calculate 25th and 75th percentile
+                # Calculate salary range
                 new_grad_comps.sort()
                 n = len(new_grad_comps)
-                salary_min = new_grad_comps[n // 4]
-                salary_max = new_grad_comps[3 * n // 4]
-
-                return (salary_min, salary_max)
+                if n == 1:
+                    return (new_grad_comps[0], new_grad_comps[0])
+                elif n == 2:
+                    return (new_grad_comps[0], new_grad_comps[1])
+                else:
+                    # 25th and 75th percentile
+                    return (new_grad_comps[n // 4], new_grad_comps[3 * n // 4])
 
             except Exception as e:
                 if attempt < max_retries - 1:
