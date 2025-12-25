@@ -58,12 +58,22 @@ def get_age(date_str: str) -> str:
     except ValueError:
         return ""
 
-def generate_readme(skip_enrichment: bool = False):
+def generate_readme(skip_enrichment: bool = False, include_jobright: bool = False):
     scraper = get_scraper()
 
     # Fetch and filter jobs
+    # Note: Jobright is disabled by default because it uses wrapper URLs that require login
+    # Set include_jobright=True to include Jobright jobs (with wrapper URLs)
     agg = JobAggregator()
-    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=False, builtin_cities=["nyc", "sf", "la"], include_indeed=True, indeed_limit=50, include_glassdoor=True, glassdoor_limit=50, include_hn=True, hn_limit=100, skip_enrichment=skip_enrichment)
+    agg.fetch_all(
+        include_linkedin=True, linkedin_limit=100,
+        include_builtin=False, builtin_cities=["nyc", "sf", "la"],
+        include_indeed=True, indeed_limit=50,
+        include_glassdoor=True, glassdoor_limit=50,
+        include_hn=True, hn_limit=100,
+        include_jobright=include_jobright,
+        skip_enrichment=skip_enrichment
+    )
     agg.filter_location(["nyc", "california"])
 
     # Load valid companies AFTER enrichment so newly discovered companies are included
@@ -87,7 +97,9 @@ def generate_readme(skip_enrichment: bool = False):
 
     readme = f"""# New Grad SWE Jobs - NYC & California
 
-> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
+> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
+>
+> All job links point directly to employer career pages (no wrapper redirects)
 
 **Last updated:** {now}
 
@@ -160,12 +172,13 @@ def generate_readme(skip_enrichment: bool = False):
 
 This list aggregates new grad software engineering positions in NYC and California from multiple sources:
 
-- **[SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions)** - Curated new grad job database
-- **[Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)** - AI-powered job aggregator
+- **[SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions)** - Curated new grad job database with direct employer links
 - **[LinkedIn](https://linkedin.com/jobs)** - Professional job board (via JobSpy)
 - **[Indeed](https://indeed.com)** - Job search engine (via JobSpy)
 - **[Glassdoor](https://glassdoor.com)** - Job board with salary data (via JobSpy)
 - **[HN Who's Hiring](https://news.ycombinator.com)** - Monthly Hacker News hiring thread
+
+All job links point directly to the employer's job posting page (Workday, Greenhouse, Lever, etc.) - no intermediate redirects or logins required.
 
 ### Usage
 
@@ -189,4 +202,5 @@ Found a job not listed? Open an issue or PR!
 if __name__ == "__main__":
     import sys
     skip = "--skip-enrichment" in sys.argv or "-s" in sys.argv
-    generate_readme(skip_enrichment=skip)
+    include_jr = "--include-jobright" in sys.argv
+    generate_readme(skip_enrichment=skip, include_jobright=include_jr)

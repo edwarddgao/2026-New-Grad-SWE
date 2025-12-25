@@ -751,6 +751,7 @@ class JobAggregator:
                   include_glassdoor: bool = False, glassdoor_limit: int = 50,
                   include_builtin: bool = False, builtin_cities: List[str] = None,
                   include_hn: bool = False, hn_limit: int = 100,
+                  include_jobright: bool = True,
                   skip_enrichment: bool = False) -> List[Job]:
         """Fetch jobs from all sources"""
         print("\n=== Fetching jobs from all sources ===\n")
@@ -760,8 +761,10 @@ class JobAggregator:
         # Simplify (always)
         all_jobs.extend(self.sources["simplify"].fetch())
 
-        # Jobright (always)
-        all_jobs.extend(self.sources["jobright"].fetch())
+        # Jobright (optional - disabled by default for direct links)
+        # Note: Jobright URLs are wrapper links that require login to access the apply button
+        if include_jobright:
+            all_jobs.extend(self.sources["jobright"].fetch())
 
         # Built In (optional)
         # Pass cached jobs to preserve original posted dates across scrapes
@@ -1099,6 +1102,29 @@ class JobAggregator:
         self.jobs = filtered
         print(f"  [Location] {len(filtered)} jobs in {', '.join(regions)}")
         return filtered
+
+    def resolve_jobright_urls(self) -> int:
+        """
+        Resolve Jobright wrapper URLs to direct job posting URLs.
+
+        This method uses playwright to extract the actual employer ATS links
+        from Jobright's job info pages. Results are cached to avoid redundant
+        resolutions on subsequent runs.
+
+        Returns:
+            Number of URLs successfully resolved
+        """
+        try:
+            from .jobright_resolver import JobrightResolver, resolve_jobright_urls_in_jobs
+            resolver = JobrightResolver()
+            self.jobs, resolved_count = resolve_jobright_urls_in_jobs(self.jobs, resolver)
+            return resolved_count
+        except ImportError as e:
+            print(f"  [JobrightResolver] Import error: {e}")
+            return 0
+        except Exception as e:
+            print(f"  [JobrightResolver] Error: {e}")
+            return 0
 
     def to_json(self, filepath: str):
         """Export jobs to JSON"""
