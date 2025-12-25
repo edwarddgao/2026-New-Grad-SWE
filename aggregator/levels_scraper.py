@@ -482,8 +482,18 @@ class LevelsScraper:
 
     def __init__(self):
         self.session = requests.Session()
+        # Full browser headers required - levels.fyi returns 405 with incomplete headers
         self.session.headers.update({
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Encoding": "gzip, deflate",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Sec-Fetch-User": "?1",
         })
         # Cache for companies not found on levels.fyi (confirmed 404s)
         self._not_found_cache = set()
@@ -616,20 +626,24 @@ class LevelsScraper:
         for attempt in range(max_retries):
             try:
                 # Rate limiting - delay between requests to avoid 429s
-                time.sleep(0.3)
+                # Using 0.15s base delay for faster processing while respecting limits
+                time.sleep(0.15)
 
                 resp = self.session.get(url, timeout=10)
 
                 # Handle rate limiting with exponential backoff
                 if resp.status_code in (429, 503):
                     if attempt < max_retries - 1:
-                        wait_time = (2 ** attempt) * 0.5  # 0.5s, 1s, 2s
+                        wait_time = (2 ** attempt) * 1.0  # 1s, 2s, 4s backoff
+                        print(f"    [Levels] {company_slug}: {resp.status_code}, retry {attempt+1}", file=sys.stderr)
                         time.sleep(wait_time)
                         continue
+                    print(f"    [Levels] {company_slug}: {resp.status_code} after {max_retries} retries", file=sys.stderr)
                     return (None, None)
 
                 # 405 Method Not Allowed - don't retry
                 if resp.status_code == 405:
+                    print(f"    [Levels] {company_slug}: 405 Method Not Allowed", file=sys.stderr)
                     return (None, None)
 
                 # Company not found - add to not_found_cache
@@ -638,6 +652,7 @@ class LevelsScraper:
                     return (None, None)
 
                 if resp.status_code != 200:
+                    print(f"    [Levels] {company_slug}: HTTP {resp.status_code}", file=sys.stderr)
                     return (None, None)
 
                 # Extract __NEXT_DATA__ JSON
@@ -716,8 +731,10 @@ class LevelsScraper:
 
             except Exception as e:
                 if attempt < max_retries - 1:
+                    print(f"    [Levels] {company_slug}: {type(e).__name__}, retry {attempt+1}", file=sys.stderr)
                     time.sleep(2 ** attempt)
                     continue
+                print(f"    [Levels] {company_slug}: {type(e).__name__} after {max_retries} retries: {e}", file=sys.stderr)
                 return (None, None)
 
         return (None, None)
