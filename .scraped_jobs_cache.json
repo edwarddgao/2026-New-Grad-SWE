@@ -543,7 +543,39 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4350631992": {
+      "id": "linkedin_li-4350631992",
+      "title": "Engineer 1 (Clearable) - New College Grad",
+      "company": "MechNova",
+      "company_slug": "mechnova",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4350631992",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4317377693": {
+      "id": "linkedin_li-4317377693",
+      "title": "AI/ML Engineer",
+      "company": "CyberCoders",
+      "company_slug": "cybercoders",
+      "location": "Newark, NJ",
+      "url": "https://www.linkedin.com/jobs/view/4317377693",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-25T12:39:49.732656"
+  "updated": "2025-12-25T13:31:49.083290"
 }

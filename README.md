@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-25 12:39
+**Last updated:** 2025-12-25 13:31
 
-**Total:** 653 jobs from 291 companies
+**Total:** 654 jobs from 292 companies
 
 ---
 
@@ -662,6 +662,7 @@
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 11mo |
 | **TikTok** | [Site Reliability Engineer - Video Platform - (Entry Level)- USDS](https://www.linkedin.com/jobs/view/4346213479) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | LinkedIn |  |
 | **Emonics LLC** | [Software Engineer, Entry Level (New Grad)](https://www.linkedin.com/jobs/view/4329236100) | Los Angeles, CA |  | LinkedIn |  |
+| **MechNova** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4350631992) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Systems Engineer](https://www.linkedin.com/jobs/view/4346303865) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://www.linkedin.com/jobs/view/4346225083) | San Diego, CA |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Junior Software Engineer (Graduate)](https://www.linkedin.com/jobs/view/4346163734) | New York, NY |  | LinkedIn |  |
