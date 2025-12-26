@@ -639,7 +639,23 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4346343968": {
+      "id": "linkedin_li-4346343968",
+      "title": "Junior Software Engineer",
+      "company": "ExecutivePlacements.com",
+      "company_slug": "executiveplacements-com",
+      "location": "Santa Ana, CA",
+      "url": "https://www.linkedin.com/jobs/view/4346343968",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-26T09:21:44.641961"
+  "updated": "2025-12-26T10:21:18.060594"
 }
