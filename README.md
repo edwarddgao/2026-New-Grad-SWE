@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-26 12:39
+**Last updated:** 2025-12-26 13:32
 
-**Total:** 639 jobs from 281 companies
+**Total:** 643 jobs from 283 companies
 
 ---
 
@@ -12,6 +12,12 @@
 
 | Company | Role | Location | Comp | Source | Posted |
 |---------|------|----------|------|--------|--------|
+| **TikTok** | [Software Engineer Graduate (Fullstack) - Trust and Safety, TikTok - 2026 Start (BS/MS)](https://jobright.ai/jobs/info/69152cdc6f36db06ef04c66e?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | Jobright | 0d |
+| **dentsu** | [Manager, Media Tech & Ad Ops](https://jobright.ai/jobs/info/69261f02f0beb07232622430?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | [Levels.fyi](https://www.levels.fyi/companies/dentsu/salaries) | Jobright | 0d |
+| **Voxel** | [Software Engineer - Platform](https://jobright.ai/jobs/info/691f71cb09cc522e8774151b?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 0d |
+| **Two Dots** | [Software Engineer](https://jobright.ai/jobs/info/69202da309cc522e87748996?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 0d |
+| **Mercury Insurance** | [Software Engineer I](https://jobright.ai/jobs/info/68ecb9f4d4b0106e703ecc08?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA |  | Jobright | 0d |
+| **Merkle** | [QA Analyst](https://jobright.ai/jobs/info/6943f05c94730b73987714d7?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | Jobright | 0d |
 | **Scale AI** | [Software Engineer - New Grad](https://jobright.ai/jobs/info/68cf5685846f0b04af681243?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco Bay Area | [$167k-265k](https://www.levels.fyi/companies/scale-ai/salaries) | Jobright | 1d |
 | **Applied Intuition** | [Software Engineer - Customer Portal](https://jobright.ai/jobs/info/68cda0a6b2a74e1837eda140?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | [$152k-225k](https://www.levels.fyi/companies/applied-intuition/salaries) | Jobright | 1d |
 | **Tinder** | [Software Engineer, Android](https://jobright.ai/jobs/info/68fef679e0c73b3a11198bca?utm_campaign=Software%20Engineering&utm_source=1103) | Palo Alto, CA | [$130k-130k](https://www.levels.fyi/companies/tinder/salaries) | Jobright | 1d |
@@ -40,7 +46,6 @@
 | **Roblox** | [Software Engineer, Reliability](https://jobright.ai/jobs/info/68e6ecfeae2b894b1d71fb4e?utm_campaign=Software%20Engineering&utm_source=1103) | San Mateo, CA, United States | [$213k-225k](https://www.levels.fyi/companies/roblox/salaries) | Jobright | 3d |
 | **NVIDIA** | [Firmware Engineer – New College Grad 2026 - Memory Subsystem](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Firmware-Engineer--Memory-Subsystem---New-College-Grad-2026_JR2010096) | Santa Clara, CA | [$160k-178k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 3d |
 | **Qualcomm** | [Video Software Engineer](https://jobright.ai/jobs/info/692e0c4aef4b48533d13c04e?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Jobright | 3d |
-| **Lockheed Martin** | [Software Engineer - Early Career](https://jobright.ai/jobs/info/694afc7f1224705e900212fd?utm_campaign=Software%20Engineering&utm_source=1103) | New York | [$87k-96k](https://www.levels.fyi/companies/lockheed-martin/salaries) | Jobright | 3d |
 | **Microchip Technology** | [Engineer 1 - Digital Design](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/NY---Hauppauge/Engineer-I---Digital-Design_R2503-25) | Long Island, New York | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 3d |
 | **Persistent Systems, LLC** | [Software Engineer](https://jobright.ai/jobs/info/69202ce809cc522e87748843?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | [Levels.fyi](https://www.levels.fyi/companies/persistent-systems/salaries) | Jobright | 3d |
 | **Cast & Crew** | [Associate Full Stack Software Engineer (.net/React)](https://jobright.ai/jobs/info/694b75701a572a617dddceca?utm_campaign=Software%20Engineering&utm_source=1103) | Burbank, CA |  | Jobright | 3d |
@@ -50,7 +55,6 @@
 | **Nowadays (YC S23)** | [Founding Operator](https://jobright.ai/jobs/info/694b67c55d731211346ff376?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA, US |  | Jobright | 3d |
 | **Alamar Biosciences, Inc.** | [Part Time Software Engineer](https://jobright.ai/jobs/info/694b1dc51224705e9002414b?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, California |  | Jobright | 3d |
 | **CalPERS** | [Web & Application Development Specialist](https://jobright.ai/jobs/info/694afbb11224705e90021265?utm_campaign=Software%20Engineering&utm_source=1103) | Sacramento, CA |  | Jobright | 3d |
-| **Fortrea** | [AWS Cloud Engineer](https://jobright.ai/jobs/info/694c0a131a572a617dde4e85?utm_campaign=Software%20Engineering&utm_source=1103) | USA - Remote - New York |  | Jobright | 3d |
 | **1Sphere AI** | [Founding Engineer – College Dropout Track](https://jobright.ai/jobs/info/692e4c014c474121999d8275?utm_campaign=Software%20Engineering&utm_source=1103) | Oakland, CA |  | Jobright | 3d |
 | **STR** | [Software Engineer - Emulation Tooling and Modeling](https://jobright.ai/jobs/info/692e00f44c474121999d528a?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA |  | Jobright | 3d |
 | **Assort Health** | [Agent Software Engineer](https://jobright.ai/jobs/info/692e54ad4c474121999d876f?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 3d |
@@ -88,7 +92,6 @@
 | **Adobe** | [2026 University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Research-Scientist-Engineer_R158869) | Seattle, WA, SF, San Jose, CA | [$181k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 1w |
 | **TikTok** | [Technical Sourcer - Engineering - San Jose (Third-Party Associate)](https://jobright.ai/jobs/info/6945ce1c951654073537edbc?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | [$167k-200k](https://www.levels.fyi/companies/bytedance/salaries) | Jobright | 1w |
 | **Amazon** | [Applied Scientist 1 - Amazon](https://amazon.jobs/en/jobs/3130180/applied-scientist-i-amazon) | Palo Alto, CA | [$173k-190k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 1w |
-| **Tesla** | [Software Developer, Supply Chain](https://jobright.ai/jobs/info/6945bbb363141d1884554972?utm_campaign=Software%20Engineering&utm_source=1103) | PALO ALTO, California | [$107k-160k](https://www.levels.fyi/companies/tesla/salaries) | Jobright | 1w |
 | **Qualcomm** | [GPU Kernel Development Engineer - Multiple Levels Available - Graphics Software Engineering](https://qualcomm.eightfold.ai/careers/job/446715939731) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Simplify | 1w |
 | **WME Group** | [Analyst – Analytics](https://wmeimg.wd1.myworkdayjobs.com/endeavor/job/CA-Beverly-Hills---9601-Wilshire/Analyst--Analytics_JR27759-1) | Culver City, CA |  | Simplify | 1w |
 | **PitchBook** | [Associate Machine Learning Engineer](https://job-boards.greenhouse.io/pitchbookdata/jobs/4625767006) | NYC |  | Simplify | 1w |
@@ -646,6 +649,7 @@
 | **Nuro** | [Software Engineer, AI Platform - New Grad](https://www.linkedin.com/jobs/view/4317707969) | Mountain View, CA | [$185k-240k](https://www.levels.fyi/companies/nuro/salaries) | LinkedIn |  |
 | **Whatnot** | [Software Engineer, 2026 New Grad](https://www.linkedin.com/jobs/view/4317480555) | San Francisco, CA | [$160k-198k](https://www.levels.fyi/companies/whatnot/salaries) | LinkedIn |  |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://www.linkedin.com/jobs/view/4297987146) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn |  |
+| **ZipRecruiter** | [Software Engineer - New Grad](https://www.linkedin.com/jobs/view/4307938042) | Santa Monica, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Systems Engineer](https://www.linkedin.com/jobs/view/4346149805) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://www.linkedin.com/jobs/view/4346324933) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [I and C Engineer - Entry Level (Data Centers)](https://www.linkedin.com/jobs/view/4346286993) | San Diego, CA |  | LinkedIn |  |

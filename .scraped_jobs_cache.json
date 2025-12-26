@@ -568,7 +568,7 @@
       "location": "Newark, NJ",
       "url": "https://www.linkedin.com/jobs/view/4317377693",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-25",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -719,7 +719,23 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4307938042": {
+      "id": "linkedin_li-4307938042",
+      "title": "Software Engineer - New Grad",
+      "company": "ZipRecruiter",
+      "company_slug": "ziprecruiter",
+      "location": "Santa Monica, CA",
+      "url": "https://www.linkedin.com/jobs/view/4307938042",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-26T12:39:43.966079"
+  "updated": "2025-12-26T13:32:41.739791"
 }
