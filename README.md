@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-26 19:16
+**Last updated:** 2025-12-26 20:21
 
-**Total:** 649 jobs from 287 companies
+**Total:** 649 jobs from 286 companies
 
 ---
 
@@ -62,7 +62,6 @@
 | **Nowadays (YC S23)** | [Founding Operator](https://jobright.ai/jobs/info/694b67c55d731211346ff376?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA, US |  | Jobright | 3d |
 | **Alamar Biosciences, Inc.** | [Part Time Software Engineer](https://jobright.ai/jobs/info/694b1dc51224705e9002414b?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, California |  | Jobright | 3d |
 | **CalPERS** | [Web & Application Development Specialist](https://jobright.ai/jobs/info/694afbb11224705e90021265?utm_campaign=Software%20Engineering&utm_source=1103) | Sacramento, CA |  | Jobright | 3d |
-| **Fortrea** | [AWS Cloud Engineer](https://jobright.ai/jobs/info/694c0a131a572a617dde4e85?utm_campaign=Software%20Engineering&utm_source=1103) | USA - Remote - New York |  | Jobright | 3d |
 | **1Sphere AI** | [Founding Engineer – College Dropout Track](https://jobright.ai/jobs/info/692e4c014c474121999d8275?utm_campaign=Software%20Engineering&utm_source=1103) | Oakland, CA |  | Jobright | 3d |
 | **STR** | [Software Engineer - Emulation Tooling and Modeling](https://jobright.ai/jobs/info/692e00f44c474121999d528a?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA |  | Jobright | 3d |
 | **Assort Health** | [Agent Software Engineer](https://jobright.ai/jobs/info/692e54ad4c474121999d876f?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 3d |
@@ -654,6 +653,7 @@
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 11mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 11mo |
 | **Nuro** | [Software Engineer, AI Platform - New Grad](https://www.linkedin.com/jobs/view/4317707969) | Mountain View, CA | [$185k-240k](https://www.levels.fyi/companies/nuro/salaries) | LinkedIn |  |
+| **IBM** | [Entry Level Software Developer: 2026](https://www.linkedin.com/jobs/view/4350594878) | San Jose, CA | [$80k-170k](https://www.levels.fyi/companies/ibm/salaries) | LinkedIn |  |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://www.linkedin.com/jobs/view/4297987146) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn |  |
 | **ZipRecruiter** | [Software Engineer - New Grad](https://www.linkedin.com/jobs/view/4307938042) | Santa Monica, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://www.linkedin.com/jobs/view/4346324933) | San Diego, CA |  | LinkedIn |  |
