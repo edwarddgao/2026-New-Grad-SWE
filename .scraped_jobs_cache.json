@@ -575,7 +575,71 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4346306215": {
+      "id": "linkedin_li-4346306215",
+      "title": "Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Greenlawn, NY",
+      "url": "https://www.linkedin.com/jobs/view/4346306215",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4346149805": {
+      "id": "linkedin_li-4346149805",
+      "title": "Entry Level Systems Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4346149805",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4346324933": {
+      "id": "linkedin_li-4346324933",
+      "title": "2026 Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4346324933",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4346286993": {
+      "id": "linkedin_li-4346286993",
+      "title": "I and C Engineer - Entry Level (Data Centers)",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4346286993",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-26T07:21:15.824194"
+  "updated": "2025-12-26T08:27:34.599845"
 }
