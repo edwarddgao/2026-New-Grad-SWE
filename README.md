@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-26 20:21
+**Last updated:** 2025-12-26 21:18
 
-**Total:** 649 jobs from 286 companies
+**Total:** 650 jobs from 287 companies
 
 ---
 
@@ -656,6 +656,7 @@
 | **IBM** | [Entry Level Software Developer: 2026](https://www.linkedin.com/jobs/view/4350594878) | San Jose, CA | [$80k-170k](https://www.levels.fyi/companies/ibm/salaries) | LinkedIn |  |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://www.linkedin.com/jobs/view/4297987146) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn |  |
 | **ZipRecruiter** | [Software Engineer - New Grad](https://www.linkedin.com/jobs/view/4307938042) | Santa Monica, CA |  | LinkedIn |  |
+| **Property Matrix** | [Entry Level Software Developer](https://www.linkedin.com/jobs/view/4329322580) | Los Angeles, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://www.linkedin.com/jobs/view/4346324933) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Systems Engineer](https://www.linkedin.com/jobs/view/4346149805) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [I and C Engineer - Entry Level (Data Centers)](https://www.linkedin.com/jobs/view/4346286993) | San Diego, CA |  | LinkedIn |  |
