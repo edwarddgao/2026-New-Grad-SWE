@@ -536,7 +536,7 @@
       "location": "",
       "url": "https://www.linkedin.com/jobs/view/4297642437",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-25",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -655,7 +655,55 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4317707969": {
+      "id": "linkedin_li-4317707969",
+      "title": "Software Engineer, AI Platform - New Grad",
+      "company": "Nuro",
+      "company_slug": "nuro",
+      "location": "Mountain View, CA",
+      "url": "https://www.linkedin.com/jobs/view/4317707969",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4297926429": {
+      "id": "linkedin_li-4297926429",
+      "title": "Entry Level Engineer/Developer (2026)",
+      "company": "RoviSys",
+      "company_slug": "rovisys",
+      "location": "Thousand Oaks, CA",
+      "url": "https://www.linkedin.com/jobs/view/4297926429",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4297987146": {
+      "id": "linkedin_li-4297987146",
+      "title": "Machine Learning Compiler Engineer",
+      "company": "Qualcomm",
+      "company_slug": "qualcomm",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4297987146",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-26T10:21:18.060594"
+  "updated": "2025-12-26T11:18:18.701117"
 }
