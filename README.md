@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-27 16:23
+**Last updated:** 2025-12-27 17:17
 
-**Total:** 649 jobs from 286 companies
+**Total:** 651 jobs from 288 companies
 
 ---
 
@@ -283,6 +283,7 @@
 | **Horizon media** | [Analyst Advanced Analytics](https://horizonmedia.wd1.myworkdayjobs.com/en-US/CareerOpportunities/job/New-York-New-York/Analyst--Advanced-Analytics_R0016043) | NYC |  | Simplify | 1mo |
 | **CoreWeave** | [Software Engineer - Inference AI/ML](https://coreweave.com/careers/job?4609928006&board=coreweave&gh_jid=4609928006) | Bellevue, WA, Sunnyvale, CA |  | Simplify | 1mo |
 | **Super Micro Computer** | [Engineering Technician](https://jobs.supermicro.com/job/San-Jose-Engineering-Technician-Cali/1340417400/?ats=successfactors) | San Jose, CA |  | Simplify | 1mo |
+| **Rambus** | [Digital Design Engineer – New College Grad](https://careers-rambus.icims.com/jobs/22434/job?mobile=true&needsRedirect=false) | San Jose, CA |  | Simplify | 1mo |
 | **TikTok** | [Data Engineer Graduate - Data Platform - Global Live](https://lifeattiktok.com/search/7535156928172902674) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 1mo |
 | **Informa Group** | [Data Analyst](https://jobs.smartrecruiters.com/InformaGroupPlc/744000091688257) | NYC |  | Simplify | 1mo |
 | **JP Morgan Chase** | [Machine Learning Scientist - Natural Language Processing - Machine Learning Center of Excellence](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210682815) | NYC | [$95k-130k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 1mo |
@@ -654,6 +655,7 @@
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 11mo |
 | **IBM** | [Entry Level Software Developer: 2026](https://www.linkedin.com/jobs/view/4350594878) | San Jose, CA | [$80k-170k](https://www.levels.fyi/companies/ibm/salaries) | LinkedIn |  |
 | **IBM** | [Entry Level Site Reliability Engineer](https://www.linkedin.com/jobs/view/4348593617) | San Jose, CA | [$80k-170k](https://www.levels.fyi/companies/ibm/salaries) | LinkedIn |  |
+| **AtlasQuo** | [Engineer 1 (Clearable) - New College Grad](https://www.linkedin.com/jobs/view/4350627699) | San Jose, CA |  | LinkedIn |  |
 | **Property Matrix** | [Entry Level Software Developer](https://www.linkedin.com/jobs/view/4329322580) | Los Angeles, CA |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Junior Data Scientist/Data Engineer/AI](https://www.linkedin.com/jobs/view/4346337890) | Los Angeles, CA |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Junior Software Engineer (Graduate)](https://www.linkedin.com/jobs/view/4346163734) | New York, NY |  | LinkedIn |  |

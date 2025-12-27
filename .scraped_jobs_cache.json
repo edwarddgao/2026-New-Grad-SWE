@@ -927,7 +927,23 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4350627699": {
+      "id": "linkedin_li-4350627699",
+      "title": "Engineer 1 (Clearable) - New College Grad",
+      "company": "AtlasQuo",
+      "company_slug": "atlasquo",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4350627699",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-27T16:23:32.671987"
+  "updated": "2025-12-27T17:17:12.086048"
 }
