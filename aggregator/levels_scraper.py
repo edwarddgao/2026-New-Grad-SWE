@@ -484,6 +484,36 @@ class LevelsScraper:
         "no_entry_level": 7, # Has SWE data but no entry-level samples
     }
 
+    # Common entry-level patterns that should be recognized regardless of company-specific slugs
+    ENTRY_LEVEL_PATTERNS = {
+        # Explicit entry-level titles
+        'new-grad', 'newgrad', 'entry-level', 'entry', 'junior', 'jr',
+        'associate', 'graduate', 'grad',
+        # SWE level 1 variants
+        'software-engineer-i', 'software-engineer-1', 'software-engineer-one',
+        'swe-i', 'swe-1', 'swe1', 'swe-one',
+        'sde-i', 'sde-1', 'sde1', 'sde-one',
+        'se-i', 'se-1', 'se1',
+        # Generic level numbers (used by Meta, Google, Uber, etc.)
+        'l1', 'l2', 'l3',
+        'e1', 'e2', 'e3',
+        't1', 't2', 't3',
+        # Apple style
+        'ic1', 'ic2', 'ice1', 'ice2',
+        # P-levels (some companies)
+        'p1', 'p2',
+        # Roman numerals
+        'i', 'ii',
+        # Microsoft levels
+        '59', '60', '61',
+    }
+
+    # Suffixes that indicate entry-level when combined with a base slug
+    ENTRY_LEVEL_SUFFIXES = ('-i', '-1', '-one', '1', '-I')
+
+    # Maximum sample count for fallback to median.commonRange
+    MAX_FALLBACK_SAMPLE_COUNT = 5
+
     def __init__(self):
         self.session = requests.Session()
         # Full browser headers required - levels.fyi returns 405 with incomplete headers
@@ -555,6 +585,61 @@ class LevelsScraper:
                 json.dump(data, f)
         except (IOError, OSError) as e:
             print(f"  [Cache] Error saving cache: {e}", file=sys.stderr)
+
+    def _is_entry_level(self, level: str, entry_level_slugs: set) -> bool:
+        """
+        Check if a level string represents an entry-level position.
+
+        Uses multiple matching strategies:
+        1. Exact match against entry_level_slugs from levels.fyi
+        2. Match against hardcoded ENTRY_LEVEL_PATTERNS
+        3. Prefix matching (e.g., 'sde-i' matches if 'sde' is in entry_level_slugs)
+        4. Suffix matching (e.g., anything ending in '-i' or '-1')
+
+        Args:
+            level: The level string from averages data (e.g., 'sde-i', 'l3', 'p2')
+            entry_level_slugs: Set of entry-level slugs from the company's levels data
+
+        Returns:
+            True if this level should be considered entry-level
+        """
+        level_lower = level.lower().strip()
+
+        # 1. Exact match against company-specific entry-level slugs
+        if level_lower in entry_level_slugs:
+            return True
+
+        # 2. Match against hardcoded entry-level patterns
+        if level_lower in self.ENTRY_LEVEL_PATTERNS:
+            return True
+
+        # 3. Prefix matching: 'sde-i' matches if 'sde' is in entry_level_slugs
+        for slug in entry_level_slugs:
+            # Check if level starts with the slug followed by a separator or number
+            if level_lower.startswith(slug + '-') or level_lower.startswith(slug + '1'):
+                # Make sure it's entry-level suffix, not senior (e.g., sde-iii)
+                remainder = level_lower[len(slug):]
+                if remainder in ('-i', '-1', '-one', '1', '-I'):
+                    return True
+            # Also check if level is slug + single digit 1
+            if level_lower == slug + '1':
+                return True
+
+        # 4. Check for entry-level suffixes on common base patterns
+        # e.g., 'software-engineer-i' should match even without explicit slug
+        for suffix in self.ENTRY_LEVEL_SUFFIXES:
+            if level_lower.endswith(suffix):
+                # Extract base and verify it's not a senior level (iii, iv, 3, 4, etc.)
+                base = level_lower[:-len(suffix)]
+                # Skip if this looks like a senior level (roman numerals ii+, numbers 3+)
+                if suffix == '-i' and not base.endswith('i'):  # Avoid matching '-ii', '-iii'
+                    return True
+                if suffix == '-1' and not any(base.endswith(str(n)) for n in range(2, 10)):
+                    return True
+                if suffix == '1' and base and not base[-1].isdigit():
+                    return True
+
+        return False
 
     # Common suffixes to strip from company names
     COMPANY_SUFFIXES = [
@@ -694,7 +779,20 @@ class LevelsScraper:
 
                 # Get all samples from averages
                 averages = page_props.get('averages', [])
+                median = page_props.get('median', {})
+
+                # If averages is empty, try fallback to median for small sample sizes
                 if not averages:
+                    # Fallback: use median.commonRange for small sample sizes
+                    sample_count = median.get('count', 0)
+                    common_start = median.get('commonRangeStart', 0)
+                    common_end = median.get('commonRangeEnd', 0)
+
+                    if (sample_count > 0 and
+                        sample_count <= self.MAX_FALLBACK_SAMPLE_COUNT and
+                        common_start > 0):
+                        return (common_start, common_end)
+
                     self._add_not_found(company_slug, "no_swe_data")
                     return (None, None)
 
@@ -717,17 +815,11 @@ class LevelsScraper:
                 new_grad_comps = []
 
                 for avg in averages:
-                    level = avg.get('level', '').lower()
+                    level = avg.get('level', '')
                     samples = avg.get('samples', [])
 
-                    # Check if this level is entry level (exact match only)
-                    is_entry_level = (
-                        level in entry_level_slugs or
-                        level in ('new-grad', 'entry-level', 'junior', 'associate')
-                    )
-
-                    # Only process entry-level samples
-                    if not is_entry_level:
+                    # Check if this level is entry level using fuzzy matching
+                    if not self._is_entry_level(level, entry_level_slugs):
                         continue
 
                     for sample in samples:
