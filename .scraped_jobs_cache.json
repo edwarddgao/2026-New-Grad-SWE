@@ -815,7 +815,39 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4348712891": {
+      "id": "linkedin_li-4348712891",
+      "title": "New Grad Software Engineer (2026)",
+      "company": "Netflix",
+      "company_slug": "netflix",
+      "location": "Los Gatos, CA",
+      "url": "https://www.linkedin.com/jobs/view/4348712891",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4346337890": {
+      "id": "linkedin_li-4346337890",
+      "title": "Junior Data Scientist/Data Engineer/AI",
+      "company": "ExecutivePlacements.com",
+      "company_slug": "executiveplacements-com",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/4346337890",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-27T09:20:05.858035"
+  "updated": "2025-12-27T10:19:45.544598"
 }
