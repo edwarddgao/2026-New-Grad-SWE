@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-27 21:17
+**Last updated:** 2025-12-27 22:18
 
-**Total:** 657 jobs from 293 companies
+**Total:** 655 jobs from 289 companies
 
 ---
 
@@ -12,7 +12,9 @@
 
 | Company | Role | Location | Comp | Source | Posted |
 |---------|------|----------|------|--------|--------|
+| **TikTok** | [iOS Software Engineer, Monetization Client - Ads Core Technology, Demonstration](https://jobright.ai/jobs/info/6950360ba2668b7f54532ece?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Jobright | 0d |
 | **ByteDance** | [Backend Software Engineer Graduate (Global E-commerce) - 2026 Start (BS/MS)](https://jobright.ai/jobs/info/68cce76177add66568abbb8b?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Jobright | 0d |
+| **Figma** | [Early Career, Software Engineer (2026)](https://jobright.ai/jobs/info/68d1bb228c62e63bc7fcf29d?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA • New York, NY | [$189k-255k](https://www.levels.fyi/companies/figma/salaries) | Jobright | 0d |
 | **SpaceX** | [Full Stack Software Engineer (Starlink)](https://jobright.ai/jobs/info/69339ceea0dde7020e2ef9fc?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Jobright | 0d |
 | **Abnormal AI** | [Software Engineer 1 - Identity Security](https://jobright.ai/jobs/info/69335a91a0dde7020e2ecfd6?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA | [$153k-200k](https://www.levels.fyi/companies/abnormal-ai/salaries) | Jobright | 0d |
 | **Citi** | [Technology, Application Development, Full-Time Analyst, New York/New Jersey - USA, 2026](https://jobright.ai/jobs/info/69160c9e286ccf0a151321f7?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | [$80k-106k](https://www.levels.fyi/companies/citi/salaries) | Jobright | 0d |
@@ -68,7 +70,6 @@
 | **DiDi** | [Software Engineer – Motion & Behavioral Planning](https://jobright.ai/jobs/info/694a2616c6f0e2546cef2e33?utm_campaign=Software%20Engineering&utm_source=1103) | San Jose, CA | [$150k-190k](https://www.levels.fyi/companies/didi/salaries) | Jobright | 4d |
 | **Remi** | [Software Engineer I/II \| SF](https://www.linkedin.com/jobs/view/4346016420) | San Francisco, CA | [$154k-183k](https://www.levels.fyi/companies/remi/salaries) | LinkedIn | 4d |
 | **Qualcomm** | [Video Software Engineer](https://jobright.ai/jobs/info/692e0c4aef4b48533d13c04e?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Jobright | 4d |
-| **Lockheed Martin** | [Software Engineer - Early Career](https://jobright.ai/jobs/info/694afc7f1224705e900212fd?utm_campaign=Software%20Engineering&utm_source=1103) | New York | [$87k-98k](https://www.levels.fyi/companies/lockheed-martin/salaries) | Jobright | 4d |
 | **Microchip Technology** | [Engineer 1 - Digital Design](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/NY---Hauppauge/Engineer-I---Digital-Design_R2503-25) | Long Island, New York | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 4d |
 | **Persistent Systems, LLC** | [Software Engineer](https://jobright.ai/jobs/info/69202ce809cc522e87748843?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY | [Levels.fyi](https://www.levels.fyi/companies/persistent-systems/salaries) | Jobright | 4d |
 | **Cast & Crew** | [Associate Full Stack Software Engineer (.net/React)](https://jobright.ai/jobs/info/694b75701a572a617dddceca?utm_campaign=Software%20Engineering&utm_source=1103) | Burbank, CA |  | Jobright | 4d |
@@ -78,7 +79,6 @@
 | **Nowadays (YC S23)** | [Founding Operator](https://jobright.ai/jobs/info/694b67c55d731211346ff376?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA, US |  | Jobright | 4d |
 | **Alamar Biosciences, Inc.** | [Part Time Software Engineer](https://jobright.ai/jobs/info/694b1dc51224705e9002414b?utm_campaign=Software%20Engineering&utm_source=1103) | Fremont, California |  | Jobright | 4d |
 | **CalPERS** | [Web & Application Development Specialist](https://jobright.ai/jobs/info/694afbb11224705e90021265?utm_campaign=Software%20Engineering&utm_source=1103) | Sacramento, CA |  | Jobright | 4d |
-| **Fortrea** | [AWS Cloud Engineer](https://jobright.ai/jobs/info/694c0a131a572a617dde4e85?utm_campaign=Software%20Engineering&utm_source=1103) | USA - Remote - New York |  | Jobright | 4d |
 | **1Sphere AI** | [Founding Engineer – College Dropout Track](https://jobright.ai/jobs/info/692e4c014c474121999d8275?utm_campaign=Software%20Engineering&utm_source=1103) | Oakland, CA |  | Jobright | 4d |
 | **STR** | [Software Engineer - Emulation Tooling and Modeling](https://jobright.ai/jobs/info/692e00f44c474121999d528a?utm_campaign=Software%20Engineering&utm_source=1103) | San Diego, CA |  | Jobright | 4d |
 | **Assort Health** | [Agent Software Engineer](https://jobright.ai/jobs/info/692e54ad4c474121999d876f?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco, CA |  | Jobright | 4d |
@@ -100,7 +100,6 @@
 | **Silvus Technologies** | [Embedded Software Engineer (Web Interface Developer)](https://jobright.ai/jobs/info/68ccfcf25954791a1d702478?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA |  | Jobright | 6d |
 | **Silvus Technologies** | [Applications Engineer I](https://jobright.ai/jobs/info/68c8d936983e6768bc552130?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA |  | Jobright | 6d |
 | **Arup** | [Graduate Digital Delivery Engineer (Available 2026)](https://jobright.ai/jobs/info/6906ff8e63502c0aded840c5?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA |  | Jobright | 6d |
-| **Capitolis** | [Algo Engineer](https://jobright.ai/jobs/info/691ceb7bff7024498416bd32?utm_campaign=Software%20Engineering&utm_source=1103) | New York, New York, United States |  | Jobright | 1w |
 | **Amazon** | [Applied Scientist 1 - Amazon](https://amazon.jobs/en/jobs/3130180/applied-scientist-i-amazon) | Palo Alto, CA | [$174k-201k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 1w |
 | **Adobe** | [2026 University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Research-Scientist-Engineer_R158869) | Seattle, WA, SF, San Jose, CA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 1w |
 | **Qualcomm** | [GPU Kernel Development Engineer - Multiple Levels Available - Graphics Software Engineering](https://qualcomm.eightfold.ai/careers/job/446715939731) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Simplify | 1w |
@@ -457,7 +456,6 @@
 | **BNY** | [BNY Analyst Program-Engineering - Data Science](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70345) | Pittsburgh, PA, Lake Mary, FL, NYC |  | Simplify | 3mo |
 | **BNY** | [BNY Analyst Program-Engineering - Developer](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70342) | Pittsburgh, PA, Lake Mary, FL, NYC |  | Simplify | 3mo |
 | **AI Fund** | [Founder in Residence - Embedfi - SMB Hardware Leasing](https://jobs.lever.co/AIFund/e5ef49f6-2014-45d7-a5fb-2d534e6af556/apply) | California, Remote in USA |  | Simplify | 3mo |
-| **Amazon.com** | [Software Engineer, Prime Video](https://www.indeed.com/viewjob?jk=74f4b4618c875d29) | New York, NY, US | [$129k-223k](https://www.levels.fyi/companies/amazon/salaries) | Indeed | 3mo |
 | **Jane Street** | [Cybersecurity Analyst](https://www.janestreet.com/join-jane-street/position/8053215002/) | New York, NY | [$270k-445k](https://www.levels.fyi/companies/jane-street/salaries) | Simplify | 3mo |
 | **EliseAI** | [Software Engineer](https://jobs.ashbyhq.com/eliseai/1ffbd278-a5fe-443c-984f-521d61a97353) | New York, NY |  | Simplify | 3mo |
 | **GTS** | [Quantitative Trader - Domestic and International Equity ETFs](https://careers-gtsx.icims.com/jobs/1566/job?mobile=true&needsRedirect=false) | NYC |  | Simplify | 3mo |
