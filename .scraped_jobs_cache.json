@@ -744,7 +744,7 @@
       "location": "San Jose, CA",
       "url": "https://www.linkedin.com/jobs/view/4350594878",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-26",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -943,7 +943,23 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4329502867": {
+      "id": "linkedin_li-4329502867",
+      "title": "Entry Level Software Developer Entry Level Software Developer",
+      "company": "Jobs via Dice",
+      "company_slug": "jobs-via-dice",
+      "location": "Culver City, CA",
+      "url": "https://www.linkedin.com/jobs/view/4329502867",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-27T19:15:09.821091"
+  "updated": "2025-12-27T20:21:12.168005"
 }
