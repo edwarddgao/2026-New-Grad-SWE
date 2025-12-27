@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-27 20:21
+**Last updated:** 2025-12-27 21:17
 
 **Total:** 657 jobs from 293 companies
 
@@ -37,6 +37,7 @@
 | **Mercury Insurance** | [Software Engineer I](https://jobright.ai/jobs/info/68ecb9f4d4b0106e703ecc08?utm_campaign=Software%20Engineering&utm_source=1103) | Los Angeles, CA |  | Jobright | 1d |
 | **Merkle** | [QA Analyst](https://jobright.ai/jobs/info/6943f05c94730b73987714d7?utm_campaign=Software%20Engineering&utm_source=1103) | New York, NY |  | Jobright | 1d |
 | **ZipRecruiter** | [Software Engineer - New Grad](https://www.linkedin.com/jobs/view/4307938042) | Santa Monica, CA |  | LinkedIn | 1d |
+| **Property Matrix** | [Entry Level Software Developer](https://www.linkedin.com/jobs/view/4329322580) | Los Angeles, CA |  | LinkedIn | 1d |
 | **Scale AI** | [Software Engineer - New Grad](https://jobright.ai/jobs/info/68cf5685846f0b04af681243?utm_campaign=Software%20Engineering&utm_source=1103) | San Francisco Bay Area | [$167k-265k](https://www.levels.fyi/companies/scale-ai/salaries) | Jobright | 2d |
 | **Applied Intuition** | [Software Engineer - Customer Portal](https://jobright.ai/jobs/info/68cda0a6b2a74e1837eda140?utm_campaign=Software%20Engineering&utm_source=1103) | Sunnyvale, CA | [$152k-225k](https://www.levels.fyi/companies/applied-intuition/salaries) | Jobright | 2d |
 | **Tinder** | [Software Engineer, Android](https://jobright.ai/jobs/info/68fef679e0c73b3a11198bca?utm_campaign=Software%20Engineering&utm_source=1103) | Palo Alto, CA | [$130k-198k](https://www.levels.fyi/companies/tinder/salaries) | Jobright | 2d |
@@ -660,7 +661,6 @@
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 11mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 11mo |
 | **IBM** | [Entry Level Site Reliability Engineer](https://www.linkedin.com/jobs/view/4348593617) | San Jose, CA | [$80k-170k](https://www.levels.fyi/companies/ibm/salaries) | LinkedIn |  |
-| **Property Matrix** | [Entry Level Software Developer](https://www.linkedin.com/jobs/view/4329322580) | Los Angeles, CA |  | LinkedIn |  |
 | **Jobs via Dice** | [Entry Level Software Developer Entry Level Software Developer](https://www.linkedin.com/jobs/view/4329502867) | Culver City, CA |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Junior Data Scientist/Data Engineer/AI](https://www.linkedin.com/jobs/view/4346337890) | Los Angeles, CA |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Junior Software Engineer (Graduate)](https://www.linkedin.com/jobs/view/4346163734) | New York, NY |  | LinkedIn |  |
