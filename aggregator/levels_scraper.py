@@ -779,7 +779,7 @@ class LevelsScraper:
 
                 # Get all samples from averages
                 averages = page_props.get('averages', [])
-                median = page_props.get('median', {})
+                median = page_props.get('median') or {}
 
                 # If averages is empty, try fallback to median for small sample sizes
                 if not averages:
