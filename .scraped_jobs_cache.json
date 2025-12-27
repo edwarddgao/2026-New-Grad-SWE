@@ -783,7 +783,39 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4346299445": {
+      "id": "linkedin_li-4346299445",
+      "title": "Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Greenlawn, NY",
+      "url": "https://www.linkedin.com/jobs/view/4346299445",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4346355257": {
+      "id": "linkedin_li-4346355257",
+      "title": "[Entry Level] Software Tester",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Englewood Cliffs, NJ",
+      "url": "https://www.linkedin.com/jobs/view/4346355257",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-27T07:18:42.229447"
+  "updated": "2025-12-27T08:25:29.324775"
 }
