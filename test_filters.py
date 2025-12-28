@@ -259,7 +259,7 @@ class TestJobCaching(unittest.TestCase):
 class TestJobDedup(unittest.TestCase):
     """Test the deduplication logic"""
 
-    def _create_job(self, company: str, title: str, location: str, source: str = "simplify_new_grad", url: str = None, date_posted: str = None):
+    def _create_job(self, company: str, title: str, location: str, source: str = "simplify_new_grad", url: str = None, date_posted: str = None, first_seen: str = None):
         """Helper to create a Job object"""
         return Job(
             id=f"test_{hash((company, title, location, url))}",
@@ -269,7 +269,8 @@ class TestJobDedup(unittest.TestCase):
             location=location,
             url=url or f"https://example.com/{hash((company, title))}",
             source=source,
-            date_posted=date_posted
+            date_posted=date_posted,
+            first_seen=first_seen
         )
 
     def test_dedup_same_job_different_urls(self):
@@ -312,27 +313,21 @@ class TestJobDedup(unittest.TestCase):
                 job_groups[key] = job
         self.assertEqual(len(job_groups), 2)
 
-    def test_dedup_prefers_reliable_posting_date(self):
-        """When same job exists in both sources, prefer source with reliable posting date"""
-        # Sources with real posting dates
-        RELIABLE_DATE_SOURCES = {"speedyapply", "jobright", "linkedin", "indeed", "glassdoor"}
-
-        def has_reliable_date(job):
-            return job.source.lower() in RELIABLE_DATE_SOURCES and job.date_posted
-
-        def date_sort_key(job):
-            if has_reliable_date(job):
-                return (0, job.date_posted)
+    def test_dedup_prefers_first_seen(self):
+        """When same job exists in both sources, prefer first seen"""
+        def first_seen_sort_key(job):
+            if job.first_seen:
+                return (0, job.first_seen)
             return (1, "")
 
         jobs = [
-            # Simplify has earlier date but it's not reliable (date added to repo, not posted)
-            self._create_job("Google", "Software Engineer", "NYC", source="simplify_new_grad", date_posted="2025-01-10"),
-            # SpeedyApply has later but reliable posting date
-            self._create_job("Google", "Software Engineer", "NYC", source="speedyapply", date_posted="2025-01-15"),
+            # Simplify was seen later
+            self._create_job("Google", "Software Engineer", "NYC", source="simplify_new_grad", first_seen="2025-01-15"),
+            # SpeedyApply was seen first
+            self._create_job("Google", "Software Engineer", "NYC", source="speedyapply", first_seen="2025-01-10"),
         ]
-        # Sort by reliable date (earliest first), unreliable dates go last
-        jobs_sorted = sorted(jobs, key=date_sort_key)
+        # Sort by first_seen (earliest first)
+        jobs_sorted = sorted(jobs, key=first_seen_sort_key)
 
         job_groups = {}
         for job in jobs_sorted:
@@ -341,9 +336,9 @@ class TestJobDedup(unittest.TestCase):
                 job_groups[key] = job
 
         self.assertEqual(len(job_groups), 1)
-        # SpeedyApply wins because it has a reliable posting date
+        # SpeedyApply wins because it was seen first
         self.assertEqual(job_groups[("google", "software engineer", "nyc")].source, "speedyapply")
-        self.assertEqual(job_groups[("google", "software engineer", "nyc")].date_posted, "2025-01-15")
+        self.assertEqual(job_groups[("google", "software engineer", "nyc")].first_seen, "2025-01-10")
 
     def test_dedup_normalizes_title_dashes(self):
         """Titles with different dash styles should be treated as same"""

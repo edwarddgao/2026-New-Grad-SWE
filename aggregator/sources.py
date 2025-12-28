@@ -30,6 +30,7 @@ class Job:
     url: str
     source: str
     date_posted: Optional[str] = None
+    first_seen: Optional[str] = None  # Date we first encountered this job
     salary_min: Optional[int] = None
     salary_max: Optional[int] = None
     sponsorship: Optional[str] = None
@@ -803,6 +804,7 @@ class JobAggregator:
     # Sources that need caching (ephemeral scraped data)
     SCRAPED_SOURCES = {"linkedin", "indeed", "glassdoor", "builtin_nyc", "builtin_sf", "builtin_la", "hn_hiring"}
     CACHE_FILE = ".scraped_jobs_cache.json"
+    FIRST_SEEN_FILE = ".first_seen_cache.json"
     CACHE_EXPIRY_DAYS = 30  # Remove jobs older than this
 
     def __init__(self, levels_companies_file: str = None):
@@ -817,7 +819,9 @@ class JobAggregator:
         self.enricher = LevelsFyiEnricher(levels_companies_file)
         self.jobs: List[Job] = []
         self._job_cache: Dict[str, dict] = {}  # url -> job dict
+        self._first_seen_cache: Dict[str, str] = {}  # normalized_url -> first_seen date
         self._load_job_cache()
+        self._load_first_seen_cache()
 
     def _load_job_cache(self):
         """Load cached scraped jobs from file"""
@@ -854,6 +858,52 @@ class JobAggregator:
             print(f"  [JobCache] Saved {len(valid_jobs)} jobs to cache")
         except Exception as e:
             print(f"  [JobCache] Error saving cache: {e}")
+
+    def _load_first_seen_cache(self):
+        """Load first_seen dates from file"""
+        import os
+        if os.path.exists(self.FIRST_SEEN_FILE):
+            try:
+                with open(self.FIRST_SEEN_FILE, 'r') as f:
+                    data = json.load(f)
+                    self._first_seen_cache = data.get('first_seen', {})
+                    print(f"  [FirstSeen] Loaded {len(self._first_seen_cache)} tracked URLs")
+            except Exception as e:
+                print(f"  [FirstSeen] Error loading cache: {e}")
+                self._first_seen_cache = {}
+
+    def _save_first_seen_cache(self):
+        """Save first_seen dates to file"""
+        try:
+            with open(self.FIRST_SEEN_FILE, 'w') as f:
+                json.dump({'first_seen': self._first_seen_cache, 'updated': datetime.now().isoformat()}, f, indent=2)
+            print(f"  [FirstSeen] Saved {len(self._first_seen_cache)} tracked URLs")
+        except Exception as e:
+            print(f"  [FirstSeen] Error saving cache: {e}")
+
+    def _normalize_url_for_tracking(self, url: str) -> str:
+        """Normalize URL for first_seen tracking"""
+        if not url:
+            return ""
+        url = url.split('?')[0].split('#')[0].rstrip('/').lower()
+        url = url.replace('job-boards.greenhouse.io', 'boards.greenhouse.io')
+        return url
+
+    def _populate_first_seen(self, jobs: List[Job]) -> List[Job]:
+        """Populate first_seen field on jobs and update cache"""
+        today = datetime.now().strftime("%Y-%m-%d")
+        new_count = 0
+        for job in jobs:
+            normalized_url = self._normalize_url_for_tracking(job.url)
+            if normalized_url in self._first_seen_cache:
+                job.first_seen = self._first_seen_cache[normalized_url]
+            else:
+                job.first_seen = today
+                self._first_seen_cache[normalized_url] = today
+                new_count += 1
+        if new_count > 0:
+            print(f"  [FirstSeen] {new_count} new jobs tracked")
+        return jobs
 
     def _cache_jobs(self, jobs: List[Job]):
         """Add scraped jobs to cache (only jobs that pass the filter)"""
@@ -969,6 +1019,9 @@ class JobAggregator:
             all_jobs.extend(cached_jobs)
             print(f"  [JobCache] Added {len(cached_jobs)} jobs from cache")
 
+        # Populate first_seen dates for dedup priority
+        all_jobs = self._populate_first_seen(all_jobs)
+
         # Deduplicate by URL (normalize URLs first to catch duplicates with query params)
         def normalize_url_for_dedup(url: str) -> str:
             """Normalize URL by removing query parameters, fragments, and standardizing hosts."""
@@ -992,18 +1045,11 @@ class JobAggregator:
                 seen_urls.add(normalized_url)
                 unique_jobs.append(job)
 
-        # Deduplicate by (company, title) - keep earliest posted job
-        # Sources with real posting dates vs unreliable dates
-        RELIABLE_DATE_SOURCES = {"speedyapply", "jobright", "linkedin", "indeed", "glassdoor"}
-
-        def has_reliable_date(job):
-            """Check if job source has accurate posting dates."""
-            return job.source.lower() in RELIABLE_DATE_SOURCES and job.date_posted
-
-        def date_sort_key(job):
-            """Sort by real posting date (earliest first). Jobs without reliable dates go last."""
-            if has_reliable_date(job):
-                return (0, job.date_posted)
+        # Deduplicate by (company, title) - keep first seen job
+        def first_seen_sort_key(job):
+            """Sort by first_seen date (earliest first). Jobs without first_seen go last."""
+            if job.first_seen:
+                return (0, job.first_seen)
             return (1, "")
 
         # Group by (company, normalized_title, normalized_location) and keep best
@@ -1113,8 +1159,8 @@ class JobAggregator:
         # For each group, deduplicate based on location overlap
         job_groups = {}
         for (company, title), jobs in company_title_groups.items():
-            # Sort by date posted (earliest first) so we keep first-posted job
-            jobs_sorted = sorted(jobs, key=date_sort_key)
+            # Sort by first_seen (earliest first) so we keep first-seen job
+            jobs_sorted = sorted(jobs, key=first_seen_sort_key)
 
             kept_jobs = []
             for job in jobs_sorted:
@@ -1160,8 +1206,9 @@ class JobAggregator:
 
         self.jobs = filtered_jobs
 
-        # Save job cache for persistence between runs
+        # Save caches for persistence between runs
         self._save_job_cache()
+        self._save_first_seen_cache()
 
         print(f"\n=== Total unique jobs: {len(filtered_jobs)} ===")
         return filtered_jobs
