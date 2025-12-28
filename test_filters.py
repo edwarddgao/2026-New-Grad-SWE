@@ -312,31 +312,6 @@ class TestJobDedup(unittest.TestCase):
                 job_groups[key] = job
         self.assertEqual(len(job_groups), 2)
 
-    def test_dedup_prefers_earlier_posted_job(self):
-        """When same job exists in both sources, prefer earliest posted"""
-        def date_sort_key(job):
-            if job.date_posted:
-                return (0, job.date_posted)
-            return (1, "")
-
-        jobs = [
-            self._create_job("Google", "Software Engineer", "NYC", source="jobright", date_posted="2025-01-15"),
-            self._create_job("Google", "Software Engineer", "NYC", source="simplify_new_grad", date_posted="2025-01-10"),
-        ]
-        # Sort by date (earliest first)
-        jobs_sorted = sorted(jobs, key=date_sort_key)
-
-        job_groups = {}
-        for job in jobs_sorted:
-            key = (job.company.lower(), job.title.lower(), job.location.lower())
-            if key not in job_groups:
-                job_groups[key] = job
-
-        self.assertEqual(len(job_groups), 1)
-        # Simplify job was posted earlier (2025-01-10), so it wins
-        self.assertEqual(job_groups[("google", "software engineer", "nyc")].source, "simplify_new_grad")
-        self.assertEqual(job_groups[("google", "software engineer", "nyc")].date_posted, "2025-01-10")
-
     def test_dedup_normalizes_title_dashes(self):
         """Titles with different dash styles should be treated as same"""
         jobs = [
