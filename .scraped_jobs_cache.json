@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4350594878",
-      "title": "Entry Level Software Developer: 2026",
+      "id": "linkedin_li-4348593617",
+      "title": "Entry Level Site Reliability Engineer",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -76,8 +76,8 @@
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
-      "remote": false,
-      "description": "**Introduction**\n As a Software Developer, you\u2019ll gain hands\\-on experience working on real\\-world projects that impact users globally. You\u2019ll collaborate with designers and developers to build responsive, elegant, and user\\-friendly applications using modern web technologies.\n   \n\n  \n\n**Your Role And Responsibilities**\n**You will:**\n* Participate in Agile development cycles: design, code, test, and support.\n* Translate wireframes into functional user interfaces.\n* Learn and apply best practices",
+      "remote": true,
+      "description": "**Introduction**\n A career in IBM Software means you\u2019ll be part of a team that transforms our customer\u2019s challenges into solutions.\n   \n\n  \n\n Seeking new possibilities and always staying curious, we are a team dedicated to creating the world\u2019s leading AI\\-powered, cloud\\-native software solutions for our customers. Our renowned legacy creates endless global opportunities for our IBMers, so the door is always open for those who want to grow their career.\n   \n\n  \n\n IBM\u2019s product and technology lan",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -255,7 +255,23 @@
       "remote": false,
       "description": "As a RoviSys employee, you will use the latest technologies as we provide innovative solutions for our clients. You will design, implement, and configure automation systems, and/or write custom systems. We support our customers onsite and from our offices, located throughout North America. We use new and exciting technology to improve our clients\u2019 sustainability, profitability, efficiency and overall success!\n   \n\n  \n\n**Responsibilities**\n**Entry Level Position: College Graduate \\- 2 years exper",
       "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application": {
+      "id": "linkedin_li-4332086664",
+      "title": "Agent Engineer (New Grad, Summer 2026)",
+      "company": "Assort Health",
+      "company_slug": "assort-health",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Our mission is to make exceptional healthcare accessible anytime, anywhere, for everyone.**\n At Assort Health, we believe healthcare should feel effortless and connected \u2014 quick answers, clear communication, and seamless access to care. That\u2019s why we\u2019re building a new foundation for how patients and providers connect, driven by AI, built to embrace the complexities of healthcare, and tailored to each provider\u2019s unique needs.\n   \n\n  \n\n Assort is the most comprehensive patient experience platfor",
+      "experience_level": null
     }
   },
-  "updated": "2025-12-28T11:17:25.008549"
+  "updated": "2025-12-28T12:39:03.478151"
 }
