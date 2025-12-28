@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4348593617",
-      "title": "Entry Level Site Reliability Engineer",
+      "id": "linkedin_li-4350594878",
+      "title": "Entry Level Software Developer: 2026",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -76,8 +76,8 @@
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
-      "remote": true,
-      "description": "**Introduction**\n A career in IBM Software means you\u2019ll be part of a team that transforms our customer\u2019s challenges into solutions.\n   \n\n  \n\n Seeking new possibilities and always staying curious, we are a team dedicated to creating the world\u2019s leading AI\\-powered, cloud\\-native software solutions for our customers. Our renowned legacy creates endless global opportunities for our IBMers, so the door is always open for those who want to grow their career.\n   \n\n  \n\n IBM\u2019s product and technology lan",
+      "remote": false,
+      "description": "**Introduction**\n As a Software Developer, you\u2019ll gain hands\\-on experience working on real\\-world projects that impact users globally. You\u2019ll collaborate with designers and developers to build responsive, elegant, and user\\-friendly applications using modern web technologies.\n   \n\n  \n\n**Your Role And Responsibilities**\n**You will:**\n* Participate in Agile development cycles: design, code, test, and support.\n* Translate wireframes into functional user interfaces.\n* Learn and apply best practices",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -305,5 +305,5 @@
       "experience_level": null
     }
   },
-  "updated": "2025-12-28T22:19:40.902398"
+  "updated": "2025-12-28T23:19:44.058278"
 }
