@@ -638,7 +638,7 @@ class JobAggregator:
     """Main aggregator that pulls from all sources"""
 
     # Sources that need caching (ephemeral scraped data)
-    SCRAPED_SOURCES = {"linkedin", "builtin_nyc", "builtin_sf", "builtin_la", "hn_hiring"}
+    SCRAPED_SOURCES = {"linkedin", "indeed", "builtin_nyc", "builtin_sf", "builtin_la", "hn_hiring"}
     CACHE_FILE = ".scraped_jobs_cache.json"
     CACHE_EXPIRY_DAYS = 30  # Remove jobs older than this
 
@@ -710,6 +710,7 @@ class JobAggregator:
     def fetch_all(self, include_linkedin: bool = False, linkedin_limit: int = 50,
                   include_builtin: bool = False, builtin_cities: List[str] = None,
                   include_hn: bool = False, hn_limit: int = 100,
+                  include_indeed: bool = False, indeed_limit: int = 50,
                   skip_enrichment: bool = False) -> List[Job]:
         """Fetch jobs from all sources"""
         print("\n=== Fetching jobs from all sources ===\n")
@@ -757,6 +758,25 @@ class JobAggregator:
                 location="California", results=linkedin_limit // 4,
                 cached_jobs=self._job_cache
             ))
+
+        # Indeed (optional, uses JobSpy scraping)
+        # Indeed is more reliable than Google Jobs for new grad positions
+        if include_indeed and self.sources["jobspy"].available:
+            # Search for new grad positions
+            indeed_searches = [
+                ("software engineer new grad", "New York, NY"),
+                ("software engineer new grad", "California"),
+                ("new grad software engineer 2026", "New York, NY"),
+                ("new grad software engineer 2026", "California"),
+            ]
+            for search_term, location in indeed_searches:
+                all_jobs.extend(self.sources["jobspy"].fetch(
+                    site="indeed",
+                    search_term=search_term,
+                    location=location,
+                    results=indeed_limit // len(indeed_searches),
+                    cached_jobs=self._job_cache
+                ))
 
         # Cache newly scraped jobs before deduplication
         scraped_jobs = [j for j in all_jobs if j.source in self.SCRAPED_SOURCES]
