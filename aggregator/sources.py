@@ -993,9 +993,16 @@ class JobAggregator:
                 unique_jobs.append(job)
 
         # Deduplicate by (company, title) - keep earliest posted job
+        # Sources with real posting dates vs unreliable dates
+        RELIABLE_DATE_SOURCES = {"speedyapply", "jobright", "linkedin", "indeed", "glassdoor"}
+
+        def has_reliable_date(job):
+            """Check if job source has accurate posting dates."""
+            return job.source.lower() in RELIABLE_DATE_SOURCES and job.date_posted
+
         def date_sort_key(job):
-            """Sort by date_posted (earliest first). Jobs without dates go last."""
-            if job.date_posted:
+            """Sort by real posting date (earliest first). Jobs without reliable dates go last."""
+            if has_reliable_date(job):
                 return (0, job.date_posted)
             return (1, "")
 

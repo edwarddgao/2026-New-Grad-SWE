@@ -312,18 +312,26 @@ class TestJobDedup(unittest.TestCase):
                 job_groups[key] = job
         self.assertEqual(len(job_groups), 2)
 
-    def test_dedup_prefers_earlier_posted_job(self):
-        """When same job exists in both sources, prefer earliest posted"""
+    def test_dedup_prefers_reliable_posting_date(self):
+        """When same job exists in both sources, prefer source with reliable posting date"""
+        # Sources with real posting dates
+        RELIABLE_DATE_SOURCES = {"speedyapply", "jobright", "linkedin", "indeed", "glassdoor"}
+
+        def has_reliable_date(job):
+            return job.source.lower() in RELIABLE_DATE_SOURCES and job.date_posted
+
         def date_sort_key(job):
-            if job.date_posted:
+            if has_reliable_date(job):
                 return (0, job.date_posted)
             return (1, "")
 
         jobs = [
-            self._create_job("Google", "Software Engineer", "NYC", source="jobright", date_posted="2025-01-15"),
+            # Simplify has earlier date but it's not reliable (date added to repo, not posted)
             self._create_job("Google", "Software Engineer", "NYC", source="simplify_new_grad", date_posted="2025-01-10"),
+            # SpeedyApply has later but reliable posting date
+            self._create_job("Google", "Software Engineer", "NYC", source="speedyapply", date_posted="2025-01-15"),
         ]
-        # Sort by date (earliest first)
+        # Sort by reliable date (earliest first), unreliable dates go last
         jobs_sorted = sorted(jobs, key=date_sort_key)
 
         job_groups = {}
@@ -333,9 +341,9 @@ class TestJobDedup(unittest.TestCase):
                 job_groups[key] = job
 
         self.assertEqual(len(job_groups), 1)
-        # Simplify job was posted earlier (2025-01-10), so it wins
-        self.assertEqual(job_groups[("google", "software engineer", "nyc")].source, "simplify_new_grad")
-        self.assertEqual(job_groups[("google", "software engineer", "nyc")].date_posted, "2025-01-10")
+        # SpeedyApply wins because it has a reliable posting date
+        self.assertEqual(job_groups[("google", "software engineer", "nyc")].source, "speedyapply")
+        self.assertEqual(job_groups[("google", "software engineer", "nyc")].date_posted, "2025-01-15")
 
     def test_dedup_normalizes_title_dashes(self):
         """Titles with different dash styles should be treated as same"""
