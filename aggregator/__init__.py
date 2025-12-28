@@ -3,7 +3,6 @@ Job Aggregator Package
 
 Aggregates job listings from multiple sources including:
 - SimplifyJobs GitHub repos
-- Jobright GitHub repos
 - Built In (NYC, SF, LA)
 - Hacker News Who's Hiring threads
 - Indeed/LinkedIn/Glassdoor via JobSpy

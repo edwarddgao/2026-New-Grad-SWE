@@ -90,60 +90,6 @@ class SimplifySource:
         return None
 
 
-class JobrightSource:
-    """Pull jobs from jobright-ai GitHub repos"""
-
-    URL = "https://raw.githubusercontent.com/jobright-ai/2025-Software-Engineer-New-Grad/master/README.md"
-
-    def fetch(self) -> List[Job]:
-        jobs = []
-        try:
-            resp = requests.get(self.URL, timeout=60)
-            if resp.status_code == 200:
-                # Parse markdown table
-                pattern = re.compile(
-                    r'\|\s*\*\*\[([^\]]+)\]\(([^)]+)\)\*\*\s*\|\s*'  # Company
-                    r'\*\*\[([^\]]+)\]\(([^)]+)\)\*\*\s*\|\s*'        # Job title
-                    r'([^|]+)\|\s*'                                    # Location
-                    r'([^|]+)\|\s*'                                    # Work model
-                    r'([^|]+)\|'                                       # Date
-                )
-
-                for match in pattern.finditer(resp.text):
-                    company, company_url, title, job_url, location, work_model, date = match.groups()
-
-                    # Skip job titles that got captured as companies
-                    if any(x in company.lower() for x in ['engineer', 'developer', 'analyst']):
-                        continue
-
-                    job = Job(
-                        id=f"jobright_{hash(job_url) % 10**8}",
-                        title=title.strip(),
-                        company=company.strip(),
-                        company_slug=slugify(company),
-                        location=location.strip(),
-                        url=job_url,
-                        source="jobright",
-                        date_posted=self._parse_date(date.strip()),
-                        remote="remote" in work_model.lower(),
-                        experience_level="new_grad"
-                    )
-                    jobs.append(job)
-                print(f"  [Jobright] Parsed: {len(jobs)} jobs")
-        except Exception as e:
-            print(f"  [Jobright] Error: {e}")
-        return jobs
-
-    def _parse_date(self, date_str: str) -> Optional[str]:
-        """Parse date from format 'Dec 23' to YYYY-MM-DD."""
-        try:
-            current_year = datetime.now().year
-            dt = datetime.strptime(f"{date_str} {current_year}", "%b %d %Y")
-            return dt.strftime("%Y-%m-%d")
-        except ValueError:
-            return None
-
-
 class BuiltInSource:
     """Pull jobs from Built In (NYC, SF, etc.)"""
 
@@ -684,7 +630,6 @@ class JobAggregator:
     def __init__(self, levels_companies_file: str = None):
         self.sources = {
             "simplify": SimplifySource(),
-            "jobright": JobrightSource(),
             "builtin": BuiltInSource(),  # Built In NYC/SF/LA
             "hn": HNHiringSource(),  # HN Who's Hiring
             "jobspy": JobSpySource(),  # For Indeed/LinkedIn
@@ -761,9 +706,6 @@ class JobAggregator:
 
         # Simplify (always)
         all_jobs.extend(self.sources["simplify"].fetch())
-
-        # Jobright (always)
-        all_jobs.extend(self.sources["jobright"].fetch())
 
         # Built In (optional)
         # Pass cached jobs to preserve original posted dates across scrapes
@@ -865,13 +807,11 @@ class JobAggregator:
                 unique_jobs.append(job)
 
         # Deduplicate by (company, title) - keep best source
-        # Priority: simplify > jobright > others
+        # Priority: simplify > others
         def source_priority(source):
             if source.startswith("simplify"):
                 return 0
-            if source == "jobright":
-                return 1
-            return 2
+            return 1
 
         # Group by (company, normalized_title, normalized_location) and keep best
         def normalize_title_for_dedup(title: str) -> str:

@@ -81,9 +81,8 @@ class TestJobFiltering(unittest.TestCase):
         self.assertTrue(self._should_keep("University Graduate Engineer"))
 
     def test_keep_curated_source(self):
-        """Should keep: Any title from curated source (Simplify/Jobright)"""
+        """Should keep: Any title from curated source (Simplify)"""
         self.assertTrue(self._should_keep("Random Title", source="simplify_new_grad"))
-        self.assertTrue(self._should_keep("Random Title", source="jobright"))
 
     # ===== Tests for FILTERING OUT jobs =====
 
@@ -164,9 +163,9 @@ class TestJobFiltering(unittest.TestCase):
         self.assertFalse(self._should_keep("Software Engineer - PhD"))
 
     def test_filter_phd_from_curated_source(self):
-        """Should filter: PhD jobs even from curated sources (Simplify/Jobright)"""
+        """Should filter: PhD jobs even from curated sources (Simplify)"""
         self.assertFalse(self._should_keep("Research Scientist - PhD", source="simplify_new_grad"))
-        self.assertFalse(self._should_keep("ML Engineer PhD Graduate", source="jobright"))
+        self.assertFalse(self._should_keep("ML Engineer PhD Graduate", source="simplify_new_grad"))
 
     def test_filter_phd_graduate(self):
         """Should filter: PhD Graduate positions"""
@@ -310,17 +309,15 @@ class TestJobDedup(unittest.TestCase):
                 job_groups[key] = job
         self.assertEqual(len(job_groups), 2)
 
-    def test_dedup_prefers_simplify_over_jobright(self):
+    def test_dedup_prefers_simplify_over_others(self):
         """When same job exists in both sources, prefer Simplify"""
         def source_priority(source):
             if source.startswith("simplify"):
                 return 0
-            if source == "jobright":
-                return 1
-            return 2
+            return 1
 
         jobs = [
-            self._create_job("Google", "Software Engineer", "NYC", source="jobright"),
+            self._create_job("Google", "Software Engineer", "NYC", source="linkedin"),
             self._create_job("Google", "Software Engineer", "NYC", source="simplify_new_grad"),
         ]
         job_groups = {}
