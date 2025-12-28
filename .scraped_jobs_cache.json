@@ -776,7 +776,7 @@
       "location": "Santa Ana, CA",
       "url": "https://www.linkedin.com/jobs/view/4350526331",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-27",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -975,7 +975,23 @@
       "remote": false,
       "description": null,
       "experience_level": null
+    },
+    "https://www.linkedin.com/jobs/view/4350598292": {
+      "id": "linkedin_li-4350598292",
+      "title": "Web Developer",
+      "company": "TP-Link",
+      "company_slug": "tp-link",
+      "location": "Irvine, CA",
+      "url": "https://www.linkedin.com/jobs/view/4350598292",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": null,
+      "experience_level": null
     }
   },
-  "updated": "2025-12-28T02:36:11.478612"
+  "updated": "2025-12-28T02:43:45.023645"
 }
