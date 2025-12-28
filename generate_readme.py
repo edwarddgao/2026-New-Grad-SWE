@@ -63,7 +63,7 @@ def generate_readme(skip_enrichment: bool = False):
 
     # Fetch and filter jobs
     agg = JobAggregator()
-    agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=False, builtin_cities=["nyc", "sf", "la"], include_hn=True, hn_limit=100, include_indeed=True, indeed_limit=100, skip_enrichment=skip_enrichment)
+    agg.fetch_all(include_linkedin=False, linkedin_limit=100, include_builtin=False, builtin_cities=["nyc", "sf", "la"], include_hn=True, hn_limit=100, include_indeed=True, indeed_limit=100, skip_enrichment=skip_enrichment)
     agg.filter_location(["nyc", "california"])
 
     # Load valid companies AFTER enrichment so newly discovered companies are included
@@ -87,7 +87,7 @@ def generate_readme(skip_enrichment: bool = False):
 
     readme = f"""# New Grad SWE Jobs - NYC & California
 
-> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
+> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
 **Last updated:** {now}
 
@@ -162,7 +162,6 @@ This list aggregates new grad software engineering positions in NYC and Californ
 - **[SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions)** - Curated new grad job database
 - **[SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs)** - 2026 SWE internship and new grad positions
 - **[Indeed](https://indeed.com)** - Job board with company career page postings
-- **[LinkedIn](https://linkedin.com/jobs)** - Professional job board (via JobSpy)
 - **[HN Who's Hiring](https://news.ycombinator.com)** - Monthly Hacker News hiring thread
 
 ### Usage
