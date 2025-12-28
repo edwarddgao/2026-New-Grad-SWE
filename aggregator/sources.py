@@ -622,12 +622,11 @@ class JobSpySource:
             results_df = self.scrape_jobs(**kwargs)
 
             for _, row in results_df.iterrows():
-                # Prefer direct URL (actual company posting) over wrapper URL
+                # Only include jobs with direct URLs (actual company postings)
                 job_url_direct = row.get("job_url_direct", "")
-                if job_url_direct and str(job_url_direct).lower() not in ('nan', 'none', ''):
-                    job_url = str(job_url_direct).split('?')[0]  # Remove tracking params
-                else:
-                    job_url = row.get("job_url", "")
+                if not job_url_direct or str(job_url_direct).lower() in ('nan', 'none', ''):
+                    continue  # Skip jobs without direct URLs
+                job_url = str(job_url_direct).split('?')[0]  # Remove tracking params
 
                 # Use cached posted date if available, otherwise parse from source
                 # This ensures the posted date stays stable across scrapes
