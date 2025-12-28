@@ -87,7 +87,7 @@ def generate_readme(skip_enrichment: bool = False):
 
     readme = f"""# New Grad SWE Jobs - NYC & California
 
-> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [LinkedIn](https://linkedin.com/jobs), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
+> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [LinkedIn](https://linkedin.com/jobs), [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537), and top company career pages (Anthropic, Stripe, SpaceX, etc.)
 
 **Last updated:** {now}
 
@@ -129,7 +129,11 @@ def generate_readme(skip_enrichment: bool = False):
             "builtin_la": "Built In LA",
             "hn_hiring": "HN Hiring"
         }
-        source = source_map.get(job.source, job.source)
+        # Handle greenhouse_* sources
+        if job.source.startswith("greenhouse_"):
+            source = "Greenhouse"
+        else:
+            source = source_map.get(job.source, job.source)
 
         # Age
         age = get_age(job.date_posted)
@@ -162,6 +166,7 @@ This list aggregates new grad software engineering positions in NYC and Californ
 - **[SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs)** - 2026 SWE internship and new grad positions
 - **[LinkedIn](https://linkedin.com/jobs)** - Professional job board (via JobSpy)
 - **[HN Who's Hiring](https://news.ycombinator.com)** - Monthly Hacker News hiring thread
+- **Top Company Career Pages** - Direct scraping from Anthropic, Stripe, SpaceX, Databricks, Figma, Discord, Waymo, Anduril, and more via Greenhouse API
 
 ### Usage
 

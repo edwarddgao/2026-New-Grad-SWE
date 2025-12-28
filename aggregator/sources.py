@@ -634,6 +634,132 @@ class JobSpySource:
         return None
 
 
+class GreenhouseSource:
+    """Pull jobs directly from top-paying companies using Greenhouse API"""
+
+    # Top-paying companies that use Greenhouse API
+    # Format: (company_name, greenhouse_slug, custom_url_domain or None)
+    COMPANIES = [
+        # AI/ML Companies
+        ("Anthropic", "anthropic", None),
+        ("Scale AI", "scaleai", None),
+
+        # Fintech / Crypto
+        ("Stripe", "stripe", "https://stripe.com/jobs/search"),
+        ("Affirm", "affirm", None),
+        ("Coinbase", "coinbase", None),
+
+        # Top Tech
+        ("Databricks", "databricks", None),
+        ("Figma", "figma", None),
+        ("Roblox", "roblox", "https://careers.roblox.com/jobs"),
+        ("Discord", "discord", None),
+        ("Datadog", "datadog", "https://careers.datadoghq.com/detail"),
+
+        # Autonomous Vehicles / Robotics
+        ("Nuro", "nuro", "https://nuro.ai/careersitem"),
+        ("Waymo", "waymo", None),
+
+        # Defense / Aerospace
+        ("Anduril Industries", "andurilindustries", None),
+        ("SpaceX", "spacex", None),
+
+        # Security / Enterprise
+        ("Verkada", "verkada", None),
+        ("Okta", "okta", None),
+
+        # Biotech
+        ("Benchling", "benchling", None),
+    ]
+
+    API_BASE = "https://api.greenhouse.io/v1/boards/{slug}/jobs"
+
+    def __init__(self):
+        self.available = True
+
+    def fetch(self, companies: List[str] = None) -> List[Job]:
+        """
+        Fetch jobs from specified companies (or all if not specified).
+
+        Args:
+            companies: List of company names to fetch. If None, fetches all.
+        """
+        jobs = []
+
+        target_companies = self.COMPANIES
+        if companies:
+            companies_lower = [c.lower() for c in companies]
+            target_companies = [c for c in self.COMPANIES if c[0].lower() in companies_lower]
+
+        for company_name, slug, custom_url in target_companies:
+            try:
+                url = self.API_BASE.format(slug=slug)
+                resp = requests.get(url, timeout=30)
+
+                if resp.status_code == 404:
+                    print(f"  [Greenhouse] {company_name}: Not found (404)")
+                    continue
+
+                if resp.status_code != 200:
+                    print(f"  [Greenhouse] {company_name}: Error {resp.status_code}")
+                    continue
+
+                data = resp.json()
+                company_jobs = data.get("jobs", [])
+
+                for item in company_jobs:
+                    job_id = item.get("id", "")
+                    title = item.get("title", "")
+                    location = self._extract_location(item)
+                    job_url = item.get("absolute_url", "")
+
+                    # Use custom URL format if specified
+                    if custom_url:
+                        job_url = f"{custom_url}?gh_jid={job_id}"
+
+                    # Parse date
+                    date_posted = self._parse_date(item.get("updated_at"))
+
+                    job = Job(
+                        id=f"greenhouse_{slug}_{job_id}",
+                        title=title,
+                        company=company_name,
+                        company_slug=slugify(company_name),
+                        location=location,
+                        url=job_url,
+                        source=f"greenhouse_{slug}",
+                        date_posted=date_posted,
+                        experience_level=None  # Will be filtered later
+                    )
+                    jobs.append(job)
+
+                print(f"  [Greenhouse] {company_name}: {len(company_jobs)} jobs")
+
+            except Exception as e:
+                print(f"  [Greenhouse] {company_name}: Error - {e}")
+
+        return jobs
+
+    def _extract_location(self, item: dict) -> str:
+        """Extract location from job item."""
+        location = item.get("location", {})
+        if isinstance(location, dict):
+            return location.get("name", "Unknown")
+        return str(location) if location else "Unknown"
+
+    def _parse_date(self, date_str: str) -> Optional[str]:
+        """Parse ISO date string to YYYY-MM-DD format."""
+        if not date_str:
+            return None
+        try:
+            # Handle ISO format like "2025-12-27T10:00:00-05:00"
+            if "T" in date_str:
+                return date_str.split("T")[0]
+            return date_str[:10]
+        except (ValueError, IndexError):
+            return None
+
+
 class JobAggregator:
     """Main aggregator that pulls from all sources"""
 
@@ -649,6 +775,7 @@ class JobAggregator:
             "builtin": BuiltInSource(),  # Built In NYC/SF/LA
             "hn": HNHiringSource(),  # HN Who's Hiring
             "jobspy": JobSpySource(),  # For LinkedIn
+            "greenhouse": GreenhouseSource(),  # Top-paying companies via Greenhouse API
         }
         self.jobs: List[Job] = []
         self._job_cache: Dict[str, dict] = {}  # url -> job dict
@@ -757,6 +884,10 @@ class JobAggregator:
                 location="California", results=linkedin_limit // 4,
                 cached_jobs=self._job_cache
             ))
+
+        # Greenhouse - Top-paying companies (always enabled)
+        if self.sources["greenhouse"].available:
+            all_jobs.extend(self.sources["greenhouse"].fetch())
 
         # Cache newly scraped jobs before deduplication
         scraped_jobs = [j for j in all_jobs if j.source in self.SCRAPED_SOURCES]
