@@ -81,9 +81,8 @@ class TestJobFiltering(unittest.TestCase):
         self.assertTrue(self._should_keep("University Graduate Engineer"))
 
     def test_keep_curated_source(self):
-        """Should keep: Any title from curated source (Simplify/Jobright/SpeedyApply)"""
+        """Should keep: Any title from curated source (Simplify/SpeedyApply)"""
         self.assertTrue(self._should_keep("Random Title", source="simplify_new_grad"))
-        self.assertTrue(self._should_keep("Random Title", source="jobright"))
         self.assertTrue(self._should_keep("Random Title", source="speedyapply"))
 
     # ===== Tests for FILTERING OUT jobs =====
@@ -165,9 +164,9 @@ class TestJobFiltering(unittest.TestCase):
         self.assertFalse(self._should_keep("Software Engineer - PhD"))
 
     def test_filter_phd_from_curated_source(self):
-        """Should filter: PhD jobs even from curated sources (Simplify/Jobright)"""
+        """Should filter: PhD jobs even from curated sources (Simplify/SpeedyApply)"""
         self.assertFalse(self._should_keep("Research Scientist - PhD", source="simplify_new_grad"))
-        self.assertFalse(self._should_keep("ML Engineer PhD Graduate", source="jobright"))
+        self.assertFalse(self._should_keep("ML Engineer PhD Graduate", source="speedyapply"))
 
     def test_filter_phd_graduate(self):
         """Should filter: PhD Graduate positions"""
@@ -242,8 +241,8 @@ class TestJobCaching(unittest.TestCase):
         # These are real cases that were incorrectly cached
         jobs = [
             self._create_job("Howmet Aerospace", "NPD Engineer", "linkedin"),
-            self._create_job("Stantec", "Bridge Engineer", "indeed"),
-            self._create_job("Arup", "Graduate Software Developer", "indeed"),  # Should be cached
+            self._create_job("Stantec", "Bridge Engineer", "linkedin"),
+            self._create_job("Arup", "Graduate Software Developer", "linkedin"),  # Should be cached
         ]
 
         agg._cache_jobs(jobs)
@@ -320,7 +319,7 @@ class TestJobDedup(unittest.TestCase):
             return (1, "")
 
         jobs = [
-            self._create_job("Google", "Software Engineer", "NYC", source="jobright", date_posted="2025-01-15"),
+            self._create_job("Google", "Software Engineer", "NYC", source="linkedin", date_posted="2025-01-15"),
             self._create_job("Google", "Software Engineer", "NYC", source="simplify_new_grad", date_posted="2025-01-10"),
         ]
         # Sort by date (earliest first)
@@ -611,7 +610,6 @@ def show_filtered_jobs():
     agg.fetch_all(
         include_linkedin=True, linkedin_limit=100,
         include_builtin=True, builtin_cities=["nyc"],
-        include_indeed=True, indeed_limit=50,
         include_hn=True, hn_limit=100
     )
 
