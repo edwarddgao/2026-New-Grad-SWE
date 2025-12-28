@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4348593617",
-      "title": "Entry Level Site Reliability Engineer",
+      "id": "linkedin_li-4350594878",
+      "title": "Entry Level Software Developer: 2026",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -76,8 +76,8 @@
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
-      "remote": true,
-      "description": "**Introduction**\n A career in IBM Software means you\u2019ll be part of a team that transforms our customer\u2019s challenges into solutions.\n   \n\n  \n\n Seeking new possibilities and always staying curious, we are a team dedicated to creating the world\u2019s leading AI\\-powered, cloud\\-native software solutions for our customers. Our renowned legacy creates endless global opportunities for our IBMers, so the door is always open for those who want to grow their career.\n   \n\n  \n\n IBM\u2019s product and technology lan",
+      "remote": false,
+      "description": "**Introduction**\n As a Software Developer, you\u2019ll gain hands\\-on experience working on real\\-world projects that impact users globally. You\u2019ll collaborate with designers and developers to build responsive, elegant, and user\\-friendly applications using modern web technologies.\n   \n\n  \n\n**Your Role And Responsibilities**\n**You will:**\n* Participate in Agile development cycles: design, code, test, and support.\n* Translate wireframes into functional user interfaces.\n* Learn and apply best practices",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -287,7 +287,23 @@
       "remote": false,
       "description": "**Job Description**\n Are you passionate about crafting software that solves real\\-world problems and shapes the future of an entire industry? The Verisk team is seeking a proactive and results\\-driven entry\\-level Software Engineer to develop sophisticated solutions for the insurance industry's complex business challenges and further enhance our industry\\-leading products.\n   \n\n  \n\n You will have the opportunity to make an impact and contribute to a complex application suite of products, mission",
       "experience_level": null
+    },
+    "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Optimization-Engineer\\u002d\\u002dLLVM-and-MLIR\\u002d\\u002d-New-College-Grad-2025_JR2006770": {
+      "id": "linkedin_li-4331605210",
+      "title": "Compiler Optimization Engineer, LLVM and MLIR - New College Grad 2025",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Optimization-Engineer\\u002d\\u002dLLVM-and-MLIR\\u002d\\u002d-New-College-Grad-2025_JR2006770",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "For two decades, NVIDIA has pioneered visual computing, the art and science of computer graphics. With our invention of the GPU \\- the engine of modern visual computing \\- the field has expanded to encompass video games, movie production, product design, medical diagnosis and scientific research. Today, visual computing is becoming increasingly central to how people interact with technology, and there has never been a more exciting time to join our team!\n   \n\n  \n\n**What You Will Be Doing**\n* Ide",
+      "experience_level": null
     }
   },
-  "updated": "2025-12-28T16:24:17.740997"
+  "updated": "2025-12-28T17:18:14.110051"
 }
