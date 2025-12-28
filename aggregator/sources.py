@@ -534,7 +534,7 @@ class JobSpySource:
             print("  [JobSpy] Not installed. Run: pip install python-jobspy")
 
     def fetch(self, site: str = "indeed", search_term: str = "software engineer new grad",
-              location: str = "United States", results: int = 50, hours_old: int = 72,
+              location: str = "United States", results: int = 50, hours_old: int = 168,
               cached_jobs: Dict[str, dict] = None) -> List[Job]:
         """
         Fetch jobs from Indeed/LinkedIn/Glassdoor via JobSpy.
