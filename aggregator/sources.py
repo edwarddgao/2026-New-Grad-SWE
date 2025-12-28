@@ -874,23 +874,31 @@ class JobAggregator:
             return 2
 
         # Group by (company, normalized_title, normalized_location) and keep best
-        def normalize_title_for_dedup(title: str) -> str:
-            """Normalize title by extracting core words, ignoring order and year markers."""
+        def get_title_words(title: str) -> set:
+            """Extract normalized word set from title, removing common qualifiers."""
             title = title.lower()
             # Remove common year/grad markers that vary between sources
             markers = [
                 'new college grad 2026', 'new college grad 2025',
                 'new grad 2026', 'new grad 2025', '2026 start', '2025 start',
-                '2026 grads', '2025 grads', '(bs/ms)', 'bs/ms',
+                '2026 grads', '2025 grads', '(bs/ms)', 'bs/ms', '2026', '2025',
             ]
             for marker in markers:
                 title = title.replace(marker, '')
             # Replace all punctuation with spaces
             title = re.sub(r'[–—\-,;:\(\)\[\]\/]', ' ', title)
             # Extract alphanumeric words
-            words = re.findall(r'[a-z0-9]+', title)
+            words = set(re.findall(r'[a-z0-9]+', title))
+            # Remove common qualifiers that don't change the core role
+            qualifiers = {'early', 'career', 'new', 'grad', 'graduate', 'junior',
+                         'entry', 'level', 'associate', 'i', 'ii', '1', '2'}
+            return words - qualifiers
+
+        def normalize_title_for_dedup(title: str) -> str:
+            """Normalize title by extracting core words, ignoring order and year markers."""
+            words = get_title_words(title)
             # Sort words to create canonical form (order-independent comparison)
-            return ' '.join(sorted(set(words)))
+            return ' '.join(sorted(words))
 
         def normalize_single_location(loc: str) -> str:
             """Normalize a single location like 'SF' -> 'san francisco, ca'."""
