@@ -144,6 +144,130 @@ class JobrightSource:
             return None
 
 
+class SpeedyApplySource:
+    """Pull jobs from speedyapply/2026-SWE-College-Jobs GitHub repo"""
+
+    URL = "https://raw.githubusercontent.com/speedyapply/2026-SWE-College-Jobs/main/NEW_GRAD_USA.md"
+
+    def fetch(self) -> List[Job]:
+        jobs = []
+        try:
+            resp = requests.get(self.URL, timeout=60)
+            if resp.status_code == 200:
+                # Parse markdown table with HTML links
+                # Format: | <a href="company_url"><strong>Company</strong></a> | Position | Location | Salary | <a href="job_url">...</a> | Age |
+                # Or without salary: | <a href="company_url"><strong>Company</strong></a> | Position | Location | <a href="job_url">...</a> | Age |
+
+                # Pattern for rows with salary column
+                pattern_with_salary = re.compile(
+                    r'\|\s*<a href="[^"]*"><strong>([^<]+)</strong></a>\s*\|\s*'  # Company
+                    r'([^|]+)\|\s*'  # Position
+                    r'([^|]+)\|\s*'  # Location
+                    r'(\$[^|]+)\|\s*'  # Salary (starts with $)
+                    r'<a href="([^"]+)"[^|]+\|\s*'  # Job URL
+                    r'(\d+)d\s*\|'  # Age in days
+                )
+
+                # Pattern for rows without salary column
+                pattern_no_salary = re.compile(
+                    r'\|\s*<a href="[^"]*"><strong>([^<]+)</strong></a>\s*\|\s*'  # Company
+                    r'([^|]+)\|\s*'  # Position
+                    r'([^|]+)\|\s*'  # Location
+                    r'<a href="([^"]+)"[^|]+\|\s*'  # Job URL
+                    r'(\d+)d\s*\|'  # Age in days
+                )
+
+                seen_urls = set()
+
+                # First try pattern with salary
+                for match in pattern_with_salary.finditer(resp.text):
+                    company, title, location, salary, job_url, age_days = match.groups()
+
+                    if job_url in seen_urls:
+                        continue
+                    seen_urls.add(job_url)
+
+                    # Parse salary
+                    salary_min, salary_max = self._parse_salary(salary.strip())
+
+                    job = Job(
+                        id=f"speedyapply_{hash(job_url) % 10**8}",
+                        title=title.strip(),
+                        company=company.strip(),
+                        company_slug=slugify(company),
+                        location=location.strip(),
+                        url=job_url,
+                        source="speedyapply",
+                        date_posted=self._parse_age(int(age_days)),
+                        salary_min=salary_min,
+                        salary_max=salary_max,
+                        experience_level="new_grad"
+                    )
+                    jobs.append(job)
+
+                # Then try pattern without salary for remaining rows
+                for match in pattern_no_salary.finditer(resp.text):
+                    company, title, location, job_url, age_days = match.groups()
+
+                    if job_url in seen_urls:
+                        continue
+                    seen_urls.add(job_url)
+
+                    job = Job(
+                        id=f"speedyapply_{hash(job_url) % 10**8}",
+                        title=title.strip(),
+                        company=company.strip(),
+                        company_slug=slugify(company),
+                        location=location.strip(),
+                        url=job_url,
+                        source="speedyapply",
+                        date_posted=self._parse_age(int(age_days)),
+                        experience_level="new_grad"
+                    )
+                    jobs.append(job)
+
+                print(f"  [SpeedyApply] Parsed: {len(jobs)} jobs")
+        except Exception as e:
+            print(f"  [SpeedyApply] Error: {e}")
+        return jobs
+
+    def _parse_age(self, days: int) -> Optional[str]:
+        """Convert age in days to YYYY-MM-DD date string."""
+        try:
+            return (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+        except (ValueError, OSError):
+            return None
+
+    def _parse_salary(self, salary_str: str) -> tuple:
+        """Parse salary string like '$172k/yr' or '$62/hr' to (min, max) integers."""
+        if not salary_str:
+            return None, None
+        try:
+            # Remove $ and whitespace
+            salary_str = salary_str.replace('$', '').replace(',', '').strip()
+
+            # Handle hourly rate (convert to annual assuming 2080 hours/year)
+            if '/hr' in salary_str:
+                hourly = float(salary_str.replace('/hr', '').replace('k', ''))
+                if 'k' in salary_str.replace('/hr', ''):
+                    hourly *= 1000
+                annual = int(hourly * 2080)
+                return annual, annual
+
+            # Handle annual salary
+            if '/yr' in salary_str:
+                salary_str = salary_str.replace('/yr', '')
+
+            if 'k' in salary_str.lower():
+                val = float(salary_str.lower().replace('k', '')) * 1000
+                return int(val), int(val)
+
+            val = float(salary_str)
+            return int(val), int(val)
+        except (ValueError, TypeError):
+            return None, None
+
+
 class BuiltInSource:
     """Pull jobs from Built In (NYC, SF, etc.)"""
 
@@ -685,6 +809,7 @@ class JobAggregator:
         self.sources = {
             "simplify": SimplifySource(),
             "jobright": JobrightSource(),
+            "speedyapply": SpeedyApplySource(),  # SpeedyApply 2026 SWE Jobs
             "builtin": BuiltInSource(),  # Built In NYC/SF/LA
             "hn": HNHiringSource(),  # HN Who's Hiring
             "jobspy": JobSpySource(),  # For Indeed/LinkedIn
@@ -764,6 +889,9 @@ class JobAggregator:
 
         # Jobright (always)
         all_jobs.extend(self.sources["jobright"].fetch())
+
+        # SpeedyApply (always)
+        all_jobs.extend(self.sources["speedyapply"].fetch())
 
         # Built In (optional)
         # Pass cached jobs to preserve original posted dates across scrapes
