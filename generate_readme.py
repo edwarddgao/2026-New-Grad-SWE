@@ -109,6 +109,7 @@ def generate_readme(skip_enrichment: bool = False):
         if age != current_age:
             current_age = age
             age_label = age if age else "Unknown"
+            readme += f"| | | | | | |\n"
             readme += f"| **⏰ {age_label}** | | | | | |\n"
         # Escape pipe characters to prevent breaking markdown table
         company = job.company.replace("|", "\\|")
