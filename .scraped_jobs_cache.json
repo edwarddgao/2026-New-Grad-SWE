@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4348593617",
-      "title": "Entry Level Site Reliability Engineer",
+      "id": "linkedin_li-4350594878",
+      "title": "Entry Level Software Developer: 2026",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -76,8 +76,8 @@
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
-      "remote": true,
-      "description": "**Introduction**\n A career in IBM Software means you\u2019ll be part of a team that transforms our customer\u2019s challenges into solutions.\n   \n\n  \n\n Seeking new possibilities and always staying curious, we are a team dedicated to creating the world\u2019s leading AI\\-powered, cloud\\-native software solutions for our customers. Our renowned legacy creates endless global opportunities for our IBMers, so the door is always open for those who want to grow their career.\n   \n\n  \n\n IBM\u2019s product and technology lan",
+      "remote": false,
+      "description": "**Introduction**\n As a Software Developer, you\u2019ll gain hands\\-on experience working on real\\-world projects that impact users globally. You\u2019ll collaborate with designers and developers to build responsive, elegant, and user\\-friendly applications using modern web technologies.\n   \n\n  \n\n**Your Role And Responsibilities**\n**You will:**\n* Participate in Agile development cycles: design, code, test, and support.\n* Translate wireframes into functional user interfaces.\n* Learn and apply best practices",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -136,7 +136,7 @@
       "location": "Santa Clara, CA",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Design-Engineer\\u002d\\u002d-New-College-Grad-2025_JR2006011",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-27",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -184,7 +184,7 @@
       "location": "Los Angeles, CA",
       "url": "https://www.executiveplacements.com/JF/Junior-Data-ScientistData-EngineerAI-jobs-in-Los-Angeles-California-a5f660b74b4e.asp",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-27",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -289,5 +289,5 @@
       "experience_level": null
     }
   },
-  "updated": "2025-12-28T13:29:40.624014"
+  "updated": "2025-12-28T14:19:16.446351"
 }
