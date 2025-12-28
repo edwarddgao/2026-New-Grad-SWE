@@ -87,7 +87,7 @@ def generate_readme(skip_enrichment: bool = False):
 
     readme = f"""# New Grad SWE Jobs - NYC & California
 
-> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
+> Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [LinkedIn](https://linkedin.com/jobs), [Indeed](https://indeed.com), [Glassdoor](https://glassdoor.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
 **Last updated:** {now}
 
@@ -123,6 +123,7 @@ def generate_readme(skip_enrichment: bool = False):
             "simplify_new_grad": "Simplify",
             "simplify_internship": "Simplify",
             "jobright": "Jobright",
+            "speedyapply": "SpeedyApply",
             "linkedin": "LinkedIn",
             "indeed": "Indeed",
             "glassdoor": "Glassdoor",
@@ -162,6 +163,7 @@ This list aggregates new grad software engineering positions in NYC and Californ
 
 - **[SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions)** - Curated new grad job database
 - **[Jobright](https://github.com/jobright-ai/2025-Software-Engineer-New-Grad)** - AI-powered job aggregator
+- **[SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs)** - 2026 SWE internship and new grad positions
 - **[LinkedIn](https://linkedin.com/jobs)** - Professional job board (via JobSpy)
 - **[Indeed](https://indeed.com)** - Job search engine (via JobSpy)
 - **[Glassdoor](https://glassdoor.com)** - Job board with salary data (via JobSpy)

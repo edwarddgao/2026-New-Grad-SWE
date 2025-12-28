@@ -81,9 +81,10 @@ class TestJobFiltering(unittest.TestCase):
         self.assertTrue(self._should_keep("University Graduate Engineer"))
 
     def test_keep_curated_source(self):
-        """Should keep: Any title from curated source (Simplify/Jobright)"""
+        """Should keep: Any title from curated source (Simplify/Jobright/SpeedyApply)"""
         self.assertTrue(self._should_keep("Random Title", source="simplify_new_grad"))
         self.assertTrue(self._should_keep("Random Title", source="jobright"))
+        self.assertTrue(self._should_keep("Random Title", source="speedyapply"))
 
     # ===== Tests for FILTERING OUT jobs =====
 
