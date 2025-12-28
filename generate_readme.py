@@ -102,7 +102,18 @@ def generate_readme(skip_enrichment: bool = False):
 """
 
     # Add job rows sorted by recency
+    current_age = None
     for job in sorted_jobs:
+        # Get age first to check for date separator
+        age = get_age(job.date_posted)
+
+        # Add separator row when date group changes
+        if age != current_age:
+            if current_age is not None:
+                # Add a separator row between date groups
+                readme += "| | | | | | |\n"
+            current_age = age
+
         # Escape pipe characters to prevent breaking markdown table
         company = job.company.replace("|", "\\|")
         title = job.title.replace("|", "\\|")
@@ -133,9 +144,6 @@ def generate_readme(skip_enrichment: bool = False):
             "hn_hiring": "HN Hiring"
         }
         source = source_map.get(job.source, job.source)
-
-        # Age
-        age = get_age(job.date_posted)
 
         # Compensation (linked to Levels.fyi only if company exists there)
         company_slug = scraper._normalize_company(job.company)
