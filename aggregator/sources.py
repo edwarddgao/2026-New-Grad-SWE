@@ -3,21 +3,19 @@ Job Aggregator - Data Sources Module
 Pulls job listings from multiple free sources
 """
 
+import html
 import json
+import os
 import re
 import requests
-import urllib3
-from typing import List, Dict, Optional
+import time
 from dataclasses import dataclass, asdict
 from datetime import datetime, timedelta
-import time
+from typing import List, Dict, Optional
 
 from .filters import filter_jobs
 from .levels_scraper import get_scraper
 from .utils import slugify
-
-# Suppress SSL warnings for YC API
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 @dataclass
 class Job:
@@ -88,60 +86,6 @@ class SimplifySource:
             except (ValueError, OSError, OverflowError):
                 pass
         return None
-
-
-class JobrightSource:
-    """Pull jobs from jobright-ai GitHub repos"""
-
-    URL = "https://raw.githubusercontent.com/jobright-ai/2025-Software-Engineer-New-Grad/master/README.md"
-
-    def fetch(self) -> List[Job]:
-        jobs = []
-        try:
-            resp = requests.get(self.URL, timeout=60)
-            if resp.status_code == 200:
-                # Parse markdown table
-                pattern = re.compile(
-                    r'\|\s*\*\*\[([^\]]+)\]\(([^)]+)\)\*\*\s*\|\s*'  # Company
-                    r'\*\*\[([^\]]+)\]\(([^)]+)\)\*\*\s*\|\s*'        # Job title
-                    r'([^|]+)\|\s*'                                    # Location
-                    r'([^|]+)\|\s*'                                    # Work model
-                    r'([^|]+)\|'                                       # Date
-                )
-
-                for match in pattern.finditer(resp.text):
-                    company, company_url, title, job_url, location, work_model, date = match.groups()
-
-                    # Skip job titles that got captured as companies
-                    if any(x in company.lower() for x in ['engineer', 'developer', 'analyst']):
-                        continue
-
-                    job = Job(
-                        id=f"jobright_{hash(job_url) % 10**8}",
-                        title=title.strip(),
-                        company=company.strip(),
-                        company_slug=slugify(company),
-                        location=location.strip(),
-                        url=job_url,
-                        source="jobright",
-                        date_posted=self._parse_date(date.strip()),
-                        remote="remote" in work_model.lower(),
-                        experience_level="new_grad"
-                    )
-                    jobs.append(job)
-                print(f"  [Jobright] Parsed: {len(jobs)} jobs")
-        except Exception as e:
-            print(f"  [Jobright] Error: {e}")
-        return jobs
-
-    def _parse_date(self, date_str: str) -> Optional[str]:
-        """Parse date from format 'Dec 23' to YYYY-MM-DD."""
-        try:
-            current_year = datetime.now().year
-            dt = datetime.strptime(f"{date_str} {current_year}", "%b %d %Y")
-            return dt.strftime("%Y-%m-%d")
-        except ValueError:
-            return None
 
 
 class SpeedyApplySource:
@@ -533,7 +477,6 @@ class HNHiringSource:
             return None
 
         # Unescape HTML entities
-        import html
         text = html.unescape(text)
 
         # Format is typically: Company | Role | Location | REMOTE/ONSITE | URL
@@ -691,118 +634,6 @@ class JobSpySource:
         return None
 
 
-# Backwards compatibility alias
-IndeedSource = JobSpySource
-
-
-class YCombinatorSource:
-    """Pull YC company data and jobs from Work at a Startup"""
-
-    COMPANIES_API = "https://api.ycombinator.com/v0.1/companies"
-    JOBS_BASE_URL = "https://www.workatastartup.com/companies"
-
-    def fetch(self, min_team_size: int = 2, max_team_size: int = 100,
-              recent_batches_only: bool = True) -> List[Job]:
-        """
-        Fetch YC companies and generate job search URLs.
-        Note: Actual jobs require visiting workatastartup.com (JS-rendered).
-        This provides company data and direct links to their job pages.
-        """
-        jobs = []
-        try:
-            # Fetch all pages of companies
-            all_companies = []
-            page = 1
-            max_pages = 50  # Limit to avoid too many requests
-
-            while page <= max_pages:
-                resp = requests.get(
-                    f"{self.COMPANIES_API}?page={page}",
-                    timeout=60,
-                    verify=False  # YC API has cert issues sometimes
-                )
-                if resp.status_code != 200:
-                    break
-
-                data = resp.json()
-                companies = data.get("companies", [])
-                if not companies:
-                    break
-
-                all_companies.extend(companies)
-                page += 1
-
-                # Rate limit
-                time.sleep(0.1)
-
-            print(f"  [YC] Fetched {len(all_companies)} companies from API ({page-1} pages)")
-
-            # Recent batches (last ~3 years) - more likely to be hiring
-            recent_batches = {
-                'W26', 'S25', 'W25', 'S24', 'W24', 'S23', 'W23', 'S22', 'W22'
-            }
-
-            # Filter for active, hiring companies
-            for company in all_companies:
-                if company.get("status") != "Active":
-                    continue
-
-                # Filter by recent batches if requested
-                batch = company.get("batch", "")
-                if recent_batches_only and batch not in recent_batches:
-                    continue
-
-                team_size = company.get("teamSize") or 0
-                if team_size < min_team_size or team_size > max_team_size:
-                    continue
-
-                # Create a job entry for each company (pointing to their jobs page)
-                # Note: This links to the company page, not a specific job listing
-                # The company may have multiple roles at different levels
-                job = Job(
-                    id=f"yc_{company.get('id', '')}",
-                    title=f"Open Roles at {company.get('name', 'YC Startup')} (YC {batch})",
-                    company=company.get("name", ""),
-                    company_slug=company.get("slug", ""),
-                    location=", ".join(company.get("locations", ["Remote"])),
-                    url=f"{self.JOBS_BASE_URL}/{company.get('slug', '')}",
-                    source="yc_workatastartup",
-                    description=company.get("oneLiner", ""),
-                    remote="Remote" in company.get("regions", []),
-                    experience_level=None  # Mixed levels - check individual listings
-                )
-                jobs.append(job)
-
-            print(f"  [YC] {len(jobs)} active startups (team size {min_team_size}-{max_team_size})")
-
-        except Exception as e:
-            print(f"  [YC] Error: {e}")
-
-        return jobs
-
-
-class LevelsFyiEnricher:
-    """Enrich job data with levels.fyi salary information"""
-
-    def __init__(self, companies_file: str = None):
-        self.companies: set = set()
-        if companies_file:
-            try:
-                with open(companies_file, 'r') as f:
-                    self.companies = set(line.strip().lower() for line in f if line.strip())
-                print(f"  [Levels.fyi] Loaded {len(self.companies)} companies")
-            except (IOError, OSError) as e:
-                print(f"  [Levels.fyi] Error loading companies file: {e}")
-
-    def has_salary_data(self, company_slug: str) -> bool:
-        """Check if company exists on levels.fyi"""
-        return company_slug.lower() in self.companies
-
-    def get_company_url(self, company_slug: str) -> str:
-        """Get levels.fyi URL for company"""
-        return f"https://www.levels.fyi/companies/{company_slug}/salaries"
-
-
 class JobAggregator:
     """Main aggregator that pulls from all sources"""
 
@@ -811,7 +642,7 @@ class JobAggregator:
     CACHE_FILE = ".scraped_jobs_cache.json"
     CACHE_EXPIRY_DAYS = 30  # Remove jobs older than this
 
-    def __init__(self, levels_companies_file: str = None):
+    def __init__(self):
         self.sources = {
             "simplify": SimplifySource(),
             "speedyapply": SpeedyApplySource(),  # SpeedyApply 2026 SWE Jobs
@@ -819,14 +650,12 @@ class JobAggregator:
             "hn": HNHiringSource(),  # HN Who's Hiring
             "jobspy": JobSpySource(),  # For LinkedIn
         }
-        self.enricher = LevelsFyiEnricher(levels_companies_file)
         self.jobs: List[Job] = []
         self._job_cache: Dict[str, dict] = {}  # url -> job dict
         self._load_job_cache()
 
     def _load_job_cache(self):
         """Load cached scraped jobs from file"""
-        import os
         if os.path.exists(self.CACHE_FILE):
             try:
                 with open(self.CACHE_FILE, 'r') as f:
@@ -992,29 +821,6 @@ class JobAggregator:
         print(f"\n=== Total unique jobs: {len(filtered_jobs)} ===")
         return filtered_jobs
 
-    def enrich(self) -> List[Job]:
-        """Enrich jobs with levels.fyi data"""
-        enriched = 0
-        for job in self.jobs:
-            if self.enricher.has_salary_data(job.company_slug):
-                job.description = (job.description or "") + f"\n\n[Salary data available on levels.fyi]({self.enricher.get_company_url(job.company_slug)})"
-                enriched += 1
-        print(f"  [Enriched] {enriched} jobs have levels.fyi salary data")
-        return self.jobs
-
-    def filter_new_grad(self) -> List[Job]:
-        """Filter to only new grad/entry level positions"""
-        keywords = ['new grad', 'entry level', 'junior', 'associate', 'early career',
-                   'university', 'graduate', 'level 1', 'level i', 'i ', 'engineer 1',
-                   'software engineer 1', 'swe 1', 'developer 1']
-        filtered = []
-        for job in self.jobs:
-            title_lower = job.title.lower()
-            if any(kw in title_lower for kw in keywords) or job.experience_level == "new_grad":
-                filtered.append(job)
-        print(f"  [Filtered] {len(filtered)} new grad positions")
-        return filtered
-
     def filter_location(self, regions: List[str] = None) -> List[Job]:
         """Filter jobs by location (NYC, California, etc.)"""
         if regions is None:
@@ -1060,54 +866,3 @@ class JobAggregator:
         self.jobs = filtered
         print(f"  [Location] {len(filtered)} jobs in {', '.join(regions)}")
         return filtered
-
-    def to_json(self, filepath: str):
-        """Export jobs to JSON"""
-        with open(filepath, 'w') as f:
-            json.dump([job.to_dict() for job in self.jobs], f, indent=2)
-        print(f"  [Export] Saved {len(self.jobs)} jobs to {filepath}")
-
-    def summary(self) -> Dict:
-        """Get summary statistics"""
-        sources = {}
-        companies = set()
-        with_salary = 0
-
-        for job in self.jobs:
-            sources[job.source] = sources.get(job.source, 0) + 1
-            companies.add(job.company_slug)
-            if job.salary_min or job.salary_max:
-                with_salary += 1
-
-        return {
-            "total_jobs": len(self.jobs),
-            "unique_companies": len(companies),
-            "jobs_with_salary": with_salary,
-            "by_source": sources
-        }
-
-
-if __name__ == "__main__":
-    # Test the aggregator
-    agg = JobAggregator(levels_companies_file="/home/user/Hidden-Gems/data/levels_companies.txt")
-
-    # Fetch from free sources + LinkedIn (NYC/CA searches)
-    jobs = agg.fetch_all(include_linkedin=True, linkedin_limit=100)
-
-    # Filter to NYC and California only
-    agg.filter_location(["nyc", "california"])
-
-    # Enrich with levels.fyi data
-    agg.enrich()
-
-    # Filter to new grad only
-    new_grad_jobs = agg.filter_new_grad()
-
-    # Export
-    agg.to_json("/home/user/Hidden-Gems/aggregator/jobs.json")
-
-    # Summary
-    print("\n=== Summary ===")
-    summary = agg.summary()
-    for key, val in summary.items():
-        print(f"  {key}: {val}")

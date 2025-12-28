@@ -702,11 +702,6 @@ class LevelsScraper:
         # Fallback to basic slugify
         return name_slug
 
-    def _slugify(self, name: str) -> str:
-        """Convert company name to URL slug (legacy, use _normalize_company)"""
-        return self._normalize_company(name)
-
-
     def get_salary(self, company: str, title: str = "software engineer",
                    location: str = None) -> Tuple[Optional[int], Optional[int]]:
         """
