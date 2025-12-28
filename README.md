@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-28 09:20
+**Last updated:** 2025-12-28 10:20
 
-**Total:** 788 jobs from 332 companies
+**Total:** 789 jobs from 333 companies
 
 ---
 
@@ -15,6 +15,7 @@
 | **Certik** | [Business Data Analyst](https://jobs.lever.co/certik/20f8e282-fd1a-4f17-8dcf-358e2200c1cf/apply) | NYC |  | Simplify | 1d |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://careers.qualcomm.com/careers/job/446714504707) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn | 2d |
 | **Internet Brands** | [Associate AI Research & Operations Analyst](https://jobs.jobvite.com/internetbrands/job/oDnbzfwu?nl=1&nl=1&fr=false) | El Segundo, CA |  | Simplify | 2d |
+| **Property Matrix** | [Entry Level Software Developer](https://www.propertymatrix.com/careers/entry-level-software-developer) | Los Angeles, CA |  | LinkedIn | 2d |
 | **ByteDance** | [Research Scientist Graduate - 3D/4D Generation - 2026 Start](https://jobs.bytedance.com/en/position/7585034854077778181/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 4d |
 | **Waymo** | [Applied Research Scientist - Perception](https://careers.withwaymo.com/jobs?gh_jid=7467839) | SF, Mountain View, CA | [$224k-237k](https://www.levels.fyi/companies/waymo/salaries) | Simplify | 4d |
 | **NVIDIA** | [Firmware Engineer - Memory Subsystem - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Firmware-Engineer--Memory-Subsystem---New-College-Grad-2026_JR2010096) | Santa Clara, CA | [$172k-172k](https://www.levels.fyi/companies/nvidia/salaries) | SpeedyApply | 4d |
@@ -795,10 +796,10 @@
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
 | **NVIDIA** | [System Design Engineer - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Design-Engineer\u002d\u002d-New-College-Grad-2025_JR2006011) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
-| **TP-Link** | [Web Developer](https://www.resume-library.com/feed/click/551/234211230) | Irvine, CA |  | LinkedIn |  |
-| **Jobs via Dice** | [Entry Level Software Developer Entry Level Software Developer](https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD) | Culver City, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
+| **Jobs via Dice** | [Entry Level Software Developer Entry Level Software Developer](https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD) | Culver City, CA |  | LinkedIn |  |
 | **Voltair** | [Software Engineering Intern](https://www.ycombinator.com/companies/voltair/jobs/0EEO4Ck-software-engineering-intern) | San Francisco, CA |  | LinkedIn |  |
+| **TP-Link** | [Web Developer](https://www.resume-library.com/feed/click/551/234211230) | Irvine, CA |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Junior Data Scientist/Data Engineer/AI](https://www.executiveplacements.com/JF/Junior-Data-ScientistData-EngineerAI-jobs-in-Los-Angeles-California-a5f660b74b4e.asp) | Los Angeles, CA |  | LinkedIn |  |
 
 ---
