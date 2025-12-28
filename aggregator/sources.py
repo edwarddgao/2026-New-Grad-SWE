@@ -1191,10 +1191,10 @@ class JobAggregator:
         location_patterns = {
             "nyc": [
                 "new york", "nyc", "brooklyn, ny", "manhattan", "queens, ny",
-                "bronx, ny", "staten island", ", ny,"
+                "bronx, ny", "staten island", ", ny,", ", ny"
             ],
             "california": [
-                "california", ", ca,", ", ca ", "san francisco", "los angeles",
+                "california", ", ca,", ", ca ", ", ca", "san francisco", "los angeles",
                 "san diego", "san jose", "oakland, ca", "palo alto",
                 "mountain view", "sunnyvale", "cupertino", "menlo park",
                 "redwood city", "santa clara", "irvine, ca", "pasadena, ca",
