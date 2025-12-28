@@ -3,7 +3,7 @@ Job filtering logic for new grad SWE roles
 """
 
 # Sources that are already curated for new grad roles
-CURATED_SOURCES = {"simplify_new_grad", "simplify_internship", "jobright", "speedyapply"}
+CURATED_SOURCES = {"simplify_new_grad", "simplify_internship", "speedyapply"}
 
 # Keywords indicating new grad/entry level positions
 NEW_GRAD_KEYWORDS = [

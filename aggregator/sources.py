@@ -616,11 +616,17 @@ class JobSpySource:
             }
             if site == "indeed":
                 kwargs["country_indeed"] = "USA"
+            if site == "linkedin":
+                kwargs["linkedin_fetch_description"] = True
 
             results_df = self.scrape_jobs(**kwargs)
 
             for _, row in results_df.iterrows():
-                job_url = row.get("job_url", "")
+                # Only include jobs with direct URLs (actual company postings)
+                job_url_direct = row.get("job_url_direct", "")
+                if not job_url_direct or str(job_url_direct).lower() in ('nan', 'none', ''):
+                    continue  # Skip jobs without direct URLs
+                job_url = str(job_url_direct).split('?')[0]  # Remove tracking params
 
                 # Use cached posted date if available, otherwise parse from source
                 # This ensures the posted date stays stable across scrapes
@@ -801,18 +807,17 @@ class JobAggregator:
     """Main aggregator that pulls from all sources"""
 
     # Sources that need caching (ephemeral scraped data)
-    SCRAPED_SOURCES = {"linkedin", "indeed", "glassdoor", "builtin_nyc", "builtin_sf", "builtin_la", "hn_hiring"}
+    SCRAPED_SOURCES = {"linkedin", "builtin_nyc", "builtin_sf", "builtin_la", "hn_hiring"}
     CACHE_FILE = ".scraped_jobs_cache.json"
     CACHE_EXPIRY_DAYS = 30  # Remove jobs older than this
 
     def __init__(self, levels_companies_file: str = None):
         self.sources = {
             "simplify": SimplifySource(),
-            "jobright": JobrightSource(),
             "speedyapply": SpeedyApplySource(),  # SpeedyApply 2026 SWE Jobs
             "builtin": BuiltInSource(),  # Built In NYC/SF/LA
             "hn": HNHiringSource(),  # HN Who's Hiring
-            "jobspy": JobSpySource(),  # For Indeed/LinkedIn
+            "jobspy": JobSpySource(),  # For LinkedIn
         }
         self.enricher = LevelsFyiEnricher(levels_companies_file)
         self.jobs: List[Job] = []
@@ -874,8 +879,6 @@ class JobAggregator:
         return jobs
 
     def fetch_all(self, include_linkedin: bool = False, linkedin_limit: int = 50,
-                  include_indeed: bool = False, indeed_limit: int = 50,
-                  include_glassdoor: bool = False, glassdoor_limit: int = 50,
                   include_builtin: bool = False, builtin_cities: List[str] = None,
                   include_hn: bool = False, hn_limit: int = 100,
                   skip_enrichment: bool = False) -> List[Job]:
@@ -886,9 +889,6 @@ class JobAggregator:
 
         # Simplify (always)
         all_jobs.extend(self.sources["simplify"].fetch())
-
-        # Jobright (always)
-        all_jobs.extend(self.sources["jobright"].fetch())
 
         # SpeedyApply (always)
         all_jobs.extend(self.sources["speedyapply"].fetch())
@@ -929,34 +929,6 @@ class JobAggregator:
                 cached_jobs=self._job_cache
             ))
 
-        # Indeed (optional, uses JobSpy scraping)
-        # Pass cached jobs to preserve original posted dates across scrapes
-        if include_indeed and self.sources["jobspy"].available:
-            # Search NYC
-            all_jobs.extend(self.sources["jobspy"].fetch(
-                site="indeed", location="New York, NY", results=indeed_limit // 2,
-                cached_jobs=self._job_cache
-            ))
-            # Search California
-            all_jobs.extend(self.sources["jobspy"].fetch(
-                site="indeed", location="California", results=indeed_limit // 2,
-                cached_jobs=self._job_cache
-            ))
-
-        # Glassdoor (optional, uses JobSpy scraping)
-        # Pass cached jobs to preserve original posted dates across scrapes
-        if include_glassdoor and self.sources["jobspy"].available:
-            # Search NYC
-            all_jobs.extend(self.sources["jobspy"].fetch(
-                site="glassdoor", location="New York, NY", results=glassdoor_limit // 2,
-                cached_jobs=self._job_cache
-            ))
-            # Search California
-            all_jobs.extend(self.sources["jobspy"].fetch(
-                site="glassdoor", location="California", results=glassdoor_limit // 2,
-                cached_jobs=self._job_cache
-            ))
-
         # Cache newly scraped jobs before deduplication
         scraped_jobs = [j for j in all_jobs if j.source in self.SCRAPED_SOURCES]
         if scraped_jobs:
@@ -985,155 +957,16 @@ class JobAggregator:
             return url
 
         seen_urls = set()
-        unique_jobs = []
+        deduped_jobs = []
         for job in all_jobs:
             normalized_url = normalize_url_for_dedup(job.url)
             if normalized_url not in seen_urls:
                 seen_urls.add(normalized_url)
-                unique_jobs.append(job)
+                deduped_jobs.append(job)
 
-        # Deduplicate by (company, title) - keep earliest posted job
-        def date_sort_key(job):
-            """Sort by date_posted (earliest first). Jobs without dates go last."""
-            if job.date_posted:
-                return (0, job.date_posted)
-            return (1, "")
-
-        # Group by (company, normalized_title, normalized_location) and keep best
-        def normalize_title_for_dedup(title: str) -> str:
-            """Normalize title by extracting core words, ignoring order and year markers."""
-            title = title.lower()
-            # Remove common year/grad markers that vary between sources
-            markers = [
-                'new college grad 2026', 'new college grad 2025',
-                'new grad 2026', 'new grad 2025', '2026 start', '2025 start',
-                '2026 grads', '2025 grads', '(bs/ms)', 'bs/ms',
-            ]
-            for marker in markers:
-                title = title.replace(marker, '')
-            # Replace all punctuation with spaces
-            title = re.sub(r'[–—\-,;:\(\)\[\]\/]', ' ', title)
-            # Extract alphanumeric words
-            words = re.findall(r'[a-z0-9]+', title)
-            # Sort words to create canonical form (order-independent comparison)
-            return ' '.join(sorted(set(words)))
-
-        def normalize_single_location(loc: str) -> str:
-            """Normalize a single location like 'SF' -> 'san francisco, ca'."""
-            loc = loc.lower().strip()
-            if not loc:
-                return ""
-            # Remove common suffixes
-            loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
-
-            # Known abbreviations and aliases
-            location_aliases = {
-                'sf': 'san francisco, ca',
-                'nyc': 'new york, ny',
-                'la': 'los angeles, ca',
-            }
-            if loc in location_aliases:
-                return location_aliases[loc]
-
-            # Extract city and state
-            match = re.match(r'^([^,]+)(?:,\s*([a-z]{2}))?', loc)
-            if match:
-                city = match.group(1).strip()
-                state = match.group(2) or ''
-                # Known CA cities
-                ca_cities = ['san francisco', 'san jose', 'los angeles', 'santa clara',
-                            'mountain view', 'palo alto', 'sunnyvale', 'san diego',
-                            'fremont', 'oakland', 'san mateo', 'cupertino', 'redwood city',
-                            'burbank', 'culver city', 'south san francisco', 'irvine']
-                ny_cities = ['new york', 'brooklyn', 'long island']
-                if city in ca_cities and not state:
-                    state = 'ca'
-                elif city in ny_cities and not state:
-                    state = 'ny'
-                return f"{city}, {state}" if state else city
-            return loc
-
-        def parse_locations(location: str) -> set:
-            """Parse location string into set of normalized locations.
-            Handles multi-location formats like 'SF, NYC' or 'San Francisco, NYC'."""
-            if not location:
-                return set()
-
-            loc = location.lower().strip()
-            loc = loc.replace(', united states', '').replace(', usa', '').replace(', us', '')
-
-            # Known multi-location patterns: split by comma but be smart about it
-            # "SF, NYC" -> ['SF', 'NYC']
-            # "San Francisco, CA" -> ['San Francisco, CA'] (not split)
-            # "New York, NY" -> ['New York, NY'] (not split)
-
-            # Check if this looks like a multi-location string
-            # Multi-location: comma followed by a known city/abbreviation (not a state code)
-            known_locations = {'sf', 'nyc', 'la', 'new york', 'san francisco', 'los angeles',
-                              'mountain view', 'palo alto', 'san jose', 'seattle'}
-
-            parts = [p.strip() for p in loc.split(',')]
-            locations = set()
-
-            i = 0
-            while i < len(parts):
-                part = parts[i]
-                # Check if next part is a 2-letter state code
-                if i + 1 < len(parts) and re.match(r'^[a-z]{2}$', parts[i + 1]):
-                    # This is "City, ST" format
-                    locations.add(normalize_single_location(f"{part}, {parts[i + 1]}"))
-                    i += 2
-                elif part in known_locations or len(part) <= 3:
-                    # This is an abbreviation or known city name alone
-                    locations.add(normalize_single_location(part))
-                    i += 1
-                else:
-                    # Unknown format, treat as single location
-                    locations.add(normalize_single_location(part))
-                    i += 1
-
-            return locations
-
-        # Group by (company, title) first, then merge jobs with overlapping locations
-        company_title_groups = {}
-        for job in unique_jobs:
-            title_norm = normalize_title_for_dedup(job.title)
-            key = (job.company.lower().strip(), title_norm)
-            if key not in company_title_groups:
-                company_title_groups[key] = []
-            company_title_groups[key].append(job)
-
-        # For each group, deduplicate based on location overlap
-        job_groups = {}
-        for (company, title), jobs in company_title_groups.items():
-            # Sort by date posted (earliest first) so we keep first-posted job
-            jobs_sorted = sorted(jobs, key=date_sort_key)
-
-            kept_jobs = []
-            for job in jobs_sorted:
-                job_locs = parse_locations(job.location)
-
-                # Check if this job's locations overlap with any kept job
-                is_duplicate = False
-                for kept in kept_jobs:
-                    kept_locs = parse_locations(kept.location)
-                    if job_locs & kept_locs:  # If locations overlap
-                        is_duplicate = True
-                        break
-
-                if not is_duplicate:
-                    kept_jobs.append(job)
-
-            for job in kept_jobs:
-                loc_key = ','.join(sorted(parse_locations(job.location)))
-                full_key = (company, title, loc_key)
-                job_groups[full_key] = job
-
-        deduped_jobs = list(job_groups.values())
-        dedup_count = len(unique_jobs) - len(deduped_jobs)
-
+        dedup_count = len(all_jobs) - len(deduped_jobs)
         if dedup_count > 0:
-            print(f"  [Deduped] Removed {dedup_count} duplicate jobs (same company+title+location)")
+            print(f"  [Deduped] Removed {dedup_count} duplicate jobs (same URL)")
 
         # Filter non-curated sources to only keep new grad/entry level SWE roles
         # This runs BEFORE enrichment to avoid wasting levels.fyi lookups on
