@@ -891,7 +891,11 @@ class JobAggregator:
             words = set(re.findall(r'[a-z0-9]+', title))
             # Remove common qualifiers that don't change the core role
             qualifiers = {'early', 'career', 'new', 'grad', 'graduate', 'junior',
-                         'entry', 'level', 'associate', 'i', 'ii', '1', '2'}
+                         'entry', 'level', 'associate', 'i', 'ii', '1', '2',
+                         # Location words that sometimes appear in titles
+                         'usa', 'us', 'york', 'jersey', 'francisco', 'san', 'jose',
+                         'california', 'ca', 'ny', 'nyc', 'la', 'seattle', 'wa',
+                         'remote', 'hybrid', 'onsite', 'on', 'site'}
             return words - qualifiers
 
         def normalize_title_for_dedup(title: str) -> str:
