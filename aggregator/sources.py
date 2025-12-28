@@ -992,14 +992,12 @@ class JobAggregator:
                 seen_urls.add(normalized_url)
                 unique_jobs.append(job)
 
-        # Deduplicate by (company, title) - keep best source
-        # Priority: simplify > jobright > others
-        def source_priority(source):
-            if source.startswith("simplify"):
-                return 0
-            if source == "jobright":
-                return 1
-            return 2
+        # Deduplicate by (company, title) - keep earliest posted job
+        def date_sort_key(job):
+            """Sort by date_posted (earliest first). Jobs without dates go last."""
+            if job.date_posted:
+                return (0, job.date_posted)
+            return (1, "")
 
         # Group by (company, normalized_title, normalized_location) and keep best
         def normalize_title_for_dedup(title: str) -> str:
@@ -1108,8 +1106,8 @@ class JobAggregator:
         # For each group, deduplicate based on location overlap
         job_groups = {}
         for (company, title), jobs in company_title_groups.items():
-            # Sort by source priority (best first) so we keep best source
-            jobs_sorted = sorted(jobs, key=lambda j: source_priority(j.source))
+            # Sort by date posted (earliest first) so we keep first-posted job
+            jobs_sorted = sorted(jobs, key=date_sort_key)
 
             kept_jobs = []
             for job in jobs_sorted:
