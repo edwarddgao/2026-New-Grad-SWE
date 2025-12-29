@@ -65,19 +65,19 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4325994393",
-      "title": "Entry Level QA/Test Developer",
+      "id": "linkedin_li-4348593617",
+      "title": "Entry Level Site Reliability Engineer",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "Research Park, CA",
+      "location": "San Jose, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2025-12-26",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
-      "remote": false,
-      "description": "**Introduction**\n At IBM, work is more than a job \\- it's a calling: To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. Are you ready to lead in this new era of technology and solve some of the world's most challenging problems? If so, lets talk.\n   \n\n  \n\n**Your Role And Responsibilities**\n As a QA/Test Developer, you will:\n   \n\n  \n\n* Work",
+      "remote": true,
+      "description": "**Introduction**\n A career in IBM Software means you\u2019ll be part of a team that transforms our customer\u2019s challenges into solutions.\n   \n\n  \n\n Seeking new possibilities and always staying curious, we are a team dedicated to creating the world\u2019s leading AI\\-powered, cloud\\-native software solutions for our customers. Our renowned legacy creates endless global opportunities for our IBMers, so the door is always open for those who want to grow their career.\n   \n\n  \n\n IBM\u2019s product and technology lan",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -465,5 +465,5 @@
       "experience_level": null
     }
   },
-  "updated": "2025-12-29T22:19:50.778880"
+  "updated": "2025-12-29T23:19:28.498628"
 }
