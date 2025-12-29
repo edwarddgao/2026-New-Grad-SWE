@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-29 04:49
+**Last updated:** 2025-12-29 05:28
 
 **Total:** 797 jobs from 336 companies
 
@@ -14,8 +14,8 @@
 |---------|------|----------|------|--------|--------|
 | **NVIDIA** | [System Design Engineer - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Design-Engineer\u002d\u002d-New-College-Grad-2025_JR2006011) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 2d |
 | **Certik** | [Business Data Analyst](https://jobs.lever.co/certik/20f8e282-fd1a-4f17-8dcf-358e2200c1cf/apply) | NYC |  | Simplify | 2d |
-| **Jobs via Dice** | [Entry Level Software Developer Entry Level Software Developer](https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD) | Culver City, CA |  | LinkedIn | 2d |
 | **ExecutivePlacements.com** | [Junior Data Scientist/Data Engineer/AI](https://www.executiveplacements.com/JF/Junior-Data-ScientistData-EngineerAI-jobs-in-Los-Angeles-California-a5f660b74b4e.asp) | Los Angeles, CA |  | LinkedIn | 2d |
+| **Jobs via Dice** | [Entry Level Software Developer Entry Level Software Developer](https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD) | Culver City, CA |  | LinkedIn | 2d |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://careers.qualcomm.com/careers/job/446714504707) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn | 3d |
 | **RoviSys** | [Entry Level Engineer/Developer (2026)](https://careers-rovisys.icims.com/jobs/1896/entry-level-engineer-developer-(2026)/job) | Thousand Oaks, CA | [$80k-80k](https://www.levels.fyi/companies/rovisys/salaries) | LinkedIn | 3d |
 | **Internet Brands** | [Associate AI Research & Operations Analyst](https://jobs.jobvite.com/internetbrands/job/oDnbzfwu?nl=1&nl=1&fr=false) | El Segundo, CA |  | Simplify | 3d |
@@ -804,11 +804,11 @@
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
 | **NVIDIA** | [Compiler Optimization Engineer, LLVM and MLIR - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Optimization-Engineer\u002d\u002dLLVM-and-MLIR\u002d\u002d-New-College-Grad-2025_JR2006770) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
-| **Assort Health** | [Agent Engineer (New Grad, Summer 2026)](https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Voltair** | [Software Engineering Intern](https://www.ycombinator.com/companies/voltair/jobs/0EEO4Ck-software-engineering-intern) | San Francisco, CA |  | LinkedIn |  |
 | **TP-Link** | [Web Developer](https://www.resume-library.com/feed/click/551/234211230) | Irvine, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
+| **Assort Health** | [Agent Engineer (New Grad, Summer 2026)](https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application) | San Francisco, CA |  | LinkedIn |  |
 
 ---
 
