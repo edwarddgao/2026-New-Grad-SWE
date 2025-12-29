@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-29 20:23
+**Last updated:** 2025-12-29 21:18
 
 **Total:** 799 jobs from 331 companies
 
@@ -17,9 +17,9 @@
 | **American Institutes for Research** | [Data Scientist Assistant](https://job-boards.greenhouse.io/americaninstitutesforresearch/jobs/5046338008) | Carrboro, NC, Austin, TX, Remote in U... |  | Simplify | 0d |
 | **GE Vernova** | [Post Doc – Advanced Computational Methods & Simulation](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Niskayuna/Post-Doc---Advanced-Computational-Methods---Simulation_R5021476-1) | Schenectady, NY |  | Simplify | 0d |
 | **NVIDIA** | [Compiler Optimization Engineer, LLVM and MLIR - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Optimization-Engineer\u002d\u002dLLVM-and-MLIR\u002d\u002d-New-College-Grad-2025_JR2006770) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 1d |
-| **Assort Health** | [Agent Engineer (New Grad, Summer 2026)](https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application) | San Francisco, CA |  | LinkedIn | 1d |
 | **Voltair** | [Software Engineering Intern](https://www.ycombinator.com/companies/voltair/jobs/0EEO4Ck-software-engineering-intern) | San Francisco, CA |  | LinkedIn | 1d |
 | **TP-Link** | [Web Developer](https://www.resume-library.com/feed/click/551/234211230) | Irvine, CA |  | LinkedIn | 1d |
+| **Assort Health** | [Agent Engineer (New Grad, Summer 2026)](https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application) | San Francisco, CA |  | LinkedIn | 1d |
 | **NVIDIA** | [System Design Engineer - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Design-Engineer\u002d\u002d-New-College-Grad-2025_JR2006011) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 2d |
 | **Certik** | [Business Data Analyst](https://jobs.lever.co/certik/20f8e282-fd1a-4f17-8dcf-358e2200c1cf/apply) | NYC |  | Simplify | 2d |
 | **Jobs via Dice** | [Entry Level Software Developer Entry Level Software Developer](https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD) | Culver City, CA |  | LinkedIn | 2d |
