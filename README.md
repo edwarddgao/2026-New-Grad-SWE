@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-29 18:30
+**Last updated:** 2025-12-29 19:16
 
-**Total:** 797 jobs from 330 companies
+**Total:** 800 jobs from 332 companies
 
 ---
 
@@ -13,10 +13,13 @@
 | Company | Role | Location | Comp | Source | Posted |
 |---------|------|----------|------|--------|--------|
 | **RailWorks Corporation** | [CAD Engineer (Entry Level)](https://jobs.railworks.com/job/New-York-City-CAD-Engineer-%28Entry-Level%29-NY-10001/1352189200/) | New York, NY, US | $62k-83k | Indeed | 0d |
+| **MUFG** | [Machine Learning Engineer - Data Pipelines](https://mufgub.wd3.myworkdayjobs.com/mufg-careers/job/Jersey-City-NJ/Machine-Learning-Engineer---Data-Pipelines--Analyst_10074067-WD) | NYC |  | Simplify | 0d |
+| **American Institutes for Research** | [Data Scientist Assistant](https://job-boards.greenhouse.io/americaninstitutesforresearch/jobs/5046338008) | Carrboro, NC, Austin, TX, Remote in U... |  | Simplify | 0d |
+| **GE Vernova** | [Post Doc – Advanced Computational Methods & Simulation](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Niskayuna/Post-Doc---Advanced-Computational-Methods---Simulation_R5021476-1) | Schenectady, NY |  | Simplify | 0d |
 | **NVIDIA** | [Compiler Optimization Engineer, LLVM and MLIR - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Optimization-Engineer\u002d\u002dLLVM-and-MLIR\u002d\u002d-New-College-Grad-2025_JR2006770) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 1d |
-| **Assort Health** | [Agent Engineer (New Grad, Summer 2026)](https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application) | San Francisco, CA |  | LinkedIn | 1d |
-| **TP-Link** | [Web Developer](https://www.resume-library.com/feed/click/551/234211230) | Irvine, CA |  | LinkedIn | 1d |
 | **Voltair** | [Software Engineering Intern](https://www.ycombinator.com/companies/voltair/jobs/0EEO4Ck-software-engineering-intern) | San Francisco, CA |  | LinkedIn | 1d |
+| **TP-Link** | [Web Developer](https://www.resume-library.com/feed/click/551/234211230) | Irvine, CA |  | LinkedIn | 1d |
+| **Assort Health** | [Agent Engineer (New Grad, Summer 2026)](https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application) | San Francisco, CA |  | LinkedIn | 1d |
 | **NVIDIA** | [System Design Engineer - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Design-Engineer\u002d\u002d-New-College-Grad-2025_JR2006011) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 2d |
 | **Certik** | [Business Data Analyst](https://jobs.lever.co/certik/20f8e282-fd1a-4f17-8dcf-358e2200c1cf/apply) | NYC |  | Simplify | 2d |
 | **Jobs via Dice** | [Entry Level Software Developer Entry Level Software Developer](https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD) | Culver City, CA |  | LinkedIn | 2d |
@@ -329,7 +332,6 @@
 | **CoreWeave** | [Software Engineer - Inference AI/ML](https://coreweave.com/careers/job?4609928006&board=coreweave&gh_jid=4609928006) | Bellevue, WA, Sunnyvale, CA |  | Simplify | 1mo |
 | **Pacific Life** | [Investments Operational Support Analyst - Document/Data Management](https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Pacific-Life-Investments-Operational-Support-Analyst---Document-Data-Management_R15681-1) | Newport Beach, CA |  | Simplify | 1mo |
 | **Super Micro Computer** | [Engineering Technician](https://jobs.supermicro.com/job/San-Jose-Engineering-Technician-Cali/1340417400/?ats=successfactors) | San Jose, CA |  | Simplify | 1mo |
-| **Rambus** | [Digital Design Engineer – New College Grad](https://careers-rambus.icims.com/jobs/22434/job?mobile=true&needsRedirect=false) | San Jose, CA |  | Simplify | 1mo |
 | **Roblox** | [2026] Software Engineer – Early Career - Security](https://careers.roblox.com/jobs/7357095?gh_jid=7357095) | San Mateo, CA | [$214k-331k](https://www.levels.fyi/companies/roblox/salaries) | Simplify | 1mo |
 | **TikTok** | [Data Engineer Graduate - Data Platform - Global Live](https://lifeattiktok.com/search/7535156928172902674) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 1mo |
 | **Anduril** | [Product Operations Associate - Ghost](https://boards.greenhouse.io/andurilindustries/jobs/4968731007) | Newport Beach, CA | [$190k-215k](https://www.levels.fyi/companies/anduril-industries/salaries) | Simplify | 1mo |
@@ -429,6 +431,7 @@
 | **Radical AI** | [Software Engineer - Agents](https://jobs.lever.co/RadicalAI/d5f1267c-82c6-43af-8e72-6f04989d1091/apply) | NYC |  | Simplify | 1mo |
 | **E-Space** | [Electronics Lab Technician](https://jobs.lever.co/espace/2b9625d7-5f3d-4c13-a88d-277867ee11bd/apply) | Saratoga, CA |  | Simplify | 1mo |
 | **Verition Fund Management** | [Quantitative Developer](https://www.verition.com/open-positions?gh_jid=4011276007) | London, UK, Waterbury, CT, Dubai - Un... |  | Simplify | 1mo |
+| **SCS Engineers** | [Field Data Analyst](https://careers-scsengineers.icims.com/jobs/1613/job?mobile=true&needsRedirect=false) | Modesto, CA |  | Simplify | 1mo |
 | **EliseAI** | [Senior Product Solutions Analyst - Housing](https://jobs.ashbyhq.com/EliseAI/676b89a9-7066-4557-94f0-0465715c6708/application) | NYC |  | Simplify | 1mo |
 | **ByteDance** | [Software Engineer Graduate - AI Platform - 2026 Start](https://jobs.bytedance.com/en/position/7540029640091650312/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 2mo |
 | **ByteDance** | [Software Engineer Graduate - Applied Machine Learning - Enterprise](https://jobs.bytedance.com/en/position/7532538236133902599/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 2mo |
@@ -801,14 +804,14 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 12mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
-| **Lensa** | [I and C Engineer - Entry Level (Data Centers)](https://lensa.com/cgw/eb7ce5009572462686afd7059b1a1d40tjo1) | Los Angeles, CA |  | LinkedIn |  |
+| **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/8e5db0548b5f4276b9af5137b451c770tjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/fdfeaee514d34b1c8eb27a8c07d55faatjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [I and C Engineer - Entry Level (Data Centers)](https://lensa.com/cgw/ca5cee5b68d249e991cee808d58705c7tjo1) | Irvine, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer: 2026](https://lensa.com/cgw/44c01cc7724542d3b759d09fb63c95f7tjo1) | San Jose, CA |  | LinkedIn |  |
-| **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/8e5db0548b5f4276b9af5137b451c770tjo1) | San Diego, CA |  | LinkedIn |  |
+| **Lensa** | [I and C Engineer - Entry Level (Data Centers)](https://lensa.com/cgw/eb7ce5009572462686afd7059b1a1d40tjo1) | Los Angeles, CA |  | LinkedIn |  |
 
 ---
 
