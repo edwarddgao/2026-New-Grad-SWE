@@ -625,7 +625,7 @@
       "experience_level": null
     },
     "https://careers.circle.com/us/en/job/CIICIRUSJR100011EGEXTERNALENUS/New-Grad-Software-Engineer-Backend-2026": {
-      "id": "linkedin_li-4340990873",
+      "id": "linkedin_li-4341160870",
       "title": "New Grad Software Engineer, Backend 2026",
       "company": "Circle",
       "company_slug": "circle",
@@ -687,7 +687,39 @@
       "remote": false,
       "description": "**Job Description**\n You don\u2019t see it, but it\u2019s there. Our employees work on the world\u2019s most advanced electronics \u2013 from saving emissions in the City of Lights to powering the Mars Rover to protecting the F\\-35 fighter jet! At Electronic Systems, you\u2019ll be among the brightest minds, working on the Defense and Space software industry\u2019s most difficult problems. Drawing strength from our differences, we\u2019re innovating for the future. And you can, too.\n   \n\n  \n\n We work a 9/80 schedule. Our flexible",
       "experience_level": null
+    },
+    "https://jobs.baesystems.com/global/en/job/BAE1US116228BREXTERNAL/Entry-Level-Systems-Engineer": {
+      "id": "linkedin_li-4308739898",
+      "title": "Entry Level Systems Engineer",
+      "company": "BAE Systems, Inc.",
+      "company_slug": "bae-systems-inc",
+      "location": "San Diego, CA",
+      "url": "https://jobs.baesystems.com/global/en/job/BAE1US116228BREXTERNAL/Entry-Level-Systems-Engineer",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Description**\n You don\u2019t see it, but it\u2019s there. Our employees work on the world\u2019s most advanced electronics \u2013 from saving emissions in the City of Lights to powering the Mars Rover to protecting the F\\-35 fighter jet! At Electronic Systems, you\u2019ll be among the brightest minds, working on the Defense and Space software industry\u2019s most difficult problems. Drawing strength from our differences, we\u2019re innovating for the future. And you can, too.\n   \n\n  \n\n Our flexible work environment provide",
+      "experience_level": null
+    },
+    "https://www.governmentjobs.com/careers/ventura/jobs/5109999/engineer-i-ii-iii-iv": {
+      "id": "indeed_in-45705b669e8f11ed",
+      "title": "Engineer I-II-III-IV",
+      "company": "County of Ventura Government",
+      "company_slug": "county-of-ventura-government",
+      "location": "Ventura, CA, US",
+      "url": "https://www.governmentjobs.com/careers/ventura/jobs/5109999/engineer-i-ii-iii-iv",
+      "source": "indeed",
+      "date_posted": "2025-12-29",
+      "salary_min": 75346,
+      "salary_max": 162787,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Salary**\n$75,346\\.64 \\- $162,787\\.03 Annually\n**Location**Ventura and Moorpark and may require travel throughout Ventura County, CA\n**Job Type**\nFull\\-Time Regular\n**Job Number**\n0693PWA\\-25AA (SC)\n**Department**\nPublic Works Agency\n**Opening Date**\n12/29/2025\n**Closing Date**\nContinuous\n  \n**Description**\n---------------\n\n\n**WHAT WE OFFER**\n\n* **General Salary Increase:** 3\\.5 % effective December 20, 2026, and December 19, 2027\\.\n* **Educational Incentive:** An educational incentive of 2\\.5%",
+      "experience_level": null
     }
   },
-  "updated": "2025-12-30T13:36:29.145082"
+  "updated": "2025-12-30T14:20:37.750522"
 }
