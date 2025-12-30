@@ -65,19 +65,19 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4348593617",
-      "title": "Entry Level Site Reliability Engineer",
+      "id": "linkedin_li-4325994393",
+      "title": "Entry Level QA/Test Developer",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "San Jose, CA",
+      "location": "Research Park, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2025-12-26",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
-      "remote": true,
-      "description": "**Introduction**\n A career in IBM Software means you\u2019ll be part of a team that transforms our customer\u2019s challenges into solutions.\n   \n\n  \n\n Seeking new possibilities and always staying curious, we are a team dedicated to creating the world\u2019s leading AI\\-powered, cloud\\-native software solutions for our customers. Our renowned legacy creates endless global opportunities for our IBMers, so the door is always open for those who want to grow their career.\n   \n\n  \n\n IBM\u2019s product and technology lan",
+      "remote": false,
+      "description": "**Introduction**\n At IBM, work is more than a job \\- it's a calling: To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. Are you ready to lead in this new era of technology and solve some of the world's most challenging problems? If so, lets talk.\n   \n\n  \n\n**Your Role And Responsibilities**\n As a QA/Test Developer, you will:\n   \n\n  \n\n* Work",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -463,7 +463,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
       "experience_level": null
+    },
+    "https://grnh.se/hrhxzs163us": {
+      "id": "linkedin_li-4329602406",
+      "title": "Software Engineer (New Grad Summer 2026)",
+      "company": "Freeform",
+      "company_slug": "freeform",
+      "location": "Los Angeles, CA",
+      "url": "https://grnh.se/hrhxzs163us",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**SOFTWARE ENGINEER (NEW GRAD SUMMER 2026\\)**\n Freeform is deploying software\\-defined, autonomous metal 3D printing factories around the world, bringing the scalability of software to physical production. Our proprietary technology stack leverages advanced sensing, real\\-time controls, and data\\-driven learning to produce digitally verified, flawless parts at unprecedented speed and cost. Our mission is to make the transformative power of 3D printing available to all industries at scale and unl",
+      "experience_level": null
     }
   },
-  "updated": "2025-12-29T23:19:28.498628"
+  "updated": "2025-12-30T01:29:07.476650"
 }
