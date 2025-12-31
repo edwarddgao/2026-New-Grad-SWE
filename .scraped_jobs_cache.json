@@ -472,7 +472,7 @@
       "location": "Los Angeles, CA",
       "url": "https://grnh.se/hrhxzs163us",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-30",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -625,7 +625,7 @@
       "experience_level": null
     },
     "https://careers.circle.com/us/en/job/CIICIRUSJR100011EGEXTERNALENUS/New-Grad-Software-Engineer-Backend-2026": {
-      "id": "linkedin_li-4341160870",
+      "id": "linkedin_li-4340990873",
       "title": "New Grad Software Engineer, Backend 2026",
       "company": "Circle",
       "company_slug": "circle",
@@ -753,5 +753,5 @@
       "experience_level": null
     }
   },
-  "updated": "2025-12-30T23:18:45.257553"
+  "updated": "2025-12-31T01:30:00.953257"
 }
