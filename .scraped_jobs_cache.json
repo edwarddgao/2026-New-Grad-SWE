@@ -625,7 +625,7 @@
       "experience_level": null
     },
     "https://careers.circle.com/us/en/job/CIICIRUSJR100011EGEXTERNALENUS/New-Grad-Software-Engineer-Backend-2026": {
-      "id": "linkedin_li-4341160870",
+      "id": "linkedin_li-4340990873",
       "title": "New Grad Software Engineer, Backend 2026",
       "company": "Circle",
       "company_slug": "circle",
@@ -696,7 +696,7 @@
       "location": "San Diego, CA",
       "url": "https://jobs.baesystems.com/global/en/job/BAE1US116228BREXTERNAL/Entry-Level-Systems-Engineer",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-30",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -897,5 +897,5 @@
       "experience_level": null
     }
   },
-  "updated": "2025-12-31T16:25:32.196191"
+  "updated": "2025-12-31T17:18:31.634973"
 }
