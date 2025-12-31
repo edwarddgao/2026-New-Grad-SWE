@@ -625,7 +625,7 @@
       "experience_level": null
     },
     "https://careers.circle.com/us/en/job/CIICIRUSJR100011EGEXTERNALENUS/New-Grad-Software-Engineer-Backend-2026": {
-      "id": "linkedin_li-4340990873",
+      "id": "linkedin_li-4341160870",
       "title": "New Grad Software Engineer, Backend 2026",
       "company": "Circle",
       "company_slug": "circle",
@@ -895,7 +895,23 @@
       "remote": false,
       "description": "**Company**\n Qualcomm Technologies, Inc.\n   \n\n  \n\n**Job Area**\n Engineering Group, Engineering Group \\> Machine Learning Engineering\n   \n\n  \n\n**General Summary**\n If you\u2019re interested in advancing and applying mathematics, programming languages theory, and advanced algorithms to program optimization for cutting\\-edge machine learning accelerators, then you really want to be talking to us!\n   \n\n  \n\n The Compiler Labs unit in Qualcomm AI Software department is looking for ML Compiler engineers to ",
       "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/Solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929": {
+      "id": "indeed_in-b96d53140c870a71",
+      "title": "Associate Software Engineer (New College Grad 2026)",
+      "company": "Solace Health",
+      "company_slug": "solace-health",
+      "location": "Redwood City, CA, US",
+      "url": "https://jobs.ashbyhq.com/Solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929",
+      "source": "indeed",
+      "date_posted": "2025-12-31",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "*Solace is a healthcare advocacy marketplace that connects patients and families to experts who help them understand and take charge of their personal health*\n\n**About the Role**\n\n\nAre you a new grad who wants to build something that matters from day one? At Solace, you won't be relegated to small bug fixes or endless onboarding\u2014you'll ship real features to real users within your first weeks. This isn't a hand\\-holding job. You'll be challenged daily, expected to move fast, learn faster, and tak",
+      "experience_level": null
     }
   },
-  "updated": "2025-12-31T21:18:43.787273"
+  "updated": "2025-12-31T22:20:39.246717"
 }
