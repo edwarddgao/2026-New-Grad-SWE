@@ -831,7 +831,55 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Jacobs. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy not",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/c3f0cc31f1aa41808387d550cb45ccd1tjo1": {
+      "id": "linkedin_li-4346784378",
+      "title": "Software Engineer, CAD Automation - New College Grad 2026",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Santa Clara, CA",
+      "url": "https://lensa.com/cgw/c3f0cc31f1aa41808387d550cb45ccd1tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for NVIDIA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy not",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/8cff5c425c854a9d9a710699fadea42dtjo1": {
+      "id": "linkedin_li-4346657306",
+      "title": "Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Greenlawn, NY",
+      "url": "https://lensa.com/cgw/8cff5c425c854a9d9a710699fadea42dtjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/27e15fe8556d48f1b5443bfd61cf9162tjo1": {
+      "id": "linkedin_li-4346764665",
+      "title": "I and C Engineer - Entry Level (Data Centers)",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Sacramento, CA",
+      "url": "https://lensa.com/cgw/27e15fe8556d48f1b5443bfd61cf9162tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Jacobs. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy not",
+      "experience_level": null
     }
   },
-  "updated": "2025-12-31T09:24:37.598001"
+  "updated": "2025-12-31T10:22:05.478774"
 }

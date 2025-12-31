@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2025-12-31 09:24
+**Last updated:** 2025-12-31 10:22
 
-**Total:** 829 jobs from 349 companies
+**Total:** 833 jobs from 349 companies
 
 ---
 
@@ -294,6 +294,7 @@
 | **Maybern** | [Graduate Software Engineer](https://jobs.ashbyhq.com/maybern/90f7a0d4-4e6c-43e0-a444-06301faa4058/application) | NYC |  | Simplify | 1mo |
 | **Five Rings** | [LINK 2026: Software Development Intensive Program](https://job-boards.greenhouse.io/fiveringsllc/jobs/4988120008) | New York, NY | $381k-381k | SpeedyApply | 1mo |
 | **Qualcomm** | [Display Software Engineer - Software Engineering](https://qualcomm.eightfold.ai/careers/job/446715352351) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Simplify | 1mo |
+| **L3Harris Technologies** | [Radio Frequency Electronics Technician](https://jobs.l3harris.com/job/San-Diego-Radio-Frequency-Electronics-Technician-CA-92123/1341196200/?ats=successfactors) | San Diego, CA | [$95k-100k](https://www.levels.fyi/companies/l3harris/salaries) | Simplify | 1mo |
 | **NVIDIA** | [System Design Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Design-Engineer---New-College-Grad-2025_JR2006011) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 1mo |
 | **Adobe** | [University Graduate](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R161169) | Seattle, WA, San Jose, CA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 1mo |
 | **CACI** | [Data Analyst - Systems Analysis Engineer/Scientist Support](https://caci.wd1.myworkdayjobs.com/external/job/US-CA-Norco/Data-Analyst--Systems-Analysis-Engineer-Scientist-Support-_319036) | Norco, CA | [$85k-110k](https://www.levels.fyi/companies/caci-international/salaries) | Simplify | 1mo |
@@ -819,11 +820,12 @@
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
 | **BAE Systems, Inc.** | [Entry Level Systems Engineer](https://jobs.baesystems.com/global/en/job/BAE1US116228BREXTERNAL/Entry-Level-Systems-Engineer) | San Diego, CA | [$90k-96k](https://www.levels.fyi/companies/bae-systems/salaries) | LinkedIn |  |
+| **Lensa** | [Software Engineer, CAD Automation - New College Grad 2026](https://lensa.com/cgw/c3f0cc31f1aa41808387d550cb45ccd1tjo1) | Santa Clara, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/c8d736b2ab9e4282a2eb58859b10f2b2tjo1) | New York, NY |  | LinkedIn |  |
-| **Lensa** | [Entry Level Software Developer: 2026](https://lensa.com/cgw/37b4ff59fbdf4c9a99db771b8efab84atjo1) | San Jose, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/8cff5c425c854a9d9a710699fadea42dtjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Systems Engineer](https://lensa.com/cgw/d56274f3296342658be0ef6ffcc90b3ctjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/5c3c2f02c1b342f58bf147638984cefbtjo1) | San Diego, CA |  | LinkedIn |  |
-| **Lensa** | [I and C Engineer - Entry Level (Data Centers)](https://lensa.com/cgw/2dcd83d97a884c9a81bbe3c174d7c8c7tjo1) | Oakland, CA |  | LinkedIn |  |
+| **Lensa** | [I and C Engineer - Entry Level (Data Centers)](https://lensa.com/cgw/27e15fe8556d48f1b5443bfd61cf9162tjo1) | Sacramento, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -841,6 +843,8 @@
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/3341c583f80d4273aa4a3844afe69913tjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [I and C Engineer - Entry Level (Data Centers)](https://lensa.com/cgw/f719ee07524a4ccbb5385accbcd85e67tjo1) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Environmental Engineer 1 (2026 New Graduates!)](https://lensa.com/cgw/2ee4939d36284c89af4e59cd0a2a4324tjo1) | Concord, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Developer: 2026](https://lensa.com/cgw/37b4ff59fbdf4c9a99db771b8efab84atjo1) | San Jose, CA |  | LinkedIn |  |
+| **Lensa** | [I and C Engineer - Entry Level (Data Centers)](https://lensa.com/cgw/2dcd83d97a884c9a81bbe3c174d7c8c7tjo1) | Oakland, CA |  | LinkedIn |  |
 
 ---
 
