@@ -975,7 +975,39 @@
       "remote": true,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/2a781b5276654a64a105d8edc4a9a6eetjo1": {
+      "id": "linkedin_li-4346920883",
+      "title": "2026 Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Diego, CA",
+      "url": "https://lensa.com/cgw/2a781b5276654a64a105d8edc4a9a6eetjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/f94721965d6f400c984e7aba919de33btjo1": {
+      "id": "linkedin_li-4346863150",
+      "title": "Entry Level Software Developer: 2026",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Jose, CA",
+      "url": "https://lensa.com/cgw/f94721965d6f400c984e7aba919de33btjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-01T08:28:36.427900"
+  "updated": "2026-01-01T09:24:42.704714"
 }
