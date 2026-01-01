@@ -888,7 +888,7 @@
       "location": "San Diego, CA",
       "url": "https://careers.qualcomm.com/careers/job/446715807950",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2025-12-31",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -1071,7 +1071,23 @@
       "remote": false,
       "description": "IXL Learning, developer of personalized learning products used by millions of people globally, is seeking new graduates who have a passion for technology and education. You will dive into our code base and immediately contribute to our three extremely impactful educational products and build new, innovative products. You can fine\\-tune your existing skills and learn new ones as you work on one of our many teams. Youll be able to work with our Core Technology team in back\\-end engineering, Front\\",
       "experience_level": null
+    },
+    "https://grnh.se/54s5lxuc3us": {
+      "id": "indeed_in-d0bd51c79adb2b4a",
+      "title": "Software Engineering Intern (Summer 2026)",
+      "company": "Sigma Computing",
+      "company_slug": "sigma-computing",
+      "location": "New York, NY, US",
+      "url": "https://grnh.se/54s5lxuc3us",
+      "source": "indeed",
+      "date_posted": "2026-01-01",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Sigma unlocks the value of data by delivering cloud\\-scale analytics and business intelligence with the simplicity of a spreadsheet, complete with pivot tables and dashboards. We empower business professionals and data teams to quickly explore, analyze, visualize, and collaborate, leveraging all of their data across the organization.\n\n\n#### **Our internship program at Sigma:**\n\n\n\nSigma's Early Career Program is the launchpad for the next generation of engineers and innovators. As an Intern at Si",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-01T20:23:21.365840"
+  "updated": "2026-01-01T21:19:33.075463"
 }
