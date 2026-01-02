@@ -625,7 +625,7 @@
       "experience_level": null
     },
     "https://careers.circle.com/us/en/job/CIICIRUSJR100011EGEXTERNALENUS/New-Grad-Software-Engineer-Backend-2026": {
-      "id": "linkedin_li-4340950895",
+      "id": "linkedin_li-4341160870",
       "title": "New Grad Software Engineer, Backend 2026",
       "company": "Circle",
       "company_slug": "circle",
@@ -920,7 +920,7 @@
       "location": "Redwood City, CA",
       "url": "https://jobs.ashbyhq.com/solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-01",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -936,7 +936,7 @@
       "location": "",
       "url": "https://jobs.gem.com/roe-ai/am9icG9zdDoMC-nGc5d6lsNXY5xTAh45&urlHash=pSiw",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-01",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -1137,5 +1137,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-02T01:40:39.788408"
+  "updated": "2026-01-02T03:30:42.811038"
 }
