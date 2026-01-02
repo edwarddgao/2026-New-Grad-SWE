@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-02 10:21
+**Last updated:** 2026-01-02 11:18
 
-**Total:** 838 jobs from 359 companies
+**Total:** 839 jobs from 359 companies
 
 ---
 
@@ -18,8 +18,8 @@
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://careers.qualcomm.com/careers/job/446715807950) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn | 2d |
 | **Solace Health** | [Associate Software Engineer – College Grad 2026](https://jobs.ashbyhq.com/solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929/application) | San Carlos, CA |  | Simplify | 2d |
 | **Sweep360** | [Software Engineer - iOS - New Grad](https://apply.workable.com/sweep360/j/10FE5A6170/) | New York, NY |  | SpeedyApply | 2d |
-| **Solace Health** | [Associate Software Engineer (College Grad 2026)](https://jobs.ashbyhq.com/Solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929) | Redwood City, CA, US |  | Indeed | 2d |
 | **Uptime Crew** | [Entry Level AI Software Engineer (Fintech)](https://jobs.uptimecrew.com/jobs/7xjpg0/a11Jw000005ngcjIAA) | San Jose, CA |  | LinkedIn | 2d |
+| **Solace Health** | [Associate Software Engineer (College Grad 2026)](https://jobs.ashbyhq.com/Solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929) | Redwood City, CA, US |  | Indeed | 2d |
 | **Freeform** | [Materials Lab Technician](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7575047003) | West Athens, CA | [$205k-240k](https://www.levels.fyi/companies/freeform/salaries) | Simplify | 3d |
 | **Freeform** | [Software Engineer (New Grad Summer 2026)](https://grnh.se/hrhxzs163us) | Los Angeles, CA | [$205k-240k](https://www.levels.fyi/companies/freeform/salaries) | LinkedIn | 3d |
 | **Rubrik** | [Software Engineer - Distributed Systems - Platform Software](https://www.rubrik.com/company/careers/departments/job.6528028?gh_jid=6528028) | Palo Alto, CA | [$44.0k-113.0k](https://www.levels.fyi/companies/rubrik/salaries) | Simplify | 3d |
@@ -315,6 +315,7 @@
 | **Northrop Grumman** | [Associate Software Engineer/Software Engineer - Space Systems](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Associate-Software-Engineer-Software-Engineer---PGS-Space-Systems-_R10210446) | El Segundo, CA | [$87k-101k](https://www.levels.fyi/companies/northrop-grumman/salaries) | Simplify | 1mo |
 | **Genuine Parts Company** | [Motion Ai-Application Engineer](https://genpt.wd1.myworkdayjobs.com/Careers/job/Anaheim-CA-USA/Motion-Ai--Application-Engineer_R25_0000033255) | Anaheim, CA |  | Simplify | 1mo |
 | **Agilent Technologies** | [Embedded Systems Engineer](https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-CA-Santa-Clara/Embedded-Systems-Engineer_4034633) | Santa Clara, CA |  | Simplify | 1mo |
+| **Toll Brothers** | [Senior Investment Analyst](https://jobs-tollbrothers.icims.com/jobs/24206/job?mobile=true&needsRedirect=false) | NYC |  | Simplify | 1mo |
 | **TikTok** | [Software Engineer Graduate - Fullstack - Trust and Safety](https://lifeattiktok.com/search/7571921718702524725) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 1mo |
 | **iTradeNetwork** | [AI/ML Software Engineer](https://www.itradenetwork.com/jobs/4892164008?gh_jid=4892164008) | California | [$140k-169k](https://www.levels.fyi/companies/itradenetwork/salaries) | Simplify | 1mo |
 | **ID.me** | [Product Manager](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7388743003) | McLean, VA, Mountain View, CA |  | Simplify | 1mo |
@@ -443,6 +444,7 @@
 | **Verition Fund Management** | [Quantitative Developer](https://www.verition.com/open-positions?gh_jid=4011276007) | London, UK, Waterbury, CT, Dubai - Un... |  | Simplify | 2mo |
 | **SCS Engineers** | [Field Data Analyst](https://careers-scsengineers.icims.com/jobs/1613/job?mobile=true&needsRedirect=false) | Modesto, CA |  | Simplify | 2mo |
 | **EliseAI** | [Senior Product Solutions Analyst - Housing](https://jobs.ashbyhq.com/EliseAI/676b89a9-7066-4557-94f0-0465715c6708/application) | NYC |  | Simplify | 2mo |
+| **Essen Health Care** | [Healthcare Analyst](https://careers-essenmed.icims.com/jobs/2039/job?mobile=true&needsRedirect=false) | Bronx, NY |  | Simplify | 2mo |
 | **Savvy** | [Software Engineer](https://jobs.ashbyhq.com/savvy/073aefc5-5eb1-4e67-9cb3-d4059dd8ce58/application) | NYC |  | Simplify | 2mo |
 | **AQ Technology Partners** | [Associate: Investment Banking - Software M&A - Summer 2026](https://job-boards.greenhouse.io/aqtechnologypartners/jobs/4624230005) | Redwood City, CA |  | SpeedyApply | 2mo |
 | **ByteDance** | [Software Engineer Graduate - AI Platform - 2026 Start](https://jobs.bytedance.com/en/position/7540029640091650312/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 2mo |
@@ -499,7 +501,6 @@
 | **Microchip Technology** | [Engineer 1 - Verification](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-I-Verification_R1750-25) | San Jose, CA | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 2mo |
 | **Trillium** | [Equity Trader](https://www.trlm.com/apply/4837090007?gh_jid=4837090007) | Miami, FL, Chicago, IL, NYC |  | Simplify | 2mo |
 | **Trillium** | [Equity Trader](https://www.trlm.com/apply/4788931007?gh_jid=4788931007) | Miami, FL, Chicago, IL, NYC |  | Simplify | 2mo |
-| **Stellant Systems** | [Automation Software Engineer](https://careers-stellantsystems.icims.com/jobs/2011/job?mobile=true&needsRedirect=false) | Carson, CA |  | Simplify | 2mo |
 | **Hewlett Packard (HP)** | [Software Development](https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Software-Development-Graduate_3152963) | Spring, TX, Palo Alto, CA, Boise, ID,... |  | Simplify | 2mo |
 | **Fireworks AI** | [Software Engineer – Early Career - Cloud Infrastructure](https://job-boards.greenhouse.io/fireworksai/jobs/4036755009) | San Carlos, CA, NYC |  | Simplify | 2mo |
 | **AQ Technology Partners** | [MBA Associate: Investment Banking - Software M&A - Summer 2026](https://job-boards.greenhouse.io/aqtechnologypartners/jobs/4616278005) | Redwood City, CA |  | SpeedyApply | 2mo |
@@ -515,7 +516,6 @@
 | **Garner Health** | [Associate Software Engineer](https://job-boards.greenhouse.io/garnerhealth/jobs/5671433004) | NYC |  | Simplify | 2mo |
 | **Ball Aerospace** | [2026 Entry Level Software Engineer](https://jobs.baesystems.com/global/en/job/BAE1US116018BREXTERNAL/2026-Entry-Level-Software-Engineer) | San Diego, California, United States |  | SpeedyApply | 2mo |
 | **DoorDash** | [Software Engineer 1 - Multiple Teams](https://job-boards.greenhouse.io/doordashusa/jobs/7263610) | Seattle, WA, SF, LA, NYC, Sunnyvale, CA | [$172k-195k](https://www.levels.fyi/companies/doordash/salaries) | Simplify | 2mo |
-| **Sysmex** | [Field Service Technician - Field Service](https://careers-sysmex.icims.com/jobs/4486/job?mobile=true&needsRedirect=false) | California |  | Simplify | 2mo |
 | **Moonshot AI** | [Junior Software Engineer](https://jobs.ashbyhq.com/moonshot-ai/6c2414d8-32c7-440b-aea0-b3dd285e795f) | New York, NY |  | SpeedyApply | 2mo |
 | **Salesforce** | [AI Forward Deployed Engineer – Early Career - Agentforce - Software Engineering](https://salesforce.wd12.myworkdayjobs.com/en-us/External_Career_Site/job/Washington---Bellevue/AI-Forward-Deployed-Engineer--New-Grad-_JR312405-1) | Boston, MA, Seattle, WA, Indianapolis... | [$181k-188k](https://www.levels.fyi/companies/salesforce/salaries) | Simplify | 3mo |
 | **TJX** | [PT Front End/Register/Salesfloor Associate](https://tjx.wd1.myworkdayjobs.com/en-US/tjx_external/job/San-Jose-CA-95110/PT-Front-End-Register-Salesfloor-Associate_REQ65836-1) | San Jose, CA |  | SpeedyApply | 3mo |
@@ -552,6 +552,7 @@
 | **JPMorganChase** | [Quantitative Research - Data Analytics - Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210666344) | New York, NY | [$95k-130k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 3mo |
 | **SIFT** | [Software Engineer – New College Graduate](https://jobs.ashbyhq.com/siftstack/da9e9490-4156-4390-b9ed-54e215c894b6/application) | El Segundo, CA |  | Simplify | 3mo |
 | **TikTok** | [Machine Learning Engineer Graduate - Brand Ads](https://lifeattiktok.com/search/7535396503751772423) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3mo |
+| **Susquehanna International Group (SIG)** | [Quantitative Researcher - Master's: 2026](https://careers-sig.icims.com/jobs/9438/job?mobile=true&needsRedirect=false) | NYC | [$70k-256k](https://www.levels.fyi/companies/susquehanna-international-group/salaries) | Simplify | 3mo |
 | **TD** | [Analyst Rotational Program – Software Engineering](https://td.wd3.myworkdayjobs.com/en-US/td_bank_careers/job/New-York-New-York/XMLNAME-2026-Full-Time-Analyst-Rotational-Program---Software-Engineering_R_1446300) | New York, NY |  | Simplify | 3mo |
 | **Muon** | [Software Engineer](https://job-boards.greenhouse.io/muonspace/jobs/4911755007) | San Jose, CA |  | Simplify | 3mo |
 | **Sift** | [Software Engineer](https://jobs.ashbyhq.com/siftstack/da9e9490-4156-4390-b9ed-54e215c894b6) | El Segundo, CA |  | Simplify | 3mo |
