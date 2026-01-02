@@ -625,7 +625,7 @@
       "experience_level": null
     },
     "https://careers.circle.com/us/en/job/CIICIRUSJR100011EGEXTERNALENUS/New-Grad-Software-Engineer-Backend-2026": {
-      "id": "linkedin_li-4340990873",
+      "id": "linkedin_li-4340950895",
       "title": "New Grad Software Engineer, Backend 2026",
       "company": "Circle",
       "company_slug": "circle",
@@ -1103,7 +1103,39 @@
       "remote": false,
       "description": "Wages range from $19\\.50 to $21\\.50 per hour\n   \n\n  \n\n Are you passionate about software development, automation, and solving real\\-world engineering challenges? Sierra Pacific Industries is offering a hands\\-on internship opportunity for aspiring Computer Engineers to work directly with our fabrication shop team in Anderson, California.\n   \n\n  \n\n This fast\\-paced role supports the development of innovative software and hardware solutions that enhance production efficiency and user experience.\n ",
       "experience_level": null
+    },
+    "https://click.appcast.io/t/c_hsp7LlgwEc-rsc7KTs8B1UC1rSFKn7TimZiaMoudw=&urlHash=Dxn8": {
+      "id": "linkedin_li-4329913004",
+      "title": "Entry Level Software Developer New York - 2026",
+      "company": "Jobs via Dice",
+      "company_slug": "jobs-via-dice",
+      "location": "New York, NY",
+      "url": "https://click.appcast.io/t/c_hsp7LlgwEc-rsc7KTs8B1UC1rSFKn7TimZiaMoudw=&urlHash=Dxn8",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Introduction\n   \n\n  \n\n**Launch your software career with IBM!**\n Ready to turn your coding skills into real\\-world impact? As an Entry\\-Level Software Developer at IBM, you'll join a collaborative Agile team where your ideas matter from day one. Whether you've just finished school, completed a boot\\-camp, or built your skills independently, this is your opportunity to grow into a world\\-class developer. You'll work alongside experienced mentors to design, build, and deploy modern web application",
+      "experience_level": null
+    },
+    "https://click.appcast.io/t/5l37QTyy79FvuoujpG9ml-DfQh-Xc-tW3L1IAcsPFPo=&urlHash=kC8_": {
+      "id": "linkedin_li-4329823429",
+      "title": "Entry Level Software Developer 2026: SVL",
+      "company": "Jobs via Dice",
+      "company_slug": "jobs-via-dice",
+      "location": "San Jose, CA",
+      "url": "https://click.appcast.io/t/5l37QTyy79FvuoujpG9ml-DfQh-Xc-tW3L1IAcsPFPo=&urlHash=kC8_",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Introduction\n   \n\n  \n\n Launch your software career with IBM!\n   \n\n  \n\n Ready to turn your coding skills into real\\-world impact? As an Entry\\-Level Software Developer at IBM, you'll join a collaborative Agile team where your ideas matter from day one. Whether you've just finished school, completed a bootcamp, or built your skills independently, this is your opportunity to grow into a world\\-class developer. You'll work alongside experienced mentors to design, build, and deploy modern web applica",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-01T23:20:35.153388"
+  "updated": "2026-01-02T01:40:39.788408"
 }
