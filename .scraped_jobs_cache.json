@@ -1016,7 +1016,7 @@
       "location": "Santa Clara, CA",
       "url": "https://jobs.smartrecruiters.com/Cyberark1/744000098100946-associate-software-engineer",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-01",
       "salary_min": 88000,
       "salary_max": 130000,
       "sponsorship": null,
@@ -1167,7 +1167,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
       "experience_level": null
+    },
+    "https://www.ixl.com/company/jobs": {
+      "id": "linkedin_li-4323298833",
+      "title": "Software Engineer, New Grad",
+      "company": "IXL Learning",
+      "company_slug": "ixl-learning",
+      "location": "San Mateo, CA",
+      "url": "https://www.ixl.com/company/jobs",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "IXL Learning, developer of personalized learning products used by millions of people globally, is seeking new graduates who have a passion for technology and education. You will dive into our code base and immediately contribute to our three extremely impactful educational products and build new, innovative products. You can fine\\-tune your existing skills and learn new ones as you work on one of our many teams. You\u2019ll be able to work with our Core Technology team in back\\-end engineering, Front",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-02T12:40:05.862928"
+  "updated": "2026-01-02T13:33:24.135428"
 }
