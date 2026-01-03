@@ -1176,7 +1176,7 @@
       "location": "San Mateo, CA",
       "url": "https://www.ixl.com/company/jobs",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-02",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -1279,7 +1279,23 @@
       "remote": false,
       "description": "The\n **Low Band System Software Journeyman** \n supports and manages the\n **Low Band System (LBS)** \n software and related processes at\n **Beale AFB (DGS\\-2\\)** \n . The role involves maintaining software that integrates with multiple sensors, sites, and systems, providing technical and engineering support, and performing\n **system administration** \n for\n **CICS** \n and LBS software components.\n   \n\n  \n\n**Requirements** \n  \n\n  \n\n* Clearance: TS/SCI\n* Certifications:\n+ DoD 8570\\.1 IAT Level II or I",
       "experience_level": null
+    },
+    "https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply": {
+      "id": "linkedin_li-4319446471",
+      "title": "Early Software Engineer",
+      "company": "TechTree",
+      "company_slug": "techtree",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About The Company**\n Delve automates compliance for hundreds of fast\\-growing startups \u2014 companies like Lovable, 11x, and Wispr Flow rely on Delve to eliminate busywork and ship securely. Backed by Insight Partners, General Catalyst, and Y Combinator, Delve recently raised a $32M Series A and is rapidly scaling its engineering team. Our founders and engineers come from OpenAI, Stanford, MIT, and Berkeley, united by the goal of automating tedious work at scale.\n   \n\n  \n\n**About The Role**\n Seek",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-03T13:29:36.316330"
+  "updated": "2026-01-03T14:19:02.379874"
 }
