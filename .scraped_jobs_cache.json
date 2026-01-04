@@ -1240,7 +1240,7 @@
       "location": "California, United States",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dCAD-Automation\\u002d\\u002d-New-College-Grad-2025_JR2005867",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-03",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -1375,7 +1375,23 @@
       "remote": true,
       "description": "**Who We Are**\n Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our plane",
       "experience_level": null
+    },
+    "https://dsp.prng.co/b09Acxb": {
+      "id": "linkedin_li-4331735902",
+      "title": "Software Engineer",
+      "company": "NetApp",
+      "company_slug": "netapp",
+      "location": "San Jose, CA",
+      "url": "https://dsp.prng.co/b09Acxb",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About NetApp**\n NetApp is the intelligent data infrastructure company, turning a world of disruption into opportunity for every customer. No matter the data type, workload or environment, we help our customers identify and realize new business possibilities. And it all starts with our people.\n   \n\n  \n\n If this sounds like something you want to be part of, NetApp is the place for you. You can help bring new ideas to life, approaching each challenge with fresh eyes. Of course, you won't be doing",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-04T12:38:53.269900"
+  "updated": "2026-01-04T13:29:44.044144"
 }
