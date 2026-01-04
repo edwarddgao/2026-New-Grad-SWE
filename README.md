@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-04 20:22
+**Last updated:** 2026-01-04 21:18
 
 **Total:** 922 jobs from 399 companies
 
@@ -13,7 +13,7 @@
 | Company | Role | Location | Comp | Source | Posted |
 |---------|------|----------|------|--------|--------|
 | **ByteDance** | [Software Engineer Graduate - Media Network Global Engineering - 2026 Start](https://jobs.bytedance.com/en/position/7579851430954125621/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 1d |
-| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 1d |
+| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | California, United States | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 1d |
 | **Boeing** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium Space Systems](https://jobs.boeing.com/job/-/-/185/90192695952) | El Segundo, CA, US | [$104k-153k](https://www.levels.fyi/companies/boeing/salaries) | Indeed | 1d |
 | **Dhara Consulting Group** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium S](https://www.clearancejobs.com/jobs/8691864/systems-engineer-mission-assurance-mid-career-millennium-s) | El Segundo, CA, US | $104k-153k | Indeed | 1d |
 | **Boeing** | [Spacecraft Software Engineer - Early-Career - Millennium Space Systems](https://boeing.wd1.myworkdayjobs.com/en-US/external_subsidiary/job/USA---El-Segundo-CA/Spacecraft-Software-Engineer--Early-Career----Millennium-Space-Systems_JR2026489982-2) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | SpeedyApply | 1d |
@@ -899,6 +899,8 @@
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
 | **NetApp** | [Software Engineer](https://dsp.prng.co/b09Acxb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
+| **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/4a4badd1b5e744ffbaa3276c510dab94tjo1) | New York, NY |  | LinkedIn |  |
+| **Sierra Pacific Industries** | [Engineer Intern - Computer](https://www.techcareers.com/job.asp) | Anderson, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -929,11 +931,9 @@
 | **Lensa** | [Entry Level Software Developer: 2026](https://lensa.com/cgw/f94721965d6f400c984e7aba919de33btjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/151f968b234b4a6389e13f0297e905f6tjo1) | New York, NY |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Software Engineer, New Grad](https://www.executiveplacements.com/JF/Software-Engineer-New-Grad-jobs-in-San-Mateo-California-d05da2d6e568.asp) | San Mateo, CA |  | LinkedIn |  |
-| **Sierra Pacific Industries** | [Engineer Intern - Computer](https://www.techcareers.com/job.asp) | Anderson, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/7335125581c34446aa6d9872e3d27214tjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/7a9deb279c764c06b1e99b4df9d48aabtjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/0d226c09971745e1bd4d0ae1cce1f238tjo1) | New York, NY |  | LinkedIn |  |
-| **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/4a4badd1b5e744ffbaa3276c510dab94tjo1) | New York, NY |  | LinkedIn |  |
 
 ---
 
