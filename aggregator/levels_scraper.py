@@ -8,11 +8,43 @@ import os
 import re
 import time
 from datetime import datetime, timedelta
+from pathlib import Path
 
 import requests
-from typing import List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 
 logger = logging.getLogger('aggregator.levels_scraper')
+
+# Path to company config file (relative to this module)
+CONFIG_FILE = Path(__file__).parent / "company_config.json"
+
+
+def _load_company_config() -> Tuple[Dict[str, str], Dict[str, str]]:
+    """Load company aliases and entry levels from config file.
+
+    Returns:
+        Tuple of (aliases_dict, entry_levels_dict)
+    """
+    aliases = {}
+    entry_levels = {}
+
+    if CONFIG_FILE.exists():
+        try:
+            with open(CONFIG_FILE, 'r') as f:
+                data = json.load(f)
+                aliases = data.get('aliases', {})
+                entry_levels = data.get('entry_levels', {})
+                logger.debug(f"  [Config] Loaded {len(aliases)} aliases, {len(entry_levels)} entry levels")
+        except (json.JSONDecodeError, IOError) as e:
+            logger.warning(f"  [Config] Error loading {CONFIG_FILE}: {e}")
+    else:
+        logger.warning(f"  [Config] Config file not found: {CONFIG_FILE}")
+
+    return aliases, entry_levels
+
+
+# Load config at module import time
+_COMPANY_ALIASES, _ENTRY_LEVELS = _load_company_config()
 
 
 class LevelsScraper:
@@ -24,462 +56,11 @@ class LevelsScraper:
     # Maximum years of experience to consider as "new grad"
     MAX_NEW_GRAD_YOE = 2
 
-    # Company name aliases (job listing name -> levels.fyi slug)
-    COMPANY_ALIASES = {
-        # Big tech variants
-        "tiktok": "bytedance",
-        "tik tok": "bytedance",
-        "bytedance": "bytedance",
-        "facebook": "meta",
-        "instagram": "meta",
-        "whatsapp": "meta",
-        "oculus": "meta",
-        "google llc": "google",
-        "alphabet": "google",
-        "youtube": "google",
-        "deepmind": "google",
-        "amazon.com": "amazon",
-        "aws": "amazon",
-        "amazon web services": "amazon",
-        "twitch": "twitch",
-        "ring": "amazon",
-        "microsoft corporation": "microsoft",
-        "github": "microsoft",
-        "linkedin": "microsoft",
-        "azure": "microsoft",
+    # Company name aliases loaded from config file (job listing name -> levels.fyi slug)
+    COMPANY_ALIASES = _COMPANY_ALIASES
 
-        # Finance
-        "citadel securities": "citadel",
-        "citadel llc": "citadel",
-        "two sigma investments": "two-sigma",
-        "two sigma securities": "two-sigma",
-        "jane street capital": "jane-street",
-        "goldman sachs group": "goldman-sachs",
-        "goldman sachs & co": "goldman-sachs",
-        "morgan stanley": "morgan-stanley",
-        "jp morgan": "jpmorgan-chase",
-        "jpmorgan": "jpmorgan-chase",
-        "jpmorgan chase": "jpmorgan-chase",
-        "capital one": "capital-one",
-        "capital one financial": "capital-one",
-        "bank of america": "bank-of-america",
-        "bofa": "bank-of-america",
-        "wells fargo": "wells-fargo",
-        "american express": "american-express",
-        "amex": "american-express",
-        "visa inc": "visa",
-        "mastercard": "mastercard",
-        "blackrock": "blackrock",
-        "fidelity": "fidelity-investments",
-        "fidelity investments": "fidelity-investments",
-        "charles schwab": "charles-schwab",
-        "robinhood markets": "robinhood",
-        "sofi": "sofi",
-        "chime": "chime",
-        "affirm": "affirm",
-        "citigroup": "citi",
-        "citibank": "citi",
-        "citi group": "citi",
-        "interactive brokers": "interactive-brokers",
-        "ibkr": "interactive-brokers",
-        "pnc bank": "pnc",
-        "pnc financial": "pnc",
-        "susquehanna international group": "susquehanna-international-group",
-        "sig": "susquehanna-international-group",
-        "susquehanna": "susquehanna-international-group",
-        "imc trading": "imc",
-        "jump trading": "jump-trading",
-        "drw holdings": "drw",
-        "drw trading": "drw",
-        "chicago trading company": "chicago-trading-company",
-        "akuna capital": "akuna-capital",
-        "hudson river trading": "hudson-river-trading",
-        "hrt": "hudson-river-trading",
-        "optiver": "optiver",
-        "flow traders": "flow-traders",
-        "virtu financial": "virtu-financial",
-
-        # Tech companies
-        "apple inc": "apple",
-        "nvidia corporation": "nvidia",
-        "intel corporation": "intel",
-        "amd": "amd",
-        "qualcomm": "qualcomm",
-        "broadcom": "broadcom",
-        "salesforce": "salesforce",
-        "salesforce.com": "salesforce",
-        "oracle corporation": "oracle",
-        "ibm": "ibm",
-        "cisco systems": "cisco",
-        "cisco": "cisco",
-        "vmware": "vmware",
-        "dell technologies": "dell",
-        "hp inc": "hp",
-        "hewlett packard": "hp",
-        "hewlett-packard": "hp",
-        "hpe": "hpe",
-        "hewlett packard enterprise": "hpe",
-        "servicenow": "servicenow",
-        "workday": "workday",
-        "splunk": "splunk",
-        "atlassian": "atlassian",
-        "zendesk": "zendesk",
-        "hubspot": "hubspot",
-        "twilio": "twilio",
-        "okta": "okta",
-        "crowdstrike": "crowdstrike",
-        "palo alto networks": "palo-alto-networks",
-        "zscaler": "zscaler",
-        "fortinet": "fortinet",
-        "mongodb": "mongodb",
-        "elastic": "elastic",
-        "snowflake": "snowflake",
-        "databricks": "databricks",
-        "confluent": "confluent",
-        "hashicorp": "hashicorp",
-        "intuit": "intuit",
-        "adobe": "adobe",
-        "adobe inc": "adobe",
-        "autodesk": "autodesk",
-        "synopsys": "synopsys",
-        "cadence": "cadence-design-systems",
-        "cadence design systems": "cadence-design-systems",
-        "applied materials": "applied-materials",
-        "lam research": "lam-research",
-        "kla": "kla",
-        "kla corporation": "kla",
-        "microchip technology": "microchip-technology",
-        "microchip": "microchip-technology",
-        "marvell": "marvell",
-        "marvell technology": "marvell",
-        "analog devices": "analog-devices",
-        "texas instruments": "texas-instruments",
-        "ti": "texas-instruments",
-        "micron": "micron",
-        "micron technology": "micron",
-        "western digital": "western-digital",
-        "seagate": "seagate",
-
-        # Consumer tech
-        "uber technologies": "uber",
-        "lyft inc": "lyft",
-        "doordash": "doordash",
-        "instacart": "instacart",
-        "airbnb": "airbnb",
-        "booking.com": "booking",
-        "booking holdings": "booking",
-        "expedia": "expedia",
-        "tripadvisor": "tripadvisor",
-        "zillow": "zillow",
-        "zillow group": "zillow",
-        "redfin": "redfin",
-        "opendoor": "opendoor",
-        "compass real estate": "compass",
-        "yelp": "yelp",
-        "grubhub": "grubhub",
-        "postmates": "uber",
-        "etsy": "etsy",
-        "ebay": "ebay",
-        "wayfair": "wayfair",
-        "shopify": "shopify",
-        "squarespace": "squarespace",
-        "wix": "wix",
-
-        # Social/Entertainment
-        "snap inc": "snap",
-        "snapchat": "snap",
-        "twitter": "x",
-        "x corp": "x",
-        "pinterest": "pinterest",
-        "reddit": "reddit",
-        "discord": "discord",
-        "spotify": "spotify",
-        "netflix": "netflix",
-        "roku": "roku",
-        "hulu": "disney",
-        "disney": "disney",
-        "walt disney": "disney",
-        "warner bros": "warner-bros-discovery",
-        "paramount": "paramount",
-        "sony": "sony",
-        "electronic arts": "ea",
-        "activision": "activision-blizzard",
-        "blizzard": "activision-blizzard",
-        "riot games": "riot-games",
-        "epic games": "epic-games",
-        "roblox": "roblox",
-        "unity": "unity",
-
-        # Payments/Fintech
-        "stripe": "stripe",
-        "square": "block",
-        "block inc": "block",
-        "paypal": "paypal",
-        "venmo": "paypal",
-        "brex": "brex",
-        "ramp": "ramp",
-        "plaid": "plaid",
-        "marqeta": "marqeta",
-        "checkout.com": "checkout",
-        "adyen": "adyen",
-        "klarna": "klarna",
-        "afterpay": "afterpay",
-        "bill.com": "billcom",
-        "bill": "billcom",
-
-        # Cloud/Enterprise
-        "dropbox": "dropbox",
-        "box": "box",
-        "docusign": "docusign",
-        "zoom": "zoom",
-        "zoom video": "zoom",
-        "slack": "salesforce",
-        "asana": "asana",
-        "monday.com": "monday",
-        "notion": "notion",
-        "figma": "figma",
-        "canva": "canva",
-        "miro": "miro",
-        "airtable": "airtable",
-        "webflow": "webflow",
-        "pega": "pegasystems",
-        "pegasystems": "pegasystems",
-
-        # AI/ML
-        "openai": "openai",
-        "anthropic": "anthropic",
-        "cohere": "cohere",
-        "scale ai": "scale-ai",
-        "hugging face": "hugging-face",
-        "stability ai": "stability-ai",
-
-        # Auto/Space
-        "tesla": "tesla",
-        "tesla motors": "tesla",
-        "spacex": "spacex",
-        "waymo": "waymo",
-        "cruise": "cruise",
-        "aurora": "aurora",
-        "aurora innovation": "aurora",
-        "nuro": "nuro",
-        "anduril": "anduril-industries",
-        "anduril industries": "anduril-industries",
-        "rivian": "rivian",
-        "lucid motors": "lucid-motors",
-        "gm": "general-motors",
-        "general motors": "general-motors",
-        "ford": "ford",
-        "ford motor": "ford",
-        "toyota": "toyota",
-        "honda": "honda",
-        "bmw": "bmw",
-        "mercedes": "mercedes-benz",
-
-        # Defense/Aerospace/Government contractors
-        "boeing": "boeing",
-        "the boeing company": "boeing",
-        "lockheed martin": "lockheed-martin",
-        "lockheed": "lockheed-martin",
-        "northrop grumman": "northrop-grumman",
-        "northrop": "northrop-grumman",
-        "raytheon": "raytheon",
-        "rtx": "raytheon",
-        "raytheon technologies": "raytheon",
-        "bae systems": "bae-systems",
-        "bae": "bae-systems",
-        "general dynamics": "general-dynamics-mission-systems",
-        "general dynamics mission systems": "general-dynamics-mission-systems",
-        "gdms": "general-dynamics-mission-systems",
-        "general dynamics information technology": "general-dynamics-mission-systems",
-        "gdit": "general-dynamics-mission-systems",
-        "maxar": "maxar-technologies",
-        "maxar technologies": "maxar-technologies",
-        "l3harris": "l3harris",
-        "l3harris technologies": "l3harris",
-        "l3 harris": "l3harris",
-        "leidos": "leidos",
-        "saic": "saic",
-        "booz allen hamilton": "booz-allen-hamilton",
-        "booz allen": "booz-allen-hamilton",
-        "caci": "caci-international",
-        "caci international": "caci-international",
-        "accenture federal services": "accenture",
-        "accenture": "accenture",
-        "deloitte": "deloitte",
-        "kpmg": "kpmg",
-        "ey": "ey",
-        "ernst young": "ey",
-        "ernst & young": "ey",
-        "pwc": "pwc",
-        "pricewaterhousecoopers": "pwc",
-        "mckinsey": "mckinsey",
-        "bcg": "bcg",
-        "boston consulting group": "bcg",
-        "bain": "bain",
-        "bain & company": "bain",
-
-        # Other tech
-        "palantir": "palantir",
-        "palantir technologies": "palantir",
-        "datadog": "datadog",
-        "new relic": "new-relic",
-        "sumo logic": "sumo-logic",
-        "dynatrace": "dynatrace",
-        "grafana": "grafana-labs",
-        "cloudflare": "cloudflare",
-        "fastly": "fastly",
-        "akamai": "akamai",
-        "veeva": "veeva-systems",
-        "veeva systems": "veeva-systems",
-        "epic systems": "epic-systems",
-        "cerner": "cerner",
-        "bloomberg": "bloomberg",
-        "bloomberg lp": "bloomberg",
-        "thomson reuters": "thomson-reuters",
-        "factset": "factset",
-        "morningstar": "morningstar",
-        "ge healthcare": "ge-healthcare",
-        "ge": "ge-healthcare",
-        "general electric": "ge-healthcare",
-
-        # Enterprise Storage/Infrastructure
-        "nutanix": "nutanix",
-        "pure storage": "pure-storage",
-        "purestorage": "pure-storage",
-        "netapp": "netapp",
-        "net app": "netapp",
-        "rubrik": "rubrik",
-        "cohesity": "cohesity",
-        "commvault": "commvault",
-        "dell emc": "dell",
-        "emc": "dell",
-
-        # More tech
-        "thales": "thales",
-        "thales group": "thales",
-        "ciena": "ciena",
-        "juniper networks": "juniper-networks",
-        "juniper": "juniper-networks",
-        "arista networks": "arista-networks",
-        "arista": "arista-networks",
-        "f5 networks": "f5-networks",
-        "f5": "f5-networks",
-        "citrix": "citrix",
-        "vmware": "vmware",
-    }
-
-    # Entry level mappings for different companies
-    # These map company slugs to the exact level name used on levels.fyi
-    ENTRY_LEVELS = {
-        # Big Tech (FAANG+)
-        "google": "l3",
-        "meta": "e3",
-        "facebook": "e3",
-        "apple": "ice2",
-        "amazon": "sde1",
-        "microsoft": "59",
-        "netflix": "l3",
-        "nvidia": "new-grad",
-
-        # Enterprise / Cloud
-        "salesforce": "amts",
-        "adobe": "e3",
-        "oracle": "ic1",
-        "cisco": "i-7",
-        "intel": "grade-3",
-        "ibm": "entry-level",
-        "vmware": "e1",
-        "servicenow": "associate",
-        "workday": "associate",
-        "intuit": "swe1",
-
-        # Ride-sharing / Delivery
-        "uber": "e3",
-        "lyft": "l3",
-        "doordash": "e3",
-        "instacart": "l3",
-
-        # Consumer Tech
-        "airbnb": "l3",
-        "pinterest": "l3",
-        "snap": "l3",
-        "reddit": "e3",
-        "discord": "l3",
-        "roblox": "new-grad",
-        "spotify": "l3",
-        "twitter": "l3",
-        "x": "l3",
-
-        # Fintech
-        "stripe": "l1",
-        "coinbase": "l3",
-        "robinhood": "l3",
-        "plaid": "l3",
-        "ramp": "l1",
-        "square": "l3",
-        "block": "l3",
-        "paypal": "e3",
-        "brex": "l3",
-        "chime": "l3",
-        "affirm": "l3",
-
-        # Data / Analytics
-        "databricks": "l3",
-        "snowflake": "entry-level",
-        "datadog": "new-grad",
-        "palantir": "software-engineer",
-        "splunk": "associate",
-
-        # Productivity / Design
-        "dropbox": "e3",
-        "figma": "l3",
-        "notion": "e3",
-        "asana": "l3",
-        "slack": "e3",
-
-        # Finance / Trading
-        "bloomberg": "l3",
-        "capital-one": "associate",
-        "goldman-sachs": "analyst",
-        "jpmorgan-chase": "analyst",
-        "morgan-stanley": "analyst",
-        "bank-of-america": "analyst",
-        "citadel": "l3",
-        "two-sigma": "l3",
-        "jane-street": "junior-trader",
-
-        # AI / ML
-        "openai": "l3",
-        "anthropic": "l3",
-        "scale-ai": "l3",
-
-        # Autonomous / Space
-        "spacex": "l1",
-        "tesla": "l2",
-        "waymo": "l3",
-        "cruise": "l3",
-        "aurora": "l3",
-
-        # Social
-        "bytedance": "e3",
-        "linkedin": "l3",
-
-        # Gaming / Entertainment
-        "twitch": "sde1",
-        "disney": "associate",
-        "warner-bros-discovery": "associate",
-
-        # Other Tech
-        "cloudflare": "associate",
-        "pagerduty": "associate",
-        "atlassian": "graduate",
-        "hubspot": "associate",
-        "zendesk": "associate",
-        "okta": "associate",
-        "crowdstrike": "associate",
-        "elastic": "associate",
-        "mongodb": "associate",
-    }
+    # Entry level mappings loaded from config file (company slug -> entry-level title)
+    ENTRY_LEVELS = _ENTRY_LEVELS
 
     CACHE_FILE = ".levels_salary_cache.json"
     # Different expiry times for different failure reasons
