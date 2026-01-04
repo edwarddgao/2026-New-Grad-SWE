@@ -3,14 +3,16 @@ Levels.fyi scraper for new grad salary data
 """
 
 import json
+import logging
 import os
 import re
-import sys
 import time
 from datetime import datetime, timedelta
 
 import requests
 from typing import List, Optional, Tuple
+
+logger = logging.getLogger('aggregator.levels_scraper')
 
 
 class LevelsScraper:
@@ -564,11 +566,11 @@ class LevelsScraper:
                         else:
                             expired_count += 1
                     if expired_count > 0:
-                        print(f"  [Cache] Expired {expired_count} not-found entries", file=sys.stderr)
+                        logger.debug(f"  [Cache] Expired {expired_count} not-found entries")
 
-                    print(f"  [Cache] Loaded {len(self._salary_cache)} cached salaries, {len(self._not_found_cache)} not-found", file=sys.stderr)
+                    logger.info(f"  [Cache] Loaded {len(self._salary_cache)} cached salaries, {len(self._not_found_cache)} not-found")
             except (json.JSONDecodeError, IOError, KeyError) as e:
-                print(f"  [Cache] Error loading cache: {e}", file=sys.stderr)
+                logger.error(f"  [Cache] Error loading cache: {e}")
 
     def _add_not_found(self, company_slug: str, reason: str):
         """Add a company to the not_found cache with reason."""
@@ -587,7 +589,7 @@ class LevelsScraper:
             with open(self.CACHE_FILE, 'w') as f:
                 json.dump(data, f)
         except (IOError, OSError) as e:
-            print(f"  [Cache] Error saving cache: {e}", file=sys.stderr)
+            logger.error(f"  [Cache] Error saving cache: {e}")
 
     def _is_entry_level(self, level: str, entry_level_slugs: set) -> bool:
         """
@@ -748,10 +750,10 @@ class LevelsScraper:
                 if resp.status_code in (405, 429, 503):
                     if attempt < max_retries - 1:
                         wait_time = (2 ** attempt) * 2.0  # 2s, 4s, 8s backoff
-                        print(f"    [Levels] {company_slug}: {resp.status_code}, retry {attempt+1}", file=sys.stderr)
+                        logger.warning(f"    [Levels] {company_slug}: {resp.status_code}, retry {attempt+1}")
                         time.sleep(wait_time)
                         continue
-                    print(f"    [Levels] {company_slug}: {resp.status_code} after {max_retries} retries", file=sys.stderr)
+                    logger.warning(f"    [Levels] {company_slug}: {resp.status_code} after {max_retries} retries")
                     return (None, None)
 
                 # Company not found - cache for 30 days
@@ -760,7 +762,7 @@ class LevelsScraper:
                     return (None, None)
 
                 if resp.status_code != 200:
-                    print(f"    [Levels] {company_slug}: HTTP {resp.status_code}", file=sys.stderr)
+                    logger.warning(f"    [Levels] {company_slug}: HTTP {resp.status_code}")
                     return (None, None)
 
                 # Extract __NEXT_DATA__ JSON
@@ -849,10 +851,10 @@ class LevelsScraper:
 
             except Exception as e:
                 if attempt < max_retries - 1:
-                    print(f"    [Levels] {company_slug}: {type(e).__name__}, retry {attempt+1}", file=sys.stderr)
+                    logger.warning(f"    [Levels] {company_slug}: {type(e).__name__}, retry {attempt+1}")
                     time.sleep(2 ** attempt)
                     continue
-                print(f"    [Levels] {company_slug}: {type(e).__name__} after {max_retries} retries: {e}", file=sys.stderr)
+                logger.error(f"    [Levels] {company_slug}: {type(e).__name__} after {max_retries} retries: {e}")
                 return (None, None)
 
         return (None, None)
@@ -877,8 +879,7 @@ class LevelsScraper:
         for i, job in enumerate(jobs):
             # Progress output every 500 jobs
             if i > 0 and i % 500 == 0:
-                print(f"    Enriching... {i}/{total} jobs ({enriched} enriched)", file=sys.stderr)
-                sys.stderr.flush()
+                logger.info(f"    Enriching... {i}/{total} jobs ({enriched} enriched)")
 
             # Skip if already has salary
             if job.salary_min or job.salary_max:
@@ -926,6 +927,9 @@ def get_scraper() -> LevelsScraper:
 
 
 if __name__ == "__main__":
+    # Configure logging for standalone testing
+    logging.basicConfig(level=logging.INFO, format='%(message)s')
+
     # Test the scraper
     scraper = LevelsScraper()
 
@@ -934,6 +938,6 @@ if __name__ == "__main__":
     for company in test_companies:
         min_sal, max_sal = scraper.get_salary(company)
         if min_sal and max_sal:
-            print(f"{company}: ${min_sal:,} - ${max_sal:,}")
+            logger.info(f"{company}: ${min_sal:,} - ${max_sal:,}")
         else:
-            print(f"{company}: No data")
+            logger.info(f"{company}: No data")

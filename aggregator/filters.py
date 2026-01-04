@@ -2,6 +2,10 @@
 Job filtering logic for new grad SWE roles
 """
 
+import logging
+
+logger = logging.getLogger('aggregator.filters')
+
 # Sources that are already curated for new grad roles
 CURATED_SOURCES = {"simplify_new_grad", "simplify_internship", "speedyapply"}
 
@@ -100,6 +104,6 @@ def filter_jobs(jobs: list, verbose: bool = True) -> tuple:
             filtered_count += 1
 
     if verbose and filtered_count > 0:
-        print(f"  [Filtered] Removed {filtered_count} non-matching roles from non-curated sources")
+        logger.info(f"  [Filtered] Removed {filtered_count} non-matching roles from non-curated sources")
 
     return filtered_jobs, filtered_count

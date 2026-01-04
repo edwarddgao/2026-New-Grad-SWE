@@ -5,6 +5,7 @@ Pulls job listings from multiple free sources
 
 import html
 import json
+import logging
 import os
 import re
 import requests
@@ -16,6 +17,8 @@ from typing import List, Dict, Optional
 from .filters import filter_jobs
 from .levels_scraper import get_scraper
 from .utils import slugify
+
+logger = logging.getLogger('aggregator.sources')
 
 @dataclass
 class Job:
@@ -73,9 +76,9 @@ class SimplifySource:
                             experience_level=source["type"]
                         )
                         jobs.append(job)
-                    print(f"  [Simplify] {source['name']}: {len(data)} jobs")
+                    logger.info(f"  [Simplify] {source['name']}: {len(data)} jobs")
             except Exception as e:
-                print(f"  [Simplify] {source['name']}: Error - {e}")
+                logger.error(f"  [Simplify] {source['name']}: Error - {e}")
         return jobs
 
     def _format_date(self, timestamp: int) -> Optional[str]:
@@ -170,9 +173,9 @@ class SpeedyApplySource:
                     )
                     jobs.append(job)
 
-                print(f"  [SpeedyApply] Parsed: {len(jobs)} jobs")
+                logger.info(f"  [SpeedyApply] Parsed: {len(jobs)} jobs")
         except Exception as e:
-            print(f"  [SpeedyApply] Error: {e}")
+            logger.error(f"  [SpeedyApply] Error: {e}")
         return jobs
 
     def _parse_age(self, days: int) -> Optional[str]:
@@ -230,7 +233,7 @@ class BuiltInSource:
             from bs4 import BeautifulSoup
             self.BeautifulSoup = BeautifulSoup
         except ImportError:
-            print("  [BuiltIn] BeautifulSoup not installed. Run: pip install beautifulsoup4")
+            logger.warning("  [BuiltIn] BeautifulSoup not installed. Run: pip install beautifulsoup4")
             self.available = False
 
     def fetch(self, cities: List[str] = None, max_pages: int = 10, cached_jobs: Dict[str, dict] = None) -> List[Job]:
@@ -348,10 +351,10 @@ class BuiltInSource:
                         break
 
                 except Exception as e:
-                    print(f"  [BuiltIn] {city.upper()} page {page} Error: {e}")
+                    logger.error(f"  [BuiltIn] {city.upper()} page {page} Error: {e}")
                     break
 
-            print(f"  [BuiltIn] {city.upper()}: {city_jobs} jobs")
+            logger.info(f"  [BuiltIn] {city.upper()}: {city_jobs} jobs")
 
         return jobs
 
@@ -419,7 +422,7 @@ class HNHiringSource:
         # Get the most recent thread
         thread_id = self._get_latest_thread_id()
         if not thread_id:
-            print("  [HN] Could not find Who is Hiring thread")
+            logger.warning("  [HN] Could not find Who is Hiring thread")
             return []
 
         try:
@@ -450,10 +453,10 @@ class HNHiringSource:
                 except Exception:
                     continue
 
-            print(f"  [HN] Who is Hiring: {len(jobs)} jobs")
+            logger.info(f"  [HN] Who is Hiring: {len(jobs)} jobs")
 
         except Exception as e:
-            print(f"  [HN] Error: {e}")
+            logger.error(f"  [HN] Error: {e}")
 
         return jobs
 
@@ -531,7 +534,7 @@ class JobSpySource:
             self.scrape_jobs = scrape_jobs
             self.available = True
         except ImportError:
-            print("  [JobSpy] Not installed. Run: pip install python-jobspy")
+            logger.warning("  [JobSpy] Not installed. Run: pip install python-jobspy")
 
     def fetch(self, site: str = "indeed", search_term: str = "software engineer new grad",
               location: str = "United States", results: int = 50, hours_old: int = 72,
@@ -597,9 +600,9 @@ class JobSpySource:
                     experience_level=None  # Mixed levels in search results
                 )
                 jobs.append(job)
-            print(f"  [{site.capitalize()}] Scraped: {len(jobs)} jobs")
+            logger.info(f"  [{site.capitalize()}] Scraped: {len(jobs)} jobs")
         except Exception as e:
-            print(f"  [{site.capitalize()}] Error: {e}")
+            logger.error(f"  [{site.capitalize()}] Error: {e}")
         return jobs
 
     def _parse_salary(self, val) -> Optional[int]:
@@ -661,9 +664,9 @@ class JobAggregator:
                 with open(self.CACHE_FILE, 'r') as f:
                     data = json.load(f)
                     self._job_cache = data.get('jobs', {})
-                    print(f"  [JobCache] Loaded {len(self._job_cache)} cached jobs")
+                    logger.info(f"  [JobCache] Loaded {len(self._job_cache)} cached jobs")
             except Exception as e:
-                print(f"  [JobCache] Error loading cache: {e}")
+                logger.error(f"  [JobCache] Error loading cache: {e}")
                 self._job_cache = {}
 
     def _save_job_cache(self):
@@ -684,10 +687,10 @@ class JobAggregator:
             with open(self.CACHE_FILE, 'w') as f:
                 json.dump({'jobs': valid_jobs, 'updated': datetime.now().isoformat()}, f, indent=2)
             if expired_count > 0:
-                print(f"  [JobCache] Removed {expired_count} expired jobs (>{self.CACHE_EXPIRY_DAYS} days old)")
-            print(f"  [JobCache] Saved {len(valid_jobs)} jobs to cache")
+                logger.info(f"  [JobCache] Removed {expired_count} expired jobs (>{self.CACHE_EXPIRY_DAYS} days old)")
+            logger.info(f"  [JobCache] Saved {len(valid_jobs)} jobs to cache")
         except Exception as e:
-            print(f"  [JobCache] Error saving cache: {e}")
+            logger.error(f"  [JobCache] Error saving cache: {e}")
 
     def _cache_jobs(self, jobs: List[Job]):
         """Add scraped jobs to cache (only jobs that pass the filter)"""
@@ -715,7 +718,7 @@ class JobAggregator:
                   include_ziprecruiter: bool = False, ziprecruiter_limit: int = 50,
                   skip_enrichment: bool = False) -> List[Job]:
         """Fetch jobs from all sources"""
-        print("\n=== Fetching jobs from all sources ===\n")
+        logger.info("\n=== Fetching jobs from all sources ===\n")
 
         all_jobs = []
 
@@ -818,13 +821,13 @@ class JobAggregator:
         scraped_jobs = [j for j in all_jobs if j.source in self.SCRAPED_SOURCES]
         if scraped_jobs:
             self._cache_jobs(scraped_jobs)
-            print(f"  [JobCache] Cached {len(scraped_jobs)} freshly scraped jobs")
+            logger.info(f"  [JobCache] Cached {len(scraped_jobs)} freshly scraped jobs")
 
         # Add previously cached jobs (will be deduped below)
         cached_jobs = self._get_cached_jobs()
         if cached_jobs:
             all_jobs.extend(cached_jobs)
-            print(f"  [JobCache] Added {len(cached_jobs)} jobs from cache")
+            logger.info(f"  [JobCache] Added {len(cached_jobs)} jobs from cache")
 
         # Deduplicate by URL (normalize URLs first to catch duplicates with query params)
         def normalize_url_for_dedup(url: str) -> str:
@@ -851,30 +854,30 @@ class JobAggregator:
 
         dedup_count = len(all_jobs) - len(deduped_jobs)
         if dedup_count > 0:
-            print(f"  [Deduped] Removed {dedup_count} duplicate jobs (same URL)")
+            logger.info(f"  [Deduped] Removed {dedup_count} duplicate jobs (same URL)")
 
         # Filter non-curated sources to only keep new grad/entry level SWE roles
         # This runs BEFORE enrichment to avoid wasting levels.fyi lookups on
         # non-SWE companies (e.g., civil engineering firms like Stantec)
         filtered_jobs, filtered_count = filter_jobs(deduped_jobs)
         if filtered_count > 0:
-            print(f"  [Filtered] Removed {filtered_count} non-SWE/senior roles from non-curated sources")
+            logger.info(f"  [Filtered] Removed {filtered_count} non-SWE/senior roles from non-curated sources")
 
         # Enrich with levels.fyi salary data
         if not skip_enrichment:
             scraper = get_scraper()
             enriched = scraper.enrich_jobs(filtered_jobs)
             if enriched > 0:
-                print(f"  [Salary] Enriched {enriched} jobs with levels.fyi data")
+                logger.info(f"  [Salary] Enriched {enriched} jobs with levels.fyi data")
         else:
-            print(f"  [Salary] Enrichment skipped")
+            logger.info(f"  [Salary] Enrichment skipped")
 
         self.jobs = filtered_jobs
 
         # Save job cache for persistence between runs
         self._save_job_cache()
 
-        print(f"\n=== Total unique jobs: {len(filtered_jobs)} ===")
+        logger.info(f"\n=== Total unique jobs: {len(filtered_jobs)} ===")
         return filtered_jobs
 
     def filter_location(self, regions: List[str] = None) -> List[Job]:
@@ -920,5 +923,5 @@ class JobAggregator:
                     filtered.append(job)
 
         self.jobs = filtered
-        print(f"  [Location] {len(filtered)} jobs in {', '.join(regions)}")
+        logger.info(f"  [Location] {len(filtered)} jobs in {', '.join(regions)}")
         return filtered

@@ -4,10 +4,14 @@ Generate README.md with job listings table (like Simplify/Jobright)
 """
 
 import json
+import logging
 import os
+from aggregator import configure_logging
 from aggregator.sources import JobAggregator
 from aggregator.levels_scraper import get_scraper
 from datetime import datetime
+
+logger = logging.getLogger('aggregator.generate_readme')
 
 
 def load_levels_cache():
@@ -186,9 +190,13 @@ Found a job not listed? Open an issue or PR!
     with open("README.md", "w") as f:
         f.write(readme)
 
-    print(f"Generated README.md with {len(agg.jobs)} jobs from {len(unique_companies)} companies")
+    logger.info(f"Generated README.md with {len(agg.jobs)} jobs from {len(unique_companies)} companies")
 
 if __name__ == "__main__":
     import sys
+
+    # Configure logging for the aggregator package
+    configure_logging(level=logging.INFO)
+
     skip = "--skip-enrichment" in sys.argv or "-s" in sys.argv
     generate_readme(skip_enrichment=skip)
