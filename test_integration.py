@@ -440,14 +440,15 @@ class TestJobAggregatorIntegration(unittest.TestCase):
         with patch.object(JobAggregator, 'CACHE_FILE', self.temp_cache_file):
             agg = JobAggregator()
             agg.fetch_all(skip_enrichment=True)
-            filtered = agg.filter_location(["nyc", "california"])
+            filtered = agg.filter_location(["nyc", "california", "toronto"])
 
-        # Should keep NYC and SF, filter out TX and Canada
-        self.assertEqual(len(filtered), 2)
+        # Should keep NYC, SF, and Toronto, filter out TX
+        self.assertEqual(len(filtered), 3)
 
         locations = [job.location for job in filtered]
         self.assertTrue(any("New York" in loc for loc in locations))
         self.assertTrue(any("San Francisco" in loc for loc in locations))
+        self.assertTrue(any("Toronto" in loc for loc in locations))
 
 
 class TestFilteringLogic(unittest.TestCase):

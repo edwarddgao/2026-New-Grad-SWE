@@ -899,7 +899,11 @@ class JobAggregator:
                 "berkeley, ca", "fremont, ca", "sacramento", "santa monica",
                 "venice, ca", "culver city", "burbank, ca", "glendale, ca"
             ],
-            "remote": ["remote"]
+            "remote": ["remote"],
+            "toronto": [
+                "toronto", ", on,", ", on ", "ontario", "mississauga",
+                "vaughan, on", "markham, on", "scarborough", "north york"
+            ]
         }
 
         # Build list of patterns to match
@@ -911,8 +915,10 @@ class JobAggregator:
             else:
                 patterns.append(region_lower)
 
-        # Exclusion patterns (to avoid Canada, etc.)
-        exclude_patterns = ["canada", "ontario", "quebec", "british columbia", "alberta"]
+        # Exclusion patterns (exclude other Canadian provinces if not searching for Toronto)
+        exclude_patterns = ["quebec", "british columbia", "alberta", "vancouver", "montreal"]
+        if "toronto" not in [r.lower() for r in regions]:
+            exclude_patterns.extend(["canada", "ontario"])
 
         filtered = []
         for job in self.jobs:
