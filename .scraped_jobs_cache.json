@@ -1,8 +1,8 @@
 {
   "jobs": {
     "https://nuro.ai/careersitem": {
-      "id": "linkedin_li-4317707969",
-      "title": "Software Engineer, AI Platform - New Grad",
+      "id": "linkedin_li-4327790555",
+      "title": "Software Engineer, Autonomy-New Grad",
       "company": "Nuro",
       "company_slug": "nuro",
       "location": "Mountain View, CA",
@@ -1288,7 +1288,7 @@
       "location": "San Francisco, CA",
       "url": "https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-03",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -1361,5 +1361,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-04T10:20:10.092268"
+  "updated": "2026-01-04T11:17:01.349203"
 }
