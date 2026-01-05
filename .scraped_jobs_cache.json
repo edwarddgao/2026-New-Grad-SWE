@@ -1503,7 +1503,23 @@
       "remote": true,
       "description": "**About the role and team** Engineering at Uber means building for real\\-world impact under real\\-world constraints. You'll join a team that builds the platforms and services powering safe, affordable, and reliable movement in over 10,000 cities worldwide. The problems are complex, the systems are massive, and the pace is fast, requiring you to make smart decisions with guidance from seasoned peers. If you think in systems and care about building things that actually work for millions of people,",
       "experience_level": null
+    },
+    "https://lifeattiktok.com/search/7591947799615260933": {
+      "id": "indeed_in-e787734b15ef3ae3",
+      "title": "Software Engineer Graduate (Site Reliability Engineering) - 2026 Start (BS/MS)",
+      "company": "TikTok",
+      "company_slug": "tiktok",
+      "location": "San Jose, CA, US",
+      "url": "https://lifeattiktok.com/search/7591947799615260933",
+      "source": "indeed",
+      "date_posted": "2026-01-05",
+      "salary_min": 118657,
+      "salary_max": 187200,
+      "sponsorship": null,
+      "remote": false,
+      "description": "DevOps\n  \n  \n\nSoftware Engineer Graduate (Site Reliability Engineering) \\- 2026 Start (BS/MS)\n  \n  \n\nLocation\n  \n:\n  \n  \n\nSan Jose\n  \n  \n\nEmployment Type\n  \n:\n  \n  \n\nRegular\n  \n  \n\nJob Code\n  \n:\n  \n  \n\nA215974A\n  \n  \n\nResponsibilities\n  \n  \n\nTikTok\u2019s Generalized Architecture US Tech and Operations team is dedicated to ensuring that TikTok\u2019s core services run stable, efficient, and cost\\-effective at global scale. We focus on enhancing the observability and operability of our infrastructure and s",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-05T22:20:33.915252"
+  "updated": "2026-01-05T23:20:11.037598"
 }
