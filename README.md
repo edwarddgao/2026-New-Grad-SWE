@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-05 19:20
+**Last updated:** 2026-01-05 20:25
 
 **Total:** 1112 jobs from 439 companies
 
@@ -26,7 +26,7 @@
 | **ATCO** | [Picarro Driver - Temp Labourer](https://eezy.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19314) | Edmonton, AB, Canada |  | Simplify | 0d |
 | **NetApp** | [Software Engineer](https://dsp.prng.co/b09Acxb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn | 1d |
 | **ByteDance** | [Software Engineer Graduate - Media Network Global Engineering - 2026 Start](https://jobs.bytedance.com/en/position/7579851430954125621/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 2d |
-| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 2d |
+| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | California, United States | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 2d |
 | **Boeing** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium Space Systems](https://jobs.boeing.com/job/-/-/185/90192695952) | El Segundo, CA, US | [$104k-153k](https://www.levels.fyi/companies/boeing/salaries) | Indeed | 2d |
 | **Dhara Consulting Group** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium S](https://www.clearancejobs.com/jobs/8691864/systems-engineer-mission-assurance-mid-career-millennium-s) | El Segundo, CA, US | $104k-153k | Indeed | 2d |
 | **Boeing** | [Spacecraft Software Engineer - Early-Career - Millennium Space Systems](https://boeing.wd1.myworkdayjobs.com/en-US/external_subsidiary/job/USA---El-Segundo-CA/Spacecraft-Software-Engineer--Early-Career----Millennium-Space-Systems_JR2026489982-2) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | SpeedyApply | 2d |
@@ -38,8 +38,8 @@
 | **KBR** | [Junior Software Engineer](https://kbr.wd5.myworkdayjobs.com/en-US/KBR_Careers/job/El-Segundo-California/Junior-Software-Engineer_R2117103) | El Segundo, CA |  | SpeedyApply | 2d |
 | **KBR** | [Junior Software Engineer](https://kbr.wd5.myworkdayjobs.com/en-US/KBR_Careers/job/El-Segundo-California/Junior-Software-Engineer_R2117104) | El Segundo, CA |  | SpeedyApply | 2d |
 | **USC - University of Southern California** | [Associate Software Engineer - LIMS](https://usc.wd5.myworkdayjobs.com/en-US/ExternalUSCCareers/job/San-Diego-CA/Associate-Software-Engineer---LIMS_REQ20170521) | San Diego, CA |  | SpeedyApply | 2d |
-| **TechTree** | [Early Software Engineer](https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply) | San Francisco, CA |  | LinkedIn | 2d |
 | **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn | 2d |
+| **TechTree** | [Early Software Engineer](https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply) | San Francisco, CA |  | LinkedIn | 2d |
 | **ByteDance** | [Research Scientist in Large Language Model Graduate - Seed-LLM](https://jobs.bytedance.com/en/position/7561701031874693429/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3d |
 | **Amazon** | [Agentic AI Teacher - Agi Ds - Agi Ds](https://amazon.jobs/en/jobs/3150956/agentic-ai-teacher-agi-ds-agi-ds) | Boston, MA, Bellevue, WA | [$174k-201k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 3d |
 | **Amazon** | [Agentic AI Teacher - Agi Ds - Agi Ds](https://amazon.jobs/en/jobs/3150951/agentic-ai-teacher-agi-ds-agi-ds) | Boston, MA, Bellevue, WA | [$174k-201k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 3d |
@@ -1085,9 +1085,8 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 12mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
-| **Oracle** | [Undergrad Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/) | Santa Clara, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn |  |
+| **Oracle** | [Undergrad Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/) | Redwood City, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026: SVL](https://lensa.com/cgw/e49c87120739409bb73d8c7de31bbdf1tjo1) | San Jose, CA |  | LinkedIn |  |
-| **Prosper Marketplace** | [Site Reliability Engineer I](https://jobs.lever.co/prosper/af9e9ca5-b22e-4d58-8038-d91e7ffed31b/apply) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1124,6 +1123,7 @@
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/0d226c09971745e1bd4d0ae1cce1f238tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/4a4badd1b5e744ffbaa3276c510dab94tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/926c2e6149ac4dd8b4291ac5ed721533tjo1) | New York, NY |  | LinkedIn |  |
+| **Prosper Marketplace** | [Site Reliability Engineer I](https://jobs.lever.co/prosper/af9e9ca5-b22e-4d58-8038-d91e7ffed31b/apply) | San Francisco, CA |  | LinkedIn |  |
 
 ---
 
