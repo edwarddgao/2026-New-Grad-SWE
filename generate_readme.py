@@ -68,7 +68,7 @@ def generate_readme(skip_enrichment: bool = False):
     # Fetch and filter jobs
     agg = JobAggregator()
     agg.fetch_all(include_linkedin=True, linkedin_limit=100, include_builtin=False, builtin_cities=["nyc", "sf", "la"], include_hn=True, hn_limit=100, include_indeed=True, indeed_limit=100, include_glassdoor=True, glassdoor_limit=100, include_ziprecruiter=True, ziprecruiter_limit=100, skip_enrichment=skip_enrichment)
-    agg.filter_location(["nyc", "california", "toronto"])
+    agg.filter_location(["nyc", "california", "toronto", "seattle", "austin"])
 
     # Load valid companies AFTER enrichment so newly discovered companies are included
     valid_levels_companies = load_levels_cache()
@@ -89,7 +89,7 @@ def generate_readme(skip_enrichment: bool = False):
     # Generate README content
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    readme = f"""# New Grad SWE Jobs - NYC, California & Toronto
+    readme = f"""# New Grad SWE Jobs - NYC, California, Seattle, Austin & Toronto
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
