@@ -1487,7 +1487,23 @@
       "remote": false,
       "description": "**Your role in our mission**\n As a Site Reliability Engineer I at Prosper, you will play a crucial role in enhancing the reliability, scalability, and maintainability of our technology platform. This entry\\-level position is designed to bridge the gap between application development and infrastructure, ensuring our systems are robust, observable, and easy to maintain. You will also contribute to optimizing deployment workflows, observability practices, and overall operational readiness.\n   \n\n  \n",
       "experience_level": null
+    },
+    "https://tnl2.jometer.com/v2/job": {
+      "id": "indeed_in-fdfdef208abf4938",
+      "title": "Graduate 2026 Software Engineer I, US",
+      "company": "Uber",
+      "company_slug": "uber",
+      "location": "San Francisco, CA, US",
+      "url": "https://tnl2.jometer.com/v2/job",
+      "source": "indeed",
+      "date_posted": "2026-01-05",
+      "salary_min": 150000,
+      "salary_max": 158000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**About the role and team** Engineering at Uber means building for real\\-world impact under real\\-world constraints. You'll join a team that builds the platforms and services powering safe, affordable, and reliable movement in over 10,000 cities worldwide. The problems are complex, the systems are massive, and the pace is fast, requiring you to make smart decisions with guidance from seasoned peers. If you think in systems and care about building things that actually work for millions of people,",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-05T18:31:42.836617"
+  "updated": "2026-01-05T19:20:41.964830"
 }
