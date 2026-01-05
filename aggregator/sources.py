@@ -903,6 +903,13 @@ class JobAggregator:
             "toronto": [
                 "toronto", ", on,", ", on ", "ontario", "mississauga",
                 "vaughan, on", "markham, on", "scarborough", "north york"
+            ],
+            "seattle": [
+                "seattle", ", wa,", ", wa ", ", wa", "bellevue, wa", "redmond, wa",
+                "kirkland, wa", "tacoma, wa", "bothell, wa"
+            ],
+            "austin": [
+                "austin, tx", "austin, texas", "austin,tx"
             ]
         }
 
