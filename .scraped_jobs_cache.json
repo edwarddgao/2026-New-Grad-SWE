@@ -1384,7 +1384,7 @@
       "location": "San Jose, CA",
       "url": "https://dsp.prng.co/b09Acxb",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-04",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -1407,7 +1407,23 @@
       "remote": false,
       "description": "**Responsibilities**\n**JOB DESCRIPTION**\n**The Program:**\n Our future success depends on hiring great people like you: elite, early in career talent who are looking to power next\\-generation services and solutions and are committed to crafting a better future. We are hiring bachelor\u2019s, master\u2019s, and doctorate graduates with a diverse set of skills and experiences to work in and across multiple teams within the Applications Development organization. Our program is intended to enhance your overall",
       "experience_level": null
+    },
+    "https://job-boards.greenhouse.io/airtable/jobs/7845293002": {
+      "id": "linkedin_li-4142865296",
+      "title": "Software Engineer, Infrastructure (2-8 YOE)",
+      "company": "Airtable",
+      "company_slug": "airtable",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/7845293002",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Airtable is the no\\-code app platform that empowers people closest to the work to accelerate their most critical business processes. More than 500,000 organizations, including 80% of the Fortune 100, rely on Airtable to transform how work gets done.\n   \n\n  \n\n Airtable\u2019s infrastructure is evolving to meet the needs of our fast growing engineering org. We are looking for backend engineers to join our team to help improve critical product infrastructure, with a focus on building systems that have a",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-05T10:24:48.218261"
+  "updated": "2026-01-05T11:19:51.232239"
 }
