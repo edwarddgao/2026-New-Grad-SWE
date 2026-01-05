@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-05 03:55
+**Last updated:** 2026-01-05 04:57
 
 **Total:** 922 jobs from 399 companies
 
@@ -25,8 +25,8 @@
 | **Dhara Consulting Group** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium S](https://www.clearancejobs.com/jobs/8691864/systems-engineer-mission-assurance-mid-career-millennium-s) | El Segundo, CA, US | $104k-153k | Indeed | 2d |
 | **RoviSys** | [Entry Level Engineer/Developer (2026)](https://careers-rovisys.icims.com/jobs/1915/entry-level-engineer-developer-(2026)/job) | Carlsbad, CA | [$80k-80k](https://www.levels.fyi/companies/rovisys/salaries) | LinkedIn | 2d |
 | **Niagara Bottling** | [MFG System Implementations Engineer 1](https://niagarawater.wd5.myworkdayjobs.com/niagara/job/Corp-Offsite---Diamond-Bar-CA/MFG-System-Implementations-Engineer-I_R52026) | Walnut, CA |  | Simplify | 2d |
-| **TechTree** | [Early Software Engineer](https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply) | San Francisco, CA |  | LinkedIn | 2d |
 | **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn | 2d |
+| **TechTree** | [Early Software Engineer](https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply) | San Francisco, CA |  | LinkedIn | 2d |
 | **ByteDance** | [Research Scientist in Large Language Model Graduate - Seed-LLM](https://jobs.bytedance.com/en/position/7561701031874693429/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3d |
 | **Walmart** | [Software Engineer 3](https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/Sunnyvale-CA/Software-Engineer-III_R-2347075) | Sunnyvale, CA | [$101k-130k](https://www.levels.fyi/companies/walmart/salaries) | Simplify | 3d |
 | **The Boeing Company** | [Systems Engineer - Entry Level](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Systems-Engineer--Entry-level--Associate-or-Experienced-Level-_JR2025464067-1) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 3d |
@@ -899,7 +899,6 @@
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
 | **NetApp** | [Software Engineer](https://dsp.prng.co/b09Acxb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
-| **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/4a4badd1b5e744ffbaa3276c510dab94tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -934,6 +933,7 @@
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/7335125581c34446aa6d9872e3d27214tjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/7a9deb279c764c06b1e99b4df9d48aabtjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/0d226c09971745e1bd4d0ae1cce1f238tjo1) | New York, NY |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/4a4badd1b5e744ffbaa3276c510dab94tjo1) | New York, NY |  | LinkedIn |  |
 
 ---
 
