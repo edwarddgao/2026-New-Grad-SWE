@@ -1471,7 +1471,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
       "experience_level": null
+    },
+    "https://jobs.lever.co/prosper/af9e9ca5-b22e-4d58-8038-d91e7ffed31b/apply": {
+      "id": "linkedin_li-4313471804",
+      "title": "Site Reliability Engineer I",
+      "company": "Prosper Marketplace",
+      "company_slug": "prosper-marketplace",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.lever.co/prosper/af9e9ca5-b22e-4d58-8038-d91e7ffed31b/apply",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Your role in our mission**\n As a Site Reliability Engineer I at Prosper, you will play a crucial role in enhancing the reliability, scalability, and maintainability of our technology platform. This entry\\-level position is designed to bridge the gap between application development and infrastructure, ensuring our systems are robust, observable, and easy to maintain. You will also contribute to optimizing deployment workflows, observability practices, and overall operational readiness.\n   \n\n  \n",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-05T16:26:53.754650"
+  "updated": "2026-01-05T17:22:38.424696"
 }
