@@ -1393,11 +1393,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862211",
+      "id": "linkedin_li-4289862210",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Redwood City, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": null,
@@ -1519,7 +1519,71 @@
       "remote": false,
       "description": "DevOps\n  \n  \n\nSoftware Engineer Graduate (Site Reliability Engineering) \\- 2026 Start (BS/MS)\n  \n  \n\nLocation\n  \n:\n  \n  \n\nSan Jose\n  \n  \n\nEmployment Type\n  \n:\n  \n  \n\nRegular\n  \n  \n\nJob Code\n  \n:\n  \n  \n\nA215974A\n  \n  \n\nResponsibilities\n  \n  \n\nTikTok\u2019s Generalized Architecture US Tech and Operations team is dedicated to ensuring that TikTok\u2019s core services run stable, efficient, and cost\\-effective at global scale. We focus on enhancing the observability and operability of our infrastructure and s",
       "experience_level": null
+    },
+    "https://recruiting.ultipro.com/YAS1000YAAMI/JobBoard/8a2317d2-a61e-4259-a857-722d164a211c/OpportunityDetail": {
+      "id": "linkedin_li-4354558682",
+      "title": "Embedded Software Engineer",
+      "company": "Yaskawa America, Inc. -  Drives & Motion Division",
+      "company_slug": "yaskawa-america-inc-drives-motion-division",
+      "location": "Santa Clara, CA",
+      "url": "https://recruiting.ultipro.com/YAS1000YAAMI/JobBoard/8a2317d2-a61e-4259-a857-722d164a211c/OpportunityDetail",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Yaskawa America, Inc. \\- Drives \\& Motion Division** \n is a global leader in variable speed drives, motion controls and robotics. We look to hire people who value a positive work culture, want to be part of a winning team, and have a desire to learn and grow. Yaskawa\u2019s culture of continuous improvement values hiring individuals that are looking for the opportunity to stretch their current talents and skills to the next level and beyond. This role is responsible for developing embedded software",
+      "experience_level": null
+    },
+    "https://careers-dynamicec.icims.com/jobs/4419/job": {
+      "id": "indeed_in-2cd4a437cd411723",
+      "title": "CAD Intern (Summer 2026) - Dynamic Engineering",
+      "company": "DYNAMIC ENGINEERING CONSULTANTS, PC",
+      "company_slug": "dynamic-engineering-consultants-pc",
+      "location": "Lake Como, NJ, US",
+      "url": "https://careers-dynamicec.icims.com/jobs/4419/job",
+      "source": "indeed",
+      "date_posted": "2026-01-05",
+      "salary_min": 18,
+      "salary_max": 23,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Who We Are: Dynamic Engineering Consultants, P.C., along with our Family of Companies\u2014Dynamic Earth, Dynamic Survey, and Dynamic Traffic\u2014has been a leader in land development consulting since 2004\\. Originally founded in New Jersey, we've expanded nationwide with over 350 employees and 15 offices. We proudly serve Fortune 500 companies as well as independent owners and developers of all sizes, offering a comprehensive consulting experience that integrates expertise in design and permitting for c",
+      "experience_level": null
+    },
+    "https://careers-dynamicec.icims.com/jobs/4431/job": {
+      "id": "indeed_in-32cd1de3ced906cb",
+      "title": "CAD Intern (Summer 2026) - Dynamic Engineering",
+      "company": "DYNAMIC ENGINEERING CONSULTANTS, PC",
+      "company_slug": "dynamic-engineering-consultants-pc",
+      "location": "Chester, NJ, US",
+      "url": "https://careers-dynamicec.icims.com/jobs/4431/job",
+      "source": "indeed",
+      "date_posted": "2026-01-05",
+      "salary_min": 18,
+      "salary_max": 23,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Who We Are: Dynamic Engineering Consultants, P.C., along with our Family of Companies\u2014Dynamic Earth, Dynamic Survey, and Dynamic Traffic\u2014has been a leader in land development consulting since 2004\\. Originally founded in New Jersey, we've expanded nationwide with over 350 employees and 15 offices. We proudly serve Fortune 500 companies as well as independent owners and developers of all sizes, offering a comprehensive consulting experience that integrates expertise in design and permitting for c",
+      "experience_level": null
+    },
+    "https://careers.adobe.com/us/en/job/ADOBUSR160657EXTERNALENUS/2026-University-Graduate-Software-Development-Engineer": {
+      "id": "indeed_in-f452339acbb0d27f",
+      "title": "2026 University Graduate - Software Development Engineer",
+      "company": "Adobe",
+      "company_slug": "adobe",
+      "location": "San Jose, CA, US",
+      "url": "https://careers.adobe.com/us/en/job/ADOBUSR160657EXTERNALENUS/2026-University-Graduate-Software-Development-Engineer",
+      "source": "indeed",
+      "date_posted": "2026-01-05",
+      "salary_min": 93200,
+      "salary_max": 179200,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Our Company\n  \n  \n\nChanging the world through digital experiences is what Adobe\u2019s all about. We give everyone\u2014from emerging artists to global brands\u2014everything they need to design and deliver exceptional digital experiences! We\u2019re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.\n  \n  \n\nWe\u2019re on a mission to hire the very best and are committed to creating exceptional employee exp",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-05T23:20:11.037598"
+  "updated": "2026-01-06T01:40:34.552214"
 }
