@@ -1233,11 +1233,11 @@
       "experience_level": null
     },
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dCAD-Automation\\u002d\\u002d-New-College-Grad-2025_JR2005867": {
-      "id": "linkedin_li-4343477296",
+      "id": "linkedin_li-4343357760",
       "title": "Software Engineer, CAD Automation - New College Grad 2026",
       "company": "NVIDIA",
       "company_slug": "nvidia",
-      "location": "Santa Clara, CA",
+      "location": "California, United States",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dCAD-Automation\\u002d\\u002d-New-College-Grad-2025_JR2005867",
       "source": "linkedin",
       "date_posted": "2026-01-03",
@@ -1599,7 +1599,23 @@
       "remote": false,
       "description": "Who we are\n   \n\n  \n\n**About Stripe**\n Stripe is a financial infrastructure platform for businesses. Millions of companies \\- from the world\u2019s largest enterprises to the most ambitious startups \\- use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing ",
       "experience_level": null
+    },
+    "https://click.appcast.io/t/K9R1F_K0sFNWI0jm9pSZ_AlgOtvH96hoEUEl4i35eYM=": {
+      "id": "indeed_in-5e402a2ad40c9c81",
+      "title": "DL Algorithms Engineer - Cosmos - New College Graduate 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA, US",
+      "url": "https://click.appcast.io/t/K9R1F_K0sFNWI0jm9pSZ_AlgOtvH96hoEUEl4i35eYM=",
+      "source": "indeed",
+      "date_posted": "2026-01-06",
+      "salary_min": 120000,
+      "salary_max": 235750,
+      "sponsorship": null,
+      "remote": false,
+      "description": "We are now looking for a DL Algorithms Engineer! We are seeking a highly skilled Deep Learning Algorithms Engineer with hands\\-on experience optimizing and deploying Large Language Models (LLMs), Vision\\-Language Models (VLMs), and World Foundation Models (WFMs) in production environments. In this role, you will focus on optimizing and deploying deep learning models for efficient and fast inference across diverse GPU platforms, particularly for physical AI and generative AI applications. You wil",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-06T06:33:21.775689"
+  "updated": "2026-01-06T07:25:47.832069"
 }
