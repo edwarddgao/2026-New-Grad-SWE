@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4350182226",
-      "title": "Entry Level Software Developer 2026: SVL",
+      "id": "linkedin_li-4351129785",
+      "title": "Entry Level Web Developer",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -77,7 +77,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n Launch your software career with IBM!\n   \n\n  \n\n Ready to turn your coding skills into real\\-world impact? As an Entry\\-Level Software Developer at IBM, you\u2019ll join a collaborative Agile team where your ideas matter from day one. Whether you\u2019ve just finished school, completed a bootcamp, or built your skills independently, this is your opportunity to grow into a world\\-class developer. You\u2019ll work alongside experienced mentors to design, build, and deploy modern web applications",
+      "description": "**Introduction**\n**Why Join Us**\n* Be part of a mission\\-driven team shaping the future of AI and open source.\n* Work with cutting\\-edge technologies and world\\-class engineers.\n* Grow your career in developer advocacy and technical communication.\n* Enjoy a collaborative, inclusive, and innovative work environment.\n\n\n**Your Role And Responsibilities**\n**You will be a core contributor to developing a modern web platform that will help our users:**\n* Learn how our products work and fit into their ",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -1695,7 +1695,23 @@
       "remote": true,
       "description": "**Job Description**\n Do you want to design and write software that really matters and be a part of a cause greater than yourself? Then, help us protect those that protect us by developing Next Generation Electronic Systems Products and Solutions. We need your talent, motivation, and vision to join our Long Island team. We are actively seeking an Entry Level Software Engineer with a range of skills and a passion for learning new things who can apply their skills to developing high\\-quality, real\\",
       "experience_level": null
+    },
+    "https://jobs.baesystems.com/global/en/job/BAE1US118690BREXTERNAL/Entry-Level-Software-Engineer": {
+      "id": "linkedin_li-4347465498",
+      "title": "Entry Level Software Engineer",
+      "company": "BAE Systems, Inc.",
+      "company_slug": "bae-systems-inc",
+      "location": "Totowa, NJ",
+      "url": "https://jobs.baesystems.com/global/en/job/BAE1US118690BREXTERNAL/Entry-Level-Software-Engineer",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Description**\n Our employees work on the world\u2019s most advanced electronics \u2013 from saving emissions in the City of Lights to powering the Mars Rover to protecting the F\\-35 fighter jet. At Electronic Systems, you\u2019ll be among the brightest minds, working on the aerospace and defense industry\u2019s most difficult problems. Drawing strength from our differences, we\u2019re innovating for the future. And you can, too.\n   \n\n  \n\n Our work environment provides you a chance to change the world without givin",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-06T17:23:23.782724"
+  "updated": "2026-01-06T18:30:32.361176"
 }
