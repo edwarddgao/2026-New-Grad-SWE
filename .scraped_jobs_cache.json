@@ -1393,11 +1393,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862210",
+      "id": "linkedin_li-4289862211",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Redwood City, CA",
+      "location": "Santa Clara, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -1727,7 +1727,23 @@
       "remote": false,
       "description": "**Description**\n Headquartered in the United States, TP\\-Link Systems Inc. is a global provider of reliable networking devices and smart home products, consistently ranked as the world\u2019s top provider of Wi\\-Fi devices. The company is committed to delivering innovative products that enhance people\u2019s lives through faster, more reliable connectivity. With a commitment to excellence, TP\\-Link serves customers in over 170 countries and continues to grow its global footprint.\n   \n\n  \n\n We believe tech",
       "experience_level": null
+    },
+    "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/New-York-Office/Software-Development-Engineer\\u002d\\u002d-Alts-Risk_R11368": {
+      "id": "linkedin_li-4330517777",
+      "title": "Software Development Engineer - Alts Risk",
+      "company": "Clearwater Analytics (CWAN)",
+      "company_slug": "clearwater-analytics-cwan",
+      "location": "New York, NY",
+      "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/New-York-Office/Software-Development-Engineer\\u002d\\u002d-Alts-Risk_R11368",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Summary:**\n The Software Development Engineer role at Clearwater Analytics spans a spectrum of responsibilities with a focus on designing, implementing, and managing software systems. The role requires continuous learning and application of new technologies and trends. Engineers at entry\\-level work on coding, debugging, and learning new software technologies. With progression in this track, the responsibilities expand to include leading teams, designing complex software systems, providing",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-06T20:23:17.415485"
+  "updated": "2026-01-06T21:21:20.918728"
 }
