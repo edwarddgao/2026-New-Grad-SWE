@@ -1393,11 +1393,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862211",
+      "id": "linkedin_li-4289862210",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Redwood City, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -1416,7 +1416,7 @@
       "location": "",
       "url": "https://job-boards.greenhouse.io/airtable/jobs/7845293002",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-05",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -1631,7 +1631,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
       "experience_level": null
+    },
+    "https://careers.harris.com/job/-/-/4832/90292511264": {
+      "id": "indeed_in-84f7f055e283fa53",
+      "title": "Scientist, Software Engineering",
+      "company": "L3Harris",
+      "company_slug": "l3harris",
+      "location": "Carlsbad, CA, US",
+      "url": "https://careers.harris.com/job/-/-/4832/90292511264",
+      "source": "indeed",
+      "date_posted": "2026-01-06",
+      "salary_min": 161500,
+      "salary_max": 300500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "L3Harris is dedicated to recruiting and developing high\\-performing talent who are passionate about what they do. Our employees are unified in a shared dedication to our customers\u2019 mission and quest for professional growth. L3Harris provides an inclusive, engaging environment designed to empower employees and promote work\\-life success. Fundamental to our culture is an unwavering focus on values, dedication to our communities, and commitment to excellence in everything we do.\n\n\nL3Harris Technolo",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-06T11:18:40.613344"
+  "updated": "2026-01-06T12:42:28.931431"
 }
