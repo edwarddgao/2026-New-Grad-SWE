@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4351129785",
-      "title": "Entry Level Web Developer",
+      "id": "linkedin_li-4350182226",
+      "title": "Entry Level Software Developer 2026: SVL",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -77,7 +77,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n**Why Join Us**\n* Be part of a mission\\-driven team shaping the future of AI and open source.\n* Work with cutting\\-edge technologies and world\\-class engineers.\n* Grow your career in developer advocacy and technical communication.\n* Enjoy a collaborative, inclusive, and innovative work environment.\n\n\n**Your Role And Responsibilities**\n**You will be a core contributor to developing a modern web platform that will help our users:**\n* Learn how our products work and fit into their ",
+      "description": "**Introduction**\n Launch your software career with IBM!\n   \n\n  \n\n Ready to turn your coding skills into real\\-world impact? As an Entry\\-Level Software Developer at IBM, you\u2019ll join a collaborative Agile team where your ideas matter from day one. Whether you\u2019ve just finished school, completed a bootcamp, or built your skills independently, this is your opportunity to grow into a world\\-class developer. You\u2019ll work alongside experienced mentors to design, build, and deploy modern web applications",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -1647,7 +1647,39 @@
       "remote": false,
       "description": "L3Harris is dedicated to recruiting and developing high\\-performing talent who are passionate about what they do. Our employees are unified in a shared dedication to our customers\u2019 mission and quest for professional growth. L3Harris provides an inclusive, engaging environment designed to empower employees and promote work\\-life success. Fundamental to our culture is an unwavering focus on values, dedication to our communities, and commitment to excellence in everything we do.\n\n\nL3Harris Technolo",
       "experience_level": null
+    },
+    "https://job-boards.greenhouse.io/fashionnova/jobs/5028278&urlHash=fuIf": {
+      "id": "linkedin_li-4291199050",
+      "title": "Software Engineer",
+      "company": "Fashion Nova",
+      "company_slug": "fashion-nova",
+      "location": "Beverly Hills, CA",
+      "url": "https://job-boards.greenhouse.io/fashionnova/jobs/5028278&urlHash=fuIf",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About Us**\n**Fashion Nova** \n is the world\u2019s leading trend\\-to\\-market fashion and lifestyle brand with high\\-growth categories across its Women, Men, Kids and Beauty divisions. Renowned for delivering the most\\-wanted styles to millions worldwide,\n **Fashion Nova** \n earned the title of the Top 5 Most\\-Searched Fashion Brand on Google in 2022, alongside Louis Vuitton and Nike.\n   \n\n  \n\n Founder \\& CEO Richard Saghian launched the brand in 2006, from a retail location in Los Angeles. After mul",
+      "experience_level": null
+    },
+    "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Senior-Embedded-Systems-Engineer\\u002d\\u002d-Innovation\\u002d\\u002d-Customer-Enablement_2502141": {
+      "id": "linkedin_li-4295611372",
+      "title": "Application Engineer, Customer Success - Entry Level Professional (ELP)",
+      "company": "Marvell Technology",
+      "company_slug": "marvell-technology",
+      "location": "Santa Clara, CA",
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Senior-Embedded-Systems-Engineer\\u002d\\u002d-Innovation\\u002d\\u002d-Customer-Enablement_2502141",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About Marvell**\n Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\n   \n\n  \n\n At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-06T12:42:28.931431"
+  "updated": "2026-01-06T13:37:43.990168"
 }
