@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-06 08:30
+**Last updated:** 2026-01-06 09:26
 
-**Total:** 1138 jobs from 447 companies
+**Total:** 1140 jobs from 448 companies
 
 ---
 
@@ -60,13 +60,13 @@
 | **KBR** | [Junior Software Engineer](https://kbr.wd5.myworkdayjobs.com/en-US/KBR_Careers/job/El-Segundo-California/Junior-Software-Engineer_R2117104) | El Segundo, CA |  | SpeedyApply | 2d |
 | **USC - University of Southern California** | [Associate Software Engineer - LIMS](https://usc.wd5.myworkdayjobs.com/en-US/ExternalUSCCareers/job/San-Diego-CA/Associate-Software-Engineer---LIMS_REQ20170521) | San Diego, CA |  | SpeedyApply | 2d |
 | **ByteDance** | [Software Engineer Graduate - Media Network Global Engineering - 2026 Start](https://jobs.bytedance.com/en/position/7579851430954125621/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3d |
-| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | California, United States | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 3d |
+| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 3d |
 | **Boeing** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium Space Systems](https://jobs.boeing.com/job/-/-/185/90192695952) | El Segundo, CA, US | [$104k-153k](https://www.levels.fyi/companies/boeing/salaries) | Indeed | 3d |
 | **Dhara Consulting Group** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium S](https://www.clearancejobs.com/jobs/8691864/systems-engineer-mission-assurance-mid-career-millennium-s) | El Segundo, CA, US | $104k-153k | Indeed | 3d |
 | **RoviSys** | [Entry Level Engineer/Developer (2026)](https://careers-rovisys.icims.com/jobs/1915/entry-level-engineer-developer-(2026)/job) | Carlsbad, CA | [$80k-80k](https://www.levels.fyi/companies/rovisys/salaries) | LinkedIn | 3d |
 | **Niagara Bottling** | [MFG System Implementations Engineer 1](https://niagarawater.wd5.myworkdayjobs.com/niagara/job/Corp-Offsite---Diamond-Bar-CA/MFG-System-Implementations-Engineer-I_R52026) | Walnut, CA |  | Simplify | 3d |
-| **TechTree** | [Early Software Engineer](https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply) | San Francisco, CA |  | LinkedIn | 3d |
 | **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn | 3d |
+| **TechTree** | [Early Software Engineer](https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply) | San Francisco, CA |  | LinkedIn | 3d |
 | **ByteDance** | [Research Scientist in Large Language Model Graduate - Seed-LLM](https://jobs.bytedance.com/en/position/7561701031874693429/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 4d |
 | **Amazon** | [Agentic AI Teacher - Agi Ds - Agi Ds](https://amazon.jobs/en/jobs/3150956/agentic-ai-teacher-agi-ds-agi-ds) | Boston, MA, Bellevue, WA | [$174k-201k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 4d |
 | **Amazon** | [Agentic AI Teacher - Agi Ds - Agi Ds](https://amazon.jobs/en/jobs/3150951/agentic-ai-teacher-agi-ds-agi-ds) | Boston, MA, Bellevue, WA | [$174k-201k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 4d |
@@ -807,6 +807,7 @@
 | **BNY** | [BNY Analyst Program-Engineering - Data Science](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70345) | Pittsburgh, PA, Lake Mary, FL, NYC |  | Simplify | 3mo |
 | **BNY** | [BNY Analyst Program-Engineering - Developer](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70342) | Pittsburgh, PA, Lake Mary, FL, NYC |  | Simplify | 3mo |
 | **AI Fund** | [Founder in Residence - Embedfi - SMB Hardware Leasing](https://jobs.lever.co/AIFund/e5ef49f6-2014-45d7-a5fb-2d534e6af556/apply) | California, Remote in USA |  | Simplify | 3mo |
+| **Amazon.com** | [Software Engineer, Prime Video](https://www.amazon.jobs/jobs/3083247/software-engineer-prime-video) | New York, NY, US | [$129k-223k](https://www.levels.fyi/companies/amazon/salaries) | Indeed | 3mo |
 | **Citi** | [Reference Data Analyst Junior](https://citi.wd5.myworkdayjobs.com/en-US/2/job/Getzville-New-York-United-States/Reference-Data-Analyst-Junior_25905888) | Getzville, NY | [$80k-106k](https://www.levels.fyi/companies/citi/salaries) | Simplify | 3mo |
 | **Jane Street** | [Cybersecurity Analyst](https://www.janestreet.com/join-jane-street/position/8053215002/) | New York, NY | [$270k-445k](https://www.levels.fyi/companies/jane-street/salaries) | Simplify | 3mo |
 | **Nordstrom** | [Engineer 1 - Full Stack, Store POS+](https://careers.nordstrom.com/engineer-1-full-stack-store-pos-team-hybrid-seattle-wa/job/4D8A4B0EBC4BABF554018E5C28260729) | Seattle, WA | [$132k-137k](https://www.levels.fyi/companies/nordstrom/salaries) | Simplify | 3mo |
@@ -1103,6 +1104,7 @@
 | **Cadence Design Systems** | [Software Engineer I](https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/Software-Engineer-II_R48302) | San Jose, CA | [$100k-177k](https://www.levels.fyi/companies/cadence-design-systems/salaries) | Simplify | 7mo |
 | **ByteDance** | [RDMA Network Software Development Engineer - High Speed Network](https://jobs.bytedance.com/en/position/7509263561258027272/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 7mo |
 | **ByteDance** | [RDMA Network Software Development Engineer Graduate - High Speed Network - 2026 Start](https://jobs.bytedance.com/en/position/7509266973013690631/detail) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 7mo |
+| **Amazon.com** | [Software Development Engineer, Live Sports - Prime Video](https://www.amazon.jobs/jobs/2938872/software-development-engineer-live-sports--prime-video) | New York, NY, US | [$129k-223k](https://www.levels.fyi/companies/amazon/salaries) | Indeed | 9mo |
 | **Fluidstack** | [Forward Deployed Engineer, SWE, SRE, Infrastructure, Networking](https://jobs.ashbyhq.com/fluidstack/fb45b5dc-614e-40dd-ac5d-b1a43014ee46) | London/SF/NYC or remote |  | HN Hiring | 12mo |
 | **Collaborative Drug Discovery** | [Ruby on Rails, Cloud Platform Engineering](https://www.capterra.com/p/171280/CDD-Vault/reviews/) | Remote (US, Canada) |  | HN Hiring | 12mo |
 | **Imbue** | [Machine Learning Engineer](https://imbue.com/careers) | Remote or San Francisco |  | HN Hiring | 12mo |
