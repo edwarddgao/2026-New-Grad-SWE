@@ -1393,11 +1393,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862211",
+      "id": "linkedin_li-4289862210",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Redwood City, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -1711,7 +1711,23 @@
       "remote": false,
       "description": "**Job Description**\n Our employees work on the world\u2019s most advanced electronics \u2013 from saving emissions in the City of Lights to powering the Mars Rover to protecting the F\\-35 fighter jet. At Electronic Systems, you\u2019ll be among the brightest minds, working on the aerospace and defense industry\u2019s most difficult problems. Drawing strength from our differences, we\u2019re innovating for the future. And you can, too.\n   \n\n  \n\n Our work environment provides you a chance to change the world without givin",
       "experience_level": null
+    },
+    "https://apply.workable.com/tp-link-usa-corp/j/BF99750224": {
+      "id": "linkedin_li-4358342848",
+      "title": "Web Developer",
+      "company": "TP-Link",
+      "company_slug": "tp-link",
+      "location": "Irvine, CA",
+      "url": "https://apply.workable.com/tp-link-usa-corp/j/BF99750224",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Description**\n Headquartered in the United States, TP\\-Link Systems Inc. is a global provider of reliable networking devices and smart home products, consistently ranked as the world\u2019s top provider of Wi\\-Fi devices. The company is committed to delivering innovative products that enhance people\u2019s lives through faster, more reliable connectivity. With a commitment to excellence, TP\\-Link serves customers in over 170 countries and continues to grow its global footprint.\n   \n\n  \n\n We believe tech",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-06T19:16:49.316143"
+  "updated": "2026-01-06T20:23:17.415485"
 }
