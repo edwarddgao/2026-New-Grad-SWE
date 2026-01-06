@@ -1233,11 +1233,11 @@
       "experience_level": null
     },
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dCAD-Automation\\u002d\\u002d-New-College-Grad-2025_JR2005867": {
-      "id": "linkedin_li-4343477296",
+      "id": "linkedin_li-4343357760",
       "title": "Software Engineer, CAD Automation - New College Grad 2026",
       "company": "NVIDIA",
       "company_slug": "nvidia",
-      "location": "Santa Clara, CA",
+      "location": "California, United States",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dCAD-Automation\\u002d\\u002d-New-College-Grad-2025_JR2005867",
       "source": "linkedin",
       "date_posted": "2026-01-03",
@@ -1521,19 +1521,19 @@
       "experience_level": null
     },
     "https://recruiting.ultipro.com/YAS1000YAAMI/JobBoard/8a2317d2-a61e-4259-a857-722d164a211c/OpportunityDetail": {
-      "id": "linkedin_li-4354558682",
+      "id": "indeed_in-74240d0a8171786a",
       "title": "Embedded Software Engineer",
-      "company": "Yaskawa America, Inc. -  Drives & Motion Division",
-      "company_slug": "yaskawa-america-inc-drives-motion-division",
-      "location": "Santa Clara, CA",
+      "company": "Yaskawa Electric",
+      "company_slug": "yaskawa-electric",
+      "location": "Santa Clara, CA, US",
       "url": "https://recruiting.ultipro.com/YAS1000YAAMI/JobBoard/8a2317d2-a61e-4259-a857-722d164a211c/OpportunityDetail",
-      "source": "linkedin",
-      "date_posted": null,
-      "salary_min": null,
-      "salary_max": null,
+      "source": "indeed",
+      "date_posted": "2026-01-05",
+      "salary_min": 89300,
+      "salary_max": 138400,
       "sponsorship": null,
       "remote": false,
-      "description": "**Yaskawa America, Inc. \\- Drives \\& Motion Division** \n is a global leader in variable speed drives, motion controls and robotics. We look to hire people who value a positive work culture, want to be part of a winning team, and have a desire to learn and grow. Yaskawa\u2019s culture of continuous improvement values hiring individuals that are looking for the opportunity to stretch their current talents and skills to the next level and beyond. This role is responsible for developing embedded software",
+      "description": "**Yaskawa America, Inc. \\- Drives \\& Motion Division** is a global leader in variable speed drives, motion controls and robotics. We look to hire people who value a positive work culture, want to be part of a winning team, and have a desire to learn and grow. Yaskawa\u2019s culture of continuous improvement values hiring individuals that are looking for the opportunity to stretch their current talents and skills to the next level and beyond. This role is responsible for developing embedded software f",
       "experience_level": null
     },
     "https://careers-dynamicec.icims.com/jobs/4419/job": {
@@ -1585,5 +1585,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-06T01:40:34.552214"
+  "updated": "2026-01-06T03:28:58.575634"
 }
