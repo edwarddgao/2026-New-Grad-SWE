@@ -1521,19 +1521,19 @@
       "experience_level": null
     },
     "https://recruiting.ultipro.com/YAS1000YAAMI/JobBoard/8a2317d2-a61e-4259-a857-722d164a211c/OpportunityDetail": {
-      "id": "indeed_in-74240d0a8171786a",
+      "id": "linkedin_li-4354558682",
       "title": "Embedded Software Engineer",
-      "company": "Yaskawa Electric",
-      "company_slug": "yaskawa-electric",
-      "location": "Santa Clara, CA, US",
+      "company": "Yaskawa America, Inc. -  Drives & Motion Division",
+      "company_slug": "yaskawa-america-inc-drives-motion-division",
+      "location": "Santa Clara, CA",
       "url": "https://recruiting.ultipro.com/YAS1000YAAMI/JobBoard/8a2317d2-a61e-4259-a857-722d164a211c/OpportunityDetail",
-      "source": "indeed",
+      "source": "linkedin",
       "date_posted": "2026-01-05",
-      "salary_min": 89300,
-      "salary_max": 138400,
+      "salary_min": null,
+      "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Yaskawa America, Inc. \\- Drives \\& Motion Division** is a global leader in variable speed drives, motion controls and robotics. We look to hire people who value a positive work culture, want to be part of a winning team, and have a desire to learn and grow. Yaskawa\u2019s culture of continuous improvement values hiring individuals that are looking for the opportunity to stretch their current talents and skills to the next level and beyond. This role is responsible for developing embedded software f",
+      "description": "**Yaskawa America, Inc. \\- Drives \\& Motion Division** \n is a global leader in variable speed drives, motion controls and robotics. We look to hire people who value a positive work culture, want to be part of a winning team, and have a desire to learn and grow. Yaskawa\u2019s culture of continuous improvement values hiring individuals that are looking for the opportunity to stretch their current talents and skills to the next level and beyond. This role is responsible for developing embedded software",
       "experience_level": null
     },
     "https://careers-dynamicec.icims.com/jobs/4419/job": {
@@ -1999,7 +1999,39 @@
       "remote": false,
       "description": "**Job Summary:**\n The Software Development Engineer role at Clearwater Analytics spans a spectrum of responsibilities with a focus on designing, implementing, and managing software systems. The role requires continuous learning and application of new technologies and trends. Engineers at entry\\-level work on coding, debugging, and learning new software technologies. With progression in this track, the responsibilities expand to include leading teams, designing complex software systems, providing",
       "experience_level": null
+    },
+    "https://www.metlifecareers.com/en_US/ml/JobDetail/Software-Engineer/14283": {
+      "id": "indeed_in-d8ce445773c0f41b",
+      "title": "Software Engineer I",
+      "company": "MetLife",
+      "company_slug": "metlife",
+      "location": "Bridgewater, NJ, US",
+      "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Software-Engineer/14283",
+      "source": "indeed",
+      "date_posted": "2026-01-06",
+      "salary_min": 90000,
+      "salary_max": 105000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Location(s)\n* Posting Location: Bridgewater, New Jersey\n\n  \n\nCity/Cities\nBridgewater\nCountry\nUnited States\nWorking Schedule\nFull\\-Time\nWork Arrangement\nHybrid\nRelocation Assistance Available\nNo\nPosted Date\n06\\-Jan\\-2026\nJob ID\n14283\n### **Description and Requirements**\n\nUS Digital Team is looking for an Application Developer with experience in Java and React to design, develop, and implement cutting\\-edge software applications. This role is ideal for recent graduates or early\\-career professiona",
+      "experience_level": null
+    },
+    "https://jobs.smartrecruiters.com/Sandisk/744000102164460-summer-2026-software-engineering-intern": {
+      "id": "indeed_in-72dd46ac9f622b30",
+      "title": "Summer 2026 Software Engineering Intern",
+      "company": "SanDisk",
+      "company_slug": "sandisk",
+      "location": "Milpitas, CA, US",
+      "url": "https://jobs.smartrecruiters.com/Sandisk/744000102164460-summer-2026-software-engineering-intern",
+      "source": "indeed",
+      "date_posted": "2026-01-07",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Company Description**  \n\nSandisk understands how people and businesses consume data and we relentlessly innovate to deliver solutions that enable today\u2019s needs and tomorrow\u2019s next big ideas. With a rich history of groundbreaking innovations in Flash and advanced memory technologies, our solutions have become the beating heart of the digital world we\u2019re living in and that we have the power to shape.\n\n\nSandisk meets people and businesses at the intersection of their aspirations and the moment, e",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-07T20:25:10.284943"
+  "updated": "2026-01-07T21:20:35.185632"
 }
