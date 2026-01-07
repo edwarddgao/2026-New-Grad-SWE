@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4325848103",
-      "title": "Entry Level Cloud Developer",
+      "id": "linkedin_li-4350182226",
+      "title": "Entry Level Software Developer 2026: SVL",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -77,7 +77,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n At IBM, work is more than a job \\- it's a calling: To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. Are you ready to lead in this new era of technology and solve some of the world's most challenging problems? If so, lets talk.\n   \n\n  \n\n**Your Role And Responsibilities**\n IBM Cloud platform is a one\\-stop shop which prov",
+      "description": "**Introduction**\n Launch your software career with IBM!\n   \n\n  \n\n Ready to turn your coding skills into real\\-world impact? As an Entry\\-Level Software Developer at IBM, you\u2019ll join a collaborative Agile team where your ideas matter from day one. Whether you\u2019ve just finished school, completed a bootcamp, or built your skills independently, this is your opportunity to grow into a world\\-class developer. You\u2019ll work alongside experienced mentors to design, build, and deploy modern web applications",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -1489,11 +1489,11 @@
       "experience_level": null
     },
     "https://tnl2.jometer.com/v2/job": {
-      "id": "indeed_in-fdfdef208abf4938",
+      "id": "indeed_in-f17fae245045d0c9",
       "title": "Graduate 2026 Software Engineer I, US",
       "company": "Uber",
       "company_slug": "uber",
-      "location": "San Francisco, CA, US",
+      "location": "New York, NY, US",
       "url": "https://tnl2.jometer.com/v2/job",
       "source": "indeed",
       "date_posted": "2026-01-05",
@@ -1521,19 +1521,19 @@
       "experience_level": null
     },
     "https://recruiting.ultipro.com/YAS1000YAAMI/JobBoard/8a2317d2-a61e-4259-a857-722d164a211c/OpportunityDetail": {
-      "id": "linkedin_li-4354558682",
+      "id": "indeed_in-74240d0a8171786a",
       "title": "Embedded Software Engineer",
-      "company": "Yaskawa America, Inc. -  Drives & Motion Division",
-      "company_slug": "yaskawa-america-inc-drives-motion-division",
-      "location": "Santa Clara, CA",
+      "company": "Yaskawa Electric",
+      "company_slug": "yaskawa-electric",
+      "location": "Santa Clara, CA, US",
       "url": "https://recruiting.ultipro.com/YAS1000YAAMI/JobBoard/8a2317d2-a61e-4259-a857-722d164a211c/OpportunityDetail",
-      "source": "linkedin",
+      "source": "indeed",
       "date_posted": "2026-01-05",
-      "salary_min": null,
-      "salary_max": null,
+      "salary_min": 89300,
+      "salary_max": 138400,
       "sponsorship": null,
       "remote": false,
-      "description": "**Yaskawa America, Inc. \\- Drives \\& Motion Division** \n is a global leader in variable speed drives, motion controls and robotics. We look to hire people who value a positive work culture, want to be part of a winning team, and have a desire to learn and grow. Yaskawa\u2019s culture of continuous improvement values hiring individuals that are looking for the opportunity to stretch their current talents and skills to the next level and beyond. This role is responsible for developing embedded software",
+      "description": "**Yaskawa America, Inc. \\- Drives \\& Motion Division** is a global leader in variable speed drives, motion controls and robotics. We look to hire people who value a positive work culture, want to be part of a winning team, and have a desire to learn and grow. Yaskawa\u2019s culture of continuous improvement values hiring individuals that are looking for the opportunity to stretch their current talents and skills to the next level and beyond. This role is responsible for developing embedded software f",
       "experience_level": null
     },
     "https://careers-dynamicec.icims.com/jobs/4419/job": {
@@ -2031,7 +2031,39 @@
       "remote": true,
       "description": "**Company Description**  \n\nSandisk understands how people and businesses consume data and we relentlessly innovate to deliver solutions that enable today\u2019s needs and tomorrow\u2019s next big ideas. With a rich history of groundbreaking innovations in Flash and advanced memory technologies, our solutions have become the beating heart of the digital world we\u2019re living in and that we have the power to shape.\n\n\nSandisk meets people and businesses at the intersection of their aspirations and the moment, e",
       "experience_level": null
+    },
+    "https://careers.hpe.com/us/en/job/HPE1US1198373EXTERNALENUS/Software-Engineer-Support-Analyst-Graduate": {
+      "id": "indeed_in-efb7e6d7cbf7157b",
+      "title": "Software Engineer Support Analyst Graduate",
+      "company": "Hewlett Packard Enterprise | HPE",
+      "company_slug": "hewlett-packard-enterprise-hpe",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://careers.hpe.com/us/en/job/HPE1US1198373EXTERNALENUS/Software-Engineer-Support-Analyst-Graduate",
+      "source": "indeed",
+      "date_posted": "2026-01-07",
+      "salary_min": 105500,
+      "salary_max": 213500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Software Engineer Support Analyst Graduate  \n\n\n\nThis role has been designed as \u2018Hybrid\u2019 with an expectation that you will work on average 2 days per week from an HPE office.**Who We Are:**\n\n\nHewlett Packard Enterprise is the global edge\\-to\\-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today",
+      "experience_level": null
+    },
+    "https://jobs.smartrecruiters.com/Sandisk/744000102170374-field-application-engineer-new-college-graduate-ncg-": {
+      "id": "indeed_in-b5291243f78e9631",
+      "title": "Field Application Engineer - New College Graduate (NCG)",
+      "company": "SanDisk",
+      "company_slug": "sandisk",
+      "location": "Milpitas, CA, US",
+      "url": "https://jobs.smartrecruiters.com/Sandisk/744000102170374-field-application-engineer-new-college-graduate-ncg-",
+      "source": "indeed",
+      "date_posted": "2026-01-07",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Company Description**  \n\nSandisk understands how people and businesses consume data and we relentlessly innovate to deliver solutions that enable today\u2019s needs and tomorrow\u2019s next big ideas. With a rich history of groundbreaking innovations in Flash and advanced memory technologies, our solutions have become the beating heart of the digital world we\u2019re living in and that we have the power to shape.\n\n\nSandisk meets people and businesses at the intersection of their aspirations and the moment, e",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-07T21:20:35.185632"
+  "updated": "2026-01-07T22:21:22.665280"
 }
