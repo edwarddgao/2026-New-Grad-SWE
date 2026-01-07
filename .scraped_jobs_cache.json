@@ -1393,11 +1393,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862210",
+      "id": "linkedin_li-4289862211",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Redwood City, CA",
+      "location": "Santa Clara, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -1839,7 +1839,23 @@
       "remote": false,
       "description": "Are you excited about building AI\\-driven software that redefines how professionals work? Join a dynamic and highly skilled team at Thomson Reuters, where we combine the agility and innovation of a startup with the stability and resources of a global leader. As a AI Engineer, you will play a pivotal role in developing AI\\-powered systems that enhance accounting workflows through automation, intelligence, and seamless orchestration.\n   \n\n  \n\n**About The Role**\n In this role as a\n **AI Engineer** ",
       "experience_level": null
+    },
+    "https://www.tesla.com/careers/search/job/259253": {
+      "id": "indeed_in-621c7bcc1d7d0c26",
+      "title": "Internship, Engineering Automation Software Engineer, Vehicle Engineering (Summer 2026)",
+      "company": "Tesla",
+      "company_slug": "tesla",
+      "location": "Palo Alto, CA, US",
+      "url": "https://www.tesla.com/careers/search/job/259253",
+      "source": "indeed",
+      "date_posted": "2026-01-07",
+      "salary_min": 20,
+      "salary_max": 50,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**What to Expect**\nConsider before submitting an application:\n\n\nThis position is expected to start around May or June 2026 and continue through the Summer term (ending approximately August 2026\\) or continuing into Fall 2026 if available and there is an opportunity to do so. We ask for a minimum of 12 weeks, full\\-time and on\\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation a",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-07T04:41:07.554419"
+  "updated": "2026-01-07T05:25:59.624458"
 }
