@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4350182226",
-      "title": "Entry Level Software Developer 2026: SVL",
+      "id": "linkedin_li-4325848103",
+      "title": "Entry Level Cloud Developer",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -77,7 +77,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n Launch your software career with IBM!\n   \n\n  \n\n Ready to turn your coding skills into real\\-world impact? As an Entry\\-Level Software Developer at IBM, you\u2019ll join a collaborative Agile team where your ideas matter from day one. Whether you\u2019ve just finished school, completed a bootcamp, or built your skills independently, this is your opportunity to grow into a world\\-class developer. You\u2019ll work alongside experienced mentors to design, build, and deploy modern web applications",
+      "description": "**Introduction**\n At IBM, work is more than a job \\- it's a calling: To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. Are you ready to lead in this new era of technology and solve some of the world's most challenging problems? If so, lets talk.\n   \n\n  \n\n**Your Role And Responsibilities**\n IBM Cloud platform is a one\\-stop shop which prov",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -1393,11 +1393,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862211",
+      "id": "linkedin_li-4289862210",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Redwood City, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -1688,7 +1688,7 @@
       "location": "Greenlawn, NY",
       "url": "https://jobs.baesystems.com/global/en/job/BAE1US119273BREXTERNAL/Entry-Level-Software-Engineer",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-06",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -1935,7 +1935,39 @@
       "remote": false,
       "description": "The Software Development Engineer role at Clearwater Analytics spans a spectrum of responsibilities with a focus on designing, implementing, and managing software systems. The role requires continuous learning and application of new technologies and trends. Engineers at entry\\-level work on coding, debugging, and learning new software technologies. With progression in this track, the responsibilities expand to include leading teams, designing complex software systems, providing mentorship, and m",
       "experience_level": null
+    },
+    "https://www.chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=olQA": {
+      "id": "linkedin_li-4351360345",
+      "title": "Software Engineer I - Direct Issuance (New Grad)",
+      "company": "ChatGPT Jobs",
+      "company_slug": "chatgpt-jobs",
+      "location": "El Segundo, CA",
+      "url": "https://www.chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=olQA",
+      "source": "linkedin",
+      "date_posted": "2026-01-06",
+      "salary_min": 120000,
+      "salary_max": 150000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Job Description**\n Software Engineer I \\- Direct Issuance (New Grad)\n   \n\n  \n\n**Company:** \n StubHub\n   \n\n  \n\n**Location:** \n Los Angeles, CA (On\\-site, Remote)\n   \n\n  \n\n**Type:** \n Full\\-time\n   \n\n  \n\n**Benefits:** \n Medical, Dental, Vision, Retirement, PTO\n   \n\n  \n\n**Job Description**\n StubHub is seeking a Software Engineer \u2013 AI Enablement to help shape how StubHub adopts and scales AI across the company. This role is about making AI practical, safe, and valuable by empowering teams to exper",
+      "experience_level": null
+    },
+    "https://jsv3.recruitics.com/redirect": {
+      "id": "indeed_in-7ca0cbf8aa83f1a6",
+      "title": "Software Engineer, Applied ML",
+      "company": "Apple",
+      "company_slug": "apple",
+      "location": "Cupertino, CA, US",
+      "url": "https://jsv3.recruitics.com/redirect",
+      "source": "indeed",
+      "date_posted": "2026-01-06",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Our mission is to personalize the Apple user experience based on where you go, when you\u2019re there, and what those places mean to you. We\u2019re developing intelligent systems that understand location context and help users achieve what they want\\- wherever they are. You\u2019ve seen our work in action through suggested locations in Maps, Journaling Suggestions for outings and trips, and curated Memories in Photos. We\u2019re seeking motivated, experienced engineers to elevate our software\u2019s intelligence, perfo",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-07T11:20:57.993992"
+  "updated": "2026-01-07T12:44:12.015787"
 }
