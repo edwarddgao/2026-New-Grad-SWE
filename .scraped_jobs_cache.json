@@ -1393,11 +1393,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862211",
+      "id": "linkedin_li-4289862210",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Redwood City, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -1823,7 +1823,23 @@
       "remote": false,
       "description": "**What to Expect**\nConsider before submitting an application:\n\n\nThis position is expected to start May 2026 and continue through summer term (ending approximately August 2026 or later, if available). We ask for a minimum of 12 weeks, full\\-time (40 hours/week) and on\\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\\-time posit",
       "experience_level": null
+    },
+    "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-New-York-New-York/AI-Engineer\\u002d\\u002dMateria\\u002d\\u002dNew-Grad\\u002d\\u002d-2026-_JREQ196038": {
+      "id": "linkedin_li-4330409972",
+      "title": "AI Engineer, Materia (New Grad - 2026)",
+      "company": "Thomson Reuters",
+      "company_slug": "thomson-reuters",
+      "location": "New York, NY",
+      "url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-New-York-New-York/AI-Engineer\\u002d\\u002dMateria\\u002d\\u002dNew-Grad\\u002d\\u002d-2026-_JREQ196038",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Are you excited about building AI\\-driven software that redefines how professionals work? Join a dynamic and highly skilled team at Thomson Reuters, where we combine the agility and innovation of a startup with the stability and resources of a global leader. As a AI Engineer, you will play a pivotal role in developing AI\\-powered systems that enhance accounting workflows through automation, intelligence, and seamless orchestration.\n   \n\n  \n\n**About The Role**\n In this role as a\n **AI Engineer** ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-07T01:40:09.753875"
+  "updated": "2026-01-07T03:35:04.021706"
 }
