@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# Prevent concurrent runs to avoid conflicts
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -15,6 +20,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for proper rebasing
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,7 +38,26 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md .levels_salary_cache.json .scraped_jobs_cache.json
-          git diff --staged --quiet || git commit -m "Update README with latest jobs"
-          git pull --rebase
+
+          # Add files that exist (cache files may not always be created)
+          git add README.md
+          [ -f .levels_salary_cache.json ] && git add .levels_salary_cache.json || true
+          [ -f .scraped_jobs_cache.json ] && git add .scraped_jobs_cache.json || true
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update README with latest jobs"
+
+          # Pull latest changes and rebase, handling potential conflicts
+          git fetch origin main
+          if ! git rebase origin/main; then
+            echo "Rebase failed due to conflicts, aborting and skipping push"
+            git rebase --abort
+            exit 0
+          fi
+
           git push
