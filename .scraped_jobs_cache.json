@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4325848103",
-      "title": "Entry Level Cloud Developer",
+      "id": "linkedin_li-4350182226",
+      "title": "Entry Level Software Developer 2026: SVL",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -77,7 +77,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n At IBM, work is more than a job \\- it's a calling: To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. Are you ready to lead in this new era of technology and solve some of the world's most challenging problems? If so, lets talk.\n   \n\n  \n\n**Your Role And Responsibilities**\n IBM Cloud platform is a one\\-stop shop which prov",
+      "description": "**Introduction**\n Launch your software career with IBM!\n   \n\n  \n\n Ready to turn your coding skills into real\\-world impact? As an Entry\\-Level Software Developer at IBM, you\u2019ll join a collaborative Agile team where your ideas matter from day one. Whether you\u2019ve just finished school, completed a bootcamp, or built your skills independently, this is your opportunity to grow into a world\\-class developer. You\u2019ll work alongside experienced mentors to design, build, and deploy modern web applications",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -1992,7 +1992,7 @@
       "location": "New York, NY",
       "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/New-York-Office/Software-Development-Engineer\\u002d\\u002dEnergy\\u002d\\u002d-Commodities-_R10856",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-07",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309209043",
+      "id": "linkedin_li-4309202142",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Sunnyvale, CA",
+      "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": null,
@@ -2255,7 +2255,55 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
       "experience_level": null
+    },
+    "https://stripe.com/jobs/listing/software-engineer-new-grad/7210112": {
+      "id": "linkedin_li-4294691515",
+      "title": "Software Engineer, New Grad",
+      "company": "Stripe",
+      "company_slug": "stripe",
+      "location": "San Francisco, CA",
+      "url": "https://stripe.com/jobs/listing/software-engineer-new-grad/7210112",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Who we are\n   \n\n  \n\n**About Stripe**\n Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the mo",
+      "experience_level": null
+    },
+    "https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/IT-Software-Developer-Intern_JR-20775": {
+      "id": "linkedin_li-4315103407",
+      "title": "IT Software Developer Intern",
+      "company": "Bloom Energy",
+      "company_slug": "bloom-energy",
+      "location": "San Jose, CA",
+      "url": "https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/IT-Software-Developer-Intern_JR-20775",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "This is a 10\\-week internship starting June 8 or 15 and is fully on\\-site at the listed office location.\n   \n\n  \n\n**Company Overview**\n At Bloom Energy, our vision for a world powered by clean, reliable, and affordable energy is more than just a dream\u2014we\u2019re making it a reality.\n   \n\n  \n\n  \n\n  \n\n For over two decades, we\u2019ve been at the forefront of the global energy transition, pioneering solutions that empower critical industries to thrive in a rapidly digitizing, energy\\-intensive world. From r",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/d6d4996d93754c56931e492500eab77ftjo1": {
+      "id": "linkedin_li-4358991342",
+      "title": "2026 Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Diego, CA",
+      "url": "https://lensa.com/cgw/d6d4996d93754c56931e492500eab77ftjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-08T12:44:25.504888"
+  "updated": "2026-01-08T13:41:35.999980"
 }
