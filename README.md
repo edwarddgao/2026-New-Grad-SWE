@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-08 17:27
+**Last updated:** 2026-01-08 18:29
 
-**Total:** 1172 jobs from 455 companies
+**Total:** 1172 jobs from 454 companies
 
 ---
 
@@ -47,10 +47,10 @@
 | **Sandisk** | [Field Application Engineer – New College Graduate - Ncg](https://jobs.smartrecruiters.com/Sandisk/744000102169088) | Milpitas, CA |  | Simplify | 1d |
 | **Kodak** | [Opto-Mechanical Technician](https://careers.kodak.com/job/Burnaby-Opto-Mechanical-Technician-Brit-V5G-4P5/1354185400/?ats=successfactors) | Burnaby, BC, Canada |  | Simplify | 1d |
 | **ICON** | [Temporary Field Engineering Technician 1](https://www.iconbuild.com/careers/5751673004?gh_jid=5751673004&gh_jid=5751673004) | Austin, TX |  | Simplify | 1d |
-| **Clearwater Analytics (CWAN)** | [Software Development Engineer (Energy & Commodities)](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/New-York-Office/Software-Development-Engineer\u002d\u002dEnergy\u002d\u002d-Commodities-_R10856) | New York, NY |  | LinkedIn | 1d |
 | **SanDisk** | [Field Application Engineer - New College Graduate (NCG)](https://jobs.smartrecruiters.com/Sandisk/744000102170374-field-application-engineer-new-college-graduate-ncg-) | Milpitas, CA, US |  | Indeed | 1d |
 | **SanDisk** | [Summer 2026 Software Engineering Intern](https://jobs.smartrecruiters.com/Sandisk/744000102164460-summer-2026-software-engineering-intern) | Milpitas, CA, US |  | Indeed | 1d |
 | **Clearwater Analytics (CWAN)** | [Software Development Engineer (Energy & Commodities)](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/New-York-Office/Software-Development-Engineer\u002d\u002dEnergy\u002d\u002d-Commodities-_R10855) | New York, NY |  | LinkedIn | 1d |
+| **Clearwater Analytics (CWAN)** | [Software Development Engineer (Energy & Commodities)](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/New-York-Office/Software-Development-Engineer\u002d\u002dEnergy\u002d\u002d-Commodities-_R10856) | New York, NY |  | LinkedIn | 1d |
 | **L3Harris** | [Scientist, Software Engineering](https://careers.harris.com/job/-/-/4832/90292511264) | Carlsbad, CA, US | [$161k-300k](https://www.levels.fyi/companies/l3harris/salaries) | Indeed | 2d |
 | **Twitch** | [Software Engineer 1](https://job-boards.greenhouse.io/twitch/jobs/8360103002) | Seattle, WA, SF | [$194k-274k](https://www.levels.fyi/companies/twitch/salaries) | Simplify | 2d |
 | **Twitch** | [Software Engineer 1](https://job-boards.greenhouse.io/twitch/jobs/8334351002) | Seattle, WA, SF | [$194k-274k](https://www.levels.fyi/companies/twitch/salaries) | Simplify | 2d |
@@ -679,7 +679,6 @@
 | **E-Space** | [Electronics Lab Technician](https://jobs.lever.co/espace/2b9625d7-5f3d-4c13-a88d-277867ee11bd/apply) | Saratoga, CA |  | Simplify | 2mo |
 | **Verition Fund Management** | [Quantitative Developer](https://www.verition.com/open-positions?gh_jid=4011276007) | London, UK, Waterbury, CT, Dubai - Un... |  | Simplify | 2mo |
 | **Vanderlande Industries** | [Service Technician 1](https://vanderlande.wd3.myworkdayjobs.com/careers/job/TorontoOntario/Service-Technician-I_JR34583) | Toronto, ON, Canada |  | Simplify | 2mo |
-| **SCS Engineers** | [Field Data Analyst](https://careers-scsengineers.icims.com/jobs/1613/job?mobile=true&needsRedirect=false) | Modesto, CA |  | Simplify | 2mo |
 | **EliseAI** | [Senior Product Solutions Analyst - Housing](https://jobs.ashbyhq.com/EliseAI/676b89a9-7066-4557-94f0-0465715c6708/application) | NYC |  | Simplify | 2mo |
 | **Savvy** | [Software Engineer](https://jobs.ashbyhq.com/savvy/073aefc5-5eb1-4e67-9cb3-d4059dd8ce58/application) | NYC |  | Simplify | 2mo |
 | **Mechanical Orchard** | [Software Engineer](https://jobs.lever.co/mechanicalorchard/3ee619b5-9916-453c-8ed0-30fcbf75a675/apply) | Toronto, ON, Canada, Remote in Canada |  | Simplify | 2mo |
@@ -803,6 +802,7 @@
 | **Adobe** | [University Graduate - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R160133) | Seattle, WA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 3mo |
 | **SIFT** | [Software Engineer – New College Graduate](https://jobs.ashbyhq.com/siftstack/da9e9490-4156-4390-b9ed-54e215c894b6/application) | El Segundo, CA |  | Simplify | 3mo |
 | **TikTok** | [Machine Learning Engineer Graduate - Brand Ads](https://lifeattiktok.com/search/7535396503751772423) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3mo |
+| **Susquehanna International Group (SIG)** | [Quantitative Researcher - Master's: 2026](https://careers-sig.icims.com/jobs/9438/job?mobile=true&needsRedirect=false) | NYC | [$70k-256k](https://www.levels.fyi/companies/susquehanna-international-group/salaries) | Simplify | 3mo |
 | **TD** | [Analyst Rotational Program – Software Engineering](https://td.wd3.myworkdayjobs.com/en-US/td_bank_careers/job/New-York-New-York/XMLNAME-2026-Full-Time-Analyst-Rotational-Program---Software-Engineering_R_1446300) | New York, NY |  | Simplify | 3mo |
 | **Sift** | [Software Engineer](https://jobs.ashbyhq.com/siftstack/da9e9490-4156-4390-b9ed-54e215c894b6) | El Segundo, CA |  | Simplify | 3mo |
 | **CoStar Group** | [Associate Software Engineer](https://costar.wd1.myworkdayjobs.com/confidential/job/US-CA-San-Diego/Associate-Software-Engineer---San-Diego--CA_R37014-1) | San Diego, CA |  | Simplify | 3mo |
@@ -1135,8 +1135,7 @@
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
 | **NVIDIA** | [Developer Technology Engineer, Public Sector - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Technology-Engineer\u002d\u002dPublic-Sector\u002d\u002d-New-College-Grad-2026_JR2008990) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **DoorDash** | [Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)](https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL) | Los Angeles, CA | [$107k-158k](https://www.levels.fyi/companies/doordash/salaries) | LinkedIn |  |
-| **Bloom Energy** | [IT Software Developer Intern](https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/IT-Software-Developer-Intern_JR-20773) | San Jose, CA |  | LinkedIn |  |
-| **Bloom Energy** | [IT Software Developer Intern](https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/IT-Software-Developer-Intern_JR-20775) | San Jose, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/9d7524dd2bbb4842a5f496c1c76e7212tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/d6d4996d93754c56931e492500eab77ftjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1182,7 +1181,8 @@
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/441d712db4364adba607ec9fcb250d72tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/60c8c6c2f0a64b649f228e6ec13065abtjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/5cc4dcff9e804442bef58caab59952batjo1) | Greenlawn, NY |  | LinkedIn |  |
-| **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/9d7524dd2bbb4842a5f496c1c76e7212tjo1) | New York, NY |  | LinkedIn |  |
+| **Bloom Energy** | [IT Software Developer Intern](https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/IT-Software-Developer-Intern_JR-20775) | San Jose, CA |  | LinkedIn |  |
+| **Bloom Energy** | [IT Software Developer Intern](https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/IT-Software-Developer-Intern_JR-20773) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Web Developer](https://lensa.com/cgw/ef6ed43cf3fc4d0fa1da90fc235ee77atjo1) | San Jose, CA |  | LinkedIn |  |
 
 ---
