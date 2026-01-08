@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4351129785",
-      "title": "Entry Level Web Developer",
+      "id": "linkedin_li-4350182226",
+      "title": "Entry Level Software Developer 2026: SVL",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -77,7 +77,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n**Why Join Us**\n* Be part of a mission\\-driven team shaping the future of AI and open source.\n* Work with cutting\\-edge technologies and world\\-class engineers.\n* Grow your career in developer advocacy and technical communication.\n* Enjoy a collaborative, inclusive, and innovative work environment.\n\n\n**Your Role And Responsibilities**\n**You will be a core contributor to developing a modern web platform that will help our users:**\n* Learn how our products work and fit into their ",
+      "description": "**Introduction**\n Launch your software career with IBM!\n   \n\n  \n\n Ready to turn your coding skills into real\\-world impact? As an Entry\\-Level Software Developer at IBM, you\u2019ll join a collaborative Agile team where your ideas matter from day one. Whether you\u2019ve just finished school, completed a bootcamp, or built your skills independently, this is your opportunity to grow into a world\\-class developer. You\u2019ll work alongside experienced mentors to design, build, and deploy modern web applications",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309212018",
+      "id": "linkedin_li-4309209043",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Los Angeles, CA",
+      "location": "Sunnyvale, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": null,
@@ -2351,7 +2351,23 @@
       "remote": false,
       "description": "We are the global test and automation specialists, powering next\\-generation technologies through sophisticated solutions. Behind every electronic device you use, Teradyne's test technology ensures your device works right the first time, every time! Our portfolio of automation solutions help manufacturers to develop and deliver products quickly, efficiently and cost\\-effectively. Together, Teradyne companies deliver manufacturing automation across industries and applications around the world!\n\n ",
       "experience_level": null
+    },
+    "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4749965101": {
+      "id": "linkedin_li-4359364349",
+      "title": "Software Engineer I - Direct Issuance (New Grad)",
+      "company": "StubHub",
+      "company_slug": "stubhub",
+      "location": "Los Angeles, CA",
+      "url": "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4749965101",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": 120000,
+      "salary_max": 150000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "StubHub is on a mission to redefine the live event experience on a global scale. Whether someone is looking to attend their first event or their hundredth, we\u2019re here to delight them all the way from the moment they start looking for a ticket until they step through the gate. The same goes for our sellers. From fans selling a single ticket to the promoters of a worldwide stadium tour, we want StubHub to be the safest, most convenient way to offer a ticket to the millions of fans who browse our p",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-08T18:29:00.571882"
+  "updated": "2026-01-08T19:20:30.116441"
 }
