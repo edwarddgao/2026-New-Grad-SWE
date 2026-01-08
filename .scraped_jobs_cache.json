@@ -2173,7 +2173,7 @@
       "salary_max": 47,
       "sponsorship": null,
       "remote": false,
-      "description": "We are the global test and automation experts, powering next\\-generation technologies through advanced solutions. Behind every electronic device you use, Teradyne's leading\\-edge test technology ensures your device works right the first time, every time. Our portfolio of industrial automation solutions help manufacturers to develop and deliver new products quickly, efficiently and cost\\-effectively. Together, Teradyne companies deliver manufacturing automation across industries, applications and",
+      "description": "We are the global test and automation specialists, powering next\\-generation technologies through sophisticated solutions. Behind every electronic device you use, Teradyne's test technology ensures your device works right the first time, every time! Our portfolio of automation solutions help manufacturers to develop and deliver products quickly, efficiently and cost\\-effectively. Together, Teradyne companies deliver manufacturing automation across industries and applications around the world!\n\n ",
       "experience_level": null
     },
     "https://lensa.com/cgw/5cc4dcff9e804442bef58caab59952batjo1": {
@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309209043",
+      "id": "linkedin_li-4309212018",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Sunnyvale, CA",
+      "location": "Los Angeles, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": null,
@@ -2225,7 +2225,7 @@
       "experience_level": null
     },
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Technology-Engineer\\u002d\\u002dPublic-Sector\\u002d\\u002d-New-College-Grad-2026_JR2008990": {
-      "id": "linkedin_li-4339252580",
+      "id": "linkedin_li-4358565916",
       "title": "Developer Technology Engineer, Public Sector - New College Grad 2026",
       "company": "NVIDIA",
       "company_slug": "nvidia",
@@ -2335,7 +2335,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
       "experience_level": null
+    },
+    "https://jobs.teradyne.com/Teradyne/job/San-Jose-Field-Application-Engineer%2C-New-College-Graduate-%28Teradyne%2C-San-Jose%2C-CA%29-CA-95101/1354510600/": {
+      "id": "indeed_in-e36b74089c28f3ab",
+      "title": "Field Application Engineer, New College Graduate (Teradyne, San Jose, CA)",
+      "company": "Teradyne",
+      "company_slug": "teradyne",
+      "location": "San Jose, CA, US",
+      "url": "https://jobs.teradyne.com/Teradyne/job/San-Jose-Field-Application-Engineer%2C-New-College-Graduate-%28Teradyne%2C-San-Jose%2C-CA%29-CA-95101/1354510600/",
+      "source": "indeed",
+      "date_posted": "2026-01-08",
+      "salary_min": 81800,
+      "salary_max": 130100,
+      "sponsorship": null,
+      "remote": false,
+      "description": "We are the global test and automation specialists, powering next\\-generation technologies through sophisticated solutions. Behind every electronic device you use, Teradyne's test technology ensures your device works right the first time, every time! Our portfolio of automation solutions help manufacturers to develop and deliver products quickly, efficiently and cost\\-effectively. Together, Teradyne companies deliver manufacturing automation across industries and applications around the world!\n\n ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-08T16:30:02.576689"
+  "updated": "2026-01-08T17:27:36.274171"
 }
