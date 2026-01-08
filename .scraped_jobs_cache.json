@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4351129785",
-      "title": "Entry Level Web Developer",
+      "id": "linkedin_li-4325848103",
+      "title": "Entry Level Cloud Developer",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "San Jose, CA",
@@ -77,7 +77,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n**Why Join Us**\n* Be part of a mission\\-driven team shaping the future of AI and open source.\n* Work with cutting\\-edge technologies and world\\-class engineers.\n* Grow your career in developer advocacy and technical communication.\n* Enjoy a collaborative, inclusive, and innovative work environment.\n\n\n**Your Role And Responsibilities**\n**You will be a core contributor to developing a modern web platform that will help our users:**\n* Learn how our products work and fit into their ",
+      "description": "**Introduction**\n At IBM, work is more than a job \\- it's a calling: To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. Are you ready to lead in this new era of technology and solve some of the world's most challenging problems? If so, lets talk.\n   \n\n  \n\n**Your Role And Responsibilities**\n IBM Cloud platform is a one\\-stop shop which prov",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -1393,11 +1393,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862210",
+      "id": "linkedin_li-4289862211",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Redwood City, CA",
+      "location": "Santa Clara, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -2177,5 +2177,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-08T08:30:36.589120"
+  "updated": "2026-01-08T09:29:26.388265"
 }
