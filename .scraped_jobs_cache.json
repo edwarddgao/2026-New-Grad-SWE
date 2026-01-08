@@ -1169,7 +1169,7 @@
       "experience_level": null
     },
     "https://www.ixl.com/company/jobs": {
-      "id": "linkedin_li-4323298833",
+      "id": "linkedin_li-4330893279",
       "title": "Software Engineer, New Grad",
       "company": "IXL Learning",
       "company_slug": "ixl-learning",
@@ -2111,7 +2111,71 @@
       "remote": false,
       "description": "**What to Expect**\nConsider before applying:  \n\nThis position is expected to start May 2026 and continue through summer term (ending approximately August 2026 or later, if available). We ask for a minimum of 12 weeks, full\\-time (40 hours/week) and on\\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\\-time positions, not intern",
       "experience_level": null
+    },
+    "https://jobs.arup.com/jobs/graduate-geotechnical-tunneling-geological-engineer-available-2026-31100": {
+      "id": "indeed_in-32665ada0f29cc5e",
+      "title": "Graduate Geotechnical/Tunneling/Geological Engineer (Available 2026)",
+      "company": "Arup",
+      "company_slug": "arup",
+      "location": "New York, NY, US",
+      "url": "https://jobs.arup.com/jobs/graduate-geotechnical-tunneling-geological-engineer-available-2026-31100",
+      "source": "indeed",
+      "date_posted": "2026-01-07",
+      "salary_min": 77500,
+      "salary_max": 84500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Tunnelling\n Americas Region\n\n\nNEW0001WN\n\n  \n\n**See it differently**\n\n\nYou see the world through a unique lens and that\u2019s exactly what we need. We embrace how you see things differently \u2013 it\u2019s essential for creating a sustainable future.\n\n\nArup is a global consultancy with advisory and technical expertise across more than 150 disciplines. We guide, plan and design the future of the built environment. Globally, each year we recruit hundreds of graduates to help us see things differently and solve ",
+      "experience_level": null
+    },
+    "https://careers-rovisys.icims.com/jobs/1945/job": {
+      "id": "indeed_in-8cd7fa7ee3f6e95b",
+      "title": "Entry Level Engineer/Developer",
+      "company": "RoviSys",
+      "company_slug": "rovisys",
+      "location": "Walnut Creek, CA, US",
+      "url": "https://careers-rovisys.icims.com/jobs/1945/job",
+      "source": "indeed",
+      "date_posted": "2026-01-07",
+      "salary_min": 83000,
+      "salary_max": 85000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Overview:\n\nAs a RoviSys employee, you will use the latest technologies as we provide innovative solutions for our clients. You will design, implement, and configure automation systems, and/or write custom systems. We support our customers onsite and from our offices, located throughout North America. We use new and exciting technology to improve our clients\u2019 sustainability, profitability, efficiency and overall success!\nResponsibilities:\n**Entry Level Position: College Graduate \\- 2 years experi",
+      "experience_level": null
+    },
+    "https://jobs.teradyne.com/Teradyne/job/San-Jose-Field-Application-Engineer%2C-New-College-Graduate-%28Teradyne%2C-San-Jose%2C-CA%29-CA-95101/1354225800/": {
+      "id": "indeed_in-9d64a17bd8dcb62e",
+      "title": "Field Application Engineer, New College Graduate (Teradyne, San Jose, CA)",
+      "company": "Teradyne",
+      "company_slug": "teradyne",
+      "location": "San Jose, CA, US",
+      "url": "https://jobs.teradyne.com/Teradyne/job/San-Jose-Field-Application-Engineer%2C-New-College-Graduate-%28Teradyne%2C-San-Jose%2C-CA%29-CA-95101/1354225800/",
+      "source": "indeed",
+      "date_posted": "2026-01-07",
+      "salary_min": 81800,
+      "salary_max": 130100,
+      "sponsorship": null,
+      "remote": false,
+      "description": "We are the global test and automation specialists, powering next\\-generation technologies through sophisticated solutions. Behind every electronic device you use, Teradyne's test technology ensures your device works right the first time, every time! Our portfolio of automation solutions help manufacturers to develop and deliver products quickly, efficiently and cost\\-effectively. Together, Teradyne companies deliver manufacturing automation across industries and applications around the world!\n\n ",
+      "experience_level": null
+    },
+    "https://jobs.teradyne.com/Teradyne/job/Agoura-Hills-Reliability-Engineer-Industry-Component-Research-Spring-2026-Intern%28Teradyne%2C-Agoura-Hills%2C-CA%29-CA-91301/1354335700/": {
+      "id": "indeed_in-0c42435e57ac5ee7",
+      "title": "Reliability Engineer - Industry Component Research Spring 2026 Intern(Teradyne, Agoura Hills, CA)",
+      "company": "Teradyne",
+      "company_slug": "teradyne",
+      "location": "Agoura Hills, CA, US",
+      "url": "https://jobs.teradyne.com/Teradyne/job/Agoura-Hills-Reliability-Engineer-Industry-Component-Research-Spring-2026-Intern%28Teradyne%2C-Agoura-Hills%2C-CA%29-CA-91301/1354335700/",
+      "source": "indeed",
+      "date_posted": "2026-01-07",
+      "salary_min": 25,
+      "salary_max": 47,
+      "sponsorship": null,
+      "remote": false,
+      "description": "We are the global test and automation experts, powering next\\-generation technologies through advanced solutions. Behind every electronic device you use, Teradyne's leading\\-edge test technology ensures your device works right the first time, every time. Our portfolio of industrial automation solutions help manufacturers to develop and deliver new products quickly, efficiently and cost\\-effectively. Together, Teradyne companies deliver manufacturing automation across industries, applications and",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-07T23:21:27.731743"
+  "updated": "2026-01-08T01:41:28.203982"
 }
