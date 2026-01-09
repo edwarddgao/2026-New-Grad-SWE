@@ -1953,19 +1953,19 @@
       "experience_level": null
     },
     "https://jsv3.recruitics.com/redirect": {
-      "id": "linkedin_li-4359711715",
-      "title": "Northrop Grumman (DoD SkillBridge) \u2013 Software Engineer - R10218722",
+      "id": "indeed_in-192fe131a02738d2",
+      "title": "2026 Industrial Engineering Intern - San Diego CA",
       "company": "Northrop Grumman",
       "company_slug": "northrop-grumman",
-      "location": "Los Angeles, CA",
+      "location": "San Diego, CA, US",
       "url": "https://jsv3.recruitics.com/redirect",
-      "source": "linkedin",
+      "source": "indeed",
       "date_posted": "2026-01-06",
-      "salary_min": null,
-      "salary_max": null,
+      "salary_min": 25,
+      "salary_max": 40,
       "sponsorship": null,
       "remote": false,
-      "description": "RELOCATION ASSISTANCE: No relocation assistance available\n   \n\n  \n\n CLEARANCE TYPE: Top Secret\n   \n\n  \n\n TRAVEL: Yes, 10% of the Time\n   \n\n  \n\n**Description**\n At Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history \\- from the first flight acro",
+      "description": "RELOCATION ASSISTANCE: No relocation assistance available\nCLEARANCE TYPE: None\nTRAVEL: No**Description**\n---------------\n\n\nAt Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history \\- from the first flight across the Atlantic Ocean, to stealth bom",
       "experience_level": null
     },
     "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4739105101": {
@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309202142",
+      "id": "linkedin_li-4309209043",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "San Francisco, CA",
+      "location": "Sunnyvale, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2463,7 +2463,23 @@
       "remote": false,
       "description": "**Job Description**\n At Boeing, we innovate and collaborate to make the world a better place. We\u2019re committed to fostering an environment for every teammate that\u2019s welcoming, respectful and inclusive, with great opportunity for professional growth. Find your future with us.\n   \n\n  \n\n The Boeing Company is looking for an\n **Entry\\-Level Test \\& Evaluation Engineer \\-Test Instrumentation** \n to join our team at\n **Edwards Air Force Base, CA** \n .\n   \n\n  \n\n The ideal candidate will need to have lea",
       "experience_level": null
+    },
+    "https://www.tesla.com/careers/search/job/259610": {
+      "id": "indeed_in-ec814f9bbf64a313",
+      "title": "Internship, Engineer, Cell Manufacturing (Summer 2026)",
+      "company": "Tesla",
+      "company_slug": "tesla",
+      "location": "Fremont, CA, US",
+      "url": "https://www.tesla.com/careers/search/job/259610",
+      "source": "indeed",
+      "date_posted": "2026-01-09",
+      "salary_min": 20,
+      "salary_max": 50,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**What to Expect**\nConsider before submitting an application:\n\n\nThis position is expected to start around May 2026 and continue through the entire Summer term (i.e. through August 2026\\) or into Fall 2026 if available. We ask for a minimum of 12 weeks, full\\-time and on\\-site, for most internships.\n\n\nInternational Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-09T22:21:26.876498"
+  "updated": "2026-01-09T23:20:53.200494"
 }
