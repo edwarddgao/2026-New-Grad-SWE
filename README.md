@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-09 20:24
+**Last updated:** 2026-01-09 21:20
 
-**Total:** 1189 jobs from 458 companies
+**Total:** 1191 jobs from 458 companies
 
 ---
 
@@ -36,7 +36,7 @@
 | **NVIDIA** | [Developer Technology Engineer, Public Sector - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Technology-Engineer\u002d\u002dPublic-Sector\u002d\u002d-New-College-Grad-2026_JR2008990) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 1d |
 | **Amazon** | [Service Engineer - Pso - Amazon Prime Air](https://amazon.jobs/en/jobs/3155663/service-engineer-pso-amazon-prime-air-amazon-prime-air) | Seattle, WA | [$174k-201k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 1d |
 | **ServiceNow** | [Associate Software Engineer](https://jobs.smartrecruiters.com/ServiceNow/744000102368485) | San Diego, CA | [$143k-179k](https://www.levels.fyi/companies/servicenow/salaries) | Simplify | 1d |
-| **DoorDash** | [Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)](https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL) | New York, NY | [$107k-158k](https://www.levels.fyi/companies/doordash/salaries) | LinkedIn | 1d |
+| **DoorDash** | [Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)](https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL) | Sunnyvale, CA | [$107k-158k](https://www.levels.fyi/companies/doordash/salaries) | LinkedIn | 1d |
 | **Applied Materials** | [2026 NCG-Technical Product Marketing Manager - Doctorate - Santa Clara, CA](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2026-NCG--Technical-Product-Marketing-Manager---Doctorate--Santa-Clara--CA-_R2520002) | Santa Clara, CA | [$103k-145k](https://www.levels.fyi/companies/applied-materials/salaries) | Simplify | 1d |
 | **Teradyne** | [Field Application Engineer, New College Graduate (Teradyne, San Jose, CA)](https://jobs.teradyne.com/Teradyne/job/San-Jose-Field-Application-Engineer%2C-New-College-Graduate-%28Teradyne%2C-San-Jose%2C-CA%29-CA-95101/1354510600/) | San Jose, CA, US | $81k-130k | Indeed | 1d |
 | **Walmart** | [Senior Software Engineer](https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/USA-Crossman-Respect-Building-CA-SUNNYVALE-Home-Office/Senior-Software-Engineer_R-2378333-1) | Sunnyvale, CA | [$101k-130k](https://www.levels.fyi/companies/walmart/salaries) | Simplify | 1d |
@@ -1150,9 +1150,10 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 12mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
+| **Boeing** | [Entry-Level Test & Evaluation Engineer - Test Instrumentation](https://ad.doubleclick.net/ddm/clk/517492914;325447798;a) | Edwards, CA | [$76k-103k](https://www.levels.fyi/companies/boeing/salaries) | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/400fa2d92ce54f5989c384274cc63c96tjo1) | New York, NY |  | LinkedIn |  |
-| **Clearwater Analytics (CWAN)** | [Software Development Engineer (Energy & Commodities)](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\u002d\u002d-New-York/Software-Development-Engineer\u002d\u002dEnergy\u002d\u002d-Commodities-_R10855) | New York, NY |  | LinkedIn |  |
-| **Mercury Insurance** | [Software Engineer II Test](https://careers-mercuryinsurance.icims.com/jobs/6070/software-engineer-ii-test/job) | Brea, CA |  | LinkedIn |  |
+| **Clearwater Analytics (CWAN)** | [Software Development Engineer - Alts Risk](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\u002d\u002d-New-York/Software-Development-Engineer\u002d\u002d-Alts-Risk_R11368) | New York, NY |  | LinkedIn |  |
+| **Lensa** | [Entry Level Web Developer](https://lensa.com/cgw/931561fe737f4961ba9db83edace8268tjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1200,7 +1201,8 @@
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/9d7524dd2bbb4842a5f496c1c76e7212tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/d6d4996d93754c56931e492500eab77ftjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Web Developer](https://lensa.com/cgw/ef6ed43cf3fc4d0fa1da90fc235ee77atjo1) | San Jose, CA |  | LinkedIn |  |
-| **Lensa** | [Entry Level Web Developer](https://lensa.com/cgw/931561fe737f4961ba9db83edace8268tjo1) | San Jose, CA |  | LinkedIn |  |
+| **Clearwater Analytics (CWAN)** | [Software Development Engineer (Energy & Commodities)](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\u002d\u002d-New-York/Software-Development-Engineer\u002d\u002dEnergy\u002d\u002d-Commodities-_R10855) | New York, NY |  | LinkedIn |  |
+| **Mercury Insurance** | [Software Engineer II Test](https://careers-mercuryinsurance.icims.com/jobs/6070/software-engineer-ii-test/job) | Brea, CA |  | LinkedIn |  |
 
 ---
 

@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309202142",
+      "id": "linkedin_li-4309209043",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "San Francisco, CA",
+      "location": "Sunnyvale, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2431,7 +2431,39 @@
       "remote": false,
       "description": "**Position Summary**\n As a Software Engineer in Testing II, you will be responsible for designing, developing, and maintaining simple software testing frameworks and tools. This role involves independently working on more advanced projects compared to entry\\-level positions and requires a deeper understanding of software engineering principles. In this role you will also mentor other less experienced team members.\n   \n\n  \n\n**Geo\\-Salary Information**\n**An in\\-person interview may be required dur",
       "experience_level": null
+    },
+    "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\\u002d\\u002d-New-York/Software-Development-Engineer\\u002d\\u002d-Alts-Risk_R11368": {
+      "id": "linkedin_li-4331556360",
+      "title": "Software Development Engineer - Alts Risk",
+      "company": "Clearwater Analytics (CWAN)",
+      "company_slug": "clearwater-analytics-cwan",
+      "location": "New York, NY",
+      "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\\u002d\\u002d-New-York/Software-Development-Engineer\\u002d\\u002d-Alts-Risk_R11368",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Summary:**\n The Software Development Engineer role at Clearwater Analytics spans a spectrum of responsibilities with a focus on designing, implementing, and managing software systems. The role requires continuous learning and application of new technologies and trends. Engineers at entry\\-level work on coding, debugging, and learning new software technologies. With progression in this track, the responsibilities expand to include leading teams, designing complex software systems, providing",
+      "experience_level": null
+    },
+    "https://ad.doubleclick.net/ddm/clk/517492914;325447798;a": {
+      "id": "linkedin_li-4352411703",
+      "title": "Entry-Level Test & Evaluation Engineer - Test Instrumentation",
+      "company": "Boeing",
+      "company_slug": "boeing",
+      "location": "Edwards, CA",
+      "url": "https://ad.doubleclick.net/ddm/clk/517492914;325447798;a",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": 76500,
+      "salary_max": 103500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Description**\n At Boeing, we innovate and collaborate to make the world a better place. We\u2019re committed to fostering an environment for every teammate that\u2019s welcoming, respectful and inclusive, with great opportunity for professional growth. Find your future with us.\n   \n\n  \n\n The Boeing Company is looking for an\n **Entry\\-Level Test \\& Evaluation Engineer \\-Test Instrumentation** \n to join our team at\n **Edwards Air Force Base, CA** \n .\n   \n\n  \n\n The ideal candidate will need to have lea",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-09T20:24:16.049279"
+  "updated": "2026-01-09T21:20:47.923136"
 }
