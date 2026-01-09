@@ -1953,19 +1953,19 @@
       "experience_level": null
     },
     "https://jsv3.recruitics.com/redirect": {
-      "id": "indeed_in-f7b476046e640468",
-      "title": "Machine Learning Engineer - Proximity Systems and Intelligence Team",
-      "company": "Apple",
-      "company_slug": "apple",
-      "location": "San Diego, CA, US",
+      "id": "linkedin_li-4359711715",
+      "title": "Northrop Grumman (DoD SkillBridge) \u2013 Software Engineer - R10218722",
+      "company": "Northrop Grumman",
+      "company_slug": "northrop-grumman",
+      "location": "Los Angeles, CA",
       "url": "https://jsv3.recruitics.com/redirect",
-      "source": "indeed",
+      "source": "linkedin",
       "date_posted": "2026-01-06",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "Our mission is to provide an intelligent and rich user experience on Apple devices using spatial awareness and device context. We help you find your keys, locate your AirPods, remind you if you leave your devices behind in untrusted locations, and let you know how long your commute will be. We also help your loved ones know you made it home safely and help protect you against unwanted tracking. We have an opening for an experienced Machine Learning engineer for our small but growing team. The te",
+      "description": "RELOCATION ASSISTANCE: No relocation assistance available\n   \n\n  \n\n CLEARANCE TYPE: Top Secret\n   \n\n  \n\n TRAVEL: Yes, 10% of the Time\n   \n\n  \n\n**Description**\n At Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history \\- from the first flight acro",
       "experience_level": null
     },
     "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4739105101": {
@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309209043",
+      "id": "linkedin_li-4309212018",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Sunnyvale, CA",
+      "location": "Los Angeles, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": null,
@@ -2401,5 +2401,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-09T08:30:09.265910"
+  "updated": "2026-01-09T09:28:25.326438"
 }
