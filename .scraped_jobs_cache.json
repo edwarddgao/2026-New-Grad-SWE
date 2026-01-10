@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309209043",
+      "id": "linkedin_li-4309202142",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Sunnyvale, CA",
+      "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2479,7 +2479,39 @@
       "remote": false,
       "description": "**What to Expect**\nConsider before submitting an application:\n\n\nThis position is expected to start around May 2026 and continue through the entire Summer term (i.e. through August 2026\\) or into Fall 2026 if available. We ask for a minimum of 12 weeks, full\\-time and on\\-site, for most internships.\n\n\nInternational Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on",
       "experience_level": null
+    },
+    "https://rr.jobsyn.org/21B7EC9C2B204AC0A14166794443E5941606": {
+      "id": "linkedin_li-4331598393",
+      "title": "Entry Level Transportation Engineer - Highway/Roadway",
+      "company": "AECOM",
+      "company_slug": "aecom",
+      "location": "Sacramento, CA",
+      "url": "https://rr.jobsyn.org/21B7EC9C2B204AC0A14166794443E5941606",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Company Description**\n  \n\n**Work with Us. Change the World.**\n  \n\n At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world\u2019s most complex challenges and build legacies for future generations.\n   \n\n  \n\n There has never been a better time to be at AEC",
+      "experience_level": null
+    },
+    "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-CA-San-Jose-Rio-Robles/Associate-Applications-Engineer_R256049": {
+      "id": "indeed_in-a3de4966181d61c8",
+      "title": "Associate Applications Engineer",
+      "company": "Analog Devices",
+      "company_slug": "analog-devices",
+      "location": "San Jose, CA, US",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-CA-San-Jose-Rio-Robles/Associate-Applications-Engineer_R256049",
+      "source": "indeed",
+      "date_posted": "2026-01-09",
+      "salary_min": 80040,
+      "salary_max": 110055,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Come join Analog Devices (ADI) \u2013 a place where Innovation meets Impact. For more than 55 years, Analog Devices has been inventing new breakthrough technologies that transform lives. At ADI you will work alongside the brightest minds to collaborate on solving complex problems that matter from autonomous vehicles, drones and factories to augmented reality and remote healthcare.\nADI fosters a culture that focuses on employees through beneficial programs, aligned goals, continuous learning opportuni",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-10T01:29:07.469233"
+  "updated": "2026-01-10T03:24:24.761223"
 }
