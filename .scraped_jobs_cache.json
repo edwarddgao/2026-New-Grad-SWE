@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309209043",
+      "id": "linkedin_li-4309202142",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Sunnyvale, CA",
+      "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2408,7 +2408,7 @@
       "location": "New York, NY",
       "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\\u002d\\u002d-New-York/Software-Development-Engineer\\u002d\\u002dEnergy\\u002d\\u002d-Commodities-_R10855",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-09",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -2424,7 +2424,7 @@
       "location": "Brea, CA",
       "url": "https://careers-mercuryinsurance.icims.com/jobs/6070/software-engineer-ii-test/job",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-09",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -2456,7 +2456,7 @@
       "location": "Edwards, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/517492914;325447798;a",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-09",
       "salary_min": 76500,
       "salary_max": 103500,
       "sponsorship": null,
@@ -2641,5 +2641,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-10T20:22:00.766298"
+  "updated": "2026-01-10T21:18:54.253874"
 }
