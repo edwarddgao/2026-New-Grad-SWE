@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309212018",
+      "id": "linkedin_li-4309202141",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2543,7 +2543,23 @@
       "remote": false,
       "description": "**Thornton Tomasetti** applies engineering and scientific principles to solve the world\u2019s challenges. An independent organization of creative thinkers and innovative doers collaborating from offices worldwide, our mission is to bring our clients' ideas to life and, in the process, lay the groundwork for a better, more resilient future. We provide support and opportunities to our employees to achieve their full potential and cultivate a rewarding career.\n\n\nOur **Applied Science** practice leverag",
       "experience_level": null
+    },
+    "http://careers.na.panasonic.com/jobs/46996/job": {
+      "id": "indeed_in-cafbef50a60a9dac",
+      "title": "Data Engineer Intern (Summer 2026)",
+      "company": "Panasonic",
+      "company_slug": "panasonic",
+      "location": "Newark, NJ, US",
+      "url": "http://careers.na.panasonic.com/jobs/46996/job",
+      "source": "indeed",
+      "date_posted": "2026-01-09",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Overview:\n\nDo you want to join a team that's changing the world? Then we're looking for you! Check out the job description and apply now! Put your skills to meaningful use, gain unique experience, and work with world\\-class team members with diverse backgrounds and expertise who share the same vision. Join the Panasonic team today!\n\n\nResponsibilities: ***This internship will start May 18th and run through August 7th with a high potential to extend into the Fall.***\n\n **What You'll Get To Do:**\n\n",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-10T09:20:34.146956"
+  "updated": "2026-01-10T10:20:34.716614"
 }
