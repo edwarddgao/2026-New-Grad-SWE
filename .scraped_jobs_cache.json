@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309202142",
+      "id": "linkedin_li-4309209043",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "San Francisco, CA",
+      "location": "Sunnyvale, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2440,7 +2440,7 @@
       "location": "New York, NY",
       "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\\u002d\\u002d-New-York/Software-Development-Engineer\\u002d\\u002d-Alts-Risk_R11368",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-09",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -2520,7 +2520,7 @@
       "location": "New York, NY",
       "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\\u002d\\u002d-New-York/Software-Development-Engineer\\u002d\\u002dEnergy\\u002d\\u002d-Commodities-_R10856",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-09",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -2623,7 +2623,23 @@
       "remote": false,
       "description": "**Job Summary**\n Are you ready to kickstart your career in software engineering? NetApp is seeking Entry Level Software Engineers to join our team and contribute to the development and design of innovative features for our flagship storage operating system, ONTAP.\n   \n\n  \n\n About ONTAP:\u202fONTAP is a robust and feature\\-rich platform known for its advanced data management capabilities. It delivers significant value to our customers and supports mission\\-critical applications worldwide. As a Softwar",
       "experience_level": null
+    },
+    "https://us.haystackapp.io/roles/695f861049b60748f9003c9c": {
+      "id": "linkedin_li-4360613734",
+      "title": "Software Developer",
+      "company": "Haystack",
+      "company_slug": "haystack",
+      "location": "California, United States",
+      "url": "https://us.haystackapp.io/roles/695f861049b60748f9003c9c",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Entry Level Software Developer \\| California \\| Remote\\-Friendly \\| $75,000 \\- $100,000**\n We're working with Property Matrix on this exciting opportunity.\n   \n\n  \n\n Are you a driven Entry Level Software Developer ready to make a significant impact? Join Property Matrix, a leader in redefining property management software, and contribute to an innovative cloud\\-based platform that streamlines operations for modern real estate. This is your chance to accelerate your career, working on real prod",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-10T19:16:24.761525"
+  "updated": "2026-01-10T20:22:00.766298"
 }
