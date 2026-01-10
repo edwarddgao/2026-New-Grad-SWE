@@ -17,11 +17,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application": {
-      "id": "linkedin_li-4324950740",
+      "id": "linkedin_li-4324599785",
       "title": "Software Engineer, 2026 New Grad",
       "company": "Whatnot",
       "company_slug": "whatnot",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309212018",
+      "id": "linkedin_li-4309202142",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Los Angeles, CA",
+      "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2591,7 +2591,23 @@
       "remote": false,
       "description": "**Job Description**\n This Opportunity\n   \n\n  \n\n WSP is currently initiating a search for an\n **Early Career Plumbing Engineer** \n for our\n **New York, New York** \n office.\n   \n\n  \n\n Takes part in providing local technical assistance for the design, development, building, testing, and inspecting of plumbing systems on infrastructure, building, and construction projects in the public and private sector. Tasks may include basic assistance with the research, design, concept development, installation",
       "experience_level": null
+    },
+    "https://careers.netapp.com/job/-/-/27600/90417284176": {
+      "id": "linkedin_li-4359783544",
+      "title": "NetApp Emerging Talent - Entry Level Software Engineer (Cloud Storage)",
+      "company": "NetApp",
+      "company_slug": "netapp",
+      "location": "San Jose, CA",
+      "url": "https://careers.netapp.com/job/-/-/27600/90417284176",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Summary**\n Are you passionate about cloud technologies and eager to develop innovative cloud\\-based solutions? NetApp is looking for talented and motivated Entry Level Software Engineers to join our Cloud Engineering team. As an Entry Level Software Engineer in Cloud Storage, you will play a crucial role in developing and maintaining cloud\\-based solutions, focusing on solving complex problems and automation.\n   \n\n  \n\n**Key Responsibilities**\n* Software Development:\u202fAssist in designing, de",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-10T17:18:07.679430"
+  "updated": "2026-01-10T18:29:29.714322"
 }
