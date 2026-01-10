@@ -17,11 +17,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application": {
-      "id": "linkedin_li-4324599785",
+      "id": "linkedin_li-4324950740",
       "title": "Software Engineer, 2026 New Grad",
       "company": "Whatnot",
       "company_slug": "whatnot",
-      "location": "New York, NY",
+      "location": "Los Angeles, CA",
       "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309202141",
+      "id": "linkedin_li-4309212018",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "New York, NY",
+      "location": "Los Angeles, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2561,11 +2561,11 @@
       "experience_level": null
     },
     "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/": {
-      "id": "linkedin_li-4304808499",
+      "id": "linkedin_li-4304802570",
       "title": "Early Career Fire and Life Safety Engineer - Buildings",
       "company": "WSP in the U.S.",
       "company_slug": "wsp-in-the-u-s",
-      "location": "New York, NY",
+      "location": "Los Angeles, CA",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/",
       "source": "linkedin",
       "date_posted": null,
@@ -2575,7 +2575,23 @@
       "remote": false,
       "description": "**Job Description**\n**This Opportunity**\n WSP is currently initiating a search for a Full\\-Time\n **Early Career Fire and Life Safety Engineer** \n for the following offices:\n **Arlington, VA, Boston, MA, Columbia, MD, Dallas, TX, Houston, TX, Nashville, TN, Los Angeles, CA and New York, NY.**\n Be involved in projects with our Fire and Life Safety (FLS) Team and be a part of a growing organization that meets our client\u2019s objectives and solves their challenges with innovative and cutting\\-edge tech",
       "experience_level": null
+    },
+    "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/75307/": {
+      "id": "linkedin_li-4321263716",
+      "title": "Early Career Plumbing Engineer",
+      "company": "WSP in the U.S.",
+      "company_slug": "wsp-in-the-u-s",
+      "location": "New York, NY",
+      "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/75307/",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Description**\n This Opportunity\n   \n\n  \n\n WSP is currently initiating a search for an\n **Early Career Plumbing Engineer** \n for our\n **New York, New York** \n office.\n   \n\n  \n\n Takes part in providing local technical assistance for the design, development, building, testing, and inspecting of plumbing systems on infrastructure, building, and construction projects in the public and private sector. Tasks may include basic assistance with the research, design, concept development, installation",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-10T16:24:07.714064"
+  "updated": "2026-01-10T17:18:07.679430"
 }
