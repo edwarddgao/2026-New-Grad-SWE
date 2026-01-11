@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309212018",
+      "id": "linkedin_li-4309202141",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2561,11 +2561,11 @@
       "experience_level": null
     },
     "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/": {
-      "id": "linkedin_li-4304808499",
+      "id": "linkedin_li-4304802570",
       "title": "Early Career Fire and Life Safety Engineer - Buildings",
       "company": "WSP in the U.S.",
       "company_slug": "wsp-in-the-u-s",
-      "location": "New York, NY",
+      "location": "Los Angeles, CA",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/",
       "source": "linkedin",
       "date_posted": null,
@@ -2639,7 +2639,39 @@
       "remote": true,
       "description": "**Entry Level Software Developer \\| California \\| Remote\\-Friendly \\| $75,000 \\- $100,000**\n We're working with Property Matrix on this exciting opportunity.\n   \n\n  \n\n Are you a driven Entry Level Software Developer ready to make a significant impact? Join Property Matrix, a leader in redefining property management software, and contribute to an innovative cloud\\-based platform that streamlines operations for modern real estate. This is your chance to accelerate your career, working on real prod",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/4bef697a406d48098c70552bd3dc608ftjo1": {
+      "id": "linkedin_li-4360653807",
+      "title": "Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Greenlawn, NY",
+      "url": "https://lensa.com/cgw/4bef697a406d48098c70552bd3dc608ftjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/6396b6239f5d4d6b9647e5fad36dd4dbtjo1": {
+      "id": "linkedin_li-4360673543",
+      "title": "Entry Level Web Developer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Jose, CA",
+      "url": "https://lensa.com/cgw/6396b6239f5d4d6b9647e5fad36dd4dbtjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-11T07:21:50.845158"
+  "updated": "2026-01-11T08:26:43.936718"
 }
