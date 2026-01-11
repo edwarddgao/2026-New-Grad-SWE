@@ -1105,7 +1105,7 @@
       "experience_level": null
     },
     "https://click.appcast.io/t/c_hsp7LlgwEc-rsc7KTs8B1UC1rSFKn7TimZiaMoudw=&urlHash=Dxn8": {
-      "id": "linkedin_li-4329913004",
+      "id": "linkedin_li-4351834379",
       "title": "Entry Level Software Developer New York - 2026",
       "company": "Jobs via Dice",
       "company_slug": "jobs-via-dice",
@@ -2584,7 +2584,7 @@
       "location": "New York, NY",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/75307/",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-10",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -2783,7 +2783,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
       "experience_level": null
+    },
+    "https://click.appcast.io/t/nEr8mZp7nTeJmnFZrkovaDQkESY0DJNQPxDf0yML6sM=&urlHash=TD5A": {
+      "id": "linkedin_li-4345383010",
+      "title": "Mission Integration Engineer, User Products (Starshield)",
+      "company": "Jobs via Dice",
+      "company_slug": "jobs-via-dice",
+      "location": "Hawthorne, CA",
+      "url": "https://click.appcast.io/t/nEr8mZp7nTeJmnFZrkovaDQkESY0DJNQPxDf0yML6sM=&urlHash=TD5A",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.\n   \n\n  \n\n**MISSION INTEGRATION ENGINEER, USER PRODUCTS (STARSHIELD)**\n Starshield leverages SpaceX's Starlink technology and launch capability to support national security efforts. While Starlink is designed for consume",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-11T15:20:04.823568"
+  "updated": "2026-01-11T16:24:17.498419"
 }
