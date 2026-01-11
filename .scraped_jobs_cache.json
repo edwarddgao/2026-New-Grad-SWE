@@ -2568,7 +2568,7 @@
       "location": "Los Angeles, CA",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-10",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -2767,7 +2767,23 @@
       "remote": false,
       "description": "At Relativity Space, we\u2019re building rockets to serve today\u2019s needs and tomorrow\u2019s breakthroughs. Our Terran R vehicle will deliver customer payloads to orbit, meeting the growing demand for launch capacity. But that\u2019s just the start. Achieving commercial success with Terran R will unlock new opportunities to advance science, exploration, and innovation, pioneering progress that reaches beyond the known.\n   \n\n  \n\n Joining Relativity means becoming part of something where autonomy, ownership, and ",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/dc96f4f4c9db4d4eb59d293154414352tjo1": {
+      "id": "linkedin_li-4360683248",
+      "title": "Entry Level Software Developer New York - 2026",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "New York, NY",
+      "url": "https://lensa.com/cgw/dc96f4f4c9db4d4eb59d293154414352tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-11T13:30:40.218679"
+  "updated": "2026-01-11T14:19:39.108458"
 }
