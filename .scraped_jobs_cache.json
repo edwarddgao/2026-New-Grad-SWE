@@ -2561,11 +2561,11 @@
       "experience_level": null
     },
     "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/": {
-      "id": "linkedin_li-4304802570",
+      "id": "linkedin_li-4304808499",
       "title": "Early Career Fire and Life Safety Engineer - Buildings",
       "company": "WSP in the U.S.",
       "company_slug": "wsp-in-the-u-s",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/",
       "source": "linkedin",
       "date_posted": "2026-01-10",
@@ -2801,5 +2801,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-11T16:24:17.498419"
+  "updated": "2026-01-11T17:17:51.745396"
 }
