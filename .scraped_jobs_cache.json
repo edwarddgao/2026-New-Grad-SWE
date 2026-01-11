@@ -2561,11 +2561,11 @@
       "experience_level": null
     },
     "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/": {
-      "id": "linkedin_li-4304808499",
+      "id": "linkedin_li-4304802570",
       "title": "Early Career Fire and Life Safety Engineer - Buildings",
       "company": "WSP in the U.S.",
       "company_slug": "wsp-in-the-u-s",
-      "location": "New York, NY",
+      "location": "Los Angeles, CA",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/",
       "source": "linkedin",
       "date_posted": "2026-01-10",
@@ -2799,7 +2799,23 @@
       "remote": false,
       "description": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.\n   \n\n  \n\n**MISSION INTEGRATION ENGINEER, USER PRODUCTS (STARSHIELD)**\n Starshield leverages SpaceX's Starlink technology and launch capability to support national security efforts. While Starlink is designed for consume",
       "experience_level": null
+    },
+    "https://jobs.silkroad.com/EMWD/Careers/jobs/291834&urlHash=b64z": {
+      "id": "linkedin_li-4345304407",
+      "title": "Information Systems Engineer I/II",
+      "company": "Eastern Municipal Water District",
+      "company_slug": "eastern-municipal-water-district",
+      "location": "Perris, CA",
+      "url": "https://jobs.silkroad.com/EMWD/Careers/jobs/291834&urlHash=b64z",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Posted Date\n   \n\n  \n\n 10/29/2025\n   \n\n  \n\n Category\n   \n\n  \n\n Information Technology and Computer\n   \n\n  \n\n Job Location\n   \n\n  \n\n Perris, CA\n   \n\n  \n\n Tracking Code\n   \n\n  \n\n 291834\\-831\n   \n\n  \n\n Salary Range\n   \n\n  \n\n $109,449\\.60 \\- $157,809\\.60\n   \n\n  \n\n Salary Type\n   \n\n  \n\n Annually\n   \n\n  \n\n Position Type\n   \n\n  \n\n Full\\-Time/Regular\n   \n\n  \n\n Eastern Municipal Water District is seeking a highly motivated individual to fill a vacancy in our Information Systems Department for the position",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-11T20:22:46.582746"
+  "updated": "2026-01-11T21:18:42.699126"
 }
