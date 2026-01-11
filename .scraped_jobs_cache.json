@@ -2719,7 +2719,55 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Jnd Corp. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy n",
       "experience_level": null
+    },
+    "https://www.executiveplacements.com/JF/junior-data-scientistAI-engineer-jobs-in-Sunnyvale-California-7342b1c68e51.asp": {
+      "id": "linkedin_li-4360615755",
+      "title": "junior data scientist/AI engineer",
+      "company": "ExecutivePlacements.com",
+      "company_slug": "executiveplacements-com",
+      "location": "Sunnyvale, CA",
+      "url": "https://www.executiveplacements.com/JF/junior-data-scientistAI-engineer-jobs-in-Sunnyvale-California-7342b1c68e51.asp",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Graduate With a Degree. Get Hired With a Plan.**\n If you just graduated (or you're about to) and the job search is already feeling confusing, you're not imagining it. A degree proves you can learnbut employers hire for\n **job readiness** \n : projects that look like real work, current tech stacks, interview confidence, and the ability to contribute on day one. That's why many new grads send hundreds of applications and still hear nothing back. It's not because you're \"not smart enough. It's bec",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/1ea5a6034db44b2998d9c13c1d87b653tjo1": {
+      "id": "linkedin_li-4359965375",
+      "title": "2026 Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Diego, CA",
+      "url": "https://lensa.com/cgw/1ea5a6034db44b2998d9c13c1d87b653tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
+      "experience_level": null
+    },
+    "https://boards.greenhouse.io/relativity/jobs/8059060002": {
+      "id": "linkedin_li-4260475559",
+      "title": "Engine Systems & Test Team- Propulsion Test Responsible Engineer I",
+      "company": "Relativity Space",
+      "company_slug": "relativity-space",
+      "location": "Long Beach, CA",
+      "url": "https://boards.greenhouse.io/relativity/jobs/8059060002",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": 97000,
+      "salary_max": 124300,
+      "sponsorship": null,
+      "remote": false,
+      "description": "At Relativity Space, we\u2019re building rockets to serve today\u2019s needs and tomorrow\u2019s breakthroughs. Our Terran R vehicle will deliver customer payloads to orbit, meeting the growing demand for launch capacity. But that\u2019s just the start. Achieving commercial success with Terran R will unlock new opportunities to advance science, exploration, and innovation, pioneering progress that reaches beyond the known.\n   \n\n  \n\n Joining Relativity means becoming part of something where autonomy, ownership, and ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-11T11:17:51.763558"
+  "updated": "2026-01-11T12:39:44.691673"
 }
