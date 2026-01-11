@@ -2600,7 +2600,7 @@
       "location": "San Jose, CA",
       "url": "https://careers.netapp.com/job/-/-/27600/90417284176",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-10",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -2616,7 +2616,7 @@
       "location": "San Jose, CA",
       "url": "https://careers.netapp.com/job/-/-/27600/90417284240",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-10",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -2625,7 +2625,7 @@
       "experience_level": null
     },
     "https://us.haystackapp.io/roles/695f861049b60748f9003c9c": {
-      "id": "linkedin_li-4360613734",
+      "id": "linkedin_li-4359778238",
       "title": "Software Developer",
       "company": "Haystack",
       "company_slug": "haystack",
@@ -2785,5 +2785,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-11T14:19:39.108458"
+  "updated": "2026-01-11T15:20:04.823568"
 }
