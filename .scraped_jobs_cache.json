@@ -2760,7 +2760,7 @@
       "location": "Long Beach, CA",
       "url": "https://boards.greenhouse.io/relativity/jobs/8059060002",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-11",
       "salary_min": 97000,
       "salary_max": 124300,
       "sponsorship": null,
@@ -2913,11 +2913,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313836419",
+      "id": "linkedin_li-4313840347",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Pleasanton, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": null,
@@ -2945,5 +2945,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-12T12:45:19.165284"
+  "updated": "2026-01-12T13:42:22.566986"
 }
