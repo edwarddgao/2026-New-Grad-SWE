@@ -17,11 +17,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application": {
-      "id": "linkedin_li-4324950740",
+      "id": "linkedin_li-4324599785",
       "title": "Software Engineer, 2026 New Grad",
       "company": "Whatnot",
       "company_slug": "whatnot",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -2913,11 +2913,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313840347",
+      "id": "linkedin_li-4313836419",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Pleasanton, CA",
+      "location": "Santa Clara, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": null,
@@ -2927,7 +2927,23 @@
       "remote": false,
       "description": "**Job Description**\n**The Program:**\n Our future success depends on hiring great people like you: elite, early in career talent who are looking to power next\\-generation services and solutions and are committed to crafting a better future. We are hiring bachelor\u2019s, master\u2019s, and doctorate graduates with a diverse set of skills and experiences to work in and across multiple teams within the Applications Development organization. Our program is intended to enhance your overall learning experience,",
       "experience_level": null
+    },
+    "https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/RMCC-Software-Engineering-Intern_JR-20826": {
+      "id": "linkedin_li-4316529935",
+      "title": "RMCC Software Engineering Intern",
+      "company": "Bloom Energy",
+      "company_slug": "bloom-energy",
+      "location": "San Jose, CA",
+      "url": "https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/RMCC-Software-Engineering-Intern_JR-20826",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "First review of applicants is October 24, 2025\\. All applicants who apply by this date will be reviewed. Applications after this date are reviewed as necessary.\n   \n\n  \n\n This is a 10\\-week internship starting June 8 or 15 and is fully on\\-site at the listed office location.\n   \n\n  \n\n**Company Overview**\n At Bloom Energy, our vision for a world powered by clean, reliable, and affordable energy is more than just a dream\u2014we\u2019re making it a reality.\n   \n\n  \n\n For over two decades, we\u2019ve been at the ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-12T11:21:09.194066"
+  "updated": "2026-01-12T12:45:19.165284"
 }
