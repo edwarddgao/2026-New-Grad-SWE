@@ -1953,19 +1953,19 @@
       "experience_level": null
     },
     "https://jsv3.recruitics.com/redirect": {
-      "id": "indeed_in-192fe131a02738d2",
-      "title": "2026 Industrial Engineering Intern - San Diego CA",
+      "id": "linkedin_li-4359711715",
+      "title": "Northrop Grumman (DoD SkillBridge) \u2013 Software Engineer - R10218722",
       "company": "Northrop Grumman",
       "company_slug": "northrop-grumman",
-      "location": "San Diego, CA, US",
+      "location": "Los Angeles, CA",
       "url": "https://jsv3.recruitics.com/redirect",
-      "source": "indeed",
+      "source": "linkedin",
       "date_posted": "2026-01-06",
-      "salary_min": 25,
-      "salary_max": 40,
+      "salary_min": null,
+      "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "RELOCATION ASSISTANCE: No relocation assistance available\nCLEARANCE TYPE: None\nTRAVEL: No**Description**\n---------------\n\n\nAt Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history \\- from the first flight across the Atlantic Ocean, to stealth bom",
+      "description": "RELOCATION ASSISTANCE: No relocation assistance available\n   \n\n  \n\n CLEARANCE TYPE: Top Secret\n   \n\n  \n\n TRAVEL: Yes, 10% of the Time\n   \n\n  \n\n**Description**\n At Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history \\- from the first flight acro",
       "experience_level": null
     },
     "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4739105101": {
@@ -2561,11 +2561,11 @@
       "experience_level": null
     },
     "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/": {
-      "id": "linkedin_li-4304802570",
+      "id": "linkedin_li-4304808499",
       "title": "Early Career Fire and Life Safety Engineer - Buildings",
       "company": "WSP in the U.S.",
       "company_slug": "wsp-in-the-u-s",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/",
       "source": "linkedin",
       "date_posted": "2026-01-10",
@@ -2849,5 +2849,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-12T05:29:58.535761"
+  "updated": "2026-01-12T06:36:07.534794"
 }
