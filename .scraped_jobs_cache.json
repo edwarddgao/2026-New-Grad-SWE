@@ -3279,7 +3279,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
       "experience_level": null
+    },
+    "https://careers.gene.com/us/en/job/GENEUS202601100648EXTERNALENUS/2026-Summer-Intern-DDC-Applied-AI-Engineer-Agents-Evaluation": {
+      "id": "indeed_in-e8c5d9f9f4656a4e",
+      "title": "2026 Summer Intern - DDC - Applied AI Engineer - Agents & Evaluation",
+      "company": "Genentech",
+      "company_slug": "genentech",
+      "location": "San Francisco, CA, US",
+      "url": "https://careers.gene.com/us/en/job/GENEUS202601100648EXTERNALENUS/2026-Summer-Intern-DDC-Applied-AI-Engineer-Agents-Evaluation",
+      "source": "indeed",
+      "date_posted": "2026-01-13",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "### **The Position**\n\n**2026 Summer Intern \\- DDC \\- Applied AI Engineer \\- Agents \\& Evaluation**\n\n**Department Summary**\n\n\nAdvances in AI, data, and computational sciences are transforming drug discovery and development. Roche\u2019s Research and Early Development organisations at Genentech (gRED) and Pharma (pRED) have demonstrated how these technologies accelerate R\\&D, leveraging data and novel computational models to drive impact. Seamless data sharing and access to models across gRED and pRED ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-13T22:21:43.894185"
+  "updated": "2026-01-13T23:19:59.173335"
 }
