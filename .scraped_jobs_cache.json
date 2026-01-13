@@ -2991,7 +2991,39 @@
       "remote": false,
       "description": "Job Description:\nTHE OPPORTUNITY\nThe Specialist role within the software engineering discipline is a key contributor on their agile team. They work with their tech leads and product owners to define the technical approach and implementation of features. They should be able to provide junior team members with mentoring in support of their tech leads. Those in this role should have expertise in one or more core software engineering areas, and broad knowledge on other software engineering skills re",
       "experience_level": null
+    },
+    "https://job-boards.greenhouse.io/sigmacomputing/jobs/7587162003": {
+      "id": "linkedin_li-4361217739",
+      "title": "Software Engineer (New Grad Program)",
+      "company": "Sigma",
+      "company_slug": "sigma",
+      "location": "New York, NY",
+      "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7587162003",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Sigma unlocks the value of data by delivering cloud\\-scale analytics and business intelligence with the simplicity of a spreadsheet, complete with pivot tables and next generation dashboards. We empower business professionals, non\\-technical users, and data teams to quickly explore, analyze, visualize, and collaborate, leveraging all of their data across the organization.\n   \n\n  \n\n**Our New Grad (Temp\\-to\\-Hire) Program At Sigma**\n Sigma\u2019s early career program is the launchpad for the next gener",
+      "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/zip/ec19389b-6943-4ba8-8060-ac6bdfa23987&urlHash=1DDj": {
+      "id": "linkedin_li-4361178651",
+      "title": "Software Engineer, New Grad (2026 Start)",
+      "company": "Zip",
+      "company_slug": "zip",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/zip/ec19389b-6943-4ba8-8060-ac6bdfa23987&urlHash=1DDj",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "The simple task of buying software, services, or tools at work has become hopelessly complicated at even the most innovative companies in the world. Today, enterprises spend $120T\\+ per year globally (\\>30 times larger than annual consumer e\\-commerce spend) and rely on vendors more than ever before to run their businesses.\n   \n\n  \n\n Our cofounders started Zip in 2020 to address this seemingly intractable problem with a purpose\\-built procurement platform that provides a simple, consumer\\-grade ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-13T01:28:32.154836"
+  "updated": "2026-01-13T03:28:22.438483"
 }
