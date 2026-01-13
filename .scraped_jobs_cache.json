@@ -17,11 +17,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application": {
-      "id": "linkedin_li-4324950740",
+      "id": "linkedin_li-4324599785",
       "title": "Software Engineer, 2026 New Grad",
       "company": "Whatnot",
       "company_slug": "whatnot",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -3023,7 +3023,39 @@
       "remote": false,
       "description": "The simple task of buying software, services, or tools at work has become hopelessly complicated at even the most innovative companies in the world. Today, enterprises spend $120T\\+ per year globally (\\>30 times larger than annual consumer e\\-commerce spend) and rely on vendors more than ever before to run their businesses.\n   \n\n  \n\n Our cofounders started Zip in 2020 to address this seemingly intractable problem with a purpose\\-built procurement platform that provides a simple, consumer\\-grade ",
       "experience_level": null
+    },
+    "https://www.executiveplacements.com/JF/Junior-Software-Engineer-Graduate-jobs-in-New-York-New-York-e5371134e20b.asp": {
+      "id": "linkedin_li-4361238621",
+      "title": "Junior Software Engineer (Graduate)",
+      "company": "ExecutivePlacements.com",
+      "company_slug": "executiveplacements-com",
+      "location": "New York, NY",
+      "url": "https://www.executiveplacements.com/JF/Junior-Software-Engineer-Graduate-jobs-in-New-York-New-York-e5371134e20b.asp",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Junior Full Stack Software Engineer (New Grad)\n   \n\n  \n\n**Location:** \n New York City (Office)\n   \n\n  \n\n**Compensations:** \n $150K \\- $200K\n   \n\n  \n\n We are a team of elite builders moving at breakneck speed to redefine the intersection of fintech and crypto. As a high\\-growth software company and a key contributor to one of the largest crypto social networks globally, we prioritize\n **talent density, ownership, and rapid execution.**\n We are looking for ambitious\n **Junior Software Engineers** ",
+      "experience_level": null
+    },
+    "https://www.tesla.com/careers/search/job/256383": {
+      "id": "indeed_in-cd373d5a551c5f67",
+      "title": "Internship, Engineer, Cell Manufacturing (Summer 2026)",
+      "company": "Tesla",
+      "company_slug": "tesla",
+      "location": "Fremont, CA, US",
+      "url": "https://www.tesla.com/careers/search/job/256383",
+      "source": "indeed",
+      "date_posted": "2026-01-13",
+      "salary_min": 20,
+      "salary_max": 50,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**What to Expect**\nConsider before submitting an application:\n\n\nThis position is expected to start around May 2026 and continue through the entire Summer term (i.e. through August 2026\\) or into Fall 2026 if available. We ask for a minimum of 12 weeks, full\\-time and on\\-site, for most internships.\n\n\nInternational Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-13T03:28:22.438483"
+  "updated": "2026-01-13T04:40:01.283664"
 }
