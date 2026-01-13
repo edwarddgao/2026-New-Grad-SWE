@@ -2913,11 +2913,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313840347",
+      "id": "linkedin_li-4313836419",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Pleasanton, CA",
+      "location": "Santa Clara, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": null,
@@ -2975,7 +2975,23 @@
       "remote": false,
       "description": "**What to Expect**\nConsider before submitting an application:\n\n\nThis position is expected to start May 2026 and continue through summer term (ending approximately August 2026 or later, if available). We ask for a minimum of 12 weeks, full\\-time (40 hours/week) and on\\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\\-time posit",
       "experience_level": null
+    },
+    "https://scholastic.wd5.myworkdayjobs.com/en-US/External/job/New-York---Remote/Specialist-Software-Engineer_R14985": {
+      "id": "indeed_in-f12967422a890661",
+      "title": "Specialist Software Engineer",
+      "company": "Scholastic",
+      "company_slug": "scholastic",
+      "location": "New York, NY, US",
+      "url": "https://scholastic.wd5.myworkdayjobs.com/en-US/External/job/New-York---Remote/Specialist-Software-Engineer_R14985",
+      "source": "indeed",
+      "date_posted": "2026-01-12",
+      "salary_min": 107000,
+      "salary_max": 120000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Job Description:\nTHE OPPORTUNITY\nThe Specialist role within the software engineering discipline is a key contributor on their agile team. They work with their tech leads and product owners to define the technical approach and implementation of features. They should be able to provide junior team members with mentoring in support of their tech leads. Those in this role should have expertise in one or more core software engineering areas, and broad knowledge on other software engineering skills re",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-12T23:17:03.452844"
+  "updated": "2026-01-13T01:28:32.154836"
 }
