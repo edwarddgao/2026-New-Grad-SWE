@@ -2913,11 +2913,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313836419",
+      "id": "linkedin_li-4313829483",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Redwood City, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": "2026-01-12",
@@ -3167,7 +3167,23 @@
       "remote": false,
       "description": "Our work at NVIDIA is dedicated towards a computing model focused on visual and AI computing. For two decades, NVIDIA has pioneered visual computing, the art and science of computer graphics, with our invention of the GPU. The GPU has also shown to be spectacularly effective at solving some of the most complex problems in computer science. Today, NVIDIA\u2019s GPU simulates human intelligence, running deep learning algorithms and acting as the brain of computers, robots and self\\-driving cars that ca",
       "experience_level": null
+    },
+    "https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/": {
+      "id": "linkedin_li-4361524001",
+      "title": "Boeing, Spacecraft Software Engineer (Entry Level) - Millennium Space Systems - Application via WayUp",
+      "company": "WayUp",
+      "company_slug": "wayup",
+      "location": "El Segundo, CA",
+      "url": "https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "This role is with Boeing. WayUp is partnering with Boeing to hire top talent.\n   \n\n  \n\n Spacecraft Software Engineer (Entry\\-Level)\n   \n\n  \n\n* Millennium Space Systems\n\n\n Company:\n   \n\n  \n\n Millennium Space Systems\n   \n\n  \n\n* Spacecraft Software Engineer (Entry Level)\n* Millennium Space Systems\n* Millennium Space Systems (MSS), a part of Boeing Defense, Space and Security (BDS) is seeking a Spacecraft Software Engineer (Entry Level) to support the Engineering team in El Segundo, CA !\n\n\n Job Summ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-13T17:26:43.642629"
+  "updated": "2026-01-13T18:30:51.575213"
 }
