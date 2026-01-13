@@ -2561,11 +2561,11 @@
       "experience_level": null
     },
     "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/": {
-      "id": "linkedin_li-4304802570",
+      "id": "linkedin_li-4304808499",
       "title": "Early Career Fire and Life Safety Engineer - Buildings",
       "company": "WSP in the U.S.",
       "company_slug": "wsp-in-the-u-s",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/",
       "source": "linkedin",
       "date_posted": "2026-01-10",
@@ -2913,11 +2913,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313840347",
+      "id": "linkedin_li-4313829483",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Pleasanton, CA",
+      "location": "Redwood City, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": "2026-01-12",
@@ -2952,7 +2952,7 @@
       "location": "Hawthorne, CA",
       "url": "https://boards.greenhouse.io/spacex/jobs/8247761002",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-12",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -3071,7 +3071,39 @@
       "remote": false,
       "description": "Sigma unlocks the value of data by delivering cloud\\-scale analytics and business intelligence with the simplicity of a spreadsheet, complete with pivot tables and dashboards. We empower business professionals and data teams to quickly explore, analyze, visualize, and collaborate, leveraging all of their data across the organization.\n\n\n#### **Our internship program at Sigma:**\n\n\n\nSigma's Early Career Program is the launchpad for the next generation of engineers and innovators. As an Intern at Si",
       "experience_level": null
+    },
+    "https://jobs.smartrecruiters.com/Visa/744000103271207-software-engineer-new-college-grad-2026-foster-city": {
+      "id": "linkedin_li-4354851788",
+      "title": "Software Engineer, New College Grad - 2026, Foster City",
+      "company": "Visa",
+      "company_slug": "visa",
+      "location": "Foster City, CA",
+      "url": "https://jobs.smartrecruiters.com/Visa/744000103271207-software-engineer-new-college-grad-2026-foster-city",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Visa is a world leader in payments and technology, with over 259 billion payments transactions flowing safely between consumers, merchants, financial institutions, and government entities in more than 200 countries and territories each year. Our mission is to connect the world through the most innovative, convenient, reliable, and secure payments network, enabling individuals, businesses, and economies to thrive while driven by a common purpose \u2013 to uplift everyone, everywhere by being the best ",
+      "experience_level": null
+    },
+    "https://careers.harris.com/job/-/-/4832/90530660784": {
+      "id": "indeed_in-137902670a1b931f",
+      "title": "Specialist, Systems Engineering 1",
+      "company": "L3Harris",
+      "company_slug": "l3harris",
+      "location": "Yorba Linda, CA, US",
+      "url": "https://careers.harris.com/job/-/-/4832/90530660784",
+      "source": "indeed",
+      "date_posted": "2026-01-13",
+      "salary_min": 92500,
+      "salary_max": 171500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "L3Harris is dedicated to recruiting and developing high\\-performing talent who are passionate about what they do. Our employees are unified in a shared dedication to our customers\u2019 mission and quest for professional growth. L3Harris provides an inclusive, engaging environment designed to empower employees and promote work\\-life success. Fundamental to our culture is an unwavering focus on values, dedication to our communities, and commitment to excellence in everything we do.\n\n\nL3Harris Technolo",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-13T11:20:33.179633"
+  "updated": "2026-01-13T12:45:28.374981"
 }
