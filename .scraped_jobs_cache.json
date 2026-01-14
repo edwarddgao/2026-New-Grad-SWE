@@ -3016,7 +3016,7 @@
       "location": "San Francisco, CA",
       "url": "https://jobs.ashbyhq.com/zip/ec19389b-6943-4ba8-8060-ac6bdfa23987&urlHash=1DDj",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-13",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -3327,7 +3327,23 @@
       "remote": false,
       "description": "THE POSITION**2026 Summer Intern \\- DDC \\- Applied AI Engineer \\- Agents \\& Evaluation**\n\n**Department Summary**\n\n\nAdvances in AI, data, and computational sciences are transforming drug discovery and development. Roche\u2019s Research and Early Development organisations at Genentech (gRED) and Pharma (pRED) have demonstrated how these technologies accelerate R\\&D, leveraging data and novel computational models to drive impact. Seamless data sharing and access to models across gRED and pRED are essent",
       "experience_level": null
+    },
+    "https://www.tesla.com/careers/search/job/259881": {
+      "id": "indeed_in-aa1628f33fd7d057",
+      "title": "Internship, Embedded System Software Engineer, Energy Engineering (Summer 2026)",
+      "company": "Tesla",
+      "company_slug": "tesla",
+      "location": "Palo Alto, CA, US",
+      "url": "https://www.tesla.com/careers/search/job/259881",
+      "source": "indeed",
+      "date_posted": "2026-01-14",
+      "salary_min": 20,
+      "salary_max": 50,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**What to Expect**\nConsider before submitting an application:\n\n  \n\nThis position is expected to start May 2026 and continue through summer term (ending approximately August 2026 or later, if available). We ask for a minimum of 12 weeks, full\\-time (40 hours/week) and on\\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\\-time po",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-14T03:47:17.342640"
+  "updated": "2026-01-14T04:46:28.668841"
 }
