@@ -3359,7 +3359,39 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for TP\\-Link North America, Inc.. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their",
       "experience_level": null
+    },
+    "https://job-boards.greenhouse.io/meshy/jobs/4932258008": {
+      "id": "linkedin_li-4316475202",
+      "title": "Software Engineer - New Grad",
+      "company": "MeshyAI",
+      "company_slug": "meshyai",
+      "location": "California, United States",
+      "url": "https://job-boards.greenhouse.io/meshy/jobs/4932258008",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**About Meshy**\n Headquartered in\n **Silicon Valley** \n , Meshy is the leading 3D generative AI company on a mission to\n **Unleash 3D Creativity** \n by transforming the content creation pipeline. Meshy makes it effortless for both professional artists and hobbyists to create unique 3D assets\u2014turning text and images into stunning 3D models in just minutes. What once took weeks and cost $1,000 now takes just 2 minutes and $1\\.\n   \n\n  \n\n Our world\\-class team of top experts in computer graphics, AI",
+      "experience_level": null
+    },
+    "https://nxp.wd3.myworkdayjobs.com/careers/job/San-Jose-Holger-Way/RF-System-Development-Engineer\\u002d\\u002dEntry-Level_R-10060341-1": {
+      "id": "linkedin_li-4341034584",
+      "title": "RF System Development Engineer, Entry Level",
+      "company": "NXP Semiconductors",
+      "company_slug": "nxp-semiconductors",
+      "location": "San Jose, CA",
+      "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/San-Jose-Holger-Way/RF-System-Development-Engineer\\u002d\\u002dEntry-Level_R-10060341-1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Business Line Description**\n NXP is a leader in NFC contactless technology and building eco\\-system partners in the global adaption of NFC mobile payment, mobile transport ticketing and access control. The NFC System team within the business line Secure Mobile Transaction is taking care of the required architectures and RF technology to support the eco\\-system. The system team is taking care from early customer requirements discussions to production ramp\\-up and is working together with the gl",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-14T10:24:42.649006"
+  "updated": "2026-01-14T11:21:36.389109"
 }
