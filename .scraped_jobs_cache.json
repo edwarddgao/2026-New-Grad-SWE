@@ -65,11 +65,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353140402",
+      "id": "linkedin_li-4352970552",
       "title": "Entry Level Software Engineer - Ceph",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "San Jose, CA",
+      "location": "Research Park, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -3391,7 +3391,23 @@
       "remote": false,
       "description": "**Business Line Description**\n NXP is a leader in NFC contactless technology and building eco\\-system partners in the global adaption of NFC mobile payment, mobile transport ticketing and access control. The NFC System team within the business line Secure Mobile Transaction is taking care of the required architectures and RF technology to support the eco\\-system. The system team is taking care from early customer requirements discussions to production ramp\\-up and is working together with the gl",
       "experience_level": null
+    },
+    "https://www.tesla.com/careers/search/job/259964": {
+      "id": "indeed_in-e0da95be7d3e5262",
+      "title": "Internship, Sensor Hardware Design Engineer, Optimus (Summer 2026)",
+      "company": "Tesla",
+      "company_slug": "tesla",
+      "location": "Palo Alto, CA, US",
+      "url": "https://www.tesla.com/careers/search/job/259964",
+      "source": "indeed",
+      "date_posted": "2026-01-14",
+      "salary_min": 20,
+      "salary_max": 55,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**What to Expect**\nConsider before submitting an application:\n\n  \n\nThis position is expected to start May 2026 and continue through summer term (ending approximately August 2026 or later, if available). We ask for a minimum of 12 weeks, full\\-time (40 hours/week) and on\\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\\-time po",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-14T22:22:02.528263"
+  "updated": "2026-01-14T23:18:44.339788"
 }
