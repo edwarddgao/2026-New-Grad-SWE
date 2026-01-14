@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-14 15:25
+**Last updated:** 2026-01-14 16:30
 
 **Total:** 1240 jobs from 467 companies
 
@@ -38,9 +38,9 @@
 | **Visa** | [Software Engineer – New College Grad - 2026 - Foster City](https://jobs.smartrecruiters.com/Visa/744000103269677) | San Mateo, CA | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Simplify | 1d |
 | **Visa** | [Software Engineer  New College Grad - New College Grad](https://jobs.smartrecruiters.com/Visa/744000103266546) | Bellevue, WA | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Simplify | 1d |
 | **Visa** | [Software Engineer](https://jobs.smartrecruiters.com/Visa/744000103266367) | Austin, TX | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Simplify | 1d |
-| **Visa** | [Software Engineer, New College Grad - 2026, Foster City](https://jobs.smartrecruiters.com/Visa/744000103271207-software-engineer-new-college-grad-2026-foster-city) | Foster City, CA | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | LinkedIn | 1d |
 | **Visa** | [Data Engineer, New College Grad - 2026, Foster City, CA](https://jobs.smartrecruiters.com/Visa/744000103271480-data-engineer-new-college-grad-2026-foster-city-ca) | Foster City, CA, US | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Indeed | 1d |
 | **Visa** | [Software Engineer, New College Grad - 2026, Foster City](https://jobs.smartrecruiters.com/Visa/744000103268200-software-engineer-new-college-grad-2026-foster-city) | Foster City, CA, US | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Indeed | 1d |
+| **Visa** | [Software Engineer, New College Grad - 2026, Foster City](https://jobs.smartrecruiters.com/Visa/744000103271207-software-engineer-new-college-grad-2026-foster-city) | Foster City, CA | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | LinkedIn | 1d |
 | **Esri** | [Software Developer 1 - Python API](https://www.esri.com/careers/5018509007?gh_jid=5018509007) | West Redlands, Redlands, CA | [$107k-120k](https://www.levels.fyi/companies/esri/salaries) | Simplify | 1d |
 | **The Boeing Company** | [Entry Level Software Engineer](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Kent-WA/Entry-Level-Software-Engineer_JR2025488975-1) | Kent, WA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 1d |
 | **General Atomics** | [Associate Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25539&siteid=5313&jobId=5208753) | Poway, CA | [$100k-105k](https://www.levels.fyi/companies/general-atomics/salaries) | Simplify | 1d |
@@ -1186,6 +1186,7 @@
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
 | **AMERICAN SYSTEMS** | [Junior Engineer – Software Development - NASA](https://careers-americansystems.icims.com/jobs/3875/junior-engineer-%E2%80%93-software-development\u002d\u002d-nasa/job) | Edwards, CA | [$154k-187k](https://www.levels.fyi/companies/american/salaries) | LinkedIn |  |
 | **NXP Semiconductors** | [RF System Development Engineer, Entry Level](https://nxp.wd3.myworkdayjobs.com/careers/job/San-Jose-Holger-Way/RF-System-Development-Engineer\u002d\u002dEntry-Level_R-10060341-1) | San Jose, CA | [$17.0k-21.0k](https://www.levels.fyi/companies/nxp-semiconductors/salaries) | LinkedIn |  |
+| **WayUp** | [Boeing, Spacecraft Software Engineer (Entry Level) - Millennium Space Systems - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/) | El Segundo, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1246,7 +1247,6 @@
 | **Lensa** | [Entry Level Systems Engineer](https://lensa.com/cgw/1e31b8ad2a46402d9d8c8741efca7c12tjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/c6472e1fa5d14a1badafa64bb9ffb96dtjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026: SVL](https://lensa.com/cgw/225fcf1bf7844c1b9a6cfcde150fe594tjo1) | San Jose, CA |  | LinkedIn |  |
-| **WayUp** | [Boeing, Spacecraft Software Engineer (Entry Level) - Millennium Space Systems - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/) | El Segundo, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/f8c88ef949f34f2eb3d18694f14380d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/dd3231a2c45b41c0b9076c09048cb830tjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer New York - 2026](https://lensa.com/cgw/678dc5b6dd0e4f7fb1a3d3d9768f9f55tjo1) | New York, NY |  | LinkedIn |  |
