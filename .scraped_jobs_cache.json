@@ -2913,11 +2913,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313836419",
+      "id": "linkedin_li-4313840347",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Pleasanton, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": "2026-01-12",
@@ -3295,7 +3295,39 @@
       "remote": false,
       "description": "### **The Position**\n\n**2026 Summer Intern \\- DDC \\- Applied AI Engineer \\- Agents \\& Evaluation**\n\n**Department Summary**\n\n\nAdvances in AI, data, and computational sciences are transforming drug discovery and development. Roche\u2019s Research and Early Development organisations at Genentech (gRED) and Pharma (pRED) have demonstrated how these technologies accelerate R\\&D, leveraging data and novel computational models to drive impact. Seamless data sharing and access to models across gRED and pRED ",
       "experience_level": null
+    },
+    "https://careers.healthfirst.org/careersmarketplace/ApplicationMethods": {
+      "id": "indeed_in-2b531e8b58fed725",
+      "title": "2026 Technology Early Career Development Program - Data//Cloud Engineer",
+      "company": "Healthfirst (New York)",
+      "company_slug": "healthfirst-new-york",
+      "location": "New York, NY, US",
+      "url": "https://careers.healthfirst.org/careersmarketplace/ApplicationMethods",
+      "source": "indeed",
+      "date_posted": "2026-01-13",
+      "salary_min": 57500,
+      "salary_max": 90440,
+      "sponsorship": null,
+      "remote": false,
+      "description": "The Technology Associate is a role intended to create meaningful experiences for recent college graduates who have a passion for a future in technology through the Healthfirst Technology Early Career Development Program. This is a full\\-time role that provides an immersive and rigorous technology experience, that lays a meaningful foundation for continued growth, development, and leadership within IT. Technology Associates do impactful work collaborating with Healthfirst employees and leaders at",
+      "experience_level": null
+    },
+    "https://careers.gene.com/us/en/job/202601-100648/2026-Summer-Intern-DDC-Applied-AI-Engineer-Agents-Evaluation": {
+      "id": "indeed_in-4e46a776909786ef",
+      "title": "2026 Summer Intern - DDC - Applied AI Engineer - Agents & Evaluation",
+      "company": "Genentech",
+      "company_slug": "genentech",
+      "location": "San Francisco, CA, US",
+      "url": "https://careers.gene.com/us/en/job/202601-100648/2026-Summer-Intern-DDC-Applied-AI-Engineer-Agents-Evaluation",
+      "source": "indeed",
+      "date_posted": "2026-01-13",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "THE POSITION**2026 Summer Intern \\- DDC \\- Applied AI Engineer \\- Agents \\& Evaluation**\n\n**Department Summary**\n\n\nAdvances in AI, data, and computational sciences are transforming drug discovery and development. Roche\u2019s Research and Early Development organisations at Genentech (gRED) and Pharma (pRED) have demonstrated how these technologies accelerate R\\&D, leveraging data and novel computational models to drive impact. Seamless data sharing and access to models across gRED and pRED are essent",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-13T23:19:59.173335"
+  "updated": "2026-01-14T01:48:53.511533"
 }
