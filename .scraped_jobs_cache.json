@@ -2913,11 +2913,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313836419",
+      "id": "linkedin_li-4313829483",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Redwood City, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": "2026-01-12",
@@ -3439,7 +3439,23 @@
       "remote": false,
       "description": "NVIDIA is at the forefront of the generative AI revolution. We are looking for a Software Engineer, Performance Analysis, and Optimization for LLM Inference, to join our performance engineering team. In this role, you will focus on improving the efficiency and scalability of large language model (LLM) inference on NVIDIA Computing Platforms through compiler and kernel\\-level analysis and optimizations. You will work on key components that span IR\\-based compiler optimization, graph\\-level transf",
       "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/Solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929&urlHash=iqAT": {
+      "id": "linkedin_li-4362723393",
+      "title": "Associate Software Engineer (New College Grad 2026)",
+      "company": "Solace",
+      "company_slug": "solace",
+      "location": "Redwood City, CA",
+      "url": "https://jobs.ashbyhq.com/Solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929&urlHash=iqAT",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**About the Role** \n\n\n\n\n Are you a new grad who wants to build something that matters from day one? At Solace, you won't be relegated to small bug fixes or endless onboarding\u2014you'll ship real features to real users within your first weeks. This isn't a hand\\-holding job. You'll be challenged daily, expected to move fast, learn faster, and take ownership of your work like a seasoned engineer.\n \n\n\n\n You'll join a spectacularly talented team who will push you to grow, but you'll also be expected to",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-15T07:25:45.739438"
+  "updated": "2026-01-15T08:31:04.987062"
 }
