@@ -3423,7 +3423,23 @@
       "remote": false,
       "description": "NVIDIA is at the forefront of the generative AI revolution. We are looking for a Software Engineer, Performance Analysis, and Optimization for LLM Inference, to join our performance engineering team. In this role, you will focus on improving the efficiency and scalability of large language model (LLM) inference on NVIDIA Computing Platforms through compiler and kernel\\-level analysis and optimizations. You will work on key components that span IR\\-based compiler optimization, graph\\-level transf",
       "experience_level": null
+    },
+    "https://click.appcast.io/t/oFnjDvjOZI2qJ3gLdttCYtic28aOBUIeAH6CRaFtFNY=": {
+      "id": "indeed_in-6cba3de9d66624fb",
+      "title": "AI Software Engineer, LLM Inference Performance Analysis - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA, US",
+      "url": "https://click.appcast.io/t/oFnjDvjOZI2qJ3gLdttCYtic28aOBUIeAH6CRaFtFNY=",
+      "source": "indeed",
+      "date_posted": "2026-01-15",
+      "salary_min": 124000,
+      "salary_max": 218500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "NVIDIA is at the forefront of the generative AI revolution. We are looking for a Software Engineer, Performance Analysis, and Optimization for LLM Inference, to join our performance engineering team. In this role, you will focus on improving the efficiency and scalability of large language model (LLM) inference on NVIDIA Computing Platforms through compiler and kernel\\-level analysis and optimizations. You will work on key components that span IR\\-based compiler optimization, graph\\-level transf",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-15T06:33:29.678494"
+  "updated": "2026-01-15T07:25:45.739438"
 }
