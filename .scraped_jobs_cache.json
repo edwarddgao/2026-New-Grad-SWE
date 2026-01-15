@@ -65,11 +65,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353140402",
+      "id": "linkedin_li-4352970552",
       "title": "Entry Level Software Engineer - Ceph",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "San Jose, CA",
+      "location": "Research Park, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -3489,5 +3489,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-15T18:36:47.582556"
+  "updated": "2026-01-15T19:24:48.482310"
 }
