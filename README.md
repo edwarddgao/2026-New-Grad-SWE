@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-15 01:29
+**Last updated:** 2026-01-15 03:41
 
-**Total:** 1236 jobs from 463 companies
+**Total:** 1237 jobs from 463 companies
 
 ---
 
@@ -45,9 +45,9 @@
 | **Visa** | [Software Engineer – New College Grad - 2026 - Foster City](https://jobs.smartrecruiters.com/Visa/744000103269677) | San Mateo, CA | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Simplify | 2d |
 | **Visa** | [Software Engineer  New College Grad - New College Grad](https://jobs.smartrecruiters.com/Visa/744000103266546) | Bellevue, WA | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Simplify | 2d |
 | **Visa** | [Software Engineer](https://jobs.smartrecruiters.com/Visa/744000103266367) | Austin, TX | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Simplify | 2d |
-| **Visa** | [Software Engineer, New College Grad - 2026, Foster City](https://jobs.smartrecruiters.com/Visa/744000103271207-software-engineer-new-college-grad-2026-foster-city) | Foster City, CA | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | LinkedIn | 2d |
 | **Visa** | [Data Engineer, New College Grad - 2026, Foster City, CA](https://jobs.smartrecruiters.com/Visa/744000103271480-data-engineer-new-college-grad-2026-foster-city-ca) | Foster City, CA, US | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Indeed | 2d |
 | **Visa** | [Software Engineer, New College Grad - 2026, Foster City](https://jobs.smartrecruiters.com/Visa/744000103268200-software-engineer-new-college-grad-2026-foster-city) | Foster City, CA, US | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Indeed | 2d |
+| **Visa** | [Software Engineer, New College Grad - 2026, Foster City](https://jobs.smartrecruiters.com/Visa/744000103271207-software-engineer-new-college-grad-2026-foster-city) | Foster City, CA | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | LinkedIn | 2d |
 | **Esri** | [Software Developer 1 - Python API](https://www.esri.com/careers/5018509007?gh_jid=5018509007) | West Redlands, Redlands, CA | [$107k-120k](https://www.levels.fyi/companies/esri/salaries) | Simplify | 2d |
 | **The Boeing Company** | [Entry Level Software Engineer](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Kent-WA/Entry-Level-Software-Engineer_JR2025488975-1) | Kent, WA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 2d |
 | **General Atomics** | [Associate Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25539&siteid=5313&jobId=5208753) | Poway, CA | [$100k-105k](https://www.levels.fyi/companies/general-atomics/salaries) | Simplify | 2d |
@@ -74,7 +74,7 @@
 | **Sigma Computing** | [Software Engineer – New Grad Program](https://job-boards.greenhouse.io/sigmacomputing/jobs/7587162003) | NYC, SF | [$170k-200k](https://www.levels.fyi/companies/sigma-computing/salaries) | Simplify | 3d |
 | **Adobe** | [2026 University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Applied-Research-Scientist_R160656) | Seattle, WA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 3d |
 | **Oscar Health** | [Data Scientist 1: Network and Contracts](http://www.hioscar.com/careers/7527160?gh_jid=7527160) | NYC | [$167k-193k](https://www.levels.fyi/companies/oscar-health/salaries) | Simplify | 3d |
-| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/) | Santa Clara, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3d |
+| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/) | Pleasanton, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3d |
 | **Veeva Systems** | [Associate Software Engineer in Test - Tooling & Infrastructure](https://jobs.lever.co/veeva/8d86a229-0d65-46a4-838f-3e4da21960f9/apply) | Toronto, ON, Canada | [$130k-147k](https://www.levels.fyi/companies/veeva-systems/salaries) | Simplify | 3d |
 | **Ideogram** | [Software Engineer - ML Data Infrastructure](https://jobs.ashbyhq.com/ideogram/c6d67226-cca4-453d-b818-efd9d815e55f/application) | Toronto, ON, Canada, NYC | [$127.0k-145.0k](https://www.levels.fyi/companies/ideogram/salaries) | Simplify | 3d |
 | **Blue Origin** | [Software Development Engineer 1 - Early Career](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2026-Starts-_R58467) | Kent, WA | [$120k-133k](https://www.levels.fyi/companies/blue-origin/salaries) | Simplify | 3d |
@@ -1182,6 +1182,7 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 12mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
+| **NVIDIA** | [AI Software Engineer, LLM Inference Performance Analysis - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer\u002d\u002dLLM-Inference-Performance-Analysis\u002d\u002d-New-College-Grad-2026_JR2011392) | New York, NY | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **NXP Semiconductors** | [RF System Development Engineer, Entry Level](https://nxp.wd3.myworkdayjobs.com/careers/job/San-Jose-Holger-Way/RF-System-Development-Engineer\u002d\u002dEntry-Level_R-10060341-1) | San Jose, CA | [$17.0k-21.0k](https://www.levels.fyi/companies/nxp-semiconductors/salaries) | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
