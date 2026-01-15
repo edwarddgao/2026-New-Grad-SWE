@@ -65,11 +65,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353140402",
+      "id": "linkedin_li-4352970552",
       "title": "Entry Level Software Engineer - Ceph",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "San Jose, CA",
+      "location": "Research Park, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -3455,7 +3455,23 @@
       "remote": true,
       "description": "**About the Role** \n\n\n\n\n Are you a new grad who wants to build something that matters from day one? At Solace, you won't be relegated to small bug fixes or endless onboarding\u2014you'll ship real features to real users within your first weeks. This isn't a hand\\-holding job. You'll be challenged daily, expected to move fast, learn faster, and take ownership of your work like a seasoned engineer.\n \n\n\n\n You'll join a spectacularly talented team who will push you to grow, but you'll also be expected to",
       "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/Valon/5348244b-763b-4ce7-8828-85575eba2a4c": {
+      "id": "linkedin_li-4335164077",
+      "title": "Software Engineer - New Grad",
+      "company": "Valon",
+      "company_slug": "valon",
+      "location": "New York, NY",
+      "url": "https://jobs.ashbyhq.com/Valon/5348244b-763b-4ce7-8828-85575eba2a4c",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About The Company**\n Valon is building the AI\\-native operating system for regulated finance, starting with mortgage servicing.\n   \n\n  \n\n We're a Series C company backed by a16z, transforming industries that others have written off as too complex to innovate.\n   \n\n  \n\n Rather than build on top of broken legacy systems, we took a different approach: we built and operate our own mortgage servicing business managing $110\\+ billion in loans. This wasn't the end goal, it was how we deeply understoo",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-15T11:20:19.721443"
+  "updated": "2026-01-15T12:43:52.031975"
 }
