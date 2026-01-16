@@ -3416,7 +3416,7 @@
       "location": "New York, NY",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer\\u002d\\u002dLLM-Inference-Performance-Analysis\\u002d\\u002d-New-College-Grad-2026_JR2011392",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-15",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -3519,7 +3519,39 @@
       "remote": false,
       "description": "Dice is the leading career destination for tech experts at every stage of their careers. Our client, Recruitment.ai, is seeking the following. Apply via Dice today!\n   \n\n  \n\n Job Title: Software Engineer\n   \n\n  \n\n**Location:** \n**San Diego CA**\n**Duration\\- long Term**\n**W2 Only**\n**Visa \\-OR USC**\n Position Summary\n   \n\n  \n\n The\n **Junior Software Engineer** \n will contribute to the development and maintenance of software applications under the guidance of senior engineers. This entry\\-level ro",
       "experience_level": null
+    },
+    "https://www.asml.com/en/careers/find-your-job/internship-software-engineer-j00329701": {
+      "id": "indeed_in-bf065ff3f2c10ad2",
+      "title": "Internship - Software Engineer",
+      "company": "ASML",
+      "company_slug": "asml",
+      "location": "San Diego, CA, US",
+      "url": "https://www.asml.com/en/careers/find-your-job/internship-software-engineer-j00329701",
+      "source": "indeed",
+      "date_posted": "2026-01-15",
+      "salary_min": 18,
+      "salary_max": 56,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Introduction**\n\n\nASML US, including its affiliates and subsidiaries, bring together the most creative minds in science and technology to develop lithography machines that are key to producing faster, cheaper, more energy\\-efficient microchips. We design, develop, integrate, market, and service these advanced machines, which enable our customers \\- the world\u2019s leading chipmakers \\- to reduce the size and increase the functionality of their microchips, which in turn leads to smaller, more powerf",
+      "experience_level": null
+    },
+    "https://matroid.breezy.hr/p/71c4780af089-software-engineer-product": {
+      "id": "indeed_in-10f3163b82ee9b2d",
+      "title": "Software Engineer, Product",
+      "company": "Matroid",
+      "company_slug": "matroid",
+      "location": "Palo Alto, CA, US",
+      "url": "https://matroid.breezy.hr/p/71c4780af089-software-engineer-product",
+      "source": "indeed",
+      "date_posted": "2026-01-01",
+      "salary_min": 150000,
+      "salary_max": 250000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About Matroid**\n\n\nMatroid is a full\\-service computer vision company that has developed an end\\-to\\-end platform allowing enterprise customers to rapidly train and deploy automated visual inspection on imagery including EO, IR, X\\-Ray, CT, OCT, and others.\n\n  \n\nAt Matroid, you will have the opportunity to work directly with founder and CEO, Reza Zadeh, and a world\\-class engineering team. You'll immediately take on high\\-impact projects, building features like visual search, semantic segmentat",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-16T01:42:04.779352"
+  "updated": "2026-01-16T03:30:31.337627"
 }
