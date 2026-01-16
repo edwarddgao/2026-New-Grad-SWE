@@ -1,8 +1,8 @@
 {
   "jobs": {
     "https://nuro.ai/careersitem": {
-      "id": "linkedin_li-4327790555",
-      "title": "Software Engineer, Autonomy-New Grad",
+      "id": "linkedin_li-4317707969",
+      "title": "Software Engineer, AI Platform - New Grad",
       "company": "Nuro",
       "company_slug": "nuro",
       "location": "Mountain View, CA",
@@ -3409,11 +3409,11 @@
       "experience_level": null
     },
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer\\u002d\\u002dLLM-Inference-Performance-Analysis\\u002d\\u002d-New-College-Grad-2026_JR2011392": {
-      "id": "linkedin_li-4362750744",
+      "id": "linkedin_li-4361688718",
       "title": "AI Software Engineer, LLM Inference Performance Analysis - New College Grad 2026",
       "company": "NVIDIA",
       "company_slug": "nvidia",
-      "location": "New York, NY",
+      "location": "Santa Clara, CA",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer\\u002d\\u002dLLM-Inference-Performance-Analysis\\u002d\\u002d-New-College-Grad-2026_JR2011392",
       "source": "linkedin",
       "date_posted": "2026-01-15",
@@ -3464,7 +3464,7 @@
       "location": "San Francisco, CA",
       "url": "https://jobs.ashbyhq.com/Valon/5348244b-763b-4ce7-8828-85575eba2a4c",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-15",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -3585,5 +3585,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-16T10:23:59.098506"
+  "updated": "2026-01-16T11:20:29.446361"
 }
