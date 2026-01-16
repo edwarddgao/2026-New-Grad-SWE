@@ -3457,11 +3457,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/Valon/5348244b-763b-4ce7-8828-85575eba2a4c": {
-      "id": "linkedin_li-4335283506",
+      "id": "linkedin_li-4335164077",
       "title": "Software Engineer - New Grad",
       "company": "Valon",
       "company_slug": "valon",
-      "location": "San Francisco, CA",
+      "location": "New York, NY",
       "url": "https://jobs.ashbyhq.com/Valon/5348244b-763b-4ce7-8828-85575eba2a4c",
       "source": "linkedin",
       "date_posted": "2026-01-15",
@@ -3585,5 +3585,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-16T12:43:15.064221"
+  "updated": "2026-01-16T13:38:55.632779"
 }
