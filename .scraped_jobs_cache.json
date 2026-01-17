@@ -65,11 +65,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353566224",
+      "id": "linkedin_li-4353673355",
       "title": "Entry Level Software Developer 2026",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "Research Park, CA",
+      "location": "San Jose, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -3727,7 +3727,23 @@
       "remote": false,
       "description": "**Specialty/Competency:** \n Software Engineering\n   \n\n  \n\n**Industry/Sector:** \n Not Applicable\n   \n\n  \n\n**Time Type:** \n Full time\n   \n\n  \n\n**Travel Requirements:** \n Up to 80%\n   \n\n  \n\n At PwC, our people in software and product innovation focus on developing cutting\\-edge software solutions and driving product innovation to meet the evolving needs of clients. These individuals combine technical experience with creative thinking to deliver innovative software products and solutions. Those in s",
       "experience_level": null
+    },
+    "https://careers.netapp.com/job/-/-/27600/85437700272": {
+      "id": "linkedin_li-4363837258",
+      "title": "Software Engineer",
+      "company": "NetApp",
+      "company_slug": "netapp",
+      "location": "San Jose, CA",
+      "url": "https://careers.netapp.com/job/-/-/27600/85437700272",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Summary**\n Member of a software engineering team involved in development \\& design of the AI Data Platform built on NetApp\u2019s flagship storage operating ONTAP.\n   \n\n  \n\n ONTAP is a feature rich stack with its rich data management capabilities that has tremendous value to our customers and are used in mission critical applications across the world. You will work as part of a team responsible for the development, testing and debugging of distributed software that drives NetApp cloud, hybrid\\-",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-17T18:28:33.910375"
+  "updated": "2026-01-17T19:15:57.678912"
 }
