@@ -65,11 +65,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353673355",
+      "id": "linkedin_li-4353566224",
       "title": "Entry Level Software Developer 2026",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "San Jose, CA",
+      "location": "Research Park, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -3457,11 +3457,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/Valon/5348244b-763b-4ce7-8828-85575eba2a4c": {
-      "id": "linkedin_li-4335164077",
+      "id": "linkedin_li-4335283506",
       "title": "Software Engineer - New Grad",
       "company": "Valon",
       "company_slug": "valon",
-      "location": "New York, NY",
+      "location": "San Francisco, CA",
       "url": "https://jobs.ashbyhq.com/Valon/5348244b-763b-4ce7-8828-85575eba2a4c",
       "source": "linkedin",
       "date_posted": "2026-01-15",
@@ -3745,5 +3745,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-17T19:15:57.678912"
+  "updated": "2026-01-17T20:22:25.374468"
 }
