@@ -1953,19 +1953,19 @@
       "experience_level": null
     },
     "https://jsv3.recruitics.com/redirect": {
-      "id": "indeed_in-6332bdfa7253ece7",
-      "title": "2026 Software Engineering Intern - San Diego CA",
+      "id": "indeed_in-77cca9e3be22acf5",
+      "title": "2026 Industrial Engineer Intern - Sunnyvale CA",
       "company": "Northrop Grumman",
       "company_slug": "northrop-grumman",
-      "location": "San Diego, CA, US",
+      "location": "Sunnyvale, CA, US",
       "url": "https://jsv3.recruitics.com/redirect",
       "source": "indeed",
       "date_posted": "2026-01-06",
       "salary_min": 25,
-      "salary_max": 40,
+      "salary_max": 38,
       "sponsorship": null,
       "remote": false,
-      "description": "RELOCATION ASSISTANCE: No relocation assistance available\nCLEARANCE TYPE: None\nTRAVEL: No**Description**\n---------------\n\n\nAt Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history \\- from the first flight across the Atlantic Ocean, to stealth bom",
+      "description": "RELOCATION ASSISTANCE: No relocation assistance available\nCLEARANCE TYPE: None\nTRAVEL: Yes, 10% of the Time**Description**\n---------------\n\n\nAt Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history \\- from the first flight across the Atlantic Oce",
       "experience_level": null
     },
     "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4739105101": {
@@ -3409,11 +3409,11 @@
       "experience_level": null
     },
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer\\u002d\\u002dLLM-Inference-Performance-Analysis\\u002d\\u002d-New-College-Grad-2026_JR2011392": {
-      "id": "linkedin_li-4362750744",
+      "id": "linkedin_li-4361688718",
       "title": "AI Software Engineer, LLM Inference Performance Analysis - New College Grad 2026",
       "company": "NVIDIA",
       "company_slug": "nvidia",
-      "location": "New York, NY",
+      "location": "Santa Clara, CA",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer\\u002d\\u002dLLM-Inference-Performance-Analysis\\u002d\\u002d-New-College-Grad-2026_JR2011392",
       "source": "linkedin",
       "date_posted": "2026-01-15",
@@ -3560,7 +3560,7 @@
       "location": "San Francisco, CA",
       "url": "https://rr.jobsyn.org/E66073C093BA47E1932A1126168B61331606&urlHash=6-80",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-16",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -3681,5 +3681,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-17T07:19:59.462584"
+  "updated": "2026-01-17T08:25:54.162136"
 }
