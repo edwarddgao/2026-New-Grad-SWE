@@ -65,11 +65,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353566224",
+      "id": "linkedin_li-4353673355",
       "title": "Entry Level Software Developer 2026",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "Research Park, CA",
+      "location": "San Jose, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2025-12-26",
@@ -3409,11 +3409,11 @@
       "experience_level": null
     },
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer\\u002d\\u002dLLM-Inference-Performance-Analysis\\u002d\\u002d-New-College-Grad-2026_JR2011392": {
-      "id": "linkedin_li-4361688718",
+      "id": "linkedin_li-4362750744",
       "title": "AI Software Engineer, LLM Inference Performance Analysis - New College Grad 2026",
       "company": "NVIDIA",
       "company_slug": "nvidia",
-      "location": "Santa Clara, CA",
+      "location": "New York, NY",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer\\u002d\\u002dLLM-Inference-Performance-Analysis\\u002d\\u002d-New-College-Grad-2026_JR2011392",
       "source": "linkedin",
       "date_posted": "2026-01-15",
@@ -3480,7 +3480,7 @@
       "location": "",
       "url": "https://careers.skillstorm.com/jobs/entry-level-software-developer-42297",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-15",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -3649,5 +3649,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-16T23:20:44.286662"
+  "updated": "2026-01-17T01:28:39.888442"
 }
