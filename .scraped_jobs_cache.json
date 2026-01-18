@@ -65,8 +65,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353566224",
-      "title": "Entry Level Software Developer 2026",
+      "id": "linkedin_li-4348557063",
+      "title": "Entry Level AI Software Engineer",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "Research Park, CA",
@@ -77,7 +77,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n**About**\n Are you passionate about building innovative solutions that power the future of enterprise technology? IBM Infrastructure is seeking talented Software Developers across multiple disciplines:\n   \n\n  \n\n Back\\-End Development\n   \n\n  \n\n Front\\-End Development\n   \n\n  \n\n Data Science\n   \n\n  \n\n As part of our dynamic team, you\u2019ll collaborate with designers, engineers, and product managers to create responsive, user\\-friendly applications using modern web technologies. You\u2019ll",
+      "description": "**Introduction**\n At IBM, work is more than a job \\- it's a calling: To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. Are you ready to lead in this new era of technology and solve some of the world's most challenging problems? If so, lets talk\n   \n\n  \n\n**Your Role And Responsibilities**\n The AI Center of Excellence is seeking a skilled A",
       "experience_level": null
     },
     "https://click.appcast.io/t/e3-iqCMprDvtq0P4kotTr7AwpExlfe0HX9pQj5QHs4o=&urlHash=BThD": {
@@ -3743,7 +3743,23 @@
       "remote": false,
       "description": "**Job Summary**\n Member of a software engineering team involved in development \\& design of the AI Data Platform built on NetApp\u2019s flagship storage operating ONTAP.\n   \n\n  \n\n ONTAP is a feature rich stack with its rich data management capabilities that has tremendous value to our customers and are used in mission critical applications across the world. You will work as part of a team responsible for the development, testing and debugging of distributed software that drives NetApp cloud, hybrid\\-",
       "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/Onyx%20Games%20LLC/aedc88f3-8a00-4c87-bf85-9450f802f591": {
+      "id": "indeed_in-83de726e8947775e",
+      "title": "Backend Software Engineer",
+      "company": "Onyx Games",
+      "company_slug": "onyx-games",
+      "location": "New York, NY, US",
+      "url": "https://jobs.ashbyhq.com/Onyx%20Games%20LLC/aedc88f3-8a00-4c87-bf85-9450f802f591",
+      "source": "indeed",
+      "date_posted": "2026-01-17",
+      "salary_min": 170000,
+      "salary_max": 250000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Compensation**: $170k \u2013 $250k \\+ meaningful equity\n\n**Company Overview**\n\n\nOnyx Odds is a social sports prediction platform poised to shake up the world of sports. Onyx has seen immense growth in user activity and positive feedback resulting in an expansion of the team.\n\n\nOnyx is a venture backed startup, having raised millions in VC funding. The founder is a Harvard grad with a background at Jane Street.\n\n\nOnyx Odds is based in New York City with its offices in downtown Manhattan.\n\n**Job Desc",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-17T23:19:29.706689"
+  "updated": "2026-01-18T01:47:46.774260"
 }
