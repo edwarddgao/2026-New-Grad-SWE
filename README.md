@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-18 18:27
+**Last updated:** 2026-01-18 19:15
 
-**Total:** 1283 jobs from 485 companies
+**Total:** 1284 jobs from 486 companies
 
 ---
 
@@ -98,6 +98,7 @@
 | **GlobalFoundries** | [Manufacturing Inline Control Equipment Technician](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/MIC-Equipment-Technician_JR-2504719) | Saratoga Springs, NY |  | Simplify | 3d |
 | **GlobalFoundries** | [MIC Equipment Technician](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/MIC-Equipment-Technician_JR-2504720) | Malta, NY |  | Simplify | 3d |
 | **Baselayer** | [Junior Backend Engineer](https://job-boards.greenhouse.io/baselayer/jobs/5070916008) | San Francisco, CA |  | SpeedyApply | 3d |
+| **Encord** | [Associate Software Engineer - Graduate](https://jobs.lever.co/CordTechnologies/c9e9091c-2e89-4cbf-9fc6-982e39f10348/apply) | San Francisco, CA |  | SpeedyApply | 3d |
 | **Megazone Cloud US** | [Associate Cloud MSP Engineer](https://jobs.ashbyhq.com/megazone/d461769d-f2cd-4d87-ae7a-79728795727e) | Irvine, CA |  | SpeedyApply | 3d |
 | **Solace** | [Associate Software Engineer (New College Grad 2026)](https://jobs.ashbyhq.com/Solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929&urlHash=iqAT) | Redwood City, CA |  | LinkedIn | 3d |
 | **SpaceX** | [Software Engineer - Beam Planning - Starlink](https://boards.greenhouse.io/spacex/jobs/8373117002) | Sunnyvale, CA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Simplify | 4d |
@@ -1224,9 +1225,9 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 12mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
+| **NetApp** | [Software Engineer](https://dsp.prng.co/jj9JKLb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
-| **NetApp** | [Software Engineer](https://dsp.prng.co/jj9JKLb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
