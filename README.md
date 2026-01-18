@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-18 19:15
+**Last updated:** 2026-01-18 20:22
 
-**Total:** 1284 jobs from 486 companies
+**Total:** 1283 jobs from 485 companies
 
 ---
 
@@ -15,7 +15,6 @@
 | **Onyx Games** | [Backend Software Engineer](https://jobs.ashbyhq.com/Onyx%20Games%20LLC/aedc88f3-8a00-4c87-bf85-9450f802f591) | New York, NY, US | $170k-250k | Indeed | 1d |
 | **Raytheon** | [2026 Full-time - Software Engineer 1 - Onsite - CA](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-FULLERTON-675--1801-Hughes-Dr--BLDG-675/XMLNAME-2026-Full-time---Software-Engineer-1---Onsite--CA-_01804761) | Fullerton, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | SpeedyApply | 1d |
 | **UiPath** | [Software Engineer I - Back End](https://jobs.ashbyhq.com/uipath/32206bf8-e395-4ba9-bf2f-6bfc32272697) | Bellevue, WA | [$45.0k-55.0k](https://www.levels.fyi/companies/uipath/salaries) | SpeedyApply | 1d |
-| **PwC** | [Software Engineering - Summer 2027 Internship](https://ad.doubleclick.net/ddm/clk/438405794;254302458;m) | New York, NY | [$11.0k](https://www.levels.fyi/companies/pwc/salaries) | LinkedIn | 1d |
 | **Niagara Bottling** | [MFG System Implementations Engineer 1](https://niagarawater.wd5.myworkdayjobs.com/niagara/job/Corp-Offsite---Diamond-Bar-CA/MFG-System-Implementations-Engineer-I_R52230) | Walnut, CA |  | Simplify | 1d |
 | **ERM** | [GIS Technician](https://erm.wd3.myworkdayjobs.com/ERM_Careers/job/Walnut-Creek-California/GIS-Technician_R00028912-1) | Walnut Creek, CA |  | Simplify | 1d |
 | **The University of Texas at Austin** | [R&D Software Development Associate](https://utaustin.wd1.myworkdayjobs.com/en-US/UTstaff/job/PICKLE-RESEARCH-CAMPUS/R-D-Software-Development-Associate_R_00044032) | Austin, TX |  | SpeedyApply | 1d |
@@ -1225,9 +1224,9 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 12mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 12mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
-| **NetApp** | [Software Engineer](https://dsp.prng.co/jj9JKLb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
+| **NetApp** | [Software Engineer](https://dsp.prng.co/jj9JKLb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
