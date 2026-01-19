@@ -3791,7 +3791,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for NVIDIA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy not",
       "experience_level": null
+    },
+    "https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec": {
+      "id": "linkedin_li-4353804331",
+      "title": "Software Engineer - New Grad (Summer 2026)",
+      "company": "Nominal",
+      "company_slug": "nominal",
+      "location": "Los Angeles, CA",
+      "url": "https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About Nominal**\n Nominal is building software to accelerate the development of the world\u2019s most advanced hardware systems \u2014 from spacecraft and autonomous vehicles to next\\-generation industrial machines. Our platform makes data analysis and integration simple, helping engineering teams move faster without sacrificing safety or precision. We\u2019re a tight\\-knit team of engineers and operators who own problems end\\-to\\-end, work across disciplines, and thrive on solving challenges at the intersect",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-19T07:29:25.827169"
+  "updated": "2026-01-19T08:32:44.818144"
 }
