@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-19 21:19
+**Last updated:** 2026-01-19 22:21
 
-**Total:** 1278 jobs from 485 companies
+**Total:** 1277 jobs from 484 companies
 
 ---
 
@@ -1210,7 +1210,6 @@
 | **Nuro** | [Software Engineer – Autonomy-New Grad](https://nuro.ai/careersitem?gh_jid=6932596) | Mountain View, CA | [$185k-240k](https://www.levels.fyi/companies/nuro/salaries) | Simplify | 7mo |
 | **ByteDance** | [RDMA Network Software Development Engineer - High Speed Network](https://jobs.bytedance.com/en/position/7509263561258027272/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 7mo |
 | **ByteDance** | [RDMA Network Software Development Engineer Graduate - High Speed Network - 2026 Start](https://jobs.bytedance.com/en/position/7509266973013690631/detail) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 7mo |
-| **Amazon.com** | [Software Development Engineer, Live Sports - Prime Video](https://www.amazon.jobs/jobs/2938872/software-development-engineer-live-sports--prime-video) | New York, NY, US | [$129k-223k](https://www.levels.fyi/companies/amazon/salaries) | Indeed | 9mo |
 | **Fluidstack** | [Forward Deployed Engineer, SWE, SRE, Infrastructure, Networking](https://jobs.ashbyhq.com/fluidstack/fb45b5dc-614e-40dd-ac5d-b1a43014ee46) | London/SF/NYC or remote |  | HN Hiring | 12mo |
 | **Collaborative Drug Discovery** | [Ruby on Rails, Cloud Platform Engineering](https://www.capterra.com/p/171280/CDD-Vault/reviews/) | Remote (US, Canada) |  | HN Hiring | 12mo |
 | **Imbue** | [Machine Learning Engineer](https://imbue.com/careers) | Remote or San Francisco |  | HN Hiring | 12mo |
@@ -1219,7 +1218,6 @@
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
-| **Nominal** | [Software Engineer - New Grad (Summer 2026)](https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1289,6 +1287,7 @@
 | **Lensa** | [System Design Engineer - New College Grad 2025](https://lensa.com/cgw/a9b9bfb2cf694a01ba0d0e4816f426c2tjo1) | Santa Clara, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Transportation Engineer - Highway/Roadway](https://lensa.com/cgw/3138ee0ec3da44a58914b57034b13d3etjo1) | Sacramento, CA |  | LinkedIn |  |
 | **Lensa** | [System Design Engineer - New College Grad 2025](https://lensa.com/cgw/6ba6cf774b6545cab5cc2207c6a2b88ftjo1) | Santa Clara, CA |  | LinkedIn |  |
+| **Nominal** | [Software Engineer - New Grad (Summer 2026)](https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec) | New York, NY |  | LinkedIn |  |
 | **Hyra** | [Junior Software Engineer](https://joinhyra.com/jobs/65970f9a-29ab-4f71-bc24-62ad058747b2) | Los Angeles County, CA |  | LinkedIn |  |
 
 ---
