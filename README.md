@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-19 09:34
+**Last updated:** 2026-01-19 10:28
 
-**Total:** 1283 jobs from 485 companies
+**Total:** 1282 jobs from 484 companies
 
 ---
 
@@ -658,7 +658,6 @@
 | **Electronic Arts** | [Generalist Software Engineer](https://jobs.ea.com/en_US/careers/JobDetail/Generalist-Software-Engineer/211695) | Victoria, BC, Canada |  | Simplify | 2mo |
 | **SpaceX** | [Full Stack Software Engineer - Security - Starlink](https://boards.greenhouse.io/spacex/jobs/8246482002) | Sunnyvale, CA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Simplify | 2mo |
 | **JP Morgan Chase** | [Algorithmic Execution Automated Trading Strategist - Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210684444) | NYC | [$95k-130k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 2mo |
-| **WSP** | [Assistant Technician - Field Services](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/75353) | Calgary, AB, Canada |  | Simplify | 2mo |
 | **ByteDance** | [Graduate Research Scientist - 3D/4D Reconstruction/Generation/Relighting](https://jobs.bytedance.com/en/position/7564547210038380853/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 2mo |
 | **TikTok** | [Product Manager - Measurement Signal and Privacy Product](https://lifeattiktok.com/search/7538948353619888402) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 2mo |
 | **NewsBreak** | [Software Engineer, ML Infra (Junior & New Grad)](https://job-boards.greenhouse.io/newsbreak/jobs/4615879006) | Mountain View, CA |  | Simplify | 2mo |
