@@ -3793,14 +3793,14 @@
       "experience_level": null
     },
     "https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec": {
-      "id": "linkedin_li-4353804331",
+      "id": "linkedin_li-4353884089",
       "title": "Software Engineer - New Grad (Summer 2026)",
       "company": "Nominal",
       "company_slug": "nominal",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-19",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -3841,5 +3841,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-20T07:27:30.647736"
+  "updated": "2026-01-20T08:31:38.607201"
 }
