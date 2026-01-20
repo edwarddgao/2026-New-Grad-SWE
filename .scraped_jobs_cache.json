@@ -945,11 +945,11 @@
       "experience_level": null
     },
     "https://jobs.uptimecrew.com/jobs/7xjpg0/a11Jw000005ngcjIAA": {
-      "id": "linkedin_li-4346843963",
-      "title": "Entry Level AI Software Engineer (Fintech)",
+      "id": "linkedin_li-4362040367",
+      "title": "Entry Level AI Software Engineer",
       "company": "Uptime Crew",
       "company_slug": "uptime-crew",
-      "location": "San Jose, CA",
+      "location": "Mountain View, CA",
       "url": "https://jobs.uptimecrew.com/jobs/7xjpg0/a11Jw000005ngcjIAA",
       "source": "linkedin",
       "date_posted": "2025-12-31",
@@ -957,7 +957,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Why this role** \n\n\n\n\n Start your career using AI to code faster, test better, and ship with confidence. Once hired, you will train for 8\\-10 weeks, then start productive work!\n \n\n\n\n  \n\n\n\n\n\n**The training program** \n\n\n\n* Agile sprints, code reviews, and realistic tickets.\n* Curriculum focus: AI\\-assisted software development, prompt patterns for coding and testing, secure and compliant AI use in regulated environments, code quality and reliability, SDLC automation, cloud deployment basics.\n* Ca",
+      "description": "About Uptime Crew\n \n Uptime Crew is technology\\-focused and delivers talent in Full\\-Stack engineering, Cloud, DevSecOps, Networking, Cyber Security, Artificial Intelligence, Business Intelligence, Data Science, and Machine Learning. Our training uses realistic client environments so you can contribute quickly.\n \n\n\n\n  \n\n\n\n\n**Why this role** \n\n Start your career using AI to code faster, test better, and ship with confidence. Once hired, you will train for 8\\-10 weeks, then start productive work!\n",
       "experience_level": null
     },
     "https://lensa.com/cgw/997f6ad8e32744318dfb95de500e5efetjo1": {
@@ -3871,7 +3871,23 @@
       "remote": true,
       "description": "**Team:** Engineering\n**City:** San Luis Obispo\n**State:** CA\n\n  \n\n\nVeeva Systems is a mission\\-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest\\-growing SaaS companies in history, we surpassed $2B in revenue in our last fiscal year with extensive growth potential ahead.  \n\nAt the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public co",
       "experience_level": null
+    },
+    "https://joinhyra.com/jobs/49ede5f3-60a4-4ac4-a35d-b97331213d7f": {
+      "id": "linkedin_li-4360939225",
+      "title": "Junior Software Engineer",
+      "company": "Hyra",
+      "company_slug": "hyra",
+      "location": "California, United States",
+      "url": "https://joinhyra.com/jobs/49ede5f3-60a4-4ac4-a35d-b97331213d7f",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Entry Level Software Developer \\| Salary: \u00a375,000 \\- \u00a3100,000 annual\n \n\n\n\n  \n\n\n\n\n\n Hyra is working on behalf of Property Matrix to hire for the position of Entry Level Software Developer. This role involves contributing to the development of cloud\\-based property management software for residential and commercial real estate operators. You will work within a collaborative team to build and improve features across the full stack.\n \n\n\n\n  \n\n\n\n\n\n What you'll be doing\n \n\n\n\n \u2022 Contribute to real\\-worl",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-20T14:30:38.793063"
+  "updated": "2026-01-20T15:30:40.046796"
 }
