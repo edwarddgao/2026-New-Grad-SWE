@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-20 09:32
+**Last updated:** 2026-01-20 10:27
 
-**Total:** 1281 jobs from 485 companies
+**Total:** 1282 jobs from 486 companies
 
 ---
 
@@ -19,7 +19,8 @@
 | **BMO ** | [Analyst – AI Engineer](https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Analyst--AI-Engineer_R260001920) | Toronto, ON, Canada |  | Simplify | 1d |
 | **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/d84db733-460c-4cdb-8ef9-aab18ff790b8/application) | Boston, MA, Austin, TX, LA, Chicago, ... |  | Simplify | 1d |
 | **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/357dcf52-0cb3-4ed8-a33b-6f5d3b9be7be/application) | Palo Alto, CA, Toronto, ON, Canada |  | Simplify | 1d |
-| **Nominal** | [Software Engineer - New Grad (Summer 2026)](https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec) | New York, NY |  | LinkedIn | 1d |
+| **RWS** | [AI Data Specialist - New Hampshire - US](https://jobs.lever.co/rws/ec350dcc-c52c-420a-a45a-4ccdf7bd7be8/apply) | Sherbrooke, QC, Canada |  | Simplify | 1d |
+| **Nominal** | [Software Engineer - New Grad (Summer 2026)](https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec) | Los Angeles, CA |  | LinkedIn | 1d |
 | **KLA Corporation** | [Software Engineer - C++ - Object-Oriented Design/Object-Oriented Programming](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineer--C----OOD-OOP--Linux-_2633855) | Milpitas, CA | [$120k-178k](https://www.levels.fyi/companies/kla/salaries) | Simplify | 2d |
 | **Raytheon** | [2026 Full-time - Software Engineer 1 - Onsite - CA](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-FULLERTON-675--1801-Hughes-Dr--BLDG-675/XMLNAME-2026-Full-time---Software-Engineer-1---Onsite--CA-_01804761) | Fullerton, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | SpeedyApply | 2d |
 | **UiPath** | [Software Engineer I - Back End](https://jobs.ashbyhq.com/uipath/32206bf8-e395-4ba9-bf2f-6bfc32272697) | Bellevue, WA | [$45.0k-55.0k](https://www.levels.fyi/companies/uipath/salaries) | SpeedyApply | 2d |
@@ -116,6 +117,7 @@
 | **Solace** | [Associate Software Engineer (New College Grad 2026)](https://jobs.ashbyhq.com/Solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929&urlHash=iqAT) | Redwood City, CA |  | LinkedIn | 5d |
 | **SpaceX** | [Software Engineer - Beam Planning - Starlink](https://boards.greenhouse.io/spacex/jobs/8373117002) | Sunnyvale, CA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Simplify | 6d |
 | **Google** | [Software Engineer - Spanner Hybrid Search](https://www.google.com/about/careers/applications/jobs/results/118548224553165510) | Sunnyvale, CA | [$140k-212k](https://www.levels.fyi/companies/google/salaries) | Simplify | 6d |
+| **Qualcomm** | [Machine Learning ASIC Design Verification Engineer - ASICS Engineering](https://qualcomm.eightfold.ai/careers/job/446716207423) | Markham, ON, Canada | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Simplify | 6d |
 | **The Boeing Company** | [Entry-Level Electrical Network & Digital Connectivity System Design Engineer](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Entry-Level-Electrical-Network---Digital-Connectivity-System-Design-Engineer_JR2025489102-1) | Everett, WA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 6d |
 | **NXP Semiconductors** | [RF System Development Engineer, Entry Level](https://nxp.wd3.myworkdayjobs.com/careers/job/San-Jose-Holger-Way/RF-System-Development-Engineer\u002d\u002dEntry-Level_R-10060341-1) | San Jose, CA | [$17.0k-21.0k](https://www.levels.fyi/companies/nxp-semiconductors/salaries) | LinkedIn | 6d |
 | **Tesla** | [Internship, Sensor Hardware Design Engineer, Optimus (Summer 2026)](https://www.tesla.com/careers/search/job/259964) | Palo Alto, CA, US | [Levels.fyi](https://www.levels.fyi/companies/tesla/salaries) | Indeed | 6d |
@@ -794,7 +796,6 @@
 | **Verition Fund Management** | [Quantitative Developer](https://www.verition.com/open-positions?gh_jid=4011276007) | London, UK, Waterbury, CT, Dubai - Un... |  | Simplify | 2mo |
 | **Vanderlande Industries** | [Service Technician 1](https://vanderlande.wd3.myworkdayjobs.com/careers/job/TorontoOntario/Service-Technician-I_JR34583) | Toronto, ON, Canada |  | Simplify | 2mo |
 | **SCS Engineers** | [Field Data Analyst](https://careers-scsengineers.icims.com/jobs/1613/job?mobile=true&needsRedirect=false) | Modesto, CA |  | Simplify | 2mo |
-| **EliseAI** | [Senior Product Solutions Analyst - Housing](https://jobs.ashbyhq.com/EliseAI/676b89a9-7066-4557-94f0-0465715c6708/application) | NYC |  | Simplify | 2mo |
 | **Mechanical Orchard** | [Software Engineer](https://jobs.lever.co/mechanicalorchard/3ee619b5-9916-453c-8ed0-30fcbf75a675/apply) | Toronto, ON, Canada, Remote in Canada |  | Simplify | 2mo |
 | **AQ Technology Partners** | [Associate: Investment Banking - Software M&A - Summer 2026](https://job-boards.greenhouse.io/aqtechnologypartners/jobs/4624230005) | Redwood City, CA |  | SpeedyApply | 2mo |
 | **TikTok** | [Data Scientist - TikTok Shop AMS Data Science](https://lifeattiktok.com/search/7532272949161593096) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 2mo |
