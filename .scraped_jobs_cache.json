@@ -3793,11 +3793,11 @@
       "experience_level": null
     },
     "https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec": {
-      "id": "linkedin_li-4353804331",
+      "id": "linkedin_li-4353884089",
       "title": "Software Engineer - New Grad (Summer 2026)",
       "company": "Nominal",
       "company_slug": "nominal",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec",
       "source": "linkedin",
       "date_posted": "2026-01-19",
@@ -3887,7 +3887,23 @@
       "remote": false,
       "description": "Entry Level Software Developer \\| Salary: \u00a375,000 \\- \u00a3100,000 annual\n \n\n\n\n  \n\n\n\n\n\n Hyra is working on behalf of Property Matrix to hire for the position of Entry Level Software Developer. This role involves contributing to the development of cloud\\-based property management software for residential and commercial real estate operators. You will work within a collaborative team to build and improve features across the full stack.\n \n\n\n\n  \n\n\n\n\n\n What you'll be doing\n \n\n\n\n \u2022 Contribute to real\\-worl",
       "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/netic/63c216dc-a082-43df-928c-d71b3ed4f887&urlHash=4ARG": {
+      "id": "linkedin_li-4353992366",
+      "title": "Software Engineer, New Grad",
+      "company": "Netic",
+      "company_slug": "netic",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/netic/63c216dc-a082-43df-928c-d71b3ed4f887&urlHash=4ARG",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Netic is the AI revenue engine for essential services who are the backbone of the American economy.\n   \n\n  \n\n**With $43M in funding from Founders Fund, Greylock, Hanabi, and Dylan Field who led our Series B, we helped our customers book hundreds of thousands of jobs across services industries in North America.** \n There are now companies operating entirely AI\\-first on Netic.\n   \n\n  \n\n You\u2019ll join our team with relentless builders from Scale, Databricks, HRT, Meta, MIT, Stanford, and Harvard in ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-20T16:35:14.738077"
+  "updated": "2026-01-20T17:29:19.335319"
 }
