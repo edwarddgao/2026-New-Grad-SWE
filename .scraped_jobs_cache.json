@@ -3951,7 +3951,39 @@
       "remote": true,
       "description": "**Company Description** *The California ISO is currently taking general applications for university or graduate students majoring in Electrical Engineering or related fields for internship positions in the summer of 2026\\.*\n\n*There are several groups inside the organization where you could further develop and utilize your skill set in this area! The selection process (with more details on the 2026 summer assignments) will begin shortly.*\n\n\nThe California Independent System Operator (ISO) manages",
       "experience_level": null
+    },
+    "https://careers.cisco.com/global/en/job/2001127": {
+      "id": "indeed_in-112dfedf0090a6e8",
+      "title": "Software Engineer Data/AI/Intelligent Systems II (Intern) \u00e2\u20ac\u201c United States",
+      "company": "Cisco",
+      "company_slug": "cisco",
+      "location": "San Jose, CA, US",
+      "url": "https://careers.cisco.com/global/en/job/2001127",
+      "source": "indeed",
+      "date_posted": "2026-01-20",
+      "salary_min": 44000,
+      "salary_max": 185000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Please note this posting is to advertise potential job opportunities. This exact role may not be open today but could open in the near future. When you apply, a Cisco representative may contact you directly if a relevant position opens.\n  \n  \n\nApplications are accepted until further notice.\n  \n  \n\nMeet the Team\n  \nOur dedicated team members are building the future of Cisco\u2019s AI\\-driven platforms and data infrastructure, supporting innovation across the globe. You will join teams focused on devel",
+      "experience_level": null
+    },
+    "https://grnh.se/emkg789w4us": {
+      "id": "indeed_in-47b7ee1d89e6f54e",
+      "title": "Software Engineer, Core Platform",
+      "company": "Cribl",
+      "company_slug": "cribl",
+      "location": "San Francisco, CA, US",
+      "url": "https://grnh.se/emkg789w4us",
+      "source": "indeed",
+      "date_posted": "2026-01-20",
+      "salary_min": 120000,
+      "salary_max": 150000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Cribl does differently.\n\n\n\nWhat does that mean? It means we are a serious company that doesn't take itself too seriously; and we're looking for people who love to get stuff done, and laugh a bit along the way. We're growing rapidly \\- looking for collaborative, curious, and motivated team members who are passionate about putting customers first. As a remote\\-first company we believe in empowering our employees to do their best work, wherever they are.\n\n\n\nAs the data engine for IT and Security ma",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-20T23:21:50.750987"
+  "updated": "2026-01-21T01:44:16.684740"
 }
