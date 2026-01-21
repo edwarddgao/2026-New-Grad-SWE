@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-21 19:27
+**Last updated:** 2026-01-21 20:30
 
 **Total:** 1287 jobs from 484 companies
 
@@ -21,8 +21,8 @@
 | **The New York Mets** | [Junior Data Engineer](https://sterlingmets.wd5.myworkdayjobs.com/en-US/Mets/job/Citi-Field--Queens-New-York/Junior-Data-Engineer_R1440-1) | Citi Field Queens, New York |  | SpeedyApply | 0d |
 | **Veeva Systems** | [Software Engineer - Full Stack](https://careers.veeva.com/job/20f768d9-4e96-4d09-b829-91507e9c612d/software-engineer-full-stack-san-luis-obispo-ca/) | San Luis Obispo, CA, US | [$85k-225k](https://www.levels.fyi/companies/veeva-systems/salaries) | Indeed | 1d |
 | **Cisco** | [Software Engineer Data/AI/Intelligent Systems II (Intern) â€“ United States](https://careers.cisco.com/global/en/job/2001127) | San Jose, CA, US | [$44k-185k](https://www.levels.fyi/companies/cisco/salaries) | Indeed | 1d |
-| **Cribl** | [Software Engineer, Core Platform](https://grnh.se/emkg789w4us) | San Francisco, CA, US | $120k-150k | Indeed | 1d |
 | **Tesla** | [Internship, Software Engineer, AI Hardware Infrastructure (Summer 2026)](https://www.tesla.com/careers/search/job/260382) | Palo Alto, CA, US | [$100k-150k](https://www.levels.fyi/companies/tesla/salaries) | Indeed | 1d |
+| **Cribl** | [Software Engineer, Core Platform](https://grnh.se/emkg789w4us) | San Francisco, CA, US | $120k-150k | Indeed | 1d |
 | **Northrop Grumman** | [Data Scientist - Machine Learning and Predictive Analytics](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Data-Scientist---Machine-Learning-and-Predictive-Analytics_R10218634) | San Diego, CA | [$87k-101k](https://www.levels.fyi/companies/northrop-grumman/salaries) | Simplify | 1d |
 | **California ISO** | [Power Systems Engineering Intern - Summer 2026 (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000104561015-power-systems-engineering-intern-summer-2026-hybrid-or-remote-) | Folsom, CA, US |  | Indeed | 1d |
 | **University of Texas - Austin** | [Power BI Analyst](https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/AUSTIN-TX/Power-BI-Analyst_R_00044081-1) | Austin, TX |  | Simplify | 1d |
@@ -1224,7 +1224,7 @@
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 12mo |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
-| **AV** | [Software Engineer (EMB) I](https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineer\u002d\u002dEMB\u002d\u002dI_6531) | Moorpark, CA |  | LinkedIn |  |
+| **AV** | [Software Engineer I (Applications)](https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineer-I\u002d\u002dApplications-_6541) | Simi Valley, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1296,9 +1296,9 @@
 | **Lensa** | [System Design Engineer - New College Grad 2025](https://lensa.com/cgw/6ba6cf774b6545cab5cc2207c6a2b88ftjo1) | Santa Clara, CA |  | LinkedIn |  |
 | **Hyra** | [Junior Software Engineer](https://joinhyra.com/jobs/65970f9a-29ab-4f71-bc24-62ad058747b2) | Los Angeles County, CA |  | LinkedIn |  |
 | **Hyra** | [Junior Software Engineer](https://joinhyra.com/jobs/49ede5f3-60a4-4ac4-a35d-b97331213d7f) | California, United States |  | LinkedIn |  |
+| **AV** | [Software Engineer (EMB) I](https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineer\u002d\u002dEMB\u002d\u002dI_6531) | Moorpark, CA |  | LinkedIn |  |
 | **Sigma** | [Software Engineer (New Grad Program)](https://job-boards.greenhouse.io/sigmacomputing/jobs/7598785003) | New York, NY |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Entry Level Software Developer (Remote)](https://www.executiveplacements.com/JF/Entry-Level-Software-Developer-Remote-jobs-in-Manhattan-New-York-23b9c9c7532e.asp) | Manhattan, NY |  | LinkedIn |  |
-| **AV** | [Software Engineer I (Applications)](https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineer-I\u002d\u002dApplications-_6541) | Simi Valley, CA |  | LinkedIn |  |
 
 ---
 
