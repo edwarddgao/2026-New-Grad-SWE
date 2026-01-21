@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-21 07:28
+**Last updated:** 2026-01-21 08:31
 
-**Total:** 1284 jobs from 486 companies
+**Total:** 1282 jobs from 484 companies
 
 ---
 
@@ -26,7 +26,7 @@
 | **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/d84db733-460c-4cdb-8ef9-aab18ff790b8/application) | Boston, MA, Austin, TX, LA, Chicago, ... |  | Simplify | 2d |
 | **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/357dcf52-0cb3-4ed8-a33b-6f5d3b9be7be/application) | Palo Alto, CA, Toronto, ON, Canada |  | Simplify | 2d |
 | **RWS** | [AI Data Specialist - New Hampshire - US](https://jobs.lever.co/rws/ec350dcc-c52c-420a-a45a-4ccdf7bd7be8/apply) | Sherbrooke, QC, Canada |  | Simplify | 2d |
-| **Nominal** | [Software Engineer - New Grad (Summer 2026)](https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec) | Los Angeles, CA |  | LinkedIn | 2d |
+| **Nominal** | [Software Engineer - New Grad (Summer 2026)](https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec) | New York, NY |  | LinkedIn | 2d |
 | **KLA Corporation** | [Software Engineer - C++ - Object-Oriented Design/Object-Oriented Programming](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineer--C----OOD-OOP--Linux-_2633855) | Milpitas, CA | [$120k-178k](https://www.levels.fyi/companies/kla/salaries) | Simplify | 3d |
 | **UiPath** | [Software Engineer I - Back End](https://jobs.ashbyhq.com/uipath/32206bf8-e395-4ba9-bf2f-6bfc32272697) | Bellevue, WA | [$45.0k-55.0k](https://www.levels.fyi/companies/uipath/salaries) | SpeedyApply | 3d |
 | **The University of Texas at Austin** | [R&D Software Development Associate](https://utaustin.wd1.myworkdayjobs.com/en-US/UTstaff/job/PICKLE-RESEARCH-CAMPUS/R-D-Software-Development-Associate_R_00044032) | Austin, TX |  | SpeedyApply | 3d |
@@ -565,7 +565,6 @@
 | **SERES** | [Embedded Firmware Engineer](https://www.driveseres.com/career/?gh_jid=7424807) | Milpitas, CA | [$116k-132k](https://www.levels.fyi/companies/seres/salaries) | Simplify | 1mo |
 | **Mastercard** | [Associate Product Specialist - Product Management - Digital Commerce](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Associate-Product-Specialist--Product-Management--Digital-Commerce_R-265647) | NYC, White Plains, NY | [$105k-117k](https://www.levels.fyi/companies/mastercard/salaries) | Simplify | 1mo |
 | **McAfee** | [AI Training Data Acquisition Analyst](https://mcafee.wd1.myworkdayjobs.com/external/job/United-States/AI-Training-Data-Acquisition-Analyst_JR0032205) | Frisco, TX, San Jose, CA | [$14.0k-16k](https://www.levels.fyi/companies/mcafee/salaries) | Simplify | 1mo |
-| **Sinclair** | [Software Development Engineer - Level 1 - Direct-to-Consumer Streaming](https://edyy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/14900) | Santa Monica, CA |  | Simplify | 1mo |
 | **Ultra** | [Graduate Engineer](https://ultra.wd3.myworkdayjobs.com/ultra-careers/job/Dartmouth-NS-Canada/Graduate-Engineer_REQ-10809) | Dartmouth, NS, Canada |  | Simplify | 1mo |
 | **Uare.ai** | [Software Engineer – Early Career](https://job-boards.greenhouse.io/uareai/jobs/4036519009) | Mountain View, CA |  | Simplify | 1mo |
 | **Fortive** | [Operations Analyst](https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8330) | Austin, TX |  | Simplify | 1mo |
@@ -1213,7 +1212,6 @@
 | **Nuro** | [Software Engineer – Autonomy-New Grad](https://nuro.ai/careersitem?gh_jid=6932596) | Mountain View, CA | [$185k-240k](https://www.levels.fyi/companies/nuro/salaries) | Simplify | 7mo |
 | **ByteDance** | [RDMA Network Software Development Engineer - High Speed Network](https://jobs.bytedance.com/en/position/7509263561258027272/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 7mo |
 | **ByteDance** | [RDMA Network Software Development Engineer Graduate - High Speed Network - 2026 Start](https://jobs.bytedance.com/en/position/7509266973013690631/detail) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 7mo |
-| **Amazon.com** | [Software Development Engineer, Live Sports - Prime Video](https://www.amazon.jobs/jobs/2938872/software-development-engineer-live-sports--prime-video) | New York, NY, US | [$129k-223k](https://www.levels.fyi/companies/amazon/salaries) | Indeed | 10mo |
 | **Fluidstack** | [Forward Deployed Engineer, SWE, SRE, Infrastructure, Networking](https://jobs.ashbyhq.com/fluidstack/fb45b5dc-614e-40dd-ac5d-b1a43014ee46) | London/SF/NYC or remote |  | HN Hiring | 12mo |
 | **Collaborative Drug Discovery** | [Ruby on Rails, Cloud Platform Engineering](https://www.capterra.com/p/171280/CDD-Vault/reviews/) | Remote (US, Canada) |  | HN Hiring | 12mo |
 | **Imbue** | [Machine Learning Engineer](https://imbue.com/careers) | Remote or San Francisco |  | HN Hiring | 12mo |
