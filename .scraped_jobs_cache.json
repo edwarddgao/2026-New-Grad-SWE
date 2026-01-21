@@ -3896,7 +3896,7 @@
       "location": "San Francisco, CA",
       "url": "https://jobs.ashbyhq.com/netic/63c216dc-a082-43df-928c-d71b3ed4f887&urlHash=4ARG",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-20",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -3999,7 +3999,39 @@
       "remote": false,
       "description": "Sigma unlocks the value of data by delivering cloud\\-scale analytics and business intelligence with the simplicity of a spreadsheet, complete with pivot tables and next generation dashboards. We empower business professionals, non\\-technical users, and data teams to quickly explore, analyze, visualize, and collaborate, leveraging all of their data across the organization.\n   \n\n  \n\n**Our New Grad (Temp\\-to\\-Hire) Program At Sigma**\n Sigma\u2019s early career program is the launchpad for the next gener",
       "experience_level": null
+    },
+    "https://grnh.se/lx8o7r663us": {
+      "id": "indeed_in-e19e4ee4ef47034e",
+      "title": "Software Engineering Intern (Summer 2026)",
+      "company": "Sigma Computing",
+      "company_slug": "sigma-computing",
+      "location": "New York, NY, US",
+      "url": "https://grnh.se/lx8o7r663us",
+      "source": "indeed",
+      "date_posted": "2026-01-21",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Sigma unlocks the value of data by delivering cloud\\-scale analytics and business intelligence with the simplicity of a spreadsheet, complete with pivot tables and dashboards. We empower business professionals and data teams to quickly explore, analyze, visualize, and collaborate, leveraging all of their data across the organization.\n\n\n#### **Our internship program at Sigma:**\n\n\n\nSigma's Early Career Program is the launchpad for the next generation of engineers and innovators. As an Intern at Si",
+      "experience_level": null
+    },
+    "https://grnh.se/orn6r5a73us": {
+      "id": "indeed_in-016f8e484178440e",
+      "title": "Security Engineer Graduate Intern (Summer 2026)",
+      "company": "Sigma Computing",
+      "company_slug": "sigma-computing",
+      "location": "San Francisco, CA, US",
+      "url": "https://grnh.se/orn6r5a73us",
+      "source": "indeed",
+      "date_posted": "2026-01-21",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Sigma unlocks the value of data by delivering cloud\\-scale analytics and business intelligence with the simplicity of a spreadsheet, complete with pivot tables and dashboards. We empower business professionals and data teams to quickly explore, analyze, visualize, and collaborate, leveraging all of their data across the organization.\n\n\n#### **Our internship program at Sigma:**\n\n\n\nSigma's early career program is the launchpad for the next generation of engineers and innovators. As an Intern at Si",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-21T09:32:10.484485"
+  "updated": "2026-01-21T10:28:05.359440"
 }
