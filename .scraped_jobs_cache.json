@@ -4207,7 +4207,23 @@
       "remote": true,
       "description": "Overview:\n\nThe Princeton Language and Intelligence Initiative at Princeton University invites applications for a Research Software Engineer (RSE) position. This multidisciplinary initiative has two Research thrusts: (a) Better design, evaluation, safety, and understanding of large AI models (especially language models) and (b) Studying the impact of large AI models on society and the world. The Initiative will produce open\\-source software and models.  \n\nThe term of this appointment is 3 years, ",
       "experience_level": null
+    },
+    "https://www.tesla.com/careers/search/job/260612": {
+      "id": "indeed_in-d07c1b5be21d985b",
+      "title": "Software Engineer, Hardware Integration",
+      "company": "Tesla",
+      "company_slug": "tesla",
+      "location": "Fremont, CA, US",
+      "url": "https://www.tesla.com/careers/search/job/260612",
+      "source": "indeed",
+      "date_posted": "2026-01-22",
+      "salary_min": 140000,
+      "salary_max": 300000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**What to Expect**\nJoin our team and leverage your problem\\-solving skills to address the unique challenges associated with keeping a fleet of Robotaxis in operation. As a Software Integration Engineer, you will design and develop software solutions for the hardware and systems that enable our technicians and automation to efficiently repair and maintain our autonomous vehicles.\n\n\n\n\nWe are looking for a multitalented engineer eager to learn and take on a wide variety of engineering disciplines t",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-22T09:32:13.958898"
+  "updated": "2026-01-22T10:27:01.160138"
 }
