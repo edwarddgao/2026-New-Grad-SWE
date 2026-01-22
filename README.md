@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-22 17:28
+**Last updated:** 2026-01-22 18:32
 
-**Total:** 1334 jobs from 512 companies
+**Total:** 1333 jobs from 511 companies
 
 ---
 
@@ -71,8 +71,8 @@
 | **Dolby** | [Audio Software Engineer Intern- Embedded](https://jobs.dolby.com/careers/job/39648728) | San Francisco, CA, US |  | Indeed | 2d |
 | **California ISO** | [Power Systems Engineering Intern - Summer 2026 (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000104561015-power-systems-engineering-intern-summer-2026-hybrid-or-remote-) | Folsom, CA, US |  | Indeed | 2d |
 | **University of Texas - Austin** | [Power BI Analyst](https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/AUSTIN-TX/Power-BI-Analyst_R_00044081-1) | Austin, TX |  | Simplify | 2d |
-| **Netic** | [Software Engineer, New Grad](https://jobs.ashbyhq.com/netic/63c216dc-a082-43df-928c-d71b3ed4f887&urlHash=4ARG) | San Francisco, CA |  | LinkedIn | 2d |
 | **AV** | [Software Engineer (EMB) I](https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineer\u002d\u002dEMB\u002d\u002dI_6531) | Moorpark, CA |  | LinkedIn | 2d |
+| **Netic** | [Software Engineer, New Grad](https://jobs.ashbyhq.com/netic/63c216dc-a082-43df-928c-d71b3ed4f887&urlHash=4ARG) | San Francisco, CA |  | LinkedIn | 2d |
 | **Microchip Technology** | [Engineer 2 - Test - Development](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-II---Test--Development-_R264-26) | San Jose, CA | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 3d |
 | **TD Bank** | [Data Engineer 1](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Data-Engineer-I_R_1458305) | Toronto, ON, Canada | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 3d |
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/7c5fb743-5d95-489c-a620-0f6ca62d775c/application) | Palo Alto, CA, Toronto, ON, Canada |  | Simplify | 3d |
@@ -85,7 +85,6 @@
 | **IBM** | [Entry Level AI Software Engineer](https://careers.ibm.com/en_US/careers/JobDetail) | Research Park, CA | [$80k-170k](https://www.levels.fyi/companies/ibm/salaries) | LinkedIn | 5d |
 | **NetApp** | [Software Engineer](https://dsp.prng.co/jj9JKLb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn | 5d |
 | **UiPath** | [Software Engineer I - Back End](https://jobs.ashbyhq.com/uipath/32206bf8-e395-4ba9-bf2f-6bfc32272697) | Bellevue, WA | [$45.0k-55.0k](https://www.levels.fyi/companies/uipath/salaries) | SpeedyApply | 5d |
-| **PwC** | [Software Engineering - Summer 2027 Internship](https://ad.doubleclick.net/ddm/clk/438405794;254302458;m) | New York, NY | [$11.0k](https://www.levels.fyi/companies/pwc/salaries) | LinkedIn | 5d |
 | **Niagara Bottling** | [MFG System Implementations Engineer 1](https://niagarawater.wd5.myworkdayjobs.com/niagara/job/Corp-Offsite---Diamond-Bar-CA/MFG-System-Implementations-Engineer-I_R52230) | Walnut, CA |  | Simplify | 5d |
 | **The University of Texas at Austin** | [R&D Software Development Associate](https://utaustin.wd1.myworkdayjobs.com/en-US/UTstaff/job/PICKLE-RESEARCH-CAMPUS/R-D-Software-Development-Associate_R_00044032) | Austin, TX |  | SpeedyApply | 5d |
 | **Bloom Energy** | [Software Engineering Intern - Automation](https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/Software-Engineering-Intern\u002d\u002d-Automation_JR-20625) | San Jose, CA |  | LinkedIn | 5d |
