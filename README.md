@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-22 13:46
+**Last updated:** 2026-01-22 14:30
 
-**Total:** 1333 jobs from 512 companies
+**Total:** 1332 jobs from 511 companies
 
 ---
 
@@ -68,8 +68,8 @@
 | **Dolby** | [Audio Software Engineer Intern- Embedded](https://jobs.dolby.com/careers/job/39648728) | San Francisco, CA, US |  | Indeed | 2d |
 | **California ISO** | [Power Systems Engineering Intern - Summer 2026 (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000104561015-power-systems-engineering-intern-summer-2026-hybrid-or-remote-) | Folsom, CA, US |  | Indeed | 2d |
 | **University of Texas - Austin** | [Power BI Analyst](https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/AUSTIN-TX/Power-BI-Analyst_R_00044081-1) | Austin, TX |  | Simplify | 2d |
-| **AV** | [Software Engineer (EMB) I](https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineer\u002d\u002dEMB\u002d\u002dI_6531) | Moorpark, CA |  | LinkedIn | 2d |
 | **Netic** | [Software Engineer, New Grad](https://jobs.ashbyhq.com/netic/63c216dc-a082-43df-928c-d71b3ed4f887&urlHash=4ARG) | San Francisco, CA |  | LinkedIn | 2d |
+| **AV** | [Software Engineer (EMB) I](https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineer\u002d\u002dEMB\u002d\u002dI_6531) | Moorpark, CA |  | LinkedIn | 2d |
 | **Microchip Technology** | [Engineer 2 - Test - Development](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-II---Test--Development-_R264-26) | San Jose, CA | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 3d |
 | **TD Bank** | [Data Engineer 1](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Data-Engineer-I_R_1458305) | Toronto, ON, Canada | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 3d |
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/7c5fb743-5d95-489c-a620-0f6ca62d775c/application) | Palo Alto, CA, Toronto, ON, Canada |  | Simplify | 3d |
@@ -371,7 +371,6 @@
 | **SeatGeek** | [Software Engineer - New Grad](https://app.greenhouse.io/embed/job_app) | New York, NY |  | LinkedIn | 3w |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://careers.qualcomm.com/careers/job/446715807950) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn | 3w |
 | **Solace Health** | [Associate Software Engineer – College Grad 2026](https://jobs.ashbyhq.com/solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929/application) | San Carlos, CA |  | Simplify | 3w |
-| **Uptime Crew** | [Entry Level AI Software Engineer](https://jobs.uptimecrew.com/jobs/7xjpg0/a11Jw000005ngcjIAA) | Mountain View, CA |  | LinkedIn | 3w |
 | **Freeform** | [Materials Lab Technician](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7575047003) | West Athens, CA | [$205k-240k](https://www.levels.fyi/companies/freeform/salaries) | Simplify | 3w |
 | **Freeform** | [Software Engineer (New Grad Summer 2026)](https://grnh.se/hrhxzs163us) | Los Angeles, CA | [$205k-240k](https://www.levels.fyi/companies/freeform/salaries) | LinkedIn | 3w |
 | **Rubrik** | [Software Engineer - Distributed Systems - Platform Software](https://www.rubrik.com/company/careers/departments/job.6528028?gh_jid=6528028) | Palo Alto, CA | [$44.0k-113.0k](https://www.levels.fyi/companies/rubrik/salaries) | Simplify | 3w |
@@ -1270,6 +1269,7 @@
 | **MeshyAI** | [Software Engineer - New Grad](https://jobs.ashbyhq.com/meshy/4d91eb31-80a5-44de-82bc-ba6e3f4f0d2b&urlHash=b_4p) | Sunnyvale, CA | [$479.0k-546.0k](https://www.levels.fyi/companies/meshyai/salaries) | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
+| **BMO U.S.** | [Software Developer, Summer 2026 (Internship) - 10 weeks](https://bmo.wd3.myworkdayjobs.com/en-US/External/job/San-Ramon-CA-USA/Software-Developer\u002d\u002dSummer-2026\u002d\u002dInternship\u002d\u002d\u002d\u002d10-weeks_R260002319-1) | San Ramon, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1343,7 +1343,6 @@
 | **Hyra** | [Junior Software Engineer](https://joinhyra.com/jobs/49ede5f3-60a4-4ac4-a35d-b97331213d7f) | California, United States |  | LinkedIn |  |
 | **ExecutivePlacements.com** | [Entry Level Software Developer (Remote)](https://www.executiveplacements.com/JF/Entry-Level-Software-Developer-Remote-jobs-in-Manhattan-New-York-23b9c9c7532e.asp) | Manhattan, NY |  | LinkedIn |  |
 | **AV** | [Software Engineer I (Applications)](https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineer-I\u002d\u002dApplications-_6541) | Simi Valley, CA |  | LinkedIn |  |
-| **BMO U.S.** | [Software Developer, Summer 2026 (Internship) - 10 weeks](https://bmo.wd3.myworkdayjobs.com/en-US/External/job/San-Ramon-CA-USA/Software-Developer\u002d\u002dSummer-2026\u002d\u002dInternship\u002d\u002d\u002d\u002d10-weeks_R260002319-1) | San Ramon, CA |  | LinkedIn |  |
 | **Hyra** | [Junior Software Engineer](https://joinhyra.com/jobs/07bfb80c-e8c1-4577-a2b8-f4a80577cf01) | California, United States |  | LinkedIn |  |
 
 ---
