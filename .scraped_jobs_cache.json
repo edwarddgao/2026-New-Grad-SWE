@@ -3793,11 +3793,11 @@
       "experience_level": null
     },
     "https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec": {
-      "id": "linkedin_li-4353884089",
+      "id": "linkedin_li-4353804331",
       "title": "Software Engineer - New Grad (Summer 2026)",
       "company": "Nominal",
       "company_slug": "nominal",
-      "location": "New York, NY",
+      "location": "Los Angeles, CA",
       "url": "https://jobs.gem.com/nominal/cc79d7f9-93b9-4410-8435-d92d2f427215&urlHash=s_Ec",
       "source": "linkedin",
       "date_posted": "2026-01-19",
@@ -4159,7 +4159,55 @@
       "remote": false,
       "description": "**Job description****Company and benefits****Social Impact \\& Sustainability**\nJob ID**41340**\nJoin the leader in entertainment innovation and help us design the future. The Dolby U internship program offers impactful, project\\-based work experience in a collaborative, creative environment where you work side by side with industry leaders. Amplify your insatiable curiosity by implementing real\\-world solutions that revolutionize how people communicate and how entertainment is created, delivered,",
       "experience_level": null
+    },
+    "https://www.moveworks.com/us/en/company/careers/position": {
+      "id": "linkedin_li-4365192039",
+      "title": "Software Engineer, Agentic AI Systems",
+      "company": "Moveworks",
+      "company_slug": "moveworks",
+      "location": "Mountain View, CA",
+      "url": "https://www.moveworks.com/us/en/company/careers/position",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**The Role**\n Software Engineer, Agentic AI Systems (New Grad)\n   \n\n  \n\n Are you a software engineer who has honed your craft through internships, research, and/or academic projects, and are looking to apply your skills at the cutting edge of AI agents? This may be the role for you.\n   \n\n  \n\n As a software engineer on our \u201cagent lab\u201d Natural Language Understanding team, you will play an important part in our mission: to advance the frontier of work that can be entrusted to agents to perform reli",
+      "experience_level": null
+    },
+    "https://main-princeton.icims.com/jobs/21467/job": {
+      "id": "indeed_in-2fc971fb5d66a360",
+      "title": "Research Software Engineer II",
+      "company": "Princeton University",
+      "company_slug": "princeton-university",
+      "location": "Princeton, NJ, US",
+      "url": "https://main-princeton.icims.com/jobs/21467/job",
+      "source": "indeed",
+      "date_posted": "2026-01-21",
+      "salary_min": 125000,
+      "salary_max": 140000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Overview:\n\nThe Princeton Language and Intelligence Initiative at Princeton University invites applications for a Research Software Engineer (RSE) position. This multidisciplinary initiative has two Research thrusts: (a) Better design, evaluation, safety, and understanding of large AI models (especially language models) and (b) Studying the impact of large AI models on society and the world. The Initiative will produce open\\-source software and models.  \n\nThe term of this appointment is 3 years, ",
+      "experience_level": null
+    },
+    "https://research-princeton.icims.com/jobs/21467/job": {
+      "id": "indeed_in-1e4b2642a2de6c9d",
+      "title": "Research Software Engineer II",
+      "company": "Princeton University",
+      "company_slug": "princeton-university",
+      "location": "Princeton, NJ, US",
+      "url": "https://research-princeton.icims.com/jobs/21467/job",
+      "source": "indeed",
+      "date_posted": "2026-01-21",
+      "salary_min": 125000,
+      "salary_max": 140000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Overview:\n\nThe Princeton Language and Intelligence Initiative at Princeton University invites applications for a Research Software Engineer (RSE) position. This multidisciplinary initiative has two Research thrusts: (a) Better design, evaluation, safety, and understanding of large AI models (especially language models) and (b) Studying the impact of large AI models on society and the world. The Initiative will produce open\\-source software and models.  \n\nThe term of this appointment is 3 years, ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-22T01:44:14.878559"
+  "updated": "2026-01-22T03:47:50.755934"
 }
