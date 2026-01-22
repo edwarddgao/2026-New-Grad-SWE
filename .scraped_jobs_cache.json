@@ -945,11 +945,11 @@
       "experience_level": null
     },
     "https://jobs.uptimecrew.com/jobs/7xjpg0/a11Jw000005ngcjIAA": {
-      "id": "linkedin_li-4362040367",
-      "title": "Entry Level AI Software Engineer",
+      "id": "linkedin_li-4365092385",
+      "title": "Software Engineer",
       "company": "Uptime Crew",
       "company_slug": "uptime-crew",
-      "location": "Mountain View, CA",
+      "location": "",
       "url": "https://jobs.uptimecrew.com/jobs/7xjpg0/a11Jw000005ngcjIAA",
       "source": "linkedin",
       "date_posted": "2025-12-31",
@@ -957,7 +957,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "About Uptime Crew\n \n Uptime Crew is technology\\-focused and delivers talent in Full\\-Stack engineering, Cloud, DevSecOps, Networking, Cyber Security, Artificial Intelligence, Business Intelligence, Data Science, and Machine Learning. Our training uses realistic client environments so you can contribute quickly.\n \n\n\n\n  \n\n\n\n\n**Why this role** \n\n Start your career using AI to code faster, test better, and ship with confidence. Once hired, you will train for 8\\-10 weeks, then start productive work!\n",
+      "description": "**Artificial Intelligence Engineers (100\\+ openings \\| Entry Level)** \n\n\n\n\n  \n\n\n\n\n\n Job Type: Full\\-time\n \n\n\n\n Level: Entry Level\n \n\n\n\n Pay: $110,000\\+\n \n\n\n\n U.S. Work Authorization Required\n **(No Visa Sponsorship)** \n\n\n\n\n Locations:\n \n\n\n* Mountain View, CA\n* San Diego, CA\n* NY, NY\n* Atlanta, GA\n\n\n\n  \n\n\n\n\n\n**AI won\u2019t take your job\u2014if you\u2019re the one it depends on.** \n\n\n\n\n  \n\n\n\n\n\n Uptime Crew is a community of engineers and technicians built for environments where precision, discipline, and relia",
       "experience_level": null
     },
     "https://lensa.com/cgw/997f6ad8e32744318dfb95de500e5efetjo1": {
@@ -4209,5 +4209,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-22T08:31:42.827529"
+  "updated": "2026-01-22T09:32:13.958898"
 }
