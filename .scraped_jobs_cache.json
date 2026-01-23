@@ -3992,7 +3992,7 @@
       "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7598785003",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-22",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -4287,7 +4287,23 @@
       "remote": false,
       "description": "### **Who We Are**\n\n\n\nVerkada is transforming how organizations protect their people and places with an integrated, AI\\-powered platform. A leader in cloud physical security, Verkada helps organizations strengthen safety and efficiency through one connected software platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management.  \n\n  \n\nOver 30,000 organizations worldwide, including more than 100 companies in the Fortune 500, tr",
       "experience_level": null
+    },
+    "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Performance-and-Efficiency-Engineer\\u002d\\u002d-New-College-Grad-2026_JR2011112": {
+      "id": "linkedin_li-4365429455",
+      "title": "AI Performance and Efficiency Engineer - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Performance-and-Efficiency-Engineer\\u002d\\u002d-New-College-Grad-2026_JR2011112",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "We are seeking an AI/ML Performance and Efficiency Engineer, GPU Clusters at NVIDIA to join our AI Efficiency efforts. As an Engineer, you will have a pivotal role in enhancing efficiency for our researchers by implementing progressions throughout the entire stack. Your main task will revolve around collaborating closely with customers to pinpoint and address infrastructure and application deficiencies, facilitating groundbreaking AI and ML research on GPU Clusters. Together, we can craft potent",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-23T01:41:31.805147"
+  "updated": "2026-01-23T03:42:40.113456"
 }
