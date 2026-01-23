@@ -4161,19 +4161,19 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365192039",
+      "id": "indeed_in-c73c879c15912176",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "Mountain View, CA",
+      "location": "Mountain View, CA, US",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
-      "source": "linkedin",
+      "source": "indeed",
       "date_posted": "2026-01-21",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**The Role**\n Software Engineer, Agentic AI Systems (New Grad)\n   \n\n  \n\n Are you a software engineer who has honed your craft through internships, research, and/or academic projects, and are looking to apply your skills at the cutting edge of AI agents? This may be the role for you.\n   \n\n  \n\n As a software engineer on our \u201cagent lab\u201d Natural Language Understanding team, you will play an important part in our mission: to advance the frontier of work that can be entrusted to agents to perform reli",
+      "description": "Machine Learning Mountain View, CA Full Time\n\n\n  \n**The Role**\n\n  \n\n\nSoftware Engineer, Agentic AI Systems (New Grad)\n\n\n\nAre you a software engineer who has honed your craft through internships, research, and/or academic projects, and are looking to apply your skills at the cutting edge of AI agents? This may be the role for you.\n\n\n\nAs a software engineer on our \u201cagent lab\u201d Natural Language Understanding team, you will play an important part in our mission: to advance the frontier of work that c",
       "experience_level": null
     },
     "https://main-princeton.icims.com/jobs/21467/job": {
@@ -4289,7 +4289,7 @@
       "experience_level": null
     },
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Performance-and-Efficiency-Engineer\\u002d\\u002d-New-College-Grad-2026_JR2011112": {
-      "id": "linkedin_li-4365429427",
+      "id": "linkedin_li-4365429455",
       "title": "AI Performance and Efficiency Engineer - New College Grad 2026",
       "company": "NVIDIA",
       "company_slug": "nvidia",
@@ -4367,7 +4367,23 @@
       "remote": true,
       "description": "**Job ID:** 715749BR\n  \n\n**Date posted:** Jan. 22, 2026  \n\n  \n\n**Description:**By bringing together people that use their passion for purposeful innovation, at Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide diverse career opportunities designed to propel development and boost agility. Our flexible schedu",
       "experience_level": null
+    },
+    "https://click.appcast.io/t/hEs-0vNFM_VU-PIXTmJRhBl-vxUPmrqSq306EWFfCI0=": {
+      "id": "indeed_in-730e7f2ddbb8bf0f",
+      "title": "AI Performance and Efficiency Engineer - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA, US",
+      "url": "https://click.appcast.io/t/hEs-0vNFM_VU-PIXTmJRhBl-vxUPmrqSq306EWFfCI0=",
+      "source": "indeed",
+      "date_posted": "2026-01-23",
+      "salary_min": 108000,
+      "salary_max": 195500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "We are seeking an AI/ML Performance and Efficiency Engineer, GPU Clusters at NVIDIA to join our AI Efficiency efforts. As an Engineer, you will have a pivotal role in enhancing efficiency for our researchers by implementing progressions throughout the entire stack. Your main task will revolve around collaborating closely with customers to pinpoint and address infrastructure and application deficiencies, facilitating groundbreaking AI and ML research on GPU Clusters. Together, we can craft potent",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-23T07:25:30.703017"
+  "updated": "2026-01-23T08:29:53.163424"
 }
