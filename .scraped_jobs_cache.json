@@ -4161,11 +4161,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365172862",
+      "id": "linkedin_li-4365192039",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "San Francisco, CA",
+      "location": "Mountain View, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -4415,7 +4415,23 @@
       "remote": true,
       "description": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn\u2019t work together.  \n\n  \n\nSo we expanded into software and started building integrated, omnichannel solutions \u2013 to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments, engage loyal buyers, and hire and pay staff. A",
       "experience_level": null
+    },
+    "https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4109286009": {
+      "id": "linkedin_li-4363395845",
+      "title": "Software Engineer I - Embedded",
+      "company": "Voyager Technologies",
+      "company_slug": "voyager-technologies",
+      "location": "Folsom, CA",
+      "url": "https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4109286009",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": 73140,
+      "salary_max": 109500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Title:** \n Software Engineer 1 \\- Embedded\n   \n\n  \n\n**Segment:** \n Voyager \\- Defense \\& National Security\n   \n\n  \n\n**Location:** \n Folsom, CA\n   \n\n  \n\n**Job Type:** \n Full Time \\- Hybrid\n   \n\n  \n\n**Relocation Eligible: No**\n**Company Description:** \n Voyager is an innovative defense, national security and space technology company committed to advancing and delivering transformative, mission\\-critical solutions. We tackle the most complex challenges to unlock new frontiers for human progress, ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-23T22:18:30.396511"
+  "updated": "2026-01-23T23:21:05.178528"
 }
