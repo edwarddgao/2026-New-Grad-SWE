@@ -4161,19 +4161,19 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "indeed_in-c73c879c15912176",
+      "id": "linkedin_li-4365192039",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "Mountain View, CA, US",
+      "location": "Mountain View, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
-      "source": "indeed",
+      "source": "linkedin",
       "date_posted": "2026-01-21",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "Machine Learning Mountain View, CA Full Time\n\n\n  \n**The Role**\n\n  \n\n\nSoftware Engineer, Agentic AI Systems (New Grad)\n\n\n\nAre you a software engineer who has honed your craft through internships, research, and/or academic projects, and are looking to apply your skills at the cutting edge of AI agents? This may be the role for you.\n\n\n\nAs a software engineer on our \u201cagent lab\u201d Natural Language Understanding team, you will play an important part in our mission: to advance the frontier of work that c",
+      "description": "**The Role**\n Software Engineer, Agentic AI Systems (New Grad)\n   \n\n  \n\n Are you a software engineer who has honed your craft through internships, research, and/or academic projects, and are looking to apply your skills at the cutting edge of AI agents? This may be the role for you.\n   \n\n  \n\n As a software engineer on our \u201cagent lab\u201d Natural Language Understanding team, you will play an important part in our mission: to advance the frontier of work that can be entrusted to agents to perform reli",
       "experience_level": null
     },
     "https://main-princeton.icims.com/jobs/21467/job": {
@@ -4385,5 +4385,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-23T08:29:53.163424"
+  "updated": "2026-01-23T09:30:23.021492"
 }

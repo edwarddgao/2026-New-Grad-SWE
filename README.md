@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-23 08:29
+**Last updated:** 2026-01-23 09:30
 
-**Total:** 1337 jobs from 513 companies
+**Total:** 1338 jobs from 514 companies
 
 ---
 
@@ -73,8 +73,8 @@
 | **Cirrus Logic** | [Design Verification Engineer – Entry Level](https://jobs.eu.lever.co/cirrus/52d2a1c6-556a-43c0-9f80-76976667764d/apply) | Austin, TX |  | Simplify | 2d |
 | **Base Power** | [Reliability Technician](https://jobs.ashbyhq.com/base-power/31e603e6-748e-4ce6-8511-346ffcdcec88/application) | Austin, TX |  | Simplify | 2d |
 | **AeroVironment** | [Software Engineer - Emb - I](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Moorpark-CA/Software-Engineer--EMB--I_6531) | Moorpark, CA |  | Simplify | 2d |
-| **AV** | [Software Engineer I (Applications)](https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineer-I\u002d\u002dApplications-_6541) | Simi Valley, CA |  | LinkedIn | 2d |
 | **BMO U.S.** | [Software Developer, Summer 2026 (Internship) - 10 weeks](https://bmo.wd3.myworkdayjobs.com/en-US/External/job/San-Ramon-CA-USA/Software-Developer\u002d\u002dSummer-2026\u002d\u002dInternship\u002d\u002d\u002d\u002d10-weeks_R260002319-1) | San Ramon, CA |  | LinkedIn | 2d |
+| **AV** | [Software Engineer I (Applications)](https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineer-I\u002d\u002dApplications-_6541) | Simi Valley, CA |  | LinkedIn | 2d |
 | **Veeva Systems** | [Software Engineer - Full Stack](https://careers.veeva.com/job/20f768d9-4e96-4d09-b829-91507e9c612d/software-engineer-full-stack-san-luis-obispo-ca/) | San Luis Obispo, CA, US | [$85k-225k](https://www.levels.fyi/companies/veeva-systems/salaries) | Indeed | 3d |
 | **Cisco** | [Software Engineer Data/AI/Intelligent Systems II (Intern) â€“ United States](https://careers.cisco.com/global/en/job/2001127) | San Jose, CA, US | [$44k-185k](https://www.levels.fyi/companies/cisco/salaries) | Indeed | 3d |
 | **Tesla** | [Internship, Software Engineer, AI Hardware Infrastructure (Summer 2026)](https://www.tesla.com/careers/search/job/260382) | Palo Alto, CA, US | [$100k-150k](https://www.levels.fyi/companies/tesla/salaries) | Indeed | 3d |
@@ -84,8 +84,8 @@
 | **Dolby** | [Audio Software Engineer Intern- Embedded](https://jobs.dolby.com/careers/job/39648728) | San Francisco, CA, US |  | Indeed | 3d |
 | **California ISO** | [Power Systems Engineering Intern - Summer 2026 (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000104561015-power-systems-engineering-intern-summer-2026-hybrid-or-remote-) | Folsom, CA, US |  | Indeed | 3d |
 | **University of Texas - Austin** | [Power BI Analyst](https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/AUSTIN-TX/Power-BI-Analyst_R_00044081-1) | Austin, TX |  | Simplify | 3d |
-| **Netic** | [Software Engineer, New Grad](https://jobs.ashbyhq.com/netic/63c216dc-a082-43df-928c-d71b3ed4f887&urlHash=4ARG) | San Francisco, CA |  | LinkedIn | 3d |
 | **AV** | [Software Engineer (EMB) I](https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineer\u002d\u002dEMB\u002d\u002dI_6531) | Moorpark, CA |  | LinkedIn | 3d |
+| **Netic** | [Software Engineer, New Grad](https://jobs.ashbyhq.com/netic/63c216dc-a082-43df-928c-d71b3ed4f887&urlHash=4ARG) | San Francisco, CA |  | LinkedIn | 3d |
 | **Microchip Technology** | [Engineer 2 - Test - Development](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-II---Test--Development-_R264-26) | San Jose, CA | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 4d |
 | **TD Bank** | [Data Engineer 1](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Data-Engineer-I_R_1458305) | Toronto, ON, Canada | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 4d |
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/7c5fb743-5d95-489c-a620-0f6ca62d775c/application) | Palo Alto, CA, Toronto, ON, Canada |  | Simplify | 4d |
@@ -1264,6 +1264,7 @@
 | **Mandolin** | [Forward Deployed Engineer](https://jobs.ashbyhq.com/mandolin/703bd697-dd8f-4a42-8df3-999402605c2f) | San Fransisco, CA | [$207k-250k](https://www.levels.fyi/companies/mandolin/salaries) | Simplify | 7mo |
 | **Google** | [Software Engineer 3 - Infrastructure - Google Cloud Global Networking](https://www.google.com/about/careers/applications/jobs/results/80928836794884806) | Sunnyvale, CA, Atlanta, GA | [$140k-212k](https://www.levels.fyi/companies/google/salaries) | Simplify | 7mo |
 | **Nuro** | [Software Engineer – Autonomy-New Grad](https://nuro.ai/careersitem?gh_jid=6932596) | Mountain View, CA | [$185k-240k](https://www.levels.fyi/companies/nuro/salaries) | Simplify | 7mo |
+| **Amazon.com** | [Software Development Engineer, Live Sports - Prime Video](https://www.amazon.jobs/jobs/2938872/software-development-engineer-live-sports--prime-video) | Culver City, CA, US | [$129k-223k](https://www.levels.fyi/companies/amazon/salaries) | Indeed | 10mo |
 | **Fluidstack** | [Forward Deployed Engineer, SWE, SRE, Infrastructure, Networking](https://jobs.ashbyhq.com/fluidstack/fb45b5dc-614e-40dd-ac5d-b1a43014ee46) | London/SF/NYC or remote |  | HN Hiring | 12mo |
 | **Collaborative Drug Discovery** | [Ruby on Rails, Cloud Platform Engineering](https://www.capterra.com/p/171280/CDD-Vault/reviews/) | Remote (US, Canada) |  | HN Hiring | 12mo |
 | **Imbue** | [Machine Learning Engineer](https://imbue.com/careers) | Remote or San Francisco |  | HN Hiring | 12mo |
