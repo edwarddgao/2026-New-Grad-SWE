@@ -4303,7 +4303,39 @@
       "remote": false,
       "description": "We are seeking an AI/ML Performance and Efficiency Engineer, GPU Clusters at NVIDIA to join our AI Efficiency efforts. As an Engineer, you will have a pivotal role in enhancing efficiency for our researchers by implementing progressions throughout the entire stack. Your main task will revolve around collaborating closely with customers to pinpoint and address infrastructure and application deficiencies, facilitating groundbreaking AI and ML research on GPU Clusters. Together, we can craft potent",
       "experience_level": null
+    },
+    "https://www.ycombinator.com/companies/pointone/jobs/cMdIWYE-new-grad-software-engineer": {
+      "id": "linkedin_li-4363410699",
+      "title": "New Grad Software Engineer",
+      "company": "PointOne",
+      "company_slug": "pointone",
+      "location": "New York, NY",
+      "url": "https://www.ycombinator.com/companies/pointone/jobs/cMdIWYE-new-grad-software-engineer",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About PointOne**\n PointOne is reinventing how law firms operate.\n   \n\n  \n\n Our AI\u2011powered timekeeper helps attorneys capture billable time automatically and provides rich insights that transform how legal work is managed. We\u2019re a venture\u2011backed startup (Y Combinator, Bessemer, 8VC, General Catalyst) made up of software engineers (Jane Street, Google, Stanford, Princeton) and ex\\-attorneys. Following an excellent seed round and rapid customer adoption, we\u2019re adding two more software engineers b",
+      "experience_level": null
+    },
+    "https://job-boards.greenhouse.io/newsbreak/jobs/4645712006&urlHash=GsI7": {
+      "id": "linkedin_li-4365399971",
+      "title": "Software Engineer, iOS(New Grad Friendly)",
+      "company": "NewsBreak",
+      "company_slug": "newsbreak",
+      "location": "Mountain View, CA",
+      "url": "https://job-boards.greenhouse.io/newsbreak/jobs/4645712006&urlHash=GsI7",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": 130000,
+      "salary_max": 150000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About NewsBreak**\n Founded in 2015, NewsBreak is the Content Intelligence platform shaping the future content economy. With over 40 million monthly active users, our flagship platform delivers highly personalized local news and information powered by advanced AI, recommendation systems, and adtech.\n   \n\n  \n\n Recognized by\n *Fast Company* \n as \\#32 on the Top Workplaces for Innovators, we're proud to be Great Place to Work\u00ae certified and home to a dynamic team of technologists, product innovato",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-23T03:42:40.113456"
+  "updated": "2026-01-23T04:42:17.881233"
 }
