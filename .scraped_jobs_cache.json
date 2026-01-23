@@ -4161,19 +4161,19 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "indeed_in-ca129392bf2d4e88",
+      "id": "linkedin_li-4365192039",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "San Francisco, CA, US",
+      "location": "Mountain View, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
-      "source": "indeed",
+      "source": "linkedin",
       "date_posted": "2026-01-21",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "Machine Learning San Francisco, CA Full Time\n\n\n  \n**The Role**\n\n  \n\n\nSoftware Engineer, Agentic AI Systems (New Grad)\n\n\n\nAre you a software engineer who has honed your craft through internships, research, and/or academic projects, and are looking to apply your skills at the cutting edge of AI agents? This may be the role for you.\n\n\n\nAs a software engineer on our \u201cagent lab\u201d Natural Language Understanding team, you will play an important part in our mission: to advance the frontier of work that c",
+      "description": "**The Role**\n Software Engineer, Agentic AI Systems (New Grad)\n   \n\n  \n\n Are you a software engineer who has honed your craft through internships, research, and/or academic projects, and are looking to apply your skills at the cutting edge of AI agents? This may be the role for you.\n   \n\n  \n\n As a software engineer on our \u201cagent lab\u201d Natural Language Understanding team, you will play an important part in our mission: to advance the frontier of work that can be entrusted to agents to perform reli",
       "experience_level": null
     },
     "https://main-princeton.icims.com/jobs/21467/job": {
@@ -4351,7 +4351,23 @@
       "remote": false,
       "description": "**About Together AI**\n Together AI is a research\\-driven AI company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to lower the cost of modern AI systems by co\\-designing software, hardware, algorithms, and models. We have contributed to leading open\\-source research, models, and datasets to advance the frontier of AI. We invite you to join a passionate group of researchers and engineers in our journey ",
       "experience_level": null
+    },
+    "https://click.appcast.io/t/IJfo7cM9WKksaTILCRDXRd4KkMtZYe0r_2a2F579M6c=": {
+      "id": "indeed_in-ba17a50864c91d9b",
+      "title": "Systems Engineer Associate - Early Career",
+      "company": "Lockheed Martin",
+      "company_slug": "lockheed-martin",
+      "location": "Sunnyvale, CA, US",
+      "url": "https://click.appcast.io/t/IJfo7cM9WKksaTILCRDXRd4KkMtZYe0r_2a2F579M6c=",
+      "source": "indeed",
+      "date_posted": "2026-01-22",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Job ID:** 715749BR\n  \n\n**Date posted:** Jan. 22, 2026  \n\n  \n\n**Description:**By bringing together people that use their passion for purposeful innovation, at Lockheed Martin we keep people safe and solve the world's most complex challenges. Our people are some of the greatest minds in the industry and truly make Lockheed Martin a great place to work. With our employees as our priority, we provide diverse career opportunities designed to propel development and boost agility. Our flexible schedu",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-23T05:27:39.987671"
+  "updated": "2026-01-23T06:34:40.719517"
 }
