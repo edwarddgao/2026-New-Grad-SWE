@@ -4591,7 +4591,39 @@
       "remote": true,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
       "experience_level": null
+    },
+    "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dDL-Libraries-Infrastructure\\u002d\\u002d-New-College-Grad-2026_JR2011998-1": {
+      "id": "linkedin_li-4365643099",
+      "title": "Software Engineer, DL Libraries Infrastructure - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dDL-Libraries-Infrastructure\\u002d\\u002d-New-College-Grad-2026_JR2011998-1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "NVIDIA's Deep Learning Libraries Group is seeking excellent software engineers to enable the next wave of NVIDIA\u2019s highest performing deep learning libraries. The role spans multiple products, including cuDNN and FlashInfer . The mission is to design and develop scalable, modular infrastructure that streamlines development, build, and test across NVIDIA\u2019s diverse set of platforms, from datacenter to autonomous vehicles. Join our technically diverse team of software engineers and infrastructure e",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/9ab366f2da7e41d895abb3303c513346tjo1": {
+      "id": "linkedin_li-4365611633",
+      "title": "2026 Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Diego, CA",
+      "url": "https://lensa.com/cgw/9ab366f2da7e41d895abb3303c513346tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-24T06:31:11.903359"
+  "updated": "2026-01-24T07:20:39.403208"
 }
