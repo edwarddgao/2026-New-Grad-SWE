@@ -4161,11 +4161,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365192039",
+      "id": "linkedin_li-4365172862",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "Mountain View, CA",
+      "location": "San Francisco, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -4559,7 +4559,23 @@
       "remote": false,
       "description": "Software Engineer Analyst  \n\n\n\nThis role has been designed as \u2018\u2019Onsite\u2019 with an expectation that you will primarily work from an HPE office.**Who We Are:**\n\n\nHewlett Packard Enterprise is the global edge\\-to\\-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today\u2019s complex world. Our culture thr",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/365116ac480d44749bbbad871490a71ctjo1": {
+      "id": "linkedin_li-4365621409",
+      "title": "NetApp Emerging Talent - Entry Level Software Engineer (Systems)",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Jose, CA",
+      "url": "https://lensa.com/cgw/365116ac480d44749bbbad871490a71ctjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for NetApp. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy not",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-24T04:35:52.751337"
+  "updated": "2026-01-24T05:21:56.549875"
 }
