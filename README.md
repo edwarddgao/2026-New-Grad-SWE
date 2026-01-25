@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-25 10:21
+**Last updated:** 2026-01-25 11:18
 
 **Total:** 1369 jobs from 518 companies
 
@@ -1295,9 +1295,8 @@
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/9dfa41e82fb249efbad081be917751b1tjo1) | Greenlawn, NY |  | LinkedIn |  |
-| **Lensa** | [Entry Level Software Developer 2026](https://lensa.com/cgw/ec2cfa45962f466fbebdde434d1a58a9tjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer - Ceph](https://lensa.com/cgw/1af2f2f1b8a34c79b4bffddce0f4ca48tjo1) | San Jose, CA |  | LinkedIn |  |
-| **Lensa** | [Environmental Engineer 1 (2026 New Graduates!)](https://lensa.com/cgw/7bcc611a7f9142e8b245b603f99f51e5tjo1) | Concord, CA |  | LinkedIn |  |
+| **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/ed16ff5449b048129f21330a689f70eftjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1380,7 +1379,8 @@
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/9ab366f2da7e41d895abb3303c513346tjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [NetApp Emerging Talent - Entry Level Software Engineer (Cloud Storage)](https://lensa.com/cgw/18f65aa473ce490e88f08da92d764f63tjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/efd26d24803c4d59acaf5b3e0a07a22ctjo1) | New York, NY |  | LinkedIn |  |
-| **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/ed16ff5449b048129f21330a689f70eftjo1) | San Diego, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Developer 2026](https://lensa.com/cgw/ec2cfa45962f466fbebdde434d1a58a9tjo1) | San Jose, CA |  | LinkedIn |  |
+| **Lensa** | [Environmental Engineer 1 (2026 New Graduates!)](https://lensa.com/cgw/7bcc611a7f9142e8b245b603f99f51e5tjo1) | Concord, CA |  | LinkedIn |  |
 
 ---
 
