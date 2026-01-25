@@ -32,22 +32,6 @@
       "description": "****\ud83d\ude80 Join the Future of Commerce with Whatnot!****\n Whatnot is the largest live shopping platform in North America and Europe to buy, sell, and discover the things you love. We\u2019re re\\-defining e\\-commerce by blending community, shopping, and entertainment into a community just for you. As a remote co\\-located team, we\u2019re inspired by innovation and anchored in our values. With hubs in the US, UK, Germany, Ireland, and Poland, we\u2019re building the future of online marketplaces \u2013together.\n   \n\n  \n\n ",
       "experience_level": null
     },
-    "https://job-boards.greenhouse.io/scaleai/jobs/4605996005": {
-      "id": "linkedin_li-4297642437",
-      "title": "Software Engineer - New Grad",
-      "company": "Scale AI",
-      "company_slug": "scale-ai",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4605996005",
-      "source": "linkedin",
-      "date_posted": "2025-12-25",
-      "salary_min": 124000,
-      "salary_max": 155000,
-      "sponsorship": null,
-      "remote": false,
-      "description": "At Scale, our mission is to accelerate the development of AI applications. For 8 years, Scale has been the leading AI data foundry, helping fuel the most exciting advancements in AI, including: generative AI, defense applications, and autonomous vehicles. With our recent Series F round, we\u2019re accelerating the abundance of frontier data to pave the road to Artificial General Intelligence (AGI), and building upon our prior model evaluation work with enterprise customers and governments, to deepen ",
-      "experience_level": null
-    },
     "https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1": {
       "id": "linkedin_li-4346299445",
       "title": "Entry Level Software Engineer",
@@ -4161,11 +4145,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365172862",
+      "id": "linkedin_li-4365192039",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "San Francisco, CA",
+      "location": "Mountain View, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -4424,7 +4408,7 @@
       "location": "Folsom, CA",
       "url": "https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4109286009",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-23",
       "salary_min": 73140,
       "salary_max": 109500,
       "sponsorship": null,
@@ -4687,7 +4671,71 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for NetApp. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy not",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/efd26d24803c4d59acaf5b3e0a07a22ctjo1": {
+      "id": "linkedin_li-4365699763",
+      "title": "Entry Level Software Developer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "New York, NY",
+      "url": "https://lensa.com/cgw/efd26d24803c4d59acaf5b3e0a07a22ctjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for SkillStorm. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/1af2f2f1b8a34c79b4bffddce0f4ca48tjo1": {
+      "id": "linkedin_li-4365718123",
+      "title": "Entry Level Software Engineer - Ceph",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Jose, CA",
+      "url": "https://lensa.com/cgw/1af2f2f1b8a34c79b4bffddce0f4ca48tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/ec2cfa45962f466fbebdde434d1a58a9tjo1": {
+      "id": "linkedin_li-4365714323",
+      "title": "Entry Level Software Developer 2026",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Jose, CA",
+      "url": "https://lensa.com/cgw/ec2cfa45962f466fbebdde434d1a58a9tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/7bcc611a7f9142e8b245b603f99f51e5tjo1": {
+      "id": "linkedin_li-4365717152",
+      "title": "Environmental Engineer 1 (2026 New Graduates!)",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Concord, CA",
+      "url": "https://lensa.com/cgw/7bcc611a7f9142e8b245b603f99f51e5tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for CDM Smith. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-24T23:19:58.791086"
+  "updated": "2026-01-25T01:50:41.868279"
 }
