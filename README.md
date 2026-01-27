@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-27 10:27
+**Last updated:** 2026-01-27 11:23
 
-**Total:** 1350 jobs from 514 companies
+**Total:** 1350 jobs from 515 companies
 
 ---
 
@@ -98,7 +98,6 @@
 | **Tesla** | [Internship, Software Integration Engineer, AI Platforms (Summer 2026)](https://www.tesla.com/careers/search/job/260746) | Palo Alto, CA, US | [$100k-150k](https://www.levels.fyi/companies/tesla/salaries) | Indeed | 5d |
 | **Visa** | [Analyst - Merchant Data Platform](https://jobs.smartrecruiters.com/Visa/744000104917365) | San Mateo, CA | [$111k-124k](https://www.levels.fyi/companies/visa/salaries) | Simplify | 5d |
 | **The Boeing Company** | [Electronic Technician](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Kent-WA/Electronic-Technician_JR2025484479-1) | Tukwila, WA, Kent, WA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 5d |
-| **RTX** | [2026 Full-time Software Engineer 1 - RDPL - CA](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-FULLERTON-675--1801-Hughes-Dr--BLDG-675/XMLNAME-2026-Full-time-Software-Engineer-I---RDPL--On-site--CA-_01818504) | Anaheim, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | Simplify | 5d |
 | **Lockheed Martin** | [Systems Engineer Associate - Early Career](https://click.appcast.io/t/IJfo7cM9WKksaTILCRDXRd4KkMtZYe0r_2a2F579M6c=) | Sunnyvale, CA, US | [$87k-98k](https://www.levels.fyi/companies/lockheed-martin/salaries) | Indeed | 5d |
 | **Gore Mutual Insurance** | [Associate Data Engineer](https://job-boards.greenhouse.io/goremutualinsurance/jobs/4645501006) | Cambridge, ON, Canada |  | Simplify | 5d |
 | **Nikkiso** | [Electric Control Panel Technician 1](https://careers-nikkiso.icims.com/jobs/3655/job?mobile=true&needsRedirect=false) | Murrieta, CA |  | Simplify | 5d |
@@ -285,7 +284,7 @@
 | **Applied Materials** | [Product Line Manager – New College Grad - MBA - Santa Clara, CA](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Product-Line-Manager--New-College-Grad---MBA--Santa-Clara--CA-_R2520126) | Santa Clara, CA | [$103k-145k](https://www.levels.fyi/companies/applied-materials/salaries) | Simplify | 2w |
 | **Hewlett Packard Enterprise** | [Software Engineer Support Analyst Graduate](https://hpe.wd5.myworkdayjobs.com/en-US/acjobsite/job/Sunnyvale-California-United-States-of-America/Software-Engineer-Support-Analyst-Graduate_1198373) | Sunnyvale, CA | [$100k-130k](https://www.levels.fyi/companies/hpe/salaries) | SpeedyApply | 2w |
 | **Hewlett Packard Enterprise** | [Software Engineer Support Analyst Graduate](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Software-Engineer-Support-Analyst-Graduate_1198373-1) | Sunnyvale, CA | [$100k-130k](https://www.levels.fyi/companies/hpe/salaries) | SpeedyApply | 2w |
-| **Boeing** | [Guidance Navigation and Controls Engineer (Entry Level) - Millennium Space Systems](https://ad.doubleclick.net/ddm/clk/517492914;325447798;a) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | LinkedIn | 2w |
+| **Boeing** | [Spacecraft Software Engineer (Entry-Level) - Millennium Space Systems](https://ad.doubleclick.net/ddm/clk/517492914;325447798;a) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | LinkedIn | 2w |
 | **Analog Devices** | [Associate Applications Engineer](https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-CA-San-Jose-Rio-Robles/Associate-Applications-Engineer_R256049) | San Jose, CA, US | [$80k-110k](https://www.levels.fyi/companies/analog-devices/salaries) | Indeed | 2w |
 | **Leidos** | [Embedded Software Engineer - Autonomy](https://leidos.wd5.myworkdayjobs.com/External/job/Lynnwood-WA/Embedded-Software-Engineer--Autonomy-_R-00173342) | Lynnwood, WA | [$73k-87k](https://www.levels.fyi/companies/leidos/salaries) | Simplify | 2w |
 | **Tesla** | [Internship, Engineer, Cell Manufacturing (Summer 2026)](https://www.tesla.com/careers/search/job/259610) | Fremont, CA, US | [Levels.fyi](https://www.levels.fyi/companies/tesla/salaries) | Indeed | 2w |
@@ -356,12 +355,13 @@
 | **Genuine Parts Company** | [Safety Service Technician](https://genpt.wd1.myworkdayjobs.com/Careers/job/Nisku-AB-CAN/Safety-Service-technician_R25_0000042802) | Nisku, AB, Canada |  | Simplify | 3w |
 | **PDF Solutions** | [Product Coordinator](https://careers.pdf.com/jobs/1488?lang=en-us&icims=1) | Santa Clara, CA |  | Simplify | 3w |
 | **Fashion Nova** | [Software Engineer](https://job-boards.greenhouse.io/fashionnova/jobs/5028278&urlHash=fuIf) | Beverly Hills, CA |  | LinkedIn | 3w |
+| **Teradata** | [Software Engineer](https://jsv3.recruitics.com/redirect) | San Diego, CA, US |  | Indeed | 3w |
 | **TP-Link** | [Web Developer](https://apply.workable.com/tp-link-usa-corp/j/BF99750224) | Irvine, CA |  | LinkedIn | 3w |
 | **Clearwater Analytics (CWAN)** | [Software Development Engineer - Alts Risk](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/New-York-Office/Software-Development-Engineer\u002d\u002d-Alts-Risk_R11368) | New York, NY |  | LinkedIn | 3w |
 | **Adobe** | [2026 University Graduate - Software Development Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-University-Graduate---Software-Development-Engineer_R160657) | San Jose, CA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 3w |
 | **TikTok** | [Software Engineer Graduate (Site Reliability Engineering) - 2026 Start (BS/MS)](https://lifeattiktok.com/search/7591947799615260933) | San Jose, CA, US | [$118k-187k](https://www.levels.fyi/companies/bytedance/salaries) | Indeed | 3w |
 | **Adobe** | [2026 University Graduate - Software Development Engineer](https://careers.adobe.com/us/en/job/ADOBUSR160657EXTERNALENUS/2026-University-Graduate-Software-Development-Engineer) | San Jose, CA, US | [$93k-179k](https://www.levels.fyi/companies/adobe/salaries) | Indeed | 3w |
-| **Oracle** | [Undergrad Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/) | Santa Clara, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3w |
+| **Oracle** | [Undergrad Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/) | Redwood City, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3w |
 | **Uber** | [Graduate 2026 Software Engineer I, US](https://tnl2.jometer.com/v2/job) | San Francisco, CA, US | [$150k-158k](https://www.levels.fyi/companies/uber/salaries) | Indeed | 3w |
 | **Western Digital** | [Developer 2 - Programming](https://jobs.smartrecruiters.com/WesternDigital/744000101672270) | San Jose, CA | [$94k-107k](https://www.levels.fyi/companies/western-digital/salaries) | Simplify | 3w |
 | **Ciena** | [Optical Networks Product Verification Engineer – New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Optical-Networks-Product-Verification-Engineer---New-Grad_R029225) | Ottawa, ON, Canada | [$70.0k-85k](https://www.levels.fyi/companies/ciena/salaries) | Simplify | 3w |
@@ -380,13 +380,13 @@
 | **KBR** | [Junior Software QA Engineer](https://kbr.wd5.myworkdayjobs.com/en-US/KBR_Careers/job/El-Segundo-California/Junior-Software-QA-Engineer_R2117105) | El Segundo, CA |  | SpeedyApply | 3w |
 | **USC - University of Southern California** | [Associate Software Engineer - LIMS](https://usc.wd5.myworkdayjobs.com/en-US/ExternalUSCCareers/job/San-Diego-CA/Associate-Software-Engineer---LIMS_REQ20170521) | San Diego, CA |  | SpeedyApply | 3w |
 | **ByteDance** | [Software Engineer Graduate - Media Network Global Engineering - 2026 Start](https://jobs.bytedance.com/en/position/7579851430954125621/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3w |
-| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | California, United States | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 3w |
+| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 3w |
 | **Boeing** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium Space Systems](https://jobs.boeing.com/job/-/-/185/90192695952) | El Segundo, CA, US | [$104k-153k](https://www.levels.fyi/companies/boeing/salaries) | Indeed | 3w |
 | **Dhara Consulting Group** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium S](https://www.clearancejobs.com/jobs/8691864/systems-engineer-mission-assurance-mid-career-millennium-s) | El Segundo, CA, US | $104k-153k | Indeed | 3w |
 | **The Boeing Company** | [Spacecraft Software Engineer - Early-Career - Millennium Space Systems](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Spacecraft-Software-Engineer--Early-Career----Millennium-Space-Systems_JR2026489982) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 3w |
 | **RoviSys** | [Entry Level Engineer/Developer (2026)](https://careers-rovisys.icims.com/jobs/1915/entry-level-engineer-developer-(2026)/job) | Carlsbad, CA | [$80k-80k](https://www.levels.fyi/companies/rovisys/salaries) | LinkedIn | 3w |
-| **TechTree** | [Early Software Engineer](https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply) | San Francisco, CA |  | LinkedIn | 3w |
 | **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn | 3w |
+| **TechTree** | [Early Software Engineer](https://jobs.techtree.dev/job/ed42d67f-6997-4ef9-b8d2-d8d165a8ff54/apply) | San Francisco, CA |  | LinkedIn | 3w |
 | **ByteDance** | [Research Scientist in Large Language Model Graduate - Seed-LLM](https://jobs.bytedance.com/en/position/7561701031874693429/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3w |
 | **Amazon** | [Agentic AI Teacher - Agi Ds - Agi Ds](https://amazon.jobs/en/jobs/3150951/agentic-ai-teacher-agi-ds-agi-ds) | Boston, MA, Bellevue, WA | [$174k-201k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 3w |
 | **Amazon** | [Agentic AI Teacher - Agi Ds - Agi Ds](https://amazon.jobs/en/jobs/3150948/agentic-ai-teacher-agi-ds-agi-ds) | Boston, MA, Bellevue, WA | [$174k-201k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 3w |
