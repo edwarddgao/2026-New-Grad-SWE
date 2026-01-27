@@ -274,7 +274,7 @@
     },
     "https://grnh.se/hrhxzs163us": {
       "id": "linkedin_li-4329602406",
-      "title": "Software Engineer (New Grad Summer 2026)",
+      "title": "Software Engineer, C++ (New Grad Summer 2026)",
       "company": "Freeform",
       "company_slug": "freeform",
       "location": "Los Angeles, CA",
@@ -285,7 +285,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**SOFTWARE ENGINEER (NEW GRAD SUMMER 2026\\)**\n Freeform is deploying software\\-defined, autonomous metal 3D printing factories around the world, bringing the scalability of software to physical production. Our proprietary technology stack leverages advanced sensing, real\\-time controls, and data\\-driven learning to produce digitally verified, flawless parts at unprecedented speed and cost. Our mission is to make the transformative power of 3D printing available to all industries at scale and unl",
+      "description": "**SOFTWARE ENGINEER, C\\+\\+ (NEW GRAD SUMMER 2026\\)**\n Freeform is deploying software\\-defined, autonomous metal 3D printing factories around the world, bringing the scalability of software to physical production. Our proprietary technology stack leverages advanced sensing, real\\-time controls, and data\\-driven learning to produce digitally verified, flawless parts at unprecedented speed and cost. Our mission is to make the transformative power of 3D printing available to all industries at scale ",
       "experience_level": null
     },
     "https://www.paycomonline.net/v4/ats/web.php/portal/DD7E1A368E94AC564BA191C348643C55/jobs/313021&urlHash=IGnZ": {
@@ -1201,11 +1201,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862210",
+      "id": "linkedin_li-4289862211",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Redwood City, CA",
+      "location": "Santa Clara, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -4833,5 +4833,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-27T22:22:34.674824"
+  "updated": "2026-01-27T23:21:41.648358"
 }
