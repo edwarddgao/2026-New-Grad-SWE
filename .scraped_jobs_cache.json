@@ -4783,7 +4783,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
       "experience_level": null
+    },
+    "https://www.hackajob.com/job/79b45ffc-c60c-11f0-9e38-0a05e249917d-software-engineer-i": {
+      "id": "linkedin_li-4365938971",
+      "title": "Software Engineer I",
+      "company": "hackajob",
+      "company_slug": "hackajob",
+      "location": "Holmdel, NJ",
+      "url": "https://www.hackajob.com/job/79b45ffc-c60c-11f0-9e38-0a05e249917d-software-engineer-i",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "***hackajob** \n is collaborating with\n **Verisk** \n to connect them with exceptional tech professionals for this role.*\n Are you passionate about crafting software that solves real\\-world problems and shapes the future of an entire industry? The Verisk team is seeking a proactive and results\\-driven entry\\-level Software Engineer to develop sophisticated solutions for the insurance industry's complex business challenges and further enhance our industry\\-leading products.\n   \n\n  \n\n You will have ",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-27T08:32:42.012740"
+  "updated": "2026-01-27T09:32:39.309357"
 }
