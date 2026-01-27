@@ -1201,11 +1201,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4363833027",
+      "id": "linkedin_li-4289862211",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Pleasanton, CA",
+      "location": "Santa Clara, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -4785,5 +4785,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-27T03:47:52.866373"
+  "updated": "2026-01-27T04:46:46.561094"
 }
