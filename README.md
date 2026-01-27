@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-27 04:46
+**Last updated:** 2026-01-27 05:26
 
-**Total:** 1349 jobs from 514 companies
+**Total:** 1348 jobs from 514 companies
 
 ---
 
@@ -72,7 +72,6 @@
 | **AMD** | [Software Development Engineer](https://careers.amd.com/jobs/76905/job) | San Jose, CA, US | [$115.0k-141k](https://www.levels.fyi/companies/amd/salaries) | Indeed | 4d |
 | **AMD** | [Software Development Engineer](https://careers.amd.com/jobs/76918/job) | San Jose, CA, US | [$115.0k-141k](https://www.levels.fyi/companies/amd/salaries) | Indeed | 4d |
 | **AMD** | [Software Development Engineer](https://careers.amd.com/jobs/76768/job) | San Jose, CA, US | [$115.0k-141k](https://www.levels.fyi/companies/amd/salaries) | Indeed | 4d |
-| **Hewlett Packard Enterprise** | [Software Engineer Analyst](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Software-Engineer-Analyst_1200299-1) | Sunnyvale, CA | [$100k-130k](https://www.levels.fyi/companies/hpe/salaries) | Simplify | 4d |
 | **Voyager Technologies** | [Software Engineer 1 - Embedded](https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4109286009) | Folsom, CA | [$96k-117k](https://www.levels.fyi/companies/voyager/salaries) | Simplify | 4d |
 | **Liberty Mutual** | [Product Owner 1 - Underwriting Domain](https://careers-libertymutual.icims.com/jobs/74195/job?mobile=true&needsRedirect=false) | Boston, MA, Seattle, WA, Plano, TX, P... | [$90k-106k](https://www.levels.fyi/companies/liberty-mutual/salaries) | Simplify | 4d |
 | **Northrop Grumman** | [2026 Associate Software Engineer/Software Engineer](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2026-Associate-Software-Engineer-Software-Engineer_R10220473) | Palmdale, CA, Oklahoma City, OK, Gran... | [$87k-101k](https://www.levels.fyi/companies/northrop-grumman/salaries) | Simplify | 4d |
@@ -379,7 +378,7 @@
 | **KBR** | [Junior Software QA Engineer](https://kbr.wd5.myworkdayjobs.com/en-US/KBR_Careers/job/El-Segundo-California/Junior-Software-QA-Engineer_R2117105) | El Segundo, CA |  | SpeedyApply | 3w |
 | **USC - University of Southern California** | [Associate Software Engineer - LIMS](https://usc.wd5.myworkdayjobs.com/en-US/ExternalUSCCareers/job/San-Diego-CA/Associate-Software-Engineer---LIMS_REQ20170521) | San Diego, CA |  | SpeedyApply | 3w |
 | **ByteDance** | [Software Engineer Graduate - Media Network Global Engineering - 2026 Start](https://jobs.bytedance.com/en/position/7579851430954125621/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3w |
-| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | California, United States | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 3w |
+| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 3w |
 | **Boeing** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium Space Systems](https://jobs.boeing.com/job/-/-/185/90192695952) | El Segundo, CA, US | [$104k-153k](https://www.levels.fyi/companies/boeing/salaries) | Indeed | 3w |
 | **Dhara Consulting Group** | [Systems Engineer - Mission Assurance (Mid-Career) - Millennium S](https://www.clearancejobs.com/jobs/8691864/systems-engineer-mission-assurance-mid-career-millennium-s) | El Segundo, CA, US | $104k-153k | Indeed | 3w |
 | **The Boeing Company** | [Spacecraft Software Engineer - Early-Career - Millennium Space Systems](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Spacecraft-Software-Engineer--Early-Career----Millennium-Space-Systems_JR2026489982) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 3w |
@@ -1266,7 +1265,6 @@
 | **NVIDIA** | [Software Engineer, TensorRT Specialized Platforms - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dTensorRT-Specialized-Platforms\u002d\u002d-New-College-Grad-2025_JR2002870) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
-| **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/370283a4671744fe951f3d7e08b9f896tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/72d61f2b0ba3478793c8e2c38af2761etjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1360,6 +1358,7 @@
 | **Lensa** | [Entry Level Software Engineer - Ceph](https://lensa.com/cgw/6181fe30ccad44849793f5663db07270tjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/cbd41b3526b7459ab08b29ce6afe1003tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/2931749b09c843dcaf567ed3236627f1tjo1) | Greenlawn, NY |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/370283a4671744fe951f3d7e08b9f896tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/e480633c67e044eeb67514c8109b59c3tjo1) | San Diego, CA |  | LinkedIn |  |
 
 ---
