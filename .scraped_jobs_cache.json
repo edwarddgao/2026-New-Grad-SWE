@@ -1121,11 +1121,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
-      "id": "linkedin_li-4289862210",
+      "id": "linkedin_li-4289862211",
       "title": "Undergrad Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Redwood City, CA",
+      "location": "Santa Clara, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
       "source": "linkedin",
       "date_posted": "2026-01-05",
@@ -4712,7 +4712,7 @@
       "location": "Holmdel, NJ",
       "url": "https://www.hackajob.com/job/79b45ffc-c60c-11f0-9e38-0a05e249917d-software-engineer-i",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-27",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -4945,5 +4945,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-28T09:34:20.768588"
+  "updated": "2026-01-28T10:28:00.863814"
 }
