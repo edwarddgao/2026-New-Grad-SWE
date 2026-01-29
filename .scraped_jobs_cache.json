@@ -1889,11 +1889,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309202142",
+      "id": "linkedin_li-4309209043",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "San Francisco, CA",
+      "location": "Sunnyvale, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -5103,7 +5103,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Jnd Corp. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy n",
       "experience_level": null
+    },
+    "https://chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=zRVf": {
+      "id": "linkedin_li-4356515158",
+      "title": "Software Engineer I - Direct Issuance (New Grad)",
+      "company": "ChatGPT Jobs",
+      "company_slug": "chatgpt-jobs",
+      "location": "El Segundo, CA",
+      "url": "https://chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=zRVf",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": 120000,
+      "salary_max": 150000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Job Description**\n Software Engineer I \\- Direct Issuance (New Grad)\n   \n\n  \n\n**Company:** \n StubHub\n   \n\n  \n\n**Location:** \n Los Angeles, CA (On\\-site, Remote)\n   \n\n  \n\n**Type:** \n Full\\-time\n   \n\n  \n\n**Benefits:** \n Medical, Dental, Vision, Retirement, PTO\n   \n\n  \n\n**Job Description**\n StubHub is seeking a Software Engineer \u2013 AI Enablement to help shape how StubHub adopts and scales AI across the company. This role is about making AI practical, safe, and valuable by empowering teams to exper",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-29T15:36:04.547400"
+  "updated": "2026-01-29T16:43:42.849070"
 }
