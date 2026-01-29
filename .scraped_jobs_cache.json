@@ -1889,11 +1889,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309212018",
+      "id": "linkedin_li-4309202142",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Los Angeles, CA",
+      "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -5105,5 +5105,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-29T14:00:41.176226"
+  "updated": "2026-01-29T14:50:26.636838"
 }
