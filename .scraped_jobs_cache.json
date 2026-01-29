@@ -3393,11 +3393,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366883628",
+      "id": "linkedin_li-4367001061",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "San Diego, CA",
+      "location": "Sacramento, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5119,7 +5119,23 @@
       "remote": true,
       "description": "**Job Description**\n Software Engineer I \\- Direct Issuance (New Grad)\n   \n\n  \n\n**Company:** \n StubHub\n   \n\n  \n\n**Location:** \n Los Angeles, CA (On\\-site, Remote)\n   \n\n  \n\n**Type:** \n Full\\-time\n   \n\n  \n\n**Benefits:** \n Medical, Dental, Vision, Retirement, PTO\n   \n\n  \n\n**Job Description**\n StubHub is seeking a Software Engineer \u2013 AI Enablement to help shape how StubHub adopts and scales AI across the company. This role is about making AI practical, safe, and valuable by empowering teams to exper",
       "experience_level": null
+    },
+    "https://careers.cisco.com/global/en/job/2007508": {
+      "id": "indeed_in-58af0de0e561269a",
+      "title": "Product Management Engineer II (Intern)- United States",
+      "company": "Cisco",
+      "company_slug": "cisco",
+      "location": "San Jose, CA, US",
+      "url": "https://careers.cisco.com/global/en/job/2007508",
+      "source": "indeed",
+      "date_posted": "2026-01-29",
+      "salary_min": 44000,
+      "salary_max": 185000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Please note this posting is to advertise potential job opportunities. This exact role may not be open today but could open in the near future. When you apply, a Cisco representative may contact you directly if a relevant position opens.\n  \n  \n\nApplications are accepted until further notice.\n  \n  \n\nMeet the Team\n  \n  \n\nJoin a collaborative environment where you\u2019ll work closely with cross\\-functional teams\u2014including engineering, marketing, sales, and operations\u2014as well as experienced product manag",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-29T18:44:30.962336"
+  "updated": "2026-01-29T19:31:46.317982"
 }

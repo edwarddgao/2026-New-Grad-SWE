@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-29 18:44
+**Last updated:** 2026-01-29 19:31
 
-**Total:** 1352 jobs from 518 companies
+**Total:** 1353 jobs from 518 companies
 
 ---
 
@@ -13,6 +13,7 @@
 | Company | Role | Location | Comp | Source | Posted |
 |---------|------|----------|------|--------|--------|
 | **NVIDIA** | [Deep Learning Software Engineer, FlashInfer - New College Grad 2025](https://click.appcast.io/t/61OXInbsZ_iIqm5KhhF8IYlMQ5mdAkOFJLEvGEFkjCg=) | Santa Clara, CA, US | [$108k-195k](https://www.levels.fyi/companies/nvidia/salaries) | Indeed | 0d |
+| **Cisco** | [Product Management Engineer II (Intern)- United States](https://careers.cisco.com/global/en/job/2007508) | San Jose, CA, US | [$44k-185k](https://www.levels.fyi/companies/cisco/salaries) | Indeed | 0d |
 | **Sonos** | [DSP Software Engineer](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/DSP-Software-Engineer_R2623-1) | Boston, MA, Seattle, WA | [$105k-124k](https://www.levels.fyi/companies/sonos/salaries) | Simplify | 0d |
 | **Cambia Health Solutions** | [Software Development Engineer 1](https://cambiahealth.wd1.myworkdayjobs.com/External/job/Portland-OR/Software-Development-Engineer-I_R-6269) | Salt Lake City, UT, Post Falls, ID, M... |  | Simplify | 0d |
 | **Illumio** | [Infrastructure Administrator I - Cloud AI Template](https://jobs.ashbyhq.com/illumio/fd85f4f7-77df-4a65-933e-152203bf0576) | Sunnyvale, CA |  | SpeedyApply | 0d |
@@ -324,7 +325,7 @@
 | **StubHub** | [Software Engineer 1 - Direct Issuance](https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4749965101) | Santa Monica, CA | [$250k-265k](https://www.levels.fyi/companies/stubhub/salaries) | Simplify | 3w |
 | **NVIDIA** | [Developer Technology Engineer, Public Sector - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Technology-Engineer\u002d\u002dPublic-Sector\u002d\u002d-New-College-Grad-2026_JR2008990) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 3w |
 | **Amazon** | [Service Engineer - Pso - Amazon Prime Air](https://amazon.jobs/en/jobs/3155663/service-engineer-pso-amazon-prime-air-amazon-prime-air) | Seattle, WA | [$174k-201k](https://www.levels.fyi/companies/amazon/salaries) | Simplify | 3w |
-| **DoorDash** | [Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)](https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL) | Los Angeles, CA | [$107k-158k](https://www.levels.fyi/companies/doordash/salaries) | LinkedIn | 3w |
+| **DoorDash** | [Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)](https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL) | Sunnyvale, CA | [$107k-158k](https://www.levels.fyi/companies/doordash/salaries) | LinkedIn | 3w |
 | **Applied Materials** | [2026 NCG-Technical Product Marketing Manager - Doctorate - Santa Clara, CA](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2026-NCG--Technical-Product-Marketing-Manager---Doctorate--Santa-Clara--CA-_R2520002) | Santa Clara, CA | [$103k-145k](https://www.levels.fyi/companies/applied-materials/salaries) | Simplify | 3w |
 | **Teradyne** | [Field Application Engineer, New College Graduate (Teradyne, San Jose, CA)](https://jobs.teradyne.com/Teradyne/job/San-Jose-Field-Application-Engineer%2C-New-College-Graduate-%28Teradyne%2C-San-Jose%2C-CA%29-CA-95101/1354510600/) | San Jose, CA, US | $81k-130k | Indeed | 3w |
 | **Hewlett Packard Enterprise** | [Software Engineer Support Analyst Graduate](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Software-Engineer-Support-Analyst-Graduate_1198373-1) | Sunnyvale, CA | [$100k-130k](https://www.levels.fyi/companies/hpe/salaries) | SpeedyApply | 3w |
@@ -1257,7 +1258,7 @@
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **MAI Agents** | [Machine Learning Engineer (New Grad)](https://jobs.ashbyhq.com/mai/ce652487-8c1e-4cb1-a616-693334798623/application) | Mountain View, CA |  | LinkedIn |  |
-| **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/f3290174b7ef4289b1ab9beeb5846a4ctjo1) | New York, NY |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/525f1d05d2d241d2a234080658f4d8a2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026: SVL](https://lensa.com/cgw/ab0f8db3d4494794b46e51e599465364tjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1362,8 +1363,8 @@
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/519aebb766e0407babf31e63360d03aftjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Environmental Engineer 1 (2026 New Graduates!)](https://lensa.com/cgw/825ed050fc5e4a4ab46dfd9fda539625tjo1) | Concord, CA |  | LinkedIn |  |
 | **WSP in the U.S.** | [Early Career Plumbing Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/79366/) | New York, NY |  | LinkedIn |  |
-| **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/525f1d05d2d241d2a234080658f4d8a2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/d0ce024cad744715a1edc49fa158b03ctjo1) | San Diego, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/f3290174b7ef4289b1ab9beeb5846a4ctjo1) | New York, NY |  | LinkedIn |  |
 
 ---
 
