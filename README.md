@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-29 10:37
+**Last updated:** 2026-01-29 11:31
 
-**Total:** 1349 jobs from 518 companies
+**Total:** 1348 jobs from 517 companies
 
 ---
 
@@ -53,13 +53,12 @@
 | **The Council of Industry** | [Software Engineer I](https://careers-councilofindustry.icims.com/jobs/4963/software-engineer-i/job) | Milton, NY |  | SpeedyApply | 1d |
 | **NVIDIA** | [Research Scientist - AI for Graphics and Gaming](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2d |
 | **Uber** | [Software Engineer 2 - Frontend](https://www.uber.com/global/en/careers/list/152617/) | Toronto, ON, Canada | [$180k-200k](https://www.levels.fyi/companies/uber/salaries) | Simplify | 2d |
+| **Viasat** | [Software Engineer, Early Career - Government Services and Solutions](https://careers.viasat.com/jobs/5362) | Carlsbad, CA, US | [$83k-156k](https://www.levels.fyi/companies/viasat/salaries) | Indeed | 2d |
 | **Cisco** | [Software Engineer Data/AI/Intelligent Systems 2 - Full Time - United States](https://careers.cisco.com/global/en/job/2000137) | Boston, MA, Knoxville, TN, Milpitas, ... | [$105k-130.0k](https://www.levels.fyi/companies/cisco/salaries) | Simplify | 2d |
 | **Caterpillar Inc.** | [Mining Onboard Specialist](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/British-Columbia-British-Columbia/Mining-Onboard-Specialist---Early-Career_R0000341191) | Kamloops, BC, Canada | [$98k-120k](https://www.levels.fyi/companies/caterpillar/salaries) | Simplify | 2d |
-| **Viasat** | [Software Engineer, Early Career - Government Services and Solutions](https://careers.viasat.com/jobs/5362) | Carlsbad, CA | [$102k-120k](https://www.levels.fyi/companies/viasat/salaries) | LinkedIn | 2d |
 | **Welocalize** | [Search Quality Rater](https://welocalize.wd1.myworkdayjobs.com/welocalize/job/Austin-Texas/Search-Quality-Rater_R0005879) | Houston, TX, Austin, TX, Frederick, M... | [$94k-107k](https://www.levels.fyi/companies/welocalize/salaries) | Simplify | 2d |
 | **Mejuri** | [Associate Product Manager](https://job-boards.greenhouse.io/mejuri/jobs/4648650006) | Toronto, ON, Canada | [$88.0k-103.0k](https://www.levels.fyi/companies/mejuri/salaries) | Simplify | 2d |
 | **Apex Fintech Solutions** | [Software Engineer 1 - Java](https://peak6group.wd1.myworkdayjobs.com/apexfintechsolutions/job/Austin-TX/Software-Engineer-I--Java-_JR104035-1) | Austin, TX |  | Simplify | 2d |
-| **Canadian Tire** | [2026 New Grad Rotational Program - Data Science Associate](https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Calgary-AB/XMLNAME-2026-New-Grad-Rotational-Program---Data-Science-Associate_JR155314) | Calgary, AB, Canada |  | Simplify | 2d |
 | **Dell Technologies** | [Global Offer and Product Operations Specialist](https://dell.wd1.myworkdayjobs.com/External/job/Austin-Texas-United-States/Global-Offer-and-Product-Operations-Specialist_R278661-1) | Austin, TX |  | Simplify | 2d |
 | **Herbalife** | [Application Developer 1](https://careers-herbalife.icims.com/jobs/18711/job?mobile=true&needsRedirect=false) | Carson, CA |  | Simplify | 2d |
 | **qode.world** | [Associate Data Engineer](https://apply.workable.com/qodeworld/j/0C2E797E48/apply) | NYC |  | Simplify | 2d |
@@ -68,7 +67,6 @@
 | **Redfin** | [Software Developer 1 - One Stop Shop](https://redfin.wd1.myworkdayjobs.com/redfin_careers/job/WA---Seattle/Software-Developer-I---One-Stop-Shop_59698-2) | Seattle, WA | [$141k-157k](https://www.levels.fyi/companies/redfin/salaries) | Simplify | 3d |
 | **PlayStation** | [Software Engineer I](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5727775004) | San Mateo, CA | [$120k-132k](https://www.levels.fyi/companies/playstation/salaries) | SpeedyApply | 3d |
 | **The Boeing Company** | [Application Developer - Scientific Applications](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Application-Developer--Scientific-Applications------Entry-Level--Associate--or-Mid-Level-_JR2025488280) | Everett, WA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 3d |
-| **RTX** | [2026 Full-Time - Software Engineer 1 - Onsite','CA](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/XMLNAME-2026-Full-Time---Software-Engineer-1---Onsite--CA-_01819153) | El Segundo, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | Simplify | 3d |
 | **TD Bank** | [Product Owner 1](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Product-Owner-I_R_1467489) | Toronto, ON, Canada | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 3d |
 | **TD Bank** | [Associate Software Engineer - UI Developer](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Associate-Software-Engineer_R_1468493-1) | Toronto, ON, Canada | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 3d |
 | **McAfee** | [AI Training Data Acquisition Analyst - Spanish Speaker](https://mcafee.wd1.myworkdayjobs.com/external/job/United-States/AI-Training-Data-Acquisition-Analyst---Spanish-Speaker_JR0032255-1) | Frisco, TX, San Jose, CA | [$14.0k-16k](https://www.levels.fyi/companies/mcafee/salaries) | Simplify | 3d |
@@ -115,7 +113,6 @@
 | **AMD** | [Software Development Engineer](https://careers.amd.com/jobs/76768/job) | San Jose, CA, US | [$115.0k-141k](https://www.levels.fyi/companies/amd/salaries) | Indeed | 6d |
 | **Voyager Technologies** | [Software Engineer 1 - Embedded](https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4109286009) | Folsom, CA | [$96k-117k](https://www.levels.fyi/companies/voyager/salaries) | Simplify | 6d |
 | **Liberty Mutual** | [Product Owner 1 - Underwriting Domain](https://careers-libertymutual.icims.com/jobs/74195/job?mobile=true&needsRedirect=false) | Boston, MA, Seattle, WA, Plano, TX, P... | [$90k-106k](https://www.levels.fyi/companies/liberty-mutual/salaries) | Simplify | 6d |
-| **Northrop Grumman** | [2026 Associate Software Engineer/Software Engineer](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2026-Associate-Software-Engineer-Software-Engineer_R10220473) | Palmdale, CA, Oklahoma City, OK, Gran... | [$87k-101k](https://www.levels.fyi/companies/northrop-grumman/salaries) | Simplify | 6d |
 | **Ciena** | [Software Engineer – Performance and Test Automation New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Engineer---Performance-and-Test-Automation-New-Grad_R029823) | Ottawa, ON, Canada | [$70.0k-85k](https://www.levels.fyi/companies/ciena/salaries) | Simplify | 6d |
 | **TD Bank** | [Data Engineer 1](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Data-Engineer-I_R_1467802) | Toronto, ON, Canada | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 6d |
 | **Block** | [Mobile Software Engineer Intern (Summer 2026)](https://block.xyz/careers/jobs/5083061008) | San Francisco Bay Area, CA, US |  | Indeed | 6d |
@@ -432,6 +429,7 @@
 | **CyberArk** | [Associate Software Engineer](https://jobs.smartrecruiters.com/Cyberark1/744000098100946-associate-software-engineer) | Santa Clara, CA | $88k-130k | LinkedIn | 4w |
 | **Legrand NA** | [Product Manager 1](https://jobs-legrand.icims.com/jobs/9659/job?mobile=true&needsRedirect=false) | Markham, ON, Canada, Richardson, TX |  | Simplify | 4w |
 | **SeatGeek** | [Software Engineer - New Grad](https://app.greenhouse.io/embed/job_app) | New York, NY |  | LinkedIn | 4w |
+| **StubHub** | [Software Engineer 2 - AI Enablement](https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4693600101) | Aliso Viejo, CA, Culver City, CA | [$250k-265k](https://www.levels.fyi/companies/stubhub/salaries) | Simplify | 4w |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://careers.qualcomm.com/careers/job/446715807950) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn | 4w |
 | **Solace Health** | [Associate Software Engineer – College Grad 2026](https://jobs.ashbyhq.com/solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929/application) | San Carlos, CA |  | Simplify | 4w |
 | **Freeform** | [Materials Lab Technician](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7575047003) | West Athens, CA | [$205k-240k](https://www.levels.fyi/companies/freeform/salaries) | Simplify | 1mo |
@@ -660,6 +658,7 @@
 | **Apple** | [SoC Full Chip DV Engineer](https://jobs.apple.com/en-us/details/200620362) | Austin, TX | [$157k-176k](https://www.levels.fyi/companies/apple/salaries) | Simplify | 2mo |
 | **Apple** | [GPU Design Engineer - Memory Hierarchy](https://jobs.apple.com/en-us/details/200605625) | Santa Clara, CA | [$157k-176k](https://www.levels.fyi/companies/apple/salaries) | Simplify | 2mo |
 | **Apple** | [SoC DFT DV Engineer](https://jobs.apple.com/en-us/details/200623238) | Austin, TX | [$157k-176k](https://www.levels.fyi/companies/apple/salaries) | Simplify | 2mo |
+| **Apple** | [SoC Firmware Engineer](https://jobs.apple.com/en-us/details/200585802) | Cupertino, CA | [$157k-176k](https://www.levels.fyi/companies/apple/salaries) | Simplify | 2mo |
 | **Apple** | [SoC DFT Engineer](https://jobs.apple.com/en-us/details/200623294) | Austin, TX | [$157k-176k](https://www.levels.fyi/companies/apple/salaries) | Simplify | 2mo |
 | **Apple** | [Design Verification Engineer](https://jobs.apple.com/en-us/details/200619236) | Seattle, WA | [$157k-176k](https://www.levels.fyi/companies/apple/salaries) | Simplify | 2mo |
 | **Apple** | [Physical Design Engineer - Machine Learning](https://jobs.apple.com/en-us/details/200608195) | Sunnyvale, CA | [$157k-176k](https://www.levels.fyi/companies/apple/salaries) | Simplify | 2mo |
@@ -1254,8 +1253,8 @@
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **MAI Agents** | [Machine Learning Engineer (New Grad)](https://jobs.ashbyhq.com/mai/ce652487-8c1e-4cb1-a616-693334798623/application) | Mountain View, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/f3290174b7ef4289b1ab9beeb5846a4ctjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/525f1d05d2d241d2a234080658f4d8a2tjo1) | Greenlawn, NY |  | LinkedIn |  |
-| **WSP in the U.S.** | [Early Career Plumbing Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/79366/) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1358,9 +1357,9 @@
 | **Lensa** | [Entry Level Software Engineer - Ceph](https://lensa.com/cgw/800cefa1d3194211b541aa2a02981b95tjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/519aebb766e0407babf31e63360d03aftjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Environmental Engineer 1 (2026 New Graduates!)](https://lensa.com/cgw/825ed050fc5e4a4ab46dfd9fda539625tjo1) | Concord, CA |  | LinkedIn |  |
+| **WSP in the U.S.** | [Early Career Plumbing Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/79366/) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026: SVL](https://lensa.com/cgw/ab0f8db3d4494794b46e51e599465364tjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/d0ce024cad744715a1edc49fa158b03ctjo1) | San Diego, CA |  | LinkedIn |  |
-| **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/f3290174b7ef4289b1ab9beeb5846a4ctjo1) | New York, NY |  | LinkedIn |  |
 
 ---
 
