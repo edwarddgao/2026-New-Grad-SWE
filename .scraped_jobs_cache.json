@@ -1809,11 +1809,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309209043",
+      "id": "linkedin_li-4309202142",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Sunnyvale, CA",
+      "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -3313,11 +3313,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366883628",
+      "id": "linkedin_li-4366884586",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "San Diego, CA",
+      "location": "Silicon Valley, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5167,7 +5167,23 @@
       "remote": false,
       "description": "**What if you could** \n build a career where ambition meets innovation? At LPL Financial, we empower professionals to shape their success while helping clients pursue their financial goals with confidence.\n **What if you could** \n have access to cutting\\-edge resources, a collaborative environment, and the freedom to make an impact?\n   \n\n  \n\n As the nation's largest independent broker\\-dealer firm and a member of the Fortune 500, we're swiftly evolving into a\n **high\\-performance fintech organiz",
       "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/8vc/4fea7270-2409-4701-b147-fc961d95588d/application": {
+      "id": "linkedin_li-4367382546",
+      "title": "Software Engineer, New Grad",
+      "company": "8VC",
+      "company_slug": "8vc",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/8vc/4fea7270-2409-4701-b147-fc961d95588d/application",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**New Grad, Software Engineer**\n**Location:** \n San Francisco\n   \n\n  \n\n**Company:** \n Thorin\n   \n\n  \n\n**Stage:** \n Seed \\| Incubated at 8VC\n   \n\n  \n\n**About Thorin**\n Thorin is an Applied AI company born out of 8VC\u2019s Build program, focused on redefining how work gets done inside modern organizations.\n   \n\n  \n\n We build proactive, long\\-horizon AI agents that continuously observe work across Slack, email, meetings, and documents\u2014and take action so nothing falls through the cracks.\n   \n\n  \n\n Unlik",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-30T06:47:07.889829"
+  "updated": "2026-01-30T07:40:33.193141"
 }
