@@ -1809,11 +1809,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309209043",
+      "id": "linkedin_li-4309202141",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Sunnyvale, CA",
+      "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -3313,11 +3313,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366892441",
+      "id": "linkedin_li-4366884586",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "Irvine, CA",
+      "location": "Silicon Valley, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5231,7 +5231,23 @@
       "remote": false,
       "description": "CDM Smith is looking for an Environmental Engineer to join our Water Services Group in Concord, California.\n  \n\n  \n\nThis position presents an excellent opportunity for early career candidates to apply their engineering skills to innovative and sustainable water projects and to grow within a dynamic team. In this role, you will support the design and implementation of water and wastewater treatment facilities, sewer systems, pipelines, and associated infrastructure. Operating under supervision, y",
       "experience_level": null
+    },
+    "https://careers.cisco.com/global/en/job/2007168": {
+      "id": "indeed_in-3bbbcc5a70748645",
+      "title": "Software Engineer II (Full Time) - United States",
+      "company": "Cisco",
+      "company_slug": "cisco",
+      "location": "San Jose, CA, US",
+      "url": "https://careers.cisco.com/global/en/job/2007168",
+      "source": "indeed",
+      "date_posted": "2026-01-30",
+      "salary_min": 109900,
+      "salary_max": 200100,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Please note this posting is to advertise potential job opportunities. This exact role may not be open today but could open in the near future. When you apply, a Cisco representative may contact you directly if a relevant position opens.\n  \n  \n\nApplications are accepted until further notice.\n  \n  \n\nMeet the Team\n  \nThe mission of the Security\\& Trust Organization (S) is to secure products and services, protect Cisco and its employees, and cultivate trust with our customers, partners, and regulato",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-30T19:32:24.899030"
+  "updated": "2026-01-30T20:29:38.950469"
 }
