@@ -3313,11 +3313,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366883628",
+      "id": "linkedin_li-4366884586",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "San Diego, CA",
+      "location": "Silicon Valley, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5247,7 +5247,39 @@
       "remote": false,
       "description": "Please note this posting is to advertise potential job opportunities. This exact role may not be open today but could open in the near future. When you apply, a Cisco representative may contact you directly if a relevant position opens.\n  \n  \n\nApplications are accepted until further notice.\n  \n  \n\nMeet the Team\n  \nThe mission of the Security\\& Trust Organization (S) is to secure products and services, protect Cisco and its employees, and cultivate trust with our customers, partners, and regulato",
       "experience_level": null
+    },
+    "https://dsp.prng.co/6Vt1wLb": {
+      "id": "linkedin_li-4356672932",
+      "title": "Software Engineer",
+      "company": "NetApp",
+      "company_slug": "netapp",
+      "location": "San Jose, CA",
+      "url": "https://dsp.prng.co/6Vt1wLb",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Own Every Moment at NetApp**\n At NetApp, your ideas power innovation. We lead in intelligent data infrastructure\u2014delivering unified storage, integrated data services, and solutions that help organizations unlock the full potential of their data, from AI to multicloud.\n   \n\n  \n\n Ready to innovate and contribute to our path to $10B? Here, you'll collaborate with passionate teams, tackle real\\-world challenges, and see your impact in how customers transform and grow. If you're ready to bring curi",
+      "experience_level": null
+    },
+    "https://click.appcast.io/t/M9x1QC6UMc-vKs-D6zViqUUNCH-6eWFgEJoq1Ql4eVM=": {
+      "id": "indeed_in-0664e7c91be1d415",
+      "title": "Deep Learning Algorithm Engineer - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA, US",
+      "url": "https://click.appcast.io/t/M9x1QC6UMc-vKs-D6zViqUUNCH-6eWFgEJoq1Ql4eVM=",
+      "source": "indeed",
+      "date_posted": "2026-01-30",
+      "salary_min": 124000,
+      "salary_max": 241500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "NVIDIA\u2019s GPU Workload Efficiency (GWE) team is looking for a skilled Senior Engineer to enhance performance in training and inference. We are developing methods to improve the efficiency of AI workloads on NVIDIA GPUs. This position entails collaborating on GPU architecture, deep learning frameworks, and large\\-scale applications to optimize performance. Come aboard and be a part of a team that spearheads the evolution in AI computing!\n\n**What you\u2019ll be doing:**\n\n* Evaluating, explaining, and im",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-30T21:28:33.193936"
+  "updated": "2026-01-30T22:25:36.888692"
 }
