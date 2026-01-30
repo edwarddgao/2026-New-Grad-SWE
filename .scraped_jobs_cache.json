@@ -3313,11 +3313,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4367001061",
+      "id": "linkedin_li-4366893393",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "Sacramento, CA",
+      "location": "Stamford, CT",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5199,7 +5199,23 @@
       "remote": true,
       "description": "**Job Description Summary**\n Job Description\n   \n\n  \n\n We are\n **the makers of possible**\n BD is one of the largest global medical technology companies in the world. Advancing the world of health\u2122 is our Purpose, and it\u2019s no small feat. It takes the imagination and passion of all of us\u2014from design and engineering to the manufacturing and marketing of our billions of MedTech products per year\u2014to look at the impossible and find transformative solutions that turn dreams into possibilities.\n   \n\n  \n",
       "experience_level": null
+    },
+    "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-California-Santa-Clara/EC-Infra-and-DevOps-Engineer_JR0280322": {
+      "id": "indeed_in-7b1d5b8873115794",
+      "title": "EC Infra and DevOps Engineer",
+      "company": "Intel Corporation",
+      "company_slug": "intel-corporation",
+      "location": "Santa Clara, CA, US",
+      "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-California-Santa-Clara/EC-Infra-and-DevOps-Engineer_JR0280322",
+      "source": "indeed",
+      "date_posted": "2026-01-30",
+      "salary_min": 100550,
+      "salary_max": 141950,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Details:**\n================\n\n**Job Description:**\n--------------------\n\nEnsures the efficient planning, provisioning, installation/configuration, maintenance, and/or operations of the hardware and software infrastructure required to build, validate, and release a wide variety of hardware and software products and projects. Works closely with development and quality teams to derive infrastructure design requirements, build, test, and automate tools appropriate to the project, and/or impleme",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-30T17:34:02.443825"
+  "updated": "2026-01-30T18:41:42.599762"
 }
