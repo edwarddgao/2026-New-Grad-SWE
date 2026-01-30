@@ -1809,11 +1809,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309212018",
+      "id": "linkedin_li-4309209043",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Los Angeles, CA",
+      "location": "Sunnyvale, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -3313,11 +3313,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366892441",
+      "id": "linkedin_li-4367001061",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "Irvine, CA",
+      "location": "Sacramento, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -3329,7 +3329,7 @@
       "experience_level": null
     },
     "https://careers.netapp.com/job/-/-/27600/85437700272": {
-      "id": "linkedin_li-4363837258",
+      "id": "linkedin_li-4367448895",
       "title": "Software Engineer",
       "company": "NetApp",
       "company_slug": "netapp",
@@ -5183,7 +5183,23 @@
       "remote": false,
       "description": "**New Grad, Software Engineer**\n**Location:** \n San Francisco\n   \n\n  \n\n**Company:** \n Thorin\n   \n\n  \n\n**Stage:** \n Seed \\| Incubated at 8VC\n   \n\n  \n\n**About Thorin**\n Thorin is an Applied AI company born out of 8VC\u2019s Build program, focused on redefining how work gets done inside modern organizations.\n   \n\n  \n\n We build proactive, long\\-horizon AI agents that continuously observe work across Slack, email, meetings, and documents\u2014and take action so nothing falls through the cracks.\n   \n\n  \n\n Unlik",
       "experience_level": null
+    },
+    "https://jobs.bd.com/job/-/-/159/91194748720": {
+      "id": "linkedin_li-4367477570",
+      "title": "Software Engineer",
+      "company": "BD",
+      "company_slug": "bd",
+      "location": "San Diego, CA",
+      "url": "https://jobs.bd.com/job/-/-/159/91194748720",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Job Description Summary**\n Job Description\n   \n\n  \n\n We are\n **the makers of possible**\n BD is one of the largest global medical technology companies in the world. Advancing the world of health\u2122 is our Purpose, and it\u2019s no small feat. It takes the imagination and passion of all of us\u2014from design and engineering to the manufacturing and marketing of our billions of MedTech products per year\u2014to look at the impossible and find transformative solutions that turn dreams into possibilities.\n   \n\n  \n",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-30T16:39:01.133608"
+  "updated": "2026-01-30T17:34:02.443825"
 }
