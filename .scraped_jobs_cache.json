@@ -3313,11 +3313,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366893393",
+      "id": "linkedin_li-4366892441",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "Stamford, CT",
+      "location": "Irvine, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5215,7 +5215,23 @@
       "remote": false,
       "description": "**Job Details:**\n================\n\n**Job Description:**\n--------------------\n\nEnsures the efficient planning, provisioning, installation/configuration, maintenance, and/or operations of the hardware and software infrastructure required to build, validate, and release a wide variety of hardware and software products and projects. Works closely with development and quality teams to derive infrastructure design requirements, build, test, and automate tools appropriate to the project, and/or impleme",
       "experience_level": null
+    },
+    "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad": {
+      "id": "indeed_in-4b7f59100aa1e82d",
+      "title": "Environmental Engineer 2 (October 2026 Start!)",
+      "company": "CDM Smith",
+      "company_slug": "cdm-smith",
+      "location": "Concord, CA, US",
+      "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad",
+      "source": "indeed",
+      "date_posted": "2026-01-30",
+      "salary_min": 72966,
+      "salary_max": 120349,
+      "sponsorship": null,
+      "remote": false,
+      "description": "CDM Smith is looking for an Environmental Engineer to join our Water Services Group in Concord, California.\n  \n\n  \n\nThis position presents an excellent opportunity for early career candidates to apply their engineering skills to innovative and sustainable water projects and to grow within a dynamic team. In this role, you will support the design and implementation of water and wastewater treatment facilities, sewer systems, pipelines, and associated infrastructure. Operating under supervision, y",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-30T18:41:42.599762"
+  "updated": "2026-01-30T19:32:24.899030"
 }
