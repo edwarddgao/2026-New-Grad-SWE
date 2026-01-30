@@ -1809,11 +1809,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309209043",
+      "id": "linkedin_li-4309202141",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Sunnyvale, CA",
+      "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -3313,11 +3313,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4367001061",
+      "id": "linkedin_li-4366890464",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "Sacramento, CA",
+      "location": "San Francisco, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5185,5 +5185,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-30T13:57:17.458264"
+  "updated": "2026-01-30T14:37:22.878019"
 }

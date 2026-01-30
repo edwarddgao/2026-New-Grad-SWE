@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-01-30 13:57
+**Last updated:** 2026-01-30 14:37
 
-**Total:** 1376 jobs from 527 companies
+**Total:** 1376 jobs from 526 companies
 
 ---
 
@@ -20,6 +20,7 @@
 | **Boeing** | [Software Engineers-Developer - Associate / Experienced](https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/USA---El-Segundo-CA/Software-Engineers-Developer--Associate---Experienced-_JR2025467420-1) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | SpeedyApply | 0d |
 | **Boeing** | [Software Engineers-Developer - Associate / Experienced](https://boeing.wd1.myworkdayjobs.com/en-US/external_subsidiary/job/USA---El-Segundo-CA/Software-Engineers-Developer--Associate---Experienced-_JR2025467420) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | SpeedyApply | 0d |
 | **RTX** | [Software Engineer 1](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-ANAHEIM-406--160-N-Riverview-Dr--BLDG-406-Ste-150/Software-Engineer-I--Onsite-_01820479) | Anaheim, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | Simplify | 0d |
+| **RTX** | [Embedded Software Engineer - Embedded Software Engineer 1](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/XMLNAME-2026-Full-time---Embedded-Software-Engineer-1---Onsite--CA-_01820531) | El Segundo, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | Simplify | 0d |
 | **Raytheon** | [Software Engineer I - Onsite](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-ANAHEIM-406--160-N-Riverview-Dr--BLDG-406-Ste-150/Software-Engineer-I--Onsite-_01820479) | Anaheim, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | SpeedyApply | 0d |
 | **Leidos** | [Software Engineer - Junior](https://leidos.wd5.myworkdayjobs.com/en-US/External/job/San-Diego-CA/Software-Engineer---Junior_R-00174780) | San Diego, CA | [$73k-87k](https://www.levels.fyi/companies/leidos/salaries) | SpeedyApply | 0d |
 | **Tesla** | [Internship, Software Engineer, Maps & Navigation Validation (Summer 2026)](https://www.tesla.com/careers/search/job/261450) | Palo Alto, CA, US | [Levels.fyi](https://www.levels.fyi/companies/tesla/salaries) | Indeed | 0d |
@@ -86,8 +87,8 @@
 | **Brookhaven Lab** | [Postdoctoral Researcher](https://bnl.wd1.myworkdayjobs.com/externa/job/Upton-NY/Postdoctoral-Researcher_JR102228) | Shirley, NY |  | Simplify | 2d |
 | **Brightree** | [Associate Engineer - Software Test Engineering](https://resmed.wd3.myworkdayjobs.com/en-US/Brightree_External_Careers/job/San-Diego-CA-United-States/Associate-Engineer--Software-Test-Engineering_JR_047234) | San Diego, CA |  | SpeedyApply | 2d |
 | **ResMed** | [Associate Engineer - Software Test Engineering](https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/San-Diego-CA-United-States/Associate-Software-Engineer_JR_047234) | San Diego, CA |  | SpeedyApply | 2d |
-| **WSP in the U.S.** | [Early Career Plumbing Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/79366/) | New York, NY |  | LinkedIn | 2d |
 | **MAI Agents** | [Machine Learning Engineer (New Grad)](https://jobs.ashbyhq.com/mai/ce652487-8c1e-4cb1-a616-693334798623/application) | Mountain View, CA |  | LinkedIn | 2d |
+| **WSP in the U.S.** | [Early Career Plumbing Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/79366/) | New York, NY |  | LinkedIn | 2d |
 | **Gusto** | [Software Engineering Apprenticeship - Summer 2026](https://job-boards.greenhouse.io/gusto/jobs/7551561) | San Francisco, CA | [$183k-243k](https://www.levels.fyi/companies/gusto/salaries) | SpeedyApply | 3d |
 | **NVIDIA** | [Research Scientist - AI for Graphics and Gaming](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 3d |
 | **Uber** | [Software Engineer 2 - Frontend](https://www.uber.com/global/en/careers/list/152617/) | Toronto, ON, Canada | [$180k-200k](https://www.levels.fyi/companies/uber/salaries) | Simplify | 3d |
@@ -629,7 +630,6 @@
 | **M&T Bank** | [Product Owner 1 - Consumer Capital Markets](https://mtb.wd5.myworkdayjobs.com/MTB/job/Buffalo-NY/Product-Owner-I_R80004-1) | Buffalo, NY |  | Simplify | 2mo |
 | **Stanley Black & Decker** | [Service Technician](https://sbdinc.wd1.myworkdayjobs.com/en-US/Stanley_Black_Decker_Career_Site/job/Halifax-Nova-Scotia-Canada/Service-Technician_REQ-1000044014) | Halifax Regional Municipality, NS, Ca... |  | Simplify | 2mo |
 | **Dave & Busters** | [Game Support Technician](https://daveandbusters.wd1.myworkdayjobs.com/dave_and_busters_careers/job/Daly-City-CA/Game-Support-Technician_R-1008249) | Daly City, CA |  | Simplify | 2mo |
-| **Uhaul** | [Hitch Professional](https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Truro-Nova-Scotia/Hitch-Professional_R233270-1) | New Glasgow, NS, Canada |  | Simplify | 2mo |
 | **True Anomaly** | [Software Engineer 1 - Elixir](https://job-boards.greenhouse.io/trueanomalyinc/jobs/4971623007) | Long Beach, CA, Denver, CO | [$194k-229k](https://www.levels.fyi/companies/true-anomaly/salaries) | Simplify | 2mo |
 | **RippleMatch** | [Entry Level Software Engineer - application via RippleMatch](https://job-boards.greenhouse.io/ripplematchinterns/jobs/8312979002) | Austin, TX | [$108k-130k](https://www.levels.fyi/companies/ripplematch/salaries) | SpeedyApply | 2mo |
 | **ByteDance** | [Machine Learning Graduate - 2026 Start](https://jobs.bytedance.com/en/position/7542674819873081608/detail) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 2mo |
@@ -1273,14 +1273,13 @@
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 13mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 13mo |
 | **NVIDIA** | [Software Engineer, TensorRT Specialized Platforms - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dTensorRT-Specialized-Platforms\u002d\u002d-New-College-Grad-2025_JR2002870) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
-| **ChatGPT Jobs** | [Software Engineer I - Direct Issuance (New Grad)](https://chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=zRVf) | El Segundo, CA | $120k-150k | LinkedIn |  |
 | **Intel Corporation** | [System Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/System-Software-Engineer_JR0280320/apply) | Santa Clara, CA | [$110k-150k](https://www.levels.fyi/companies/intel/salaries) | LinkedIn |  |
+| **ChatGPT Jobs** | [Software Engineer I - Direct Issuance (New Grad)](https://chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=zRVf) | El Segundo, CA | $120k-150k | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/6b4d7522b9b8494db6fc4ed5c5671246tjo1) | New York, NY |  | LinkedIn |  |
-| **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/4088bb60dabe4e4e89fc6a3afebc59c6tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/2f7ee60693934e2e9ea003dae6d0a942tjo1) | San Diego, CA |  | LinkedIn |  |
-| **LPL Financial** | [Internship Summer 2026 - Technology, Software Development](https://lplfinancial.wd1.myworkdayjobs.com/External/job/San-Diego-CA/Internship-Summer-2026\u002d\u002d-Technology\u002d\u002dSoftware-Development_R-046201-1) | San Diego, CA |  | LinkedIn |  |
+| **Mercury Insurance** | [Software Engineer II](https://careers-mercuryinsurance.icims.com/jobs/6135/software-engineer-ii/job) | Brea, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1387,7 +1386,8 @@
 | **Lensa** | [Entry Level Software Developer 2026: SVL](https://lensa.com/cgw/ab0f8db3d4494794b46e51e599465364tjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/d0ce024cad744715a1edc49fa158b03ctjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/f3290174b7ef4289b1ab9beeb5846a4ctjo1) | New York, NY |  | LinkedIn |  |
-| **Mercury Insurance** | [Software Engineer II](https://careers-mercuryinsurance.icims.com/jobs/6135/software-engineer-ii/job) | Brea, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/4088bb60dabe4e4e89fc6a3afebc59c6tjo1) | Greenlawn, NY |  | LinkedIn |  |
+| **LPL Financial** | [Internship Summer 2026 - Technology, Software Development](https://lplfinancial.wd1.myworkdayjobs.com/External/job/San-Diego-CA/Internship-Summer-2026\u002d\u002d-Technology\u002d\u002dSoftware-Development_R-046201-1) | San Diego, CA |  | LinkedIn |  |
 
 ---
 
