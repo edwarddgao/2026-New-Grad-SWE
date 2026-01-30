@@ -3313,11 +3313,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4367001061",
+      "id": "linkedin_li-4366883628",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "Sacramento, CA",
+      "location": "San Diego, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5135,7 +5135,39 @@
       "remote": false,
       "description": "**What to Expect**\nConsider before submitting an application:\n\n\nThis position is expected to start May 2026 and continue through summer term (ending approximately August 2026 or later, if available). We ask for a minimum of 12 weeks, full\\-time (40 hours/week) and on\\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\\-time posit",
       "experience_level": null
+    },
+    "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/System-Software-Engineer_JR0280320/apply": {
+      "id": "linkedin_li-4367003309",
+      "title": "System Software Engineer",
+      "company": "Intel Corporation",
+      "company_slug": "intel-corporation",
+      "location": "Santa Clara, CA",
+      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/System-Software-Engineer_JR0280320/apply",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Details**\n Job Description:\n   \n\n  \n\n**Responsibilities**\n We are seeking a motivated entry level System Software Engineer with a strong foundation in artificial intelligence, machine learning, and full\\-stack development. The ideal candidate will have hands\\-on experience building AI applications, working with cloud technologies, and developing scalable software solutions. Key responsibilities include:\n   \n\n  \n\n* Develop and maintain AI\\-powered applications using Python, TensorFlow, and ",
+      "experience_level": null
+    },
+    "https://lplfinancial.wd1.myworkdayjobs.com/External/job/San-Diego-CA/Internship-Summer-2026\\u002d\\u002d-Technology\\u002d\\u002dSoftware-Development_R-046201-1": {
+      "id": "linkedin_li-4367350895",
+      "title": "Internship Summer 2026 - Technology, Software Development",
+      "company": "LPL Financial",
+      "company_slug": "lpl-financial",
+      "location": "San Diego, CA",
+      "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/San-Diego-CA/Internship-Summer-2026\\u002d\\u002d-Technology\\u002d\\u002dSoftware-Development_R-046201-1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**What if you could** \n build a career where ambition meets innovation? At LPL Financial, we empower professionals to shape their success while helping clients pursue their financial goals with confidence.\n **What if you could** \n have access to cutting\\-edge resources, a collaborative environment, and the freedom to make an impact?\n   \n\n  \n\n As the nation's largest independent broker\\-dealer firm and a member of the Fortune 500, we're swiftly evolving into a\n **high\\-performance fintech organiz",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-30T05:46:40.783187"
+  "updated": "2026-01-30T06:47:07.889829"
 }
