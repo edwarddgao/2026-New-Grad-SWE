@@ -1761,11 +1761,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309212018",
+      "id": "linkedin_li-4309209043",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Los Angeles, CA",
+      "location": "Sunnyvale, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2067,8 +2067,8 @@
     "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\\u002d\\u002d-New-York/Software-Development-Engineer\\u002d\\u002dEnergy\\u002d\\u002d-Commodities-_R10856": {
       "id": "linkedin_li-4332254546",
       "title": "Software Development Engineer (Energy & Commodities)",
-      "company": "Clearwater Analytics (CWAN)",
-      "company_slug": "clearwater-analytics-cwan",
+      "company": "Clearwater Analytics",
+      "company_slug": "clearwater-analytics",
       "location": "New York, NY",
       "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office\\u002d\\u002d-New-York/Software-Development-Engineer\\u002d\\u002dEnergy\\u002d\\u002d-Commodities-_R10856",
       "source": "linkedin",
@@ -3265,11 +3265,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366894433",
+      "id": "linkedin_li-4366884586",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "Melville, NY",
+      "location": "Silicon Valley, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5455,7 +5455,23 @@
       "remote": true,
       "description": "Engineer I, Applied LLM Team\nNew York City, NY\nLos Angeles, CA\nBroomfield, CO\nHybrid Schedule (M/F remote, T/W/TH in\\-office)\nAt Magnite, we cultivate an environment of continuous growth and collaboration. Our work impacts what millions of people read, watch, and buy, and we\u2019re looking for people to help us tackle that responsibility with creativity and focus. Magnite (NASDAQ: MGNI) is the world\u2019s largest independent sell\\-side advertising platform. Publishers use our technology to monetize thei",
       "experience_level": null
+    },
+    "https://careers.harris.com/job/-/-/4832/91207103040": {
+      "id": "indeed_in-d2e1cd0b542a3a45",
+      "title": "Specialist, Systems Engineering",
+      "company": "L3Harris",
+      "company_slug": "l3harris",
+      "location": "Clifton, NJ, US",
+      "url": "https://careers.harris.com/job/-/-/4832/91207103040",
+      "source": "indeed",
+      "date_posted": "2026-01-31",
+      "salary_min": 90500,
+      "salary_max": 168500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "L3Harris is dedicated to recruiting and developing high\\-performing talent who are passionate about what they do. Our employees are unified in a shared dedication to our customers\u2019 mission and quest for professional growth. L3Harris provides an inclusive, engaging environment designed to empower employees and promote work\\-life success. Fundamental to our culture is an unwavering focus on values, dedication to our communities, and commitment to excellence in everything we do.\n\n\nL3Harris is the T",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-31T11:20:45.545709"
+  "updated": "2026-01-31T12:44:51.185686"
 }
