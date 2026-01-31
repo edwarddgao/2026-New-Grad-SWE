@@ -3265,11 +3265,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366894433",
+      "id": "linkedin_li-4366884586",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "Melville, NY",
+      "location": "Silicon Valley, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5473,11 +5473,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application": {
-      "id": "linkedin_li-4324599785",
+      "id": "linkedin_li-4324950740",
       "title": "Software Engineer, 2026 New Grad",
       "company": "Whatnot",
       "company_slug": "whatnot",
-      "location": "New York, NY",
+      "location": "Los Angeles, CA",
       "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
       "source": "linkedin",
       "date_posted": null,
@@ -5487,7 +5487,23 @@
       "remote": true,
       "description": "****\ud83d\ude80 Join the Future of Commerce with Whatnot!****\n Whatnot is the largest live shopping platform in North America and Europe to buy, sell, and discover the things you love. We\u2019re re\\-defining e\\-commerce by blending community, shopping, and entertainment into a community just for you. As a remote co\\-located team, we\u2019re inspired by innovation and anchored in our values. With hubs in the US, UK, Germany, Ireland, and Poland, we\u2019re building the future of online marketplaces \u2013together.\n   \n\n  \n\n ",
       "experience_level": null
+    },
+    "https://www.adzuna.com/details/5607424588": {
+      "id": "linkedin_li-4367940579",
+      "title": "Software Engineer, Infrastructure (New Grad)",
+      "company": "Sierra Business Solution",
+      "company_slug": "sierra-business-solution",
+      "location": "San Francisco, CA",
+      "url": "https://www.adzuna.com/details/5607424588",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About Us**\n* At Sierra, we\u2019re creating a platform to help businesses build better, more human customer experiences with AI. We are primarily an in\\-person company based in San Francisco, with growing offices in Atlanta, New York, London, France, Singapore, and Japan.\n* We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and Family. These values are the foundation of our work, and we are committed to u",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-31T19:21:34.324580"
+  "updated": "2026-01-31T20:25:34.690042"
 }
