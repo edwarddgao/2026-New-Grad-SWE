@@ -5208,7 +5208,7 @@
       "location": "San Jose, CA",
       "url": "https://dsp.prng.co/6Vt1wLb",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-30",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -5473,11 +5473,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application": {
-      "id": "linkedin_li-4324950740",
+      "id": "linkedin_li-4324599785",
       "title": "Software Engineer, 2026 New Grad",
       "company": "Whatnot",
       "company_slug": "whatnot",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
       "source": "linkedin",
       "date_posted": null,
@@ -5505,5 +5505,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-31T20:25:34.690042"
+  "updated": "2026-01-31T21:21:51.754581"
 }
