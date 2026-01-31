@@ -3265,11 +3265,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366884587",
+      "id": "linkedin_li-4366884586",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "New York, NY",
+      "location": "Silicon Valley, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5375,7 +5375,39 @@
       "remote": false,
       "description": "Expedia Group brands power global travel for everyone, everywhere. We design cutting\\-edge tech to make travel smoother and more memorable, and we create groundbreaking solutions for our partners. Our diverse, vibrant, and welcoming community is essential in driving our success.\n\n**Why Join Us?**\n\n\nTo shape the future of travel, people must come first. Guided by our Values and Leadership Agreements, we foster an open culture where everyone belongs, differences are celebrated and know that when o",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/2102771166174938afc3167ac941f3cetjo1": {
+      "id": "linkedin_li-4367675211",
+      "title": "Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Greenlawn, NY",
+      "url": "https://lensa.com/cgw/2102771166174938afc3167ac941f3cetjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
+      "experience_level": null
+    },
+    "https://jobs.bd.com/en/job/san-diego/software-engineer/159/91194748720&urlHash=Rvvy": {
+      "id": "linkedin_li-4367696198",
+      "title": "Software Engineer",
+      "company": "BD Nogales Norte",
+      "company_slug": "bd-nogales-norte",
+      "location": "San Diego, CA",
+      "url": "https://jobs.bd.com/en/job/san-diego/software-engineer/159/91194748720&urlHash=Rvvy",
+      "source": "linkedin",
+      "date_posted": "2026-01-30",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Job Description Summary**\n Job Description\n   \n\n  \n\n We are\n **the makers of possible**\n BD is one of the largest global medical technology companies in the world. Advancing the world of health\u2122 is our Purpose, and it\u2019s no small feat. It takes the imagination and passion of all of us\u2014from design and engineering to the manufacturing and marketing of our billions of MedTech products per year\u2014to look at the impossible and find transformative solutions that turn dreams into possibilities.\n   \n\n  \n",
+      "experience_level": null
     }
   },
-  "updated": "2026-01-31T05:38:39.777080"
+  "updated": "2026-01-31T06:38:12.639681"
 }
