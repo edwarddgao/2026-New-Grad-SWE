@@ -3265,11 +3265,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366884587",
+      "id": "linkedin_li-4366894433",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "New York, NY",
+      "location": "Melville, NY",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5473,11 +5473,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application": {
-      "id": "linkedin_li-4324950740",
+      "id": "linkedin_li-4324599785",
       "title": "Software Engineer, 2026 New Grad",
       "company": "Whatnot",
       "company_slug": "whatnot",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
       "source": "linkedin",
       "date_posted": null,
@@ -5489,5 +5489,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-31T18:32:11.330899"
+  "updated": "2026-01-31T19:21:34.324580"
 }
