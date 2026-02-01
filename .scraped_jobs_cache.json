@@ -1681,11 +1681,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309209043",
+      "id": "linkedin_li-4309202141",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Sunnyvale, CA",
+      "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -2033,11 +2033,11 @@
       "experience_level": null
     },
     "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/": {
-      "id": "linkedin_li-4304808499",
+      "id": "linkedin_li-4304802570",
       "title": "Early Career Fire and Life Safety Engineer - Buildings",
       "company": "WSP in the U.S.",
       "company_slug": "wsp-in-the-u-s",
-      "location": "New York, NY",
+      "location": "Los Angeles, CA",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/",
       "source": "linkedin",
       "date_posted": "2026-01-10",
@@ -5409,5 +5409,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-01T09:30:41.683831"
+  "updated": "2026-02-01T10:25:32.853761"
 }
