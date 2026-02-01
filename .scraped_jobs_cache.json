@@ -480,38 +480,6 @@
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Jacobs. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy not",
       "experience_level": null
     },
-    "https://jobs.ashbyhq.com/solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929": {
-      "id": "linkedin_li-4329870535",
-      "title": "Associate Software Engineer (College Grad 2026)",
-      "company": "Solace",
-      "company_slug": "solace",
-      "location": "Redwood City, CA",
-      "url": "https://jobs.ashbyhq.com/solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929",
-      "source": "linkedin",
-      "date_posted": "2026-01-01",
-      "salary_min": null,
-      "salary_max": null,
-      "sponsorship": null,
-      "remote": true,
-      "description": "*Solace is a healthcare advocacy marketplace that connects patients and families to experts who help them understand and take charge of their personal health*\n**About The Role**\n Are you a new grad who wants to build something that matters from day one? At Solace, you won't be relegated to small bug fixes or endless onboarding\u2014you'll ship real features to real users within your first weeks. This isn't a hand\\-holding job. You'll be challenged daily, expected to move fast, learn faster, and take ",
-      "experience_level": null
-    },
-    "https://jobs.gem.com/roe-ai/am9icG9zdDoMC-nGc5d6lsNXY5xTAh45&urlHash=pSiw": {
-      "id": "linkedin_li-4346890487",
-      "title": "Software Engineer, AI Agent",
-      "company": "Roe",
-      "company_slug": "roe",
-      "location": "",
-      "url": "https://jobs.gem.com/roe-ai/am9icG9zdDoMC-nGc5d6lsNXY5xTAh45&urlHash=pSiw",
-      "source": "linkedin",
-      "date_posted": "2026-01-01",
-      "salary_min": null,
-      "salary_max": null,
-      "sponsorship": null,
-      "remote": true,
-      "description": "ROE is a startup building Cursor for Financial Crimes. Today, ROE is trusted by multiple public companies representing $400B\\+ in combined market cap.\n \n\n\n\n  \n\n\n\n\n\n We are backed by Y Combinator,\u00a0Google AI Ventures,\u00a0Ardent Ventures, the\u00a0CEO of Snowflake, and senior leaders from LinkedIn and top fintechs.\n \n\n\n\n  \n\n\n\n\n\n**What you'll do** \n\n\n\n* Build AI agent platform to serve risk and compliance in trillion dollar financial industry (don't worry if you don't know anything about finance)\n* Build mi",
-      "experience_level": null
-    },
     "https://lensa.com/cgw/997f6ad8e32744318dfb95de500e5efetjo1": {
       "id": "linkedin_li-4346778878",
       "title": "Entry Level Software Engineer",
@@ -560,38 +528,6 @@
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
       "experience_level": null
     },
-    "https://jobs.smartrecruiters.com/Cyberark1/744000098100946-associate-software-engineer": {
-      "id": "linkedin_li-4326592483",
-      "title": "Associate Software Engineer",
-      "company": "CyberArk",
-      "company_slug": "cyberark",
-      "location": "Santa Clara, CA",
-      "url": "https://jobs.smartrecruiters.com/Cyberark1/744000098100946-associate-software-engineer",
-      "source": "linkedin",
-      "date_posted": "2026-01-01",
-      "salary_min": 88000,
-      "salary_max": 130000,
-      "sponsorship": null,
-      "remote": false,
-      "description": "**Company Description**\n**About CyberArk** \n :\n   \n\n  \n\n CyberArk (NASDAQ: CYBR), is the global leader in Identity Security. Centered on privileged access management, CyberArk provides the most comprehensive security offering for any identity \u2013 human or machine \u2013 across business applications, distributed workforces, hybrid cloud workloads and throughout the DevOps lifecycle. The world\u2019s leading organizations trust CyberArk to help secure their most critical assets. To learn more about CyberArk, ",
-      "experience_level": null
-    },
-    "https://app.greenhouse.io/embed/job_app": {
-      "id": "linkedin_li-4341610061",
-      "title": "Software Engineer - New Grad",
-      "company": "SeatGeek",
-      "company_slug": "seatgeek",
-      "location": "New York, NY",
-      "url": "https://app.greenhouse.io/embed/job_app",
-      "source": "linkedin",
-      "date_posted": "2026-01-01",
-      "salary_min": null,
-      "salary_max": null,
-      "sponsorship": null,
-      "remote": true,
-      "description": "**SeatGeek believes live events are powerful experiences that unite humans. With our technological savvy and fan\\-first attitude we\u2019re simplifying and modernizing the ticketing industry.**\n We\u2019re building an awesome entertainment ecosystem where fans have effortless access to incredible live experiences, while sports teams, venues, and shows have unprecedented access to their audiences \u2013 because everyone should expect more from the ticketing industry.\n   \n\n  \n\n**Open roles for new graduates**\n W",
-      "experience_level": null
-    },
     "https://lensa.com/cgw/151f968b234b4a6389e13f0297e905f6tjo1": {
       "id": "linkedin_li-4346739141",
       "title": "Entry Level Software Developer New York - 2026",
@@ -622,22 +558,6 @@
       "sponsorship": null,
       "remote": false,
       "description": "IXL Learning, developer of personalized learning products used by millions of people globally, is seeking new graduates who have a passion for technology and education. You will dive into our code base and immediately contribute to our three extremely impactful educational products and build new, innovative products. You can fine\\-tune your existing skills and learn new ones as you work on one of our many teams. Youll be able to work with our Core Technology team in back\\-end engineering, Front\\",
-      "experience_level": null
-    },
-    "https://grnh.se/54s5lxuc3us": {
-      "id": "indeed_in-d0bd51c79adb2b4a",
-      "title": "Software Engineering Intern (Summer 2026)",
-      "company": "Sigma Computing",
-      "company_slug": "sigma-computing",
-      "location": "New York, NY, US",
-      "url": "https://grnh.se/54s5lxuc3us",
-      "source": "indeed",
-      "date_posted": "2026-01-01",
-      "salary_min": null,
-      "salary_max": null,
-      "sponsorship": null,
-      "remote": false,
-      "description": "Sigma unlocks the value of data by delivering cloud\\-scale analytics and business intelligence with the simplicity of a spreadsheet, complete with pivot tables and dashboards. We empower business professionals and data teams to quickly explore, analyze, visualize, and collaborate, leveraging all of their data across the organization.\n\n\n#### **Our internship program at Sigma:**\n\n\n\nSigma's Early Career Program is the launchpad for the next generation of engineers and innovators. As an Intern at Si",
       "experience_level": null
     },
     "https://www.techcareers.com/job.asp": {
@@ -1761,11 +1681,11 @@
       "experience_level": null
     },
     "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL": {
-      "id": "linkedin_li-4309212018",
+      "id": "linkedin_li-4309202141",
       "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
       "company": "DoorDash",
       "company_slug": "doordash",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610&urlHash=LssL",
       "source": "linkedin",
       "date_posted": "2026-01-08",
@@ -3088,22 +3008,6 @@
       "description": "**Introduction**\n\n\nASML US, including its affiliates and subsidiaries, bring together the most creative minds in science and technology to develop lithography machines that are key to producing faster, cheaper, more energy\\-efficient microchips. We design, develop, integrate, market, and service these advanced machines, which enable our customers \\- the world\u2019s leading chipmakers \\- to reduce the size and increase the functionality of their microchips, which in turn leads to smaller, more powerf",
       "experience_level": null
     },
-    "https://matroid.breezy.hr/p/71c4780af089-software-engineer-product": {
-      "id": "indeed_in-10f3163b82ee9b2d",
-      "title": "Software Engineer, Product",
-      "company": "Matroid",
-      "company_slug": "matroid",
-      "location": "Palo Alto, CA, US",
-      "url": "https://matroid.breezy.hr/p/71c4780af089-software-engineer-product",
-      "source": "indeed",
-      "date_posted": "2026-01-01",
-      "salary_min": 150000,
-      "salary_max": 250000,
-      "sponsorship": null,
-      "remote": false,
-      "description": "**About Matroid**\n\n\nMatroid is a full\\-service computer vision company that has developed an end\\-to\\-end platform allowing enterprise customers to rapidly train and deploy automated visual inspection on imagery including EO, IR, X\\-Ray, CT, OCT, and others.\n\n  \n\nAt Matroid, you will have the opportunity to work directly with founder and CEO, Reza Zadeh, and a world\\-class engineering team. You'll immediately take on high\\-impact projects, building features like visual search, semantic segmentat",
-      "experience_level": null
-    },
     "https://rr.jobsyn.org/E66073C093BA47E1932A1126168B61331606&urlHash=6-80": {
       "id": "linkedin_li-4363603314",
       "title": "Entry Level Designer/Engineer in Training, Mechanical",
@@ -3265,11 +3169,11 @@
       "experience_level": null
     },
     "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m": {
-      "id": "linkedin_li-4366884587",
+      "id": "linkedin_li-4366884586",
       "title": "Cloud Deployment Engineer- Experienced Associate",
       "company": "PwC",
       "company_slug": "pwc",
-      "location": "New York, NY",
+      "location": "Silicon Valley, CA",
       "url": "https://ad.doubleclick.net/ddm/clk/438405794;254302458;m",
       "source": "linkedin",
       "date_posted": "2026-01-17",
@@ -5256,7 +5160,7 @@
       "location": "San Francisco, CA",
       "url": "https://jobs.ashbyhq.com/zip/19f459ee-4907-4883-9d70-35eb96f62082&urlHash=z6DS",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-30",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -5288,7 +5192,7 @@
       "location": "Sacramento, CA",
       "url": "https://rr.jobsyn.org/88FB2417C76F477EAEE8DFAA23243F371606",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-01-31",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -5505,5 +5409,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-01-31T23:22:08.504361"
+  "updated": "2026-02-01T02:12:39.345151"
 }
