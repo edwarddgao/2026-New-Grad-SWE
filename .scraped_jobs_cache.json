@@ -2305,11 +2305,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313840347",
+      "id": "linkedin_li-4313829483",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Pleasanton, CA",
+      "location": "Redwood City, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": "2026-01-12",
@@ -5375,7 +5375,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for PwC. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
       "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/benchling/b3c9b312-6e2b-4dbc-9b15-0b0310d75a7f/application": {
+      "id": "linkedin_li-4368325546",
+      "title": "Software Engineer, New Grad (2026)",
+      "company": "Benchling",
+      "company_slug": "benchling",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/benchling/b3c9b312-6e2b-4dbc-9b15-0b0310d75a7f/application",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Biotechnology is rewriting life as we know it, from the medicines we take, to the crops we grow, the materials we wear, and the household goods that we rely on every day. But moving at the new speed of science requires better technology.\n   \n\n  \n\n Benchling\u2019s mission is to unlock the power of biotechnology. The world\u2019s most innovative biotech companies use Benchling\u2019s R\\&D Cloud to power the development of breakthrough products and accelerate time to milestone and market.\n   \n\n  \n\n Come help us ",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-02T15:37:53.809169"
+  "updated": "2026-02-02T16:39:55.593686"
 }
