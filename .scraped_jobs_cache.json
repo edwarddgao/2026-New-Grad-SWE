@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313829483",
+      "id": "linkedin_li-4313836419",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Redwood City, CA",
+      "location": "Santa Clara, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": "2026-01-12",
@@ -5551,7 +5551,23 @@
       "remote": false,
       "description": "**About the Company:**\n\n\n\nPeak Energy is the first American venture to advance globally proven Sodium\\-Ion battery systems as the storage standard for the new era of renewable energy on a resilient grid.\n\n\n\nSodium\\-Ion is cheap, readily available and safe, making it the leading contender in a rapidly evolving market.\n\n\n\nOur leadership team is powered by decades of expertise in scaling gigawatt\\-level innovation at world\\-class companies such as Tesla, Northvolt, SunPower, Fluence, and Enovix. We",
       "experience_level": null
+    },
+    "https://grnh.se/9j0shdxb2us": {
+      "id": "indeed_in-272c602fe46ea812",
+      "title": "Software Engineer, Infrastructure (2-8 YOE)",
+      "company": "Airtable",
+      "company_slug": "airtable",
+      "location": "San Francisco, CA, US",
+      "url": "https://grnh.se/9j0shdxb2us",
+      "source": "indeed",
+      "date_posted": "2026-02-03",
+      "salary_min": 148100,
+      "salary_max": 250000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Airtable is the no\\-code app platform that empowers people closest to the work to accelerate their most critical business processes. More than 500,000 organizations, including 80% of the Fortune 100, rely on Airtable to transform how work gets done.\n\n\nAirtable's infrastructure is evolving to meet the needs of our fast growing engineering org. We are looking for backend engineers to join our team to help improve critical product infrastructure, with a focus on building systems that have a great d",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-03T21:34:27.611949"
+  "updated": "2026-02-03T22:29:07.705409"
 }
