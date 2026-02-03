@@ -1857,11 +1857,11 @@
       "experience_level": null
     },
     "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/": {
-      "id": "linkedin_li-4304808499",
+      "id": "linkedin_li-4304802570",
       "title": "Early Career Fire and Life Safety Engineer - Buildings",
       "company": "WSP in the U.S.",
       "company_slug": "wsp-in-the-u-s",
-      "location": "New York, NY",
+      "location": "Los Angeles, CA",
       "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/73692/",
       "source": "linkedin",
       "date_posted": "2026-01-10",
@@ -4897,11 +4897,11 @@
       "experience_level": null
     },
     "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad": {
-      "id": "linkedin_li-4367256850",
+      "id": "linkedin_li-4367270412",
       "title": "Environmental Engineer 1",
       "company": "CDM Smith",
       "company_slug": "cdm-smith",
-      "location": "Irvine, CA",
+      "location": "Los Angeles, CA",
       "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad",
       "source": "linkedin",
       "date_posted": "2026-01-30",
@@ -5201,11 +5201,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application": {
-      "id": "linkedin_li-4324950740",
+      "id": "linkedin_li-4324599785",
       "title": "Software Engineer, 2026 New Grad",
       "company": "Whatnot",
       "company_slug": "whatnot",
-      "location": "Los Angeles, CA",
+      "location": "New York, NY",
       "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
       "source": "linkedin",
       "date_posted": "2026-01-31",
@@ -5489,5 +5489,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-03T10:39:49.037975"
+  "updated": "2026-02-03T11:34:15.813318"
 }
