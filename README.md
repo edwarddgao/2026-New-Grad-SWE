@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-03 15:49
+**Last updated:** 2026-02-03 16:53
 
-**Total:** 1403 jobs from 521 companies
+**Total:** 1404 jobs from 521 companies
 
 ---
 
@@ -24,6 +24,8 @@
 | **Morgan Stanley** | [Associate - Software Engineer](https://ms.wd5.myworkdayjobs.com/en-US/external/job/New-York-New-York-United-States-of-America/Associate--Software-Engineer_JR028991) | New York, NY | [$15.0k-25.0k](https://www.levels.fyi/companies/morgan-stanley/salaries) | SpeedyApply | 0d |
 | **Huron** | [Spend Management Analyst - Kyriba Consultant](https://huron.wd1.myworkdayjobs.com/huroncareers/job/Toronto---55-University-Ave/Spend-Management-Analyst---Kyriba-Consultant_JR-0013920) | Toronto, ON, Canada |  | Simplify | 0d |
 | **Hewlett Packard (HP)** | [Junior Machine Learning Engineer](https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Sant-Cugat-del-Valles-Barcelona-Spain/AI-Lab---Junior-Machine-Learning-Engineer_3151000-1) | Palo Alto, CA, Sant Cugat del Vallès,... |  | Simplify | 0d |
+| **NiSource** | [GIS Technician 1](https://nisource.wd1.myworkdayjobs.com/NiSource/job/Monaca-PA-Op-Ctr/GIS-Technician-1_R00941370) | Monaca, PA, Canonsburg, PA, Bridgevil... |  | Simplify | 0d |
+| **2020 Companies** | [Android Sales Expert](https://2020companies.wd1.myworkdayjobs.com/external_careers/job/Brooklyn-NY/Android-Sales-Expert_REQ_098674) | Brooklyn, NY, Queens, NY |  | Simplify | 0d |
 | **Abbott Laboratories** | [Clinical Software Engineer I - on-site](https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---California---Sylmar/Clinical-Software-Engineer-I--on-site-_31140519-1) | Los Angeles, CA |  | SpeedyApply | 0d |
 | **CVector Energy** | [Full Stack Software Engineer I](https://apply.workable.com/cvector/j/E3452FC5EB/) | New York, NY |  | SpeedyApply | 0d |
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/9dd35790-9067-4a13-adf4-83485e2afcc4) | Palo Alto, CA |  | SpeedyApply | 0d |
@@ -156,7 +158,6 @@
 | **Qualcomm** | [System Level Test Engineer - Hardware Engineering](https://qualcomm.eightfold.ai/careers/job/446716369150) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Simplify | 6d |
 | **Aptiv** | [Product Analyst-Open Source](https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Walnut-Creek-CA---WR/Senior-Analyst--Linux-Systems-Adminstration_J000691840-1) | Ontario, Canada, Troy, MI, Kanata, Ot... | [$95k-131k](https://www.levels.fyi/companies/aptiv/salaries) | Simplify | 6d |
 | **CVS Health** | [Associate Data Engineer](https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/TX---Irving/Associate-Data-Engineer_R0821166) | Wheeling, IL, Hartford, CT, NYC, Irvi... | [$110k-131k](https://www.levels.fyi/companies/cvs-health/salaries) | Simplify | 6d |
-| **Walmart** | [Staff - Data Scientist](https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/Sunnyvale-CA/XMLNAME--USA--Staff--Data-Scientist_R-2350734) | Bentonville, AR, Sunnyvale, CA | [$101k-130k](https://www.levels.fyi/companies/walmart/salaries) | Simplify | 6d |
 | **American Express** | [Associate Product Manager - AI Integrations](https://aexp.eightfold.ai/careers/job/39720849) | NYC | [$91k-110k](https://www.levels.fyi/companies/american-express/salaries) | Simplify | 6d |
 | **Vertiv** | [ERS-NETA Electrical Testing Technician - San Francisco](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20265276) | SF, Pleasanton, CA | [$46.0k-53.0k](https://www.levels.fyi/companies/vertiv/salaries) | Simplify | 6d |
 | **Morgan Stanley** | [Fid – Commodities Quant Strat - Associate](https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/FID--Commodities-Quant-Strat---Associate_JR028848) | NYC | [$15.0k-25.0k](https://www.levels.fyi/companies/morgan-stanley/salaries) | Simplify | 6d |
@@ -199,7 +200,6 @@
 | **iSoftStone** | [Data Analyst](https://jobs.jobvite.com/isoftstone/job/o0mGxfwj?nl=1&nl=1&fr=false) | Menlo Park, CA |  | Simplify | 1w |
 | **Moog ** | [Product Engineer](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Product-Engineer_R-25-14071) | Buffalo, NY |  | Simplify | 1w |
 | **Legrand NA** | [Firmware Engineer 1](https://jobs-legrand.icims.com/jobs/9742/job?mobile=true&needsRedirect=false) | Carlsbad, CA |  | Simplify | 1w |
-| **Cornell University** | [Temporary Informatics and Data Analyst - Qmps](https://cornell.wd1.myworkdayjobs.com/cornellpositions/job/Ithaca-Main-Campus/Temporary-Informatics-and-Data-Analyst---QMPS_WDR-00056753-1) | Ithaca, NY |  | Simplify | 1w |
 | **SpotOn** | [Product Partnerships Manager](https://job-boards.greenhouse.io/spotonproduct/jobs/7605161003) | Austin, TX |  | Simplify | 1w |
 | **NVIDIA** | [AI ML Engineer, RTL Power Optimization – New College Grad 2026](https://click.appcast.io/t/f64pwN9jBkExodX7nk2i2jLKm4EX1PMF03EGCviFFYQ=) | Santa Clara, CA, US | [$116k-218k](https://www.levels.fyi/companies/nvidia/salaries) | Indeed | 1w |
 | **NVIDIA** | [Applied Machine Learning Engineer, Circuit Design - New College Grad 2026](https://click.appcast.io/t/fqOn7Y-MkvZu33YFVXhOKLHc4ccQ1vdh088Kw3zZ7rY=) | Santa Clara, CA, US | [$116k-218k](https://www.levels.fyi/companies/nvidia/salaries) | Indeed | 1w |
@@ -377,7 +377,7 @@
 | **SpaceX** | [Mission Integration Engineer, User Products (Starshield)](https://boards.greenhouse.io/spacex/jobs/8247761002) | Hawthorne, CA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | LinkedIn | 3w |
 | **Adobe** | [2026 University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Applied-Research-Scientist_R160656) | Seattle, WA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 3w |
 | **Oscar Health** | [Data Scientist 1: Network and Contracts](http://www.hioscar.com/careers/7527160?gh_jid=7527160) | NYC | [$167k-193k](https://www.levels.fyi/companies/oscar-health/salaries) | Simplify | 3w |
-| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/) | Redwood City, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3w |
+| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/) | Pleasanton, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3w |
 | **Veeva Systems** | [Associate Software Engineer in Test - Tooling & Infrastructure](https://jobs.lever.co/veeva/8d86a229-0d65-46a4-838f-3e4da21960f9/apply) | Toronto, ON, Canada | [$130k-147k](https://www.levels.fyi/companies/veeva-systems/salaries) | Simplify | 3w |
 | **Ideogram** | [Software Engineer - ML Data Infrastructure](https://jobs.ashbyhq.com/ideogram/c6d67226-cca4-453d-b818-efd9d815e55f/application) | Toronto, ON, Canada, NYC | [$127.0k-145.0k](https://www.levels.fyi/companies/ideogram/salaries) | Simplify | 3w |
 | **Blue Origin** | [Software Development Engineer 1 - Early Career](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2026-Starts-_R58467) | Kent, WA | [$120k-133k](https://www.levels.fyi/companies/blue-origin/salaries) | Simplify | 3w |
@@ -619,6 +619,7 @@
 | **MatX** | [Software Engineer - Simulators](https://job-boards.greenhouse.io/matx/jobs/4102858008) | Mountain View, CA |  | Simplify | 1mo |
 | **Google** | [Software Engineer 3 - Security/Privacy - Google Cloud Security and Privacy](https://www.google.com/about/careers/applications/jobs/results/91697964845540038) | SF, Sunnyvale, CA | [$140k-212k](https://www.levels.fyi/companies/google/salaries) | Simplify | 2mo |
 | **Oracle** | [Undergrad Software Engineer - C/C++ - Oracle Cloud Infrastructure](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/318307) | Santa Clara, CA, Burlington, MA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | Simplify | 2mo |
+| **The Boeing Company** | [Linux System Administrator](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seal-Beach-CA/Linux-System-Administrator_JR2025487641) | Seal Beach, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 2mo |
 | **Corning** | [Research Technician](https://corningjobs.corning.com/job/Corning-Research-Technician-NY-14831/1347688200/?ats=successfactors) | Elmira, NY |  | Simplify | 2mo |
 | **Adobe** | [Research Scientist](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Research-Scientist_R163076) | San Jose, CA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 2mo |
 | **GumGum** | [Software Engineer 1](https://job-boards.greenhouse.io/gumgum/jobs/7546755003) | Santa Monica, CA | [$126k-152k](https://www.levels.fyi/companies/gumgum/salaries) | Simplify | 2mo |
@@ -1293,10 +1294,8 @@
 | **ChatGPT Jobs** | [Software Engineer I - Direct Issuance (New Grad)](https://chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=zRVf) | El Segundo, CA | $120k-150k | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
-| **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d2400f8467c5492ba1de125fdba7f8f1tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026](https://lensa.com/cgw/97df1f7318ef45e5b257005c7c45361ftjo1) | San Jose, CA |  | LinkedIn |  |
-| **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/2598988afe33490aa68a889f7073f6f5tjo1) | San Diego, CA |  | LinkedIn |  |
-| **Lensa** | [Environmental Engineer 1 (2026 New Graduates!)](https://lensa.com/cgw/baabf407f4b7419f82f3eedb58a269e6tjo1) | Concord, CA |  | LinkedIn |  |
+| **Lensa** | [Environmental Engineer 1](https://lensa.com/cgw/35eb39bb5b724fa594f990e7396a3677tjo1) | Los Angeles, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1412,7 +1411,9 @@
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/2102771166174938afc3167ac941f3cetjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026: SVL](https://lensa.com/cgw/2037063c21e84561b5a89fe63f139c3etjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Software Engineering - Summer 2027 Internship](https://lensa.com/cgw/acc9bfa07e5d46a5bced6bd5f4f22b2ctjo1) | New York, NY |  | LinkedIn |  |
-| **Lensa** | [Environmental Engineer 1](https://lensa.com/cgw/35eb39bb5b724fa594f990e7396a3677tjo1) | Los Angeles, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d2400f8467c5492ba1de125fdba7f8f1tjo1) | Greenlawn, NY |  | LinkedIn |  |
+| **Lensa** | [Environmental Engineer 1 (2026 New Graduates!)](https://lensa.com/cgw/baabf407f4b7419f82f3eedb58a269e6tjo1) | Concord, CA |  | LinkedIn |  |
+| **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/2598988afe33490aa68a889f7073f6f5tjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Transportation Engineer](https://lensa.com/cgw/b367f75a989e4b82a30fddcc46222122tjo1) | Sacramento, CA |  | LinkedIn |  |
 | **Lensa** | [Environmental Engineer 1](https://lensa.com/cgw/d65673c1d60448e3b06194e14b98cffdtjo1) | Irvine, CA |  | LinkedIn |  |
 
