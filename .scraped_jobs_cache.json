@@ -2209,11 +2209,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313836419",
+      "id": "linkedin_li-4313840347",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Pleasanton, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": "2026-01-12",
@@ -5519,7 +5519,39 @@
       "remote": false,
       "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century\u2019s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril\u2019s family of systems is powered by Lattice OS, an AI\\-powered operating system that turns thousands of data streams into a realtime, 3D command and ",
       "experience_level": null
+    },
+    "https://jobs.bd.com/job/-/-/159/91306285712": {
+      "id": "linkedin_li-4368805746",
+      "title": "Systems Engineer",
+      "company": "BD",
+      "company_slug": "bd",
+      "location": "San Diego, CA",
+      "url": "https://jobs.bd.com/job/-/-/159/91306285712",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Job Description Summary**\n Job Description\n   \n\n  \n\n We are\n **the makers of possible**\n BD is one of the largest global medical technology companies in the world. Advancing the world of health\u2122 is our Purpose, and it\u2019s no small feat. It takes the imagination and passion of all of us\u2014from design and engineering to the manufacturing and marketing of our billions of MedTech products per year\u2014to look at the impossible and find transformative solutions that turn dreams into possibilities.\n   \n\n  \n",
+      "experience_level": null
+    },
+    "https://grnh.se/5efs2uii7us": {
+      "id": "indeed_in-062c7ac192682fa4",
+      "title": "Supplier Industrialization Engineer Intern (Summer 2026)",
+      "company": "Peak Energy",
+      "company_slug": "peak-energy",
+      "location": "San Francisco Bay Area, CA, US",
+      "url": "https://grnh.se/5efs2uii7us",
+      "source": "indeed",
+      "date_posted": "2026-02-03",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About the Company:**\n\n\n\nPeak Energy is the first American venture to advance globally proven Sodium\\-Ion battery systems as the storage standard for the new era of renewable energy on a resilient grid.\n\n\n\nSodium\\-Ion is cheap, readily available and safe, making it the leading contender in a rapidly evolving market.\n\n\n\nOur leadership team is powered by decades of expertise in scaling gigawatt\\-level innovation at world\\-class companies such as Tesla, Northvolt, SunPower, Fluence, and Enovix. We",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-03T18:56:12.619914"
+  "updated": "2026-02-03T19:44:54.549639"
 }
