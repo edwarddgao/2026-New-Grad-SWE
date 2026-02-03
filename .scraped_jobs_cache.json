@@ -4897,11 +4897,11 @@
       "experience_level": null
     },
     "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad": {
-      "id": "linkedin_li-4367256850",
+      "id": "linkedin_li-4367270412",
       "title": "Environmental Engineer 1",
       "company": "CDM Smith",
       "company_slug": "cdm-smith",
-      "location": "Irvine, CA",
+      "location": "Los Angeles, CA",
       "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad",
       "source": "linkedin",
       "date_posted": "2026-01-30",
@@ -5567,7 +5567,23 @@
       "remote": true,
       "description": "Airtable is the no\\-code app platform that empowers people closest to the work to accelerate their most critical business processes. More than 500,000 organizations, including 80% of the Fortune 100, rely on Airtable to transform how work gets done.\n\n\nAirtable's infrastructure is evolving to meet the needs of our fast growing engineering org. We are looking for backend engineers to join our team to help improve critical product infrastructure, with a focus on building systems that have a great d",
       "experience_level": null
+    },
+    "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/Application-Engineer_R53122-2": {
+      "id": "indeed_in-f8c50fd8eb2f9a0a",
+      "title": "Application Engineer",
+      "company": "Cadence Design Systems",
+      "company_slug": "cadence-design-systems",
+      "location": "San Jose, CA, US",
+      "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/Application-Engineer_R53122-2",
+      "source": "indeed",
+      "date_posted": "2026-02-03",
+      "salary_min": 74200,
+      "salary_max": 137800,
+      "sponsorship": null,
+      "remote": false,
+      "description": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.\nThe person in this full time regular entry level position will start in a cohort based, one year program that will include new colleges graduates from across North America and consist of two six month rotations with detailed, hands\\-on training in applications used for Digital Design/Simulation, Physical Design, Analog Layout, Advanced Verification or Hardware Emulation. The opportunity ",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-03T22:29:07.705409"
+  "updated": "2026-02-03T23:28:22.662165"
 }
