@@ -4865,11 +4865,11 @@
       "experience_level": null
     },
     "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad": {
-      "id": "linkedin_li-4367256850",
+      "id": "linkedin_li-4367270412",
       "title": "Environmental Engineer 1",
       "company": "CDM Smith",
       "company_slug": "cdm-smith",
-      "location": "Irvine, CA",
+      "location": "Los Angeles, CA",
       "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad",
       "source": "linkedin",
       "date_posted": "2026-01-30",
@@ -5631,7 +5631,23 @@
       "remote": false,
       "description": "**United States \\- San Mateo, CA**\n\nBusiness Technology/Full time/Hybrid\n\n  \n\nJoin Guidewire as an Go To Market AI Engineer Intern and help shape the future of insurance technology. In this full\\-time role, you will work on real\\-world integration and AI automation initiatives that support Guidewire\u2019s global business operations.  \n\nYou will be part of Guidewire\u2019s Business Technology (BizTech) team\u2014a group focused on driving growth and transformation through technology innovation, operational exc",
       "experience_level": null
+    },
+    "https://careers.rtx.com/global/en/job/RAYTGLOBAL01821758EXTERNALENGLOBAL/2026-Full-time-Real-time-Embedded-Software-Engineer-Onsite-CA": {
+      "id": "linkedin_li-4369030676",
+      "title": "2026 Full-time - Real-time Embedded Software Engineer - Onsite (CA)",
+      "company": "Raytheon",
+      "company_slug": "raytheon",
+      "location": "El Segundo, CA",
+      "url": "https://careers.rtx.com/global/en/job/RAYTGLOBAL01821758EXTERNALENGLOBAL/2026-Full-time-Real-time-Embedded-Software-Engineer-Onsite-CA",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Date Posted:**\n**Country:**\n United States of America\n   \n\n  \n\n**Location:**\n US\\-CA\\-EL SEGUNDO\\-E01 \\~ 2000 E El Segundo Blvd \\~ BLDG E01\n   \n\n  \n\n**Position Role Type:**\n Onsite\n   \n\n  \n\n**U.S. Citizen, U.S. Person, or Immigration Status Requirements:**\n The ability to obtain and maintain a U.S. government issued security clearance is required. U.S. citizenship is required, as only U.S. citizens are eligible for a security clearance\n   \n\n  \n\n**Security Clearance Type:**\n DoD Clearance: Secr",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-04T09:42:43.384623"
+  "updated": "2026-02-04T10:37:55.768593"
 }
