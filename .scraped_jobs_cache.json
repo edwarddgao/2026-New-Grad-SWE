@@ -656,38 +656,6 @@
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Jacobs. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy not",
       "experience_level": null
     },
-    "https://www.samsara.com/company/careers/roles/7172579": {
-      "id": "linkedin_li-4290341003",
-      "title": "(New Grad) Software Engineering",
-      "company": "Samsara",
-      "company_slug": "samsara",
-      "location": "San Francisco, CA",
-      "url": "https://www.samsara.com/company/careers/roles/7172579",
-      "source": "linkedin",
-      "date_posted": "2026-01-04",
-      "salary_min": null,
-      "salary_max": null,
-      "sponsorship": null,
-      "remote": true,
-      "description": "**Who We Are**\n Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our plane",
-      "experience_level": null
-    },
-    "https://dsp.prng.co/b09Acxb": {
-      "id": "linkedin_li-4331735902",
-      "title": "Software Engineer",
-      "company": "NetApp",
-      "company_slug": "netapp",
-      "location": "San Jose, CA",
-      "url": "https://dsp.prng.co/b09Acxb",
-      "source": "linkedin",
-      "date_posted": "2026-01-04",
-      "salary_min": null,
-      "salary_max": null,
-      "sponsorship": null,
-      "remote": false,
-      "description": "**About NetApp**\n NetApp is the intelligent data infrastructure company, turning a world of disruption into opportunity for every customer. No matter the data type, workload or environment, we help our customers identify and realize new business possibilities. And it all starts with our people.\n   \n\n  \n\n If this sounds like something you want to be part of, NetApp is the place for you. You can help bring new ideas to life, approaching each challenge with fresh eyes. Of course, you won't be doing",
-      "experience_level": null
-    },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
       "id": "linkedin_li-4289862210",
       "title": "Undergrad Software Engineer - Fusion",
@@ -2209,11 +2177,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313836419",
+      "id": "linkedin_li-4313840347",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Santa Clara, CA",
+      "location": "Pleasanton, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": "2026-01-12",
@@ -5583,7 +5551,55 @@
       "remote": false,
       "description": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.\nThe person in this full time regular entry level position will start in a cohort based, one year program that will include new colleges graduates from across North America and consist of two six month rotations with detailed, hands\\-on training in applications used for Digital Design/Simulation, Physical Design, Analog Layout, Advanced Verification or Hardware Emulation. The opportunity ",
       "experience_level": null
+    },
+    "https://chatgpt-jobs.com/job/software-engineer-sun-west-mortgage-3462&urlHash=JPxc": {
+      "id": "linkedin_li-4357598746",
+      "title": "Software Engineer",
+      "company": "ChatGPT Jobs",
+      "company_slug": "chatgpt-jobs",
+      "location": "El Segundo, CA",
+      "url": "https://chatgpt-jobs.com/job/software-engineer-sun-west-mortgage-3462&urlHash=JPxc",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": 100000,
+      "salary_max": 120000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Job Description**\n Software Engineer\n   \n\n  \n\n**Company:** \n Sun West Mortgage\\-Since 1980\n   \n\n  \n\n**Location:** \n Cerritos, CA\n   \n\n  \n\n* Remote\n\n\n**Salary:** \n $100K \\- $200K/yr\n   \n\n  \n\n**Type:** \n Full\\-time\n   \n\n  \n\n**Benefits:** \n Medical, Dental, Vision, Life, Retirement\n   \n\n  \n\n**Posted:** \n 1 hour ago\n   \n\n  \n\n**Job Description**\n**About the Company:** \n AngelAi is the fintech innovation arm of Sun West Mortgage Company, building emotionally intelligent AI systems to transform finan",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/905ba0b7262a4218a68a1591ec4a9dbbtjo1": {
+      "id": "linkedin_li-4368895126",
+      "title": "2026 Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Diego, CA",
+      "url": "https://lensa.com/cgw/905ba0b7262a4218a68a1591ec4a9dbbtjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
+      "experience_level": null
+    },
+    "https://careers.rtx.com/global/en/job/RAYTGLOBAL01821318EXTERNALENGLOBAL/2026-Full-time-Software-Engineer-I-Onsite-CA": {
+      "id": "linkedin_li-4368888428",
+      "title": "2026 Full-time - Software Engineer I - Onsite (CA)",
+      "company": "Raytheon",
+      "company_slug": "raytheon",
+      "location": "Goleta, CA",
+      "url": "https://careers.rtx.com/global/en/job/RAYTGLOBAL01821318EXTERNALENGLOBAL/2026-Full-time-Software-Engineer-I-Onsite-CA",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Date Posted:**\n 2026\\-02\\-03\n   \n\n  \n\n**Country:**\n United States of America\n   \n\n  \n\n**Location:**\n US\\-CA\\-GOLETA\\-H01 \\~ 6380 Hollister Ave \\~ BLDG H01\n   \n\n  \n\n**Position Role Type:**\n Onsite\n   \n\n  \n\n**U.S. Citizen, U.S. Person, or Immigration Status Requirements:**\n The ability to obtain and maintain a U.S. government issued security clearance is required. U.S. citizenship is required, as only U.S. citizens are eligible for a security clearance\n   \n\n  \n\n**Security Clearance Type:**\n DoD ",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-03T23:28:22.662165"
+  "updated": "2026-02-04T01:57:12.298967"
 }
