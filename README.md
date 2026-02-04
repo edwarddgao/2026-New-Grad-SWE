@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-04 15:42
+**Last updated:** 2026-02-04 16:45
 
 **Total:** 1413 jobs from 528 companies
 
@@ -92,8 +92,8 @@
 | **LexisNexis Risk Solutions** | [Software Engineer 1](https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions/job/Alameda-Rio-Negro/Software-Engineer-I_R107978) | Alameda, CA |  | Simplify | 2d |
 | **TD Synnex** | [Intergration Technician 1 Technicien - Ne - En intégration I','Conv](https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Mississauga-Ontario-Canada/Intergration-Technician-I-Technicien--ne--en-intgration-I--CONV-_R47243) | Mississauga, ON, Canada |  | Simplify | 2d |
 | **RELX** | [Software Engineer 1](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Alameda-Rio-Negro/Software-Engineer-I_R107978-1) | Alameda, CA |  | Simplify | 2d |
-| **Valley Water** | [Summer Internship in Hydrology, Hydraulics and Geomorphology Unit Software Engineer](https://apptrkr.com/6895869) | San Jose, CA, US |  | Indeed | 2d |
 | **BD Nogales Norte** | [Systems Engineer](https://jobs.bd.com/en/job/san-diego/systems-engineer/159/91306285712&urlHash=och2) | San Diego, CA |  | LinkedIn | 2d |
+| **Valley Water** | [Summer Internship in Hydrology, Hydraulics and Geomorphology Unit Software Engineer](https://apptrkr.com/6895869) | San Jose, CA, US |  | Indeed | 2d |
 | **Sigma Computing** | [Software Engineering Intern (Summer 2026)](https://grnh.se/5d5ys6qe3us) | New York, NY, US | [$170k-200k](https://www.levels.fyi/companies/sigma-computing/salaries) | Indeed | 3d |
 | **Sigma Computing** | [Software Engineering Intern (Summer 2026)](https://grnh.se/onx9vogd3us) | New York, NY, US | [$170k-200k](https://www.levels.fyi/companies/sigma-computing/salaries) | Indeed | 4d |
 | **BlackRock** | [Associate - Software Engineer - Applications](https://blackrock.wd1.myworkdayjobs.com/en-US/blackrock_professional/job/San-Francisco-CA/Associate--Software-Engineer--Applications_R260360) | San Francisco, CA | [$117k-143k](https://www.levels.fyi/companies/blackrock/salaries) | SpeedyApply | 4d |
@@ -396,7 +396,7 @@
 | **SpaceX** | [Mission Integration Engineer, User Products (Starshield)](https://boards.greenhouse.io/spacex/jobs/8247761002) | Hawthorne, CA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | LinkedIn | 3w |
 | **Adobe** | [2026 University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Applied-Research-Scientist_R160656) | Seattle, WA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 3w |
 | **Oscar Health** | [Data Scientist 1: Network and Contracts](http://www.hioscar.com/careers/7527160?gh_jid=7527160) | NYC | [$167k-193k](https://www.levels.fyi/companies/oscar-health/salaries) | Simplify | 3w |
-| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/) | Pleasanton, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3w |
+| **Oracle** | [Advanced Degree Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/) | Redwood City, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3w |
 | **Veeva Systems** | [Associate Software Engineer in Test - Tooling & Infrastructure](https://jobs.lever.co/veeva/8d86a229-0d65-46a4-838f-3e4da21960f9/apply) | Toronto, ON, Canada | [$130k-147k](https://www.levels.fyi/companies/veeva-systems/salaries) | Simplify | 3w |
 | **Ideogram** | [Software Engineer - ML Data Infrastructure](https://jobs.ashbyhq.com/ideogram/c6d67226-cca4-453d-b818-efd9d815e55f/application) | Toronto, ON, Canada, NYC | [$127.0k-145.0k](https://www.levels.fyi/companies/ideogram/salaries) | Simplify | 3w |
 | **Blue Origin** | [Software Development Engineer 1 - Early Career](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Development-Engineer-I---Early-Career--2026-Starts-_R58467) | Kent, WA | [$120k-133k](https://www.levels.fyi/companies/blue-origin/salaries) | Simplify | 3w |
@@ -1301,6 +1301,7 @@
 | **ChatGPT Jobs** | [Software Engineer](https://chatgpt-jobs.com/job/software-engineer-sun-west-mortgage-3462&urlHash=JPxc) | El Segundo, CA | $100k-120k | LinkedIn |  |
 | **Raytheon** | [2026 Full-time - Software Engineer I - Onsite (CA)](https://careers.rtx.com/global/en/job/RAYTGLOBAL01821318EXTERNALENGLOBAL/2026-Full-time-Software-Engineer-I-Onsite-CA) | Goleta, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | LinkedIn |  |
 | **Raytheon** | [2026 Full-time - Real-time Embedded Software Engineer - Onsite (CA)](https://careers.rtx.com/global/en/job/RAYTGLOBAL01821758EXTERNALENGLOBAL/2026-Full-time-Real-time-Embedded-Software-Engineer-Onsite-CA) | El Segundo, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | LinkedIn |  |
+| **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/905ba0b7262a4218a68a1591ec4a9dbbtjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1424,7 +1425,6 @@
 | **Lensa** | [Entry Level Transportation Engineer](https://lensa.com/cgw/b367f75a989e4b82a30fddcc46222122tjo1) | Sacramento, CA |  | LinkedIn |  |
 | **Lensa** | [Environmental Engineer 1](https://lensa.com/cgw/d65673c1d60448e3b06194e14b98cffdtjo1) | Irvine, CA |  | LinkedIn |  |
 | **BD** | [Systems Engineer](https://jobs.bd.com/job/-/-/159/91306285712) | San Diego, CA |  | LinkedIn |  |
-| **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/905ba0b7262a4218a68a1591ec4a9dbbtjo1) | San Diego, CA |  | LinkedIn |  |
 
 ---
 
