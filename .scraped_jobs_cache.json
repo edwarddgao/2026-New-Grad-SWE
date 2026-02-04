@@ -2177,11 +2177,11 @@
       "experience_level": null
     },
     "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/": {
-      "id": "linkedin_li-4313829483",
+      "id": "linkedin_li-4313840347",
       "title": "Advanced Degree Software Engineer - Fusion",
       "company": "Oracle",
       "company_slug": "oracle",
-      "location": "Redwood City, CA",
+      "location": "Pleasanton, CA",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/",
       "source": "linkedin",
       "date_posted": "2026-01-12",
@@ -5649,5 +5649,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-04T11:32:57.024862"
+  "updated": "2026-02-04T12:57:13.783214"
 }
