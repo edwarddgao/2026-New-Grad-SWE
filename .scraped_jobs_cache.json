@@ -4865,11 +4865,11 @@
       "experience_level": null
     },
     "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad": {
-      "id": "linkedin_li-4367270412",
+      "id": "linkedin_li-4367256850",
       "title": "Environmental Engineer 1",
       "company": "CDM Smith",
       "company_slug": "cdm-smith",
-      "location": "Los Angeles, CA",
+      "location": "Irvine, CA",
       "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad",
       "source": "linkedin",
       "date_posted": "2026-01-30",
@@ -5633,5 +5633,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-04T08:40:15.959023"
+  "updated": "2026-02-04T09:42:43.384623"
 }
