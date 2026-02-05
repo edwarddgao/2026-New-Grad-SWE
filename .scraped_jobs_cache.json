@@ -4737,11 +4737,11 @@
       "experience_level": null
     },
     "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad": {
-      "id": "linkedin_li-4367270412",
+      "id": "linkedin_li-4367256850",
       "title": "Environmental Engineer 1",
       "company": "CDM Smith",
       "company_slug": "cdm-smith",
-      "location": "Los Angeles, CA",
+      "location": "Irvine, CA",
       "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad",
       "source": "linkedin",
       "date_posted": "2026-01-30",
@@ -5512,7 +5512,7 @@
       "location": "El Segundo, CA",
       "url": "https://careers.rtx.com/global/en/job/RAYTGLOBAL01821758EXTERNALENGLOBAL/2026-Full-time-Real-time-Embedded-Software-Engineer-Onsite-CA",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-04",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -5631,7 +5631,23 @@
       "remote": false,
       "description": "**United States \\- San Mateo, CA**\n\nBusiness Technology/Full time/Hybrid\n\n  \n\nGuidewire is offering a 6\\-month Guidewire Basecamp internship program to join the Business Technology team.  \n\n  \n\nGuidewire serves a global community of more than 500 insurers of all sizes and lines of business in more than 30 countries. Community feedback enables us to stay at the forefront of what is happening all over the P\\&C world and to incorporate insights into the design of our platform to be truly customer c",
       "experience_level": null
+    },
+    "https://job-boards.greenhouse.io/scaleai/jobs/4605996005": {
+      "id": "linkedin_li-4297642437",
+      "title": "Software Engineer - New Grad",
+      "company": "Scale AI",
+      "company_slug": "scale-ai",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4605996005",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": 124000,
+      "salary_max": 155000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "At Scale, our mission is to accelerate the development of AI applications. For 8 years, Scale has been the leading AI data foundry, helping fuel the most exciting advancements in AI, including: generative AI, defense applications, and autonomous vehicles. With our recent Series F round, we\u2019re accelerating the abundance of frontier data to pave the road to Artificial General Intelligence (AGI), and building upon our prior model evaluation work with enterprise customers and governments, to deepen ",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-05T13:00:16.577511"
+  "updated": "2026-02-05T14:09:56.867343"
 }
