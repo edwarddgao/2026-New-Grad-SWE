@@ -5679,7 +5679,39 @@
       "remote": false,
       "description": "SkillStorm is actively seeking full\\-time Entry Level Software Developers for one our Fortune 100 clients. An ideal candidate is one with a strong technical mindset, exceptional problem\\-solving skills, and logical reasoning abilities. This is an on\\-site position.\n \n\n\n\n  \n\n\n\n\n\n You will spend 12 weeks collaborating in team\\-based settings, undertaking diverse, real\\-world projects to prepare for seamless integration into our clients' operations. Once training is complete, you will be deployed t",
       "experience_level": null
+    },
+    "http://www.indeed.com/job/adjunct-instructor-school-information-technology-including-software-engineering-44e2a14fe89d6fae": {
+      "id": "indeed_in-44e2a14fe89d6fae",
+      "title": "Adjunct Instructor - School of Information Technology (including Software Engineering)",
+      "company": "Monroe University",
+      "company_slug": "monroe-university",
+      "location": "Bronx, NY, US",
+      "url": "http://www.indeed.com/job/adjunct-instructor-school-information-technology-including-software-engineering-44e2a14fe89d6fae",
+      "source": "indeed",
+      "date_posted": "2026-02-05",
+      "salary_min": 70,
+      "salary_max": 90,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Company Overview**\n\nMonroe University, serving more than 9,000 students, is a leader in urban and international higher education. Founded in 1933, Monroe University is a nationally ranked private institution of higher education with a real\\-world learning approach that emphasizes hands\\-on academic experiences, practical and relevant academic programs, flexible learning schedules, contemporary instructional technologies, and committed and engaged faculty to ensure that students are well positi",
+      "experience_level": null
+    },
+    "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2012836": {
+      "id": "indeed_in-258160623aef88ab",
+      "title": "Low Power ASIC Engineer - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA, US",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2012836",
+      "source": "indeed",
+      "date_posted": "2026-02-05",
+      "salary_min": 100000,
+      "salary_max": 189750,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self\\-driving cars that can understand the world. Doing what\u2019s never been done before takes vision, innovation, and the world\u2019s best talent. As an NVIDIAN, you\u2019ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work. Come join the team and see how we can make a lasting impact on the worl",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-05T19:37:47.617127"
+  "updated": "2026-02-05T20:33:36.689552"
 }
