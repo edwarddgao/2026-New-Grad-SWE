@@ -4737,11 +4737,11 @@
       "experience_level": null
     },
     "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad": {
-      "id": "linkedin_li-4367270412",
+      "id": "linkedin_li-4367256850",
       "title": "Environmental Engineer 1",
       "company": "CDM Smith",
       "company_slug": "cdm-smith",
-      "location": "Los Angeles, CA",
+      "location": "Irvine, CA",
       "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad",
       "source": "linkedin",
       "date_posted": "2026-01-30",
@@ -5480,12 +5480,12 @@
       "location": "San Jose, CA",
       "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Application-Engineer_R53122-2",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-03",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.**\n The person in this full time regular entry level position will start in a cohort based, one year program that will include new colleges graduates from across North America and consist of two six month rotations with detailed, hands\\-on training in applications used for Digital Design/Simulation, Physical Design, Analog Layout, Advanced Verification or Hardware Emulation. The opportu",
+      "description": "**At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.**\n Cadence Design Systems is looking for new STEM bachelor\u2019s graduates with experience using electronic design automation (EDA) tools to join our Customer Support Team\u2019s (CST) Rotational Program in San Jose, CA, Austin TX, Cary NC, Columbia MD, or Burlington MA.\n   \n\n  \n\n As an integral member of CST, you work with the best in class EDA tools, collaborate with technical experts and sup",
       "experience_level": null
     },
     "https://www.guidewire.com/about/careers/jobs/go-to-market-ai-engineer-intern-jr_14295/": {
@@ -5551,7 +5551,39 @@
       "remote": true,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/fceb41248dd04f66a6b942bfd6c8fb40tjo1": {
+      "id": "linkedin_li-4369415497",
+      "title": "Software Engineering - Summer 2027 Internship",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "New York, NY",
+      "url": "https://lensa.com/cgw/fceb41248dd04f66a6b942bfd6c8fb40tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for PwC. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
+      "experience_level": null
+    },
+    "https://cg.sandia.gov/psc/applicant/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL": {
+      "id": "indeed_in-de9ede605123a96a",
+      "title": "R&D Systems Engineer - W87-1 Flight Test Team, Onsite",
+      "company": "Sandia National Laboratories",
+      "company_slug": "sandia-national-laboratories",
+      "location": "Livermore, CA, US",
+      "url": "https://cg.sandia.gov/psc/applicant/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL",
+      "source": "indeed",
+      "date_posted": "2026-02-04",
+      "salary_min": 121900,
+      "salary_max": 237800,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**About Sandia**\n----------------\n\n  \n\n\nSandia National Laboratories is the nation\u2019s premier science and engineering lab for national security and technology innovation, with teams of specialists focused on cutting\\-edge work in a broad array of areas. Some of the main reasons we love our jobs:\n\n* Challenging work with amazing impact that contributes to security, peace, and freedom worldwide\n* Extraordinary co\\-workers\n* Some of the best tools, equipment, and research facilities in the world\n* C",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-05T01:59:41.060643"
+  "updated": "2026-02-05T04:20:33.416024"
 }
