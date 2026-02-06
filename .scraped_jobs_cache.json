@@ -3713,8 +3713,8 @@
       "experience_level": null
     },
     "https://nuro.ai/careersitem": {
-      "id": "linkedin_li-4327790555",
-      "title": "Software Engineer, Autonomy-New Grad",
+      "id": "linkedin_li-4317707969",
+      "title": "Software Engineer, AI Platform - New Grad",
       "company": "Nuro",
       "company_slug": "nuro",
       "location": "Mountain View, CA",
@@ -4769,11 +4769,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application": {
-      "id": "linkedin_li-4324950740",
+      "id": "linkedin_li-4317480555",
       "title": "Software Engineer, 2026 New Grad",
       "company": "Whatnot",
       "company_slug": "whatnot",
-      "location": "Los Angeles, CA",
+      "location": "San Francisco, CA",
       "url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application",
       "source": "linkedin",
       "date_posted": "2026-01-31",
@@ -5400,7 +5400,7 @@
       "location": "",
       "url": "https://careers.skillstorm.com/jobs/entry-level-software-developer-42308",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-05",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -5585,5 +5585,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-06T14:03:35.655466"
+  "updated": "2026-02-06T15:40:05.623880"
 }
