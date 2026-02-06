@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-06 17:41
+**Last updated:** 2026-02-06 18:49
 
-**Total:** 1413 jobs from 530 companies
+**Total:** 1409 jobs from 529 companies
 
 ---
 
@@ -149,11 +149,7 @@
 | **AltaGas** | [Marketing & Trading Analyst - Marketing & Trading](https://wgl.wd5.myworkdayjobs.com/altagas/job/Calgary-AB/AltaGas---Analyst--Marketing---Trading_R6590) | Calgary, AB, Canada |  | Simplify | 4d |
 | **Moog ** | [Associate Product Engineer](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Associate-Product-Engineer_R-26-16006) | Boston, NY |  | Simplify | 4d |
 | **Moog ** | [Associate Product Engineer](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Associate-Product-Engineer_R-26-15904) | Buffalo, NY |  | Simplify | 4d |
-| **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/9dd35790-9067-4a13-adf4-83485e2afcc4/application) | Palo Alto, CA |  | Simplify | 4d |
-| **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/aa505261-358c-4c80-b751-f50266dc366f/application) | Palo Alto, CA |  | Simplify | 4d |
-| **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/4c6b894c-1387-4195-af14-d83303468bb8/application) | Toronto, ON, Canada |  | Simplify | 4d |
 | **Sandisk** | [Graduate ASIC Verification Engineer - ASIC Verification Engineer](https://jobs.smartrecruiters.com/Sandisk/744000106900840) | Milpitas, CA |  | Simplify | 4d |
-| **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/6fc8696c-3675-46c2-a1bd-87294398452c/application) | Toronto, ON, Canada |  | Simplify | 4d |
 | **University of Texas - Austin** | [Software Design Engineering Scientist Associate](https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/PICKLE-RESEARCH-CAMPUS/Software-Design-Engineering-Scientist-Associate_R_00044244) | Austin, TX |  | Simplify | 4d |
 | **LexisNexis Risk Solutions** | [Software Engineer 1](https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions/job/Alameda-Rio-Negro/Software-Engineer-I_R107978) | Alameda, CA |  | Simplify | 4d |
 | **RELX** | [Software Engineer 1](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Alameda-Rio-Negro/Software-Engineer-I_R107978-1) | Alameda, CA |  | Simplify | 4d |
@@ -436,7 +432,6 @@
 | **ByteDance** | [Research Scientist Graduate - Foundation Model - Generative AI](https://jobs.bytedance.com/en/position/7593345683353012485/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3w |
 | **SpaceX** | [Mission Integration Engineer, User Products (Starshield)](https://boards.greenhouse.io/spacex/jobs/8247761002) | Hawthorne, CA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | LinkedIn | 3w |
 | **Adobe** | [2026 University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Applied-Research-Scientist_R160656) | Seattle, WA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 3w |
-| **Oscar Health** | [Data Scientist 1: Network and Contracts](http://www.hioscar.com/careers/7527160?gh_jid=7527160) | NYC | [$167k-193k](https://www.levels.fyi/companies/oscar-health/salaries) | Simplify | 3w |
 | **Oracle** | [Advanced Degree Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/311889/) | Santa Clara, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3w |
 | **Veeva Systems** | [Associate Software Engineer in Test - Tooling & Infrastructure](https://jobs.lever.co/veeva/8d86a229-0d65-46a4-838f-3e4da21960f9/apply) | Toronto, ON, Canada | [$130k-147k](https://www.levels.fyi/companies/veeva-systems/salaries) | Simplify | 3w |
 | **Ideogram** | [Software Engineer - ML Data Infrastructure](https://jobs.ashbyhq.com/ideogram/c6d67226-cca4-453d-b818-efd9d815e55f/application) | Toronto, ON, Canada, NYC | [$127.0k-145.0k](https://www.levels.fyi/companies/ideogram/salaries) | Simplify | 3w |
@@ -545,6 +540,7 @@
 | **Legrand NA** | [Product Manager 1](https://jobs-legrand.icims.com/jobs/9659/job?mobile=true&needsRedirect=false) | Markham, ON, Canada, Richardson, TX |  | Simplify | 1mo |
 | **Solace** | [Associate Software Engineer - College Grad 2026](https://jobs.ashbyhq.com/solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929) | Redwood City, CA |  | SpeedyApply | 1mo |
 | **StubHub** | [Software Engineer 2 - AI Enablement](https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4693600101) | Aliso Viejo, CA, Culver City, CA | [$250k-265k](https://www.levels.fyi/companies/stubhub/salaries) | Simplify | 1mo |
+| **Northrop Grumman** | [2026 Thermal Engineering Intern – Redondo Beach CA](https://jsv3.recruitics.com/redirect) | Redondo Beach, CA, US | [Levels.fyi](https://www.levels.fyi/companies/northrop-grumman/salaries) | Indeed | 1mo |
 | **Solace Health** | [Associate Software Engineer – College Grad 2026](https://jobs.ashbyhq.com/solace/d7906c8c-395f-4d6b-8e64-e2c7be52b929/application) | San Carlos, CA |  | Simplify | 1mo |
 | **Freeform** | [Materials Lab Technician](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7575047003) | West Athens, CA | [$205k-240k](https://www.levels.fyi/companies/freeform/salaries) | Simplify | 1mo |
 | **SpaceX** | [Software Engineer - Starlink Ground Network](https://boards.greenhouse.io/spacex/jobs/8342599002) | Redmond, WA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Simplify | 1mo |
