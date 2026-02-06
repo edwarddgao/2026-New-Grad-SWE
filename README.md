@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-06 08:40
+**Last updated:** 2026-02-06 09:42
 
-**Total:** 1409 jobs from 528 companies
+**Total:** 1410 jobs from 529 companies
 
 ---
 
@@ -52,10 +52,10 @@
 | **The New York Public Library** | [Software Engineer 1 - Frontend - Scholarly Ebooks](https://nypl.pinpointhq.com/en/postings/87ac8925-1296-46bb-98bb-81eb4aabd6ad?ats=pinpointhq) | NYC |  | Simplify | 1d |
 | **M&T Bank** | [Technology Development Program - Software Engineering](https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/XMLNAME-2026-Technology-Development-Program---Software-Engineering--Buffalo-_R80408) | Buffalo, NY |  | Simplify | 1d |
 | **Energy Solutions** | [Software Technical Support I](https://job-boards.greenhouse.io/energysolutions/jobs/5027095007) | New York, NY |  | SpeedyApply | 1d |
+| **Lensa** | [Software Engineering - Summer 2027 Internship](https://lensa.com/cgw/fceb41248dd04f66a6b942bfd6c8fb40tjo1) | New York, NY |  | LinkedIn | 1d |
 | **Lensa** | [Entry Level Transportation Engineer](https://lensa.com/cgw/bb89c3019b9044e3b3654a0b2e067f06tjo1) | Sacramento, CA |  | LinkedIn | 1d |
 | **Samsung Electronics** | [Software Development (SDET) Internship](https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Development--SDET--Internship_R114109) | Mountain View, CA, US |  | Indeed | 1d |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/f1009baeb550478d8e723b8f606eeb7atjo1) | Greenlawn, NY |  | LinkedIn | 1d |
-| **Lensa** | [Software Engineering - Summer 2027 Internship](https://lensa.com/cgw/fceb41248dd04f66a6b942bfd6c8fb40tjo1) | New York, NY |  | LinkedIn | 1d |
 | **StubHub** | [Software Engineer 1 - Infrastructure](https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4773787101) | NYC | [$250k-265k](https://www.levels.fyi/companies/stubhub/salaries) | Simplify | 2d |
 | **Sandia National Laboratories** | [R&D Systems Engineer - W87-1 Flight Test Team, Onsite](https://cg.sandia.gov/psc/applicant/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL) | Livermore, CA, US | $121k-237k | Indeed | 2d |
 | **ServiceNow** | [Associate Software Engineer - Core Infrastructure](https://jobs.smartrecruiters.com/ServiceNow/744000107369741) | Mountain View, CA | [$143k-179k](https://www.levels.fyi/companies/servicenow/salaries) | Simplify | 2d |
@@ -244,6 +244,7 @@
 | **Uncountable** | [Product Manager](https://jobs.ashbyhq.com/uncountable/1f8425be-cd39-4397-a9c1-6511ecfc39fc) | San Francisco, New York, London |  | Simplify | 1w |
 | **AtkinsRéalis** | [Water Quality Modeller](https://slihrms.wd3.myworkdayjobs.com/careers/job/GBBirmingham---Chamberlain-Square/Water-Quality-Modeller_R-144603) | London, UK, Croydon, UK, Cardiff, UK,... |  | Simplify | 1w |
 | **Arcadis** | [Transit Technology Analyst](https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37480) | Toronto, ON, Canada |  | Simplify | 1w |
+| **Qualitest** | [Data Collection Associate](https://careers.qualitestgroup.com/job/Santa-Clara-Data-Collection-Associate-CA-95054/51922844/?ats=successfactors) | Redmond, WA, Kirkland, WA |  | Simplify | 1w |
 | **Emerson Electric** | [Hardware Technician 1](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26000383) | Austin, TX |  | Simplify | 1w |
 | **GE Vernova** | [Embedded SW Development](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/Embedded-SW-Development_R5030299-1) | Rochester, NY |  | Simplify | 1w |
 | **Brookhaven Lab** | [Postdoctoral Researcher](https://bnl.wd1.myworkdayjobs.com/externa/job/Upton-NY/Postdoctoral-Researcher_JR102228) | Shirley, NY |  | Simplify | 1w |
@@ -1294,7 +1295,6 @@
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **JPMorganChase** | [Software Engineer [Multiple Positions Available]](https://JPMorganChase.contacthr.com/150920382&urlHash=qLxk) | Palo Alto, CA | [$95k-130k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | LinkedIn |  |
 | **Raytheon** | [2026 Full-time - Software Engineer I - Onsite (CA)](https://careers.rtx.com/global/en/job/RAYTGLOBAL01821318EXTERNALENGLOBAL/2026-Full-time-Software-Engineer-I-Onsite-CA) | Goleta, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | LinkedIn |  |
-| **FERMÀT** | [Software Engineer, New Grad](https://job-boards.greenhouse.io/fermat/jobs/4092230009) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1421,6 +1421,7 @@
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/905ba0b7262a4218a68a1591ec4a9dbbtjo1) | San Diego, CA |  | LinkedIn |  |
 | **FurtherAI** | [Software/AI Engineer (New Grad)](https://jobs.ashbyhq.com/furtherai/282de7b6-0117-4e7a-b1f6-c2d256af4a47/application) | San Francisco, CA |  | LinkedIn |  |
 | **WayUp** | [Boeing, Entry Level Software Engineers (Developer) - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Entry-Level-Software-Engineers-Developer-Boeing-148729399589453/) | El Segundo, CA |  | LinkedIn |  |
+| **FERMÀT** | [Software Engineer, New Grad](https://job-boards.greenhouse.io/fermat/jobs/4092230009) | San Francisco, CA |  | LinkedIn |  |
 
 ---
 
