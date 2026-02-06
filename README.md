@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-06 11:33
+**Last updated:** 2026-02-06 12:57
 
-**Total:** 1410 jobs from 529 companies
+**Total:** 1409 jobs from 529 companies
 
 ---
 
@@ -52,10 +52,10 @@
 | **The New York Public Library** | [Software Engineer 1 - Frontend - Scholarly Ebooks](https://nypl.pinpointhq.com/en/postings/87ac8925-1296-46bb-98bb-81eb4aabd6ad?ats=pinpointhq) | NYC |  | Simplify | 1d |
 | **M&T Bank** | [Technology Development Program - Software Engineering](https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/XMLNAME-2026-Technology-Development-Program---Software-Engineering--Buffalo-_R80408) | Buffalo, NY |  | Simplify | 1d |
 | **Energy Solutions** | [Software Technical Support I](https://job-boards.greenhouse.io/energysolutions/jobs/5027095007) | New York, NY |  | SpeedyApply | 1d |
-| **Lensa** | [Entry Level Transportation Engineer](https://lensa.com/cgw/bb89c3019b9044e3b3654a0b2e067f06tjo1) | Sacramento, CA |  | LinkedIn | 1d |
 | **Samsung Electronics** | [Software Development (SDET) Internship](https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Development--SDET--Internship_R114109) | Mountain View, CA, US |  | Indeed | 1d |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/f1009baeb550478d8e723b8f606eeb7atjo1) | Greenlawn, NY |  | LinkedIn | 1d |
 | **Lensa** | [Software Engineering - Summer 2027 Internship](https://lensa.com/cgw/fceb41248dd04f66a6b942bfd6c8fb40tjo1) | New York, NY |  | LinkedIn | 1d |
+| **Lensa** | [Entry Level Transportation Engineer](https://lensa.com/cgw/bb89c3019b9044e3b3654a0b2e067f06tjo1) | Sacramento, CA |  | LinkedIn | 1d |
 | **StubHub** | [Software Engineer 1 - Infrastructure](https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4773787101) | NYC | [$250k-265k](https://www.levels.fyi/companies/stubhub/salaries) | Simplify | 2d |
 | **Sandia National Laboratories** | [R&D Systems Engineer - W87-1 Flight Test Team, Onsite](https://cg.sandia.gov/psc/applicant/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL) | Livermore, CA, US | $121k-237k | Indeed | 2d |
 | **ServiceNow** | [Associate Software Engineer - Core Infrastructure](https://jobs.smartrecruiters.com/ServiceNow/744000107369741) | Mountain View, CA | [$143k-179k](https://www.levels.fyi/companies/servicenow/salaries) | Simplify | 2d |
@@ -693,7 +693,6 @@
 | **Stackline** | [Data Scientist 1](https://job-boards.greenhouse.io/stackline/jobs/4633616005) | Seattle, WA |  | Simplify | 2mo |
 | **The Allen Institute for AI** | [Young Investigator - Flexolmo](https://job-boards.greenhouse.io/thealleninstitute/jobs/7417128) | Berkeley, CA |  | Simplify | 2mo |
 | **Altos Labs** | [Machine Learning Engineer/Scientist - Multi Modality](https://job-boards.greenhouse.io/altoslabs/jobs/5709084004) | SF, San Diego, CA | [$241k-280k](https://www.levels.fyi/companies/altos-labs/salaries) | Simplify | 2mo |
-| **Analog Devices** | [Digital Design Engineer](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Chelmsford-Alpha/Digital-Design-Engineer_R255049) | Toronto, ON, Canada, Centennial, CO, ... | [$88k-123k](https://www.levels.fyi/companies/analog-devices/salaries) | Simplify | 2mo |
 | **Northwood Space** | [Global Sites Engineer – Early Career](https://jobs.ashbyhq.com/NorthwoodSpace/baa85b78-5718-4e74-9b21-170776dc4185/application) | Carson, CA |  | Simplify | 2mo |
 | **Regeneron Pharmaceuticals** | [Process Development Engineer 3 - Data Enablement and Analytics - DEA/PMPD](https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/PDE-III--Data-Enablement-and-Analytics--DEA-PMPD-_R43767) | Tarrytown, NY |  | Simplify | 2mo |
 | **University of Texas - Austin** | [Postdoctoral Fellow](https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/AUSTIN-TX/Postdoctoral-Fellow_R_00030888) | Austin, TX |  | Simplify | 2mo |
