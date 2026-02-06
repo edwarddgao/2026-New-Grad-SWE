@@ -2161,19 +2161,19 @@
       "experience_level": null
     },
     "https://careers.healthfirst.org/careersmarketplace/ApplicationMethods": {
-      "id": "indeed_in-2b531e8b58fed725",
-      "title": "2026 Technology Early Career Development Program - Data//Cloud Engineer",
+      "id": "indeed_in-64cf26d8fa8b2a20",
+      "title": "Data Engineering Intern (Operations Analytics and Reporting) - 2026 Summer Internship",
       "company": "Healthfirst (New York)",
       "company_slug": "healthfirst-new-york",
       "location": "New York, NY, US",
       "url": "https://careers.healthfirst.org/careersmarketplace/ApplicationMethods",
       "source": "indeed",
       "date_posted": "2026-01-13",
-      "salary_min": 57500,
-      "salary_max": 90440,
+      "salary_min": 34900,
+      "salary_max": 54080,
       "sponsorship": null,
       "remote": false,
-      "description": "The Technology Associate is a role intended to create meaningful experiences for recent college graduates who have a passion for a future in technology through the Healthfirst Technology Early Career Development Program. This is a full\\-time role that provides an immersive and rigorous technology experience, that lays a meaningful foundation for continued growth, development, and leadership within IT. Technology Associates do impactful work collaborating with Healthfirst employees and leaders at",
+      "description": "Healthfirst\u2019s 2026 Summer Trailblazer Internship is a 10\\-week paid program beginning on June 1, 2026\\. This is an immersive and interactive learning experience, that lays a foundation for continued leadership development. Interns do impactful work, collaborating with other interns, employees, and business leaders to solve current business problems and deliver solutions.**Who We Are:**\n\n\nFor nearly 30 years, Healthfirst has been serving New Yorkers. We helped pioneer the value\\-based healthcare ",
       "experience_level": null
     },
     "https://careers.gene.com/us/en/job/202601-100648/2026-Summer-Intern-DDC-Applied-AI-Engineer-Agents-Evaluation": {
@@ -5528,7 +5528,7 @@
       "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/fermat/jobs/4092230009",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-05",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -5585,5 +5585,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-06T22:22:59.800216"
+  "updated": "2026-02-06T23:25:52.005193"
 }
