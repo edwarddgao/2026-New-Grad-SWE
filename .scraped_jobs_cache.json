@@ -5256,7 +5256,7 @@
       "location": "New York, NY",
       "url": "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4773787101",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-05",
       "salary_min": 125000,
       "salary_max": 150000,
       "sponsorship": null,
@@ -5519,7 +5519,23 @@
       "remote": false,
       "description": "Our Company\n  \n  \n\nChanging the world through digital experiences is what Adobe\u2019s all about. We give everyone\u2014from emerging artists to global brands\u2014everything they need to design and deliver exceptional digital experiences! We\u2019re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.\n  \n  \n\nWe\u2019re on a mission to hire the very best and are committed to creating exceptional employee exp",
       "experience_level": null
+    },
+    "https://job-boards.greenhouse.io/fermat/jobs/4092230009": {
+      "id": "linkedin_li-4369149668",
+      "title": "Software Engineer, New Grad",
+      "company": "FERM\u00c0T",
+      "company_slug": "ferm-t",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/fermat/jobs/4092230009",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "FERM\u00c0T is the AI native commerce platform that optimizes shopping experiences, leading to best\\-in\\-class shopper engagement and conversion. We help brands transform clicks into conversions with dynamic, personalized shopping experiences\u2014built and optimized in minutes.\n   \n\n  \n\n Backed by VMG, Bain Capital Ventures, Greylock, QED, and named The Information\u2019s \\#1 commerce startup, we\u2019re a 70\\+ person team based in SF, Austin, NYC, and Bangalore. As a fast\\-growing Series B company, we\u2019re building",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-06T01:58:53.698870"
+  "updated": "2026-02-06T04:18:09.344191"
 }
