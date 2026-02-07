@@ -4952,7 +4952,7 @@
       "location": "Goleta, CA",
       "url": "https://careers.rtx.com/global/en/job/RAYTGLOBAL01821318EXTERNALENGLOBAL/2026-Full-time-Software-Engineer-I-Onsite-CA",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-06",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -5058,7 +5058,7 @@
     },
     "https://cg.sandia.gov/psc/applicant/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL": {
       "id": "indeed_in-e32f5c05a06c2ae7",
-      "title": "Early Career Systems Engineer - W87-1 Flight Test Team, CA , Onsite",
+      "title": "Early Career Systems Engineer - W87-1 Flight Test Team, Onsite",
       "company": "Sandia National Laboratories",
       "company_slug": "sandia-national-laboratories",
       "location": "Livermore, CA, US",
@@ -5407,7 +5407,55 @@
       "remote": false,
       "description": "Are you looking for a unique opportunity to be a part of something great? Want to join a 17,000\\-member team that works on the technology that powers the world around us? Looking for an atmosphere of trust, empowerment, respect, diversity, and communication? How about an opportunity to own a piece of a multi\\-billion dollar (with a B!) global organization? We offer all that and more at Microchip Technology Inc.\nPeople come to work at Microchip because we help design the technology that runs the ",
       "experience_level": null
+    },
+    "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4763976101": {
+      "id": "linkedin_li-4370109100",
+      "title": "Software Engineer I - Marketplace Operations (New Grad)",
+      "company": "StubHub",
+      "company_slug": "stubhub",
+      "location": "New York, NY",
+      "url": "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4763976101",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": 120000,
+      "salary_max": 150000,
+      "sponsorship": null,
+      "remote": true,
+      "description": "StubHub is on a mission to redefine the live event experience on a global scale. Whether someone is looking to attend their first event or their hundredth, we\u2019re here to delight them all the way from the moment they start looking for a ticket until they step through the gate. The same goes for our sellers. From fans selling a single ticket to the promoters of a worldwide stadium tour, we want StubHub to be the safest, most convenient way to offer a ticket to the millions of fans who browse our p",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/926236d529e54a4ab9cc8d101627679etjo1": {
+      "id": "linkedin_li-4369749457",
+      "title": "Entry Level Designer/Engineer in Training, Mechanical",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Francisco, CA",
+      "url": "https://lensa.com/cgw/926236d529e54a4ab9cc8d101627679etjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Stantec. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy no",
+      "experience_level": null
+    },
+    "https://apptrkr.com/6909372": {
+      "id": "indeed_in-0fc190991b3f0c1a",
+      "title": "Associate Development Engineer (4758C) - EECS",
+      "company": "University of California Berkeley",
+      "company_slug": "university-of-california-berkeley",
+      "location": "Berkeley, CA, US",
+      "url": "https://apptrkr.com/6909372",
+      "source": "indeed",
+      "date_posted": "2026-02-06",
+      "salary_min": 88900,
+      "salary_max": 126400,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Associate Development Engineer (4758C) \\- EECS About Berkeley\n  \n  \n\nAt the University of California, Berkeley, we are dedicated to fostering a community where everyone feels welcome and can thrive. Our culture of openness, freedom and belonging make it a special place for students, faculty and staff.\n  \n  \n\nAs a world\\-leading institution, Berkeley is known for its academic and research excellence, public mission, diverse student body, and commitment to equity and social justice. Since our foun",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-07T01:55:18.784512"
+  "updated": "2026-02-07T04:09:21.683714"
 }
