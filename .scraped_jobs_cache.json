@@ -3793,11 +3793,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353673355",
+      "id": "linkedin_li-4353566224",
       "title": "Entry Level Software Developer 2026",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "San Jose, CA",
+      "location": "Research Park, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2026-01-27",
@@ -5455,7 +5455,23 @@
       "remote": false,
       "description": "Associate Development Engineer (4758C) \\- EECS About Berkeley\n  \n  \n\nAt the University of California, Berkeley, we are dedicated to fostering a community where everyone feels welcome and can thrive. Our culture of openness, freedom and belonging make it a special place for students, faculty and staff.\n  \n  \n\nAs a world\\-leading institution, Berkeley is known for its academic and research excellence, public mission, diverse student body, and commitment to equity and social justice. Since our foun",
       "experience_level": null
+    },
+    "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/": {
+      "id": "linkedin_li-4363833027",
+      "title": "Undergrad Software Engineer - Fusion",
+      "company": "Oracle",
+      "company_slug": "oracle",
+      "location": "Pleasanton, CA",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Responsibilities**\n**JOB DESCRIPTION**\n**The Program:**\n Our future success depends on hiring great people like you: elite, early in career talent who are looking to power next\\-generation services and solutions and are committed to crafting a better future. We are hiring bachelor\u2019s, master\u2019s, and doctorate graduates with a diverse set of skills and experiences to work in and across multiple teams within the Applications Development organization. Our program is intended to enhance your overall",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-07T10:25:45.613212"
+  "updated": "2026-02-07T11:22:39.136495"
 }
