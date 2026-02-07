@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-07 08:31
+**Last updated:** 2026-02-07 09:30
 
 **Total:** 1410 jobs from 525 companies
 
@@ -84,13 +84,13 @@
 | **Fortive** | [Calibration Technician](https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8949) | Everett, WA |  | Simplify | 2d |
 | **The New York Public Library** | [Software Engineer 1 - Frontend - Scholarly Ebooks](https://nypl.pinpointhq.com/en/postings/87ac8925-1296-46bb-98bb-81eb4aabd6ad?ats=pinpointhq) | NYC |  | Simplify | 2d |
 | **Energy Solutions** | [Software Technical Support I](https://job-boards.greenhouse.io/energysolutions/jobs/5027095007) | New York, NY |  | SpeedyApply | 2d |
-| **FurtherAI** | [Software/AI Engineer (New Grad)](https://jobs.ashbyhq.com/furtherai/282de7b6-0117-4e7a-b1f6-c2d256af4a47/application) | San Francisco, CA |  | LinkedIn | 2d |
-| **FERMÀT** | [Software Engineer, New Grad](https://job-boards.greenhouse.io/fermat/jobs/4092230009) | San Francisco, CA |  | LinkedIn | 2d |
+| **WayUp** | [Boeing, Entry Level Software Engineers (Developer) - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Entry-Level-Software-Engineers-Developer-Boeing-148729399589453/) | El Segundo, CA |  | LinkedIn | 2d |
 | **Samsung Electronics** | [Software Development (SDET) Internship](https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Development--SDET--Internship_R114109) | Mountain View, CA, US |  | Indeed | 2d |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/f1009baeb550478d8e723b8f606eeb7atjo1) | Greenlawn, NY |  | LinkedIn | 2d |
 | **Lensa** | [Software Engineering - Summer 2027 Internship](https://lensa.com/cgw/fceb41248dd04f66a6b942bfd6c8fb40tjo1) | New York, NY |  | LinkedIn | 2d |
 | **Lensa** | [Entry Level Transportation Engineer](https://lensa.com/cgw/bb89c3019b9044e3b3654a0b2e067f06tjo1) | Sacramento, CA |  | LinkedIn | 2d |
-| **WayUp** | [Boeing, Entry Level Software Engineers (Developer) - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Entry-Level-Software-Engineers-Developer-Boeing-148729399589453/) | El Segundo, CA |  | LinkedIn | 2d |
+| **FurtherAI** | [Software/AI Engineer (New Grad)](https://jobs.ashbyhq.com/furtherai/282de7b6-0117-4e7a-b1f6-c2d256af4a47/application) | San Francisco, CA |  | LinkedIn | 2d |
+| **FERMÀT** | [Software Engineer, New Grad](https://job-boards.greenhouse.io/fermat/jobs/4092230009) | San Francisco, CA |  | LinkedIn | 2d |
 | **StubHub** | [Software Engineer 1 - Infrastructure](https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4773787101) | NYC | [$250k-265k](https://www.levels.fyi/companies/stubhub/salaries) | Simplify | 3d |
 | **Sandia National Laboratories** | [Early Career Systems Engineer - W87-1 Flight Test Team, Onsite](https://cg.sandia.gov/psc/applicant/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL) | Livermore, CA, US | $121k-237k | Indeed | 3d |
 | **ServiceNow** | [Associate Software Engineer - Core Infrastructure](https://jobs.smartrecruiters.com/ServiceNow/744000107369741) | Mountain View, CA | [$143k-179k](https://www.levels.fyi/companies/servicenow/salaries) | Simplify | 3d |
@@ -1296,6 +1296,7 @@
 | **ChatGPT Jobs** | [Software Engineer I - Direct Issuance (New Grad)](https://chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=zRVf) | El Segundo, CA | $120k-150k | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
+| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/926236d529e54a4ab9cc8d101627679etjo1) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1421,7 +1422,6 @@
 | **BD** | [Systems Engineer](https://jobs.bd.com/job/-/-/159/91306285712) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [2026 Entry Level Software Engineer](https://lensa.com/cgw/905ba0b7262a4218a68a1591ec4a9dbbtjo1) | San Diego, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/2ccb7c5b8d244074a6c83e1cb166d652tjo1) | San Francisco, CA |  | LinkedIn |  |
-| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/926236d529e54a4ab9cc8d101627679etjo1) | San Francisco, CA |  | LinkedIn |  |
 
 ---
 
