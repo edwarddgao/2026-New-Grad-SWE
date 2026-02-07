@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-07 15:25
+**Last updated:** 2026-02-07 16:29
 
 **Total:** 1401 jobs from 524 companies
 
@@ -43,8 +43,8 @@
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/07c401fe-bfeb-496b-8e53-8fb818a8ff7a/application) | Toronto, ON, Canada |  | Simplify | 1d |
 | **Ball Aerospace** | [Entry Level Software Configuration Management Analyst](https://jobs.baesystems.com/global/en/job/BAE1US120941BREXTERNAL/Entry-Level-Software-Configuration-Management-Analyst) | San Diego, California, United States |  | SpeedyApply | 1d |
 | **FurtherAI** | [Software/AI Engineer - New Grad](https://jobs.ashbyhq.com/furtherai/282de7b6-0117-4e7a-b1f6-c2d256af4a47) | San Francisco |  | SpeedyApply | 1d |
-| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/926236d529e54a4ab9cc8d101627679etjo1) | San Francisco, CA |  | LinkedIn | 1d |
 | **Liatrio** | [Apprentice DevOps Engineer](https://jobs.lever.co/liatrio/71b9f45b-37ef-4c62-a0b4-7f26a804b495) | Chico, CA, US |  | Indeed | 1d |
+| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/926236d529e54a4ab9cc8d101627679etjo1) | San Francisco, CA |  | LinkedIn | 1d |
 | **SpaceX** | [Full Stack Software Engineer](https://boards.greenhouse.io/spacex/jobs/8398604002) | Redmond, WA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Simplify | 2d |
 | **Adobe** | [Software Development Engineer, Acrobat Web Platform](https://careers.adobe.com/us/en/job/ADOBUSR164978EXTERNALENUS/Software-Development-Engineer-Acrobat-Web-Platform) | San Jose, CA, US | [$114k-214k](https://www.levels.fyi/companies/adobe/salaries) | Indeed | 2d |
 | **NVIDIA** | [Research Scientist - Electronic Design Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2d |
