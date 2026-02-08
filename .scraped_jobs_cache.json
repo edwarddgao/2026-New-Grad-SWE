@@ -5304,7 +5304,7 @@
       "location": "New York, NY",
       "url": "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4763976101",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-07",
       "salary_min": 120000,
       "salary_max": 150000,
       "sponsorship": null,
@@ -5407,7 +5407,39 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Stantec. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy no",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/f7528e3dd782450d9b918696606b8aa1tjo1": {
+      "id": "linkedin_li-4370192681",
+      "title": "Entry Level Software Developer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "New York, NY",
+      "url": "https://lensa.com/cgw/f7528e3dd782450d9b918696606b8aa1tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for SkillStorm. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy",
+      "experience_level": null
+    },
+    "https://click.appcast.io/t/mcEVrRkffFQzc1trR0iaO12YNwkv9kiNyost2AbRhTg=&urlHash=1IFk": {
+      "id": "linkedin_li-4370040839",
+      "title": "Intern - Software Engineer",
+      "company": "Jobs via Dice",
+      "company_slug": "jobs-via-dice",
+      "location": "California, United States",
+      "url": "https://click.appcast.io/t/mcEVrRkffFQzc1trR0iaO12YNwkv9kiNyost2AbRhTg=&urlHash=1IFk",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Our Mission**\n At Palo Alto Networks , we're united by a shared mission\\-to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real\\-world problems with cutting\\-edge technology and bold thinking. Here, everyone has a voice, and every idea counts. If you're ready to do the most meaningful work of your career alongside people who are just as passionate as you are, you're in the right place.\n   \n\n  \n\n**Who We Are**\n In order to be the cybersecurity p",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-08T06:48:52.445666"
+  "updated": "2026-02-08T07:39:23.050909"
 }
