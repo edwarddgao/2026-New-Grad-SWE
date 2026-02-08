@@ -5471,7 +5471,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for IBM. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy notice",
       "experience_level": null
+    },
+    "https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application": {
+      "id": "linkedin_li-4332086664",
+      "title": "Agent Engineer (New Grad, Summer 2026)",
+      "company": "Assort Health",
+      "company_slug": "assort-health",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Our mission is to make exceptional healthcare accessible anytime, anywhere, for everyone.**\n At Assort Health, we believe healthcare should feel effortless and connected \u2014 quick answers, clear communication, and seamless access to care. That\u2019s why we\u2019re building a new foundation for how patients and providers connect, driven by AI, built to embrace the complexities of healthcare, and tailored to each provider\u2019s unique needs.\n   \n\n  \n\n Assort is the most comprehensive patient experience platfor",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-08T11:23:07.079120"
+  "updated": "2026-02-08T12:47:37.742245"
 }
