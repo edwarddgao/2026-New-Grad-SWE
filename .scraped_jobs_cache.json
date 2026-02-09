@@ -3537,11 +3537,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353566224",
+      "id": "linkedin_li-4353673355",
       "title": "Entry Level Software Developer 2026",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "Research Park, CA",
+      "location": "San Jose, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2026-01-27",
@@ -5359,7 +5359,23 @@
       "remote": false,
       "description": "**Job Description**\n Are you passionate about crafting software that solves real\\-world problems and shapes the future of an entire industry? The Verisk team is seeking a proactive and results\\-driven entry\\-level Software Engineer to develop sophisticated solutions for the insurance industry's complex business challenges and further enhance our industry\\-leading products.\n   \n\n  \n\n You will have the opportunity to make an impact and contribute to a complex application suite of products, mission",
       "experience_level": null
+    },
+    "https://jsv3.recruitics.com/redirect": {
+      "id": "indeed_in-cb5e94f2bb3c6c16",
+      "title": "Machine Learning Engineer - Proximity Systems and Intelligence Team",
+      "company": "Apple",
+      "company_slug": "apple",
+      "location": "San Diego, CA, US",
+      "url": "https://jsv3.recruitics.com/redirect",
+      "source": "indeed",
+      "date_posted": "2026-02-06",
+      "salary_min": 139500,
+      "salary_max": 258100,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Our mission is to provide an intelligent and rich user experience on Apple devices using spatial awareness and device context. We help you find your keys, locate your AirPods, remind you if you leave your devices behind in untrusted locations, and let you know how long your commute will be. We also help your loved ones know you made it home safely and help protect you against unwanted tracking. We have an opening for an experienced Machine Learning engineer for our small but growing team. The te",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-09T17:53:44.766522"
+  "updated": "2026-02-09T20:04:07.562123"
 }
