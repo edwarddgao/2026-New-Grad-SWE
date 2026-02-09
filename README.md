@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-09 21:39
+**Last updated:** 2026-02-09 22:35
 
-**Total:** 1388 jobs from 519 companies
+**Total:** 1387 jobs from 518 companies
 
 ---
 
@@ -20,7 +20,6 @@
 | **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/7bb23133-e09d-4804-be90-4217fd951738/application) | Toronto, ON, Canada |  | Simplify | 0d |
 | **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/6a0dd919-cede-4047-bfc1-2e055bbdebed/application) | Palo Alto, CA |  | Simplify | 0d |
 | **GigaML** | [Software Engineer - New Grads](https://jobs.ashbyhq.com/gigaml/cb74c445-322b-47fc-804c-b0565e18ca3a) | San Francisco |  | SpeedyApply | 0d |
-| **LinkedIn** | [Software Engineer - Frontend - Media SDK Team](https://jobs.smartrecruiters.com/LinkedIn3/744000108014435) | Mountain View, CA | [$160k-177k](https://www.levels.fyi/companies/microsoft/salaries) | Simplify | 1d |
 | **Hewlett Packard Enterprise** | [Software Engineer I](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Roseville-California-United-States-of-America/Software-Engineer-I_1202397-2) | Roseville, California, United States ... | [$100k-130k](https://www.levels.fyi/companies/hpe/salaries) | SpeedyApply | 1d |
 | **Hewlett Packard Enterprise** | [Software Engineer I](https://hpe.wd5.myworkdayjobs.com/en-US/wfmathpe/job/Roseville-California-United-States-of-America/Software-Engineer-I_1202397-1) | Roseville, California, United States ... | [$100k-130k](https://www.levels.fyi/companies/hpe/salaries) | SpeedyApply | 1d |
 | **Hewlett Packard Enterprise** | [Software Engineer I](https://hpe.wd5.myworkdayjobs.com/en-US/acjobsite/job/Roseville-California-United-States-of-America/Software-Engineer-I_1202397) | Roseville, California, United States ... | [$100k-130k](https://www.levels.fyi/companies/hpe/salaries) | SpeedyApply | 1d |
@@ -299,7 +298,6 @@
 | **Sono-Tek Corporation** | [Software Engineer 1](https://careers-councilofindustry.icims.com/jobs/4963/job?mobile=true&needsRedirect=false) | Saratoga County, NY |  | Simplify | 2w |
 | **iSoftStone** | [Data Analyst](https://jobs.jobvite.com/isoftstone/job/o0mGxfwj?nl=1&nl=1&fr=false) | Menlo Park, CA |  | Simplify | 2w |
 | **Legrand NA** | [Firmware Engineer 1](https://jobs-legrand.icims.com/jobs/9742/job?mobile=true&needsRedirect=false) | Carlsbad, CA |  | Simplify | 2w |
-| **SpotOn** | [Product Partnerships Manager](https://job-boards.greenhouse.io/spotonproduct/jobs/7605161003) | Austin, TX |  | Simplify | 2w |
 | **NVIDIA** | [AI ML Engineer, RTL Power Optimization – New College Grad 2026](https://click.appcast.io/t/f64pwN9jBkExodX7nk2i2jLKm4EX1PMF03EGCviFFYQ=) | Santa Clara, CA, US | [$116k-218k](https://www.levels.fyi/companies/nvidia/salaries) | Indeed | 2w |
 | **NVIDIA** | [Applied Machine Learning Engineer, Circuit Design - New College Grad 2026](https://click.appcast.io/t/fqOn7Y-MkvZu33YFVXhOKLHc4ccQ1vdh088Kw3zZ7rY=) | Santa Clara, CA, US | [$116k-218k](https://www.levels.fyi/companies/nvidia/salaries) | Indeed | 2w |
 | **NVIDIA** | [AI ML Engineer - RTL Power Optimization](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-ML-Engineer--RTL-Power-Optimization---New-College-Grad-2026_JR2011172) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2w |
@@ -381,6 +379,7 @@
 | **Onyx Games** | [Backend Software Engineer](https://jobs.ashbyhq.com/Onyx%20Games%20LLC/aedc88f3-8a00-4c87-bf85-9450f802f591) | New York, NY, US | $170k-250k | Indeed | 3w |
 | **IBM** | [Entry Level AI Software Engineer](https://careers.ibm.com/en_US/careers/JobDetail) | Research Park, CA | [$80k-170k](https://www.levels.fyi/companies/ibm/salaries) | LinkedIn | 3w |
 | **NetApp** | [Software Engineer](https://dsp.prng.co/jj9JKLb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn | 3w |
+| **PwC** | [Software Engineering - Summer 2027 Internship](https://ad.doubleclick.net/ddm/clk/438405794;254302458;m) | New York, NY | [$11.0k](https://www.levels.fyi/companies/pwc/salaries) | LinkedIn | 3w |
 | **Bloom Energy** | [Software Engineering Intern - Automation](https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/Software-Engineering-Intern\u002d\u002d-Automation_JR-20625) | San Jose, CA |  | LinkedIn | 3w |
 | **CLEAR** | [Software Engineering Intern (Summer 2026)](https://grnh.se/n4iyalh71us) | New York, NY, US |  | Indeed | 3w |
 | **SpaceX** | [New Graduate Engineer - Software - Starlink](https://boards.greenhouse.io/spacex/jobs/8376990002) | Redmond, WA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Simplify | 3w |

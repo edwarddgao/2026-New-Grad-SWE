@@ -3537,11 +3537,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353673355",
+      "id": "linkedin_li-4353566224",
       "title": "Entry Level Software Developer 2026",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "San Jose, CA",
+      "location": "Research Park, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2026-01-27",
@@ -5409,5 +5409,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-09T21:39:11.235294"
+  "updated": "2026-02-09T22:35:32.442565"
 }
