@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-09 07:57
+**Last updated:** 2026-02-09 08:57
 
-**Total:** 1394 jobs from 524 companies
+**Total:** 1393 jobs from 524 companies
 
 ---
 
@@ -250,7 +250,6 @@
 | **WSP** | [Early Career Geologist](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/79442) | Elmira, NY |  | Simplify | 1w |
 | **Etched.ai** | [Board Bring-Up Specialist - Validation Engineering](https://jobs.ashbyhq.com/Etched/74710ea6-471c-48d0-885b-70c5b85ab5fc/application) | San Jose, CA |  | Simplify | 1w |
 | **Parallel Web Systems** | [Early Career Research Engineer](https://jobs.ashbyhq.com/parallel/056e41f8-7d5f-41c1-99fd-bf002dc072fd/application) | Palo Alto, CA |  | Simplify | 1w |
-| **University of Texas - Austin** | [Research Engineer/Scientist Assistant](https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/UT-MAIN-CAMPUS/Research-Engineering--Scientist-Assistant_R_00044277) | Austin, TX |  | Simplify | 1w |
 | **iHeartMedia** | [Board Operator/Producer - Board Operations - Production](https://iheartmedia.wd5.myworkdayjobs.com/External_iHM/job/Austin-TX-5001-Plaza-On-the-Lake-Suite-105-78746/Board-Operator-Producer_Req37748-2) | Austin, TX |  | Simplify | 1w |
 | **University of Texas - Austin** | [R&D Software Engineer - Esa](https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/PICKLE-RESEARCH-CAMPUS/R-D-Software-Engineer--ESA-_R_00044000) | Austin, TX |  | Simplify | 1w |
 | **Brightree** | [Associate Engineer - Software Test Engineering](https://resmed.wd3.myworkdayjobs.com/en-US/Brightree_External_Careers/job/San-Diego-CA-United-States/Associate-Engineer--Software-Test-Engineering_JR_047234) | San Diego, CA |  | SpeedyApply | 1w |
