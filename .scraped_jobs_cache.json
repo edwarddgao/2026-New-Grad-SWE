@@ -3537,8 +3537,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4353566224",
-      "title": "Entry Level Software Developer 2026",
+      "id": "linkedin_li-4348557063",
+      "title": "Entry Level AI Software Engineer",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "Research Park, CA",
@@ -3549,7 +3549,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n**About**\n Are you passionate about building innovative solutions that power the future of enterprise technology? IBM Infrastructure is seeking talented Software Developers across multiple disciplines:\n   \n\n  \n\n Back\\-End Development\n   \n\n  \n\n Front\\-End Development\n   \n\n  \n\n Data Science\n   \n\n  \n\n As part of our dynamic team, you\u2019ll collaborate with designers, engineers, and product managers to create responsive, user\\-friendly applications using modern web technologies. You\u2019ll",
+      "description": "**Introduction**\n At IBM, work is more than a job \\- it's a calling: To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. Are you ready to lead in this new era of technology and solve some of the world's most challenging problems? If so, lets talk\n   \n\n  \n\n**Your Role And Responsibilities**\n The AI Center of Excellence is seeking a skilled A",
       "experience_level": null
     },
     "http://careers.viasat.com/jobs/5362/job": {
@@ -5407,7 +5407,39 @@
       "remote": false,
       "description": "**Position Summary**\n We are seeking an Associate Software Engineer to help build and support Gantry, our internal manufacturing software platform used to scale the production and testing of UAS products. This is an entry\\-level role focused on developing reliable, easy\\-to\\-use tools that operators and technicians rely on every day on the production floor.\n   \n\n  \n\n In this role, you will contribute to QT\\-based desktop applications, test automation, and manufacturing utilities that support ass",
       "experience_level": null
+    },
+    "https://trilongroup.pinpointhq.com/postings/70834e69-c089-451d-b5a5-75a5a579c871": {
+      "id": "indeed_in-a337cfc13316611a",
+      "title": "Entry Level Associate Engineer",
+      "company": "CME Associates",
+      "company_slug": "cme-associates",
+      "location": "Neptune City, NJ, US",
+      "url": "https://trilongroup.pinpointhq.com/postings/70834e69-c089-451d-b5a5-75a5a579c871",
+      "source": "indeed",
+      "date_posted": "2026-02-09",
+      "salary_min": 60000,
+      "salary_max": 75000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "### **Description**\n\n  \n\nCME Associates is a trusted leader in engineering, surveying, and planning, partnering with municipalities across New Jersey to deliver thoughtful, practical infrastructure solutions. We are seeking an entry\\-level Associate Engineer to join our growing Municipal Engineering team based in Neptune/Tinton Falls, NJ. This role is ideal for a recent civil engineering graduate who is interested in public\\-sector work and wants to build a long\\-term career through hands\\-on ex",
+      "experience_level": null
+    },
+    "https://www.capgemini.com/jobs/413130-en_US+sap_btp/": {
+      "id": "indeed_in-ffc5c6dc10c321f6",
+      "title": "Junior Full-Stack Developer",
+      "company": "Capgemini",
+      "company_slug": "capgemini",
+      "location": "New York, NY, US",
+      "url": "https://www.capgemini.com/jobs/413130-en_US+sap_btp/",
+      "source": "indeed",
+      "date_posted": "2026-02-09",
+      "salary_min": 60000,
+      "salary_max": 65000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "New York, NY\n\n\nJunior Full\\-Stack Developer\n\n\n\nChoosing Capgemini means choosing a company where you will be empowered to shape your career in the way you\u2019d like, where you\u2019ll be supported and inspired by a collaborative community of colleagues around the world, and where you\u2019ll be able to reimagine what\u2019s possible. Join us and help the world\u2019s leading organizations unlock the value of technology and build a more sustainable, more inclusive world.\n\n\nJob Description\nWe are seeking a motivated Jun",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-09T22:35:32.442565"
+  "updated": "2026-02-09T23:36:52.750993"
 }
