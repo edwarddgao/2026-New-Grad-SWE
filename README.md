@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-09 10:04
+**Last updated:** 2026-02-09 11:44
 
-**Total:** 1393 jobs from 524 companies
+**Total:** 1391 jobs from 523 companies
 
 ---
 
@@ -147,7 +147,6 @@
 | **Analog Devices** | [Associate Engineer - Physical Design Engineering](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Associate-Engineer---Physical-Design-Engineering_R260395) | California, San Jose, CA, United States | [$88k-123k](https://www.levels.fyi/companies/analog-devices/salaries) | Simplify | 6d |
 | **Goldman Sachs** | [Asset & Wealth Management - Multi Asset Solutions](https://higher.gs.com/roles/161110) | NYC | [$99k-120k](https://www.levels.fyi/companies/goldman-sachs/salaries) | Simplify | 6d |
 | **ChatGPT Jobs** | [Software Engineer](https://chatgpt-jobs.com/job/software-engineer-sun-west-mortgage-3462&urlHash=JPxc) | El Segundo, CA | $100k-120k | LinkedIn | 6d |
-| **The Boeing Company** | [Intelligence Systems Electrical Hardware Design Engineer – Associate or Mid-Level](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntington-Beach-CA/Intelligence-Systems-Electrical-Hardware-Design-Engineer--Associate-or-Mid-Level-_JR2026493522-1) | Huntington Beach, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 6d |
 | **RTX** | [2026 Full-time - Software Engineer I - Onsite, CA](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/XMLNAME-2026-Full-time---Software-Engineer-I---Onsite--CA-_01821318) | Goleta, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | Simplify | 6d |
 | **Intercontinental Exchange** | [Analyst - Index Product Development](https://careers-ice.icims.com/jobs/12276/job?mobile=true&needsRedirect=false) | NYC | [$100k-100k](https://www.levels.fyi/companies/intercontinental-exchange/salaries) | Simplify | 6d |
 | **Fiserv** | [Corporate Analyst Program - Product Management - New York 1 Broadway NY](https://fiserv.wd5.myworkdayjobs.com/ext/job/New-York-New-York/Corporate-Analyst-Program---Product-Management--New-York-1-Broadway--NY-_R-10387251) | NYC | [$72k-85k](https://www.levels.fyi/companies/fiserv/salaries) | Simplify | 6d |
@@ -449,10 +448,10 @@
 | **Morgan Lewis** | [Digital Product Analyst](https://morganlewis.wd5.myworkdayjobs.com/morganlewis/job/Seattle-Washington/Digital-Product-Analyst_R3834) | Philadelphia, PA, Seattle, WA |  | Simplify | 3w |
 | **Cirrus Logic** | [Engineering Technician](https://jobs.eu.lever.co/cirrus/7712560b-a446-433b-9199-6daabae03c8a/apply) | Austin, TX |  | Simplify | 3w |
 | **Healthfirst** | [Technology Early Career Development Program - Product Owner/Business Analyst](https://healthfirst.wd1.myworkdayjobs.com/healthfirst/job/New-York-NY/XMLNAME-2026-Technology-Early-Career-Development-Program---Product-Owner-Business-Analyst_R021432) | NYC |  | Simplify | 3w |
-| **WayUp** | [Boeing, Spacecraft Software Engineer (Entry Level) - Millennium Space Systems - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/) | El Segundo, CA |  | LinkedIn | 3w |
 | **Sigma** | [Software Engineer (New Grad Program)](https://job-boards.greenhouse.io/sigmacomputing/jobs/7587162003) | New York, NY |  | LinkedIn | 3w |
 | **Zip** | [Software Engineer, New Grad (2026 Start)](https://jobs.ashbyhq.com/zip/ec19389b-6943-4ba8-8060-ac6bdfa23987&urlHash=1DDj) | San Francisco, CA |  | LinkedIn | 3w |
 | **ExecutivePlacements.com** | [Junior Software Engineer (Graduate)](https://www.executiveplacements.com/JF/Junior-Software-Engineer-Graduate-jobs-in-New-York-New-York-e5371134e20b.asp) | New York, NY |  | LinkedIn | 3w |
+| **WayUp** | [Boeing, Spacecraft Software Engineer (Entry Level) - Millennium Space Systems - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/) | El Segundo, CA |  | LinkedIn | 3w |
 | **ByteDance** | [Research Scientist Graduate - Foundation Model - Generative AI](https://jobs.bytedance.com/en/position/7593345683353012485/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 4w |
 | **SpaceX** | [Mission Integration Engineer, User Products (Starshield)](https://boards.greenhouse.io/spacex/jobs/8247761002) | Hawthorne, CA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | LinkedIn | 4w |
 | **Adobe** | [2026 University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Applied-Research-Scientist_R160656) | Seattle, WA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 4w |
@@ -561,7 +560,6 @@
 | **Oracle** | [Senior Software Engineer](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/320808) | Seattle, WA, SF | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | Simplify | 1mo |
 | **Qualcomm** | [GPU Kernel Development Engineer - Multiple Levels Available - Graphics Software Engineering](https://qualcomm.eightfold.ai/careers/job/446715939731) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Simplify | 1mo |
 | **TD Bank** | [Financial Data Analyst - FinOps](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Financial-Data-Analyst---FinOps_R_1461299) | Toronto, ON, Canada | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 1mo |
-| **Marsh** | [Data & Analytics Analyst - Data & Analytics](https://mmc.wd1.myworkdayjobs.com/mmc/job/Toronto---Bremner/Oliver-Wyman---Data---Analytics---Analyst---Toronto_R_334480) | Toronto, ON, Canada | [$33.0k-40.0k](https://www.levels.fyi/companies/marsh/salaries) | Simplify | 1mo |
 | **Stanley Black & Decker** | [Service Technician](https://sbdinc.wd1.myworkdayjobs.com/en-US/Stanley_Black_Decker_Career_Site/job/Ontario-CA-United-States/Service-Technician_REQ-1000044669) | Ontario, CA |  | Simplify | 1mo |
 | **Astranis Space Technologies** | [Software Developer - Network Software Associate - Spring 2026](https://job-boards.greenhouse.io/astranis/jobs/4621916006) | San Francisco, CA |  | SpeedyApply | 1mo |
 | **Amazon** | [Software Engineer I](https://www.amazon.jobs/jobs/3144113/apply) | San Francisco, CA | [$178k-178k](https://www.levels.fyi/companies/amazon/salaries) | SpeedyApply | 1mo |
