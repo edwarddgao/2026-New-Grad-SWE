@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-10 19:21
+**Last updated:** 2026-02-10 20:43
 
-**Total:** 1406 jobs from 526 companies
+**Total:** 1403 jobs from 525 companies
 
 ---
 
@@ -43,7 +43,6 @@
 | **Hewlett Packard Enterprise \| HPE** | [Software Engineer I](https://careers.hpe.com/us/en/job/HPE1US1202393EXTERNALENUS/Software-Engineer-I) | Roseville, CA, US | [$81k-165k](https://www.levels.fyi/companies/hpe/salaries) | Indeed | 1d |
 | **Hewlett Packard Enterprise** | [Software Engineer 1](https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Roseville-California-United-States-of-America/Software-Engineer-I_1202397) | Roseville, CA | [$100k-130k](https://www.levels.fyi/companies/hpe/salaries) | Simplify | 1d |
 | **Illumina** | [Hardware Development Engineer 1](https://illumina.wd1.myworkdayjobs.com/illumina-careers/job/US---California---San-Diego/Hardware-Development-Engineer-1_42197-JOB-1) | San Diego, CA | [$100k-118k](https://www.levels.fyi/companies/illumina/salaries) | Simplify | 1d |
-| **T-Mobile** | [Associate Analyst - Reporting and Analysis](https://tmobile.wd1.myworkdayjobs.com/External/job/New-York-New-York/Associate-Analyst--Reporting-and-Analysis_REQ343241-1) | NYC | [$97k-115k](https://www.levels.fyi/companies/t-mobile/salaries) | Simplify | 1d |
 | **The Boeing Company** | [Associate Finance Analytics Analyst - Finance Analytics](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Associate-Finance-Analytics-Analyst_JR2026495245-1) | Tukwila, WA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 1d |
 | **The Boeing Company** | [Flight Software Engineer – Associate / Experienced / Senior - Flight Software Team](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Flight-Software-Engineer--Associate---Experienced---Senior-_JR2025457756-1) | El Segundo, CA | [$93k-112k](https://www.levels.fyi/companies/boeing/salaries) | Simplify | 1d |
 | **RTX** | [2026 Full-time - Software Engineering I - Onsite, CA](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/XMLNAME-2026-Full-time---Software-Engineering-I---Onsite--CA-_01821775) | Goleta, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | Simplify | 1d |
@@ -69,7 +68,6 @@
 | **Oracle** | [Undergrad Software Engineer - Fusion](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/305904/) | Pleasanton, CA | [$140k-162k](https://www.levels.fyi/companies/oracle/salaries) | LinkedIn | 3d |
 | **ChatGPT Jobs** | [Software Engineer I - Marketplace Operations (New Grad)](https://chatgpt-jobs.com/job/software-engineer-i-marketplace-operations-new-grad-stubhub-3571&urlHash=Shqw) | New York, NY | $120k-150k | LinkedIn | 3d |
 | **Walmart** | [Software Engineer 3](https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/USA-Crossman-Service-Building-CA-SUNNYVALE-Home-Office/Software-Engineer-III_R-2398900) | Bentonville, AR, Sunnyvale, CA | [$101k-130k](https://www.levels.fyi/companies/walmart/salaries) | Simplify | 3d |
-| **Citi** | [Entry Level Wholesale Lending Data Concern Management Analyst](https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Data-Governance-Analyst_26935260) | Cheektowaga, NY | [$80k-106k](https://www.levels.fyi/companies/citi/salaries) | Simplify | 3d |
 | **Fidelity Investments** | [Associate – Systematic Trading Product Development](https://fmr.wd1.myworkdayjobs.com/fidelitycareers/job/Boston-MA/Associate--Systematic-Trading-Product-Development_2122384-2) | NYC, Boston, MA | [$94k-94k](https://www.levels.fyi/companies/fidelity-investments/salaries) | Simplify | 3d |
 | **StubHub** | [Software Engineer 1 – New Grad - Marketplace Operations](https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4763976101) | NYC | [$250k-265k](https://www.levels.fyi/companies/stubhub/salaries) | Simplify | 4d |
 | **Apple** | [Machine Learning Engineer - Proximity Systems and Intelligence Team](https://jsv3.recruitics.com/redirect) | San Diego, CA, US | [$139k-258k](https://www.levels.fyi/companies/apple/salaries) | Indeed | 4d |
@@ -413,7 +411,6 @@
 | **Onyx Games** | [Backend Software Engineer](https://jobs.ashbyhq.com/Onyx%20Games%20LLC/aedc88f3-8a00-4c87-bf85-9450f802f591) | New York, NY, US | $170k-250k | Indeed | 3w |
 | **IBM** | [Entry Level AI Software Engineer](https://careers.ibm.com/en_US/careers/JobDetail) | Research Park, CA | [$80k-170k](https://www.levels.fyi/companies/ibm/salaries) | LinkedIn | 3w |
 | **NetApp** | [Software Engineer](https://dsp.prng.co/jj9JKLb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn | 3w |
-| **PwC** | [Software Engineering - Summer 2027 Internship](https://ad.doubleclick.net/ddm/clk/438405794;254302458;m) | New York, NY | [$11.0k](https://www.levels.fyi/companies/pwc/salaries) | LinkedIn | 3w |
 | **Bloom Energy** | [Software Engineering Intern - Automation](https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/Software-Engineering-Intern\u002d\u002d-Automation_JR-20625) | San Jose, CA |  | LinkedIn | 3w |
 | **CLEAR** | [Software Engineering Intern (Summer 2026)](https://grnh.se/n4iyalh71us) | New York, NY, US |  | Indeed | 3w |
 | **SpaceX** | [New Graduate Engineer - Software - Starlink](https://boards.greenhouse.io/spacex/jobs/8376990002) | Redmond, WA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Simplify | 3w |
