@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-10 10:00
+**Last updated:** 2026-02-10 11:05
 
-**Total:** 1402 jobs from 528 companies
+**Total:** 1400 jobs from 527 companies
 
 ---
 
@@ -139,7 +139,6 @@
 | **Walt Disney** | [Associate Software Engineer](https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Seattle-WA-USA/Associate-Software-Engineer_10140544) | Seattle, WA, USA | [$131.0k-150k](https://www.levels.fyi/companies/disney/salaries) | SpeedyApply | 6d |
 | **BlackRock** | [Portfolio Risk Modeling](https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/New-York-NY/Portfolio-Risk-Modeling---Associate_R260755) | NYC | [$117k-143k](https://www.levels.fyi/companies/blackrock/salaries) | Simplify | 6d |
 | **Stryker** | [Associate Installation Technician - Tristate](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/New-York-Virtual-Address/Associate-Installation-Technician---Tristate_R559222-1) | Newark, NJ, Mahwah, NJ, Long Island, ... | [$80k-133k](https://www.levels.fyi/companies/stryker/salaries) | Simplify | 6d |
-| **RTX** | [2026 Systems Engineer 1 - El Segundo','CA](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/XMLNAME-2026-Systems-Engineer-I---Onsite---El-Segundo--CA_01820530) | El Segundo, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | Simplify | 6d |
 | **Raytheon** | [2026 Full-time - Real-time Embedded Software Engineer - Onsite (CA)](https://careers.rtx.com/global/en/job/RAYTGLOBAL01821758EXTERNALENGLOBAL/2026-Full-time-Real-time-Embedded-Software-Engineer-Onsite-CA) | El Segundo, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | LinkedIn | 6d |
 | **L3Harris Technologies** | [Associate Software Engineer](https://jobs.l3harris.com/job/Waterdown-Associate,-Software-Engineering-ON-L9H-0C5/1362103600/?ats=successfactors) | Hamilton, ON, Canada | [$95k-100k](https://www.levels.fyi/companies/l3harris/salaries) | Simplify | 6d |
 | **ASML** | [Upgrade Install and Relocation Engineer](https://asml.wd3.myworkdayjobs.com/asmlext1/job/Austin-TX-USA/Upgrade-Install-and-Relocation-Engineer_J-00334608) | Austin, TX | [$70.0k-88.0k](https://www.levels.fyi/companies/asml/salaries) | Simplify | 6d |
@@ -279,6 +278,7 @@
 | **University of Texas - Austin** | [R&D Software Engineer - Esa](https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/PICKLE-RESEARCH-CAMPUS/R-D-Software-Engineer--ESA-_R_00044000) | Austin, TX |  | Simplify | 1w |
 | **Brightree** | [Associate Engineer - Software Test Engineering](https://resmed.wd3.myworkdayjobs.com/en-US/Brightree_External_Careers/job/San-Diego-CA-United-States/Associate-Engineer--Software-Test-Engineering_JR_047234) | San Diego, CA |  | SpeedyApply | 1w |
 | **ResMed** | [Associate Engineer - Software Test Engineering](https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/San-Diego-CA-United-States/Associate-Software-Engineer_JR_047234) | San Diego, CA |  | SpeedyApply | 1w |
+| **Talkdesk 2** | [Software Engineer I](https://careers.talkdesk.com/jobs?id=7565583&gh_jid=7565583) | Seattle, WA |  | SpeedyApply | 1w |
 | **Roblox** | [2026] Software Engineer – Early Career - Creator](https://careers.roblox.com/jobs/7557909?gh_jid=7557909) | San Mateo, CA | [$214k-331k](https://www.levels.fyi/companies/roblox/salaries) | Simplify | 1w |
 | **SpaceX** | [Starlink Aviation Integration Technician](https://boards.greenhouse.io/spacex/jobs/8393626002) | Bothell, WA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Simplify | 1w |
 | **SpaceX** | [Entry Level Production Technician](https://boards.greenhouse.io/spacex/jobs/8393642002) | Bothell, WA | [$178k-220k](https://www.levels.fyi/companies/spacex/salaries) | Simplify | 1w |
@@ -296,7 +296,6 @@
 | **Morgan Stanley** | [Fid – Commodities Quant Strat - Associate](https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/FID--Commodities-Quant-Strat---Associate_JR028848) | NYC | [$15.0k-25.0k](https://www.levels.fyi/companies/morgan-stanley/salaries) | Simplify | 1w |
 | **Dolby** | [Software QA Engineering Intern](https://jobs.dolby.com/careers/job/39648731) | Sunnyvale, CA, US |  | Indeed | 1w |
 | **Dolby** | [Software Development Engineer Intern](https://jobs.dolby.com/careers/job/39648730) | Sunnyvale, CA, US |  | Indeed | 1w |
-| **Talkdesk** | [Software Engineer 1](https://careers.talkdesk.com/jobs?id=7565583&gh_jid=7565583) | Bellevue, WA |  | Simplify | 1w |
 | **Uncountable** | [Product Manager](https://jobs.ashbyhq.com/uncountable/1f8425be-cd39-4397-a9c1-6511ecfc39fc) | San Francisco, New York, London |  | Simplify | 1w |
 | **AtkinsRéalis** | [Water Quality Modeller](https://slihrms.wd3.myworkdayjobs.com/careers/job/GBBirmingham---Chamberlain-Square/Water-Quality-Modeller_R-144603) | London, UK, Croydon, UK, Cardiff, UK,... |  | Simplify | 1w |
 | **Arcadis** | [Transit Technology Analyst](https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37480) | Toronto, ON, Canada |  | Simplify | 1w |
@@ -943,7 +942,6 @@
 | **TikTok** | [Product Manager Graduate - Tiktok Shop User Product - 2026 Start','MBA](https://lifeattiktok.com/search/7532279656999127314) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3mo |
 | **TikTok** | [Data Scientist Graduate - Tiktok Shop Business Product DS - 2026 Start](https://lifeattiktok.com/search/7535165875168184583) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 3mo |
 | **Trillium** | [Equity Trader](https://www.trlm.com/apply/4837090007?gh_jid=4837090007) | Miami, FL, Chicago, IL, NYC |  | Simplify | 3mo |
-| **Stellant Systems** | [Automation Software Engineer](https://careers-stellantsystems.icims.com/jobs/2011/job?mobile=true&needsRedirect=false) | Carson, CA |  | Simplify | 3mo |
 | **Fireworks AI** | [Software Engineer – Early Career - Cloud Infrastructure](https://job-boards.greenhouse.io/fireworksai/jobs/4036755009) | San Carlos, CA, NYC |  | Simplify | 4mo |
 | **NVIDIA** | [Software Engineer – New College Grad 2025 - CAD Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CAD-Automation---New-College-Grad-2025_JR2005867) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 4mo |
 | **Garner Health** | [Associate Data Scientist](https://job-boards.greenhouse.io/garnerhealth/jobs/5674251004) | NYC |  | Simplify | 4mo |
