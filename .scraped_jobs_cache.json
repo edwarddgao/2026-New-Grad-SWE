@@ -5583,7 +5583,39 @@
       "remote": false,
       "description": "As a Formal Verification Engineer at NVIDIA, you will verify the design and implementation of the industry's leading GPUs. In this position, your responsibilities will be to verify the micro\\-architecture using formal verification tools, define the verification scope, and ensure design correctness. You will employ advanced formal techniques to obtain sufficiently bounded proofs while working with architects, designers, and pre\\- \\& post\\-silicon verification teams to accomplish your tasks. You w",
       "experience_level": null
+    },
+    "https://careers.qualcomm.com/careers/job/446715807950": {
+      "id": "linkedin_li-4326269726",
+      "title": "Machine Learning Compiler Engineer",
+      "company": "Qualcomm",
+      "company_slug": "qualcomm",
+      "location": "San Diego, CA",
+      "url": "https://careers.qualcomm.com/careers/job/446715807950",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Company**\n Qualcomm Technologies, Inc.\n   \n\n  \n\n**Job Area**\n Engineering Group, Engineering Group \\> Machine Learning Engineering\n   \n\n  \n\n**General Summary**\n If you\u2019re interested in advancing and applying mathematics, programming languages theory, and advanced algorithms to program optimization for cutting\\-edge machine learning accelerators, then you really want to be talking to us!\n   \n\n  \n\n The Compiler Labs unit in Qualcomm AI Software department is looking for ML Compiler engineers to ",
+      "experience_level": null
+    },
+    "https://talentally.com/job/guidance-navigation-and-controls-engineer-entry-level-millennium-space-systems": {
+      "id": "linkedin_li-4371162034",
+      "title": "Guidance Navigation and Controls Engineer (Entry Level) - Millennium Space Systems",
+      "company": "TalentAlly",
+      "company_slug": "talentally",
+      "location": "El Segundo, CA",
+      "url": "https://talentally.com/job/guidance-navigation-and-controls-engineer-entry-level-millennium-space-systems",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Description**\n At Boeing, we innovate and collaborate to make the world a better place. We're committed to fostering an environment for every teammate that's welcoming, respectful and inclusive, with great opportunity for professional growth. Find your future with us.\n   \n\n  \n\n**Guidance Navigation and Controls Engineer (Entry Level) \\- Millennium Space Systems**\n**Millennium Space Systems (MSS), a part of Boeing Defense, Space and Security (BDS)** \n is seeking a\n **Guidance Navigation and",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-11T13:07:38.516794"
+  "updated": "2026-02-11T14:52:49.297594"
 }
