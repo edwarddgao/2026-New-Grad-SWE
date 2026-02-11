@@ -5137,7 +5137,7 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/GigaML/cb74c445-322b-47fc-804c-b0565e18ca3a/application": {
-      "id": "linkedin_li-4363132072",
+      "id": "linkedin_li-4362278914",
       "title": "Software Engineer (New Grads)",
       "company": "Giga",
       "company_slug": "giga",
@@ -5149,7 +5149,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**About Giga** \n\n\n\n\n  \n\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises\n \n\n\n\n .\n   \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automatio",
+      "description": "**About Giga**\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises.\n   \n\n  \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automation, powered b",
       "experience_level": null
     },
     "https://lensa.com/cgw/96d4dfd496534261b96a9ccfdbdeea3atjo1": {
@@ -5551,7 +5551,39 @@
       "remote": false,
       "description": "Software Engineer II  \n\n\n\nThis role has been designed as \u2018Hybrid\u2019 with an expectation that you will work on average 2 days per week from an HPE office.**Who We Are:**\n\n\nHewlett Packard Enterprise is the global edge\\-to\\-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today\u2019s complex world. Our ",
       "experience_level": null
+    },
+    "https://job-boards.greenhouse.io/breezecash/jobs/5116784008": {
+      "id": "linkedin_li-4363210987",
+      "title": "Software Engineer - New Grad - AI Native",
+      "company": "Breeze",
+      "company_slug": "breeze",
+      "location": "New York, NY",
+      "url": "https://job-boards.greenhouse.io/breezecash/jobs/5116784008",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Are you passionate about solving complex challenges in the fintech space? We\u2019re looking for talented individuals to join our dynamic startup, backed by Sequoia Capital. We\u2019re building the universal payment layer to unify all currencies\u2014fiat and crypto\u2014so businesses and consumers can transact seamlessly. If you're passionate about creating innovative solutions in a dynamic, fast\\-paced environment, we want to talk to you.\n   \n\n  \n\n**We are hiring an AI\\-Native Fullstack Engineer**\n Are you excite",
+      "experience_level": null
+    },
+    "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Formal-Verification-Engineer\\u002d\\u002d-New-College-Grad-2026_JR2013065": {
+      "id": "linkedin_li-4371280446",
+      "title": "Formal Verification Engineer - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Formal-Verification-Engineer\\u002d\\u002d-New-College-Grad-2026_JR2013065",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "As a Formal Verification Engineer at NVIDIA, you will verify the design and implementation of the industry's leading GPUs. In this position, your responsibilities will be to verify the micro\\-architecture using formal verification tools, define the verification scope, and ensure design correctness. You will employ advanced formal techniques to obtain sufficiently bounded proofs while working with architects, designers, and pre\\- \\& post\\-silicon verification teams to accomplish your tasks. You w",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-11T10:57:28.019230"
+  "updated": "2026-02-11T11:46:57.328010"
 }
