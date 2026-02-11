@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-11 19:01
+**Last updated:** 2026-02-11 20:38
 
-**Total:** 1422 jobs from 531 companies
+**Total:** 1417 jobs from 529 companies
 
 ---
 
@@ -297,7 +297,6 @@
 | **Cisco** | [Product Management Engineer II (Intern)- United States](https://careers.cisco.com/global/en/job/2007508) | San Jose, CA, US | [$44k-185k](https://www.levels.fyi/companies/cisco/salaries) | Indeed | 1w |
 | **Intel Corporation** | [System Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/System-Software-Engineer_JR0280320/apply) | Santa Clara, CA | [$110k-150k](https://www.levels.fyi/companies/intel/salaries) | LinkedIn | 1w |
 | **Sonos** | [DSP Software Engineer](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/DSP-Software-Engineer_R2623-1) | Boston, MA, Seattle, WA | [$105k-124k](https://www.levels.fyi/companies/sonos/salaries) | Simplify | 1w |
-| **Keysight Technologies** | [FPGA Engineer 1](https://jobs.keysight.com/jobs/51030?lang=en-us&icims=1) | Calabasas, CA | [$106k-120k](https://www.levels.fyi/companies/keysight/salaries) | Simplify | 1w |
 | **Philips** | [Full Time – Field Engineer Program - Field Service Engineer - Seattle, WA (July 2026)](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Seattle-Washington-United-States/Full-Time---Field-Engineer-Program--Field-Service-Engineer---Seattle--WA---July-2026_574020-1) | Seattle, WA | [$16.0k-16.0k](https://www.levels.fyi/companies/philips/salaries) | Simplify | 1w |
 | **WSP** | [Early Career Geologist](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/79442) | Elmira, NY |  | Simplify | 1w |
 | **Etched.ai** | [Board Bring-Up Specialist - Validation Engineering](https://jobs.ashbyhq.com/Etched/74710ea6-471c-48d0-885b-70c5b85ab5fc/application) | San Jose, CA |  | Simplify | 1w |
@@ -577,7 +576,6 @@
 | **Five Rings Capital** | [Trading Assistant - Trading Assistant](https://job-boards.greenhouse.io/fiveringsllc/jobs/5047415008) | NYC |  | Simplify | 1mo |
 | **Google** | [Physical Design Engineer - Doctor of Philosophy](https://www.google.com/about/careers/applications/jobs/results/100868314875470534) | Sunnyvale, CA | [$140k-212k](https://www.levels.fyi/companies/google/salaries) | Simplify | 1mo |
 | **BlackRock** | [Associate - Data Engineer - Engineer III](https://blackrock.wd1.myworkdayjobs.com/en-US/blackrock_professional/job/New-York-NY/Associate--Data-Engineer---Engineer-III_R258156) | New York, NY | [$117k-143k](https://www.levels.fyi/companies/blackrock/salaries) | SpeedyApply | 1mo |
-| **Voyager Technologies** | [Software Engineer - Manufacturing Integration](https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4087905009) | Seattle, WA, Washington, DC, LA | [$96k-117k](https://www.levels.fyi/companies/voyager/salaries) | Simplify | 1mo |
 | **Microchip Technology** | [Engineer 1 - Test](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/TX---Austin---Park-Centre/Engineer-I--Test_R2514-25) | Austin, TX | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 1mo |
 | **Trend Micro** | [Software Developer](https://trendmicro.wd3.myworkdayjobs.com/External/job/Ottawa/Software-Developer_R0008846) | Ottawa, ON, Canada | [$30.0k-35.0k](https://www.levels.fyi/companies/trend-micro/salaries) | Simplify | 1mo |
 | **Cisive** | [Software Developer](https://cisive.wd108.myworkdayjobs.com/Cisive/job/Remote---Maryland/Software-Developer_JR100173) | New Mexico, Washington, Kansas, Penns... |  | Simplify | 1mo |
@@ -585,7 +583,6 @@
 | **Flock Safety** | [Traveling Installation Technician - Utica - NY](https://jobs.ashbyhq.com/Flock%20Safety/0f89dbe2-c9bf-41de-bf0b-9e553562c057/application) | Utica, NY |  | Simplify | 1mo |
 | **Mechanize** | [Junior Software Engineer](https://jobs.ashbyhq.com/mechanize/b50c89dc-001c-4fb6-a4fc-a9f52f35b490) | San Francisco, CA, Remote in USA | [$517k-588k](https://www.levels.fyi/companies/mechanize/salaries) | Simplify | 1mo |
 | **NVIDIA** | [ASIC Design Verification Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391) | Austin, TX | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 1mo |
-| **Microchip Technology** | [Engineer 1 - Analog Product - Test](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3850-N-First-St/Engineer-I---Analog-Product--Test-_R2803-25) | San Jose, CA | [$80k-93k](https://www.levels.fyi/companies/microchip-technology/salaries) | Simplify | 1mo |
 | **Radian** | [Data Scientist I - Hybrid](https://compass.wd501.myworkdayjobs.com/en-US/radian_external_career_site/job/New-York-NY/Data-Scientist-I---Hybrid_R20250160) | New York, NY | [$56k-68k](https://www.levels.fyi/companies/radian/salaries) | Simplify | 1mo |
 | **Oklo** | [Junior Software Engineer](https://job-boards.greenhouse.io/oklo/jobs/5739861004) | Santa Clara, CA, Remote in USA |  | Simplify | 1mo |
 | **Viridien** | [Seismic Imaging Analyst](https://cgg.wd103.myworkdayjobs.com/viridiencareers/job/Calgary-Canada/Seismic-Imaging-Analyst_JR101104-2) | Calgary, AB, Canada |  | Simplify | 1mo |
@@ -669,7 +666,6 @@
 | **Rivian** | [Software Engineer - Engineering Productivity - Infotainment Platform](https://careers.rivian.com/jobs/27934?lang=en-us&icims=1) | Palo Alto, CA | [$120k-152.0k](https://www.levels.fyi/companies/rivian/salaries) | Simplify | 2mo |
 | **Qualcomm** | [Sensors Software Engineer - Software Engineering](https://qualcomm.eightfold.ai/careers/job/446715712169) | Santa Clara, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | Simplify | 2mo |
 | **Commerce Architects** | [Software Engineer](https://jobs.lever.co/commercearchitects/ec4bd3b5-3219-4524-805a-d9dff354c5ec/apply) | Spokane, WA |  | Simplify | 2mo |
-| **Cambia Health Solutions** | [AI Scientist 1 - Healthcare](https://cambiahealth.wd1.myworkdayjobs.com/External/job/Renton-WA/AI-Scientist-I--Healthcare-_R-5997) | Salt Lake City, UT, Post Falls, ID, M... |  | Simplify | 2mo |
 | **Empire State Realty Trust** | [Investment Analyst](https://jobs.lever.co/esrtreit/ac3dc3e6-c4a2-49e6-a20c-e0a39ad89149/apply) | Remote in USA, NYC |  | Simplify | 2mo |
 | **Emerson Electric** | [Software Engineer](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25029713) | Austin, TX |  | Simplify | 2mo |
 | **Eastern Communications** | [Vehicle Installation Technician](https://jobs.lever.co/eastern-communications/58098138-6383-4afd-84ba-a9035d0bdfe5/apply) | Quincy, WA |  | Simplify | 2mo |
@@ -959,7 +955,6 @@
 | **TikTok** | [Data Scientist Graduate - Tiktok Shop Business Product DS - 2026 Start](https://lifeattiktok.com/search/7535161796786751751) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 4mo |
 | **TikTok** | [Product Manager Graduate - Tiktok Shop User Product - 2026 Start','MBA](https://lifeattiktok.com/search/7532279656999127314) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 4mo |
 | **TikTok** | [Data Scientist Graduate - Tiktok Shop Business Product DS - 2026 Start](https://lifeattiktok.com/search/7535165875168184583) | Seattle, WA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 4mo |
-| **Trillium** | [Equity Trader](https://www.trlm.com/apply/4837090007?gh_jid=4837090007) | Miami, FL, Chicago, IL, NYC |  | Simplify | 4mo |
 | **Fireworks AI** | [Software Engineer – Early Career - Cloud Infrastructure](https://job-boards.greenhouse.io/fireworksai/jobs/4036755009) | San Carlos, CA, NYC |  | Simplify | 4mo |
 | **NVIDIA** | [Software Engineer – New College Grad 2025 - CAD Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CAD-Automation---New-College-Grad-2025_JR2005867) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 4mo |
 | **Garner Health** | [Associate Data Scientist](https://job-boards.greenhouse.io/garnerhealth/jobs/5674251004) | NYC |  | Simplify | 4mo |
@@ -1302,7 +1297,8 @@
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://careers.qualcomm.com/careers/job/446715807950) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn |  |
-| **ChatGPT Jobs** | [Software Engineer](https://chatgpt-jobs.com/job/software-engineer-example-corp-3610&urlHash=rVLl) | Emeryville, CA |  | LinkedIn |  |
+| **Lensa** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://lensa.com/cgw/7175ca5395604e14b873798b024bfa4ctjo1) | San Jose, CA |  | LinkedIn |  |
+| **TalentAlly** | [Guidance Navigation and Controls Engineer (Entry Level) - Millennium Space Systems](https://talentally.com/job/guidance-navigation-and-controls-engineer-entry-level-millennium-space-systems) | El Segundo, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1431,9 +1427,8 @@
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/f7528e3dd782450d9b918696606b8aa1tjo1) | New York, NY |  | LinkedIn |  |
 | **Jobs via Dice** | [Intern - Software Engineer](https://click.appcast.io/t/mcEVrRkffFQzc1trR0iaO12YNwkv9kiNyost2AbRhTg=&urlHash=1IFk) | California, United States |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026](https://lensa.com/cgw/96d4dfd496534261b96a9ccfdbdeea3atjo1) | San Jose, CA |  | LinkedIn |  |
-| **Lensa** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://lensa.com/cgw/7175ca5395604e14b873798b024bfa4ctjo1) | San Jose, CA |  | LinkedIn |  |
+| **ChatGPT Jobs** | [Software Engineer](https://chatgpt-jobs.com/job/software-engineer-example-corp-3610&urlHash=rVLl) | Emeryville, CA |  | LinkedIn |  |
 | **Breeze** | [Software Engineer - New Grad - AI Native](https://job-boards.greenhouse.io/breezecash/jobs/5116784008) | New York, NY |  | LinkedIn |  |
-| **TalentAlly** | [Guidance Navigation and Controls Engineer (Entry Level) - Millennium Space Systems](https://talentally.com/job/guidance-navigation-and-controls-engineer-entry-level-millennium-space-systems) | El Segundo, CA |  | LinkedIn |  |
 
 ---
 
