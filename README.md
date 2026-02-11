@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-11 11:46
+**Last updated:** 2026-02-11 13:07
 
-**Total:** 1423 jobs from 531 companies
+**Total:** 1422 jobs from 530 companies
 
 ---
 
@@ -44,7 +44,6 @@
 | **Deutsche Bank** | [Product Management Specialist - Client Solutions Latam](https://db.wd3.myworkdayjobs.com/DBWebsite/job/New-York-1-Columbus-Circle/Product-Management-Specialist---Client-Solutions-LatAM_R0422458) | NYC | [$70.0k-85.0k](https://www.levels.fyi/companies/deutsche-bank/salaries) | Simplify | 1d |
 | **CEB MetaSystems Inc.** | [New Graduate Engineer – Entry-Level](http://www.indeed.com/job/new-graduate-engineer-entry-level-27bdf2ee9ad66539) | Los Alamitos, CA, US | $75k-85k | Indeed | 1d |
 | **TD Bank** | [Data Associate](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Data-Associate_R_1472610) | Toronto, ON, Canada | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 1d |
-| **RingCentral** | [Associate Software Engineer](https://ringcentral.wd1.myworkdayjobs.com/RingCentral_Careers/job/Belmont-California/Associate-Software-Engineer_R077496) | San Carlos, CA | [$22.0k-31.0k](https://www.levels.fyi/companies/ringcentral/salaries) | Simplify | 1d |
 | **Dyna Robotics** | [Data Annotation Specialist](https://jobs.ashbyhq.com/dyna-robotics/080a2b88-f724-4585-8d16-2d4839a1d563/application) | San Carlos, CA |  | Simplify | 1d |
 | **Arcadis** | [Transit Analyst](https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38077) | Seattle, WA |  | Simplify | 1d |
 | **Jefferies** | [Analyst/Associate - Equity Derivatives Quant/Trader](https://hdid.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3734) | NYC |  | Simplify | 1d |
@@ -1297,15 +1296,13 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 13mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 13mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 13mo |
-| **NVIDIA** | [Formal Verification Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Formal-Verification-Engineer\u002d\u002d-New-College-Grad-2026_JR2013065) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **NVIDIA** | [Software Engineer, TensorRT Specialized Platforms - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dTensorRT-Specialized-Platforms\u002d\u002d-New-College-Grad-2025_JR2002870) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
+| **NVIDIA** | [Formal Verification Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Formal-Verification-Engineer\u002d\u002d-New-College-Grad-2026_JR2013065) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **ChatGPT Jobs** | [Software Engineer I - Direct Issuance (New Grad)](https://chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=zRVf) | El Segundo, CA | $120k-150k | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
-| **Breeze** | [Software Engineer - New Grad - AI Native](https://job-boards.greenhouse.io/breezecash/jobs/5116784008) | New York, NY |  | LinkedIn |  |
-| **ChatGPT Jobs** | [Software Engineer](https://chatgpt-jobs.com/job/software-engineer-example-corp-3610&urlHash=rVLl) | Emeryville, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1434,7 +1431,9 @@
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/f7528e3dd782450d9b918696606b8aa1tjo1) | New York, NY |  | LinkedIn |  |
 | **Jobs via Dice** | [Intern - Software Engineer](https://click.appcast.io/t/mcEVrRkffFQzc1trR0iaO12YNwkv9kiNyost2AbRhTg=&urlHash=1IFk) | California, United States |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026](https://lensa.com/cgw/96d4dfd496534261b96a9ccfdbdeea3atjo1) | San Jose, CA |  | LinkedIn |  |
+| **ChatGPT Jobs** | [Software Engineer](https://chatgpt-jobs.com/job/software-engineer-example-corp-3610&urlHash=rVLl) | Emeryville, CA |  | LinkedIn |  |
 | **Lensa** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://lensa.com/cgw/7175ca5395604e14b873798b024bfa4ctjo1) | San Jose, CA |  | LinkedIn |  |
+| **Breeze** | [Software Engineer - New Grad - AI Native](https://job-boards.greenhouse.io/breezecash/jobs/5116784008) | New York, NY |  | LinkedIn |  |
 
 ---
 
