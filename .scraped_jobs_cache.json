@@ -5137,7 +5137,7 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/GigaML/cb74c445-322b-47fc-804c-b0565e18ca3a/application": {
-      "id": "linkedin_li-4362278914",
+      "id": "linkedin_li-4363132072",
       "title": "Software Engineer (New Grads)",
       "company": "Giga",
       "company_slug": "giga",
@@ -5149,7 +5149,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**About Giga**\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises.\n   \n\n  \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automation, powered b",
+      "description": "**About Giga** \n\n\n\n\n  \n\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises\n \n\n\n\n .\n   \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automatio",
       "experience_level": null
     },
     "https://lensa.com/cgw/96d4dfd496534261b96a9ccfdbdeea3atjo1": {
@@ -5615,7 +5615,39 @@
       "remote": false,
       "description": "**Job Description**\n At Boeing, we innovate and collaborate to make the world a better place. We're committed to fostering an environment for every teammate that's welcoming, respectful and inclusive, with great opportunity for professional growth. Find your future with us.\n   \n\n  \n\n**Guidance Navigation and Controls Engineer (Entry Level) \\- Millennium Space Systems**\n**Millennium Space Systems (MSS), a part of Boeing Defense, Space and Security (BDS)** \n is seeking a\n **Guidance Navigation and",
       "experience_level": null
+    },
+    "http://www.indeed.com/job/new-graduate-engineer-entry-level-af03b6f7b1eb9808": {
+      "id": "indeed_in-af03b6f7b1eb9808",
+      "title": "New Graduate Engineer \u2013 Entry-Level",
+      "company": "CEB MetaSystems Inc.",
+      "company_slug": "ceb-metasystems-inc",
+      "location": "Goleta, CA, US",
+      "url": "http://www.indeed.com/job/new-graduate-engineer-entry-level-af03b6f7b1eb9808",
+      "source": "indeed",
+      "date_posted": "2026-02-11",
+      "salary_min": 75000,
+      "salary_max": 85000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Join the CEBS Team \u2013 Where Innovation Meets Collaboration** \n\nCEBS is a family\\-owned, employee\\-driven company delivering cutting\\-edge solutions for government and commercial customers for over 40 years. Our work spans space systems, machine learning, cybersecurity, and medical devices\u2014powered by curiosity, collaboration, and technical excellence.\n\nAt CEBS, every program is unique, but they all share one core: electro\\-optical systems. You\u2019ll gain hands\\-on experience across every phase\u2014conc",
+      "experience_level": null
+    },
+    "https://grnh.se/nws3msan1us": {
+      "id": "indeed_in-964491967a967018",
+      "title": "Entry-level Software Engineer",
+      "company": "QuinStreet",
+      "company_slug": "quinstreet",
+      "location": "Foster City, CA, US",
+      "url": "https://grnh.se/nws3msan1us",
+      "source": "indeed",
+      "date_posted": "2026-02-11",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Powering Performance Marketplaces in Digital Media**\n\n\n\nQuinStreet is a pioneer in powering decentralized online **marketplaces that match searchers and \"research and compare\" consumers with brands**. We run these virtual\\- and private\\-label marketplaces in one of the nation's largest media networks.\n\n\n\nOur industry leading segmentation and AI\\-driven **matching technologies help consumers find better solutions and brands faster.** They allow brands to target and reach in\\-market customer pro",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-11T17:14:30.934548"
+  "updated": "2026-02-11T19:01:29.956815"
 }
