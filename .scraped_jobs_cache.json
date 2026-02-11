@@ -5137,11 +5137,11 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/GigaML/cb74c445-322b-47fc-804c-b0565e18ca3a/application": {
-      "id": "linkedin_li-4370317193",
+      "id": "linkedin_li-4363132072",
       "title": "Software Engineer (New Grads)",
       "company": "Giga",
       "company_slug": "giga",
-      "location": "San Francisco, CA",
+      "location": "",
       "url": "https://jobs.ashbyhq.com/GigaML/cb74c445-322b-47fc-804c-b0565e18ca3a/application",
       "source": "linkedin",
       "date_posted": "2026-02-08",
@@ -5149,7 +5149,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**About Giga**\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises.\n   \n\n  \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automation, powered b",
+      "description": "**About Giga** \n\n\n\n\n  \n\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises\n \n\n\n\n .\n   \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automatio",
       "experience_level": null
     },
     "https://lensa.com/cgw/96d4dfd496534261b96a9ccfdbdeea3atjo1": {
@@ -5503,7 +5503,23 @@
       "remote": true,
       "description": "**Job Description**\n Movement Labs Tech Fellowship 2026 (Fully Remote) Software/Data Engineer\n   \n\n  \n\n**Company:** \n Movement Labs\n   \n\n  \n\n**Location:** \n Berkeley, CA\n   \n\n  \n\n* Remote\n\n\n**Salary:** \n $23/hr\n   \n\n  \n\n**Type:** \n Full\\-time\n   \n\n  \n\n**Benefits:** \n Medical, PTO\n   \n\n  \n\n**Posted:** \n 11 hours ago\n   \n\n  \n\n**Job Description**\n**About Movement Labs:** \n Our mission is to affordably and provably scale people power.\n   \n\n  \n\n Join the Movement Labs Fellowship for an exciting oppor",
       "experience_level": null
+    },
+    "https://jobs.lever.co/saviynt/84a1db6f-6b4c-4915-a5f6-2759ee1b933e": {
+      "id": "indeed_in-14bc0e17d007022f",
+      "title": "Associate Engineer, Software Engineering ( New College Graduate)",
+      "company": "Saviynt",
+      "company_slug": "saviynt",
+      "location": "Milpitas, CA, US",
+      "url": "https://jobs.lever.co/saviynt/84a1db6f-6b4c-4915-a5f6-2759ee1b933e",
+      "source": "indeed",
+      "date_posted": "2026-02-10",
+      "salary_min": 90000,
+      "salary_max": 130000,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Saviynt's AI\\-powered identity platform manages and governs human and non\\-human access to all of an organization's applications, data, and business processes. Customers trust Saviynt to safeguard their digital assets, drive operational efficiency, and reduce compliance costs. Built for the AI age, Saviynt is today helping organizations safely accelerate their deployment and usage of AI. Saviynt is recognized as the leader in identity security, with solutions that protect and empower the world\u2019s",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-11T02:11:38.283728"
+  "updated": "2026-02-11T05:02:22.858991"
 }
