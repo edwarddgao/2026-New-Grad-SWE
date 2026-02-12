@@ -3281,8 +3281,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4363101937",
-      "title": "Forward Deployed Engineer - Entry Level",
+      "id": "linkedin_li-4363973972",
+      "title": "Software Engineer (Apprentice Conversion)",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "Research Park, CA",
@@ -3293,7 +3293,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n A career in IBM Software means you\u2019ll be part of a team that transforms our customer\u2019s challenges into solutions.\n   \n\n  \n\n Seeking new possibilities and always staying curious, we are a team dedicated to creating the world\u2019s leading AI\\-powered, cloud\\-native software solutions for our customers. Our renowned legacy creates endless global opportunities for our IBMers, so the door is always open for those who want to grow their career.\n   \n\n  \n\n IBM\u2019s product and technology lan",
+      "description": "**Introduction**\n At IBM Finance \\& Operations, we are the backbone of IBM\u2019s transformation driving efficiency, transparency, and smart decision\\-making across the business. Our teams provide the insight and discipline that guide strategy, ensure financial strength, and enable IBM to invest in innovation and growth. Working in Finance \\& Operations means combining analytical skills with collaboration and curiosity. You\u2019ll partner with colleagues across functions and geographies, using data, tech",
       "experience_level": null
     },
     "http://careers.viasat.com/jobs/5362/job": {
@@ -5695,7 +5695,23 @@
       "remote": false,
       "description": "Santa Clara, California, United States Software Engineering Ref ID: JR\\-014129  \n\n**Our Mission**\n\n\nAt Palo Alto Networks\u00ae, we\u2019re united by a shared mission\u2014to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real\\-world problems with cutting\\-edge technology and bold thinking. Here, everyone has a voice, and every idea counts. If you\u2019re ready to do the most meaningful work of your career alongside people who are just as passionate as you are, you\u2019",
       "experience_level": null
+    },
+    "https://www.amazon.jobs/jobs/3180017/software-development-engineer-apprentice--military-veterans": {
+      "id": "indeed_in-e110be1876583eb9",
+      "title": "Software Development Engineer Apprentice - Military Veterans",
+      "company": "Amazon.com",
+      "company_slug": "amazon-com",
+      "location": "Cupertino, CA, US",
+      "url": "https://www.amazon.jobs/jobs/3180017/software-development-engineer-apprentice--military-veterans",
+      "source": "indeed",
+      "date_posted": "2026-02-12",
+      "salary_min": 22,
+      "salary_max": 65,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**DESCRIPTION**\n---------------\n\n\nApplication deadline: Applications will be accepted on an ongoing basis  \n\n  \n\nThis apprenticeship opportunity is for U.S. citizens who have served in the U.S. Armed Forces including Reserves, National Guard, and service member spouses.\n  \n\n  \n\n* Please have this experience mentioned in your resume to be considered.\n\n  \n\nDoes learning how to implement innovative cloud computing solutions and solve technical problems intrigue you? Would you like to learn and use ",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-12T21:33:33.706737"
+  "updated": "2026-02-12T22:32:30.335814"
 }
