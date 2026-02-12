@@ -2257,11 +2257,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365172862",
+      "id": "linkedin_li-4365192039",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "San Francisco, CA",
+      "location": "Mountain View, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -5631,7 +5631,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for SkillStorm. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy",
       "experience_level": null
+    },
+    "https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/&urlHash=ZnGi": {
+      "id": "linkedin_li-4363981550",
+      "title": "Generative AI Software Engineer Co-Op",
+      "company": "Super Micro Computer Spain, S.L.",
+      "company_slug": "super-micro-computer-spain-s-l",
+      "location": "San Jose, CA",
+      "url": "https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/&urlHash=ZnGi",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Apply now \u00bb\n   \n\n  \n\n**Date:** \n Feb 12, 2026\n   \n\n  \n\n**Location:** \n San Jose, California, United States\n   \n\n  \n\n**Company:** \n Super Micro Computer\n   \n\n  \n\n**Job Req ID: 28406**\n**About Supermicro**\n Supermicro\u00ae is a Top Tier provider of advanced server, storage, and networking solutions for Data Center, Cloud Computing, Enterprise IT, Hadoop/ Big Data, Hyperscale, HPC and IoT/Embedded customers worldwide. We are the \\#5 fastest growing company among the Silicon Valley Top 50 technology fir",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-12T10:44:43.178219"
+  "updated": "2026-02-12T11:39:30.920083"
 }

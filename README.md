@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-12 10:44
+**Last updated:** 2026-02-12 11:39
 
 **Total:** 1424 jobs from 535 companies
 
@@ -18,7 +18,6 @@
 | **TJX** | [Merchandise and Front End Associate](https://tjx.wd1.myworkdayjobs.com/en-US/tjx_external/job/Mountain-View-CA-94040/Merchandise-and-Front-End-Associate_REQ94579) | Mountain View, CA |  | SpeedyApply | 0d |
 | **NVIDIA** | [Formal Verification Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Formal-Verification-Engineer\u002d\u002d-New-College-Grad-2026_JR2013065) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 1d |
 | **Genentech** | [Senior ML Scientist - Scientific Reasoning Models - AI for Drug Discovery](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/New-York-City/Senior---Principal-Machine-Learning-Scientist--Scientific-Reasoning-Models_202602-103618) | NYC, San Bruno, CA | [$110k-155k](https://www.levels.fyi/companies/genentech/salaries) | Simplify | 1d |
-| **DigitalOcean** | [Software Engineer](https://www.digitalocean.com/careers/position/apply/?gh_jid=7605430) | Seattle, WA | [$119k-154k](https://www.levels.fyi/companies/digitalocean/salaries) | Simplify | 1d |
 | **Crowdstrike** | [Front End Engineer 1](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Austin-TX/Front-End-Engineer-I--Hybrid-_R26953) | Austin, TX | [$133k-153k](https://www.levels.fyi/companies/crowdstrike/salaries) | Simplify | 1d |
 | **JP Morgan Chase** | [Rates Exotics Trading Analyst - Analyst](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210711313) | NYC | [$95k-130k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 1d |
 | **JP Morgan Chase** | [Product Owner 55ip – Senior Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210707370) | NYC, Boston, MA | [$95k-130k](https://www.levels.fyi/companies/jpmorgan-chase/salaries) | Simplify | 1d |
@@ -1303,6 +1302,8 @@
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://careers.qualcomm.com/careers/job/446715807950) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn |  |
+| **Jobs via Dice** | [Software Engineer (Bachelor's New College Grad)](https://click.appcast.io/t/2fsCjHLLmSBwzqtYLfNhUnFM3PdIaeBjWR-cSEgBjsU=&urlHash=sHiw) | California, United States |  | LinkedIn |  |
+| **Super Micro Computer Spain, S.L.** | [Generative AI Software Engineer Co-Op](https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/&urlHash=ZnGi) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1434,7 +1435,6 @@
 | **Lensa** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://lensa.com/cgw/7175ca5395604e14b873798b024bfa4ctjo1) | San Jose, CA |  | LinkedIn |  |
 | **Breeze** | [Software Engineer - New Grad - AI Native](https://job-boards.greenhouse.io/breezecash/jobs/5116784008) | New York, NY |  | LinkedIn |  |
 | **TalentAlly** | [Guidance Navigation and Controls Engineer (Entry Level) - Millennium Space Systems](https://talentally.com/job/guidance-navigation-and-controls-engineer-entry-level-millennium-space-systems) | El Segundo, CA |  | LinkedIn |  |
-| **Jobs via Dice** | [Software Engineer (Bachelor's New College Grad)](https://click.appcast.io/t/2fsCjHLLmSBwzqtYLfNhUnFM3PdIaeBjWR-cSEgBjsU=&urlHash=sHiw) | California, United States |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/9a9b3ed79a4e48d2950df1e00c63d014tjo1) | New York, NY |  | LinkedIn |  |
 
 ---
