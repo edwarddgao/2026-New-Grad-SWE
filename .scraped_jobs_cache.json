@@ -5041,7 +5041,7 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/GigaML/cb74c445-322b-47fc-804c-b0565e18ca3a/application": {
-      "id": "linkedin_li-4362278914",
+      "id": "linkedin_li-4363132072",
       "title": "Software Engineer (New Grads)",
       "company": "Giga",
       "company_slug": "giga",
@@ -5053,7 +5053,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**About Giga**\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises.\n   \n\n  \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automation, powered b",
+      "description": "**About Giga** \n\n\n\n\n  \n\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises\n \n\n\n\n .\n   \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automatio",
       "experience_level": null
     },
     "https://lensa.com/cgw/96d4dfd496534261b96a9ccfdbdeea3atjo1": {
@@ -5679,7 +5679,23 @@
       "remote": false,
       "description": "**Company:**\n------------\n\n\nQualcomm Technologies, Inc.**Job Area:**\n-------------\n\n\nEngineering Group, Engineering Group \\> Software Engineering**General Summary:**\n\n\nAs a leading technology innovator, Qualcomm pushes the boundaries of what's possible to enable next\\-generation experiences and drives digital transformation to help create a smarter, connected future for all. As a Qualcomm Software Engineer, you will design, develop, create, modify, and validate embedded and cloud edge software, ",
       "experience_level": null
+    },
+    "https://jobs.paloaltonetworks.com/en/job/santa-clara/software-engineer-bachelor-s-new-college-grad/47263/91659285760": {
+      "id": "indeed_in-be6a6c4c6ddf242d",
+      "title": "Software Engineer (Bachelor's New College Grad)",
+      "company": "Palo Alto Networks",
+      "company_slug": "palo-alto-networks",
+      "location": "Santa Clara, CA, US",
+      "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/software-engineer-bachelor-s-new-college-grad/47263/91659285760",
+      "source": "indeed",
+      "date_posted": "2026-02-12",
+      "salary_min": 90000,
+      "salary_max": 147500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Santa Clara, California, United States Software Engineering Ref ID: JR\\-014129  \n\n**Our Mission**\n\n\nAt Palo Alto Networks\u00ae, we\u2019re united by a shared mission\u2014to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real\\-world problems with cutting\\-edge technology and bold thinking. Here, everyone has a voice, and every idea counts. If you\u2019re ready to do the most meaningful work of your career alongside people who are just as passionate as you are, you\u2019",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-12T20:34:28.692109"
+  "updated": "2026-02-12T21:33:33.706737"
 }
