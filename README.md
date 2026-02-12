@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-12 06:06
+**Last updated:** 2026-02-12 07:52
 
-**Total:** 1426 jobs from 537 companies
+**Total:** 1427 jobs from 537 companies
 
 ---
 
@@ -109,6 +109,7 @@
 | **Epic Kids** | [Product Manager - Product-led Growth & Community Operations](https://job-boards.greenhouse.io/epickids/jobs/7625555003) | San Jose, CA |  | Simplify | 3d |
 | **Cineplex** | [Amusement Electronics Technician - Playdium Whitby](https://cineplex.wd3.myworkdayjobs.com/en-US/Cineplex/job/Whitby-Canada/Amusement-Electronics-Technician_JR-110618) | Oshawa, ON, Canada |  | Simplify | 3d |
 | **qode.world** | [Associate Data Engineer](https://apply.workable.com/qodeworld/j/B784968D17/apply) | NYC |  | Simplify | 3d |
+| **Epic Kids** | [Product Manager](https://job-boards.greenhouse.io/epickids/jobs/7625512003) | San Jose, CA |  | Simplify | 3d |
 | **Google** | [Cyber Defense Associate Validation Engineer - Mandiant - Google Cloud](https://www.google.com/about/careers/applications/jobs/results/103881311474590406) | New York, USA | [$188k-188k](https://www.levels.fyi/companies/google/salaries) | SpeedyApply | 4d |
 | **Jobs via Dice** | [Entry-Level Software Engineers (Developer)](https://click.appcast.io/t/s5Eg4cEzOAwC84fj5bLxQTNvNqCBT-xBL__Sp71YFJI=&urlHash=szy_) | El Segundo, CA |  | LinkedIn | 4d |
 | **Assort Health** | [Agent Engineer (New Grad, Summer 2026)](https://jobs.ashbyhq.com/assorthealth/64876579-05a2-40b6-a772-d1ce8b0ac8c4/application) | San Francisco, CA |  | LinkedIn | 4d |
@@ -514,10 +515,10 @@
 | **Morgan Lewis** | [Digital Product Analyst](https://morganlewis.wd5.myworkdayjobs.com/morganlewis/job/Seattle-Washington/Digital-Product-Analyst_R3834) | Philadelphia, PA, Seattle, WA |  | Simplify | 1mo |
 | **Cirrus Logic** | [Engineering Technician](https://jobs.eu.lever.co/cirrus/7712560b-a446-433b-9199-6daabae03c8a/apply) | Austin, TX |  | Simplify | 1mo |
 | **Healthfirst** | [Technology Early Career Development Program - Product Owner/Business Analyst](https://healthfirst.wd1.myworkdayjobs.com/healthfirst/job/New-York-NY/XMLNAME-2026-Technology-Early-Career-Development-Program---Product-Owner-Business-Analyst_R021432) | NYC |  | Simplify | 1mo |
-| **WayUp** | [Boeing, Spacecraft Software Engineer (Entry Level) - Millennium Space Systems - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/) | El Segundo, CA |  | LinkedIn | 1mo |
 | **Sigma** | [Software Engineer (New Grad Program)](https://job-boards.greenhouse.io/sigmacomputing/jobs/7587162003) | New York, NY |  | LinkedIn | 1mo |
 | **Zip** | [Software Engineer, New Grad (2026 Start)](https://jobs.ashbyhq.com/zip/ec19389b-6943-4ba8-8060-ac6bdfa23987&urlHash=1DDj) | San Francisco, CA |  | LinkedIn | 1mo |
 | **ExecutivePlacements.com** | [Junior Software Engineer (Graduate)](https://www.executiveplacements.com/JF/Junior-Software-Engineer-Graduate-jobs-in-New-York-New-York-e5371134e20b.asp) | New York, NY |  | LinkedIn | 1mo |
+| **WayUp** | [Boeing, Spacecraft Software Engineer (Entry Level) - Millennium Space Systems - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/) | El Segundo, CA |  | LinkedIn | 1mo |
 | **ByteDance** | [Research Scientist Graduate - Foundation Model - Generative AI](https://jobs.bytedance.com/en/position/7593345683353012485/detail) | San Jose, CA | [$174k-272k](https://www.levels.fyi/companies/bytedance/salaries) | Simplify | 1mo |
 | **Adobe** | [2026 University Graduate - Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Applied-Research-Scientist_R160656) | Seattle, WA | [$157.0k-200k](https://www.levels.fyi/companies/adobe/salaries) | Simplify | 1mo |
 | **Ideogram** | [Software Engineer - ML Data Infrastructure](https://jobs.ashbyhq.com/ideogram/c6d67226-cca4-453d-b818-efd9d815e55f/application) | Toronto, ON, Canada, NYC | [$127.0k-145.0k](https://www.levels.fyi/companies/ideogram/salaries) | Simplify | 1mo |
@@ -1298,14 +1299,16 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 13mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 13mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 13mo |
-| **NVIDIA** | [Formal Verification Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Formal-Verification-Engineer\u002d\u002d-New-College-Grad-2026_JR2013065) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **NVIDIA** | [Software Engineer, TensorRT Specialized Platforms - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dTensorRT-Specialized-Platforms\u002d\u002d-New-College-Grad-2025_JR2002870) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
+| **NVIDIA** | [Formal Verification Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Formal-Verification-Engineer\u002d\u002d-New-College-Grad-2026_JR2013065) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **ChatGPT Jobs** | [Software Engineer I - Direct Issuance (New Grad)](https://chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=zRVf) | El Segundo, CA | $120k-150k | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **Qualcomm** | [Machine Learning Compiler Engineer](https://careers.qualcomm.com/careers/job/446715807950) | San Diego, CA | [$120k-143.0k](https://www.levels.fyi/companies/qualcomm/salaries) | LinkedIn |  |
+| **Breeze** | [Software Engineer - New Grad - AI Native](https://job-boards.greenhouse.io/breezecash/jobs/5116784008) | New York, NY |  | LinkedIn |  |
+| **Jobs via Dice** | [Software Engineer (Bachelor's New College Grad)](https://click.appcast.io/t/2fsCjHLLmSBwzqtYLfNhUnFM3PdIaeBjWR-cSEgBjsU=&urlHash=sHiw) | California, United States |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1435,9 +1438,7 @@
 | **Jobs via Dice** | [Intern - Software Engineer](https://click.appcast.io/t/mcEVrRkffFQzc1trR0iaO12YNwkv9kiNyost2AbRhTg=&urlHash=1IFk) | California, United States |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026](https://lensa.com/cgw/96d4dfd496534261b96a9ccfdbdeea3atjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://lensa.com/cgw/7175ca5395604e14b873798b024bfa4ctjo1) | San Jose, CA |  | LinkedIn |  |
-| **Breeze** | [Software Engineer - New Grad - AI Native](https://job-boards.greenhouse.io/breezecash/jobs/5116784008) | New York, NY |  | LinkedIn |  |
 | **TalentAlly** | [Guidance Navigation and Controls Engineer (Entry Level) - Millennium Space Systems](https://talentally.com/job/guidance-navigation-and-controls-engineer-entry-level-millennium-space-systems) | El Segundo, CA |  | LinkedIn |  |
-| **Jobs via Dice** | [Software Engineer (Bachelor's New College Grad)](https://click.appcast.io/t/2fsCjHLLmSBwzqtYLfNhUnFM3PdIaeBjWR-cSEgBjsU=&urlHash=sHiw) | California, United States |  | LinkedIn |  |
 
 ---
 
