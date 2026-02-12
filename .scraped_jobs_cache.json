@@ -5041,7 +5041,7 @@
       "experience_level": null
     },
     "https://jobs.ashbyhq.com/GigaML/cb74c445-322b-47fc-804c-b0565e18ca3a/application": {
-      "id": "linkedin_li-4362278914",
+      "id": "linkedin_li-4363132072",
       "title": "Software Engineer (New Grads)",
       "company": "Giga",
       "company_slug": "giga",
@@ -5053,7 +5053,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**About Giga**\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises.\n   \n\n  \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automation, powered b",
+      "description": "**About Giga** \n\n\n\n\n  \n\n Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We\u2019re building the next generation of customer experience \u2014 real\\-time AI agents that can understand emotion, resolve issues instantly, and scale across the world\u2019s largest enterprises\n \n\n\n\n .\n   \n\n It\u2019s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go\\-to AI platform for all enterprise automatio",
       "experience_level": null
     },
     "https://lensa.com/cgw/96d4dfd496534261b96a9ccfdbdeea3atjo1": {
@@ -5105,19 +5105,19 @@
       "experience_level": null
     },
     "https://jsv3.recruitics.com/redirect": {
-      "id": "indeed_in-cb5e94f2bb3c6c16",
-      "title": "Machine Learning Engineer - Proximity Systems and Intelligence Team",
-      "company": "Apple",
-      "company_slug": "apple",
-      "location": "San Diego, CA, US",
+      "id": "indeed_in-d7b8fac6bc439fe5",
+      "title": "2026 AI Engineer Intern - Remote",
+      "company": "Northrop Grumman",
+      "company_slug": "northrop-grumman",
+      "location": "Redondo Beach, CA, US",
       "url": "https://jsv3.recruitics.com/redirect",
       "source": "indeed",
       "date_posted": "2026-02-06",
-      "salary_min": 139500,
-      "salary_max": 258100,
+      "salary_min": 17,
+      "salary_max": 46,
       "sponsorship": null,
-      "remote": false,
-      "description": "Our mission is to provide an intelligent and rich user experience on Apple devices using spatial awareness and device context. We help you find your keys, locate your AirPods, remind you if you leave your devices behind in untrusted locations, and let you know how long your commute will be. We also help your loved ones know you made it home safely and help protect you against unwanted tracking. We have an opening for an experienced Machine Learning engineer for our small but growing team. The te",
+      "remote": true,
+      "description": "RELOCATION ASSISTANCE: No relocation assistance available\nCLEARANCE TYPE: None\nTRAVEL: No**Description**\n---------------\n\n\nAt Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history \\- from the first flight across the Atlantic Ocean, to stealth bom",
       "experience_level": null
     },
     "https://jobs.jobvite.com/conair/job/oRbAzfwV": {
@@ -5599,7 +5599,23 @@
       "remote": false,
       "description": "**Location:** New York, USAWorkplace Type: Hybrid\n  \n  \n\n**About the Role:**  \n\nWe are seeking a highly motivated and talented Entry\\-Level Software Engineer to join our dynamic team. This is an excellent opportunity for a recent graduate or someone with up to one year of experience to contribute to exciting projects and grow their skills in a supportive environment. As an Entry\\-Level Software Engineer, you will be involved in the full software development lifecycle, from design and implementat",
       "experience_level": null
+    },
+    "https://assaabloy.jobs2web.com/job/Lake-Forest-Mobile-Developer-Intern-CA-92610/1293009401/": {
+      "id": "indeed_in-3ddddedc5ba5c2a1",
+      "title": "Mobile Developer Intern",
+      "company": "ASSA ABLOY Group",
+      "company_slug": "assa-abloy-group",
+      "location": "Lake Forest, CA, US",
+      "url": "https://assaabloy.jobs2web.com/job/Lake-Forest-Mobile-Developer-Intern-CA-92610/1293009401/",
+      "source": "indeed",
+      "date_posted": "2026-02-11",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "**Job Summary**\n\nAmericas Residential, a division of ASSA ABLOY is looking for a highly motivated and practical Mobile Developer Intern candidate to work in our headquarter office in Lake Forest, CA. This role will offer you the opportunity to be a part of **a** global company and the market leader in opening solutions. **Must be available to work onsite in our Lake Forest office 3 days a week for our hybrid schedule \u2013 Tuesday, Wednesday and Thursday. Will be remote Mondays and Fridays.**  \n\n\n\nY",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-12T02:04:55.943859"
+  "updated": "2026-02-12T04:57:51.900480"
 }
