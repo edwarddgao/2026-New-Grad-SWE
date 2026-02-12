@@ -2257,11 +2257,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365192039",
+      "id": "linkedin_li-4365172862",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "Mountain View, CA",
+      "location": "San Francisco, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -3281,8 +3281,8 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4363973972",
-      "title": "Software Engineer (Apprentice Conversion)",
+      "id": "linkedin_li-4363101937",
+      "title": "Forward Deployed Engineer - Entry Level",
       "company": "IBM",
       "company_slug": "ibm",
       "location": "Research Park, CA",
@@ -3293,7 +3293,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n At IBM Finance \\& Operations, we are the backbone of IBM\u2019s transformation driving efficiency, transparency, and smart decision\\-making across the business. Our teams provide the insight and discipline that guide strategy, ensure financial strength, and enable IBM to invest in innovation and growth. Working in Finance \\& Operations means combining analytical skills with collaboration and curiosity. You\u2019ll partner with colleagues across functions and geographies, using data, tech",
+      "description": "**Introduction**\n A career in IBM Software means you\u2019ll be part of a team that transforms our customer\u2019s challenges into solutions.\n   \n\n  \n\n Seeking new possibilities and always staying curious, we are a team dedicated to creating the world\u2019s leading AI\\-powered, cloud\\-native software solutions for our customers. Our renowned legacy creates endless global opportunities for our IBMers, so the door is always open for those who want to grow their career.\n   \n\n  \n\n IBM\u2019s product and technology lan",
       "experience_level": null
     },
     "http://careers.viasat.com/jobs/5362/job": {
@@ -5713,5 +5713,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-12T22:32:30.335814"
+  "updated": "2026-02-12T23:29:21.116290"
 }
