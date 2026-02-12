@@ -5464,7 +5464,7 @@
       "location": "New York, NY",
       "url": "https://job-boards.greenhouse.io/breezecash/jobs/5116784008",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-11",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -5647,7 +5647,23 @@
       "remote": false,
       "description": "Apply now \u00bb\n   \n\n  \n\n**Date:** \n Feb 12, 2026\n   \n\n  \n\n**Location:** \n San Jose, California, United States\n   \n\n  \n\n**Company:** \n Super Micro Computer\n   \n\n  \n\n**Job Req ID: 28406**\n**About Supermicro**\n Supermicro\u00ae is a Top Tier provider of advanced server, storage, and networking solutions for Data Center, Cloud Computing, Enterprise IT, Hadoop/ Big Data, Hyperscale, HPC and IoT/Embedded customers worldwide. We are the \\#5 fastest growing company among the Silicon Valley Top 50 technology fir",
       "experience_level": null
+    },
+    "https://jobs.ericsson.com/careers/job/563121774558121": {
+      "id": "indeed_in-12e8dcde8156aba0",
+      "title": "EWS SRE",
+      "company": "Ericsson",
+      "company_slug": "ericsson",
+      "location": "Santa Clara, CA, US",
+      "url": "https://jobs.ericsson.com/careers/job/563121774558121",
+      "source": "indeed",
+      "date_posted": "2026-02-09",
+      "salary_min": 138000,
+      "salary_max": 172500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Grow with us**\n----------------\n\n\n**About this opportunity:**\n\n\nLocation: Santa Clara, California, US  \n\nWork Model: Hybrid (onsite three days per week)  \n\nNote: Relocation not offered. Ericsson Inc. does not sponsor U.S. work authorizations for this role (including H1B, O1, TN) and does not hire F1 candidates working on EAD.  \n\n  \n\nWhy You\u2019ll Love This Role\n\n  \n\n  \n\nJoin a high\\-impact team that combines the agility of a startup with the resources of a global technology leader. Ericsson Web S",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-12T14:47:17.267343"
+  "updated": "2026-02-12T15:52:45.192174"
 }
