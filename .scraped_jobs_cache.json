@@ -2257,11 +2257,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365192039",
+      "id": "linkedin_li-4365172862",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "Mountain View, CA",
+      "location": "San Francisco, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -5480,7 +5480,7 @@
       "location": "Santa Clara, CA",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Formal-Verification-Engineer\\u002d\\u002d-New-College-Grad-2026_JR2013065",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-11",
       "salary_min": null,
       "salary_max": null,
       "sponsorship": null,
@@ -5633,5 +5633,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-12T09:48:44.787206"
+  "updated": "2026-02-12T10:44:43.178219"
 }
