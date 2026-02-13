@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-13 10:39
+**Last updated:** 2026-02-13 11:31
 
-**Total:** 1404 jobs from 532 companies
+**Total:** 1403 jobs from 532 companies
 
 ---
 
@@ -223,7 +223,6 @@
 | **F5** | [Engineer 1](https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Seattle/Engineer-I_RP1036370) | Seattle, WA | [$122k-151k](https://www.levels.fyi/companies/f5-networks/salaries) | Simplify | 1w |
 | **BlackRock** | [Portfolio Risk Modeling](https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/New-York-NY/Portfolio-Risk-Modeling---Associate_R260755) | NYC | [$117k-143k](https://www.levels.fyi/companies/blackrock/salaries) | Simplify | 1w |
 | **Stryker** | [Associate Installation Technician - Tristate](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/New-York-Virtual-Address/Associate-Installation-Technician---Tristate_R559222-1) | Newark, NJ, Mahwah, NJ, Long Island, ... | [$80k-133k](https://www.levels.fyi/companies/stryker/salaries) | Simplify | 1w |
-| **RTX** | [2026 Full-time - Real-time Embedded Software Engineer - Onsite (CA)](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/XMLNAME-2026-Full-time---Real-time-Embedded-Software-Engineer---Onsite--CA-_01821758) | El Segundo, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | Simplify | 1w |
 | **Raytheon** | [2026 Full-time - Real-time Embedded Software Engineer - Onsite (CA)](https://careers.rtx.com/global/en/job/RAYTGLOBAL01821758EXTERNALENGLOBAL/2026-Full-time-Real-time-Embedded-Software-Engineer-Onsite-CA) | El Segundo, CA | [$88k-111k](https://www.levels.fyi/companies/raytheon/salaries) | LinkedIn | 1w |
 | **ASML** | [Upgrade Install and Relocation Engineer](https://asml.wd3.myworkdayjobs.com/asmlext1/job/Austin-TX-USA/Upgrade-Install-and-Relocation-Engineer_J-00334608) | Austin, TX | [$70.0k-88.0k](https://www.levels.fyi/companies/asml/salaries) | Simplify | 1w |
 | **Booz Allen** | [Reinforcement Learning AI Engineer](https://bah.wd1.myworkdayjobs.com/Confidential/job/Colorado-Springs-CO/Reinforcement-Learning-AI-Engineer_R0232812-2) | Aurora, CO, Colorado Springs, CO, Cha... | [$83k-88k](https://www.levels.fyi/companies/booz-allen-hamilton/salaries) | Simplify | 1w |
@@ -1275,14 +1274,14 @@
 | **Column (https://column.com/)** | [Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)](https://column.com/) | San Francisco, CA (ONSITE) |  | HN Hiring | 13mo |
 | **Brilliant.org** | [Software Engineers](https://brilliant.org) | Remote (North America), SF, NYC |  | HN Hiring | 13mo |
 | **Sequin** | [Platform Engineer](https://github.com/sequinstream/sequin) | San Francisco |  | HN Hiring | 13mo |
-| **NVIDIA** | [High-Performance LLM Training Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer\u002d\u002d-New-College-Grad-2026_JR2013288) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **NVIDIA** | [Software Engineer, TensorRT Specialized Platforms - New College Grad 2025](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dTensorRT-Specialized-Platforms\u002d\u002d-New-College-Grad-2025_JR2002870) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
+| **NVIDIA** | [High-Performance LLM Training Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer\u002d\u002d-New-College-Grad-2026_JR2013288) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn |  |
 | **ChatGPT Jobs** | [Software Engineer I - Direct Issuance (New Grad)](https://chatgpt-jobs.com/job/software-engineer-i-direct-issuance-new-grad-stubhub-2668&urlHash=zRVf) | El Segundo, CA | $120k-150k | LinkedIn |  |
 | **NetApp** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://dsp.prng.co/6-mAtUb) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
-| **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn |  |
+| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/51d9341689a0439baed8d0bd554823a4tjo1) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1415,7 +1414,7 @@
 | **TalentAlly** | [Guidance Navigation and Controls Engineer (Entry Level) - Millennium Space Systems](https://talentally.com/job/guidance-navigation-and-controls-engineer-entry-level-millennium-space-systems) | El Segundo, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/9a9b3ed79a4e48d2950df1e00c63d014tjo1) | New York, NY |  | LinkedIn |  |
 | **Super Micro Computer Spain, S.L.** | [Generative AI Software Engineer Co-Op](https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/&urlHash=ZnGi) | San Jose, CA |  | LinkedIn |  |
-| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/51d9341689a0439baed8d0bd554823a4tjo1) | San Francisco, CA |  | LinkedIn |  |
+| **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn |  |
 
 ---
 
