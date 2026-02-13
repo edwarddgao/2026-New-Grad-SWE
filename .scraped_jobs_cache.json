@@ -2001,11 +2001,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365172862",
+      "id": "linkedin_li-4365192039",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "San Francisco, CA",
+      "location": "Mountain View, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -5487,7 +5487,71 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Jnd Corp. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy n",
       "experience_level": null
+    },
+    "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer\\u002d\\u002d-New-College-Grad-2026_JR2013288": {
+      "id": "linkedin_li-4372225013",
+      "title": "High-Performance LLM Training Engineer - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer\\u002d\\u002d-New-College-Grad-2026_JR2013288",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "We are now looking for a High\\-Performance LLM Training Engineer!\n   \n\n  \n\n NVIDIA is seeking experienced engineers specializing in performance analysis and optimization to improve the efficiency of LLM training workloads, which are shaping the world's most advanced computing systems. This position focuses on optimizing NVIDIA\u2019s high\\-performance LLM software stack in frameworks like PyTorch and JAX for high\\-performance training on thousands of GPUs, while also helping shape hardware roadmaps f",
+      "experience_level": null
+    },
+    "https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/": {
+      "id": "linkedin_li-4361524001",
+      "title": "Boeing, Spacecraft Software Engineer (Entry Level) - Millennium Space Systems - Application via WayUp",
+      "company": "WayUp",
+      "company_slug": "wayup",
+      "location": "El Segundo, CA",
+      "url": "https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/",
+      "source": "linkedin",
+      "date_posted": "2026-02-11",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "This role is with Boeing. WayUp is partnering with Boeing to hire top talent.\n   \n\n  \n\n Spacecraft Software Engineer (Entry\\-Level)\n   \n\n  \n\n* Millennium Space Systems\n\n\n Company:\n   \n\n  \n\n Millennium Space Systems\n   \n\n  \n\n* Spacecraft Software Engineer (Entry Level)\n* Millennium Space Systems\n* Millennium Space Systems (MSS), a part of Boeing Defense, Space and Security (BDS) is seeking a Spacecraft Software Engineer (Entry Level) to support the Engineering team in El Segundo, CA !\n\n\n Job Summ",
+      "experience_level": null
+    },
+    "https://grnh.se/9mmdobto3us": {
+      "id": "indeed_in-35892d79d1668153",
+      "title": "Software Engineering Intern (Summer 2026)",
+      "company": "Sigma Computing",
+      "company_slug": "sigma-computing",
+      "location": "New York, NY, US",
+      "url": "https://grnh.se/9mmdobto3us",
+      "source": "indeed",
+      "date_posted": "2026-02-13",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Sigma unlocks the value of data by delivering cloud\\-scale analytics and business intelligence with the simplicity of a spreadsheet, complete with pivot tables and dashboards. We empower business professionals and data teams to quickly explore, analyze, visualize, and collaborate, leveraging all of their data across the organization.\n\n\n#### **Our internship program at Sigma:**\n\n\n\nSigma's Early Career Program is the launchpad for the next generation of engineers and innovators. As an Intern at Si",
+      "experience_level": null
+    },
+    "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2026_JR2013288": {
+      "id": "indeed_in-f34efe99d19bf117",
+      "title": "High-Performance LLM Training Engineer - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA, US",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2026_JR2013288",
+      "source": "indeed",
+      "date_posted": "2026-02-12",
+      "salary_min": 124000,
+      "salary_max": 195500,
+      "sponsorship": null,
+      "remote": false,
+      "description": "We are now looking for a High\\-Performance LLM Training Engineer!\nNVIDIA is seeking experienced engineers specializing in performance analysis and optimization to improve the efficiency of LLM training workloads, which are shaping the world's most advanced computing systems. This position focuses on optimizing NVIDIA\u2019s high\\-performance LLM software stack in frameworks like PyTorch and JAX for high\\-performance training on thousands of GPUs, while also helping shape hardware roadmaps for the nex",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-13T02:08:29.928157"
+  "updated": "2026-02-13T04:53:11.042400"
 }
