@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-13 17:40
+**Last updated:** 2026-02-13 18:47
 
-**Total:** 1404 jobs from 533 companies
+**Total:** 1402 jobs from 532 companies
 
 ---
 
@@ -75,9 +75,9 @@
 | **Giga AI** | [Software Engineer 1/2](https://jobs.ashbyhq.com/gigaml/96f0c2f8-3d97-4763-ab46-b6af6ad8b2e7/application) | NYC, SF |  | Simplify | 2d |
 | **QuinStreet** | [Entry Level Software Engineer](https://www.quinstreet.com/careers/?gh_jid=7605753) | San Mateo, CA |  | Simplify | 2d |
 | **TJX** | [Merchandise and Front End Associate](https://tjx.wd1.myworkdayjobs.com/en-US/tjx_external/job/Mountain-View-CA-94040/Merchandise-and-Front-End-Associate_REQ94579) | Mountain View, CA |  | SpeedyApply | 2d |
-| **QuinStreet** | [Entry-level Software Engineer](https://grnh.se/po1n8bwm1us) | Foster City, CA |  | LinkedIn | 2d |
 | **ASSA ABLOY Group** | [Mobile Developer Intern](https://assaabloy.jobs2web.com/job/Lake-Forest-Mobile-Developer-Intern-CA-92610/1293009401/) | Lake Forest, CA, US |  | Indeed | 2d |
 | **QuinStreet** | [Entry-level Software Engineer](https://grnh.se/nws3msan1us) | Foster City, CA, US |  | Indeed | 2d |
+| **QuinStreet** | [Entry-level Software Engineer](https://grnh.se/po1n8bwm1us) | Foster City, CA |  | LinkedIn | 2d |
 | **WayUp** | [Boeing, Spacecraft Software Engineer (Entry Level) - Millennium Space Systems - Application via WayUp](https://www.wayup.com/i-Airlines-Aviation-j-Spacecraft-Software-Engineer-Entry-Level-Millennium-Space-Systems-Boeing-86274065303766/) | El Segundo, CA |  | LinkedIn | 2d |
 | **Roblox** | [Data Scientist - Foundation AI](https://careers.roblox.com/jobs/7577436?gh_jid=7577436) | San Mateo, CA | [$214k-331k](https://www.levels.fyi/companies/roblox/salaries) | Simplify | 3d |
 | **Hewlett Packard Enterprise \| HPE** | [Software Engineer II](https://careers.hpe.com/us/en/job/HPE1US1202394EXTERNALENUS/Software-Engineer-II) | Roseville, CA, US | [$105k-213k](https://www.levels.fyi/companies/hpe/salaries) | Indeed | 3d |
@@ -134,7 +134,6 @@
 | **Roku** | [Software Engineer Intern, Embedded Systems](https://www.weareroku.com/jobs/software-engineer-intern-embedded-systems-san-jose-california-united-states) | San Jose, CA, US | [Levels.fyi](https://www.levels.fyi/companies/roku/salaries) | Indeed | 4d |
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/b294635c-eb2c-45f2-a4b4-5e042fd19d65/application) | Toronto, ON, Canada |  | Simplify | 4d |
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/d393cae7-b653-4abd-afef-f88241741630/application) | Palo Alto, CA |  | Simplify | 4d |
-| **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/7bb23133-e09d-4804-be90-4217fd951738/application) | Toronto, ON, Canada |  | Simplify | 4d |
 | **Jerry** | [Software Engineer - Entry](https://jobs.ashbyhq.com/jerry.ai/6a0dd919-cede-4047-bfc1-2e055bbdebed/application) | Palo Alto, CA |  | Simplify | 4d |
 | **Sandisk** | [New College Graduate Engineer – Sr. Test engineering](https://jobs.smartrecruiters.com/Sandisk/744000108284451) | Milpitas, CA |  | Simplify | 4d |
 | **Epic Kids** | [Product Manager - Product-led Growth & Community Operations](https://job-boards.greenhouse.io/epickids/jobs/7625555003) | San Jose, CA |  | Simplify | 4d |
@@ -165,7 +164,6 @@
 | **Fidelity Investments** | [Associate – Systematic Trading Product Development](https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Associate--Systematic-Trading-Product-Development_2122384-1) | NYC, Boston, MA | [$94k-94k](https://www.levels.fyi/companies/fidelity-investments/salaries) | Simplify | 1w |
 | **TD Bank** | [Product Owner 1](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Product-Owner-I--B3617-_R_1460544) | Toronto, ON, Canada | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 1w |
 | **ThredUp** | [Software Engineering (AI/ML) Intern](https://careers.thredup.com/us/en/job/THRTHRUS1332EXTERNALENUS/Software-Engineering-AI-ML-Intern) | Oakland, CA, US |  | Indeed | 1w |
-| **Northrop Grumman** | [2026 AI Engineer Intern - Remote](https://jsv3.recruitics.com/redirect) | Redondo Beach, CA, US | [Levels.fyi](https://www.levels.fyi/companies/northrop-grumman/salaries) | Indeed | 1w |
 | **Ball Aerospace** | [Entry Level Software Configuration Management Analyst](https://jobs.baesystems.com/global/en/job/BAE1US120941BREXTERNAL/Entry-Level-Software-Configuration-Management-Analyst) | San Diego, California, United States |  | SpeedyApply | 1w |
 | **FurtherAI** | [Software/AI Engineer - New Grad](https://jobs.ashbyhq.com/furtherai/282de7b6-0117-4e7a-b1f6-c2d256af4a47) | San Francisco |  | SpeedyApply | 1w |
 | **BD** | [Systems Engineer](https://jobs.bd.com/job/-/-/159/91306285712) | San Diego, CA |  | LinkedIn | 1w |
@@ -1282,8 +1280,6 @@
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
-| **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn |  |
-| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/51d9341689a0439baed8d0bd554823a4tjo1) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1416,6 +1412,8 @@
 | **TalentAlly** | [Guidance Navigation and Controls Engineer (Entry Level) - Millennium Space Systems](https://talentally.com/job/guidance-navigation-and-controls-engineer-entry-level-millennium-space-systems) | El Segundo, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/9a9b3ed79a4e48d2950df1e00c63d014tjo1) | New York, NY |  | LinkedIn |  |
 | **Super Micro Computer Spain, S.L.** | [Generative AI Software Engineer Co-Op](https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/&urlHash=ZnGi) | San Jose, CA |  | LinkedIn |  |
+| **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn |  |
+| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/51d9341689a0439baed8d0bd554823a4tjo1) | San Francisco, CA |  | LinkedIn |  |
 
 ---
 
