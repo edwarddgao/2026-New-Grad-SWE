@@ -5489,7 +5489,7 @@
       "experience_level": null
     },
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer\\u002d\\u002d-New-College-Grad-2026_JR2013288": {
-      "id": "linkedin_li-4372225013",
+      "id": "linkedin_li-4372213687",
       "title": "High-Performance LLM Training Engineer - New College Grad 2026",
       "company": "NVIDIA",
       "company_slug": "nvidia",
@@ -5551,7 +5551,39 @@
       "remote": false,
       "description": "We are now looking for a High\\-Performance LLM Training Engineer!\nNVIDIA is seeking experienced engineers specializing in performance analysis and optimization to improve the efficiency of LLM training workloads, which are shaping the world's most advanced computing systems. This position focuses on optimizing NVIDIA\u2019s high\\-performance LLM software stack in frameworks like PyTorch and JAX for high\\-performance training on thousands of GPUs, while also helping shape hardware roadmaps for the nex",
       "experience_level": null
+    },
+    "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/": {
+      "id": "linkedin_li-4371714161",
+      "title": "Early Career Fire and Life Safety Engineer",
+      "company": "WSP in the U.S.",
+      "company_slug": "wsp-in-the-u-s",
+      "location": "New York, NY",
+      "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Job Description**\n**This Opportunity**\n WSP is currently initiating a search for a Full\\-Time\n **Early Career Fire and Life Safety Engineer** \n for the\n **New York, NY** \n office.\n   \n\n  \n\n Be involved in projects with our Fire and Life Safety (FLS) Team and be a part of a growing organization that meets our client\u2019s objectives and solves their challenges with innovative and cutting\\-edge technology.\n   \n\n  \n\n Takes part in providing local technical assistance for the design, development, buil",
+      "experience_level": null
+    },
+    "https://lensa.com/cgw/51d9341689a0439baed8d0bd554823a4tjo1": {
+      "id": "linkedin_li-4372192796",
+      "title": "Entry Level Designer/Engineer in Training, Mechanical",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "San Francisco, CA",
+      "url": "https://lensa.com/cgw/51d9341689a0439baed8d0bd554823a4tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for Stantec. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy no",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-13T04:53:11.042400"
+  "updated": "2026-02-13T05:59:34.557367"
 }
