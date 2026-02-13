@@ -3025,11 +3025,11 @@
       "experience_level": null
     },
     "https://ibmglobal.avature.net/en_US/careers/JobDetail": {
-      "id": "linkedin_li-4363973972",
-      "title": "Software Engineer (Apprentice Conversion)",
+      "id": "linkedin_li-4353673355",
+      "title": "Entry Level Software Developer 2026",
       "company": "IBM",
       "company_slug": "ibm",
-      "location": "Research Park, CA",
+      "location": "San Jose, CA",
       "url": "https://ibmglobal.avature.net/en_US/careers/JobDetail",
       "source": "linkedin",
       "date_posted": "2026-01-27",
@@ -3037,7 +3037,7 @@
       "salary_max": null,
       "sponsorship": null,
       "remote": false,
-      "description": "**Introduction**\n At IBM Finance \\& Operations, we are the backbone of IBM\u2019s transformation driving efficiency, transparency, and smart decision\\-making across the business. Our teams provide the insight and discipline that guide strategy, ensure financial strength, and enable IBM to invest in innovation and growth. Working in Finance \\& Operations means combining analytical skills with collaboration and curiosity. You\u2019ll partner with colleagues across functions and geographies, using data, tech",
+      "description": "**Introduction**\n**About**\n Are you passionate about building innovative solutions that power the future of enterprise technology? IBM Infrastructure is seeking talented Software Developers across multiple disciplines:\n   \n\n  \n\n Back\\-End Development\n   \n\n  \n\n Front\\-End Development\n   \n\n  \n\n Data Science\n   \n\n  \n\n As part of our dynamic team, you\u2019ll collaborate with designers, engineers, and product managers to create responsive, user\\-friendly applications using modern web technologies. You\u2019ll",
       "experience_level": null
     },
     "http://careers.viasat.com/jobs/5362/job": {
@@ -5601,5 +5601,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-13T09:43:44.992739"
+  "updated": "2026-02-13T10:39:08.160581"
 }
