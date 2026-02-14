@@ -1937,11 +1937,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365172862",
+      "id": "linkedin_li-4365192039",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "San Francisco, CA",
+      "location": "Mountain View, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -5665,5 +5665,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-14T06:44:04.821995"
+  "updated": "2026-02-14T07:34:35.551243"
 }
