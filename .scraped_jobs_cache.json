@@ -1937,11 +1937,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365172862",
+      "id": "linkedin_li-4365192039",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "San Francisco, CA",
+      "location": "Mountain View, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -5743,7 +5743,23 @@
       "remote": false,
       "description": "**Position Summary**\n The\n **Software Developer I** \n (OnBase Developer) is an entry\\-level role within the ERP Systems team in the Information Technology Division, ideal for a recent graduate or early\\-career professional looking to grow in enterprise application development. Reporting to the Manager for Workflow \\& Content, this position supports the development and maintenance of SDSU\u2019s electronic workflow and content management systems and participates in all phases of the software developme",
       "experience_level": null
+    },
+    "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dCAD-Automation\\u002d\\u002d-New-College-Grad-2025_JR2005867": {
+      "id": "linkedin_li-4343477296",
+      "title": "Software Engineer, CAD Automation - New College Grad 2026",
+      "company": "NVIDIA",
+      "company_slug": "nvidia",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dCAD-Automation\\u002d\\u002d-New-College-Grad-2025_JR2005867",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "For over two decades, NVIDIA has been at the forefront of transforming how the world computes\u2014from pioneering the GPU in 1999 to powering today's AI revolution. We're a company that thrives on collective innovation, where diverse perspectives drive breakthrough solutions in Graphics, Data Center, and Artificial Intelligence. As both a learning machine and organization, we believe the best ideas emerge when brilliant minds from all backgrounds collaborate to solve the world's most complex challen",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-14T16:28:34.639964"
+  "updated": "2026-02-14T17:26:38.360201"
 }
