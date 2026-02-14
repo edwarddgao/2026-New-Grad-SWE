@@ -1937,11 +1937,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365172862",
+      "id": "linkedin_li-4365192039",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "San Francisco, CA",
+      "location": "Mountain View, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -5089,7 +5089,7 @@
       "experience_level": null
     },
     "https://jobs.lever.co/saviynt/84a1db6f-6b4c-4915-a5f6-2759ee1b933e": {
-      "id": "indeed_in-14bc0e17d007022f",
+      "id": "indeed_in-0cce5c582fac98c6",
       "title": "Associate Engineer, Software Engineering ( New College Graduate)",
       "company": "Saviynt",
       "company_slug": "saviynt",
@@ -5599,7 +5599,23 @@
       "remote": false,
       "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for NetApp. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and privacy not",
       "experience_level": null
+    },
+    "https://www.governmentjobs.com/jobs/5225859/junior-assistant-associate-engineer/apply&urlHash=WBHi": {
+      "id": "linkedin_li-4364476540",
+      "title": "Junior / Assistant / Associate Engineer",
+      "company": "City of Morgan Hill",
+      "company_slug": "city-of-morgan-hill",
+      "location": "Morgan Hill, CA",
+      "url": "https://www.governmentjobs.com/jobs/5225859/junior-assistant-associate-engineer/apply&urlHash=WBHi",
+      "source": "linkedin",
+      "date_posted": "2026-02-13",
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**Description**\n**CITY OF MORGAN HILL**\n**JUNIOR ENGINEER**\n $8,873 \\- $11,324 Monthly\n   \n\n  \n\n $106,476 \\- $135,888 Annually\n   \n\n  \n\n**ASSISTANT ENGINEER**\n $9,857 \\- $12,580 Monthly\n   \n\n  \n\n $118,284 \\- $150,960 Annually\n   \n\n  \n\n**ASSOCIATE ENGINEER**\n $11,451 \\- $14,614 Monthly\n   \n\n  \n\n $137,412 \\- $175,368 Annually\n   \n\n  \n\n**Choose Morgan Hill: The City of Morgan Hill is the best community for people to live, work, visit, and operate their businesses.**\n**The City of Morgan Hill is rec",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-14T01:57:00.724751"
+  "updated": "2026-02-14T04:11:09.940375"
 }
