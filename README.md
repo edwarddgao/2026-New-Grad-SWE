@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-14 04:11
+**Last updated:** 2026-02-14 05:44
 
-**Total:** 1408 jobs from 532 companies
+**Total:** 1410 jobs from 532 companies
 
 ---
 
@@ -13,6 +13,7 @@
 | Company | Role | Location | Comp | Source | Posted |
 |---------|------|----------|------|--------|--------|
 | **Sigma Computing** | [Software Engineer - New Grad Program](https://job-boards.greenhouse.io/sigmacomputing/jobs/7630712003) | San Francisco, CA and New York City, NY | [$170k-200k](https://www.levels.fyi/companies/sigma-computing/salaries) | SpeedyApply | 0d |
+| **Tesla** | [Internship, Mobile Application Software Engineer, Energy Engineering (Summer 2026)](https://www.tesla.com/careers/search/job/262528) | Palo Alto, CA, US | [Levels.fyi](https://www.levels.fyi/companies/tesla/salaries) | Indeed | 0d |
 | **Pfizer** | [Associate - Commercial Analytics AI Solutions and Engineering Full Stack Engineer](https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/Costa-Rica---Escazu/Associate--Commercial-Analytics-AI-Solutions-and-Engineering-Full-Stack-Engineer_4951495) | CRI San Jose The Village |  | SpeedyApply | 0d |
 | **NVIDIA** | [ASIC Clocks Verification Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Clocks-Verification-Engineer---New-College-Grad-2026_JR2013336) | Santa Clara, CA, US | [$116k-218k](https://www.levels.fyi/companies/nvidia/salaries) | Indeed | 1d |
 | **Anduril** | [Senior Software Engineer - Warfighter Systems](https://boards.greenhouse.io/andurilindustries/jobs/5050193007) | Bellevue, WA | [$190k-215k](https://www.levels.fyi/companies/anduril-industries/salaries) | Simplify | 1d |
@@ -1283,7 +1284,8 @@
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
-| **Lensa** | [Entry Level Software Developer 2026: SVL](https://lensa.com/cgw/5aede0204a9b48ecab63da9df8a6ebeftjo1) | San Jose, CA |  | LinkedIn |  |
+| **Lensa** | [Software Engineer, New Grad (2026)](https://lensa.com/cgw/7c89ee5eb62647da837164ba739a7b99tjo1) | New York, NY |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/f9f01df5ba03431cba8906b8de9f9250tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1418,7 +1420,7 @@
 | **Super Micro Computer Spain, S.L.** | [Generative AI Software Engineer Co-Op](https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/&urlHash=ZnGi) | San Jose, CA |  | LinkedIn |  |
 | **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/51d9341689a0439baed8d0bd554823a4tjo1) | San Francisco, CA |  | LinkedIn |  |
-| **Lensa** | [Software Engineer, New Grad (2026)](https://lensa.com/cgw/7c89ee5eb62647da837164ba739a7b99tjo1) | New York, NY |  | LinkedIn |  |
+| **Lensa** | [Entry Level Software Developer 2026: SVL](https://lensa.com/cgw/5aede0204a9b48ecab63da9df8a6ebeftjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://lensa.com/cgw/80c522bff8a147e0ba3e40e7370d2f5atjo1) | San Jose, CA |  | LinkedIn |  |
 
 ---

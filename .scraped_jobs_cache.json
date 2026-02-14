@@ -1937,11 +1937,11 @@
       "experience_level": null
     },
     "https://www.moveworks.com/us/en/company/careers/position": {
-      "id": "linkedin_li-4365192039",
+      "id": "linkedin_li-4365172862",
       "title": "Software Engineer, Agentic AI Systems",
       "company": "Moveworks",
       "company_slug": "moveworks",
-      "location": "Mountain View, CA",
+      "location": "San Francisco, CA",
       "url": "https://www.moveworks.com/us/en/company/careers/position",
       "source": "linkedin",
       "date_posted": "2026-01-21",
@@ -5615,7 +5615,39 @@
       "remote": false,
       "description": "**Description**\n**CITY OF MORGAN HILL**\n**JUNIOR ENGINEER**\n $8,873 \\- $11,324 Monthly\n   \n\n  \n\n $106,476 \\- $135,888 Annually\n   \n\n  \n\n**ASSISTANT ENGINEER**\n $9,857 \\- $12,580 Monthly\n   \n\n  \n\n $118,284 \\- $150,960 Annually\n   \n\n  \n\n**ASSOCIATE ENGINEER**\n $11,451 \\- $14,614 Monthly\n   \n\n  \n\n $137,412 \\- $175,368 Annually\n   \n\n  \n\n**Choose Morgan Hill: The City of Morgan Hill is the best community for people to live, work, visit, and operate their businesses.**\n**The City of Morgan Hill is rec",
       "experience_level": null
+    },
+    "https://lensa.com/cgw/f9f01df5ba03431cba8906b8de9f9250tjo1": {
+      "id": "linkedin_li-4364532576",
+      "title": "Entry Level Software Engineer",
+      "company": "Lensa",
+      "company_slug": "lensa",
+      "location": "Greenlawn, NY",
+      "url": "https://lensa.com/cgw/f9f01df5ba03431cba8906b8de9f9250tjo1",
+      "source": "linkedin",
+      "date_posted": null,
+      "salary_min": null,
+      "salary_max": null,
+      "sponsorship": null,
+      "remote": true,
+      "description": "Lensa is a career site that helps job seekers find great jobs in the US. We are not a staffing firm or agency. Lensa does not hire directly for these jobs, but promotes jobs on LinkedIn on behalf of its direct clients, recruitment ad agencies, and marketing partners. Lensa partners with DirectEmployers to promote this job for BAE Systems USA. Clicking \"Apply Now\" or \"Read more\" on Lensa redirects you to the job board/employer site. Any information collected there is subject to their terms and pr",
+      "experience_level": null
+    },
+    "https://www.tesla.com/careers/search/job/262528": {
+      "id": "indeed_in-db6c24445705b48c",
+      "title": "Internship, Mobile Application Software Engineer, Energy Engineering (Summer 2026)",
+      "company": "Tesla",
+      "company_slug": "tesla",
+      "location": "Palo Alto, CA, US",
+      "url": "https://www.tesla.com/careers/search/job/262528",
+      "source": "indeed",
+      "date_posted": "2026-02-14",
+      "salary_min": 20,
+      "salary_max": 50,
+      "sponsorship": null,
+      "remote": false,
+      "description": "**What to Expect**\nConsider before submitting an application:\n\n\nThis position is expected to start May 2026 and continue through summer term (ending approximately August 2026 or later, if available). We ask for a minimum of 12 weeks, full\\-time (40 hours/week) and on\\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\\-time posit",
+      "experience_level": null
     }
   },
-  "updated": "2026-02-14T04:11:09.940375"
+  "updated": "2026-02-14T05:44:03.528459"
 }
