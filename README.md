@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-14 11:22
+**Last updated:** 2026-02-14 12:45
 
-**Total:** 1412 jobs from 531 companies
+**Total:** 1414 jobs from 533 companies
 
 ---
 
@@ -46,8 +46,8 @@
 | **GE Vernova** | [Software Engineering Specialist](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue-WA-US/Software-Engineering-Specialist_R5032549) | Bellevue, WA |  | Simplify | 1d |
 | **Breeze** | [Software Engineer - New Grad - AI Native](https://job-boards.greenhouse.io/breezecash/jobs/5116784008) | New York City |  | SpeedyApply | 1d |
 | **Rain Bird** | [Engineering Technician - Part-time - May-Aug 2026 - Firmware](https://jobs-rainbird.icims.com/jobs/5421/engineering-technician-%28part-time%29-%28may-aug-2026%29%2c-firmware/job) | San Diego |  | SpeedyApply | 1d |
-| **City of Morgan Hill** | [Junior / Assistant / Associate Engineer](https://www.governmentjobs.com/jobs/5225859/junior-assistant-associate-engineer/apply&urlHash=WBHi) | Morgan Hill, CA |  | LinkedIn | 1d |
 | **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn | 1d |
+| **City of Morgan Hill** | [Junior / Assistant / Associate Engineer](https://www.governmentjobs.com/jobs/5225859/junior-assistant-associate-engineer/apply&urlHash=WBHi) | Morgan Hill, CA |  | LinkedIn | 1d |
 | **Airtable** | [Software Engineer, New Grad (2026)](https://grnh.se/7pt3sv7q2us) | San Francisco, CA, New York, NY | [$221k-245k](https://www.levels.fyi/companies/airtable/salaries) | Simplify | 2d |
 | **NVIDIA** | [High-Performance LLM Training Engineer – New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2026_JR2013288) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2d |
 | **NVIDIA** | [Research Scientist - Security and Privacy](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Research-Scientist--Security-and-Privacy---PhD-New-College-Grad-2026_JR2008481-1) | Westford, MA, Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2d |
@@ -1284,8 +1284,12 @@
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
+| **Lyte** | [Testing and Automation Software Engineer](https://ats.rippling.com/lyte/jobs/319dea17-20ed-421d-992e-673c7215c241) | Sunnyvale, CA | [$69.0k-82.0k](https://www.levels.fyi/companies/lyte/salaries) | LinkedIn |  |
+| **Lensa** | [Software Engineer, New Grad (2026)](https://lensa.com/cgw/7c89ee5eb62647da837164ba739a7b99tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/a82f420d0c6a4b8c8036d2e9108b651btjo1) | New York, NY |  | LinkedIn |  |
-| **Lensa** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://lensa.com/cgw/80c522bff8a147e0ba3e40e7370d2f5atjo1) | San Jose, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/98b82984d77d454799d958cd3efcfadatjo1) | San Francisco, CA |  | LinkedIn |  |
+| **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn |  |
+| **Jobs via Dice** | [Intern - Software Engineer (Master's) EG](https://click.appcast.io/t/Oax2wjyJSC8LFZUc_kR6_ZHjybFMB_l5-oR592h9NWo=&urlHash=OwJx) | California, United States |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1419,11 +1423,9 @@
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/9a9b3ed79a4e48d2950df1e00c63d014tjo1) | New York, NY |  | LinkedIn |  |
 | **Super Micro Computer Spain, S.L.** | [Generative AI Software Engineer Co-Op](https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/&urlHash=ZnGi) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/51d9341689a0439baed8d0bd554823a4tjo1) | San Francisco, CA |  | LinkedIn |  |
-| **Lensa** | [Software Engineer, New Grad (2026)](https://lensa.com/cgw/7c89ee5eb62647da837164ba739a7b99tjo1) | New York, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer 2026: SVL](https://lensa.com/cgw/5aede0204a9b48ecab63da9df8a6ebeftjo1) | San Jose, CA |  | LinkedIn |  |
+| **Lensa** | [NetApp Emerging Talent - Entry Level Software Engineer (Systems)](https://lensa.com/cgw/80c522bff8a147e0ba3e40e7370d2f5atjo1) | San Jose, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/f9f01df5ba03431cba8906b8de9f9250tjo1) | Greenlawn, NY |  | LinkedIn |  |
-| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/98b82984d77d454799d958cd3efcfadatjo1) | San Francisco, CA |  | LinkedIn |  |
-| **Jobs via Dice** | [Intern - Software Engineer (Master's) EG](https://click.appcast.io/t/Oax2wjyJSC8LFZUc_kR6_ZHjybFMB_l5-oR592h9NWo=&urlHash=OwJx) | California, United States |  | LinkedIn |  |
 
 ---
 
