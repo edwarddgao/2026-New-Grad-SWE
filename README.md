@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-15 22:23
+**Last updated:** 2026-02-15 23:26
 
 **Total:** 1420 jobs from 534 companies
 
@@ -17,7 +17,7 @@
 | **Uhaul** | [Hitch Professional](https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Truro-Nova-Scotia/Hitch-Professional_R237882) | New Glasgow, NS, Canada |  | Simplify | 0d |
 | **GigaML** | [Software Engineer I / II - New York](https://jobs.ashbyhq.com/gigaml/e37bdddd-2647-403e-850c-9cfe7684069c) | New York |  | SpeedyApply | 0d |
 | **TicketManager** | [Associate Software Engineer](http://ticketmanager.applytojob.com/apply/8Ayn9EHq17/Associate-Software-Engineer) | Calabasas, CA, United States |  | SpeedyApply | 0d |
-| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | California, United States | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 1d |
+| **NVIDIA** | [Software Engineer, CAD Automation - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\u002d\u002dCAD-Automation\u002d\u002d-New-College-Grad-2025_JR2005867) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | LinkedIn | 1d |
 | **Meta** | [Finance Associate - Server and Cloud](https://www.metacareers.com/jobs/1687756215530017) | Menlo Park, CA | [$186k-186k](https://www.levels.fyi/companies/meta/salaries) | SpeedyApply | 1d |
 | **Lyte** | [Testing and Automation Software Engineer](https://ats.rippling.com/lyte/jobs/319dea17-20ed-421d-992e-673c7215c241) | Sunnyvale, CA | [$69.0k-82.0k](https://www.levels.fyi/companies/lyte/salaries) | LinkedIn | 1d |
 | **Fowler College of Business at San Diego State University** | [Software Developer I (OnBase Developer)](https://careers.sdsu.edu/en-us/job/555005/software-developer-i-onbase-developer&urlHash=Mmq4) | San Diego, CA |  | LinkedIn | 1d |
@@ -26,8 +26,8 @@
 | **Astranis Space Technologies** | [Flight Software Associate - Spring 2026](https://job-boards.greenhouse.io/astranis/jobs/4619291006) | San Francisco |  | SpeedyApply | 1d |
 | **Badger Meter** | [Software Engineer I](https://badgermeter.wd5.myworkdayjobs.com/en-US/US_CareerSite/job/Los-Gatos-CA/Software-Engineer-I_4234) | Los Gatos, CA |  | SpeedyApply | 1d |
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/4b668d39-b4d4-4b83-ad8b-3e4fca9a2958) | Palo Alto, California |  | SpeedyApply | 1d |
-| **Jobs via Dice** | [Intern - Software Engineer (Master's) EG](https://click.appcast.io/t/Oax2wjyJSC8LFZUc_kR6_ZHjybFMB_l5-oR592h9NWo=&urlHash=OwJx) | California, United States |  | LinkedIn | 1d |
 | **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn | 1d |
+| **Jobs via Dice** | [Intern - Software Engineer (Master's) EG](https://click.appcast.io/t/Oax2wjyJSC8LFZUc_kR6_ZHjybFMB_l5-oR592h9NWo=&urlHash=OwJx) | California, United States |  | LinkedIn | 1d |
 | **NVIDIA** | [ASIC Clocks Verification Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Clocks-Verification-Engineer---New-College-Grad-2026_JR2013336) | Santa Clara, CA, US | [$116k-218k](https://www.levels.fyi/companies/nvidia/salaries) | Indeed | 2d |
 | **Anduril** | [Senior Software Engineer - Warfighter Systems](https://boards.greenhouse.io/andurilindustries/jobs/5050193007) | Bellevue, WA | [$190k-215k](https://www.levels.fyi/companies/anduril-industries/salaries) | Simplify | 2d |
 | **NVIDIA** | [ASIC Clocks Verification Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Clocks-Verification-Engineer---New-College-Grad-2026_JR2013336) | Santa Clara, CA, Canada | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2d |
@@ -59,8 +59,8 @@
 | **Argo Group** | [Product Management Analyst 1](https://brookfield.wd5.myworkdayjobs.com/bpandc/job/US-MO---Springfield/Product-Management-Analyst-I_R2048421) | Albany, NY, Chicago, IL, Springfield, MO |  | Simplify | 2d |
 | **GE Vernova** | [Software Engineering Specialist](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue-WA-US/Software-Engineering-Specialist_R5032549) | Bellevue, WA |  | Simplify | 2d |
 | **Pfizer** | [Associate - Commercial Analytics AI Solutions and Engineering Full Stack Engineer](https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/Costa-Rica---Escazu/Associate--Commercial-Analytics-AI-Solutions-and-Engineering-Full-Stack-Engineer_4951495) | CRI San Jose The Village |  | SpeedyApply | 2d |
-| **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn | 2d |
 | **City of Morgan Hill** | [Junior / Assistant / Associate Engineer](https://www.governmentjobs.com/jobs/5225859/junior-assistant-associate-engineer/apply&urlHash=WBHi) | Morgan Hill, CA |  | LinkedIn | 2d |
+| **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn | 2d |
 | **Airtable** | [Software Engineer, New Grad (2026)](https://grnh.se/7pt3sv7q2us) | San Francisco, CA, New York, NY | [$221k-245k](https://www.levels.fyi/companies/airtable/salaries) | Simplify | 3d |
 | **NVIDIA** | [High-Performance LLM Training Engineer – New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2026_JR2013288) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 3d |
 | **NVIDIA** | [Research Scientist - Security and Privacy](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Research-Scientist--Security-and-Privacy---PhD-New-College-Grad-2026_JR2008481-1) | Westford, MA, Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 3d |
