@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-15 14:27
+**Last updated:** 2026-02-15 15:25
 
-**Total:** 1418 jobs from 533 companies
+**Total:** 1420 jobs from 534 companies
 
 ---
 
@@ -12,6 +12,8 @@
 
 | Company | Role | Location | Comp | Source | Posted |
 |---------|------|----------|------|--------|--------|
+| **Altice USA** | [Product Analyst 1](https://www.optimumcareers.com/job/Bethpage-Product-Analyst-I-NY-11714/1363541800/?ats=successfactors) | Plainview, NY |  | Simplify | 0d |
+| **Giga AI** | [Software Engineer 1 / 2 - New York](https://jobs.ashbyhq.com/gigaml/e37bdddd-2647-403e-850c-9cfe7684069c/application) | NYC |  | Simplify | 0d |
 | **GigaML** | [Software Engineer I / II - New York](https://jobs.ashbyhq.com/gigaml/e37bdddd-2647-403e-850c-9cfe7684069c) | New York |  | SpeedyApply | 0d |
 | **TicketManager** | [Associate Software Engineer](http://ticketmanager.applytojob.com/apply/8Ayn9EHq17/Associate-Software-Engineer) | Calabasas, CA, United States |  | SpeedyApply | 0d |
 | **Meta** | [Finance Associate - Server and Cloud](https://www.metacareers.com/jobs/1687756215530017) | Menlo Park, CA | [$186k-186k](https://www.levels.fyi/companies/meta/salaries) | SpeedyApply | 1d |
@@ -1287,6 +1289,7 @@
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **Fowler College of Business at San Diego State University** | [Software Developer I (OnBase Developer)](https://careers.sdsu.edu/en-us/job/555005/software-developer-i-onbase-developer&urlHash=Mmq4) | San Diego, CA |  | LinkedIn |  |
+| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/5ed4b5327707452c9f3b10fa864619ddtjo1) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1429,7 +1432,6 @@
 | **Jobs via Dice** | [Intern - Software Engineer (Bachelors) EG](https://click.appcast.io/t/BDrFcWwN9oGNcuEO0go1ygjVbE6h2QU_wnHBfpo8mwI=&urlHash=2qCO) | California, United States |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/7f64ef634f164cffa2169914b35bedf8tjo1) | New York, NY |  | LinkedIn |  |
 | **Jobs via Dice** | [Intern - Software Engineer](https://click.appcast.io/t/qDnBMyYRwA2gyBIhJuhnAL8DQTdmHgvID523MpDUmCI=&urlHash=ZLM6) | California, United States |  | LinkedIn |  |
-| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/5ed4b5327707452c9f3b10fa864619ddtjo1) | San Francisco, CA |  | LinkedIn |  |
 
 ---
 
