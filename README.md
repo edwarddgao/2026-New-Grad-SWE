@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-15 21:24
+**Last updated:** 2026-02-15 22:23
 
-**Total:** 1419 jobs from 534 companies
+**Total:** 1420 jobs from 534 companies
 
 ---
 
@@ -94,6 +94,7 @@
 | **Goldman Sachs** | [Global Banking & Markets - Public - New York Analyst CVA Trading](https://higher.gs.com/roles/162111) | NYC | [$99k-120k](https://www.levels.fyi/companies/goldman-sachs/salaries) | Simplify | 4d |
 | **Goldman Sachs** | [Engineering - Multiple Teams](https://higher.gs.com/roles/161887) | Seattle, WA | [$99k-120k](https://www.levels.fyi/companies/goldman-sachs/salaries) | Simplify | 4d |
 | **General Dynamics Information Technology** | [Engineering Technician 1](https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-WA-Seattle/Engineering-Technician-I_RQ214785) | Seattle, WA | [$84k-96k](https://www.levels.fyi/companies/general-dynamics-mission-systems/salaries) | Simplify | 4d |
+| **Leidos** | [Research Data Analyst](https://leidos.wd5.myworkdayjobs.com/External/job/San-Diego-CA/Research-Data-Analyst_R-00175836) | San Diego, CA | [$73k-87k](https://www.levels.fyi/companies/leidos/salaries) | Simplify | 4d |
 | **CEB MetaSystems Inc.** | [New Graduate Engineer – Entry-Level](http://www.indeed.com/job/new-graduate-engineer-entry-level-af03b6f7b1eb9808) | Goleta, CA, US | $75k-85k | Indeed | 4d |
 | **TD Bank** | [Product Owner 1](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mississauga-Ontario/Product-Owner-I_R_1472347) | Mississauga, ON, Canada, London, ON, ... | [$46.0k-58.0k](https://www.levels.fyi/companies/td-bank/salaries) | Simplify | 4d |
 | **Saviynt** | [Associate Engineer – New College Graduate - Software Engineering](https://jobs.lever.co/saviynt/84a1db6f-6b4c-4915-a5f6-2759ee1b933e/apply) | Milpitas, CA |  | Simplify | 4d |
@@ -1288,7 +1289,6 @@
 | **NetApp** | [Software Engineer](https://careers.netapp.com/job/-/-/27600/85437700272) | San Jose, CA | [$112k-146.0k](https://www.levels.fyi/companies/netapp/salaries) | LinkedIn |  |
 | **Red Cat Holdings** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/DF82F4FEC533913CE59D380DC7829351/jobs/291716&urlHash=YHND) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
-| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/5ed4b5327707452c9f3b10fa864619ddtjo1) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1431,6 +1431,7 @@
 | **Jobs via Dice** | [Intern - Software Engineer (Bachelors) EG](https://click.appcast.io/t/BDrFcWwN9oGNcuEO0go1ygjVbE6h2QU_wnHBfpo8mwI=&urlHash=2qCO) | California, United States |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/7f64ef634f164cffa2169914b35bedf8tjo1) | New York, NY |  | LinkedIn |  |
 | **Jobs via Dice** | [Intern - Software Engineer](https://click.appcast.io/t/qDnBMyYRwA2gyBIhJuhnAL8DQTdmHgvID523MpDUmCI=&urlHash=ZLM6) | California, United States |  | LinkedIn |  |
+| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/5ed4b5327707452c9f3b10fa864619ddtjo1) | San Francisco, CA |  | LinkedIn |  |
 
 ---
 
