@@ -5640,7 +5640,7 @@
       "location": "",
       "url": "https://csucareers.calstate.edu/en-us/job/555005/software-developer-i-onbase-developer&urlHash=iHNo",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-14",
       "salary_min": 5787,
       "salary_max": 8430,
       "sponsorship": null,
@@ -5649,11 +5649,11 @@
       "experience_level": null
     },
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dCAD-Automation\\u002d\\u002d-New-College-Grad-2025_JR2005867": {
-      "id": "linkedin_li-4343477296",
+      "id": "linkedin_li-4343357760",
       "title": "Software Engineer, CAD Automation - New College Grad 2026",
       "company": "NVIDIA",
       "company_slug": "nvidia",
-      "location": "Santa Clara, CA",
+      "location": "California, United States",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer\\u002d\\u002dCAD-Automation\\u002d\\u002d-New-College-Grad-2025_JR2005867",
       "source": "linkedin",
       "date_posted": "2026-02-14",
@@ -5704,7 +5704,7 @@
       "location": "San Diego, CA",
       "url": "https://careers.sdsu.edu/en-us/job/555005/software-developer-i-onbase-developer&urlHash=Mmq4",
       "source": "linkedin",
-      "date_posted": null,
+      "date_posted": "2026-02-14",
       "salary_min": 5787,
       "salary_max": 8430,
       "sponsorship": null,
@@ -5745,5 +5745,5 @@
       "experience_level": null
     }
   },
-  "updated": "2026-02-15T20:26:11.585556"
+  "updated": "2026-02-15T21:24:33.396714"
 }
