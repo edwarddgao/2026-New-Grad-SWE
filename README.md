@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-15 15:25
+**Last updated:** 2026-02-15 16:29
 
-**Total:** 1420 jobs from 534 companies
+**Total:** 1419 jobs from 534 companies
 
 ---
 
@@ -23,8 +23,8 @@
 | **Astranis Space Technologies** | [Flight Software Associate - Spring 2026](https://job-boards.greenhouse.io/astranis/jobs/4619291006) | San Francisco |  | SpeedyApply | 1d |
 | **Badger Meter** | [Software Engineer I](https://badgermeter.wd5.myworkdayjobs.com/en-US/US_CareerSite/job/Los-Gatos-CA/Software-Engineer-I_4234) | Los Gatos, CA |  | SpeedyApply | 1d |
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/4b668d39-b4d4-4b83-ad8b-3e4fca9a2958) | Palo Alto, California |  | SpeedyApply | 1d |
-| **Jobs via Dice** | [Intern - Software Engineer (Master's) EG](https://click.appcast.io/t/Oax2wjyJSC8LFZUc_kR6_ZHjybFMB_l5-oR592h9NWo=&urlHash=OwJx) | California, United States |  | LinkedIn | 1d |
 | **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn | 1d |
+| **Jobs via Dice** | [Intern - Software Engineer (Master's) EG](https://click.appcast.io/t/Oax2wjyJSC8LFZUc_kR6_ZHjybFMB_l5-oR592h9NWo=&urlHash=OwJx) | California, United States |  | LinkedIn | 1d |
 | **NVIDIA** | [ASIC Clocks Verification Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Clocks-Verification-Engineer---New-College-Grad-2026_JR2013336) | Santa Clara, CA, US | [$116k-218k](https://www.levels.fyi/companies/nvidia/salaries) | Indeed | 2d |
 | **Anduril** | [Senior Software Engineer - Warfighter Systems](https://boards.greenhouse.io/andurilindustries/jobs/5050193007) | Bellevue, WA | [$190k-215k](https://www.levels.fyi/companies/anduril-industries/salaries) | Simplify | 2d |
 | **NVIDIA** | [ASIC Clocks Verification Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Clocks-Verification-Engineer---New-College-Grad-2026_JR2013336) | Santa Clara, CA, Canada | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2d |
@@ -80,7 +80,6 @@
 | **Uline** | [Product Management Analyst](https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Product-Management-Analyst_R261323-1) | Kenosha, WI, Waukegan, IL, Morton Gro... |  | Simplify | 3d |
 | **Manulife Financial** | [Associate Full-Stack Software Engineer](https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Waterloo-Ontario/Associate-Full-Stack-Software-Engineer_JR25110777-2) | Toronto, ON, Canada, Kitchener, ON, C... |  | Simplify | 3d |
 | **Gore Mutual Insurance** | [Associate Data Engineer MLOps](https://job-boards.greenhouse.io/goremutualinsurance/jobs/4650324006) | Toronto, ON, Canada, Cambridge, ON, C... |  | Simplify | 3d |
-| **Moog ** | [Associate Product Engineer](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Associate-Product-Engineer_R-26-16184) | Buffalo, NY |  | Simplify | 3d |
 | **Breeze** | [Software Engineer - New Grad - AI Native](https://job-boards.greenhouse.io/breezecash/jobs/5116784008) | New York City |  | SpeedyApply | 3d |
 | **Rain Bird** | [Engineering Technician - Part-time - May-Aug 2026 - Firmware](https://jobs-rainbird.icims.com/jobs/5421/engineering-technician-%28part-time%29-%28may-aug-2026%29%2c-firmware/job) | San Diego |  | SpeedyApply | 3d |
 | **Jobs via Dice** | [Software Engineer (Bachelor's New College Grad)](https://click.appcast.io/t/2fsCjHLLmSBwzqtYLfNhUnFM3PdIaeBjWR-cSEgBjsU=&urlHash=sHiw) | California, United States |  | LinkedIn | 3d |
