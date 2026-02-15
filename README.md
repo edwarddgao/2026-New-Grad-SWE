@@ -2,7 +2,7 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-15 05:56
+**Last updated:** 2026-02-15 06:52
 
 **Total:** 1416 jobs from 532 companies
 
@@ -1283,7 +1283,7 @@
 | **FlightWave Aerospace - A Red Cat Company** | [Associate Software Engineer](https://www.paycomonline.net/v4/ats/web.php/portal/06BF10486AA0D08DB9C0AAAC67132726/jobs/291716&urlHash=kovR) | Torrance, CA | $77k-144k | LinkedIn |  |
 | **Lyte** | [Testing and Automation Software Engineer](https://ats.rippling.com/lyte/jobs/319dea17-20ed-421d-992e-673c7215c241) | Sunnyvale, CA | [$69.0k-82.0k](https://www.levels.fyi/companies/lyte/salaries) | LinkedIn |  |
 | **Fowler College of Business at San Diego State University** | [Software Developer I (OnBase Developer)](https://careers.sdsu.edu/en-us/job/555005/software-developer-i-onbase-developer&urlHash=Mmq4) | San Diego, CA |  | LinkedIn |  |
-| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/5ed4b5327707452c9f3b10fa864619ddtjo1) | San Francisco, CA |  | LinkedIn |  |
+| **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/bb36da60e835462dbdbc7f00d2f19666tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/d5cf1fb863994cb4be73323d0245fcf2tjo1) | Greenlawn, NY |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Engineer](https://lensa.com/cgw/923d27334d1f4e748ef859cb6ac048d8tjo1) | Greenlawn, NY |  | LinkedIn |  |
@@ -1424,10 +1424,10 @@
 | **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/98b82984d77d454799d958cd3efcfadatjo1) | San Francisco, CA |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/a82f420d0c6a4b8c8036d2e9108b651btjo1) | New York, NY |  | LinkedIn |  |
 | **Jobs via Dice** | [Intern - Software Engineer (Master's) EG](https://click.appcast.io/t/Oax2wjyJSC8LFZUc_kR6_ZHjybFMB_l5-oR592h9NWo=&urlHash=OwJx) | California, United States |  | LinkedIn |  |
-| **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn |  |
 | **Jobs via Dice** | [Intern - Software Engineer (Bachelors) EG](https://click.appcast.io/t/BDrFcWwN9oGNcuEO0go1ygjVbE6h2QU_wnHBfpo8mwI=&urlHash=2qCO) | California, United States |  | LinkedIn |  |
 | **Lensa** | [Entry Level Software Developer](https://lensa.com/cgw/7f64ef634f164cffa2169914b35bedf8tjo1) | New York, NY |  | LinkedIn |  |
 | **Jobs via Dice** | [Intern - Software Engineer](https://click.appcast.io/t/qDnBMyYRwA2gyBIhJuhnAL8DQTdmHgvID523MpDUmCI=&urlHash=ZLM6) | California, United States |  | LinkedIn |  |
+| **Lensa** | [Entry Level Designer/Engineer in Training, Mechanical](https://lensa.com/cgw/5ed4b5327707452c9f3b10fa864619ddtjo1) | San Francisco, CA |  | LinkedIn |  |
 
 ---
 
