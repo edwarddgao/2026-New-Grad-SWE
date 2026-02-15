@@ -2,9 +2,9 @@
 
 > Aggregated from [SimplifyJobs](https://github.com/SimplifyJobs/New-Grad-Positions), [SpeedyApply](https://github.com/speedyapply/2026-SWE-College-Jobs), [Indeed](https://indeed.com), [LinkedIn](https://linkedin.com/jobs), [Glassdoor](https://glassdoor.com), [ZipRecruiter](https://ziprecruiter.com), and [HN Who's Hiring](https://news.ycombinator.com/item?id=42575537)
 
-**Last updated:** 2026-02-15 16:29
+**Last updated:** 2026-02-15 17:25
 
-**Total:** 1419 jobs from 534 companies
+**Total:** 1418 jobs from 533 companies
 
 ---
 
@@ -23,8 +23,8 @@
 | **Astranis Space Technologies** | [Flight Software Associate - Spring 2026](https://job-boards.greenhouse.io/astranis/jobs/4619291006) | San Francisco |  | SpeedyApply | 1d |
 | **Badger Meter** | [Software Engineer I](https://badgermeter.wd5.myworkdayjobs.com/en-US/US_CareerSite/job/Los-Gatos-CA/Software-Engineer-I_4234) | Los Gatos, CA |  | SpeedyApply | 1d |
 | **Jerry** | [Associate Software Engineer](https://jobs.ashbyhq.com/jerry.ai/4b668d39-b4d4-4b83-ad8b-3e4fca9a2958) | Palo Alto, California |  | SpeedyApply | 1d |
-| **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn | 1d |
 | **Jobs via Dice** | [Intern - Software Engineer (Master's) EG](https://click.appcast.io/t/Oax2wjyJSC8LFZUc_kR6_ZHjybFMB_l5-oR592h9NWo=&urlHash=OwJx) | California, United States |  | LinkedIn | 1d |
+| **RCT Systems** | [Low Band System Software - $50K](https://rctsystems.catsone.com/careers/9395-General/jobs/16737615-Low-Band-System-Software-dollar50K-%E2%80%93-dollar100K&urlHash=QlLe) | Beale Air Force Base, CA |  | LinkedIn | 1d |
 | **NVIDIA** | [ASIC Clocks Verification Engineer - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Clocks-Verification-Engineer---New-College-Grad-2026_JR2013336) | Santa Clara, CA, US | [$116k-218k](https://www.levels.fyi/companies/nvidia/salaries) | Indeed | 2d |
 | **Anduril** | [Senior Software Engineer - Warfighter Systems](https://boards.greenhouse.io/andurilindustries/jobs/5050193007) | Bellevue, WA | [$190k-215k](https://www.levels.fyi/companies/anduril-industries/salaries) | Simplify | 2d |
 | **NVIDIA** | [ASIC Clocks Verification Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Clocks-Verification-Engineer---New-College-Grad-2026_JR2013336) | Santa Clara, CA, Canada | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 2d |
@@ -56,8 +56,8 @@
 | **Argo Group** | [Product Management Analyst 1](https://brookfield.wd5.myworkdayjobs.com/bpandc/job/US-MO---Springfield/Product-Management-Analyst-I_R2048421) | Albany, NY, Chicago, IL, Springfield, MO |  | Simplify | 2d |
 | **GE Vernova** | [Software Engineering Specialist](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue-WA-US/Software-Engineering-Specialist_R5032549) | Bellevue, WA |  | Simplify | 2d |
 | **Pfizer** | [Associate - Commercial Analytics AI Solutions and Engineering Full Stack Engineer](https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/Costa-Rica---Escazu/Associate--Commercial-Analytics-AI-Solutions-and-Engineering-Full-Stack-Engineer_4951495) | CRI San Jose The Village |  | SpeedyApply | 2d |
-| **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn | 2d |
 | **City of Morgan Hill** | [Junior / Assistant / Associate Engineer](https://www.governmentjobs.com/jobs/5225859/junior-assistant-associate-engineer/apply&urlHash=WBHi) | Morgan Hill, CA |  | LinkedIn | 2d |
+| **WSP in the U.S.** | [Early Career Fire and Life Safety Engineer](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/fr-CA/job/80620/) | New York, NY |  | LinkedIn | 2d |
 | **Airtable** | [Software Engineer, New Grad (2026)](https://grnh.se/7pt3sv7q2us) | San Francisco, CA, New York, NY | [$221k-245k](https://www.levels.fyi/companies/airtable/salaries) | Simplify | 3d |
 | **NVIDIA** | [High-Performance LLM Training Engineer – New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2026_JR2013288) | Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 3d |
 | **NVIDIA** | [Research Scientist - Security and Privacy](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Research-Scientist--Security-and-Privacy---PhD-New-College-Grad-2026_JR2008481-1) | Westford, MA, Santa Clara, CA | [$171k-213k](https://www.levels.fyi/companies/nvidia/salaries) | Simplify | 3d |
@@ -512,7 +512,6 @@
 | **Uline** | [Associate Product Manager](https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Associate-Product-Manager_R260585-1) | Kenosha, WI, Waukegan, IL, Morton Gro... |  | Simplify | 1mo |
 | **Uline** | [Corporate Analyst Rotational Program](https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Corporate-Analyst-Rotational-Program_R260583-1) | Kenosha, WI, Waukegan, IL, Morton Gro... |  | Simplify | 1mo |
 | **UAP** | [Product Management Administration Technician](https://jobs.smartrecruiters.com/UAPInc/744000103750725) | Longueuil, QC, Canada |  | Simplify | 1mo |
-| **Curtiss-Wright Corporation** | [Electrical Assembly Technician](https://curtisswright.wd1.myworkdayjobs.com/cw_external_career_site/job/Canada-Stratford/Electrical-Assembly-Technician_JR10789) | Kitchener, ON, Canada |  | Simplify | 1mo |
 | **Royal Bank of Canada** | [Senior Full Stack Developer](https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/MISSISSAUGA-Ontario-Canada/Senior-Full-Stack-Developer_R-0000153915-1) | Mississauga, ON, Canada |  | Simplify | 1mo |
 | **FOX** | [Data Scientist](https://fox.wd1.myworkdayjobs.com/Domestic/job/CAN---ON---Yonge-St/Data-Scientist--Toronto-_R50031150) | Toronto, ON, Canada |  | Simplify | 1mo |
 | **Baselayer** | [Junior Backend Engineer](https://job-boards.greenhouse.io/baselayer/jobs/5070916008) | San Francisco, CA |  | SpeedyApply | 1mo |
